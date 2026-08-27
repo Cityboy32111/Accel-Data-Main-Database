@@ -1,0 +1,12 @@
+{
+  "method": "flock -x on run/tmp/lock_test.lock wrapping each append to run/tmp/lock_test.csv",
+  "writers": 2,
+  "appends_per_writer": 300,
+  "expected_total_lines": 600,
+  "actual_total_lines": 600,
+  "malformed_lines": 0,
+  "writer_a_lines": 300,
+  "writer_b_lines": 300,
+  "result": "PASS",
+  "notes": "No interleaved/truncated lines under concurrent flock-serialized writers. This same flock pattern will guard every append to run/hits.csv."
+}

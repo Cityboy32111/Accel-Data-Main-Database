@@ -1,0 +1,143 @@
+{
+  "note": "PROVISIONAL calibration on WebSearch-synthesized text, not raw fetched bytes. Not a substitute for spec section 3.4.",
+  "n_docs": 12,
+  "true_positives": 4,
+  "false_positives": 0,
+  "true_negatives": 6,
+  "false_negatives_acceptable": 2,
+  "false_positive_rate": "0/6",
+  "results": [
+    {
+      "id": "kidder_mathews_q2_2026",
+      "label": "credited",
+      "outcome": "FN (matcher missed it - acceptable, becomes Not Found)",
+      "verdict": {
+        "credited": false,
+        "matched_phrase": null,
+        "excerpt": null,
+        "reject_reason": "no_phrase_match"
+      }
+    },
+    {
+      "id": "crow_holdings_industrial",
+      "label": "credited",
+      "outcome": "TP",
+      "verdict": {
+        "credited": true,
+        "matched_phrase": "costar data",
+        "excerpt": "Crow Holdings uses CoStar data as a source for industrial market information, such as tracking tenant informat",
+        "reject_reason": null
+      }
+    },
+    {
+      "id": "hughes_marino_sf_office_q2_2026",
+      "label": "credited",
+      "outcome": "TP",
+      "verdict": {
+        "credited": true,
+        "matched_phrase": "provided by costar",
+        "excerpt": "ice Market Has Bottomed Out (February 2026): This report uses market statistics provided by CoStar Group and covers availability rates across major U.S. metro markets.",
+        "reject_reason": null
+      }
+    },
+    {
+      "id": "voit_market_reports",
+      "label": "credited",
+      "outcome": "TP",
+      "verdict": {
+        "credited": true,
+        "matched_phrase": "costar data",
+        "excerpt": "Voit Real Estate Services regularly incorporates CoStar data into their market reports. Office Market: CoStar is reporting that U.S. office",
+        "reject_reason": null
+      }
+    },
+    {
+      "id": "thalhimer_market_share",
+      "label": "credited",
+      "outcome": "FN (matcher missed it - acceptable, becomes Not Found)",
+      "verdict": {
+        "credited": false,
+        "matched_phrase": null,
+        "excerpt": null,
+        "reject_reason": "no_phrase_match"
+      }
+    },
+    {
+      "id": "bradford_allen_research",
+      "label": "credited",
+      "outcome": "TP",
+      "verdict": {
+        "credited": true,
+        "matched_phrase": "costar data",
+        "excerpt": "Bradford Allen's research team has analyzed recent CoStar data, and the company has released various office market reports, including Q2/25 Of",
+        "reject_reason": null
+      }
+    },
+    {
+      "id": "reonomy_costar_alternative",
+      "label": "not_credited",
+      "outcome": "TN",
+      "verdict": {
+        "credited": false,
+        "matched_phrase": null,
+        "excerpt": null,
+        "reject_reason": "no_phrase_match"
+      }
+    },
+    {
+      "id": "compstak_vs_costar",
+      "label": "not_credited",
+      "outcome": "TN",
+      "verdict": {
+        "credited": false,
+        "matched_phrase": null,
+        "excerpt": null,
+        "reject_reason": "no_phrase_match"
+      }
+    },
+    {
+      "id": "crexi_switched_from_costar",
+      "label": "not_credited",
+      "outcome": "TN",
+      "verdict": {
+        "credited": false,
+        "matched_phrase": null,
+        "excerpt": null,
+        "reject_reason": "no_phrase_match"
+      }
+    },
+    {
+      "id": "costar_technologies_video_surveillance",
+      "label": "not_credited",
+      "outcome": "TN",
+      "verdict": {
+        "credited": false,
+        "matched_phrase": null,
+        "excerpt": null,
+        "reject_reason": "wrong_vendor:costar technologies"
+      }
+    },
+    {
+      "id": "corning_costar_pipettes",
+      "label": "not_credited",
+      "outcome": "TN",
+      "verdict": {
+        "credited": false,
+        "matched_phrase": null,
+        "excerpt": null,
+        "reject_reason": "wrong_vendor:corning costar"
+      }
+    },
+    {
+      "id": "costar_group_csgp_earnings",
+      "label": "not_credited",
+      "outcome": "TN",
+      "verdict": {
+        "credited": false,
+        "matched_phrase": null,
+        "excerpt": null,
+        "reject_reason": "no_phrase_match"
+      }
+    }
+  ]
+}

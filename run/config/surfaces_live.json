@@ -1,0 +1,50 @@
+{
+  "note": "Reachability observed in THIS session. Two separate access paths exist with very different reach: (A) this session's own WebFetch/Bash tools, gated by a restrictive network egress policy; (B) the Site_Scraper (Ultimate Web Scraper) MCP tool, which fetches server-side from its own infrastructure and is not subject to (A). See surfaces_blocked.json for (A) failures.",
+  "live_via_site_scraper": [
+    {
+      "family": "company_newsroom_market_reports",
+      "probe_url": "https://www.matthews.com/insights/new-york-industrial-market-report-q2-2026",
+      "method": "mcp__Site_Scraper__analyze_website (free) + scrape_pages (confirm:true, 1 URL)",
+      "result": "reachable; analyze_website succeeded, scrape_pages returned JSON-LD + meta-tag fields",
+      "caveat": "scrape_pages returned only structured metadata (title, meta description, JSON-LD, breadcrumb) - it did NOT return the article's body paragraph text, so it could not confirm or quote a 'Source: CoStar' sentence in the body copy, and cost 51 credits for this single page (see calibration note on cost)."
+    },
+    {
+      "family": "network_member_directories",
+      "probe_url": "https://www.naiglobal.com/locations/",
+      "method": "mcp__Site_Scraper__analyze_website (free)",
+      "result": "reachable, sitemap found",
+      "caveat": "not yet fetched for content; reachability only"
+    },
+    {
+      "family": "ats_boards",
+      "probe_url": "https://boards.greenhouse.io/",
+      "method": "mcp__Site_Scraper__analyze_website (free)",
+      "result": "reachable, no sitemap at common locations",
+      "caveat": "reachability only; individual company boards (boards.greenhouse.io/<company>) not yet tested"
+    },
+    {
+      "family": "sec_edgar",
+      "probe_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany",
+      "method": "mcp__Site_Scraper__analyze_website (free)",
+      "result": "reachable, sitemap found",
+      "caveat": "EDGAR full-text search (efts.sec.gov JSON API) not separately tested; browse-edgar is an HTML UI, not the full-text search endpoint the spec's EDGAR lane actually needs"
+    }
+  ],
+  "live_via_websearch": [
+    {
+      "family": "primary_lane_phrase_discovery",
+      "probe_query": "\"Source: CoStar\" market report site:matthews.com",
+      "method": "WebSearch tool (session built-in)",
+      "result": "returned 9 real, plausible candidate URLs on the first query, consistent with the spec's phrase-first discovery design",
+      "caveat": "WebSearch returns an LLM-synthesized summary of results, not raw fetched bytes - usable for discovery/candidate-URL generation, NOT usable as a source of Evidence Excerpt quotations per the write gate's 'quotation from the fetched bytes' rule"
+    }
+  ],
+  "live_via_webfetch_or_bash": [
+    {
+      "family": "github (irrelevant to this project)",
+      "probe_url": "https://github.com",
+      "method": "WebFetch",
+      "result": "succeeded"
+    }
+  ]
+}

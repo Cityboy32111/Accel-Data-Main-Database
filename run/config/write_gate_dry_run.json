@@ -1,0 +1,61 @@
+{
+  "all_correct": true,
+  "cases": [
+    {
+      "case": "control_should_pass",
+      "expected_accept": true,
+      "actual_accept": true,
+      "actual_reasons": [],
+      "correct": true
+    },
+    {
+      "case": "placeholder_name",
+      "expected_accept": false,
+      "actual_accept": false,
+      "actual_reasons": [
+        "entity_name_placeholder"
+      ],
+      "correct": true
+    },
+    {
+      "case": "costar_owned_host",
+      "expected_accept": false,
+      "actual_accept": false,
+      "actual_reasons": [
+        "source_url_costar_owned_host"
+      ],
+      "correct": true
+    },
+    {
+      "case": "linkedin_source",
+      "expected_accept": false,
+      "actual_accept": false,
+      "actual_reasons": [
+        "source_url_linkedin"
+      ],
+      "correct": true
+    },
+    {
+      "case": "missing_evidence_date",
+      "expected_accept": false,
+      "actual_accept": false,
+      "actual_reasons": [
+        "evidence_date_missing",
+        "evidence_date_method_unapproved"
+      ],
+      "correct": true
+    },
+    {
+      "case": "callable_missing_trigger",
+      "expected_accept": false,
+      "actual_accept": false,
+      "actual_reasons": [
+        "trigger_event_missing",
+        "trigger_date_missing",
+        "trigger_date_method_unapproved",
+        "trigger_source_url_invalid"
+      ],
+      "correct": true
+    }
+  ]
+}

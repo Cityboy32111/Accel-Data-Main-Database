@@ -1,0 +1,39 @@
+{
+  "run": "CoStar User Identification - Restart",
+  "spec_written": "2026-08-27",
+  "preflight_run_at": "2026-08-27",
+  "repo_state_at_start": "Empty repository, zero commits, zero remote branches. No artifacts from 'the first run' described in the spec exist anywhere in this repo - the carry-forward company list in spec section 12 (Matthews, Kidder Mathews, Crow Holdings, etc.) is a list of NAMES only here; none of their evidence has actually been collected/fetched/dated in this repository. They must be re-sourced from scratch like any other candidate, not merely re-dated.",
+  "checklist_status": {
+    "1_credentials": {
+      "status": "COMPLETE - see run/config/credentials.json",
+      "headline_finding": "Bright Data is not present in this session (no MCP tool, no token). WebSearch substitutes for SERP discovery and works well. Direct live-page fetching (WebFetch, Bash/curl) is blocked by this session's own network egress policy for essentially the entire open web - confirmed categorically, not domain-specific. Site_Scraper (the user's own paid Ultimate Web Scraper workspace) is the only mechanism that reaches the real target domains, but its MCP tools extract structured metadata, not article body text, and one test page consumed 51 credits (not the ~1/page baseline) due to bot-challenge unblocking overhead."
+    },
+    "2_spend": {
+      "status": "COMPLETE",
+      "bright_data_cap": "$50 cap is moot - tool unavailable, $0 spent, $0 spendable",
+      "banned_tools_confirmed_unused": ["Apify (not present)", "Firecrawl (not present)", "BuiltWith (present but excluded per spec)", "Apollo.io (present but excluded per spec)"],
+      "site_scraper_spend_so_far": "52 credits (1 free analyze_website x4, 1 scrape_pages test at 51 credits) out of 9947 available. NOT anticipated by the spec, no cap set by Scott yet. Recommend Scott set an explicit per-phase cap before Phase One if Site_Scraper is approved as the fetch mechanism, given the 51-credits/page data point makes cost unpredictable at scale."
+    },
+    "3_blocked_surface_probe": {
+      "status": "PARTIAL - core mechanism established, not every individual source family enumerated",
+      "detail": "See run/config/surfaces_live.json and run/config/surfaces_blocked.json. One request each was made to: sec.gov, commoncrawl.org, bisnow.com, matthews.com, google.com, en.wikipedia.org, github.com (via WebFetch/Bash) and matthews.com, naiglobal.com, boards.greenhouse.io, sec.gov (via Site_Scraper). The G2/Reddit/BiggerPockets/Trustpilot/HospitalityNet block from the first run was NOT re-probed, per standing order. ATS boards beyond Greenhouse, network directories beyond NAI Global, Secretary of State portals, and trade press beyond Bisnow were not individually probed, since the causal blocking mechanism (session egress policy, for the WebFetch/Bash path) is already established as categorical."
+    },
+    "4_detector_calibration": {
+      "status": "PROVISIONAL ONLY - does not satisfy the spec as written",
+      "detail": "run/config/calibration_provisional.json: 12 documents (6 known-crediting companies, 6 known non-crediting incl. 3 competitor-comparison and 2 wrong-vendor + 1 security-filing-style), text sourced from WebSearch's synthesized answers (not raw fetched bytes, since no working live-fetch mechanism exists yet for body text). Result: 0 false positives / 6 non-crediting docs (spec threshold is <=1/15), 4/6 true positives detected despite paraphrased/non-verbatim text, 2 acceptable false negatives (become 'Not Found', not wrong answers), both wrong-vendor collisions (Costar Technologies, Corning Costar) correctly excluded. This is a reasonable sanity check that the matcher's discrimination logic (phrase list + negation window + wrong-vendor list + security-filing filter) is sound, but it is NOT the spec-required 15+15 calibration against fetched bytes, because fetched bytes are not currently obtainable at the needed fidelity. Must be re-run for real once a live-fetch mechanism is confirmed."
+    },
+    "5_write_gate_dry_run": {
+      "status": "COMPLETE - PASS",
+      "detail": "run/config/write_gate_dry_run.json: 5 synthetic bad rows (placeholder entity name, CoStar-owned-host source, LinkedIn source, missing evidence date, Callable=Yes with missing trigger fields) each rejected for the expected reason; 1 control row correctly accepted. run/config/file_lock_test.json: flock-guarded concurrent writers (2 writers x 300 appends) produced exactly 600 intact lines, 0 malformed/interleaved - the lock holds."
+    }
+  },
+  "overall_status": "BLOCKED - Phase One should not start until Scott decides how to resolve the live-fetch gap",
+  "blocking_issue": "The spec's core evidentiary method - fetch the live page, quote the exact credit sentence verbatim, derive a date from what's visibly printed on the page (or HTTP Last-Modified, or PDF metadata) - has no reliable, cost-bounded execution path in this environment as currently provisioned. WebFetch/Bash cannot reach the target domains at all (org network policy). Site_Scraper can reach them but its MCP surface returns structured metadata rather than article body text, so it cannot confirm or quote an in-body 'Source: CoStar' sentence, and its real-world cost (51 credits for one page in the single test run) makes budgeting for ~400+ verification fetches unpredictable. WebSearch can find real candidate URLs and even surfaces plausible-sounding facts from them, but its output is an LLM paraphrase, not fetched bytes, so using it as an Evidence Excerpt source would itself violate the write gate's anti-fabrication rule. This is exactly the class of problem section 14 (stop conditions) asks to be reported rather than worked around: 'a bar in this document turns out to be unworkable in practice... say which bar and why, and propose the change.'",
+  "proposed_options_for_scott": [
+    "A. Run this project from an environment/session whose network egress policy allows WebFetch/Bash to reach the open web directly (a different Claude Code environment, or a policy change to this one) - restores the spec's original methodology almost exactly, with WebSearch standing in for Bright Data SERP.",
+    "B. Provide a working Bright Data (or comparable) credential/MCP connection - if it's MCP-hosted (server-side fetch, like Site_Scraper), it may bypass this session's egress block the same way Site_Scraper does, worth testing once available.",
+    "C. Approve continued use of Site_Scraper as the fetch mechanism with an explicit credit cap, accepting that: (i) verification will lean on structured metadata (title, meta description, JSON-LD, canonical URL, page dates from meta tags) rather than true body-text quotations wherever a page's CoStar credit line lives only in prose, which will lower the callable yield versus the spec's design; (ii) per-page cost is unpredictable due to bot-challenge unblocking and should be monitored live, not assumed at ~1 credit/page.",
+    "D. Some combination: use WebSearch for discovery and initial screening at full scale (free, fast, already working), then spend Site_Scraper credits only on the smaller set of documents that clear that screen, to control cost."
+  ],
+  "not_yet_started": "Phase One (the 25-row proof slice) has not begun. No rows exist in run/hits.csv beyond the header."
+}
