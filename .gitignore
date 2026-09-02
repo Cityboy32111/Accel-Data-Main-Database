@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Local-only secrets - never commit real credentials
+run/config/credentials.local.json
+.env
