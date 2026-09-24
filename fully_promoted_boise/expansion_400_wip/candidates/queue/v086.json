@@ -1,0 +1,78 @@
+{
+ "batch_id": "v086",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Team Mazda",
+   "company_domain": "goteammazda.com",
+   "city": "Caldwell",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.goteammazda.com/careers/",
+   "lead_date": "",
+   "lead_note": "Mazda store at 6218 Cleveland Blvd, Caldwell (also runs Treasure Valley Trucks). Careers page loaded Sep 23, 2026 reads 'Team Mazda Is Now Hiring' (Caldwell and Kuna). A FB video says the team worked from trailers for 8 months while a brand new dealership was built; that date still needs checking.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Northwest Nazarene University",
+   "company_domain": "nnu.edu",
+   "city": "Nampa",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/dc628dad-def7-40c4-a8e8-46445f141a37/Northwest-Nazarene-University-Inc",
+   "lead_date": "2026-09-17",
+   "lead_note": "Paylocity snippet shows 7 openings, including Faculty for the Doctor of Psychology Program (Sep 17, 2026), Teaching and Learning Specialist and Chief Nurse Administrator. The NNU employment page (loaded) links to this board. Campus at 623 S University Blvd Nampa.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Green Lawn Care & Landscape Inc.",
+   "company_domain": "greenlawncareinc.com",
+   "city": "Boise",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.greenlawncareinc.com/careers",
+   "lead_date": "",
+   "lead_note": "The careers page is hiring experienced sprinkler techs and landscape leadmen and includes an application form. The address is 4580 Henry St, Boise, and the company offers commercial snow removal. Its footer links to A Cut Above Trees and other sites, which may mean a shared owner or just a shared web vendor; this should be checked.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "The Commons Climbing Gym",
+   "company_domain": "commonsclimbing.com",
+   "city": "Boise",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.commonsclimbing.com/",
+   "lead_date": "",
+   "lead_note": "Independent climbing and yoga gym at 4795 W Emerald St, Boise. Search results showed a Head Routesetter / Team Leader posting and a Setting Apprentice call, and the site shows new member only hours after Aug 16, 2026. Weak lead: postings are undated and need an official careers source.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Women's and Children's Alliance",
+   "company_domain": "wcaboise.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://wcaboise.org/about-us/careers/",
+   "lead_date": "2026-09-23",
+   "lead_note": "Careers page (loaded) lists six openings: Administrative Specialist, Chief Program Officer, Client Advocate Overnights, Client Advocate Lead, Community Engagement and Events Coordinator, Residential Services Manager; also promotes the 2026 Joyce Stein Memorial Celebration; office at 720 W Washington St, Boise",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Evergreen Courier LLC (evco)",
+   "company_domain": "evco.net",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.evco.net/boise",
+   "lead_date": "",
+   "lead_note": "Pacific Northwest courier, LTL and route service provider with a Boise branch (208 813 7688). A Facebook post advertises statewide Idaho medical courier openings. Confirm the Boise street address and 2 or more live local roles.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  }
+ ]
+}

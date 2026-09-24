@@ -1,0 +1,78 @@
+{
+ "batch_id": "v032",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Chatterbox Pediatric Therapy & Learning Academy (Boise Chatterbox)",
+   "company_domain": "boisechatterbox.com",
+   "city": "Boise",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.boisechatterbox.com/careers",
+   "lead_date": "2026-09-23",
+   "lead_note": "Careers page loaded Sep 23, 2026 shows Now Hiring for Occupational Therapists, Speech Therapists and a Physical Therapy Assistant. It has Boise and Nampa clinics (101 11th Ave S #155, Nampa). Individual job pages were not opened, so check the location of each role.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Truewood by Merrill, Boise",
+   "company_domain": "merrillgardens.com",
+   "city": "Boise",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.merrillgardens.com/amazing-careers",
+   "lead_date": "",
+   "lead_note": "Independent living, assisted living and memory care at 2600 N Milwaukee St, Boise, operated by Merrill Gardens (family company based outside Idaho). The Merrill careers listing shows Senior Living Sales Director and Sales Assistant for Boise (posted Sep 2026), and ZipRecruiter shows caregiver roles.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Star Oral Surgery, Implants & Wisdom Teeth",
+   "company_domain": "staroralsurgeon.com",
+   "city": "Star",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://tallo.com/talent/job/browse/healthcare/dental-assistant/id/meridian",
+   "lead_date": "2026-08-04",
+   "lead_note": "Oral surgery office at 8139 W Gallup St Ste 110, Star; Dental Assistant Oral Surgery posted Aug 4, 2026 and Oral Surgery Assistant Support Staff part time listing on Indeed",
+   "vertical": "healthcare",
+   "scope": "h_dental_canyon"
+  },
+  {
+   "company_name": "Comfort Keepers of Boise",
+   "company_domain": "comfortkeepers.com",
+   "city": "Meridian",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.comfortkeepers.com/offices/idaho/boise/work-for-comfort-keepers/",
+   "lead_date": "",
+   "lead_note": "Boise franchise office at 3023 Copper Point Dr Suite 207, Meridian; hiring process page invites caregiver applicants with paid training; Indeed and SimplyHired show Caregiver roles up to $19/hr in Boise.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "High Desert Heart & Vascular",
+   "company_domain": "highdesertheart.com",
+   "city": "Meridian",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.highdesertheart.com/careers",
+   "lead_date": "",
+   "lead_note": "Careers page says 'We're hiring!' and links to Indeed, where search results show about 4 Meridian roles (RN, Cardiac Device Coordinator, Patient Access Specialist, MA). Calls itself the only independent cardiology practice in the Treasure Valley.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Avery's House",
+   "company_domain": "averyshouse.com",
+   "city": "Boise",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://ats.rippling.com/averys-house/jobs",
+   "lead_date": "",
+   "lead_note": "Rippling ATS (loaded) lists 9 roles, with Boise tags on Clinical Assistant BHT, 2 PRN Clinical Assistant BHT roles and a Part Time Adolescent Therapist, plus OT and LPN roles. The teen residential home is at 10787 W Ustick Rd, Boise. The operator appears as BrentCare Behavioral Health on a LinkedIn post dated Sep 13 2026. The company is based in Arizona.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  }
+ ]
+}

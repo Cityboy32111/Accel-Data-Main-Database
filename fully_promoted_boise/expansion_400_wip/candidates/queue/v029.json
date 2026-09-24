@@ -1,0 +1,78 @@
+{
+ "batch_id": "v029",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Avista Senior Living",
+   "company_domain": "avistaseniorliving.com",
+   "city": "Garden City",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://avistaseniorliving.com/careers/",
+   "lead_date": "",
+   "lead_note": "Assisted living and memory care communities at 5815 Coffey St in Garden City, Spring Gardens at 1180 W Overland Rd in Meridian, and one in Nampa. The careers page links an internal job board. A LinkedIn post seeks 2 lead cooks at Spring Gardens Meridian, and Indeed lists cook and med tech roles in Meridian and Nampa. Avista won Idaho Press Best of Canyon County 2026.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Lone Peak Dental Group (Smiles 4 Kids Idaho)",
+   "company_domain": "lonepeakdentalgroup.com",
+   "city": "Boise",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://lonepeakdentalgroup.hrmdirect.com/employment/job-openings.php?search=true&",
+   "lead_date": "2026-09-23",
+   "lead_note": "Loaded the ClearCompany board: 2 Dental Assistant roles and a part time Hygienist in Boise, a part time Dental Assistant in Kuna, a part time Hygienist in Nampa and an Orthodontist in Meridian. The Smiles 4 Kids Meridian office is moving to Boise Tooth Town from Sep 1 2026. This is a national pediatric DSO, so buying may be central.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "ComForCare Home Care (Boise, ID)",
+   "company_domain": "comforcare.com",
+   "city": "Meridian",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.comforcare.com/idaho/boise/careers/",
+   "lead_date": "",
+   "lead_note": "Franchise office at 600 E Watertower St Suite G, Meridian; careers page says apply today to join our growing team with an embedded job board; Indeed shows Caregiver and Night Shift Caregiver roles in Meridian. Site posts dated Jul to Aug 2026.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Idaho Ear Clinic, PLLC",
+   "company_domain": "idahoear.com",
+   "city": "Meridian",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://hearcareers.audiology.org/jobs/22548365/4th-year-audiology-externship-2027-2028-at-idaho-ear-clinic-with-neurotology",
+   "lead_date": "2026-09-02",
+   "lead_note": "Otology/neurotology practice at 1209 N Summerbrook Ave, Meridian. Posted a 4th year audiology externship (2027 to 2028) on Sep 2, 2026. Weak: only one role seen.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Early Autism Services",
+   "company_domain": "earlyautismservices.com",
+   "city": "Meridian",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.jobtarget.com/jobs/jt-s05c1jl9gb/behavior-technician-meridian-idaho",
+   "lead_date": "2026-03-27",
+   "lead_note": "Behavior Technician in Meridian posted Mar 27 2026. ZipRecruiter shows 6 Meridian jobs, including a BCBA. The ABA site is at 2549 N Stokesberry Pl, Meridian. It is a national provider; its careers page loaded but lists no roles inline.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Sterling Urgent Care",
+   "company_domain": "sterlingurgentcare.com",
+   "city": "Boise",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.sterlingurgentcare.com/",
+   "lead_date": "",
+   "lead_note": "Idaho based membership urgent care chain (HQ Idaho Falls, about 21 sites) with Treasure Valley clinics at 10965 W Overland Rd Boise, 1610 Caldwell Blvd Nampa, plus Meridian and Garden City. Homepage says hiring Providers, Medical Assistants and Receptionists; aggregators show MA We Train on the Job at Boise Overland and a CMA in Nampa. Regional operator, not a franchise.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  }
+ ]
+}

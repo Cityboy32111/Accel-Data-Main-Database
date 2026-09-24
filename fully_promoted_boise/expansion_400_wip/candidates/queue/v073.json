@@ -1,0 +1,78 @@
+{
+ "batch_id": "v073",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Lippert Components, Inc. (Nampa Plant 084A)",
+   "company_domain": "lippert.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://corporate.lippert.com/about/locations/us/id/nampa/lippert-084a",
+   "lead_date": "",
+   "lead_note": "RV and trailer component plant in Nampa. Job boards show Nampa Laborer (CareerBuilder, about 20 days old), Assembly Laborer and Fork Lift Operator Evenings. Needs confirming on the Lippert careers ATS.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Dodd Roofing and Exteriors",
+   "company_domain": "doddroofs.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/company/doddexteriors",
+   "lead_date": "",
+   "lead_note": "HQ 1711 S Millennium Way Ste 120 Meridian; LinkedIn company page shows hiring Project Manager; operates in Idaho, Texas and North Dakota. Confirm Meridian roles.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Stack Construction, LLC",
+   "company_domain": "stackconstruction.com",
+   "city": "Meridian",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://middletonidahochamber.org/directory/stack-construction-llc/",
+   "lead_date": "",
+   "lead_note": "Meridian design build GC at 2110 W Everest Ln Ste 150. The Middleton Chamber listing mentions hiring a Meridian commercial construction specialist, and a 2026 Instagram post covers a new marketing agency engagement. Weak lead: dated evidence is needed",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Industrial Ventilation, Inc.",
+   "company_domain": "ivi-air.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://ivi-air.com/contact-us/jobs/",
+   "lead_date": "",
+   "lead_note": "Crop storage ventilation equipment maker headquartered at 723 E Karcher Rd, Nampa. Loaded the careers page: it lists Service Technician and Production Specialist (assembly and fabrication) and points to Indeed for live postings. Weaker lead; dated postings need confirming.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Spray 'n Coat, Inc.",
+   "company_domain": "sprayncoat.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.sprayncoat.com/careers",
+   "lead_date": "",
+   "lead_note": "Main office 1213 3rd Ave N Nampa (plus Meridian and Boise offices); careers page NOW HIRING entry level, mid level and lead painters with pay bands; Paylocity board lists Professional Painter.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Syblon Reid",
+   "company_domain": "srco.com",
+   "city": "Caldwell",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.ziprecruiter.com/c/syblon-reid/Job/Estimator/-in-Caldwell,ID?jid=96cc2785f5c10370",
+   "lead_date": "2026-09-02",
+   "lead_note": "Heavy civil ESOP contractor (HQ Folsom CA) with a Caldwell office at 107 S Kimball Ave Ste 275. Search shows an Estimator in Caldwell dated Sep 2, 2026, plus a Field Project Engineer PNW role based in Caldwell; the ZipRecruiter page did not render, so confirm on the official careers board",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  }
+ ]
+}

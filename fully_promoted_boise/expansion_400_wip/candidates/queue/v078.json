@@ -1,0 +1,78 @@
+{
+ "batch_id": "v078",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Idaho Central Credit Union (ICCU)",
+   "company_domain": "iccu.com",
+   "city": "Meridian",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.iccu.com/careers/",
+   "lead_date": "",
+   "lead_note": "Idaho based credit union (Chubbuck HQ) with dozens of Treasure Valley openings, including part time Member Service Specialist roles in Meridian and Boise. It has branches in Kuna, Star, Nampa and Caldwell, and the Star Chamber spotlighted it on Jun 8, 2026.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Lyle Pearson Auto Group",
+   "company_domain": "lylepearson.com",
+   "city": "Boise",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.lylepearson.com/careers/",
+   "lead_date": "",
+   "lead_note": "Boise dealer group (Mercedes Benz of Boise, Acura, Volvo and others on Gratz Dr). Careers page and third party listings show Lot Attendant and Car Sales Representative roles in Boise. Confirm live postings on the company's own page.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Cole Valley Christian Schools",
+   "company_domain": "colevalleychristian.org",
+   "city": "Meridian",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/63e75701-434a-45b1-a975-2dbf9d3fdf5b/Cole-Valley-Christian-Schools-Inc",
+   "lead_date": "2026-08-13",
+   "lead_note": "Paylocity snippet shows 5 openings: Extended Care Lead (Aug 13, 2026), Middle and High School Substitute (Jul 27, 2026) and an Early Childhood and Elementary Substitute. Indeed adds Advancement and Events Coordinator and bus driver. A new PK to 12 Meridian campus of about 260,000 sq ft is underway; the builder is ESI, which is excluded as a contractor only, not as an owner. The Paylocity page did not render in the scraper.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Sentry Management, Inc. (Boise office)",
+   "company_domain": "sentrymgt.com",
+   "city": "Boise",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/community-association-manager-portfolio-at-sentry-management-inc-4457621634",
+   "lead_date": "",
+   "lead_note": "LinkedIn shows a Community Association Manager (Portfolio) posting for the Boise, ID market, and the company has a Boise office page. Only 1 local role has been confirmed so far, so a second one is needed. It is a national HOA management firm with its HQ in Florida.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Hillcrest Country Club",
+   "company_domain": "hillcrest.cc",
+   "city": "Boise",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.hillcrest.cc/join-our-team",
+   "lead_date": "",
+   "lead_note": "Private golf and racquets club at 4610 Hillcrest Dr, Boise. The Join Our Team page, checked Sep 23, 2026, listed Server and Line Cook roles plus aquatics and turf crew applications.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "The Idaho Foodbank",
+   "company_domain": "idahofoodbank.org",
+   "city": "Meridian",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://idahofoodbank.org/employment-opportunities/",
+   "lead_date": "2026-09-23",
+   "lead_note": "Careers page (loaded Sep 23, 2026) lists Administrative Assistant, Agency Relations and Programs in Meridian; Meridian Driver II Class A CDL posting dated Jul 14, 2026 and a Community Coordinator Health and Nutrition role for Meridian posted Sep 17, 2026 also seen; statewide distribution runs from the Meridian warehouse",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v042",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "United Hauling",
+   "company_domain": "uhtrucks.com",
+   "city": "Caldwell",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.uhtrucks.com/careers",
+   "lead_date": "",
+   "lead_note": "Locally owned hauling company and diesel truck shop at 119 N 5th Ave and 502 E Chicago St, Caldwell. The careers page (loaded) takes Driver, Administrative and Maintenance applications, but no dated requisitions were seen.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Noble Mead",
+   "company_domain": "noblemead.com",
+   "city": "Garden City",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/eats-newsletter/boisedev-eats-3-19-2026-2/",
+   "lead_date": "2026-03-19",
+   "lead_note": "BoiseDev Eats (Mar 19, 2026): new medieval themed mead hall and brewery opening that month at 9165 W Chinden Blvd, Garden City (former Brown Beard taproom), with live music. Boise Brew Blog covered opening day.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "America First Credit Union",
+   "company_domain": "americafirst.com",
+   "city": "Boise",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "market_expansion_hiring",
+   "lead_url": "https://www.yelp.com/biz/america-first-credit-union-boise",
+   "lead_date": "",
+   "lead_note": "Utah credit union with a Boise branch at 11292 W Fairview Ave (Yelp listing updated Sep 2026). No 2026 signal found yet; low confidence.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Bish's RV, Inc.",
+   "company_domain": "bishs.com",
+   "city": "Meridian",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting2.ultipro.com/BIS1004BIRV/JobBoard/bb92f1a2-7d0a-4363-97d5-155dc4a2c071/",
+   "lead_date": "",
+   "lead_note": "Idaho family owned RV dealer group; Bish's RV of Meridian is at 1300 W Overland Rd. Careers site links to a UKG board sorted by posted date, but it has not been filtered for Meridian roles yet, so count the local postings.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Mettle Sports",
+   "company_domain": "mettlesportsnampa.com",
+   "city": "Nampa",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.breakthroughbasketball.com/camps/basketball-camp/nampa-id",
+   "lead_date": "",
+   "lead_note": "Nampa's first indoor facility dedicated to youth sports, at 3001 E Badger Dr. It runs a Jr. NBA youth summer league and hosted 2026 camps (Breakthrough Basketball Apr 11 to 12 and Jun 3 to 5, 2026, plus PGC camps). Club volleyball tryouts are also held there.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Sterling Landscape Company, LLC",
+   "company_domain": "sterlinglandscape.com",
+   "city": "Nampa",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/SterlingLandscape/",
+   "lead_date": "",
+   "lead_note": "The Facebook page snippet says they are looking for landscape gardeners, irrigation technicians and a pesticide applicator. It is undated and low confidence, so a current posting is needed. The office is at 4663 Ustick Rd, Nampa, and the company was founded in 1972.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  }
+ ]
+}

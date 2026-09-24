@@ -1,0 +1,78 @@
+{
+ "batch_id": "v015",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Stockyard Social LLC",
+   "company_domain": "stockyardsocial.com",
+   "city": "Garden City",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/09/01/theres-a-new-social-club-in-town-for-dogs-and-their-people/",
+   "lead_date": "2026-09-01",
+   "lead_note": "BoiseDev (Sep 2026): 2.5 acre dog social club campus at 415 Remington St, Garden City (former Clubhound) with beer bar, coffee bar, market, event space and sauna. Co-founder's LinkedIn indicates a Nov 15, 2026 opening.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "D.L. Evans Bank",
+   "company_domain": "dlevans.com",
+   "city": "Nampa",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.facebook.com/DLEvansBank/posts/we-are-wrapping-up-part-1-of-the-2026-employee-directed-donation-initiative-with/1667580338703130/",
+   "lead_date": "",
+   "lead_note": "Facebook post on its 2026 Employee Directed Donation initiative describes Treasure Valley employees packing food at the Idaho Food Bank. It also ran a 2026 Education Pays laptop program. Burley based bank with Nampa Karcher, Meridian and Boise branches.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Leisureland RV Center",
+   "company_domain": "leisurelandrvcenter.com",
+   "city": "Meridian",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.leisurelandrvcenter.com/employment",
+   "lead_date": "",
+   "lead_note": "Veteran owned RV dealer (sales at 2653 E Fairview Ave, service at 502 E Bower St, Meridian). Employment page loaded Sep 23, 2026 lists RV Technician openings with up to a $3,000 sign on bonus. Also took part in the RV Wars spring sales event, Apr 9 to 12, 2026.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Freedom Fitness",
+   "company_domain": "freedomfitnesscenter.com",
+   "city": "Kuna",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://business.kunachamber.org/chamber-events",
+   "lead_date": "2026-09-19",
+   "lead_note": "Kuna Chamber calendar (scraped) lists 'Freedom Fitness Expansion GRAND OPENING' in Sep 2026, and a search result gives the date as Sep 19, 2026. This is an independent Kuna gym at 757 E Stagecoach Way, founded 2011, and it also presents a Kuna 4K run. The domain comes from an Apollo match filtered to Kuna and needs checking.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  },
+  {
+   "company_name": "SparkZone Athletics",
+   "company_domain": "sparkzoneathletics.com",
+   "city": "Nampa",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://sparkzoneathletics.com/events-1/",
+   "lead_date": "",
+   "lead_note": "Events page (loaded) lists the Top Flight competitive gymnastics camp Jul 17 to 18, 2026, which comes with a 2026 Top Flight leotard, and a May 25, 2026 event. It also runs day camps, school day out camps and gymnastics at Caldwell Parks. 1218 and 1211 N Galleria Dr Nampa.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Pro Care Landscape Services",
+   "company_domain": "procareidaho.com",
+   "city": "Garden City",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://procareidaho.com/careers/",
+   "lead_date": "",
+   "lead_note": "The careers page lists Mow Team, Groundskeeping & Flower Team, Landscape Installation Team, Sprinkler Technician and Tree & Shrub Pruning roles, with 4x10 schedules. The address is 5121 W Chinden Blvd (83714, Garden City). Services include commercial and HOA maintenance and snow removal.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  }
+ ]
+}

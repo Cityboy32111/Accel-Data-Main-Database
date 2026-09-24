@@ -1,0 +1,78 @@
+{
+ "batch_id": "v014",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Grant Dental",
+   "company_domain": "scottwgrantdmd.com",
+   "city": "Meridian",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://scottwgrantdmd.com/about/job-openings/",
+   "lead_date": "",
+   "lead_note": "Loaded the careers page for the two office practice (Meridian, 2275 S Eagle Rd; Boise, 6500 Emerald St). It says scrubs and jackets are provided for clinical staff and describes team events and a Patient Appreciation Night with the Boise Hawks. Job boards show a full time Dental Assistant and a Front Office Treatment Coordinator in Meridian (about 8 days old).",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Numotion",
+   "company_domain": "numotion.com",
+   "city": "Meridian",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.silkroad.com/numotion/careers/jobs/15692",
+   "lead_date": "",
+   "lead_note": "Complex rehab mobility equipment provider at 1270 E Fairview Ave Ste 150, Meridian; ATS shows Production Technician at this address and job boards list Warehouse and Assembly Technician and Wheelchair Assembly Technician (Meridian, posted Aug 11, 2026). Field service and technician staff.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Idaho Hand Center",
+   "company_domain": "idahohandcenter.com",
+   "city": "Boise",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.assh.org/job/fellowship-trained-orthopedic-hand-surgeon/82123436/",
+   "lead_date": "",
+   "lead_note": "Idaho's largest independent hand and wrist orthopedic practice (901 N Curtis Rd Ste 304, Boise). Recruiting a fellowship-trained hand surgeon (ASSH) and a Certified Athletic Trainer ($24 to $26/hr on Indeed). Its own /careers page returned 404.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "RISE Services, Inc. (Idaho)",
+   "company_domain": "riseservicesincid.org",
+   "city": "Nampa",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.riseservicesinc.org/idaho-careers",
+   "lead_date": "",
+   "lead_note": "Idaho careers page (loaded) lists DSP Supported Living Nampa, Intervention Professional Nampa and Intervention Professional Boise, plus a Twin Falls role. This is a developmental disability and behavior intervention provider; its parent nonprofit is RISE Services Inc (AZ).",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Accel Therapies",
+   "company_domain": "acceltherapies.com",
+   "city": "Boise",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://acceltherapies.applytojob.com/apply",
+   "lead_date": "",
+   "lead_note": "ApplyToJob board (loaded) shows about 19 ABA postings, including Clinical Director BCBA, Clinical Supervisor BCBA, Center Behavior Therapist, Home Based Behavior Therapist and Market Operations Manager, several tagged Boise. The center is at 13960 W Wainwright Dr, Boise. The company operates in several states.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Idaho Concierge Medicine",
+   "company_domain": "icmboise.com",
+   "city": "Boise",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/medical-assistant-%E2%80%94-part-time-mobile-concierge-care-at-idaho-concierge-medicine-4469038563",
+   "lead_date": "",
+   "lead_note": "Boise concierge primary care practice; LinkedIn and Indeed show a Medical Assistant Part Time Mobile Concierge Care posting, and a separate Part Time Medical Assistant / IV Specialist posting ($20 to $26/hr) was seen on an aggregator. That may make two local roles.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  }
+ ]
+}

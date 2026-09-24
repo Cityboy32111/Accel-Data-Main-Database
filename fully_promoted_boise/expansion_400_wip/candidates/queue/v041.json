@@ -1,0 +1,78 @@
+{
+ "batch_id": "v041",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Eagle Dermatology, PLLC",
+   "company_domain": "eagledermatology.com",
+   "city": "Eagle",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/eaglederm/",
+   "lead_date": "",
+   "lead_note": "Independent dermatology practice at 74 N Fisher Park Way, Eagle. Facebook and Instagram posts welcome new staff (Sophie, Nicki) and a staff milestone. Weak: needs dated 2026 hiring posts or careers roles.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Ideal Option, PLLC",
+   "company_domain": "idealoption.com",
+   "city": "Caldwell",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/Details/4470787/Ideal-Option-PLLC/ARNP-or-PA-C---Addiction-Medicine-Provider",
+   "lead_date": "",
+   "lead_note": "Paylocity posting (snippet): ARNP or PA-C Addiction Medicine Provider, Caldwell, full time. The MAT clinic is at 3110 Cleveland Blvd Bldg A Ste A7, Caldwell. The chain is based in WA. A second local role is still needed for active_hiring.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Blair Family Health",
+   "company_domain": "blairfamilyhealth.com",
+   "city": "Nampa",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://members.nampa.com/directory/details/blair-family-health-llc-3786916",
+   "lead_date": "",
+   "lead_note": "Direct primary care clinic at 216 12th Ave Rd Nampa, listed in the Nampa Chamber directory. Membership events and open enrollment posts are on social media. No dated signal confirmed yet.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Idaho Chiropractic Group",
+   "company_domain": "idahochiropracticgroup.com",
+   "city": "Boise",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.idahochiropracticgroup.com/",
+   "lead_date": "",
+   "lead_note": "Multi site chiropractic group (Boise, Meridian, Eagle, Kuna, Star and Nampa, plus Idaho City). Indeed has a company careers profile. The site returned an empty scrape, so no hiring signal was seen yet.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Copper Springs Senior Living",
+   "company_domain": "frontiermgmt.com",
+   "city": "Meridian",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/copperspringsseniorliving/posts/-500-dollar-sign-on-bonuscopper-springs-is-now-hiring-med-techscaregivers-we-are/2957996581087843/",
+   "lead_date": "",
+   "lead_note": "95 unit assisted living, independent living and memory care community at 3570 E Amity Rd, Meridian, managed by Frontier Management. A Facebook post offers a 500 dollar sign on bonus for med techs and caregivers. The post is undated, so a dated post or ATS listing is needed.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Caldwell Immediate Care",
+   "company_domain": "cicimmediatecare.com",
+   "city": "Caldwell",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.cicimmediatecare.com/",
+   "lead_date": "",
+   "lead_note": "Independent urgent, emergent and primary care clinic at 2523 S 10th Ave Ste 103 Caldwell (alternate domain caldwellcic.com). No dated signal found yet.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  }
+ ]
+}

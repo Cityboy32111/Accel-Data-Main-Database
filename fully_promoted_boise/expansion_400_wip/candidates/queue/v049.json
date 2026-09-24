@@ -1,0 +1,78 @@
+{
+ "batch_id": "v049",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Schweitzer Engineering Laboratories, Inc.",
+   "company_domain": "selinc.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://selinc.com/company/news/sel-expands-manufacturing-operations-with-new-facility-in-nampa-idaho/",
+   "lead_date": "2026-09-15",
+   "lead_note": "SEL bought a 103,000 sq ft manufacturing facility in Nampa, a $150M+ investment expected to open in 2027 with about 250 jobs. BoiseDev, KTVB and the Idaho Statesman covered it Sep 15 to 16, 2026. An SEL Workday posting (Engineering Manager I) also references launching the Nampa operation.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "SWCA Environmental Consultants",
+   "company_domain": "swca.com",
+   "city": "Meridian",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.swca.com/offices/boise-id/",
+   "lead_date": "2026-09-01",
+   "lead_note": "Environmental consulting office at 1120 S Rackham Way, Meridian; the office page lists open positions tied to it. Job boards show a Senior Water Resources Engineer (Boise, Sep 1 2026) and a Client Services Lead for Idaho/Boise.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Guho Corp",
+   "company_domain": "guhocorp.com",
+   "city": "Eagle",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.facebook.com/guhocorp/posts/the-big-dig-construction-vs-childhood-cancer-2026-was-a-huge-success-and-so-much/1760761891845105/",
+   "lead_date": "2026-08-29",
+   "lead_note": "Eagle GC posted a recap of The Big Dig Construction vs Childhood Cancer 2026, the 3rd annual Treasure Valley event held Aug 29, 2026. ZipRecruiter also shows Sep 2026 field openings in Eagle",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "J-U-B ENGINEERS, Inc.",
+   "company_domain": "jub.com",
+   "city": "Meridian",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/5d92621d-0bfc-4f8b-a54f-c86e3804c49e/JUB-Engineers-Inc",
+   "lead_date": "2026-09-16",
+   "lead_note": "Paylocity board snippet shows 34 openings, including Proposal Coordinator (Twin Falls or Meridian, dated Sep 16 2026), Senior Payroll Administrator (Meridian, Sep 1 2026) and a Survey Technician req for the Meridian office. HQ is at 2760 W Excursion Ln, Meridian. The page did not render in the scraper, so a later stage has to load it.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Atlas Technical Consultants",
+   "company_domain": "oneatlas.com",
+   "city": "Boise",
+   "subsegment": "construction_materials_testing_geotechnical",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://oneatlas.hrmdirect.com/employment/job-openings.php?search=true&",
+   "lead_date": "",
+   "lead_note": "ClearCompany/HRMDirect board lists a CWI UT Special Inspector in Boise. Glassdoor shows a Special Inspector in Boise, and Indeed shows IT Helpdesk at Atlas Boise 83709. Count and dates of local postings still need confirming.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "EGT Solar",
+   "company_domain": "egtsolar.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.instagram.com/p/DaDsb4hJ9Bu/",
+   "lead_date": "",
+   "lead_note": "Instagram team spotlight series (installer and electrical apprentice profiles) shows a uniformed install crew; showroom 401 N Main St Meridian, locally owned since 2009, 5,000+ installs. Careers URL 404; date of posts to confirm.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  }
+ ]
+}

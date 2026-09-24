@@ -1,0 +1,584 @@
+company,city,vertical,reason
+Primary Health Medical Group,Garden City,healthcare,sourcing_screen: In the exclusion index (primaryhealth.com); already delivered.
+Functional Medicine of Idaho,Meridian,healthcare,sourcing_screen: In the exclusion index (funmedidaho.com); already delivered.
+Direct Orthopedic Care,Boise,healthcare,sourcing_screen: In the exclusion index (boisedoc.com); already delivered.
+Saltzer Health,Nampa,healthcare,sourcing_screen: Closed; Intermountain shut down its Treasure Valley clinics in Mar 2024 and LinkedIn lists it as no longer operating.
+West Valley Medical Group,Caldwell,healthcare,"sourcing_screen: Owned by the West Valley Medical Center hospital (HCA), so it belongs to the hospital_health_system scope, not independent primary care; its Middleton clinic closed Aug 10, 2026."
+St. Luke's Clinic / Saint Alphonsus Medical Group,Boise,healthcare,"sourcing_screen: Hospital health system clinics; they belong to the hospital_health_system subsegment, not this sourcing scope."
+Emergency Responders Health Center,Boise,healthcare,sourcing_screen: Careers page (loaded) lists openings only in Spokane WA and says there are no current Boise openings; no local signal found.
+Evolve OBGYN,Boise,healthcare,"sourcing_screen: New practice began seeing patients Nov 3, 2025, before the Mar 1, 2026 window; no qualifying 2026 signal found."
+Garden Valley Family Medicine,Boise,healthcare,sourcing_screen: Main clinic is in Garden Valley (out of scope); the only nearby site is a small Avimor satellite with no signal found.
+Weiser Memorial Hospital,Weiser,healthcare,sourcing_screen: Out of scope town; government hospital district.
+Innovative Family Medicine of Idaho,Idaho Falls,healthcare,sourcing_screen: No site in any of the nine in scope cities.
+Boise VA Medical Center,Boise,healthcare,sourcing_screen: Federal government agency.
+Idaho Gastroenterology Associates,Meridian,healthcare,"sourcing_screen: In the exclusion index (already delivered). Its Ten Mile clinic ribbon cutting (Aug 31, 2026) was seen but not used."
+Surgery Center of Idaho,Meridian,healthcare,"sourcing_screen: Its careers page is Idaho Urologic Institute's, which is in the exclusion index (duplicate_of_input_parent_or_subsidiary)."
+Beacon Clinic,Boise,healthcare,sourcing_screen: In the exclusion index.
+Direct Orthopedic Care,Boise,healthcare,sourcing_screen: In the exclusion index (boisedoc.com).
+Primary Health ENT Specialists,Garden City,healthcare,"sourcing_screen: Part of Primary Health Medical Group, which is in the exclusion index."
+Idaho Spine & Sports Physical Therapy,Boise,healthcare,sourcing_screen: In the exclusion index.
+"Saint Alphonsus specialty clinics (Joint Orthopedics & Sports Medicine, ENT Nampa, Heart Institute, Ten Mile Surgery Center)",Boise,healthcare,"sourcing_screen: Units of the Saint Alphonsus/Trinity Health system. They belong in one hospital_health_system record, not separate specialty groups."
+"St. Luke's specialty clinics (Idaho Cardiology Associates, Imaging, Sleep, Hand & Wrist)",Boise,healthcare,"sourcing_screen: Units of St. Luke's Health System. They belong in one hospital_health_system record, not separate specialty groups."
+Tellica Imaging,Boise,healthcare,sourcing_screen: Imaging chain owned by Intermountain Health (Utah) under a central brand. Deprioritized in favor of independents; no local dated signal found.
+Ageless Mens Health,Meridian,healthcare,"sourcing_screen: National men's health chain with 40+ clinics, centrally run; unlikely to be a local apparel buyer."
+Saltzer Health,Nampa,healthcare,"sourcing_screen: Owned by Intermountain Health and mainly multi-specialty primary care, so outside this specialty scope."
+Pain & Spine Specialists of Idaho,Idaho Falls,healthcare,sourcing_screen: Eastern Idaho practice (208 522 area) with no documented in-scope site.
+Idaho Hand Institute,Pocatello,healthcare,sourcing_screen: Pocatello and Idaho Falls only; out-of-scope towns.
+Utah Fertility Center (Idaho Falls clinic),Idaho Falls,healthcare,sourcing_screen: Out-of-scope city; no Treasure Valley site.
+Walmart Vision Center (Caldwell),Caldwell,healthcare,sourcing_screen: Big box retail unit with centrally supplied apparel.
+HearingLife and Miracle-Ear hearing centers,Meridian,healthcare,sourcing_screen: National chain franchise/retail units with centrally supplied branding.
+Hollingshead Barrett Eye Center,Boise,healthcare,sourcing_screen: Careers page says no positions are currently available; no qualifying signal.
+Gem State Dermatology,Boise,healthcare,"sourcing_screen: Only hiring evidence found is an Instagram 'NOW HIRING' post dated Feb 6, 2026, before the Mar 1, 2026 cutoff."
+Foot & Ankle Medical Center,Nampa,healthcare,sourcing_screen: The only expansion found is a second location in Fruitland (out of scope); no in-scope signal.
+Advanced Family Medicine,Nampa,healthcare,"sourcing_screen: Primary care, outside the medical_specialty_groups scope. Nampa Chamber ribbon cutting Jul 8, 2026 (5826 E Franklin Rd) could be passed to the primary care sourcer."
+The Center for Sleep Apnea & TMJ,Meridian,healthcare,sourcing_screen: Dental sleep and TMJ practice; belongs in dental_orthodontic scope.
+Dentistry For Children,Boise,healthcare,sourcing_screen: SALT Dental Partners affiliate (SALT is in the exclusion index; it announced this partnership with Idaho Kids Dental): duplicate_of_input_parent_or_subsidiary
+Howell Orthodontics,Meridian,healthcare,sourcing_screen: SALT Dental Partners affiliate per the SALT partners page and Boise expansion release: duplicate_of_input_parent_or_subsidiary
+Orthodontics at BridgeTower,Meridian,healthcare,sourcing_screen: SALT Dental Partners affiliate: duplicate_of_input_parent_or_subsidiary
+The Kids Dentist & Orthodontics,Meridian,healthcare,sourcing_screen: Listed under Idaho on the SALT Dental Partners partners page: duplicate_of_input_parent_or_subsidiary
+Idaho Kids Dentistry & Orthodontics,Meridian,healthcare,sourcing_screen: Already delivered (exclusion index)
+Jacob Jarvis Orthodontics,Eagle,healthcare,sourcing_screen: Already delivered (exclusion index)
+Whitewater Oral Surgery (new Caldwell location),Caldwell,healthcare,sourcing_screen: Already delivered (exclusion index)
+Aspen Dental,Meridian,healthcare,sourcing_screen: Franchise units of a national dental chain with centrally supplied branding
+A Reason to Smile (Heartland Dental supported),Boise,healthcare,"sourcing_screen: National DSO supported practice with central hiring and branding; not independent, skipped in favor of local practices"
+PDS Health supported practice,Meridian,healthcare,sourcing_screen: National DSO (Pacific Dental Services) with central branding; not independent
+Mosaic Dental Collective (Eagle family dentistry practice),Eagle,healthcare,sourcing_screen: DSO parent headquartered out of state; local practice name not identified in sources
+Aria Dental Studio,Post Falls,healthcare,"sourcing_screen: Ribbon cutting is in Post Falls, Idaho, which is out of scope"
+Hopke Orthodontics,,healthcare,sourcing_screen: Out of state (Washington address); no in scope site
+ISU Family Dentistry Clinic,Meridian,healthcare,sourcing_screen: Public university clinic (Idaho State University)
+Idaho Dental Assisting School,Boise,healthcare,"sourcing_screen: Training school, not a dental practice; outside the dental_orthodontic scope"
+Indigo Dental Staffing,Boise,healthcare,sourcing_screen: Staffing agency
+Princess Dental Staffing,Meridian,healthcare,sourcing_screen: Staffing agency and job board
+Valley Family Health Care (dental),Payette,healthcare,"sourcing_screen: Posting is in Payette, which is out of scope; also an FQHC outside the dental practice scope"
+Delta Dental of Idaho,Boise,healthcare,"sourcing_screen: Dental insurer, not a dental practice; outside subsegment scope"
+Idaho Kids Dentistry & Orthodontics (Nampa and Star offices),Nampa,healthcare,sourcing_screen: Already delivered (exclusion index); also a SALT Dental Partners affiliate
+"Whitewater Oral Surgery (Caldwell and Star offices, new Caldwell build)",Caldwell,healthcare,sourcing_screen: Already delivered (exclusion index)
+Dentistry for Children / Howell Orthodontics / Orthodontics at BridgeTower (idahobraces.com),Meridian,healthcare,sourcing_screen: duplicate_of_input_parent_or_subsidiary: SALT Dental Partners Boise market partnerships
+The Kids Dentist (mykidsdmd.com),Meridian,healthcare,sourcing_screen: duplicate_of_input_parent_or_subsidiary: SALT Dental Partners affiliate
+"Dabell, Paventy & Magnuson Orthodontics (drmikedabell.com)",Meridian,healthcare,"sourcing_screen: duplicate_of_input_parent_or_subsidiary: SALT Dental Partners affiliate (Meridian, Nampa, Caldwell)"
+Lineberry Orthodontics,Boise,healthcare,sourcing_screen: duplicate_of_input_parent_or_subsidiary: SALT Dental Partners affiliate; Boise and Mountain Home only
+"New SALT supported oral surgery practice (Nampa, opening Sep 2026)",Nampa,healthcare,sourcing_screen: duplicate_of_input_parent_or_subsidiary: supported by SALT Dental Partners
+Nampa Smiles,Nampa,healthcare,"sourcing_screen: Sister brand of Today's Dentistry (same site template, shared doctors and Facebook page); avoid duplicate"
+Kuna Kids Dentistry,Kuna,healthcare,sourcing_screen: Sister office of Smiles 4 Kids (same pediatric group); folded into the Smiles 4 Kids candidate
+Nampa Orthodontics (mynampaortho.com),Nampa,healthcare,"sourcing_screen: Same orthodontist (Dr. Jon Miler) as CenterPoint Orthodontics; likely same practice group, avoid duplicate"
+Aspen Dental (Nampa),Nampa,healthcare,sourcing_screen: Franchise unit of national chain with centrally supplied branding
+Falcon Point Dental Care (Heartland Dental),Kuna,healthcare,"sourcing_screen: Brand owned by Heartland Dental, national DSO with centralized procurement"
+Dentists of Nampa / Kuna Modern Dentistry / Dentists of Boise and Orthodontics,Nampa,healthcare,"sourcing_screen: Smile Generation offices supported by Pacific Dental Services, national DSO with centralized procurement"
+Lone Peak Dental Group (Kuna office),Kuna,healthcare,sourcing_screen: Out of state DSO (Denver); local practice identity unclear
+Willamette Dental Group (Nampa office),Nampa,healthcare,"sourcing_screen: Oregon headquartered regional group; Greenhouse board page 1 showed no Nampa roles; centrally managed, prefer independents"
+Affordable Dentures & Implants (Nampa),Nampa,healthcare,sourcing_screen: National franchise chain; opening dated 2023
+Niland Orthodontics,Nampa,healthcare,sourcing_screen: Closed per directory listing
+Terry Reilly Health Services,Nampa,healthcare,"sourcing_screen: Community health center with dental clinics; belongs to multi clinic primary care scope, not this dental sourcing lane"
+Idaho Dental Assisting School,Nampa,healthcare,"sourcing_screen: Training school, not a dental practice; outside dental_orthodontic scope"
+Idaho Family Dental Center,Kellogg,healthcare,sourcing_screen: North Idaho practice; no site in scope cities
+Care Dental Implant & Cosmetic Center / Willow Tree Dental / Grant Dental,Meridian,healthcare,sourcing_screen: Boise and Meridian only sites; outside this worker's assigned Canyon County and Kuna/Star/Middleton scope
+Boise Oral Surgery & Dental Implant Center,Boise,healthcare,sourcing_screen: Boise only site; outside assigned city scope
+Idaho Pediatric Therapy Clinic,Meridian,healthcare,"sourcing_screen: duplicate_of_input_parent_or_subsidiary: SkyBreak Therapy's careers pages say it acquired this clinic, and SkyBreak Therapy is on the exclusion list"
+SkyBreak Therapy,Meridian,healthcare,sourcing_screen: Already delivered (on the exclusion list)
+Foothills Physical Therapy,Boise,healthcare,sourcing_screen: Already delivered (on the exclusion list)
+Idaho Spine & Sports Physical Therapy,Meridian,healthcare,"sourcing_screen: Already delivered (on the exclusion list, spinept.com)"
+ISU Physical Therapy Clinic / ISU Speech and Language Clinic,Meridian,healthcare,sourcing_screen: Public university clinic (Idaho State University)
+St. Luke's Rehabilitation / St. Luke's Children's Rehabilitation,Boise,healthcare,"sourcing_screen: Hospital health system unit, outside the outpatient_therapy scope (belongs under hospital_health_system)"
+Saint Alphonsus STARS Rehabilitation,Boise,healthcare,"sourcing_screen: Hospital health system unit, outside the outpatient_therapy scope"
+Elks Rehab System,Boise,healthcare,"sourcing_screen: Hospital rehab system, outside the outpatient_therapy scope"
+The Joint Chiropractic (Meridian North),Meridian,healthcare,sourcing_screen: Franchise unit of a national walk in chiropractic chain; apparel and branding likely supplied centrally
+HealthSource Chiropractic of Meridian,Meridian,healthcare,sourcing_screen: Franchise unit of a national chiropractic chain; apparel and branding likely supplied centrally
+"FYZICAL Therapy & Balance Centers (South Meridian, Southeast Boise)",Meridian,healthcare,"sourcing_screen: Franchise units of a national PT chain; branding likely supplied centrally, so deprioritized"
+Nampa of Cascadia / Boise of Cascadia / Canyon County of Cascadia,Nampa,healthcare,"sourcing_screen: Skilled nursing facilities (care_rehabilitation), outside the outpatient_therapy scope"
+ProNation Therapy Network / ProNation Healthcare Staffing,Boise,healthcare,sourcing_screen: Staffing agency
+Physical Therapy Specialists of Idaho,Pocatello,healthcare,"sourcing_screen: Sites only in Pocatello and Chubbuck, which are out of scope"
+Idaho Falls Hand Therapy,Idaho Falls,healthcare,"sourcing_screen: Site only in Idaho Falls, which is out of scope"
+Performance Therapy (Idaho Falls),Idaho Falls,healthcare,"sourcing_screen: Site only in Idaho Falls, which is out of scope"
+Ladgov Corporation,"Meridian, MS",healthcare,"sourcing_screen: Out of state federal contractor; the 'Meridian' in its listing is Meridian, Mississippi"
+First Choice Home Health & Hospice,Boise,healthcare,sourcing_screen: Already delivered (on the exclusion list)
+Guardian Home Care and Hospice,Boise,healthcare,"sourcing_screen: Home health, outside the outpatient_therapy scope"
+Northpoint Recovery (incl. Imagine by Northpoint),Meridian,healthcare,sourcing_screen: duplicate_of_input_parent_or_subsidiary: Northpoint Recovery Holdings is in the exclusion index.
+Ashwood Recovery,Boise,healthcare,sourcing_screen: In the exclusion index (a Northpoint Recovery brand).
+"Clarvida (Caldwell clinic, Community Crisis Center of Southwest Idaho)",Caldwell,healthcare,sourcing_screen: In the exclusion index (Clarvida / Pathways of Idaho).
+Care Options for Kids (COFK),Nampa,healthcare,sourcing_screen: In the exclusion index.
+Southwest Idaho Treatment Center,Nampa,healthcare,sourcing_screen: State of Idaho facility (government).
+State Hospital West,Nampa,healthcare,sourcing_screen: State psychiatric hospital (government).
+Central District Health counseling,Boise,healthcare,sourcing_screen: Public health district (government).
+Boise State University Health Services,Boise,healthcare,sourcing_screen: Public university.
+Idaho Department of Health and Welfare Behavioral Health,Boise,healthcare,sourcing_screen: State agency (government).
+Headwaters Behavioral Health Center,Idaho Falls,healthcare,"sourcing_screen: Eastern Idaho youth facility, outside in scope cities."
+Harmony Counseling Services,Idaho Falls,healthcare,"sourcing_screen: 2026 ribbon cutting was in Idaho Falls, outside in scope cities."
+Peak Behavioral Therapy,Idaho Falls,healthcare,sourcing_screen: ABA sites are in Idaho Falls and Wyoming; none in scope.
+Turning Winds,,healthcare,sourcing_screen: North Idaho program; no site in scope.
+Legion Health,,healthcare,sourcing_screen: Remote only telehealth PMHNP employer; no local site.
+LifeStance Health (Idaho),,healthcare,sourcing_screen: Idaho presence is listed as an online only location; no physical in scope site found.
+Stella Mental Health,,healthcare,sourcing_screen: No Idaho clinic found in its location list; out of state.
+Moonlight Mountain Recovery,Nampa,healthcare,"sourcing_screen: Has Nampa, Caldwell and Boise sites, but its only hiring posts found (LinkedIn) date to Nov and Dec 2025, before 2026-03-01. No qualifying 2026 signal found; revisit if a current ATS is found."
+Icarus Wellness and Recovery Idaho,Boise,healthcare,"sourcing_screen: Latest dated item found is a Jan 21 2026 press release, before 2026-03-01. No qualifying signal found."
+Gem State Developmental Center,Meridian,healthcare,sourcing_screen: Employment page postings are 2019 files; no 2026 dated signal found.
+Terry Reilly Health Services (Caldwell Behavioral Health),Caldwell,healthcare,"sourcing_screen: FQHC multi clinic primary care system, outside this behavioral health scope (belongs to multi_clinic_primary_care sourcing); its behavioral clinic news dates to 2023."
+St. Luke's Children's Behavioral Health / Saint Alphonsus behavioral units,Meridian,healthcare,"sourcing_screen: Hospital health system units, outside this behavioral_health sourcing scope (hospital_health_system)."
+Aspen Home Health & Hospice of The Treasure Valley,Meridian,healthcare,"sourcing_screen: duplicate_of_input_parent_or_subsidiary: its Paylocity board sits under Larry H. Miller Senior Health, which is in the exclusion index."
+Symbii Home Health & Hospice,Boise,healthcare,sourcing_screen: duplicate_of_input_parent_or_subsidiary: Pennant Group agency (The Pennant Group is excluded).
+Heart 'n Home Hospice & Palliative Care,Meridian,healthcare,"sourcing_screen: Same parent as Idaho Home Health & Hospice (LHC Group/Optum), which is already a candidate; not repeated."
+Treasure Valley Hospice,Nampa,healthcare,"sourcing_screen: LHC Group sister brand of Idaho Home Health & Hospice, which is already a candidate; not repeated."
+Addus HomeCare,Meridian,healthcare,"sourcing_screen: Same parent as Harrison's Hope Hospice (an Addus family company), which is already a candidate; not repeated."
+Assisting Hands Home Care,Nampa,healthcare,sourcing_screen: In exclusion index (new national HQ in Nampa).
+Enhabit Home Health & Hospice,Boise,healthcare,sourcing_screen: In exclusion index.
+First Choice Home Health & Hospice,Boise,healthcare,sourcing_screen: In exclusion index.
+Horizon Home Health & Hospice,Meridian,healthcare,sourcing_screen: In exclusion index.
+BrightStar Care of Boise,Boise,healthcare,sourcing_screen: In exclusion index.
+Home Care Placement,Meridian,healthcare,sourcing_screen: In exclusion index.
+Care Options for Kids,Boise,healthcare,sourcing_screen: In exclusion index.
+Critical Nurse Staffing,,healthcare,sourcing_screen: Staffing agency (also Idaho Falls based).
+Nurse Staffing 24/7 Idaho Homecare,,healthcare,sourcing_screen: Staffing agency.
+Interim HealthCare of Idaho,Boise,healthcare,"sourcing_screen: Calls itself a home care and medical staffing company; staffing model, left out."
+Papa,Boise,healthcare,sourcing_screen: Remote gig companion platform with no local site.
+Canyon Home Care & Hospice,Meridian,healthcare,sourcing_screen: Utah based; Meridian page is service area content with no local office found.
+Serenity First Hospice,,healthcare,"sourcing_screen: Virginia hospice; its 2026 ribbon cutting was out of state, no Idaho site."
+Hospice of the Valley (hov.org),,healthcare,sourcing_screen: Arizona provider with no in scope site.
+Auburn Crest Home Health & Hospice,,healthcare,sourcing_screen: East Idaho operator; no in scope site found.
+Advanced Home Health,,healthcare,"sourcing_screen: Serves American Falls, Blackfoot, Driggs and similar towns, all out of scope."
+Hospice of North Idaho,,healthcare,sourcing_screen: North Idaho only; out of scope.
+Gentiva Hospice,,healthcare,sourcing_screen: Only Idaho site found is Coeur d'Alene; out of scope.
+Journeys Hospice,Nampa,healthcare,"sourcing_screen: Local independent hospice, but no live postings or dated 2026 signal found; hold for a later pass."
+Complete Hospice Care of Boise,Boise,healthcare,"sourcing_screen: Boise office at 250 W Bobwhite Ct, but no live postings or dated 2026 signal found."
+The Pointe at Meridian (Grace Management),Meridian,healthcare,sourcing_screen: Already delivered; Grace Management is in the exclusion index.
+Touchmark at Meadow Lake Village,Meridian,healthcare,sourcing_screen: Already delivered; Touchmark is in the exclusion index.
+The Terraces of Boise (HumanGood),Boise,healthcare,sourcing_screen: Already delivered; HumanGood is in the exclusion index.
+Life Care Center of Treasure Valley / Life Care Center of Boise / Life Care Center of Nampa,Boise,healthcare,sourcing_screen: Parent Life Care Centers of America (lcca.com) is in the exclusion index.
+Aspen Transitional Rehab,Meridian,healthcare,sourcing_screen: Already delivered; parent Advanced Health Care (Larry H. Miller Senior Health Care) is excluded.
+"Ashley Manor (Caldwell Arlington, Crescent, Willow; Boise Hyde Park)",Caldwell,healthcare,sourcing_screen: Ashley Manor is in the exclusion index.
+Vibra Hospital of Boise,Boise,healthcare,sourcing_screen: Vibra Healthcare is in the exclusion index.
+"Assisting Hands Home Care (Nampa HQ ribbon cutting Sep 9, 2026)",Nampa,healthcare,"sourcing_screen: Assisting Hands is in the exclusion index; it is also home care, not a care community."
+Sunny Ridge (Nampa),Nampa,healthcare,sourcing_screen: Managed by Cascadia Healthcare; folded into the Cascadia Healthcare candidate to avoid a duplicate.
+"Cascadia facilities (Cascadia of Boise, Shaw Mountain, Arbor Valley, Cascadia of Nampa, Wellspring, Orchards, Caldwell Care, Canyon West)",Boise,healthcare,sourcing_screen: Same company as the Cascadia Healthcare candidate; not listed separately.
+Karcher Senior Living / Karcher Estates,Nampa,healthcare,sourcing_screen: Sister PACS campus of Karcher Post Acute; folded into that candidate.
+Aspen Creek Senior Living (formerly Lenity Senior Living),Caldwell,healthcare,"sourcing_screen: Former name of the community at 4119 Lenity Living Ave, now Spring Fields Senior Living (PACS); covered by that candidate."
+Autumn Wind Assisted Living & Memory Care,Caldwell,healthcare,"sourcing_screen: PACS community; held back because two PACS affiliates (Karcher Post Acute, Spring Fields) are already candidates. Can replace one if needed."
+Elevate Healthcare (Nampa/Meridian),Nampa,healthcare,"sourcing_screen: A primary care provider group serving residents of skilled nursing and assisted living facilities, not a care community. It belongs in multi_clinic_primary_care, outside this scope."
+Aspen Valley Senior Living,Boise,healthcare,sourcing_screen: Own careers page says no opportunities are currently available; no qualifying signal observed.
+Meadow View Assisted Living and Memory Care,Emmett,healthcare,"sourcing_screen: Site is only in Emmett, an out of scope town."
+Encompass Health Post Falls rehabilitation hospital,Post Falls,healthcare,sourcing_screen: Out of scope town; the Boise affiliate is listed separately.
+Saddle Ridge Senior Living,"Clovis, CA",healthcare,sourcing_screen: Out of state with no Idaho site.
+Nampa Christian Housing,Nampa,healthcare,"sourcing_screen: Affordable senior housing nonprofit, not a care or rehabilitation provider."
+Eagle Senior Village (Mercy Housing Northwest),Eagle,healthcare,"sourcing_screen: Affordable senior housing, not a care provider."
+SilverAssist / Oasis Senior Advisors,Boise,healthcare,"sourcing_screen: Senior placement and referral service, not a care provider; similar to a placement agency."
+Idaho Health Care Association,Boise,healthcare,"sourcing_screen: Trade association, not a care operator."
+Idaho Gastroenterology Associates,Meridian,healthcare,"sourcing_screen: In exclusion index (already delivered), despite the Aug 31, 2026 ribbon cutting for its 10 Mile Clinic and Endoscopy Center"
+Assisting Hands Home Care,Nampa,healthcare,sourcing_screen: In exclusion index (already delivered); Nampa Chamber ribbon cutting in Sep 2026
+Idaho Kids Dentistry & Orthodontics,Meridian,healthcare,"sourcing_screen: In exclusion index; its new Meridian office announcement was Jan 2026, before the window"
+Primary Health Medical Group,Nampa,healthcare,sourcing_screen: In exclusion index (already delivered)
+Horizon Home Health & Hospice,Boise,healthcare,sourcing_screen: In exclusion index (already delivered)
+First Choice Home Health & Hospice (Jet Health),Boise,healthcare,sourcing_screen: In exclusion index (already delivered)
+Enhabit Home Health & Hospice,Boise,healthcare,sourcing_screen: In exclusion index (already delivered)
+Idaho Spine & Sports Physical Therapy,Boise,healthcare,sourcing_screen: In exclusion index (already delivered)
+Functional Medicine of Idaho,Boise,healthcare,sourcing_screen: In exclusion index (already delivered)
+Northpoint Recovery / Imagine by Northpoint,Boise,healthcare,sourcing_screen: duplicate_of_input_parent_or_subsidiary: Northpoint Recovery Holdings is in the exclusion index
+Pennant (The Pennant Group),Boise,healthcare,sourcing_screen: duplicate_of_input_parent_or_subsidiary: The Pennant Group is in the exclusion index
+Clarvida Idaho,Boise,healthcare,sourcing_screen: In exclusion index (already delivered)
+Bluebird Health,Boise,healthcare,sourcing_screen: In exclusion index (already delivered)
+Whitewater Oral Surgery Group,Boise,healthcare,sourcing_screen: In exclusion index (already delivered)
+Saint Alphonsus Home Health and Hospice,Boise,healthcare,"sourcing_screen: Same parent as Saint Alphonsus Health System, which is already a candidate; left out to avoid listing one company twice"
+Saltzer Health (Intermountain Health Saltzer),Nampa,healthcare,"sourcing_screen: Closed; Intermountain closed Saltzer Health on Mar 29, 2024 and sold the remaining sites to other operators"
+Nutex Health (proposed Meridian microhospital),Meridian,healthcare,sourcing_screen: No local site; Meridian City Council denied the proposed microhospital
+A Promise of Hope Hospice & Palliative Care,Boise,healthcare,sourcing_screen: Likely closed; Yelp lists the Boise location at 8921 W Hackamore Dr as closed
+Idaho State University Meridian clinics,Meridian,healthcare,sourcing_screen: Public university
+College of Western Idaho Health & Science Building,Nampa,healthcare,sourcing_screen: Public college
+Caldwell VA clinic,Caldwell,healthcare,sourcing_screen: Government agency
+Valor Healthcare,Boise,healthcare,sourcing_screen: Remote only therapist contractor roles; no in scope site found
+DOCS Health,,healthcare,sourcing_screen: Out of state military dental contractor with no in scope site
+Dr. Joshua Cady podiatry clinic,Weiser,healthcare,sourcing_screen: Site only in an out of scope town (Weiser)
+Caribou Medical Clinic,Grace,healthcare,sourcing_screen: Site only in an out of scope town
+Meridian Health Services,,healthcare,"sourcing_screen: Out of state (Indiana); the Meridian name match is not Meridian, Idaho"
+Idaho Dental Assisting School,Nampa,healthcare,"sourcing_screen: Training school, not a healthcare provider in the allowed subsegments"
+Blue Cross of Idaho,Meridian,healthcare,"sourcing_screen: Health insurer, not a provider in the allowed healthcare subsegments"
+"K2 Construction, Inc.",Boise,construction_industrial,"sourcing_screen: The president is Mark Kreizenbeck, so this is a likely sister of the excluded Kreizenbeck Constructors (duplicate_of_input_parent_or_subsidiary risk)"
+Big-D Construction / Big-D Companies,Boise,construction_industrial,"sourcing_screen: Parent of McAlvain Companies, which is already a candidate; left out to avoid listing the same company under two names"
+"HC Company, Inc.",Eagle,construction_industrial,sourcing_screen: In the exclusion index (already delivered)
+Andersen Construction Company of Idaho,Boise,construction_industrial,sourcing_screen: In the exclusion index (already delivered)
+"Wright Brothers, The Building Company",Eagle,construction_industrial,sourcing_screen: In the exclusion index (already delivered)
+"Steed Construction, Inc.",Eagle,construction_industrial,sourcing_screen: In the exclusion index (already delivered)
+"Petra, Inc.",Meridian,construction_industrial,sourcing_screen: In the exclusion index (already delivered)
+Kreizenbeck Constructors,Garden City,construction_industrial,sourcing_screen: In the exclusion index (already delivered)
+IMCO Construction / CORE Construction / Okland Construction / ESI / Sletten / Suncore / Sunroc,Boise,construction_industrial,sourcing_screen: All in the exclusion index or owned by an excluded parent (already delivered)
+SAJO Inc.,Meridian,construction_industrial,"sourcing_screen: Out of state GC (Apple Store at Village at Meridian, Apr 2026); no in scope office found"
+Terrapin Construction Group,Boise,construction_industrial,sourcing_screen: Colorado based with a Colorado phone number; no physical in scope site confirmed
+Greystone Construction,Garden City,construction_industrial,sourcing_screen: Out of state GC that only markets Idaho coverage; no in scope office found
+"Element Design Build, LLC",Meridian,construction_industrial,"sourcing_screen: Luxury custom residential home builder, outside the commercial GC scope"
+"EKC, Inc.",Boise,construction_industrial,"sourcing_screen: Careers page states no current openings, and no 2026 dated signal was found"
+"Veritas Facility Services & Construction, Inc.",Nampa,construction_industrial,"sourcing_screen: Its only dated awards are in McCall and Gooding County (out of scope) and are dated before Mar 1, 2026; no in scope 2026 signal"
+"Big D Builders, Inc.",Meridian,construction_industrial,sourcing_screen: No 2026 signal found; the only news is 2024 to 2025 coverage of the hangar collapse and OSHA findings
+Syblon Reid,Caldwell,construction_industrial,"sourcing_screen: Folsom, California heavy civil HQ with a Caldwell office; no in scope 2026 signal found"
+"Zelham, Inc.",Boise,construction_industrial,sourcing_screen: Nationwide hotel renovation GC; no 2026 dated local signal found
+"Granite Excavation, Inc.",Boise,construction_industrial,"sourcing_screen: Excavation specialty contractor, outside the commercial GC scope (could fit a specialty trades sourcing pass)"
+"Knife River Corporation, Mountain West",Boise,construction_industrial,"sourcing_screen: Aggregates and paving materials producer, outside the commercial GC scope"
+"Wright Brothers, The Building Company",Star,construction_industrial,sourcing_screen: duplicate_of_input: already delivered (exclusion index); BoiseDev lists it as Star based
+Sunroc Corp (Kuna),Kuna,construction_industrial,sourcing_screen: duplicate_of_input_parent_or_subsidiary: Sunroc and parent Clyde Companies are in the exclusion index
+Suncore Construction & Materials,Caldwell,construction_industrial,sourcing_screen: duplicate_of_input: already delivered
+"HC Company, Inc.",Eagle,construction_industrial,sourcing_screen: duplicate_of_input: already delivered
+"Engineered Structures, Inc. / Petra / Okland / CORE Construction / Kreizenbeck / Iron Horse Excavation",Meridian/Boise,construction_industrial,sourcing_screen: duplicate_of_input: all already delivered (seen in AGC and chamber directories)
+"Central Paving, LLC",,construction_industrial,sourcing_screen: out of state: careers page is for Ellensburg WA operations with no in scope Idaho site
+Idaho Boring Contractors,,construction_industrial,sourcing_screen: national lead generation network site (Boring Contractors LLC) with out of state phone; no verified in scope physical site
+"Watson Construction Company, LLC",,construction_industrial,sourcing_screen: named ACHD Cole Road contractor but no in scope local entity could be identified; search returns a Florida firm of that name
+Stack Construction,Meridian,construction_industrial,"sourcing_screen: Meridian based commercial GC; outside this agent's GC city scope (Nampa, Caldwell, Kuna, Star, Middleton); route to Meridian GC sourcing"
+Deacon Construction,Boise,construction_industrial,sourcing_screen: Boise office commercial GC entering the market in 2025; outside this agent's GC city scope; route to Boise GC sourcing
+Aerotek / Express Employment Professionals / Personnel Plus / LVI Associates,Nampa/Boise,construction_industrial,sourcing_screen: staffing agencies and recruiters
+Sterling Construction Company,Kuna,construction_industrial,"sourcing_screen: only local posting dated Feb 17, 2026 (before cutoff); national firm with no confirmed in scope site"
+Ledcor,Boise,construction_industrial,sourcing_screen: Boise heavy civil PM posting is for a remote mining leach pad project; no confirmed in scope operating site
+Faber Construction,,construction_industrial,"sourcing_screen: only dated signal is a Feb 18, 2026 Caldwell jobsite post (before cutoff); home location unverified"
+"Leighton Enterprises, Inc.",Star,construction_industrial,"sourcing_screen: rough carpentry and residential builder, not a commercial GC or civil contractor"
+Ralph L. Wadsworth Construction,,construction_industrial,sourcing_screen: Utah based heavy civil firm; no in scope Idaho site confirmed
+ACHD / Nampa Highway District No. 1 / City of Caldwell / Idaho Transportation Department,Boise/Nampa/Caldwell,construction_industrial,sourcing_screen: government agencies
+Master Plumbing (Master Companies),Meridian,construction_industrial,sourcing_screen: Sister brand of Diamond Heating under Intermountain Home Services (Bestige); kept Diamond as the single buying unit to avoid parent duplication
+Superior Water & Air,Meridian,construction_industrial,sourcing_screen: Sister brand of Diamond and Master Plumbing under Intermountain Home Services; parent duplicate
+Owyhee Heating & Air Conditioning,Nampa,construction_industrial,"sourcing_screen: duplicate_of_input_parent_or_subsidiary: owned by Apex Service Partners, parent of delivered Right Now Heating"
+"Right Now Heating, Cooling, Plumbing and Electrical",Caldwell,construction_industrial,sourcing_screen: Already delivered (exclusion index)
+QE Solar,Boise,construction_industrial,"sourcing_screen: Solar arm of Quality Electric, already delivered"
+Rocky Mountain Electric,Boise,construction_industrial,sourcing_screen: Already delivered (One Team Electrical Group)
+Ocean Park Mechanical,Boise,construction_industrial,sourcing_screen: Already delivered
+WGNSTAR,Boise,construction_industrial,sourcing_screen: Already delivered (ABM)
+Easy Heating & Plumbing / Treasure Valley Sheet Metal,Meridian,construction_industrial,sourcing_screen: Already delivered
+Harris Company,Garden City,construction_industrial,sourcing_screen: Already delivered
+"Innovative Air, Inc.",Boise,construction_industrial,sourcing_screen: Already delivered (Meriton)
+One Hour Heating and Air Conditioning,Meridian,construction_industrial,sourcing_screen: National home service franchise with centrally supplied uniforms
+Mr. Electric of Meridian,Meridian,construction_industrial,sourcing_screen: National franchise unit with centrally supplied uniforms
+Service Experts Heating & Air Conditioning,Garden City,construction_industrial,"sourcing_screen: National corporate HVAC chain; not locally operated, corporate uniform program"
+Western States Fire Protection (Delta Fire),Meridian,construction_industrial,sourcing_screen: Not added: national API Group subsidiary; independent local fire contractors prioritized
+Pye-Barker Fire & Safety,Boise,construction_industrial,sourcing_screen: Not added: national consolidator branch; independent locals prioritized
+Summit Fire & Security,Boise,construction_industrial,sourcing_screen: Not added: national consolidator branch; independent locals prioritized
+Johnson Controls,Boise,construction_industrial,sourcing_screen: Not added: national corporation branch
+Faith Technologies / Rosendin / Cupertino Electric,Boise,construction_industrial,sourcing_screen: Not added: national electrical contractors with corporate programs; independent locals prioritized
+Bill's Heating & A/C,Meridian,construction_industrial,"sourcing_screen: Careers page shows no openings at this time; HQ Post Falls, Meridian is a branch; no current signal"
+"Ultimate Heating & Air, Inc.",Meridian,construction_industrial,sourcing_screen: Not added: no lead page captured beyond Apollo job count; PE stake (SE Capital); revisit if a dated posting is found
+Outsource (outsource.net),Boise,construction_industrial,sourcing_screen: Staffing agency for electricians and installers
+Express Employment Professionals,Boise,construction_industrial,sourcing_screen: Staffing agency
+TEKsystems,Idaho Falls,construction_industrial,"sourcing_screen: Staffing agency; posting is Idaho Falls, out of scope"
+City of Boise,Boise,construction_industrial,sourcing_screen: Government employer
+CBH Homes (Redline Plumbing),Meridian,construction_industrial,sourcing_screen: Residential homebuilder with in house trades; outside this specialty trades lane
+Clenera,Boise,construction_industrial,"sourcing_screen: Utility scale solar developer, not a local installer; outside scope"
+Treasure Valley Electric,Emmett,construction_industrial,sourcing_screen: Site only in out of scope town (Emmett)
+"Carson Electric, LLC",Homedale,construction_industrial,sourcing_screen: Site only in out of scope town (Homedale)
+Payette River Electric & Controls,Emmett,construction_industrial,sourcing_screen: Site only in out of scope town (Emmett)
+"Southern Idaho Electric, Inc.",Melba,construction_industrial,sourcing_screen: Site only in out of scope town (Melba)
+WESCO / CED / Crescent Electric Supply / Codale Electric Supply,Meridian,construction_industrial,"sourcing_screen: Electrical distributors; industrial_vendors lane, outside this trades sourcing scope"
+HB Specialty Foods,Nampa,construction_industrial,"sourcing_screen: Food manufacturer maintenance posting, not a specialty trade contractor"
+Lactalis American Group (Nampa plant electrician posting),Nampa,construction_industrial,sourcing_screen: Already delivered
+"Nucor Rebar Fabrication Boise, Inc.",Boise,construction_industrial,"sourcing_screen: Plant of a national steel producer, not independent; rebar fabrication apparel is mainly PPE and supplied by corporate."
+"LaRiviere, Inc.",Boise,construction_industrial,"sourcing_screen: HQ is in Rathdrum, ID (out of scope). The only Boise address found is the Idaho AGC office, and its Facebook page shows an office closure, so no in-scope site is documented."
+"Precision Glass & Aluminum, Inc.",,construction_industrial,"sourcing_screen: Located in Pocatello, ID, outside the scope cities."
+Modern Glass Company,,construction_industrial,"sourcing_screen: Located in Coeur d'Alene, ID, outside the scope cities."
+Idaho Fence,,construction_industrial,"sourcing_screen: Located in Post Falls, ID, outside the scope cities."
+Bend Commercial Glass and Door,,construction_industrial,sourcing_screen: Oregon company whose Boise PM role was posted through a recruiter; no in-scope site documented.
+Suncore Construction & Materials,Boise,construction_industrial,sourcing_screen: In the exclusion index (already delivered).
+"Engineered Structures, Inc. (ESI)",Meridian,construction_industrial,sourcing_screen: In the exclusion index (already delivered).
+"HC Company, Inc.",Boise,construction_industrial,sourcing_screen: In the exclusion index (already delivered).
+"Petra, Inc.",Meridian,construction_industrial,sourcing_screen: In the exclusion index (already delivered).
+"Wright Brothers, The Building Company",Eagle,construction_industrial,sourcing_screen: In the exclusion index (already delivered).
+KIT HomeBuilders West,Boise,construction_industrial,sourcing_screen: In the exclusion index (already delivered).
+WorkSteer,,construction_industrial,sourcing_screen: Staffing agency advertising masonry laborer jobs.
+Gpac,Boise,construction_industrial,sourcing_screen: Recruiter posting a signage fabricator role.
+CertaPro Painters of Boise Metro,Boise,construction_industrial,sourcing_screen: Franchise unit of a national painting chain; independent contractors were preferred.
+FASTSIGNS Boise,Boise,construction_industrial,sourcing_screen: Franchise unit of a national sign chain; independent sign shops were preferred.
+Flynn Group of Companies,Boise,construction_industrial,sourcing_screen: Boise branch of a national building envelope contractor hiring through a corporate Lever board; apparel is likely supplied centrally. Deprioritized in favor of independents.
+"American Semiconductor, Inc.",Boise,construction_industrial,"sourcing_screen: Careers page (loaded) says no job openings at this time; packaging expansion is contingent on project approval, no qualifying signal"
+PKG User Interface Solutions,Meridian,construction_industrial,sourcing_screen: Company domain pkguis.com now serves unrelated casino content; operating status doubtful
+G Zero CNC Machining,Meridian,construction_industrial,sourcing_screen: Acquired in 2026 by Alturas Ventures and operates under EnviroTech; duplicate of EnviroTech candidate
+"Computrol, Inc.",Meridian,construction_industrial,sourcing_screen: Acquired by Creation Technologies; duplicate of Creation Technologies candidate
+Idaho Scientific,Boise,construction_industrial,sourcing_screen: Now part of General Dynamics Mission Systems (acquired and folded in)
+Wabtec MotivePower,Boise,construction_industrial,sourcing_screen: Boise locomotive plant closed (2019 announcement); closed site
+JawsTec LLC,Garden City,construction_industrial,"sourcing_screen: Actually located in American Falls, ID; Garden City pages are SEO landing pages, no in scope site"
+Dickinson Frozen Foods,Eagle,construction_industrial,sourcing_screen: Production plant is in Fruitland (out of scope); Eagle is admin HQ only with no local production signal found
+Shadows Custom Apparel & Merchandise,Boise,construction_industrial,sourcing_screen: Direct competitor selling custom apparel and merchandise
+Kryptek Outdoor Group,Eagle,construction_industrial,sourcing_screen: Apparel brand producing its own apparel; poor fit as buyer
+BME Fire Trucks,Boise,construction_industrial,sourcing_screen: In exclusion index (already delivered)
+Suncore Construction & Materials,Kuna,construction_industrial,sourcing_screen: In exclusion index (already delivered)
+"Petra, Inc.",Meridian,construction_industrial,sourcing_screen: In exclusion index (already delivered)
+Aerotek,Boise,construction_industrial,sourcing_screen: Staffing agency
+Capital Employment Group (CEG Boise),Garden City,construction_industrial,sourcing_screen: Staffing agency
+Elwood Staffing,Meridian,construction_industrial,sourcing_screen: Staffing agency (Scentsy hiring event)
+Gem State Staffing,Boise,construction_industrial,sourcing_screen: Staffing agency
+TechHelp (University of Idaho),Boise,construction_industrial,sourcing_screen: Public university program
+KFC (Meridian),Meridian,construction_industrial,sourcing_screen: QSR franchise unit with centrally supplied apparel
+Reve Coffee Roasters,,construction_industrial,"sourcing_screen: Located in Lafayette, LA; out of state, no in scope site"
+Lactalis American Group (Sorrento Lactalis Nampa cheese and whey plant),Nampa,construction_industrial,"sourcing_screen: In the exclusion index (Lactalis, Groupe Lactalis, Lactalis American Group, Inc.); Nampa plant roles on Paylocity are a duplicate of a delivered parent."
+Amalgamated Sugar Company (Nampa factory),Nampa,construction_industrial,"sourcing_screen: In the exclusion index (Amalgamated Sugar, The Amalgamated Sugar Company, Snake River Sugar)."
+High Country Plastics / MAKS Plastics,Caldwell,construction_industrial,"sourcing_screen: Both are in the exclusion index; the Caldwell Paylocity postings (Rotational Molding Oven Operator, Plant Manager, Powder Operator, Office Administrator) belong to already delivered companies."
+Horizon Home Health and Hospice (The Pennant Group),Caldwell,construction_industrial,"sourcing_screen: In the exclusion index (Horizon Home Health, The Pennant Group); also outside the construction and industrial vertical."
+House of Design Robotics,Nampa,construction_industrial,sourcing_screen: Likely closed: a Hilco Global listing offers its assets for sale and describes it in the past tense ('was a pioneer').
+Metalworks By LIFE,Middleton,construction_industrial,sourcing_screen: Website says it is temporarily closed while relocating; tiny custom metal art shop with no qualifying signal.
+Gem State Staffing,Caldwell,construction_industrial,sourcing_screen: Staffing agency.
+Aerotek,Caldwell,construction_industrial,sourcing_screen: Staffing agency (posting Production Operator roles in Caldwell for a client).
+Personnel Plus,Nampa,construction_industrial,sourcing_screen: Staffing agency.
+KFC (Caldwell),Caldwell,construction_industrial,sourcing_screen: Franchise unit of a national fast food chain with centrally supplied apparel.
+HOTWORX (Caldwell),Caldwell,construction_industrial,sourcing_screen: National fitness franchise unit.
+Amazon (Nampa delivery station),Nampa,construction_industrial,sourcing_screen: National big box / logistics operator with centrally supplied apparel.
+Spar Industries flex industrial building,Nampa,construction_industrial,"sourcing_screen: Ribbon cutting (Aug 19, 2026) was for a broker or developer's flex industrial building, not a manufacturer or operating tenant."
+Idaho Milk Products,Jerome,construction_industrial,"sourcing_screen: New plant is in Jerome, an out of scope town."
+Mart Frozen Foods,Rupert,construction_industrial,"sourcing_screen: Plant is in Rupert, an out of scope town; the opening was also dated 2024."
+City of Nampa,Nampa,construction_industrial,sourcing_screen: Government entity.
+College of Western Idaho (Nampa campus),Nampa,construction_industrial,sourcing_screen: Public college.
+Middleton School District 134,Middleton,construction_industrial,sourcing_screen: Public school district.
+Prefab Logic,Nampa,construction_industrial,"sourcing_screen: Modular preconstruction and BIM design firm with remote eligible roles, not a production facility; outside this manufacturing scope."
+Codale Electric Supply,Nampa,construction_industrial,"sourcing_screen: Nampa branch reported closing May 1, 2026 (consolidation into Meridian); contraction, no qualifying expansion signal found."
+Viking SupplyNet,Nampa,construction_industrial,"sourcing_screen: Branch opening dated May 2025 (lease Mar 2025), before the 2026-03-01 window; no 2026 signal found."
+Tractor Supply Company (Nampa distribution center),Nampa,construction_industrial,sourcing_screen: Big box retail chain with centrally supplied apparel.
+The Home Depot / Lowe's (rental and lumber yards),Nampa,construction_industrial,sourcing_screen: Big box retail chains.
+Coastline Equipment,Meridian,construction_industrial,sourcing_screen: In exclusion index (already delivered).
+Idaho Pacific Lumber Company,Meridian,construction_industrial,sourcing_screen: Careers page lists no current openings; no dated 2026 signal found.
+Boise Crane,Boise,construction_industrial,sourcing_screen: Employment page lists no openings; only a single third party board posting seen.
+Universal Fasteners & Supply,Boise,construction_industrial,sourcing_screen: No hiring or dated 2026 signal found in this pass.
+Rocky Mountain Steel,Nampa,construction_industrial,sourcing_screen: No signal found and local city unclear (Boise domain vs Nampa mention).
+Johnstone Supply (Boise),Boise,construction_industrial,sourcing_screen: No hiring or dated signal found in this pass.
+Idaho Trailer Sales,Buhl,construction_industrial,sourcing_screen: Only site is in out of scope town.
+Pipeco Irrigation Supply,Twin Falls,construction_industrial,sourcing_screen: Twin Falls HQ; no in scope site confirmed.
+Kendall Auto / Corwin Ford Nampa,Nampa,construction_industrial,"sourcing_screen: Auto dealerships, outside this construction_industrial sourcing scope."
+"Terracon Consultants, Inc.",Boise,construction_industrial,sourcing_screen: In exclusion index (already delivered)
+GeoTek,Meridian,construction_industrial,sourcing_screen: In exclusion index (already delivered)
+"KM Engineering, LLP",Boise,construction_industrial,sourcing_screen: In exclusion index (already delivered)
+NV5,Meridian,construction_industrial,sourcing_screen: In exclusion index (already delivered)
+Morrison-Maierle,Boise,construction_industrial,sourcing_screen: In exclusion index (already delivered)
+The Civil Recruiter,Boise,construction_industrial,sourcing_screen: Staffing/recruiting firm
+Boise State University Civil Engineering / College of Western Idaho,Boise,construction_industrial,sourcing_screen: Public university/college
+City of Nampa / City of Caldwell / City of Meridian engineering divisions,Nampa,construction_industrial,sourcing_screen: Government agency
+"Sawtooth Land Surveying, LLC",,construction_industrial,sourcing_screen: Offices only in Emmett and Coeur d'Alene (out of scope towns)
+Meridian Engineering (meiamerica.com),,construction_industrial,sourcing_screen: Utah firm with no in-scope Idaho site; name match only
+"Civil Survey Consultants, Inc.",Meridian,construction_industrial,sourcing_screen: Join Us page says no open positions; no 2026 signal found
+"ABCO Engineering, Inc.",Nampa,construction_industrial,sourcing_screen: Idaho Statesman jobs page says not hiring; no 2026 signal found
+Consor Engineers,Boise,construction_industrial,sourcing_screen: Loaded Consor Boise careers board: 0 jobs in Boise; only a single May 2026 roadway posting seen elsewhere
+Materials Testing & Inspection (MTI),Boise,construction_industrial,sourcing_screen: No dated 2026 signal surfaced (nukeworker shows 0 jobs); worth revisiting for CMT technician hiring
+Leavitt Engineering,Nampa,construction_industrial,sourcing_screen: Only hiring evidence is a Dec 2025 posting (before the Mar 1 2026 cutoff)
+Stack Rock Group,Boise,construction_industrial,"sourcing_screen: Landscape architecture firm, outside engineering/survey/testing scope; hiring posts undated"
+HK Environmental LLC,Nampa,construction_industrial,sourcing_screen: Small environmental inspection firm; no 2026 signal found
+"Landmark Engineering & Planning, Inc.",Nampa,construction_industrial,sourcing_screen: No current signal; only 2006 news found
+"Accurate Surveying & Mapping, P.C.",Boise,construction_industrial,sourcing_screen: Small family firm; no hiring or dated 2026 signal found
+Rio Applied Science & Engineering,Boise,construction_industrial,sourcing_screen: Jobs page exists but no live postings or dated 2026 signal surfaced
+"Compass Land Surveying, PLLC",Nampa,construction_industrial,sourcing_screen: No hiring or dated 2026 signal found
+Skinner Land Survey,Caldwell,construction_industrial,sourcing_screen: No hiring or dated 2026 signal found
+"Mason & Stanfield, Inc.",Nampa,construction_industrial,sourcing_screen: No hiring or dated 2026 signal found in discovery
+Construction Material Testing (constructionmaterialtesting.com),,construction_industrial,"sourcing_screen: Appears to be an out-of-state job aggregator (Houston phone), not a local firm with an in-scope site"
+Mountain Waterworks,Boise,construction_industrial,"sourcing_screen: Acquired by Merrick & Company; operating status and brand unclear, no 2026 signal found"
+Ackerman-Estvold,,construction_industrial,"sourcing_screen: Boise land surveyor posting seen, but no in-scope office confirmed"
+CORE Construction,Caldwell,construction_industrial,"sourcing_screen: In exclusion index (coreconstruction.com). Named as CM/GC on Caldwell Fire Station 1, Fire Admin and Station 4 (2026 construction)."
+Okland Construction,Caldwell,construction_industrial,sourcing_screen: In exclusion index (okland.com). GC on Canyon County Sheriff's Administration Building.
+"HC Company, Inc.",Boise,construction_industrial,"sourcing_screen: In exclusion index (hcco-inc.com). Kuna Boys and Girls Club GC; ESOP conversion reported by BoiseDev Mar 12, 2026."
+Kreizenbeck Constructors,Meridian,construction_industrial,"sourcing_screen: In exclusion index. CM on Meridian community center and Settlers Park expansion (groundbreaking Feb 19, 2026)."
+"Engineered Structures, Inc. (ESI)",Kuna,construction_industrial,sourcing_screen: In exclusion index (esiconstruction.com). Contractor on Meta Kuna data center.
+"Quality Electric, Inc.",Boise,construction_industrial,sourcing_screen: In exclusion index (qeidaho.com). Micron PLA electrical contractor.
+EC Electric,Boise,construction_industrial,sourcing_screen: In exclusion index. Micron PLA electrical contractor.
+G Zero,Nampa,construction_industrial,"sourcing_screen: Merged into EnviroTech under Alturas Ventures (BoiseDev May 14, 2026). Would duplicate the EnviroTech candidate."
+Semi-Kinetics,Nampa,construction_industrial,"sourcing_screen: Only dated lead is the Jan 27, 2026 Nampa hiring release (SMT Today), before the Mar 1, 2026 window. Not otherwise disqualified; recheck semi-kinetics.com careers for live Nampa roles."
+"JST Manufacturing, Inc.",Meridian,construction_industrial,"sourcing_screen: Only dated lead is the May 24, 2021 Meridian facility grand opening. No in-window dated news found."
+Faber Construction,Nampa,construction_industrial,sourcing_screen: Nampa Fleet Services CM/GC council vote on Sep 15 could not be tied to 2026 (likely 2025). No confirmed in-window dated lead.
+Hoffman Construction Company,Boise,construction_industrial,sourcing_screen: Current role on the Micron Boise fab not confirmed in any dated in-window source; the only link found is a Hoffman project page for an older Micron research building.
+Tractor Supply Company (Nampa distribution center),Nampa,construction_industrial,"sourcing_screen: National big box retail chain with centrally supplied apparel. Distribution center, not construction_industrial."
+Ahlquist Development,Boise,construction_industrial,"sourcing_screen: Real estate developer (District at Ten Mile, Heritage Square), not an allowed construction_industrial subsegment."
+The Pacific Companies,Eagle,construction_industrial,"sourcing_screen: Real estate developer (Heritage Square co-developer), not an allowed construction_industrial subsegment."
+Babcock Design,Boise,construction_industrial,"sourcing_screen: Architecture firm (Heritage Square design lead), outside the allowed subsegments."
+HGA Architects,Nampa,construction_industrial,"sourcing_screen: Out of state architecture firm (Saint Alphonsus Nampa expansion, groundbreaking Jun 25, 2026), outside the allowed subsegments with no in-scope office confirmed."
+Lombard Conrad Architects,Boise,construction_industrial,"sourcing_screen: Architecture firm outside the allowed subsegments. The Idaho Farm Bureau HQ groundbreaking was Oct 16 (2025), before the window."
+Nampa and Meridian Irrigation District,Nampa,construction_industrial,"sourcing_screen: Public district (government). Its CM/GC solicitation for the new campus closed Apr 15, 2026; the contractor was not identified."
+Saint Alphonsus Health System,Nampa,construction_industrial,"sourcing_screen: Healthcare vertical, outside this construction_industrial scope. The GC for the Nampa tower (groundbreaking Jun 25, 2026) was not identified."
+Allied Business Solutions,Meridian,construction_industrial,"sourcing_screen: IT services firm (new Meridian HQ, BoiseDev Jun 24, 2026), outside construction_industrial."
+"Right Now Heating, Cooling, Plumbing and Electrical",Nampa,construction_industrial,"sourcing_screen: In exclusion index (rightnowheatcool.com, already delivered)"
+KIT HomeBuilders West,Nampa,construction_industrial,sourcing_screen: In exclusion index (kitwest.com)
+"Engineered Structures, Inc. (ESI)",Meridian,construction_industrial,sourcing_screen: In exclusion index (esiconstruction.com)
+"HC Company, Inc.",Meridian,construction_industrial,sourcing_screen: In exclusion index (hcco-inc.com)
+"KM Engineering, LLP",Boise,construction_industrial,sourcing_screen: In exclusion index (kmengllp.com)
+BME Fire Trucks,Boise,construction_industrial,sourcing_screen: In exclusion index (bmefire.com)
+"Innovative Air, Inc.",Boise,construction_industrial,sourcing_screen: In exclusion index (innovativeairinc.com)
+Amalgamated Sugar Company,Boise,construction_industrial,sourcing_screen: In exclusion index (amalgamatedsugar.com)
+College of Western Idaho,Nampa,construction_industrial,sourcing_screen: Public college
+Boise State University,Boise,construction_industrial,sourcing_screen: Public university
+City of Boise,Boise,construction_industrial,sourcing_screen: Government
+"City of Eagle, Idaho",Eagle,construction_industrial,sourcing_screen: Government
+Eagle County Government,,construction_industrial,sourcing_screen: Government and out of state (Colorado)
+Tradesmen International,Meridian,construction_industrial,sourcing_screen: Staffing agency
+Idaho Manufacturing Alliance,Nampa,construction_industrial,"sourcing_screen: Trade association, not an operating construction/industrial buyer"
+Tractor Supply Company (Nampa distribution center),Nampa,adjacent_verticals,sourcing_screen: National big-box retailer; its DC apparel is centrally supplied. The grand opening is 2026 but the company is excluded by type.
+Amazon (Meridian and Nampa delivery stations / fulfillment),Meridian,adjacent_verticals,sourcing_screen: National big-box and e-commerce operator with centrally supplied uniforms.
+Albertsons Distribution Center Meridian,Meridian,adjacent_verticals,sourcing_screen: National grocery chain DC; apparel centrally supplied.
+Costco (south Meridian warehouse and distribution site),Meridian,adjacent_verticals,sourcing_screen: Big-box retail chain.
+Sysco Idaho / US Foods / UNFI / PepsiCo Boise,Boise,adjacent_verticals,"sourcing_screen: National public distributors whose uniform programs are usually contracted centrally; left out in favor of independent, locally operated companies."
+AAA Cooper / Estes Express / Old Dominion / UPS Boise terminals,Boise,adjacent_verticals,sourcing_screen: National LTL and parcel carriers with centrally supplied uniforms; not locally operated.
+"Alpha Transport, Inc.",Boise,adjacent_verticals,sourcing_screen: Salt Lake City petroleum tanker carrier with only a Boise terminal; fuel-rack driver apparel is likely FR. Left out.
+Professional Transportation Inc.,Nampa,adjacent_verticals,sourcing_screen: Indiana-headquartered national railroad crew transport company; Nampa driver jobs only; centrally managed. Left out.
+Specialty Fulfillment Center (pickandship.com),Nampa,adjacent_verticals,sourcing_screen: pickandship.com now shows Argo Shipping (Nexus Web Services) with Lehi UT and McHenry IL warehouses and no Nampa site. Likely acquired and folded in.
+Four Keys Logistics LLC,Meridian,adjacent_verticals,sourcing_screen: FMCSA broker authority revoked/inactive; the company now sells logistics software.
+Craig Stein Beverage (The Odom Corporation Boise),Boise,adjacent_verticals,"sourcing_screen: LinkedIn page now shows The Odom Corporation, so it appears absorbed. Also possibly related to Stein Distributing; left out to avoid a duplicate record."
+Valley Cold Storage & Transportation,Kuna,adjacent_verticals,"sourcing_screen: Renamed into Intermountain Ice & Cold Storage, which is already a candidate; duplicate."
+Boise Cold Storage,Boise,adjacent_verticals,"sourcing_screen: Now Intermountain Ice & Cold Storage, which is already a candidate; duplicate name."
+iWest Companies (InterWest Moving & Storage),Boise,adjacent_verticals,"sourcing_screen: Its Boise unit is Merchants Moving & Storage, which is already a candidate; duplicate."
+IdaCold LLC (Dickinson Frozen Foods / Oregon Potato Company),Nampa,adjacent_verticals,"sourcing_screen: Cold storage belonging to a food processor (manufacturing), not a logistics company."
+Lactalis American Group (Nampa warehouse forklift posting),Nampa,adjacent_verticals,sourcing_screen: Already delivered (on the exclusion index).
+Idaho Delivery Services (Vet 2 Pet LLC),Boise,adjacent_verticals,sourcing_screen: Very small contracted courier; no hiring program or site signal.
+Action Movers Group LLC,Meridian,adjacent_verticals,sourcing_screen: Two-truck mover with no qualifying signal found.
+US Express Trucking LLC,Nampa,adjacent_verticals,sourcing_screen: Four power units; too small and no signal found.
+Meyer Logistics,,adjacent_verticals,"sourcing_screen: Oregon carrier; Boise appears only as a lane endpoint, with no in-scope site."
+Idaho Youth Ranch (Boise distribution) and The Idaho Foodbank,Boise,adjacent_verticals,"sourcing_screen: Nonprofits that belong in nonprofit_staff_events, outside this logistics scope."
+"The Franklin Group / Franklin Building Supply, Great Floors LLC",Boise,adjacent_verticals,"sourcing_screen: Building materials and flooring dealers, outside the logistics and distribution scope."
+Nampa Christian Schools (route driver postings),Nampa,adjacent_verticals,"sourcing_screen: Private school, outside this logistics scope."
+Camping World (Meridian and Caldwell),Meridian,adjacent_verticals,"sourcing_screen: National RV retail chain (publicly traded), treated like big box retail with centrally supplied apparel"
+CarMax Boise,Meridian,adjacent_verticals,sourcing_screen: National used car chain with centrally supplied apparel
+Rush Truck Centers Boise,Boise,adjacent_verticals,sourcing_screen: National publicly traded truck dealer chain with corporate uniform programs; prefer local operators (has Boise diesel mechanic posting if the policy changes)
+Larry H. Miller Subaru Boise,Boise,adjacent_verticals,sourcing_screen: Possible name or parent overlap with the excluded Larry H. Miller Senior Health Care family; held back pending a parent check
+Western Power Sports (WPS),Boise,adjacent_verticals,"sourcing_screen: Powersports parts distributor, not a dealer; belongs to logistics_distribution sourcing"
+Carl's Cycle Sales,Boise,adjacent_verticals,"sourcing_screen: Employment page loaded Sep 23, 2026 says no positions available, and no dated 2026 signal was found"
+Edge Performance Sports,,adjacent_verticals,sourcing_screen: Stores in Ontario OR and Mountain Home only; no in scope site
+Legacy Power Sports & RV,,adjacent_verticals,sourcing_screen: Located in La Grande OR; no in scope site
+Eagle Rock Indian Motorcycle,,adjacent_verticals,sourcing_screen: Located in Idaho Falls; out of scope
+Farm Equipment USA (AG Equipment Southwest),,adjacent_verticals,sourcing_screen: Located in Fruitland; out of scope town
+Blue Compass RV (formerly Blue Dog RV),,adjacent_verticals,sourcing_screen: Idaho stores only in Post Falls and Hayden; no in scope site found
+Outlaw Powersports,,adjacent_verticals,sourcing_screen: Located in Mountain Home; out of scope
+Mountain Home Auto Ranch,,adjacent_verticals,sourcing_screen: Located in Mountain Home; out of scope
+Tractor Supply Company (Kuna),Kuna,adjacent_verticals,sourcing_screen: Big box retail chain with centrally supplied apparel
+TrailersPlus,,adjacent_verticals,sourcing_screen: National trailer retail chain; no local operating unit confirmed
+Byrider Nampa,Nampa,adjacent_verticals,sourcing_screen: National buy here pay here franchise brand with centrally managed branding; low priority
+The House of Trucks,,adjacent_verticals,"sourcing_screen: Used semi dealer with locations in Chicago, Miami and Dallas; no Idaho site"
+Snake River Yamaha,Meridian,adjacent_verticals,sourcing_screen: Acquired by the Dennis Dillon group and folded into Dillon Powersports; its former Meridian site is being taken over by Fairly Reliable Bob's
+"Dillon Powersports / Dillon Marine / Dillon RV / Dennis Dillon Nissan, Mazda, CDJR, Canyon Honda",Boise,adjacent_verticals,sourcing_screen: Same Dennis Dillon family group; covered by the single Dennis Dillon RV & Marine candidate
+Kendall Ford of Meridian / Kendall Hyundai of Nampa / Kendall Auto Mall / Kendall Lincoln Treasure Valley,Meridian,adjacent_verticals,sourcing_screen: Duplicates of the Kendall Auto Idaho candidate
+Peterson BMW of Boise / Peterson Lexus / Peterson Toyota,Boise,adjacent_verticals,sourcing_screen: Duplicates of the Peterson Auto Group candidate
+Lyle Pearson Acura / Lyle Pearson Volvo / Mercedes Benz of Boise,Boise,adjacent_verticals,sourcing_screen: Duplicates of the Lyle Pearson Auto Group candidate
+Idaho Recreation Superstore / Denago Idaho,Meridian,adjacent_verticals,"sourcing_screen: Same 1720 W Franklin Rd Meridian site as Eco Motors; likely affiliated, so not listed separately"
+Life Time Eagle (Life Time Inc.),Eagle,adjacent_verticals,"sourcing_screen: National fitness chain with centrally supplied apparel (opened Apr 8, 2026)"
+VillaSport Fitness (joinvillasport.com),Boise,adjacent_verticals,sourcing_screen: Multi state corporate fitness chain that took over Crunch clubs in Dec 2025; treated as a national fitness chain with central branding and apparel
+Axiom Fitness,Boise,adjacent_verticals,sourcing_screen: Acquired by VillaSport in 2022 and folded in; no longer an independent operator
+Planet Fitness Caldwell,Caldwell,adjacent_verticals,sourcing_screen: National fitness franchise
+Urban Air Trampoline and Adventure Park Boise,Boise,adjacent_verticals,sourcing_screen: National entertainment franchise with centrally supplied apparel
+Gracie Barra Meridian / Gracie Barra South Boise,Meridian,adjacent_verticals,sourcing_screen: Franchise network whose uniforms and apparel are supplied centrally
+Studio Pilates Meridian,Meridian,adjacent_verticals,sourcing_screen: International fitness franchise
+YogaSix North Meridian,Meridian,adjacent_verticals,sourcing_screen: National fitness franchise
+FS8 Meridian,Meridian,adjacent_verticals,sourcing_screen: National fitness franchise (F45 family)
+HOTWORX Meridian,Meridian,adjacent_verticals,sourcing_screen: National fitness franchise
+Anytime Fitness Star,Star,adjacent_verticals,sourcing_screen: National fitness franchise
+X-Golf Boise,Boise,adjacent_verticals,sourcing_screen: National golf simulator franchise
+Eagle ATA Martial Arts / Legacy Martial Arts (Meridian ATA),Eagle,adjacent_verticals,sourcing_screen: ATA licensed national martial arts chain whose uniforms are supplied centrally
+S2 Pickleball,Boise,adjacent_verticals,sourcing_screen: Closed; evicted and shut down in June 2026
+Lakeview Golf Course,Meridian,adjacent_verticals,"sourcing_screen: Hires through the City of Meridian, so it is city operated (government)"
+Quail Hollow Golf Club,Boise,adjacent_verticals,sourcing_screen: Believed to be owned by the City of Boise (government); ownership not checked this session
+Purple Sage Golf Course (City of Caldwell golf),Caldwell,adjacent_verticals,sourcing_screen: Government; the golf staff posting is on the City of Caldwell jobs site
+Ford Idaho Center,Nampa,adjacent_verticals,sourcing_screen: Government owned venue (City of Nampa)
+Nampa Recreation Center / Nampa Parks and Rec,Nampa,adjacent_verticals,sourcing_screen: Government
+Idaho IceWorld,Boise,adjacent_verticals,sourcing_screen: Believed to be City of Boise owned (government); ownership not checked this session
+Eagle Sports Complex,Eagle,adjacent_verticals,sourcing_screen: Government (City of Eagle facility)
+The Park at Expo Idaho,Garden City,adjacent_verticals,sourcing_screen: Government (Ada County)
+Brabeion Academy,Nampa,adjacent_verticals,sourcing_screen: Public school
+Johnson Sports Center (Northwest Nazarene University),Nampa,adjacent_verticals,"sourcing_screen: University athletic building, not an independent recreation operator"
+Foxtail Golf Club,,adjacent_verticals,"sourcing_screen: Out of state (Rohnert Park, CA); false positive from the Apollo lookup"
+RISE Indoor Sports,,adjacent_verticals,"sourcing_screen: Out of state (Bermuda Run, NC); no in scope site"
+Roaring Springs Water Park,Meridian,adjacent_verticals,sourcing_screen: Sister business of Wahooz Family Fun Zone under common ownership; folded into that candidate to avoid a duplicate
+Plantation Country Club,Garden City,adjacent_verticals,sourcing_screen: Former name of The River Club (renamed 2020); already listed under the current name
+Idaho Steelheads / Idaho Central Arena,Boise,adjacent_verticals,sourcing_screen: Operated by Block 22 LLC; folded into that candidate to avoid a duplicate
+The Riverside Hotel,Garden City,adjacent_verticals,sourcing_screen: National hotel flag: reservations run through bestwestern.com (Best Western property).
+Pennbridge Hospitality (AC Hotel Boise Downtown / Element by Marriott),Boise,adjacent_verticals,"sourcing_screen: National hotel flags (Marriott AC Hotel and Element), May 2026 opening; centrally branded."
+My Place Hotel Boise/Meridian,Meridian,adjacent_verticals,sourcing_screen: National hotel franchise flag.
+Western Collective,Garden City,adjacent_verticals,"sourcing_screen: Brewpublic reports the owners relocated to Arizona and owe about $800K in unpaid rent, so operating status is at risk. Tracked Function PDX, which runs the taproom collaboration, instead."
+River Six,Kuna,adjacent_verticals,"sourcing_screen: Amenity restaurant inside the Trilogy Valor Treasure Valley Social Club (Shea Homes). It opened in Feb 2026, before the evidence cutoff."
+Anderson Prime Steakhouse,Star,adjacent_verticals,"sourcing_screen: Project stalled: no building permits filed as of Jul 2026 per BoiseDev and local reporting, so there is no operating local site yet."
+Gather Brewing,Boise (Avimor),adjacent_verticals,"sourcing_screen: Texas based brewery at Avimor, an unincorporated Ada County community outside the listed cities."
+Brown Beard Brewing,Garden City,adjacent_verticals,"sourcing_screen: Chinden taproom closed Jan 17, 2026, and the owner downsized to distribution."
+Mad Swede Brewing,Boise,adjacent_verticals,sourcing_screen: Closed Oct 2025.
+KJ's American Grille,Meridian,adjacent_verticals,"sourcing_screen: Closing Sep 2026 with a new owner pending (BoiseDev Sep 21, 2026)."
+Lindy's Steakhouse,Boise,adjacent_verticals,"sourcing_screen: Business listed for sale Sep 2026, so ownership status is uncertain."
+3 Horse Ranch Vineyards,Eagle,adjacent_verticals,"sourcing_screen: Winery and ranch listed for sale for $29.5M in Jun 2026, so ownership status is uncertain."
+Lucky Fins,Meridian,adjacent_verticals,"sourcing_screen: Downtown Boise location closed, and no dated 2026 hiring or expansion signal was found."
+Postino (Village at Meridian),Meridian,adjacent_verticals,sourcing_screen: Arizona based multi state chain unit with centrally supplied branding.
+El Gaucho,Boise,adjacent_verticals,"sourcing_screen: Seattle based regional chain unit, and the Boise opening (Jan 2026) predates the evidence cutoff."
+"R&R BBQ, Kona Grill, Dave's Hot Chicken, Smashburger, Cafe Rio, Swig",Boise,adjacent_verticals,sourcing_screen: Franchise or chain units of multi state brands with centrally supplied apparel.
+Boise Centre,Boise,adjacent_verticals,"sourcing_screen: Operated by the Greater Boise Auditorium District, a public entity."
+Nampa Civic Center,Nampa,adjacent_verticals,sourcing_screen: City owned facility (government).
+Indian Creek Plaza,Caldwell,adjacent_verticals,sourcing_screen: City of Caldwell owned and programmed plaza (government).
+Compass Group catering at Boise State,Boise,adjacent_verticals,sourcing_screen: National contract caterer serving a public university account.
+Sawtooth Winery,Nampa,adjacent_verticals,sourcing_screen: Sister brand of Ste. Chapelle under Precept Wine; kept one buying unit (Ste. Chapelle).
+Town and Country Market (Symms Fruit Ranch),Boise,adjacent_verticals,"sourcing_screen: Grocery and produce market, outside the hospitality sourcing scope."
+Challenger School (Boise and Meridian campuses),Meridian,adjacent_verticals,"sourcing_screen: Campus of a multi state company owned private school chain (Challenger Schools, Utah) with uniforms and purchasing set centrally, not locally operated"
+Montessori Academy (Idaho),Eagle,adjacent_verticals,sourcing_screen: Operated by the national Spring Education Group (central careers portal); the Eagle campus at 1400 N Park Ln is listed as closed and the building is for sale or lease
+Goldfish Swim School Boise,Boise,adjacent_verticals,sourcing_screen: Franchise unit of a national swim school chain with centrally supplied apparel
+The Little Gym of Meridian / West Boise,Meridian,adjacent_verticals,sourcing_screen: Franchise unit of a national kids gym chain with centrally supplied apparel
+Skyhawks Sports,Star,adjacent_verticals,sourcing_screen: National youth sports franchise operator; programs run on city fields with centrally supplied apparel
+Brabeion Academy,Nampa,adjacent_verticals,sourcing_screen: Public charter school (Idaho Public Charter School Commission)
+Compass Public Charter School,Meridian,adjacent_verticals,sourcing_screen: Public charter school
+Idaho Novus Classical Academy,Eagle,adjacent_verticals,sourcing_screen: Tuition free public charter school
+Gem Prep Meridian,Meridian,adjacent_verticals,sourcing_screen: Public charter school network
+Valor Classical Academy,Kuna,adjacent_verticals,sourcing_screen: Public charter school (American Classical Schools of Idaho)
+Sage International School,Boise,adjacent_verticals,sourcing_screen: Public charter school
+Meridian Homecourt,Meridian,adjacent_verticals,sourcing_screen: City of Meridian owned facility (government)
+Star Idaho Recreation / Middleton Parks and Recreation / Nampa Parks and Rec / City of Boise youth swim team,Star,adjacent_verticals,sourcing_screen: Government recreation departments
+College of Western Idaho / Boise State University (Bronco athletics camps),Boise,adjacent_verticals,sourcing_screen: Public colleges and universities
+West Ada career technical center / Independence Elementary (Joint School District No. 2),Meridian,adjacent_verticals,sourcing_screen: Public school district facilities
+Idaho ONE Volleyball Club / Treasure Valley Beach / Idaho Beach Juniors,Meridian,adjacent_verticals,sourcing_screen: Same owner and buying unit as Treasure Valley Athletic Center; merged into that candidate to avoid a duplicate
+U.S. Baseball Academy (Kuna summer camp) / Nike Baseball Camps (US Sports Camps),Kuna,adjacent_verticals,sourcing_screen: Out of state touring camp operators with no in scope site of their own
+Proposed $120M Kuna youth sports complex,Kuna,adjacent_verticals,"sourcing_screen: Announcement dated Jan 10, 2026 (before the Mar 1, 2026 cutoff); no operating entity or local site identified yet"
+Idaho Youth Ranch,Boise,adjacent_verticals,"sourcing_screen: Nonprofit youth behavioral and residential treatment provider, outside the private schools, youth sports and camps scope (better fits behavioral health or nonprofit)"
+Boys and Girls Clubs of Ada County,Garden City,adjacent_verticals,"sourcing_screen: Nonprofit youth services organization, outside this scope (belongs to nonprofit_staff_events sourcing)"
+Meridian Food Bank,Meridian,adjacent_verticals,"sourcing_screen: Describes itself as an all volunteer organization; no paid staff, so it falls outside the nonprofit staff scope"
+Star Food Bank,Star,adjacent_verticals,"sourcing_screen: Volunteer run pantry listed on the City of Star site; no paid staff or its own domain confirmed (land for a 5,000 SF facility secured Aug 6, 2026 per KIVI, which could be revisited)"
+Special Olympics Idaho,Garden City,adjacent_verticals,"sourcing_screen: Official site now lists its HQ as PO Box 541, New Plymouth (out of scope); the Garden City office appears only in stale directories; events are held at rented venues"
+Nampa Family Justice Center,Nampa,adjacent_verticals,sourcing_screen: Government: a City of Nampa department
+Rising Stars Therapeutic Riding Center,Twin Falls,adjacent_verticals,"sourcing_screen: Only site is in Twin Falls, out of scope"
+Boys & Girls Clubs of the Western Treasure Valley,Payette,adjacent_verticals,"sourcing_screen: Clubs are in Payette, Weiser and Ontario OR, all out of scope towns"
+Discovery Center of Idaho,Boise,adjacent_verticals,sourcing_screen: Careers page says it is not actively hiring; no dated 2026 event or expansion signal found
+Faces of Hope,Boise,adjacent_verticals,sourcing_screen: Careers page shows no open positions; no dated 2026 signal found
+Ballet Idaho,Boise,adjacent_verticals,"sourcing_screen: Employment page lists no available staff positions, only dancer auditions; no qualifying signal found"
+St. Vincent de Paul Southwest Idaho,Boise,adjacent_verticals,sourcing_screen: Join Our Team page is volunteer only; no staff postings or dated signal seen on the official site
+Kuna Chamber of Commerce / Eagle Chamber of Commerce,Kuna,adjacent_verticals,"sourcing_screen: Business associations, not service nonprofits running staff event programs; the only signal found was a single executive director hire"
+Teufel Landscape,Boise,adjacent_verticals,sourcing_screen: On the exclusion index (already delivered).
+Real Property Management Boise,Boise,adjacent_verticals,"sourcing_screen: A franchise unit of a national chain (the Neighborly brand), with centrally set branding."
+The Grounds Guys (Eagle),Eagle,adjacent_verticals,"sourcing_screen: A franchise unit of a national chain (the Neighborly brand), with centrally supplied apparel."
+Weed Man (Eagle area),Eagle,adjacent_verticals,"sourcing_screen: A franchise unit of a national lawn care chain, with centrally supplied uniforms."
+Lawn Doctor of Boise,Boise,adjacent_verticals,sourcing_screen: A franchise unit of a national lawn care chain.
+Spring-Green Lawn Care (Boise),Boise,adjacent_verticals,sourcing_screen: A franchise unit of a national lawn care chain.
+U.S. Lawns Boise,Boise,adjacent_verticals,sourcing_screen: A franchise unit of a national landscape chain.
+Conserva Irrigation (Boise),Boise,adjacent_verticals,sourcing_screen: A franchise unit of a national irrigation chain.
+TruGreen (Meridian),Meridian,adjacent_verticals,"sourcing_screen: A branch of a national lawn care chain, with centrally supplied uniforms."
+Arbortec Tree Service,,adjacent_verticals,"sourcing_screen: The careers page shows only Broomfield, CO. No in-scope Idaho site was documented, so it is treated as out of state."
+"Personnel Plus, Inc.",Boise,adjacent_verticals,sourcing_screen: Staffing agency.
+InterSolutions Multifamily Staffing,Boise,adjacent_verticals,sourcing_screen: Staffing agency.
+Gem State Staffing,Boise,adjacent_verticals,sourcing_screen: Staffing agency.
+City of Boise Community Forestry,Boise,adjacent_verticals,sourcing_screen: Government agency.
+Nampa & Meridian Irrigation District,Nampa,adjacent_verticals,sourcing_screen: Government or public district.
+Boise State University (Landscape),Boise,adjacent_verticals,sourcing_screen: Public university.
+The Housing Company,Boise,adjacent_verticals,"sourcing_screen: A nonprofit affiliate of the Idaho Housing and Finance Association (quasi-public), which is outside the target profile."
+"Oppenheimer Companies, Inc.",Boise,adjacent_verticals,"sourcing_screen: Its core business is member and supplier services, not property management. Only one property maintenance role was seen, so it is outside the sourcing scope."
+Pacific Lifestyle Homes,Boise,adjacent_verticals,"sourcing_screen: A homebuilder, not property management or landscaping, so it is outside the sourcing scope."
+"Association Management, Inc. (AMI)",Meridian,adjacent_verticals,sourcing_screen: Merged into Keystone Pacific Property Management ('AMI is now Keystone'). It is a duplicate of the Keystone candidate.
+"Pilot Property Management, Inc.",Boise,adjacent_verticals,"sourcing_screen: Its LinkedIn posting uses Keystone branding text, so it appears to be a Keystone affiliate. It is a likely duplicate of the Keystone candidate."
+Greystar (Boise communities),Boise,adjacent_verticals,sourcing_screen: A national third-party apartment operator with central brand and uniform programs. Deprioritized in favor of locally operated firms.
+PURE HomeRiver Property Management,Boise,adjacent_verticals,sourcing_screen: A national property management platform (the nation's largest third-party manager). Deprioritized in favor of locally operated firms.
+Park Pointe Management Services of Ada County,,adjacent_verticals,"sourcing_screen: Subject of a May 2026 Idaho Attorney General settlement over hidden HOA fees. Deprioritized for reputational reasons, and no hiring signal was found."
+Asplundh Tree Expert / Davey Tree (Boise),Boise,adjacent_verticals,sourcing_screen: National utility vegetation contractors whose crew apparel is largely PPE or centrally supplied. Deprioritized.
+"Johnson Property Management, LLC",Meridian,adjacent_verticals,"sourcing_screen: No qualifying signal dated on or after Mar 1, 2026 was found. The only dated item is a Jan 2026 market update, and the careers page shows template text."
+Lawn Co.,Boise,adjacent_verticals,sourcing_screen: Only a generic 'Apply Now' link was seen. There were no named local roles and no dated signal.
+Bank of America,Meridian,adjacent_verticals,sourcing_screen: National megabank; the scope says to avoid them
+Wells Fargo,Boise,adjacent_verticals,sourcing_screen: National megabank; the scope says to avoid them
+JPMorgan Chase,Star,adjacent_verticals,sourcing_screen: National megabank; the scope says to avoid them
+U.S. Bank,Star,adjacent_verticals,sourcing_screen: National megabank; the scope says to avoid them
+Idaho Department of Finance,Boise,adjacent_verticals,sourcing_screen: Government agency
+Idaho Credit Union League,Boise,adjacent_verticals,"sourcing_screen: Trade association, not a bank or credit union with branch staff"
+Idaho Bankers Association,Boise,adjacent_verticals,"sourcing_screen: Trade association, not a bank with branch staff"
+Hawley Troxell,Boise,adjacent_verticals,sourcing_screen: Law firm; outside the banks_credit_unions subsegment
+Horizon Credit Union (Spokane) duplicate listing via LPL Financial advisor posting,Boise,adjacent_verticals,"sourcing_screen: LPL Financial posting for an advisor placed at Horizon; kept Horizon itself once, not LPL"
+HotWorx,Boise,adjacent_verticals,sourcing_screen: National fitness franchise unit (Boise Metro Chamber ribbon cutting); apparel centrally supplied
+Life Time Eagle,Eagle,adjacent_verticals,"sourcing_screen: National fitness club chain (opened Apr 8, 2026); corporate central apparel procurement"
+Les Schwab #138,Nampa,adjacent_verticals,"sourcing_screen: National tire chain unit (Nampa Chamber ribbon cutting Sep 18, 2026); uniforms centrally supplied"
+Fairfield Inn & Suites Middleton,Middleton,adjacent_verticals,sourcing_screen: National hotel flag franchise
+Tractor Supply Company (Nampa distribution center),Nampa,adjacent_verticals,sourcing_screen: National big box retailer; centrally supplied apparel
+Amazon (Boise/Nampa facilities),Nampa,adjacent_verticals,sourcing_screen: National corporation with central procurement; not an independent local buyer
+Assisting Hands Home Care,Nampa,adjacent_verticals,sourcing_screen: duplicate_of_input: Assisting Hands is in the exclusion index
+Great Midwest Bank,Middleton,adjacent_verticals,"sourcing_screen: Chamber listing is Middleton, Wisconsin; no in scope Idaho site"
+Storage Sense,Emmett,adjacent_verticals,sourcing_screen: Ribbon cutting geocodes to Emmett area (out of scope town)
+The Pitch,Caldwell,adjacent_verticals,"sourcing_screen: Indoor soccer complex opened late Nov 2025; no lead dated Mar 1, 2026 or later found"
+The Flying Pickle,Nampa,adjacent_verticals,"sourcing_screen: Pickleball franchise; only lead dated Feb 26, 2026 (before window)"
+Idaho Fitness Factory,Meridian,adjacent_verticals,"sourcing_screen: Only lead (Idaho Business Review, Feb 16, 2026) predates Mar 1; Kuna and Star 2026 openings worth rechecking for a later dated post"
+HSB Academy,Meridian,adjacent_verticals,"sourcing_screen: Only lead (BoiseDev Feb 11, 2026, new basketball facility) predates Mar 1; recheck for later dated signal"
+Fairly Reliable Bob's,Meridian,adjacent_verticals,"sourcing_screen: Relocation lead dated Jan 8, 2026 (before window); no later dated item found"
+Function Brewery,Garden City,adjacent_verticals,sourcing_screen: Design review only; no local site until planned summer 2027 opening
+Premier Sports Pavilion (PSP Holdings),Eagle,adjacent_verticals,sourcing_screen: Proposal only (Aug 2026); no operating in scope site
+School of Rock Meridian,Meridian,adjacent_verticals,sourcing_screen: National franchise unit; brand apparel likely centrally supplied
+U.S. Bank (Eagle branch),Eagle,adjacent_verticals,sourcing_screen: National bank with centrally managed branding; not a local buying unit
+Calvary Placement Agency,Boise,adjacent_verticals,sourcing_screen: Staffing/placement agency
+CoffeeNow,Boise,adjacent_verticals,sourcing_screen: Coffee chain/kiosk concept; excluded franchise category
+Qdoba / Panera Bread / Habit Burger / Dutch Bros / Handel's / Raising Cane's,Nampa,adjacent_verticals,sourcing_screen: QSR and national food franchise units
+Spar & Sons,Nampa,adjacent_verticals,sourcing_screen: Commercial real estate investment firm; not an allowed adjacent_verticals subsegment
+Idaho Division of Vocational Rehabilitation,Nampa,adjacent_verticals,sourcing_screen: State government agency
+Skyview Park Playground,Nampa,adjacent_verticals,sourcing_screen: City government project
+Bluebird Social,Boise,adjacent_verticals,"sourcing_screen: BoiseDev Apr 24, 2026 item; concept unclear and possible overlap with Stockyard Social Greenbelt project; not added"
+Irby Utilities,Nampa,adjacent_verticals,"sourcing_screen: New Nampa branch found but no dated lead in the Mar 1 to Sep 23, 2026 window could be confirmed"
+St. Croix Hospice,Boise,healthcare,"verification: out_of_scope_no_verified_local_site: official site lists service only in Midwest states with no Idaho branch, and the BoiseDev calendar ribbon cutting could not be re-found in search (page blocked), so no Boise address, event date or local role is confirmed"
+Allied Business Solutions,Meridian,construction_industrial,"verification: vertical_mismatch_office_technology: Allied is a managed IT and print dealer (copiers, multifunction printers, managed IT and security services), not a construction or industrial company, so it does not belong in construction_industrial even though its Meridian headquarters build is a strong dated signal"

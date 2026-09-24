@@ -1,0 +1,78 @@
+{
+ "batch_id": "v007",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Sunbelt Controls",
+   "company_domain": "sunbeltcontrols.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://builtin.com/job/controls-design-engineer-ii/10963065",
+   "lead_date": "2026-09-01",
+   "lead_note": "Controls Design Engineer II posting dated Sep 1, 2026; company Instagram and LinkedIn posts say hiring two roles at the Boise office (Controls Design Engineer, Systems Software Engineer). Building automation contractor with Idaho branch.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Quality Trailer Sales",
+   "company_domain": "qualitytrailersalesofidaho.com",
+   "city": "Caldwell",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.qualitytrailersalesofidaho.com/",
+   "lead_date": "",
+   "lead_note": "Independent trailer dealer in Caldwell with sales, parts, service and financing; signal not yet confirmed.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Crane Alarm Service",
+   "company_domain": "cranealarmservice.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.thejobnetwork.com/jobs?job_organization_name=Crane+Alarm+Service",
+   "lead_date": "2026-08-14",
+   "lead_note": "Job listings show Receptionist (Aug 14, 2026), Fire Inspector (Apr 19, 2026), Scheduling Coordinator (Mar 11, 2026); ZipRecruiter lists 6 Idaho jobs incl Fire Sprinkler Installer. Idaho's largest privately owned life safety company, Nampa HQ.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Treasure Valley Trailers",
+   "company_domain": "treasurevalleytrailersales.com",
+   "city": "Nampa",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.treasurevalleytrailersales.com/",
+   "lead_date": "",
+   "lead_note": "Independent Nampa trailer dealer with new and used sales, maintenance and parts; signal not yet confirmed, check Facebook for dated hiring or expansion.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "State Fire",
+   "company_domain": "statefire.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://statefire.com/careers/",
+   "lead_date": "2026-09-04",
+   "lead_note": "Careers page snippet lists Fire Sprinkler Designer, Boise ID dated Sep 4, 2026; Boise metro office at 575 E Bower St Meridian; HQ South Salt Lake UT. Need a second local posting.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Campbell Tractor & Implement Inc",
+   "company_domain": "campbelltractor.com",
+   "city": "Nampa",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.campbelltractor.com/Careers",
+   "lead_date": "",
+   "lead_note": "John Deere dealer HQ at 2014 N Franklin Blvd Nampa, six locations; Glassdoor shows 2 open positions; confirm Nampa roles on careers page.",
+   "vertical": "construction_industrial",
+   "scope": "c_apollo_jobs"
+  }
+ ]
+}

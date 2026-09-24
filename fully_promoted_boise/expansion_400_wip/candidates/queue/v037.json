@@ -1,0 +1,78 @@
+{
+ "batch_id": "v037",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Hensel Phelps Construction Co.",
+   "company_domain": "henselphelps.com",
+   "city": "Kuna",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://datacenters.atmeta.com/2026/09/kuna-we-are-online/",
+   "lead_date": "2026-09-01",
+   "lead_note": "Meta's Kuna, We Are Online post names Hensel Phelps (with ESI, which is excluded) as contractor on the $1.2B+ Kuna data center, which had 1,600 trade workers at peak. The URL shows Sep 2026 but the exact day was not seen, so 09-01 is a placeholder. Also CM/GC for Boise Airport Concourse A (awarded 2025). National firm running a local project office.",
+   "vertical": "construction_industrial",
+   "scope": "c_news_projects"
+  },
+  {
+   "company_name": "HECO Engineers",
+   "company_domain": "hecoengineers.com",
+   "city": "Nampa",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://hecoengineers.com/careers/",
+   "lead_date": "",
+   "lead_note": "Nampa office at 5700 E Franklin Rd Ste 160; HQ is in Payette, which is out of scope. The careers page says HECO is 'preparing for a year of excellent growth', but no reqs rendered. Indeed shows a Proposal and Marketing Assistant in Nampa, and ZipRecruiter (Aug 2026) shows Lead Mechanical Engineer and Project Manager I. Weaker lead; needs 2 confirmed Nampa reqs.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Fresca Mexican Foods, LLC",
+   "company_domain": "frescamex.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://chg.wd5.myworkdayjobs.com/us_external_career_site/job/Packer-1st-Shift---5-15-am---5-30-pm--Wed-Sat--rotating-Thurs-----1760---Caldwell--ID_R820044-1",
+   "lead_date": "2026-09-09",
+   "lead_note": "190,000 sq ft tortilla plant at 2009 Smeed Pkwy, Caldwell; owned by C.H. Guenther since Jun 2025. The Workday board (via search snippets) shows Packer (Sep 9, 2026), a second Packer shift, Production Operator (Aug 20, 2026) and QA Technician, all in Caldwell.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Bragg Crane & Rigging (Bragg Companies)",
+   "company_domain": "braggcompanies.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.braggcompanies.com/meridian-id/",
+   "lead_date": "",
+   "lead_note": "Crane and rigging branch at 1898 S Century Way Boise (Idaho AGC listing); location page served; hiring or project signal not yet confirmed.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Upfront Plumbing Drains Heating and Air",
+   "company_domain": "upfrontservices.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://upfrontplumbing.applicantpro.com/jobs/3969482",
+   "lead_date": "",
+   "lead_note": "ApplicantPro postings for HVAC Helper and HVAC Installer in Boise, plus Lead Plumbing Installer on Indeed and another Boise listing posted Mar 23, 2026; Utah based with Idaho branch serving Treasure Valley.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Hunt Electric, Inc.",
+   "company_domain": "huntelectric.com",
+   "city": "Caldwell",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/commercial-journeyman-electrician-at-hunt-electric-llc-4447092645",
+   "lead_date": "",
+   "lead_note": "Search results show Commercial Journeyman Electrician ($41 to $43/hr) and Service and Troubleshooting electrician roles in Caldwell 83605 plus AGC listing for Hunt Electric Caldwell; Utah HQ with Idaho branch (850+ employees). Confirm on huntelectric.com/careers.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  }
+ ]
+}

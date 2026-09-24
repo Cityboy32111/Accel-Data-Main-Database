@@ -1,0 +1,78 @@
+{
+ "batch_id": "v030",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Peasley Transfer & Storage (Peasley Moving & Storage)",
+   "company_domain": "peasleyboisemovers.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.peasleyboisemovers.com/careers/",
+   "lead_date": "",
+   "lead_note": "Undated careers page (loaded) lists 4 roles at 111 N Curtis Rd, Boise: Driver/Mover, Mover/Helper, Warehouseman and OTR Owner Operator. Local mover and Allied Van Lines agent with a commercial warehousing arm.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Mineral Wines",
+   "company_domain": "mineralwines.com",
+   "city": "Eagle",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/04/22/ada-co-approves-new-winery-event-center-in-the-eagle-foothills/",
+   "lead_date": "2026-04-22",
+   "lead_note": "BoiseDev (Apr 22, 2026): Ada County approved a winery and 4,500 sq ft event center with tasting room at 8600 Chaparral Rd, Eagle, with phases one and two due in 2026. The site says it is moving from California to Eagle. Small operation, and the site is in unincorporated Eagle foothills, so confirm geography.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Frontier Credit Union",
+   "company_domain": "frontiercreditunion.com",
+   "city": "Star",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://frontiercreditunion.com/building-better-lives/blog/star-announce/",
+   "lead_date": "2026-05-06",
+   "lead_note": "Company blog post dated May 6, 2026 (loaded) announces a groundbreaking for a new Star branch at 11368 W State St, set for Oct 25 at 10 am. Idaho Falls based credit union (formerly East Idaho CU) that also has a Meridian branch.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "High Desert Harley-Davidson",
+   "company_domain": "highdeserthd.com",
+   "city": "Meridian",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://boisedev.com/calendar/details/bike-night/18816745/2026-06-26T18/",
+   "lead_date": "2026-06-26",
+   "lead_note": "Dealer at 2310 E Cinema Dr, Meridian runs a recurring 2026 Bike Night series: Mar 20 (Ride for 22), Jun 26 (BoiseDev calendar) and Sep 11 (Hot Bike Tour, Meridian community calendar). Also has a 2026 events page.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Idaho Rush Soccer Club",
+   "company_domain": "idahorush.com",
+   "city": "Boise",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.idahorush.com/",
+   "lead_date": "",
+   "lead_note": "Home page (loaded) shows a 26/27 coaches slate, Rec Spring/Fall 2026 and RDL Fall 2026 flyers, and summer and winter camps. The Rush Cup page (seen in search snippet) invites teams to Boise Apr 9 to 11, 2027. An Instagram post seeks coaches. Affiliate of the national Rush Soccer network, so check whether kits are bought locally. 270 S Orchard St.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Senske Services",
+   "company_domain": "senske.com",
+   "city": "Boise",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/applications-technician-lawn-care-technician-at-senske-services-4445221613",
+   "lead_date": "2026-07-22",
+   "lead_note": "There is a Boise branch posting for Applications Technician / Lawn Care Technician dated Jul 22, 2026, plus a 'Service Manager (Team Manager) Boise Branch' posting on LinkedIn about 1 week old. The UKG board lists Boise Branch Lawn Aeration Technician. The company is regional, with its HQ in Washington.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  }
+ ]
+}

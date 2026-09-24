@@ -1,0 +1,78 @@
+{
+ "batch_id": "v064",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "JST Manufacturing",
+   "company_domain": "jstmfg.com",
+   "city": "Meridian",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jstmfg.com/career-opportunities/",
+   "lead_date": "",
+   "lead_note": "Careers page (loaded) lists 8 Meridian openings: Electrical Controls Engineer, Project Manager, Mechanical Engineering Manager, Production Assistant, Mechanical Engineer, Field Service Engineer, Systems Assembly Technician, Test Line Engineer.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Saucerman Construction, Inc.",
+   "company_domain": "saucermanci.com",
+   "city": "Meridian",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.instagram.com/p/DVyeaHeGgiF/",
+   "lead_date": "",
+   "lead_note": "Named Corporate Sponsor and 2026 Strong Futures Sponsor by a local nonprofit (a separate Facebook post calls it a repeat sponsor). The Meridian GC also posted a completed Meridian retail renovation on Aug 7, 2026",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Intelligent Design Mechanical Solutions",
+   "company_domain": "idshvac.com",
+   "city": "Garden City",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.indeed.com/q-hvac-technician-l-boise,-id-jobs.html",
+   "lead_date": "",
+   "lead_note": "Indeed results show IDS hiring an HVAC technician at $115k to $160k in Garden City 83714; commercial HVAC, mechanical piping and preventive maintenance at 4290 W Chinden Blvd. Needs official careers or ATS page.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "BHI (B.H. Inc.)",
+   "company_domain": "bhico.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://bhico.applicantpro.com/jobs/4064588-14550.html",
+   "lead_date": "",
+   "lead_note": "ApplicantPro posting for EHS Manager (Solar) in Boise for the I&E Renewables division; Idaho AGC Division 26 lists BHI in Boise. Verify HQ location and a second local posting.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Idahome Energy",
+   "company_domain": "idahomeenergy.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://career.solar/company?id=5889",
+   "lead_date": "",
+   "lead_note": "Career.Solar lists 8 open positions incl Journeyman Electrician; other boards show Solar Field Marketing Rep and Door to Door Appointment Setter in Boise; Idaho owned solar and roofing, office 6149 N Meeker Pl Ste 110 Boise. Official careers page idahomeenergy.com/careers.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "RevoluSun Idaho",
+   "company_domain": "revolusun.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/groups/448851781976260/posts/3246411108886966/",
+   "lead_date": "",
+   "lead_note": "Facebook jobs group post says RevoluSun Idaho is hiring a Journeyman Electrician; Boise office 457 N Steelhead Way (opened 2019), also Coeur d'Alene; solar and heat pump installer. Need dated company post or ATS.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  }
+ ]
+}

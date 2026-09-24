@@ -1,0 +1,78 @@
+{
+ "batch_id": "v082",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "ALLWEST Testing & Engineering, Inc.",
+   "company_domain": "allwesttesting.com",
+   "city": "Meridian",
+   "subsegment": "construction_materials_testing_geotechnical",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.allwesttesting.com/careers/",
+   "lead_date": "",
+   "lead_note": "Employee-owned CMT/geotech firm with a Meridian branch listed in the Idaho AGC directory. Glassdoor and ZipRecruiter show Meridian openings at $26 to $35/hr (special inspector/technician), and the company runs a Paylocity board. Need to confirm 2 or more live Meridian reqs.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Your Glass Solution",
+   "company_domain": "yourglasssolution.com",
+   "city": "Kuna",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.facebook.com/KunaChamber/videos/your-glass-solutions-ribbon-cutting/480532045036162/",
+   "lead_date": "",
+   "lead_note": "Kuna Chamber ribbon cutting video for glass and mirror shop at 333 N Avenue C Kuna; ribbon cutting date not confirmed and company started 2024, so may predate Mar 2026.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Kenworth Sales Co., Inc.",
+   "company_domain": "kenworthsalesco.com",
+   "city": "Boise",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.kenworthsalesco.com/careers/",
+   "lead_date": "",
+   "lead_note": "Kenworth dealer careers page lists Boise openings incl. Body Shop Technician; LinkedIn shows 11 Idaho roles (Parts Counter Rep, Service Advisor, Parts Delivery Driver) and a Truck Sales Representative Boise.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Platt Electric Supply",
+   "company_domain": "platt.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/truck-driver-i-at-platt-electric-supply-4469025102",
+   "lead_date": "2026-09-23",
+   "lead_note": "Rexel USA owned electrical distributor with Boise branches (5603 W Bethel, 7039 S Eisenman Rd); Truck Driver I East Boise posted about Sep 23, 2026 plus Quotations Specialist Boise and Warehouse Associate/Branch Driver II; check corporate vs local apparel buying.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "TVR, Inc.",
+   "company_domain": "tvrinc.net",
+   "city": "Meridian",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://tvrinc.net/careers",
+   "lead_date": "",
+   "lead_note": "Careers page NOW HIRING HVAC Journeymen for its employee stock ownership team; 1900 E Lanark St Meridian; commercial HVAC/R, refrigeration, building controls and TVR Fabrication sheet metal shop.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Inland Crane, Inc.",
+   "company_domain": "inlandcrane.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.inlandcrane.com/careers/",
+   "lead_date": "",
+   "lead_note": "Boise crane, hoist and machinery moving firm (208 345 9508); careers page live Sep 2026 lists Experienced Lowboy Truck Driver, NCCCO Crane Operator and Full time Crane Mechanic (undated).",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  }
+ ]
+}

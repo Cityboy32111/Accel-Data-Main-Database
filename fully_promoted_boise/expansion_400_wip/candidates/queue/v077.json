@@ -1,0 +1,78 @@
+{
+ "batch_id": "v077",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Ageless Men's Health",
+   "company_domain": "agelessmenshealth.com",
+   "city": "Meridian",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://agelessmenshealth.applytojob.com/apply",
+   "lead_date": "",
+   "lead_note": "ApplyToJob board includes a per diem RN role in Meridian, ID. The board also lists Clinic Director PA or NP, Medical Director and Patient Coordinator roles; check which are Meridian. Company owned men's health clinic chain, not a franchise.",
+   "vertical": "healthcare",
+   "scope": "h_news_systems"
+  },
+  {
+   "company_name": "Boise Counseling Center",
+   "company_domain": "boisecounselingctr.com",
+   "city": "Boise",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://boisecounselingctr.com/job-opening",
+   "lead_date": "",
+   "lead_note": "Job opening page (loaded) says the practice is growing and adding part time and full time licensed clinicians (LPC, LCPC, LMFT, LMSW, LCSW, PhD, PsyD). The clinic is at 2500 W Kootenai St, Boise. Titles are generic, not distinct requisitions.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Keystone Center for Geriatrics",
+   "company_domain": "keystone.health",
+   "city": "Eagle",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://keystone.health/center-for-geriatrics",
+   "lead_date": "",
+   "lead_note": "Independent senior primary care group with three Treasure Valley clinics (1139 E Winding Creek Dr Eagle, 625 S Arbor Ln Meridian, 305 W Bannock St Boise). The third clinic opened in Jul 2024, which is too old, so a 2026 hiring or expansion signal is still needed.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Summit Physical Therapy",
+   "company_domain": "summitptidaho.com",
+   "city": "Star",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://summitptidaho.com/about-us/",
+   "lead_date": "",
+   "lead_note": "Star clinic at 152 N Seneca Springs Way. The about page mentions a new DPT who graduated in 2026, and a Facebook video promotes new Saturday hours. It looks to be growing, but no qualifying signal is confirmed.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "BeeHive Homes of Star",
+   "company_domain": "beehivehomes.com",
+   "city": "Star",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://beehivehomes.com/locations/star/",
+   "lead_date": "",
+   "lead_note": "Assisted living and memory loss care home at 652 S Main St, Star. It is a locally owned unit of the BeeHive Homes residential care franchise, similar to the allowed home care franchises. No hiring or event signal was observed yet, so it is low confidence.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Gold Orthodontics",
+   "company_domain": "goldortho.com",
+   "city": "Meridian",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.goldortho.com/",
+   "lead_date": "",
+   "lead_note": "Orthodontic practice at 1550 E Heritage Park St Suite 100, Meridian, serving Boise, Eagle and Nampa. No dated signal seen yet; check careers and social posts.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  }
+ ]
+}

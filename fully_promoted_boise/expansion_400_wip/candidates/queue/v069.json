@@ -1,0 +1,78 @@
+{
+ "batch_id": "v069",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Jesse Tree",
+   "company_domain": "jessetreeidaho.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.jessetreeidaho.org/",
+   "lead_date": "",
+   "lead_note": "Housed for the Holidays event page thanks 2026 sponsors, and a Bingo for Good fundraiser was held at Meriwether Cider; hiring post for a VISTA Grant Writer dated Aug 12, 2026; office at 1121 W Miller St, Boise",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Gensco, Inc.",
+   "company_domain": "gensco.com",
+   "city": "Meridian",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.adp.com/srccar/public/2212839/GenscoExternalCareerSite/5001223757406/RTI.home?r=5001223757406&prc=RMPOD4",
+   "lead_date": "",
+   "lead_note": "Family-owned HVAC wholesale distributor whose Boise branch is at 1685 E Lanark St, Meridian. ADP shows 2 jobs there: Warehouse Team Member/Backup Delivery Driver and Non-CDL Delivery Driver. A Facebook post also recruits Boise delivery drivers.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Koenig Distillery",
+   "company_domain": "koenigdistillery.com",
+   "city": "Caldwell",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.koenigdistillery.com/events",
+   "lead_date": "2026-09-18",
+   "lead_note": "Sunnyslope distillery and winery at 20928 Grape Ln. Events page lists a Sep 18, 2026 event. It hosted Business After Hours on May 21, 2026, won USA Today 10Best 2026, and has a Seven Devils Whiskey co-branded partnership with Caldwell Night Rodeo (check that date).",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "CapEd Credit Union",
+   "company_domain": "capedcu.com",
+   "city": "Meridian",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://capedcu.com/about/careers/",
+   "lead_date": "",
+   "lead_note": "Meridian headquartered credit union with about 10 Meridian openings on job boards: Teller I, Member Contact Ambassador, and Member Contact Specialist (posted Sep 13, 2026), plus a Teller role at YMCA Boise. A Ten Mile Crossing branch at 657 S Vanguard Way is planned, but that news is from 2025.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Peterson Auto Group",
+   "company_domain": "petersoncars.com",
+   "city": "Boise",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.petersonbmw.com/careers/",
+   "lead_date": "",
+   "lead_note": "Locally owned group with 10 brands at 5 locations in Boise, Meridian and Nampa (Peterson BMW, Lexus, Toyota, Chevrolet Buick Cadillac, CDJR). Store careers pages recruit sales consultants, technicians and porters. Count live Boise postings.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Paul Mitchell The School Boise",
+   "company_domain": "paulmitchell.edu",
+   "city": "Boise",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://paulmitchell.applicantpro.com/jobs/4210490",
+   "lead_date": "2026-09-15",
+   "lead_note": "Search snippet shows a Cosmetology Educator posted Sep 15, 2026 at 1270 S Vinnell Way Boise; LinkedIn also lists an Esthetics Learning Leader. Private cosmetology trade school, but part of the national Paul Mitchell partner school network, so confirm local purchasing.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  }
+ ]
+}

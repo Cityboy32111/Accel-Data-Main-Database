@@ -1,0 +1,3064 @@
+[
+ {
+  "company_name": "St. Luke's Health System",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Boise",
+  "vertical": "healthcare",
+  "subsegment": "hospital_health_system",
+  "company_domain": "stlukesonline.org",
+  "company_website": "https://www.stlukesonline.org/",
+  "parent_company_name": "",
+  "company_phone": "+12083812222",
+  "company_phone_source_url": "https://stlukesonline.org/en/get-care/locations/medical-centers/st-lukes-boise-medical-center/",
+  "street_address": "190 E Bannock St",
+  "postal_code": "83712",
+  "local_presence_type": "multi_site_local",
+  "local_presence_source_url": "https://stlukesonline.org/en/get-care/locations/medical-centers/st-lukes-boise-medical-center/",
+  "company_status": "operating",
+  "company_status_source_url": "https://stlukesonline.org/en/news/2026/st-lukes-marks-construction-milestone-on-boise-campus-development-project/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "3",
+  "buying_unit_key": "st_lukes_boise_medical_center_boise",
+  "buying_unit_scope": "local_facility",
+  "buyer_department": "human_resources",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "BoiseDev (Jun 26, 2026) and Idaho Business Review (Jun 29, 2026) report St. Luke's topped out the nine story hospital tower of its $1.1 billion downtown Boise campus expansion on Jun 26, 2026 with general contractor Layton Construction; the tower adds 80 beds and seven operating rooms, with construction running to late 2029 and first patients expected in early 2030.",
+  "signal_source_url": "https://boisedev.com/news/2026/06/26/st-lukes-1-1-billion-boise-expansion-reaches-milestone-with-years-still-to-go/",
+  "signal_published_date": "2026-06-26",
+  "signal_event_date": "2026-06-26",
+  "signal_date_is_observation": false,
+  "project_name": "St. Luke's Boise Campus Development (nine story hospital tower and medical office plaza)",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://stlukesonline.org/en/news/2026/st-lukes-marks-construction-milestone-on-boise-campus-development-project/",
+  "project_phase": "groundbreaking_construction_underway",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "St. Luke's newsroom says the Jun 26, 2026 topping out brought together St. Luke's team members, Layton Construction, trade partners and architects, and that planning for move in and first patient days is already underway for the Boise tower, pointing to milestone events and staff programs that use commemorative apparel and merchandise.",
+  "purchase_use_case_source_url": "https://stlukesonline.org/en/news/2026/st-lukes-marks-construction-milestone-on-boise-campus-development-project/",
+  "procurement_route": "unknown_system_supply_chain_vs_campus",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "St. Luke's topped out the nine story tower of its $1.1 billion downtown Boise campus expansion on Jun 26, 2026 (BoiseDev, Idaho Business Review), adding 80 beds and seven operating rooms, and move in planning is underway for first patients in early 2030.",
+  "recommended_offer": "Commemorative milestone apparel for project and team member events, plus branded staff apparel and welcome kits for teams preparing the Boise tower move in.",
+  "suggested_opening_line": "I saw St. Luke's topped out the new nine story Boise tower on Jun 26 with Layton Construction and the trade partners. Who handles commemorative apparel and team member merchandise for the Boise campus milestones between now and opening?",
+  "next_question": "Does the Boise campus project team buy milestone and team member apparel locally, or does system supply chain and marketing set the approved vendor list?",
+  "outreach_caveat": "Large multi hospital system with likely central purchasing and brand standards; confirm whether a Boise campus seat can buy. The tower opens in early 2030, so near term needs are milestone events and staff programs rather than an opening order.",
+  "research_notes": "BoiseDev article dated Jun 26, 2026 and Idaho Business Review article dated Jun 29, 2026 cover the topping out; St. Luke's newsroom confirms the Jun 26 ceremony, Layton Construction as general contractor, completion in late 2029 and move in planning. Boise Medical Center address and main phone from the official location page; Meridian and Nampa medical center pages document two more in scope sites. Nonprofit system, not a government entity, not in the exclusion index. Apollo lookup confirms the company domain. Layton Construction is a possible separate construction lead.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "local_news",
+    "url": "https://boisedev.com/news/2026/06/26/st-lukes-1-1-billion-boise-expansion-reaches-milestone-with-years-still-to-go/",
+    "publisher": "BoiseDev",
+    "origin_group": "boisedev.com",
+    "published_date": "2026-06-26",
+    "accessed_at": "2026-09-23T17:19:17-07:00",
+    "supporting_text": "Reports the $1.1 billion St. Luke's Regional Medical Center expansion in Boise reached its highest point with a topping out ceremony; work continues until late 2029 with patients hoped for in early 2030; 80 new beds and seven new operating rooms for 27 total."
+   },
+   {
+    "id": "s2",
+    "source_type": "trade_press",
+    "url": "https://idahobusinessreview.com/2026/06/29/st-lukes-topping-out-nine-story-boise-hospital-tower/",
+    "publisher": "Idaho Business Review",
+    "origin_group": "idahobusinessreview.com",
+    "published_date": "2026-06-29",
+    "accessed_at": "2026-09-23T17:19:17-07:00",
+    "supporting_text": "St. Luke's marks topping out milestone on the nine story Boise hospital tower on Jun 26, 2026; tower adds 80 beds and expands surgical capacity, opening early 2030; Layton Construction is general contractor."
+   },
+   {
+    "id": "s3",
+    "source_type": "press_release",
+    "url": "https://stlukesonline.org/en/news/2026/st-lukes-marks-construction-milestone-on-boise-campus-development-project/",
+    "publisher": "St. Luke's Health System",
+    "origin_group": "stlukesonline.org_news",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:19:17-07:00",
+    "supporting_text": "St. Luke's and general contractor Layton Construction raised the highest steel beam Friday, Jun 26 on the Boise Campus Development project; ceremony gathered team members, trade partners and architects; completion expected late 2029 and move in planning underway."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_company_site",
+    "url": "https://stlukesonline.org/en/get-care/locations/medical-centers/st-lukes-boise-medical-center/",
+    "publisher": "St. Luke's Health System",
+    "origin_group": "stlukesonline.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:19:17-07:00",
+    "supporting_text": "St. Luke's Boise Medical Center at 190 E Bannock St, Boise ID 83712; main phone 208 381 2222; open 24 hours."
+   },
+   {
+    "id": "s5",
+    "source_type": "official_company_site",
+    "url": "https://stlukesonline.org/en/get-care/locations/medical-centers/st-lukes-meridian-medical-center/",
+    "publisher": "St. Luke's Health System",
+    "origin_group": "stlukesonline.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:19:17-07:00",
+    "supporting_text": "Official location page for St. Luke's Meridian Medical Center, an in scope Meridian site."
+   },
+   {
+    "id": "s6",
+    "source_type": "official_company_site",
+    "url": "https://www.stlukesonline.org/communities-and-locations/facilities/hospitals-and-medical-centers/st-lukes-nampa-medical-center",
+    "publisher": "St. Luke's Health System",
+    "origin_group": "stlukesonline.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:19:17-07:00",
+    "supporting_text": "Official facility page for St. Luke's Nampa Medical Center, an in scope Nampa site."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s3",
+    "s4"
+   ],
+   "street_address": [
+    "s4"
+   ],
+   "company_phone": [
+    "s4"
+   ],
+   "local_presence_type": [
+    "s4",
+    "s5",
+    "s6"
+   ],
+   "company_status": [
+    "s1",
+    "s3"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "project_relationship_status": [
+    "s3",
+    "s2"
+   ]
+  },
+  "blank_field_reasons": {
+   "parent_company_name": "not_applicable_independent",
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h1"
+ },
+ {
+  "company_name": "The Courtyard Dental",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Nampa",
+  "vertical": "healthcare",
+  "subsegment": "dental_orthodontic",
+  "company_domain": "courtyard-dental.com",
+  "company_website": "https://courtyard-dental.com/",
+  "parent_company_name": "",
+  "company_phone": "+12088998208",
+  "company_phone_source_url": "https://members.nampa.com/directory/Details/the-courtyard-dental-4579367",
+  "street_address": "1109 14th St S",
+  "postal_code": "83651",
+  "local_presence_type": "local_facility",
+  "local_presence_source_url": "https://members.nampa.com/directory/Details/the-courtyard-dental-4579367",
+  "company_status": "operating",
+  "company_status_source_url": "https://courtyard-dental.com/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "1",
+  "buying_unit_key": "the_courtyard_dental_nampa",
+  "buying_unit_scope": "local_facility",
+  "buyer_department": "practice_administration",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "Nampa Chamber of Commerce events calendar (observed Sep 23, 2026) lists a Ribbon Cutting celebrating Chamber member The Courtyard Dental on Thursday, Sep 24, 2026 at its renovated 1925 building at 1109 14th St S in Nampa, now a modern dental office.",
+  "signal_source_url": "https://members.nampa.com/events-calendar",
+  "signal_published_date": "2026-09-23",
+  "signal_event_date": "2026-09-24",
+  "signal_date_is_observation": true,
+  "project_name": "",
+  "project_relationship_status": "",
+  "project_relationship_source_url": "",
+  "project_phase": "",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "A chamber ribbon cutting scheduled for Sep 24, 2026 at the renovated 14th Street office in Nampa marks a public launch moment for the practice, a fit for branded team scrubs and polos plus patient welcome and giveaway items.",
+  "purchase_use_case_source_url": "https://members.nampa.com/events-calendar",
+  "procurement_route": "unknown_owner_vs_office",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "during_sep_2026_ribbon_cutting",
+  "reason_to_contact": "Nampa Chamber calendar lists a Ribbon Cutting for The Courtyard Dental on Thursday, Sep 24, 2026 at its renovated 1925 building at 1109 14th St S, Nampa, a single office general dental practice.",
+  "recommended_offer": "Branded team scrubs, polos and jackets plus patient welcome kits and giveaway items for a newly celebrated Nampa dental office.",
+  "suggested_opening_line": "I saw the Nampa Chamber celebrating The Courtyard Dental with a Sep 24 ribbon cutting at your 14th Street office. Who orders team apparel and patient giveaway items for the practice?",
+  "next_question": "Does the office manager handle team scrubs and branded merchandise, or does the practice owner approve those orders directly?",
+  "outreach_caveat": "Ribbon cutting date comes from the Nampa Chamber events calendar, observed via search index on Sep 23, 2026 for an event on Thursday, Sep 24, 2026; the listing publication date is not shown, so the observation date stands in for the published date. Chamber social channels also show an earlier member welcome, so confirm the Sep 24 event took place. Single office practice, so order volume is likely small.",
+  "research_notes": "Chamber events calendar states the Thursday, Sep 24 ribbon cutting for Chamber member Courtyard Dental (Sep 24, 2026 falls on a Thursday); the chamber member directory gives the 1109 14th St S, Nampa 83651 address, phone 208 899 8208 and the renovated 1925 building description. Official practice site is live and Birdeye lists the practice in Nampa. No DSO or group parent surfaced. Not in the exclusion index. The official contact page could not be checked separately because the session web search budget ran out and the site is egress blocked.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "chamber_post",
+    "url": "https://members.nampa.com/events-calendar",
+    "publisher": "Nampa Chamber of Commerce",
+    "origin_group": "nampa.com_events",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:57-07:00",
+    "supporting_text": "Chamber events calendar states that on Thursday, Sep 24 the Nampa Chamber hosts a ribbon cutting ceremony to celebrate Chamber member Courtyard Dental."
+   },
+   {
+    "id": "s2",
+    "source_type": "trade_directory",
+    "url": "https://members.nampa.com/directory/Details/the-courtyard-dental-4579367",
+    "publisher": "Nampa Chamber of Commerce",
+    "origin_group": "nampa.com_directory",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:57-07:00",
+    "supporting_text": "Chamber member directory lists The Courtyard Dental at 1109 14th St S, Nampa ID 83651, phone 208 899 8208, in a historic 1925 building renovated into a modern dental office."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_company_site",
+    "url": "https://courtyard-dental.com/",
+    "publisher": "The Courtyard Dental",
+    "origin_group": "courtyard-dental.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:57-07:00",
+    "supporting_text": "Official practice site for The Courtyard Dental, a dental office in Nampa, Idaho, live in the search index."
+   },
+   {
+    "id": "s4",
+    "source_type": "trade_directory",
+    "url": "https://reviews.birdeye.com/the-courtyard-dental-176943236778398",
+    "publisher": "Birdeye",
+    "origin_group": "birdeye.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:57-07:00",
+    "supporting_text": "Review listing shows The Courtyard Dental as a dental practice in Nampa, ID with seven reviews."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "street_address": [
+    "s2"
+   ],
+   "company_phone": [
+    "s2"
+   ],
+   "local_presence_type": [
+    "s2",
+    "s4"
+   ],
+   "company_status": [
+    "s3",
+    "s1"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2"
+   ]
+  },
+  "blank_field_reasons": {
+   "parent_company_name": "not_found",
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "project_name": "not_applicable_no_named_project",
+   "project_relationship_status": "not_applicable_no_named_project",
+   "project_relationship_source_url": "not_applicable_no_named_project",
+   "project_phase": "not_applicable_no_named_project",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h1"
+ },
+ {
+  "company_name": "Genesis Community Health, Inc.",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Garden City",
+  "vertical": "healthcare",
+  "subsegment": "multi_clinic_primary_care",
+  "company_domain": "genesiscommunityhealth.com",
+  "company_website": "https://genesiscommunityhealth.com/",
+  "parent_company_name": "",
+  "company_phone": "+12083845200",
+  "company_phone_source_url": "https://genesiscommunityhealth.com/contact/",
+  "street_address": "215 W 35th St",
+  "postal_code": "83714",
+  "local_presence_type": "local_hq_multi_clinic",
+  "local_presence_source_url": "https://genesiscommunityhealth.com/contact/",
+  "company_status": "operating",
+  "company_status_source_url": "https://idahonews.com/news/local/free-health-care-expands-access-for-families-through-genesis-community-health",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "2",
+  "buying_unit_key": "genesis_community_health_garden_city",
+  "buying_unit_scope": "multi_clinic_practice",
+  "buyer_department": "executive_administration",
+  "signal_type": "observed_recurring_need",
+  "signal_summary": "Idaho News reported on Mar 13, 2026 that Genesis Community Health, a faith based free clinic with locations in Garden City and Caldwell, logged 150 volunteers giving more than 1,000 hours and 321 acts of service in Jan and Feb 2026, with both clinics accepting new patients. The organization also scheduled its 25th Anniversary Gala and Auction for Apr 30, 2026 at Galaxy Event Center in Meridian.",
+  "signal_source_url": "https://idahonews.com/news/local/free-health-care-expands-access-for-families-through-genesis-community-health",
+  "signal_published_date": "2026-03-13",
+  "signal_event_date": "2026-03-13",
+  "signal_date_is_observation": false,
+  "project_name": "",
+  "project_relationship_status": "",
+  "project_relationship_source_url": "",
+  "project_phase": "",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "A rotating base of 150 active volunteers in the first two months of 2026 (the website cites over 250 active volunteers and over 125 volunteer professionals) staffing the Garden City and Caldwell clinics, plus a donor gala on Apr 30, 2026, points to repeat needs for volunteer identification apparel, staff wear and donor event merchandise.",
+  "purchase_use_case_source_url": "https://idahonews.com/news/local/free-health-care-expands-access-for-families-through-genesis-community-health",
+  "procurement_route": "unknown",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Idaho News reported on Mar 13, 2026 that 150 volunteers gave over 1,000 hours at the Garden City and Caldwell free clinics in Jan and Feb 2026, and the nonprofit scheduled its 25th Anniversary Gala in Meridian for Apr 30, 2026, a steady volunteer and donor event program that uses branded apparel.",
+  "recommended_offer": "Branded volunteer shirts and vests, clinic staff apparel and donor gala and appreciation merchandise for a two clinic free health care nonprofit.",
+  "suggested_opening_line": "I saw the Idaho News story on your 150 volunteers giving over 1,000 hours at the Garden City and Caldwell clinics this year. Who handles volunteer shirts and event merchandise for Genesis?",
+  "next_question": "Does the volunteer coordinator buy volunteer apparel directly, or does clinic administration purchase for both clinics and the gala?",
+  "outreach_caveat": "Signal is a volunteer program and event calendar reported Mar 13, 2026 and an Apr 30, 2026 gala that has already passed, not a confirmed apparel order. Nonprofit budgets are donor funded, so expect price sensitivity and possible in kind requests.",
+  "research_notes": "Idaho News story dated Mar 13, 2026 confirms two operating clinics (Garden City and Caldwell) and the Jan and Feb 2026 volunteer totals. Official contact page gives the Garden City address and phone. Official event page lists the 25th Anniversary Gala and Auction on Apr 30, 2026 in Meridian. Directory listing confirms the Canyon County clinic in Caldwell at 4521 Thomas Jefferson St Ste 110. Apollo lookup confirms the domain for Genesis Community Health, Inc. Independent 501c3 nonprofit, no parent; not on the exclusion list. A golf scramble listing dated Friday Jul 25 matches 2025, not 2026, so it was left out. No open paid roles were found, so hiring was not used.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "local_news",
+    "url": "https://idahonews.com/news/local/free-health-care-expands-access-for-families-through-genesis-community-health",
+    "publisher": "Idaho News (idahonews.com)",
+    "origin_group": "idahonews.com",
+    "published_date": "2026-03-13",
+    "accessed_at": "2026-09-23T17:18:16-07:00",
+    "supporting_text": "Story dated Mar 13, 2026 says Genesis Community Health offers free medical, dental and mental health care, has locations in Garden City and Caldwell both accepting new patients, and that 150 volunteers donated over 1,000 hours and 321 acts of service in Jan and Feb 2026."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_company_site",
+    "url": "https://genesiscommunityhealth.com/contact/",
+    "publisher": "Genesis Community Health",
+    "origin_group": "genesiscommunityhealth.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:29-07:00",
+    "supporting_text": "Contact page lists the clinic at 215 W 35th St, Garden City ID 83714; medical line 208 384 5200 and dental line 208 854 3932; appointment based clinic."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_event_page",
+    "url": "https://genesiscommunityhealth.com/event/25th-anniversary/",
+    "publisher": "Genesis Community Health",
+    "origin_group": "genesiscommunityhealth.com_events",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:16-07:00",
+    "supporting_text": "Event page for the 25th Anniversary Gala and Auction 2026, Keeping the Promise of 25 Years, Thursday Apr 30, 2026, 6:30 to 8:30 PM at Galaxy Event Center, 1385 S Blue Marlin Ln, Meridian ID, with a live paddle raise to support both clinic locations and volunteer recruitment."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_company_site",
+    "url": "https://genesiscommunityhealth.com/",
+    "publisher": "Genesis Community Health",
+    "origin_group": "genesiscommunityhealth.com_home",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:17:52-07:00",
+    "supporting_text": "Homepage describes a grassroots 501c3 free clinic supported by over 250 active volunteers, with over 125 volunteer professionals and a small staff at each clinic providing primary medical, basic dental and mental health care."
+   },
+   {
+    "id": "s5",
+    "source_type": "trade_directory",
+    "url": "https://www.findhelp.org/genesis-community-health--caldwell-id--medical-services---canyon-county/5631186730876928?postal=83605",
+    "publisher": "findhelp.org",
+    "origin_group": "findhelp.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:29-07:00",
+    "supporting_text": "Directory lists Genesis Community Health Canyon County medical services serving Caldwell ID 83605, clinic at 4521 Thomas Jefferson St Ste 110, Caldwell, appointment based."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s2"
+   ],
+   "street_address": [
+    "s2"
+   ],
+   "company_phone": [
+    "s2"
+   ],
+   "local_presence_type": [
+    "s1",
+    "s2",
+    "s5"
+   ],
+   "company_status": [
+    "s1",
+    "s2"
+   ],
+   "signal_summary": [
+    "s1",
+    "s3"
+   ],
+   "local_site_count": [
+    "s1",
+    "s5"
+   ]
+  },
+  "blank_field_reasons": {
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "project_name": "not_applicable_no_named_project",
+   "project_relationship_status": "not_applicable_no_named_project",
+   "project_relationship_source_url": "not_applicable_no_named_project",
+   "project_phase": "not_applicable_no_named_project",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h1"
+ },
+ {
+  "company_name": "Cottages Senior Living, LLC (The Cottages Assisted Living & Memory Care)",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Nampa",
+  "vertical": "healthcare",
+  "subsegment": "care_rehabilitation",
+  "company_domain": "assistedlivingidaho.com",
+  "company_website": "https://assistedlivingidaho.com/",
+  "parent_company_name": "",
+  "company_phone": "+12084751805",
+  "company_phone_source_url": "https://www.assistedlivingidaho.com/the-cottages-of-nampa-opening-this-summer/",
+  "street_address": "1047 S Rising Sun Dr",
+  "postal_code": "83686",
+  "local_presence_type": "multi_site_local",
+  "local_presence_source_url": "https://assistedlivingidaho.com/portfolio/nampa/",
+  "company_status": "operating",
+  "company_status_source_url": "https://assistedlivingidaho.com/portfolio/nampa/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "5",
+  "buying_unit_key": "the_cottages_assisted_living_nampa",
+  "buying_unit_scope": "multi_site_local",
+  "buyer_department": "operations",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "The Cottages opened its 11th location, The Cottages of Nampa, two new homes for up to 32 assisted living and memory care residents plus adult day care at 1047 and 1085 Rising Sun Dr in Nampa, with a Grand Opening Open House on Thursday Jun 11, 2026 from 11 a.m. to 2 p.m. featuring tours and a team meet and greet.",
+  "signal_source_url": "https://happeningnext.com/event/grand-opening-open-house-eid3a0dqg8uaq",
+  "signal_published_date": "",
+  "signal_event_date": "2026-06-11",
+  "signal_date_is_observation": false,
+  "project_name": "The Cottages of Nampa, 1047 and 1085 Rising Sun Dr",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://assistedlivingidaho.com/portfolio/nampa/",
+  "project_phase": "opened_operating",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "A new two home Nampa community staffed around the clock by caregivers, an administrator, an assistant administrator and a quality of life coordinator, added to a network of 10 locations and 19 homes that includes Boise, Meridian and Middleton, implies caregiver uniform and new hire kit needs for the opening team and ongoing turnover.",
+  "purchase_use_case_source_url": "https://assistedlivingidaho.com/portfolio/nampa/",
+  "procurement_route": "unknown_local_vs_corporate",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "The Cottages held a Grand Opening Open House on Jun 11, 2026 for its new two home Nampa community at 1047 and 1085 Rising Sun Dr (up to 32 residents), its 11th location, run from the Eagle office alongside homes in Boise, Meridian and Middleton.",
+  "recommended_offer": "Caregiver scrubs and branded staff tops, new hire welcome kits and community open house giveaways across the Treasure Valley homes.",
+  "suggested_opening_line": "I saw The Cottages opened two new homes on Rising Sun Dr in Nampa with a grand opening open house on Jun 11. Who outfits the caregiver team and new hires across your homes?",
+  "next_question": "Are caregiver uniforms bought centrally by the Eagle office, or does each home administrator order for their own staff?",
+  "outreach_caveat": "The grand opening on Jun 11, 2026 has passed, so the pitch is ongoing staffing for the new Nampa homes rather than an opening event. The event listing is a third party aggregator of the community event and does not show its own posting date. Caregiver postings seen on the iSolvedHire board are undated and were not counted.",
+  "research_notes": "Official Nampa location page and the Opening This Summer post confirm 1047 and 1085 Rising Sun Dr, Nampa 83686, up to 32 residents, assisted living, memory care and adult day care, network of 10 locations and 19 homes serving Boise, Middleton, Meridian, Mountain Home, Payette, Weiser, McCall, Emmett and Nampa. Event listing gives the Jun 11, 2026 grand opening. Nampa Chamber lists the company office at 1079 S Ancona Ave Ste 110, Eagle 83616, phone 208 475 1805. Legal entity Cottages Senior Living, LLC per its iSolvedHire board, which shows caregiver roles for Meridian and Boise. Site count covers Boise, Meridian, Middleton and Nampa care locations plus the Eagle office. Locally owned, no parent found, not on the exclusion list; Mountain Home, Payette, Weiser, McCall and Emmett homes are out of scope. A Nampa June 2026 permit report was found but the Cottages entry could not be confirmed, so it was left out.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "official_event_page",
+    "url": "https://happeningnext.com/event/grand-opening-open-house-eid3a0dqg8uaq",
+    "publisher": "HappeningNext",
+    "origin_group": "happeningnext.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:19-07:00",
+    "supporting_text": "Event listing for the Grand Opening Open House at 1047 S Rising Sun Dr, Nampa ID 83686 on Thursday Jun 11, 2026, 11 a.m. to 2 p.m., describing The Cottages Homes as a new assisted living and memory care community with tours, team meet and greet, tacos and refreshments."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_company_site",
+    "url": "https://assistedlivingidaho.com/portfolio/nampa/",
+    "publisher": "The Cottages Assisted Living & Memory Care",
+    "origin_group": "assistedlivingidaho.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:19:48-07:00",
+    "supporting_text": "Nampa location page lists The Cottages of Nampa at 1047 and 1085 Rising Sun Dr, Nampa ID 83686, for up to 32 residents with assisted living, memory care and adult day care, led by an administrator and assistant administrator with 24 hour staff."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_company_site",
+    "url": "https://www.assistedlivingidaho.com/the-cottages-of-nampa-opening-this-summer/",
+    "publisher": "The Cottages Assisted Living & Memory Care",
+    "origin_group": "assistedlivingidaho.com_news",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:19:48-07:00",
+    "supporting_text": "Post titled The Cottages of Nampa Opening This Summer says the network of 10 locations and 19 homes serving Boise, Middleton, Meridian, Mountain Home, Payette, Weiser, McCall, Emmett and Nampa is expanding to an 11th location of two new homes on Rising Sun Dr; phone 208 475 1805."
+   },
+   {
+    "id": "s4",
+    "source_type": "chamber_post",
+    "url": "https://members.nampa.com/directory/details/the-cottages-assisted-living-and-memory-care-4825336",
+    "publisher": "Nampa Chamber of Commerce",
+    "origin_group": "nampa.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:36-07:00",
+    "supporting_text": "Nampa Chamber member directory lists The Cottages Assisted Living and Memory Care at 1079 S Ancona Ave Ste 110, Eagle ID 83616, phone 208 475 1805."
+   },
+   {
+    "id": "s5",
+    "source_type": "official_hiring_board",
+    "url": "https://assistedlivingidaho.isolvedhire.com/jobs/",
+    "publisher": "Cottages Senior Living, LLC via iSolvedHire",
+    "origin_group": "isolvedhire.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:05-07:00",
+    "supporting_text": "Employer job board for Cottages Senior Living, LLC returned caregiver postings for Meridian (all shifts) and Boise; postings undated, used only for entity name and status."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s2",
+    "s4",
+    "s5"
+   ],
+   "street_address": [
+    "s1",
+    "s2"
+   ],
+   "company_phone": [
+    "s3",
+    "s4"
+   ],
+   "local_presence_type": [
+    "s2",
+    "s3",
+    "s4"
+   ],
+   "company_status": [
+    "s1",
+    "s2",
+    "s5"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "project_relationship_status": [
+    "s2",
+    "s3"
+   ]
+  },
+  "blank_field_reasons": {
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "signal_published_date": "not_published",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h1"
+ },
+ {
+  "company_name": "Harrison's Hope Hospice",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Meridian",
+  "vertical": "healthcare",
+  "subsegment": "home_health_hospice",
+  "company_domain": "harrisonshope.com",
+  "company_website": "https://harrisonshope.com/",
+  "parent_company_name": "Addus HomeCare",
+  "company_phone": "+12089476800",
+  "company_phone_source_url": "https://harrisonshope.com/contact-us/",
+  "street_address": "3137 S Meridian Rd Ste 120",
+  "postal_code": "83642",
+  "local_presence_type": "headquarters_office",
+  "local_presence_source_url": "https://harrisonshope.com/contact-us/locations/",
+  "company_status": "operating",
+  "company_status_source_url": "https://www.addusjobs.com/jobs/us-id-meridian/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "2",
+  "buying_unit_key": "harrisons_hope_hospice_meridian",
+  "buying_unit_scope": "local_operating_company",
+  "buyer_department": "executive_administration",
+  "signal_type": "active_hiring",
+  "signal_summary": "Addus HomeCare careers site (observed Sep 24, 2026) lists three Harrison's Hope Hospice openings in Meridian: Hospice Liaison for the Meridian team, RN Case Manager (Nurse Case Manager, hospice service line, requisition 6966) and Hospice Social Worker supporting Meridian and surrounding counties.",
+  "signal_source_url": "https://www.addusjobs.com/jobs/us-id-meridian/",
+  "signal_published_date": "2026-09-24",
+  "signal_event_date": "2026-09-24",
+  "signal_date_is_observation": true,
+  "project_name": "",
+  "project_relationship_status": "",
+  "project_relationship_source_url": "",
+  "project_phase": "",
+  "local_job_postings_observed": "3",
+  "job_titles_observed": [
+   "Hospice Liaison",
+   "RN Case Manager",
+   "Hospice Social Worker"
+  ],
+  "hiring_evidence_url": "https://www.addusjobs.com/jobs/us-id-meridian/",
+  "hiring_count_scope": "distinct_open_requisitions_observed_meridian",
+  "purchase_use_case_evidence": "Three concurrent Meridian hospice openings in referral outreach, nursing case management and social work point to a field team of liaisons and clinicians visiting homes, assisted living communities and referral partners from the Meridian and Caldwell offices, a fit for branded clinician apparel, liaison polos and new hire kits.",
+  "purchase_use_case_source_url": "https://www.addusjobs.com/jobs/us-id-meridian/",
+  "procurement_route": "unknown_local_vs_corporate",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Addus careers site shows three open Harrison's Hope Hospice roles in Meridian (Hospice Liaison, RN Case Manager, Hospice Social Worker) observed Sep 24, 2026, at a Meridian headquartered hospice that also runs a Caldwell office and sends clinicians and volunteers into homes and care facilities.",
+  "recommended_offer": "Branded clinician and liaison apparel, outerwear for home visits, volunteer shirts and new hire welcome kits for the Meridian hospice team, plus referral partner giveaways for the liaison role.",
+  "suggested_opening_line": "I saw Harrison's Hope listing a Hospice Liaison, an RN Case Manager and a Hospice Social Worker for the Meridian team. Who handles staff apparel and new hire kits for the Meridian and Caldwell offices?",
+  "next_question": "Does Addus corporate supply team apparel, or can the Meridian administrator order branded clinician, liaison and volunteer apparel locally?",
+  "outreach_caveat": "Careers listings are undated, so the observation date stands in for the signal date; live status confirmed via search index on Sep 24, 2026. Harrison's Hope is part of Addus HomeCare, so corporate brand standards or vendors may govern apparel; confirm the local buying seat. Twin Falls office is out of territory.",
+  "research_notes": "Addus HomeCare careers pages for Meridian returned three Harrison's Hope Hospice roles: Hospice Liaison, RN Case Manager (requisition 6966, hospice service line) and Hospice Social Worker. Official site gives the Meridian office at 3137 S Meridian Rd Suite 120, phone 208 947 6800, and lists hospice offices in Meridian, Caldwell and Twin Falls. Official team page is branded Addus HomeCare and the Addus careers site carries the Harrison's Hope roles, confirming the parent. Yelp listing updated June 2026 confirms the Meridian address. Addus HomeCare is not in the exclusion index and is a corporate parent, not a franchise. Third party headcount figures conflict, so employee count is left blank.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "official_employer_careers",
+    "url": "https://www.addusjobs.com/jobs/us-id-meridian/",
+    "publisher": "Addus HomeCare Careers",
+    "origin_group": "addusjobs.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:05-07:00",
+    "supporting_text": "Meridian ID jobs page lists Harrison's Hope Hospice openings: Hospice Liaison to grow the Meridian presence, RN Case Manager for the Meridian team (Nurse Case Manager, hospice service line, requisition 6966, Meridian 83642), alongside Addus home care roles."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_employer_job",
+    "url": "https://www.addusjobs.com/job/116510/hospice-social-worker-social-work-us-id-meridian-40026/",
+    "publisher": "Addus HomeCare Careers",
+    "origin_group": "addusjobs.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:20-07:00",
+    "supporting_text": "Job page for Hospice Social Worker in Meridian ID states Harrison's Hope Hospice is hiring to support Meridian and surrounding counties, with PTO, 401K match and competitive pay."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_company_site",
+    "url": "https://harrisonshope.com/contact-us/",
+    "publisher": "Harrison's Hope",
+    "origin_group": "harrisonshope.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:35-07:00",
+    "supporting_text": "Contact page gives the Meridian office at 3137 S Meridian Road, Suite 120, Meridian ID 83642, phone 208 947 6800."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_company_site",
+    "url": "https://harrisonshope.com/contact-us/locations/",
+    "publisher": "Harrison's Hope",
+    "origin_group": "harrisonshope.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:35-07:00",
+    "supporting_text": "Locations page lists hospice offices in Meridian, Caldwell and Twin Falls."
+   },
+   {
+    "id": "s5",
+    "source_type": "official_company_site",
+    "url": "http://harrisonshope.com/care/our-team/",
+    "publisher": "Harrison's Hope",
+    "origin_group": "harrisonshope.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:35-07:00",
+    "supporting_text": "Team page on the Harrison's Hope site is titled Team, Addus HomeCare, reflecting Addus HomeCare ownership."
+   },
+   {
+    "id": "s6",
+    "source_type": "trade_directory",
+    "url": "https://www.yelp.com/biz/harrisons-hope-meridian",
+    "publisher": "Yelp",
+    "origin_group": "yelp.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:17:45-07:00",
+    "supporting_text": "Yelp hospice listing for Harrisons Hope at 3137 S Meridian Rd, Meridian, Idaho, marked updated June 2026."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s3"
+   ],
+   "street_address": [
+    "s3",
+    "s6"
+   ],
+   "company_phone": [
+    "s3"
+   ],
+   "local_presence_type": [
+    "s3",
+    "s4"
+   ],
+   "company_status": [
+    "s1",
+    "s6"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2"
+   ],
+   "hiring_evidence_url": [
+    "s1"
+   ],
+   "parent_company_name": [
+    "s1",
+    "s5"
+   ]
+  },
+  "blank_field_reasons": {
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "project_name": "not_applicable_no_named_project",
+   "project_relationship_status": "not_applicable_no_named_project",
+   "project_relationship_source_url": "not_applicable_no_named_project",
+   "project_phase": "not_applicable_no_named_project",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h2"
+ },
+ {
+  "company_name": "Ritual Wellness",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Garden City",
+  "vertical": "healthcare",
+  "subsegment": "medical_specialty_groups",
+  "company_domain": "ritualwellclinic.com",
+  "company_website": "https://www.ritualwellclinic.com/",
+  "parent_company_name": "",
+  "company_phone": "+12089182242",
+  "company_phone_source_url": "https://www.ritualwellclinic.com/",
+  "street_address": "4220 N Adams St Ste 102",
+  "postal_code": "83714",
+  "local_presence_type": "local_facility",
+  "local_presence_source_url": "https://www.ritualwellclinic.com/",
+  "company_status": "operating",
+  "company_status_source_url": "https://www.ritualwellclinic.com/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "1",
+  "buying_unit_key": "ritual_wellness_garden_city",
+  "buying_unit_scope": "local_practice_group",
+  "buyer_department": "ownership_operations",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "BoiseDev reported on Apr 14, 2026 that Ritual Wellness, the nurse practitioner owned integrative clinic at 4220 N Adams St in Garden City, was opening Ritual Cafe next door on May 1, 2026 with organic coffee, local food and a program of wellness talks, classes and events.",
+  "signal_source_url": "https://boisedev.com/news/2026/04/14/food-connection-and-community-boise-wellness-clinic-opens-cafe-next-door/",
+  "signal_published_date": "2026-04-14",
+  "signal_event_date": "2026-05-01",
+  "signal_date_is_observation": false,
+  "project_name": "",
+  "project_relationship_status": "",
+  "project_relationship_source_url": "",
+  "project_phase": "",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "The clinic now runs Ritual Cafe next door with daily counter service and hosts ticketed wellness events there, such as the Ritual Speak Easy on Jun 17, 2026, which points to branded cafe staff tees and aprons plus event merchandise alongside clinic team apparel.",
+  "purchase_use_case_source_url": "https://boisedev.com/news/2026/04/14/food-connection-and-community-boise-wellness-clinic-opens-cafe-next-door/",
+  "procurement_route": "unknown_owner_vs_office",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Ritual Wellness expanded next door with Ritual Cafe, opened May 1, 2026 at 4220 N Adams St in Garden City per BoiseDev on Apr 14, 2026, and hosts wellness talks there such as the Ritual Speak Easy event on Jun 17, 2026.",
+  "recommended_offer": "Branded cafe staff tees and aprons, clinic team apparel, and event merchandise such as totes and tumblers for wellness talks and classes.",
+  "suggested_opening_line": "I saw Ritual Wellness opened Ritual Cafe next to the clinic on Adams Street in May and is hosting wellness talks there. Who picks the apparel and merch for the cafe team and your events?",
+  "next_question": "Do the cafe and the clinic order apparel together, or does each side buy its own staff and event items?",
+  "outreach_caveat": "Small single site practice with a sister cafe (Ritual Cafe LLC appears as a separate Garden City entity), so order volumes may be modest. Subsegment is a best fit because the practice mixes integrative women's health, functional medicine, family primary care and pediatrics.",
+  "research_notes": "BoiseDev story dated Apr 14, 2026 covers the cafe opening on May 1, 2026 as an extension of the clinic owned by its founding nurse practitioner, with wellness talks, classes and events planned. Official site lists 4220 N Adams St, Garden City 83714, phone 208 918 2242, and three family nurse practitioners. Eventbrite lists Ritual Speak Easy: The State of Our Health, presented by Ritual Wellness on Wednesday, Jun 17, 2026 at Ritual Cafe, Garden City. No careers page or open roles found. Not in the exclusion index; independent practice with no parent.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "local_news",
+    "url": "https://boisedev.com/news/2026/04/14/food-connection-and-community-boise-wellness-clinic-opens-cafe-next-door/",
+    "publisher": "BoiseDev",
+    "origin_group": "boisedev.com",
+    "published_date": "2026-04-14",
+    "accessed_at": "2026-09-23T17:19:05-07:00",
+    "supporting_text": "Story on the Boise wellness clinic opening a cafe next door: Ritual Cafe at 4220 N Adams St, Garden City opens May 1 as an extension of Ritual Wellness, with organic coffee, local food and wellness talks, classes and events."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_company_site",
+    "url": "https://www.ritualwellclinic.com/",
+    "publisher": "Ritual Wellness",
+    "origin_group": "ritualwellclinic.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:19:30-07:00",
+    "supporting_text": "Official site for Ritual Wellness integrative health practice lists 4220 N Adams Street, Garden City ID 83714, phone 208 918 2242, weekday clinic hours."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_event_page",
+    "url": "https://www.eventbrite.com/e/ritual-speak-easy-the-state-of-our-health-tickets-1988568133819",
+    "publisher": "Eventbrite (organizer Ritual Wellness)",
+    "origin_group": "eventbrite.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:19:50-07:00",
+    "supporting_text": "Ticketed event Ritual Speak Easy: The State of Our Health, presented by Ritual Wellness on Wednesday, Jun 17, 2026, 6:30 PM to 8:30 PM at Ritual Cafe, Garden City ID."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s2"
+   ],
+   "street_address": [
+    "s1",
+    "s2"
+   ],
+   "company_phone": [
+    "s2"
+   ],
+   "local_presence_type": [
+    "s1",
+    "s2"
+   ],
+   "company_status": [
+    "s2",
+    "s3"
+   ],
+   "signal_summary": [
+    "s1"
+   ]
+  },
+  "blank_field_reasons": {
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "project_name": "not_applicable_no_named_project",
+   "project_relationship_status": "not_applicable_no_named_project",
+   "project_relationship_source_url": "not_applicable_no_named_project",
+   "project_phase": "not_applicable_no_named_project",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h2"
+ },
+ {
+  "company_name": "Leyngold Institute for Plastic Surgery, PLLC",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Meridian",
+  "vertical": "healthcare",
+  "subsegment": "medical_specialty_groups",
+  "company_domain": "leyngoldplasticsurgery.com",
+  "company_website": "https://www.leyngoldplasticsurgery.com/",
+  "parent_company_name": "",
+  "company_phone": "+12089004673",
+  "company_phone_source_url": "https://www.leyngoldplasticsurgery.com/contact-us/",
+  "street_address": "3015 E Goldstone Dr Ste 130",
+  "postal_code": "83642",
+  "local_presence_type": "local_facility",
+  "local_presence_source_url": "https://www.leyngoldplasticsurgery.com/contact-us/",
+  "company_status": "operating",
+  "company_status_source_url": "https://boisedev.com/news/2026/03/30/plastic-surgery-center-proposed-for-meridians-ten-mile-corridor/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "1",
+  "buying_unit_key": "leyngold_institute_plastic_surgery_meridian",
+  "buying_unit_scope": "local_practice_group",
+  "buyer_department": "practice_administration",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "BoiseDev reported on Mar 30, 2026 that Leyngold Institute for Plastic Surgery submitted plans to the City of Meridian in March 2026 for a new two story, 9,800 square foot plastic surgery center at 2915 W Excursion Ln east of Ten Mile Rd, with clinical exam and office space, a surgical suite and a 1,500 square foot staff area; the practice currently operates at 3015 E Goldstone Dr Ste 130 in Meridian.",
+  "signal_source_url": "https://boisedev.com/news/2026/03/30/plastic-surgery-center-proposed-for-meridians-ten-mile-corridor/",
+  "signal_published_date": "2026-03-30",
+  "signal_event_date": "2026-03-30",
+  "signal_date_is_observation": false,
+  "project_name": "Leyngold Institute plastic surgery center at 2915 W Excursion Ln, Meridian",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://boisedev.com/news/2026/03/30/plastic-surgery-center-proposed-for-meridians-ten-mile-corridor/",
+  "project_phase": "proposed_plans_submitted",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "A planned move into a purpose built 9,800 square foot clinic and surgical suite on W Excursion Ln, with a dedicated staff area, points to a new facility milestone where a surgical practice typically refreshes staff apparel and patient facing branded items.",
+  "purchase_use_case_source_url": "https://boisedev.com/news/2026/03/30/plastic-surgery-center-proposed-for-meridians-ten-mile-corridor/",
+  "procurement_route": "unknown_owner_vs_office",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "BoiseDev reported on Mar 30, 2026 that the practice filed plans with the City of Meridian for a new two story, 9,800 square foot plastic surgery center with its own surgical suite at 2915 W Excursion Ln in the Ten Mile corridor, a step up from its current Goldstone Dr office.",
+  "recommended_offer": "Embroidered staff polos, quarter zips and jackets for clinical and front office teams, plus branded patient welcome and aftercare gift items tied to the new Excursion Ln center.",
+  "suggested_opening_line": "I saw the plans for your new 9,800 square foot surgery center on W Excursion Ln in the Ten Mile corridor. Who is planning staff apparel and patient welcome items for the move from Goldstone Dr?",
+  "next_question": "Is the practice administrator handling branding for the new center, or do the surgeon owners sign off on staff apparel and patient gifts?",
+  "outreach_caveat": "Plans were submitted to the City of Meridian in March 2026; approval, construction start and opening dates were not confirmed, so confirm timing before pitching move in items. Small physician owned practice, so order volumes are likely modest.",
+  "research_notes": "BoiseDev article dated Mar 30, 2026 describes the proposed Excursion Ln center and the current Goldstone Dr location. Official contact page lists 3015 E Goldstone Dr Ste 130, Meridian 83642 and phone 208 900 4673. Independent Doctors of Idaho directory lists the PLLC at Goldstone Dr as a member practice, consistent with independent ownership. A Saint Alphonsus directory page lists the practice as a location but no ownership link was found. A patient service representative posting surfaced on an aggregator but was undated and was not counted.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "local_news",
+    "url": "https://boisedev.com/news/2026/03/30/plastic-surgery-center-proposed-for-meridians-ten-mile-corridor/",
+    "publisher": "BoiseDev",
+    "origin_group": "boisedev.com",
+    "published_date": "2026-03-30",
+    "accessed_at": "2026-09-23T17:17:56-07:00",
+    "supporting_text": "Leyngold Institute for Plastic Surgery plans a new 9,800 square foot plastic surgery center at 2915 W Excursion Ln in Meridian east of Ten Mile Rd; documents were submitted to the city in March; two stories with 8,300 square feet on the main level for clinical exam, office space and a surgical suite and a 1,500 square foot staff area upstairs; practice currently operates near S Eagle Rd and E Goldstone Dr."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_company_site",
+    "url": "https://www.leyngoldplasticsurgery.com/contact-us/",
+    "publisher": "Leyngold Institute for Plastic Surgery",
+    "origin_group": "leyngoldplasticsurgery.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:17:56-07:00",
+    "supporting_text": "Contact page lists 3015 East Goldstone Drive #130, Meridian ID 83642, phone 208 900 4673, office hours Monday through Thursday 9am to 5pm, serving Boise and Meridian."
+   },
+   {
+    "id": "s3",
+    "source_type": "trade_directory",
+    "url": "https://independentdocsid.com/leyngold-institute-for-plastic-surgery-pllc-meridian/",
+    "publisher": "Independent Doctors of Idaho",
+    "origin_group": "independentdocsid.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:41-07:00",
+    "supporting_text": "Independent Doctors of Idaho member listing for Leyngold Institute for Plastic Surgery, PLLC at 3015 E Goldstone Dr, Meridian, with two board certified surgeons."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s2",
+    "s3"
+   ],
+   "street_address": [
+    "s2",
+    "s3"
+   ],
+   "company_phone": [
+    "s2"
+   ],
+   "local_presence_type": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "company_status": [
+    "s1",
+    "s2"
+   ],
+   "signal_summary": [
+    "s1"
+   ],
+   "project_relationship_status": [
+    "s1"
+   ]
+  },
+  "blank_field_reasons": {
+   "parent_company_name": "not_applicable_independent",
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "not_stated",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "job_titles_observed": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h2"
+ },
+ {
+  "company_name": "Cottonwood Creek Behavioral Hospital",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Meridian",
+  "vertical": "healthcare",
+  "subsegment": "behavioral_health",
+  "company_domain": "cottonwoodcreekboise.com",
+  "company_website": "https://www.cottonwoodcreekboise.com/",
+  "parent_company_name": "Oceans Healthcare",
+  "company_phone": "+12082024700",
+  "company_phone_source_url": "https://www.cottonwoodcreekboise.com/about-us/",
+  "street_address": "2131 S Bonito Way",
+  "postal_code": "83642",
+  "local_presence_type": "multi_site_local",
+  "local_presence_source_url": "https://oceanshealthcare.com/news/cottonwood-creek-behavioral-hospital-expands-outpatient-mental-health-services-with-new-facility/",
+  "company_status": "operating",
+  "company_status_source_url": "https://www.cottonwoodcreekboise.com/about-us/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "2",
+  "buying_unit_key": "cottonwood_creek_behavioral_meridian",
+  "buying_unit_scope": "local_facility",
+  "buyer_department": "human_resources",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "Cottonwood Creek Behavioral Hospital opened Haven, its new outpatient department at 1940 S Bonito Way Suite 150 in Meridian across the street from the hospital at 2131 S Bonito Way, in early August 2026 with a Meridian Chamber ribbon cutting; Haven runs intensive outpatient, partial hospitalization and virtual programs for adolescents, adults and older adults because the inpatient hospital has been running at capacity.",
+  "signal_source_url": "https://www.bhnet.org/73353/meridian-mental-health-hospital-opens-new-outpatient-center/",
+  "signal_published_date": "2026-08-06",
+  "signal_event_date": "2026-08-06",
+  "signal_date_is_observation": false,
+  "project_name": "Haven outpatient department, 1940 S Bonito Way Suite 150, Meridian",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://oceanshealthcare.com/news/cottonwood-creek-behavioral-hospital-expands-outpatient-mental-health-services-with-new-facility/",
+  "project_phase": "opened_operating",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "A second Meridian site staffed with new outpatient therapy and partial hospitalization teams, next to a 24 hour inpatient hospital, points to staff apparel for the added Haven team and branded items for community outreach and referral events.",
+  "purchase_use_case_source_url": "https://www.kivitv.com/news/local-news/in-your-neighborhood/meridian/cottonwood-creek-behavioral-hospital-opens-haven-outpatient-facility-in-meridian-to-meet-rising-demand",
+  "procurement_route": "unknown_local_vs_corporate",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Cottonwood Creek opened its Haven outpatient department at 1940 S Bonito Way Suite 150 in Meridian in early August 2026 with a Meridian Chamber ribbon cutting, adding a second local site for intensive outpatient and partial hospitalization programs across the street from the 2131 S Bonito Way hospital.",
+  "recommended_offer": "Branded staff apparel for the new Haven outpatient team and hospital staff, plus community outreach and referral event giveaway items with the Haven and Cottonwood Creek names.",
+  "suggested_opening_line": "I saw Cottonwood Creek opened the Haven outpatient department on S Bonito Way in August with a Meridian Chamber ribbon cutting. Who handles staff apparel and outreach giveaways for the new Haven team?",
+  "next_question": "Does the Meridian hospital buy staff apparel and community event items locally, or does Oceans Healthcare set vendors for its facilities?",
+  "outreach_caveat": "Owned by Oceans Healthcare, which runs 48 facilities in nine states and may set apparel standards or vendors centrally; confirm whether the Meridian hospital has local purchasing authority. Opening coverage dates to early August 2026, so the launch event itself has passed.",
+  "research_notes": "Opening covered by KIVI, a Behavioral Healthcare Network repost of Idaho Statesman reporting dated Aug 6, 2026, and an Oceans Healthcare news release; coverage says the chamber ribbon cutting was held on a Wednesday afternoon in early August. Hospital address and phone from the official site; Meridian Chamber member listing confirms the 2131 S Bonito Way hospital. Oceans Healthcare job board search surfaced Meridian behavioral health technician, RN and therapist listings, but per posting location and live status were not confirmed so active hiring was not used.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "independent_reporting",
+    "url": "https://www.bhnet.org/73353/meridian-mental-health-hospital-opens-new-outpatient-center/",
+    "publisher": "Behavioral Healthcare Network",
+    "origin_group": "bhnet.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:19:27-07:00",
+    "supporting_text": "Reports Cottonwood Creek Behavioral Hospital unveiled its new outpatient department Haven at 1940 S Bonito Way in Meridian with a Meridian Chamber ribbon cutting on a Wednesday afternoon; the CEO told the Idaho Statesman the hospital, open since January 2019, has run at capacity; search coverage places the opening on Aug 6, 2026."
+   },
+   {
+    "id": "s2",
+    "source_type": "local_news",
+    "url": "https://www.kivitv.com/news/local-news/in-your-neighborhood/meridian/cottonwood-creek-behavioral-hospital-opens-haven-outpatient-facility-in-meridian-to-meet-rising-demand",
+    "publisher": "KIVI Idaho News 6",
+    "origin_group": "kivitv.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:19:27-07:00",
+    "supporting_text": "Cottonwood Creek Behavioral Hospital opened Haven across the street from its current Meridian facility at 1940 S Bonito Way Suite 150, offering intensive outpatient, partial hospitalization and virtual care because the existing location is at capacity."
+   },
+   {
+    "id": "s3",
+    "source_type": "press_release",
+    "url": "https://oceanshealthcare.com/news/cottonwood-creek-behavioral-hospital-expands-outpatient-mental-health-services-with-new-facility/",
+    "publisher": "Oceans Healthcare",
+    "origin_group": "oceanshealthcare.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:41-07:00",
+    "supporting_text": "Oceans Healthcare release says Cottonwood Creek celebrated the opening of Haven, an outpatient department now serving patients at 1940 S Bonito Way Suite 150, for adolescents, adults and older adults; Cottonwood Creek and Haven are owned by Oceans Healthcare."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_company_site",
+    "url": "https://www.cottonwoodcreekboise.com/about-us/",
+    "publisher": "Cottonwood Creek Behavioral Hospital",
+    "origin_group": "cottonwoodcreekboise.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:39-07:00",
+    "supporting_text": "Official site lists 2131 S Bonito Way, Meridian ID 83642 and 24 hour assessment line 208 202 4700."
+   },
+   {
+    "id": "s5",
+    "source_type": "chamber_post",
+    "url": "https://business.meridianchamber.org/list/member/cottonwood-creek-behavioral-hospital-1951",
+    "publisher": "Meridian Chamber of Commerce",
+    "origin_group": "meridianchamber.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:39-07:00",
+    "supporting_text": "Meridian Chamber member directory lists Cottonwood Creek Behavioral Hospital, a 92 bed inpatient and outpatient mental health facility at 2131 S Bonito Way, Meridian, open 24 hours."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s3",
+    "s4",
+    "s5"
+   ],
+   "street_address": [
+    "s4",
+    "s5"
+   ],
+   "company_phone": [
+    "s4"
+   ],
+   "local_presence_type": [
+    "s2",
+    "s3",
+    "s5"
+   ],
+   "company_status": [
+    "s4",
+    "s2"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "project_relationship_status": [
+    "s3"
+   ],
+   "parent_company_name": [
+    "s1",
+    "s3"
+   ]
+  },
+  "blank_field_reasons": {
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "not_stated",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "job_titles_observed": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h2"
+ },
+ {
+  "company_name": "Saint Alphonsus Health System",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Nampa",
+  "vertical": "healthcare",
+  "subsegment": "hospital_health_system",
+  "company_domain": "saintalphonsus.org",
+  "company_website": "https://www.saintalphonsus.org/",
+  "parent_company_name": "Trinity Health",
+  "company_phone": "+12082051000",
+  "company_phone_source_url": "https://www.saintalphonsus.org/location/saint-alphonsus-medical-center-nampa",
+  "street_address": "4300 E Flamingo Ave",
+  "postal_code": "",
+  "local_presence_type": "multi_site_local",
+  "local_presence_source_url": "https://www.saintalphonsus.org/location/saint-alphonsus-medical-center-nampa",
+  "company_status": "operating",
+  "company_status_source_url": "https://www.saintalphonsus.org/location/saint-alphonsus-medical-center-nampa",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "3",
+  "buying_unit_key": "saint_alphonsus_medical_center_nampa",
+  "buying_unit_scope": "local_facility",
+  "buyer_department": "human_resources",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "Saint Alphonsus broke ground on Jun 25, 2026 on the expansion of Saint Alphonsus Medical Center Nampa at 4300 E Flamingo Ave, adding roughly 260,000 square feet including a seven story tower, a two story vertical addition and 64 new medical surgical and ICU beds with completion expected in fall 2028; the system also broke ground on Jun 3, 2026 on the 80,000 square foot North Meridian Health Plaza at Highway 16 and Chinden Rd. Idaho Business Review first reported both projects on Mar 10, 2026.",
+  "signal_source_url": "https://idahobusinessreview.com/2026/03/10/saint-alphonsus-expands-nampa-meridian/",
+  "signal_published_date": "2026-03-10",
+  "signal_event_date": "2026-06-25",
+  "signal_date_is_observation": false,
+  "project_name": "Saint Alphonsus Medical Center Nampa expansion",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://idahonews.com/news/local/saint-alphonsus-breaks-ground-on-major-nampa-hospital-expansion",
+  "project_phase": "groundbreaking_construction_underway",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "Two groundbreakings in June 2026, a Nampa hospital expansion expected to create hundreds of jobs through build out and a new North Meridian outpatient plaza, point to milestone event merchandise now and new hire and department apparel as the tower and plaza staff up toward 2028.",
+  "purchase_use_case_source_url": "https://idahonews.com/news/local/saint-alphonsus-breaks-ground-on-major-nampa-hospital-expansion",
+  "procurement_route": "unknown_local_vs_corporate",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Saint Alphonsus broke ground Jun 25, 2026 on a roughly 260,000 square foot expansion of its Nampa medical center on E Flamingo Ave and on Jun 3, 2026 on the 80,000 square foot North Meridian Health Plaza, with the Nampa tower due in fall 2028 and the plaza in late spring 2028.",
+  "recommended_offer": "Branded apparel and giveaway merchandise for construction milestone and community events, plus new hire welcome kits and department apparel for Nampa campus teams as the expansion staffs up.",
+  "suggested_opening_line": "I saw Saint Alphonsus broke ground in June on the Nampa medical center expansion and the North Meridian Health Plaza. Who at the Nampa campus handles branded apparel and event merchandise for the expansion milestones?",
+  "next_question": "Are staff apparel and event merchandise for the Nampa campus bought locally by the hospital or foundation, or through Trinity Health system contracts?",
+  "outreach_caveat": "Saint Alphonsus is part of Trinity Health, so apparel and promotional purchasing may run through system marketing or national contracts; confirm local buying authority at the Nampa campus. The main staffing wave arrives near the fall 2028 tower opening, so near term needs are milestone events.",
+  "research_notes": "Idaho Business Review dated Mar 10, 2026 covers the Nampa and North Meridian expansions. Idaho News 6 and Idaho Press coverage confirm the Nampa groundbreaking on Thursday, Jun 25, 2026 at 4300 E Flamingo Ave with completion expected fall 2028; KTVB and a Saint Alphonsus release confirm the North Meridian Health Plaza groundbreaking on Wednesday, Jun 3, 2026. Earlier February 2026 announcement coverage was left out under the date rule. Local sites documented: Nampa medical center on E Flamingo Ave, Nampa emergency department at I84 and Garrity, and the Caldwell Health Plaza; ZIP for the Nampa campus was not shown in the returned sources.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "local_news",
+    "url": "https://idahobusinessreview.com/2026/03/10/saint-alphonsus-expands-nampa-meridian/",
+    "publisher": "Idaho Business Review",
+    "origin_group": "idahobusinessreview.com",
+    "published_date": "2026-03-10",
+    "accessed_at": "2026-09-23T17:20:04-07:00",
+    "supporting_text": "Idaho Business Review article dated Mar 10, 2026 reports Saint Alphonsus expanding medical facilities in Nampa and Meridian, covering the Nampa medical center expansion and the North Meridian Health Plaza."
+   },
+   {
+    "id": "s2",
+    "source_type": "local_news",
+    "url": "https://idahonews.com/news/local/saint-alphonsus-breaks-ground-on-major-nampa-hospital-expansion",
+    "publisher": "Idaho News 6",
+    "origin_group": "idahonews.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:04-07:00",
+    "supporting_text": "Saint Alphonsus broke ground on the Nampa Medical Center expansion at 4300 E Flamingo Ave: about 260,000 square feet of new space, a seven story tower, a two story vertical expansion and 64 new medical surgical and ICU beds; expected to create hundreds of jobs; expanded campus expected to open November 2028."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_company_site",
+    "url": "https://www.saintalphonsus.org/samc-nampa-expansion",
+    "publisher": "Saint Alphonsus Health System",
+    "origin_group": "saintalphonsus.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:04-07:00",
+    "supporting_text": "Official Saint Alphonsus Medical Center Nampa Expansion page describing the multi year Nampa campus expansion."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_company_site",
+    "url": "https://www.saintalphonsus.org/location/saint-alphonsus-medical-center-nampa",
+    "publisher": "Saint Alphonsus Health System",
+    "origin_group": "saintalphonsus.org_locations",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:39-07:00",
+    "supporting_text": "Location page for Saint Alphonsus Medical Center Nampa at 4300 E Flamingo Ave, main phone 208 205 1000, emergency department 208 205 1100."
+   },
+   {
+    "id": "s5",
+    "source_type": "local_news",
+    "url": "https://www.ktvb.com/article/news/local/saint-alphonsus-breaks-ground-north-meridian-health-plaza/277-0ec403d6-9007-49ae-b18a-2cd95a09ba25",
+    "publisher": "KTVB",
+    "origin_group": "ktvb.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:39-07:00",
+    "supporting_text": "Saint Alphonsus broke ground Wednesday, Jun 3, 2026 on the 80,000 square foot North Meridian Health Plaza at Highway 16 and Chinden Rd on more than 17 acres, with family medicine, pediatrics, urgent care, cardiology and imaging; completion scheduled for late spring 2028."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s3",
+    "s4"
+   ],
+   "street_address": [
+    "s2",
+    "s4"
+   ],
+   "company_phone": [
+    "s4"
+   ],
+   "local_presence_type": [
+    "s2",
+    "s4",
+    "s5"
+   ],
+   "company_status": [
+    "s4",
+    "s2"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2",
+    "s5"
+   ],
+   "project_relationship_status": [
+    "s2",
+    "s3"
+   ],
+   "parent_company_name": [
+    "s3",
+    "s4"
+   ]
+  },
+  "blank_field_reasons": {
+   "postal_code": "not_found",
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "not_stated",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "job_titles_observed": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h2"
+ },
+ {
+  "company_name": "Stellar Senior Living",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Boise",
+  "vertical": "healthcare",
+  "subsegment": "care_rehabilitation",
+  "company_domain": "stellarliving.com",
+  "company_website": "https://stellarliving.com/",
+  "parent_company_name": "",
+  "company_phone": "+12087892924",
+  "company_phone_source_url": "https://stellarliving.com/communities/the-grand-at-boise/",
+  "street_address": "1777 S Curtis Rd",
+  "postal_code": "83705",
+  "local_presence_type": "multi_site_local",
+  "local_presence_source_url": "https://www.seniorly.com/assisted-living/idaho/boise/heritage-assisted-living-of-boise-managed-by-stellar-senior-living",
+  "company_status": "operating",
+  "company_status_source_url": "https://stellarliving.com/communities/the-grand-at-boise/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "2",
+  "buying_unit_key": "stellar_senior_living_boise",
+  "buying_unit_scope": "multi_site_local",
+  "buyer_department": "regional_operations",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "Stellar Senior Living community page for The Grand at Boise (observed Sep 24, 2026) says heavy equipment has arrived and crews are preparing the ground ahead of a September 2026 groundbreaking for a new assisted living and memory care community slated to open in spring 2028; Stellar already manages the 100 bed Heritage Assisted Living of Boise on S Curtis Rd.",
+  "signal_source_url": "https://stellarliving.com/communities/the-grand-at-boise/",
+  "signal_published_date": "2026-09-24",
+  "signal_event_date": "2026-09-24",
+  "signal_date_is_observation": true,
+  "project_name": "The Grand at Boise",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://stellarliving.com/communities/the-grand-at-boise/",
+  "project_phase": "groundbreaking_construction_underway",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "A new Boise assisted living and memory care community breaking ground in September 2026 with a spring 2028 opening will need care, dining and housekeeping teams hired and outfitted, alongside the existing staff at Heritage Assisted Living of Boise on S Curtis Rd.",
+  "purchase_use_case_source_url": "https://stellarliving.com/communities/the-grand-at-boise/",
+  "procurement_route": "unknown_local_vs_corporate",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Stellar Senior Living lists The Grand at Boise, a new assisted living and memory care community with a September 2026 groundbreaking and a spring 2028 opening, and already manages the 100 bed Heritage Assisted Living of Boise at 1777 S Curtis Rd.",
+  "recommended_offer": "Branded caregiver, dining and housekeeping team apparel, leadership polos, and groundbreaking and grand opening giveaways for the Boise communities.",
+  "suggested_opening_line": "I saw Stellar Senior Living is breaking ground on The Grand at Boise this September while running Heritage Assisted Living of Boise on Curtis Road. Who plans staff apparel and opening event merchandise for your Boise communities?",
+  "next_question": "Are staff apparel and community event merchandise set by the corporate operations team, or does each executive director buy for their own community?",
+  "outreach_caveat": "The Grand at Boise page is undated, so the observation date (Sep 24, 2026) stands in for the signal date; it describes a September groundbreaking and a spring 2028 opening but does not publish the ceremony date or the site street address. Opening is roughly 18 months out, so near term demand likely sits with the Heritage Assisted Living of Boise team, and apparel may be standardized by the corporate office.",
+  "research_notes": "Search index showed The Grand at Boise page current as of August 2026 (the lead cited Aug 12, 2026 and an index summary cited Aug 21, 2026, so no published date is recorded). A SmartRecruiters Caregiver (Med Tech) day shift posting and the Seniorly listing place the Stellar managed Heritage Assisted Living of Boise at 1777 S Curtis Rd, Boise 83705, described as a 100 bed assisted living and memory care community Stellar recently took over. Only one Boise requisition could be confirmed, so active hiring was not used. Facebook page lists Stellar Senior Living, BLLC in Midvale UT. Not in the exclusion index and not a franchise unit.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "official_company_site",
+    "url": "https://stellarliving.com/communities/the-grand-at-boise/",
+    "publisher": "Stellar Senior Living",
+    "origin_group": "stellarliving.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:17:41-07:00",
+    "supporting_text": "Community page for The Grand at Boise assisted living and memory care says heavy equipment has arrived and crews are preparing the ground, with a groundbreaking ceremony in September to start construction and an opening listed for spring 2028; lists phone 208 789 2924."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_employer_job",
+    "url": "https://jobs.smartrecruiters.com/StellarSeniorLiving/743999679534123-caregiver-med-tech-senior-living-day-shift",
+    "publisher": "Stellar Senior Living via SmartRecruiters",
+    "origin_group": "smartrecruiters.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:11-07:00",
+    "supporting_text": "Caregiver (Med Tech) day shift posting at 1777 S Curtis Rd, Boise ID 83705 states Stellar recently took over operation of a 100 bed assisted living and memory care community in Boise."
+   },
+   {
+    "id": "s3",
+    "source_type": "trade_directory",
+    "url": "https://www.seniorly.com/assisted-living/idaho/boise/heritage-assisted-living-of-boise-managed-by-stellar-senior-living",
+    "publisher": "Seniorly",
+    "origin_group": "seniorly.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:11-07:00",
+    "supporting_text": "Lists Heritage Assisted Living of Boise, managed by Stellar Senior Living, at 1777 South Curtis Road, Boise ID 83705, offering assisted living and memory care."
+   },
+   {
+    "id": "s4",
+    "source_type": "professional_profile",
+    "url": "https://www.facebook.com/stellarseniorliving/",
+    "publisher": "Facebook",
+    "origin_group": "facebook.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:18:11-07:00",
+    "supporting_text": "Company page for Stellar Senior Living, BLLC lists Midvale UT."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ],
+   "street_address": [
+    "s2",
+    "s3"
+   ],
+   "company_phone": [
+    "s1"
+   ],
+   "local_presence_type": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "company_status": [
+    "s1",
+    "s2"
+   ],
+   "signal_summary": [
+    "s1",
+    "s3"
+   ],
+   "project_relationship_status": [
+    "s1"
+   ]
+  },
+  "blank_field_reasons": {
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "apollo_enrichment_not_run_firmographic_not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "procurement_source_url": "not_found",
+   "local_job_postings_observed": "not_applicable",
+   "job_titles_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable"
+  },
+  "_shard": "h3"
+ },
+ {
+  "company_name": "Concentra",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Boise",
+  "vertical": "healthcare",
+  "subsegment": "multi_clinic_primary_care",
+  "company_domain": "concentra.com",
+  "company_website": "https://www.concentra.com/",
+  "parent_company_name": "",
+  "company_phone": "",
+  "company_phone_source_url": "",
+  "street_address": "3237 S Federal Way",
+  "postal_code": "83705",
+  "local_presence_type": "local_facility",
+  "local_presence_source_url": "https://ir.concentra.com/news-events/press-releases/detail/208/concentra-expands-into-idaho-with-opening-of-boise-medical-center",
+  "company_status": "operating",
+  "company_status_source_url": "https://idahobusinessreview.com/2026/08/17/concentra-occupational-medicine-urgent-care-boise/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "1",
+  "buying_unit_key": "concentra_boise",
+  "buying_unit_scope": "local_facility",
+  "buyer_department": "market_operations",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "Concentra press release dated Jul 20, 2026 announces its first Idaho medical center at 3237 South Federal Way in Boise, opened with a Jul 22 ribbon cutting, offering work injury care, physical therapy, drug testing and DOT physicals, with a second Meridian location planned later in 2026.",
+  "signal_source_url": "https://ir.concentra.com/news-events/press-releases/detail/208/concentra-expands-into-idaho-with-opening-of-boise-medical-center",
+  "signal_published_date": "2026-07-20",
+  "signal_event_date": "2026-07-22",
+  "signal_date_is_observation": false,
+  "project_name": "Concentra Boise medical center at Federal Way Plaza",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://ir.concentra.com/news-events/press-releases/detail/208/concentra-expands-into-idaho-with-opening-of-boise-medical-center",
+  "project_phase": "opened_operating",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "New market entry: the Boise center opened Jul 22, 2026 in the former JoAnn store on Federal Way, a Meridian clinic at the former Ram brewhouse on E Pine Ave is in city review (BoiseDev Jun 30, 2026), and Idaho Business Review reports national employers in the Treasure Valley asked for Concentra to enter, pointing to staff apparel for a new team and employer outreach giveaways.",
+  "purchase_use_case_source_url": "https://idahobusinessreview.com/2026/08/17/concentra-occupational-medicine-urgent-care-boise/",
+  "procurement_route": "unknown_local_vs_corporate",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Concentra opened its first Idaho medical center at 3237 South Federal Way in Boise with a Jul 22, 2026 ribbon cutting (press release Jul 20, 2026; Idaho Business Review Aug 17, 2026) and applied to the City of Meridian to convert the former Ram brewhouse at 3272 E Pine Ave into a second clinic planned later in 2026.",
+  "recommended_offer": "Branded staff apparel for the new Boise center team plus employer outreach giveaways such as notebooks, drinkware and totes for Treasure Valley account development and the Meridian opening.",
+  "suggested_opening_line": "I saw Concentra opened its first Idaho center on South Federal Way in July with a Meridian clinic next. Who handles local staff apparel and employer outreach giveaways for the Boise market?",
+  "next_question": "Are center apparel and promotional items bought through corporate programs, or does the Boise market team hold budget for local employer events and the Meridian opening?",
+  "outreach_caveat": "Concentra is a national occupational health operator, so staff apparel may run through corporate vendor programs; lead with local employer outreach items and the Meridian opening and confirm who holds budget. No local center phone was published in the sources found.",
+  "research_notes": "Press release dated Jul 20, 2026 (also syndicated on Nasdaq) confirms the Boise opening, Jul 22 ribbon cutting and Meridian plans. Idaho Business Review (Aug 17, 2026) confirms the ribbon cutting at the flagship on Federal Way east of Broadway and plans for Meridian later this year. BoiseDev (Jun 30, 2026) reports the Meridian application for 3272 E Pine Ave and cited 3275 S Federal Way for the Boise site, while the press release and location page give 3237 South Federal Way. Concentra location page lists the Boise center with Monday to Friday 8 a.m. to 5 p.m. hours. A Concentra careers page for a Boise medical assistant surfaced, but only one role, so hiring was not used as the signal. Company operated, not a franchise; not on the exclusion index.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "press_release",
+    "url": "https://ir.concentra.com/news-events/press-releases/detail/208/concentra-expands-into-idaho-with-opening-of-boise-medical-center",
+    "publisher": "Concentra Inc.",
+    "origin_group": "ir.concentra.com",
+    "published_date": "2026-07-20",
+    "accessed_at": "2026-09-23T17:19:47-07:00",
+    "supporting_text": "Concentra Expands into Idaho with Opening of Boise Medical Center: first Idaho center in Federal Way Plaza at 3237 South Federal Way, Boise 83705, ribbon cutting Jul 22, services include work injury care, physical therapy, drug testing and DOT exams, second location planned in Meridian later this year."
+   },
+   {
+    "id": "s2",
+    "source_type": "local_news",
+    "url": "https://idahobusinessreview.com/2026/08/17/concentra-occupational-medicine-urgent-care-boise/",
+    "publisher": "Idaho Business Review",
+    "origin_group": "idahobusinessreview.com",
+    "published_date": "2026-08-17",
+    "accessed_at": "2026-09-23T17:20:15-07:00",
+    "supporting_text": "Concentra hosted a ribbon cutting Jul 22 for its flagship Boise location on Federal Way east of Broadway in the former JoAnn store, plans to expand into Meridian later this year, and national employers in the Treasure Valley had asked for it to enter the market."
+   },
+   {
+    "id": "s3",
+    "source_type": "local_news",
+    "url": "https://boisedev.com/news/2026/06/30/out-of-state-occupational-healthcare-company-proposes-converting-former-brewhouse-to-clinic/",
+    "publisher": "BoiseDev",
+    "origin_group": "boisedev.com",
+    "published_date": "2026-06-30",
+    "accessed_at": "2026-09-23T17:19:47-07:00",
+    "supporting_text": "Concentra filed an application with the City of Meridian to convert the former Ram restaurant at 3272 E Pine Ave into a clinic, alongside a Boise clinic in a former JoAnn store on S Federal Way."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_company_site",
+    "url": "https://www.concentra.com/urgent-care-centers/idaho/akron/boise-airport-urgent-care/",
+    "publisher": "Concentra",
+    "origin_group": "concentra.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:15-07:00",
+    "supporting_text": "Concentra Boise Airport center location page lists 3237 South Federal Way, Boise, Idaho 83705, open Monday to Friday 8 a.m. to 5 p.m."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s2"
+   ],
+   "street_address": [
+    "s1",
+    "s4"
+   ],
+   "local_presence_type": [
+    "s1",
+    "s2",
+    "s4"
+   ],
+   "company_status": [
+    "s2",
+    "s4"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2"
+   ],
+   "project_relationship_status": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  "blank_field_reasons": {
+   "company_phone": "not_published",
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "parent_company_name": "not_applicable",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h3"
+ },
+ {
+  "company_name": "Kuna Physical Therapy",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Kuna",
+  "vertical": "healthcare",
+  "subsegment": "outpatient_therapy",
+  "company_domain": "kunaphysicaltherapy.com",
+  "company_website": "https://kunaphysicaltherapy.com/",
+  "parent_company_name": "",
+  "company_phone": "",
+  "company_phone_source_url": "",
+  "street_address": "1222 N Meridian Rd Ste 110",
+  "postal_code": "83642",
+  "local_presence_type": "local_facility",
+  "local_presence_source_url": "https://kunaphysicaltherapy.com/",
+  "company_status": "operating",
+  "company_status_source_url": "https://kunaphysicaltherapy.com/book-appointment",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "1",
+  "buying_unit_key": "kuna_physical_therapy_kuna",
+  "buying_unit_scope": "local_facility",
+  "buyer_department": "ownership_operations",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "Kuna Chamber of Commerce event calendar (observed Sep 23, 2026) lists a Kuna Physical Therapy Ribbon Cutting on Wednesday Sep 30, 2026, welcoming the Kuna clinic on N Meridian Rd and its physical therapist to the Kuna business community.",
+  "signal_source_url": "https://business.kunachamber.org/eventcalendar",
+  "signal_published_date": "2026-09-23",
+  "signal_event_date": "2026-09-30",
+  "signal_date_is_observation": true,
+  "project_name": "",
+  "project_relationship_status": "",
+  "project_relationship_source_url": "",
+  "project_phase": "",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "A chamber ribbon cutting on Sep 30, 2026 for a Kuna outpatient therapy clinic that is taking appointments points to opening event giveaways and branded staff apparel for the therapist and front desk team.",
+  "purchase_use_case_source_url": "https://business.kunachamber.org/eventcalendar",
+  "procurement_route": "unknown_owner_vs_office",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "during_sep_2026_ribbon_cutting",
+  "reason_to_contact": "Kuna Chamber of Commerce calendar lists a Kuna Physical Therapy Ribbon Cutting on Wednesday Sep 30, 2026 for the clinic at 1222 N Meridian Rd, Suite 110 in Kuna, which is already taking appointments through its site.",
+  "recommended_offer": "Branded therapist and front desk polos and quarter zips plus ribbon cutting giveaways such as totes, water bottles and exercise bands carrying the clinic logo.",
+  "suggested_opening_line": "I saw Kuna Physical Therapy on the Kuna Chamber calendar with a ribbon cutting set for Sep 30. Are staff polos and giveaway items for the event and the months after already covered?",
+  "next_question": "Does the clinic owner buy apparel and promotional items directly, or does an office manager handle it for the therapists and front desk?",
+  "outreach_caveat": "Chamber calendar listing is undated, so the observation date (Sep 23, 2026) stands in for the published date; the event is one week out, so event item timing is tight and follow on staff apparel may be the better fit. Ownership and any affiliation with a larger therapy group were not confirmed. The site lists ZIP 83642 with a Kuna street address; confirm the mailing ZIP. No phone was captured.",
+  "research_notes": "Kuna Chamber event calendar surfaced in search with the Kuna Physical Therapy Ribbon Cutting on Sep 30 welcoming the clinic and its physical therapist; the event detail page is blocked by egress, and Sep 30, 2026 falls on a Wednesday, matching the listing. Official site and its Book Appointment page give 1222 N Meridian Rd, Suite 110, Kuna. Apollo lookup by domain returned no organization. No careers page or local postings found. Not on the exclusion index and no link found to excluded therapy groups. Web search budget ran out before a third source or phone could be found.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "chamber_post",
+    "url": "https://business.kunachamber.org/eventcalendar",
+    "publisher": "Kuna Chamber of Commerce",
+    "origin_group": "kunachamber.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:21-07:00",
+    "supporting_text": "Kuna Chamber event calendar lists a Kuna Physical Therapy Ribbon Cutting on Sep 30, welcoming Kuna Physical Therapy and its physical therapist."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_company_site",
+    "url": "https://kunaphysicaltherapy.com/",
+    "publisher": "Kuna Physical Therapy",
+    "origin_group": "kunaphysicaltherapy.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:15-07:00",
+    "supporting_text": "Clinic site for physical therapy in Kuna, Idaho lists the office at 1222 N Meridian Rd, Suite 110, Kuna."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_company_site",
+    "url": "https://kunaphysicaltherapy.com/book-appointment",
+    "publisher": "Kuna Physical Therapy",
+    "origin_group": "kunaphysicaltherapy.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:15-07:00",
+    "supporting_text": "Book Appointment page for the Kuna, Idaho clinic shows the practice accepting patient appointment requests."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s2"
+   ],
+   "street_address": [
+    "s2",
+    "s3"
+   ],
+   "local_presence_type": [
+    "s2",
+    "s1"
+   ],
+   "company_status": [
+    "s3"
+   ],
+   "signal_summary": [
+    "s1"
+   ]
+  },
+  "blank_field_reasons": {
+   "company_phone": "not_found",
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "parent_company_name": "not_found",
+   "project_name": "not_applicable_no_named_project",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "h3"
+ },
+ {
+  "company_name": "Hoffman Construction Company",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Boise",
+  "vertical": "construction_industrial",
+  "subsegment": "commercial_civil_gc",
+  "company_domain": "hoffmancorp.com",
+  "company_website": "https://www.hoffmancorp.com/",
+  "parent_company_name": "",
+  "company_phone": "+12084692889",
+  "company_phone_source_url": "https://www.hoffmancorp.com/contact/",
+  "street_address": "420 W Washington St Ste A",
+  "postal_code": "83702",
+  "local_presence_type": "local_office",
+  "local_presence_source_url": "https://www.hoffmancorp.com/contact/",
+  "company_status": "operating",
+  "company_status_source_url": "https://boisedev.com/news/2026/08/24/idaho-state-police-set-to-build-29-million-forensic-lab-in-meridian/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "2",
+  "buying_unit_key": "hoffman_construction_boise",
+  "buying_unit_scope": "regional_operating_office",
+  "buyer_department": "project_operations",
+  "signal_type": "project_relationship",
+  "signal_summary": "BoiseDev (Aug 24, 2026) and an Idaho State Police release name Hoffman Construction as construction manager and general contractor for the $29 million, 20,000 square foot ISP Forensic Services Laboratory at the ISP headquarters campus, 700 S Stratford Drive, Meridian; groundbreaking was Aug 25, 2026 and completion is targeted for January 2028.",
+  "signal_source_url": "https://boisedev.com/news/2026/08/24/idaho-state-police-set-to-build-29-million-forensic-lab-in-meridian/",
+  "signal_published_date": "2026-08-24",
+  "signal_event_date": "2026-08-25",
+  "signal_date_is_observation": false,
+  "project_name": "Idaho State Police Forensic Services Laboratory, Meridian",
+  "project_relationship_status": "general_contractor",
+  "project_relationship_source_url": "https://isp.idaho.gov/idaho-state-police-breaks-ground-on-new-forensic-services-laboratory/",
+  "project_phase": "groundbreaking_construction_underway",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "A CM/GC team starting a 20,000 square foot state forensic lab in Meridian after the Aug 25, 2026 groundbreaking, with completion slated for January 2028, implies a field crew and project staff on site through 2027, a fit for branded jobsite apparel and project milestone items.",
+  "purchase_use_case_source_url": "https://isp.idaho.gov/idaho-state-police-breaks-ground-on-new-forensic-services-laboratory/",
+  "procurement_route": "unknown_local_vs_corporate",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Hoffman Construction broke ground Aug 25, 2026 as CM/GC on the $29 million ISP forensic lab in Meridian, a project running to January 2028, and keeps an Idaho office at 420 W Washington St in Boise.",
+  "recommended_offer": "Branded jobsite apparel for the Meridian project team plus office staff apparel and project milestone giveaways for the Boise office.",
+  "suggested_opening_line": "I saw Hoffman broke ground Aug 25 as CM/GC on the ISP forensic lab in Meridian. Who handles branded apparel for that project team and the Boise office?",
+  "next_question": "Does the Boise office buy project team apparel locally, or does the Oregon headquarters set apparel standards for every jobsite?",
+  "outreach_caveat": "Hoffman is an Oregon headquartered Pacific Northwest contractor, so apparel may be sourced corporately; confirm the Idaho buying seat. The project owner is a state agency, so this record targets Hoffman as contractor only. Offer standard branded apparel only, never safety certified gear.",
+  "research_notes": "Idaho State Police release, BoiseDev (Aug 24, 2026) and Idaho News coverage of the Aug 25, 2026 groundbreaking all name Hoffman as CM/GC, with Lombard Conrad Architects and SmithGroup on design. Boise office address and phone from the Hoffman contact page. Apollo lookup confirms hoffmancorp.com. Site count covers the Boise office and the Meridian jobsite. Lead mentions of Micron work and a Boise Quality Manager posting were not verified in this pass and are left out.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "official_company_site",
+    "url": "https://www.hoffmancorp.com/contact/",
+    "publisher": "Hoffman Construction Company",
+    "origin_group": "hoffmancorp.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:14-07:00",
+    "supporting_text": "Contact page lists the Boise office at 420 W Washington St, Suite A, Boise ID 83702, phone 208 469 2889, plus a bids email for Idaho work."
+   },
+   {
+    "id": "s2",
+    "source_type": "local_news",
+    "url": "https://boisedev.com/news/2026/08/24/idaho-state-police-set-to-build-29-million-forensic-lab-in-meridian/",
+    "publisher": "BoiseDev",
+    "origin_group": "boisedev.com",
+    "published_date": "2026-08-24",
+    "accessed_at": "2026-09-23T17:20:14-07:00",
+    "supporting_text": "BoiseDev reports Idaho State Police set to build a $29 million forensic lab in Meridian and names Hoffman Construction as construction manager and general contractor."
+   },
+   {
+    "id": "s3",
+    "source_type": "press_release",
+    "url": "https://isp.idaho.gov/idaho-state-police-breaks-ground-on-new-forensic-services-laboratory/",
+    "publisher": "Idaho State Police",
+    "origin_group": "isp.idaho.gov",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:47-07:00",
+    "supporting_text": "ISP release announces groundbreaking Tuesday, Aug 25, 2026 at 10:30 a.m. at 700 S Stratford Drive, Meridian for a 20,000 square foot forensic lab; Hoffman Construction serves as construction manager and general contractor; completion scheduled for January 2028."
+   },
+   {
+    "id": "s4",
+    "source_type": "local_news",
+    "url": "https://idahonews.com/news/local/idaho-state-police-breaks-ground-on-29-million-forensic-lab-in-meridian",
+    "publisher": "Idaho News (KBOI)",
+    "origin_group": "idahonews.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:47-07:00",
+    "supporting_text": "Reports ISP broke ground Aug 25, 2026 on the $29 million Meridian lab; Hoffman Construction is construction manager and general contractor and Lombard Conrad Architects leads design, with completion estimated by January 2028."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "street_address": [
+    "s1"
+   ],
+   "company_phone": [
+    "s1"
+   ],
+   "local_presence_type": [
+    "s1"
+   ],
+   "company_status": [
+    "s2"
+   ],
+   "signal_summary": [
+    "s2",
+    "s3",
+    "s4"
+   ],
+   "project_relationship_status": [
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  "blank_field_reasons": {
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "local_job_postings_observed": "not_applicable",
+   "job_titles_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "c1"
+ },
+ {
+  "company_name": "The Land Group, Inc.",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Eagle",
+  "vertical": "construction_industrial",
+  "subsegment": "civil_engineering_land_development",
+  "company_domain": "thelandgroupinc.com",
+  "company_website": "https://thelandgroupinc.com/",
+  "parent_company_name": "",
+  "company_phone": "",
+  "company_phone_source_url": "",
+  "street_address": "462 E Shore Dr Ste 100",
+  "postal_code": "83616",
+  "local_presence_type": "headquarters_office",
+  "local_presence_source_url": "https://thelandgroupinc.com/contact",
+  "company_status": "operating",
+  "company_status_source_url": "https://thelandgroupinc.com/internships",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "1",
+  "buying_unit_key": "the_land_group_eagle",
+  "buying_unit_scope": "company_hq_idaho",
+  "buyer_department": "talent_hr",
+  "signal_type": "observed_recurring_need",
+  "signal_summary": "The Land Group internship page (observed Sep 23, 2026) describes a 10 week summer intern cohort in the Eagle office that pairs landscape architecture and civil engineering students with mentors; the 2026 cycle set an application deadline of Mar 4, 2026 and interviews Mar 11 to 13, 2026.",
+  "signal_source_url": "https://thelandgroupinc.com/internships",
+  "signal_published_date": "2026-09-23",
+  "signal_event_date": "2026-03-11",
+  "signal_date_is_observation": true,
+  "project_name": "",
+  "project_relationship_status": "",
+  "project_relationship_source_url": "",
+  "project_phase": "",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "An annual 10 week intern cohort in Eagle, selected each March, points to a repeat need for intern welcome kits and team apparel, alongside ongoing recruiting of civil engineers, land surveyors, landscape architects and designers listed on the careers page.",
+  "purchase_use_case_source_url": "https://thelandgroupinc.com/internships",
+  "procurement_route": "unknown",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "The Land Group runs a recurring 10 week summer intern cohort out of its Eagle headquarters at 462 E Shore Dr, with the 2026 cycle interviewing Mar 11 to 13, 2026, and its careers page recruits civil engineers, land surveyors, landscape architects and survey technicians.",
+  "recommended_offer": "Intern and new hire welcome kits plus branded office and survey crew apparel for a landscape architecture, civil engineering and surveying firm.",
+  "suggested_opening_line": "I saw The Land Group ran its 2026 summer intern cohort out of the Eagle office after March interviews. Who puts together welcome kits and team apparel when new interns and hires start?",
+  "next_question": "Will the 2027 intern cycle follow the same March calendar, and does HR or office administration handle intern welcome gear?",
+  "outreach_caveat": "Internship page is undated, so the observation date stands in for the published date; the 2026 cycle dates (deadline Mar 4, 2026, interviews Mar 11 to 13, 2026) come from the page as observed Sep 23, 2026. The 2026 cohort has finished, so timing depends on the 2027 cycle; confirm before pitching. Careers page lists role types rather than dated postings, so hiring volume is unconfirmed.",
+  "research_notes": "Official internship, careers and contact pages surfaced by search on Sep 23, 2026. Boise Metro Chamber directory lists The Land Group, Inc. under Land Planning and Development, and Yelp lists 462 E Shore Dr, Eagle. No parent company found; the firm names its own president. No dated 2026 news or dated hiring post found before the session search budget ran out. Lead mentions of March offer dates and a LinkedIn hiring post were not confirmed and are left out. Phone not surfaced.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "official_employer_careers",
+    "url": "https://thelandgroupinc.com/internships",
+    "publisher": "The Land Group, Inc.",
+    "origin_group": "thelandgroupinc.com_internships",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:47-07:00",
+    "supporting_text": "Summer Internship page describes a 10 week summer internship in the Eagle office pairing landscape architects and civil engineers with mentors; 2026 application deadline Mar 4, 2026 with interviews Mar 11 to 13."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_employer_careers",
+    "url": "https://thelandgroupinc.com/careers",
+    "publisher": "The Land Group, Inc.",
+    "origin_group": "thelandgroupinc.com_careers",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:47-07:00",
+    "supporting_text": "Careers page says the firm is always looking for Civil Engineers, Professional Land Surveyors, Landscape Architects, Civil Designers, Landscape Designers, Project Coordinators and Survey Technicians, with applications by email; headquarters 462 E Shore Dr, Suite 100, Eagle ID 83616."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_company_site",
+    "url": "https://thelandgroupinc.com/contact",
+    "publisher": "The Land Group, Inc.",
+    "origin_group": "thelandgroupinc.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:47-07:00",
+    "supporting_text": "Contact page for the Eagle headquarters at 462 E Shore Dr, Suite 100, Eagle ID 83616."
+   },
+   {
+    "id": "s4",
+    "source_type": "trade_directory",
+    "url": "https://web.boisechamber.org/Land-Planning-Development/The-Land-Group,-Inc-44979",
+    "publisher": "Boise Metro Chamber",
+    "origin_group": "boisechamber.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:47-07:00",
+    "supporting_text": "Boise Metro Chamber member directory lists The Land Group, Inc. under Land Planning and Development."
+   },
+   {
+    "id": "s5",
+    "source_type": "trade_directory",
+    "url": "https://www.yelp.com/biz/land-group-inc-eagle",
+    "publisher": "Yelp",
+    "origin_group": "yelp.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:47-07:00",
+    "supporting_text": "Yelp business listing for Land Group Inc at 462 E Shore Dr, Eagle, Idaho, marked updated September 2026."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s4"
+   ],
+   "street_address": [
+    "s2",
+    "s3",
+    "s5"
+   ],
+   "local_presence_type": [
+    "s2",
+    "s3",
+    "s4"
+   ],
+   "company_status": [
+    "s1",
+    "s5"
+   ],
+   "signal_summary": [
+    "s1"
+   ]
+  },
+  "blank_field_reasons": {
+   "company_phone": "not_found",
+   "company_phone_source_url": "not_found",
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "project_name": "not_applicable_no_named_project",
+   "project_relationship_status": "not_applicable_no_named_project",
+   "project_relationship_source_url": "not_applicable_no_named_project",
+   "project_phase": "not_applicable_no_named_project",
+   "local_job_postings_observed": "not_applicable",
+   "job_titles_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "c1"
+ },
+ {
+  "company_name": "STRATA inc.",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Boise",
+  "vertical": "construction_industrial",
+  "subsegment": "construction_materials_testing_geotechnical",
+  "company_domain": "stratageotech.com",
+  "company_website": "https://www.stratageotech.com/",
+  "parent_company_name": "",
+  "company_phone": "+12083768200",
+  "company_phone_source_url": "https://web.idahoagc.org/Services/STRATA-Boise-1085",
+  "street_address": "8653 W Hackamore Dr",
+  "postal_code": "83709",
+  "local_presence_type": "headquarters_office",
+  "local_presence_source_url": "https://www.stratageotech.com/locations/",
+  "company_status": "operating",
+  "company_status_source_url": "https://www.stratageotech.com/careers/",
+  "employee_count_or_band": "110+",
+  "employee_count_scope": "company_website_stated",
+  "local_site_count": "1",
+  "buying_unit_key": "strata_boise",
+  "buying_unit_scope": "company_hq_idaho",
+  "buyer_department": "operations",
+  "signal_type": "active_hiring",
+  "signal_summary": "STRATA postings on its ourcareerpages ATS, returned live in the search index on Sep 24, 2026, list a Senior Geotechnical Engineer for the greater Boise area and a Field Professional in Construction Materials Testing for Boise, both tied to the Hackamore Drive headquarters.",
+  "signal_source_url": "https://jobs.ourcareerpages.com/job/967363",
+  "signal_published_date": "2026-09-24",
+  "signal_event_date": "2026-09-24",
+  "signal_date_is_observation": true,
+  "project_name": "",
+  "project_relationship_status": "",
+  "project_relationship_source_url": "",
+  "project_phase": "",
+  "local_job_postings_observed": "2",
+  "job_titles_observed": [
+   "Senior Geotechnical Engineer",
+   "Field Professional, Construction Materials Testing"
+  ],
+  "hiring_evidence_url": "https://jobs.ourcareerpages.com/job/967363",
+  "hiring_count_scope": "distinct_open_requisitions_observed_boise",
+  "purchase_use_case_evidence": "The Boise Field Professional role performs field testing and inspections of soils, aggregates, concrete, asphalt and steel on client jobsites, a uniformed field role where branded shirts, jackets and hats identify STRATA inspectors; the firm runs 110+ staff across six offices from its Boise headquarters.",
+  "purchase_use_case_source_url": "https://jobs.ourcareerpages.com/job/967363",
+  "procurement_route": "unknown",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "STRATA, a Boise headquartered geotechnical, materials testing and special inspection firm, has live ATS postings observed Sep 24, 2026 for a Senior Geotechnical Engineer and a Field Professional in Construction Materials Testing in Boise, adding to a field inspection team that works on client jobsites every day.",
+  "recommended_offer": "Branded field technician apparel (shirts, jackets, hats) and new hire welcome kits for materials testing and special inspection crews, plus office staff apparel for the Boise headquarters.",
+  "suggested_opening_line": "I saw STRATA posting a Field Professional role in Construction Materials Testing and a Senior Geotechnical Engineer role for Boise. Who handles branded apparel and new hire kits for your field inspectors out of the Hackamore Drive office?",
+  "next_question": "Does the Boise headquarters buy apparel for all six offices, or does each office manager order for its own field staff?",
+  "outreach_caveat": "ATS postings are undated, so the observation date stands in for the signal date; live status confirmed via search index on Sep 24, 2026. Field inspectors may receive safety gear through other channels, so position standard branded apparel only. Buying may be centralized at the Boise headquarters for all six offices; confirm the seat.",
+  "research_notes": "Two Boise postings counted from the ourcareerpages ATS: Senior Geotechnical Engineer and Field Professional, Construction Materials Testing. The same ATS also returned a Special Inspector posting and a Staff Engineer Geotechnical posting, not counted because their posting dates and office locations could not be confirmed. Headquarters address 8653 W Hackamore Dr, Boise 83709 from the company locations page and the Idaho AGC directory; phone 208 376 8200 surfaced in a search limited to those two sites. No parent or acquisition found; LinkedIn lists STRATA as privately held and founded in 1974. Glassdoor and ZipRecruiter also show Boise openings but were not used as hiring evidence. Apollo lookup confirms the stratageotech.com domain.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "official_employer_job",
+    "url": "https://jobs.ourcareerpages.com/job/958714",
+    "publisher": "STRATA (ourcareerpages ATS)",
+    "origin_group": "jobs.ourcareerpages.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:40-07:00",
+    "supporting_text": "ATS posting titled Senior Geotechnical Engineer Boise seeks a senior engineer with transportation and mining sector experience to partner with clients in the greater Boise area."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_employer_job",
+    "url": "https://jobs.ourcareerpages.com/job/967363",
+    "publisher": "STRATA (ourcareerpages ATS)",
+    "origin_group": "jobs.ourcareerpages.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:10-07:00",
+    "supporting_text": "ATS posting for Field Professional, Construction Materials Testing in Boise, Idaho performs field testing, observations and inspections of soils, aggregates, concrete, asphalt and steel; lists the Boise office at 8653 W Hackamore Dr, Boise 83709."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_company_site",
+    "url": "https://www.stratageotech.com/locations/",
+    "publisher": "STRATA",
+    "origin_group": "stratageotech.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:19-07:00",
+    "supporting_text": "Locations page lists six offices in Boise, Idaho Falls, Pocatello, Post Falls, Salt Lake City and Twin Falls, with the corporate headquarters at 8653 West Hackamore Drive, Boise ID 83709."
+   },
+   {
+    "id": "s4",
+    "source_type": "trade_directory",
+    "url": "https://web.idahoagc.org/Services/STRATA-Boise-1085",
+    "publisher": "Idaho AGC",
+    "origin_group": "idahoagc.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:19-07:00",
+    "supporting_text": "Idaho AGC services directory lists STRATA, Boise, at 8653 W Hackamore Dr, Boise ID 83709, phone 208 376 8200, for geotechnical engineering and construction materials testing."
+   },
+   {
+    "id": "s5",
+    "source_type": "professional_profile",
+    "url": "https://www.linkedin.com/company/stratainc",
+    "publisher": "LinkedIn",
+    "origin_group": "linkedin.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:50-07:00",
+    "supporting_text": "LinkedIn company page for STRATA inc. describes a privately held geotechnical engineering, materials testing and special inspection firm founded in 1974 with its corporate office in Boise, Idaho."
+   },
+   {
+    "id": "s6",
+    "source_type": "official_employer_careers",
+    "url": "https://www.stratageotech.com/careers/",
+    "publisher": "STRATA",
+    "origin_group": "stratageotech.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:20-07:00",
+    "supporting_text": "Careers page invites geotechnical and construction professionals to join across Idaho, Utah and the Pacific Northwest and states over 110 team members within six offices, headquartered in Boise."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s3",
+    "s5"
+   ],
+   "street_address": [
+    "s3",
+    "s4"
+   ],
+   "company_phone": [
+    "s4"
+   ],
+   "local_presence_type": [
+    "s3",
+    "s4"
+   ],
+   "company_status": [
+    "s1",
+    "s2",
+    "s6"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2"
+   ],
+   "hiring_evidence_url": [
+    "s2"
+   ],
+   "employee_count_or_band": [
+    "s6"
+   ]
+  },
+  "blank_field_reasons": {
+   "parent_company_name": "not_applicable_independent",
+   "project_name": "not_applicable_no_named_project",
+   "project_relationship_status": "not_applicable_no_named_project",
+   "project_relationship_source_url": "not_applicable_no_named_project",
+   "project_phase": "not_applicable_no_named_project",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "c2"
+ },
+ {
+  "company_name": "Micron Technology, Inc.",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Boise",
+  "vertical": "construction_industrial",
+  "subsegment": "industrial_manufacturing",
+  "company_domain": "micron.com",
+  "company_website": "https://www.micron.com/",
+  "parent_company_name": "",
+  "company_phone": "",
+  "company_phone_source_url": "",
+  "street_address": "8000 S Federal Way",
+  "postal_code": "",
+  "local_presence_type": "headquarters_office",
+  "local_presence_source_url": "https://boisedev.com/news/2026/08/20/micron-to-build-10-billion-research-lab-in-boise/",
+  "company_status": "operating",
+  "company_status_source_url": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "1",
+  "buying_unit_key": "micron_technology_boise",
+  "buying_unit_scope": "local_headquarters",
+  "buyer_department": "talent_hr",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "Micron announced Micron Research Labs on Aug 20, 2026, a planned $10 billion research hub headquartered in Boise with a flagship Boise campus expected to break ground in 2027. BoiseDev reported on Jun 24, 2026 that the $50 billion southeast Boise fab expansion is still under construction, with production now expected in 2027 and second fab construction expected to start later in 2026.",
+  "signal_source_url": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
+  "signal_published_date": "2026-08-20",
+  "signal_event_date": "2026-08-20",
+  "signal_date_is_observation": false,
+  "project_name": "Micron Research Labs flagship Boise campus",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
+  "project_phase": "opening_announced",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "The Boise research lab is planned to bring together hundreds of researchers in a new facility in the company's home city, on top of fab construction aimed at 2027 production, which points to recurring needs for staff apparel, launch and conference merchandise, and new hire kits.",
+  "purchase_use_case_source_url": "https://boisedev.com/news/2026/08/20/micron-to-build-10-billion-research-lab-in-boise/",
+  "procurement_route": "unknown_local_vs_corporate",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Micron announced on Aug 20, 2026 a $10 billion Micron Research Labs hub headquartered in Boise, with the flagship campus set to break ground in 2027, while the southeast Boise fab expansion continues toward 2027 production.",
+  "recommended_offer": "Branded staff apparel and event merchandise for research lab launch events, research conferences and workforce onboarding cohorts at the Boise campus.",
+  "suggested_opening_line": "I saw Micron announce the $10 billion Micron Research Labs campus in Boise on Aug 20, 2026. Who coordinates branded apparel and event merchandise for Boise site launches and new hire cohorts?",
+  "next_question": "Is Boise branded merchandise bought through a corporate supplier program, or can site teams and event organizers buy from a local vendor?",
+  "outreach_caveat": "Very large global enterprise with likely corporate procurement and approved vendor programs, so treat as lower priority. Cleanroom garments are out of scope. Research campus groundbreaking is not expected until 2027, so near term timing is unconfirmed.",
+  "research_notes": "Micron press release dated Aug 20, 2026 plus BoiseDev and KTVB coverage confirm the Boise research lab announcement. BoiseDev aerial update dated Jun 24, 2026 confirms ongoing fab construction at the southeast Boise site. Street address from the Micron investor relations contact page; phone and ZIP left blank because only older filings showed them. Not on the exclusion index; publicly traded company with no parent. Web search quota ran out before careers postings or the training center article date could be checked.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "press_release",
+    "url": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
+    "publisher": "Micron Technology",
+    "origin_group": "investors.micron.com",
+    "published_date": "2026-08-20",
+    "accessed_at": "2026-09-23T17:20:12-07:00",
+    "supporting_text": "Micron press release dated Aug 20, 2026 unveils Micron Research Labs, a research institution headquartered in Boise backed by a planned $10 billion investment over the next decade and centered on a flagship Boise campus; Micron expects to break ground in 2027."
+   },
+   {
+    "id": "s2",
+    "source_type": "local_news",
+    "url": "https://boisedev.com/news/2026/08/20/micron-to-build-10-billion-research-lab-in-boise/",
+    "publisher": "BoiseDev",
+    "origin_group": "boisedev.com",
+    "published_date": "2026-08-20",
+    "accessed_at": "2026-09-23T17:20:12-07:00",
+    "supporting_text": "BoiseDev reports on Aug 20, 2026 that Boise based Micron will launch a new $10 billion lab in its home city that will bring together hundreds of researchers in a new facility."
+   },
+   {
+    "id": "s3",
+    "source_type": "local_news",
+    "url": "https://www.ktvb.com/article/tech/micron-announces-10-billion-research-lab-boise/277-644a9ff6-dc09-4c8e-932f-16e2281c57fd",
+    "publisher": "KTVB",
+    "origin_group": "ktvb.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:12-07:00",
+    "supporting_text": "KTVB reports Micron announced a $10 billion research lab coming to Boise, covering the Aug 20, 2026 Micron Research Labs announcement."
+   },
+   {
+    "id": "s4",
+    "source_type": "local_news",
+    "url": "https://boisedev.com/news/2026/06/24/aerial-video-see-microns-expansion-progress-from-2024-to-now/",
+    "publisher": "BoiseDev",
+    "origin_group": "boisedev.com",
+    "published_date": "2026-06-24",
+    "accessed_at": "2026-09-23T17:20:12-07:00",
+    "supporting_text": "BoiseDev aerial update dated Jun 24, 2026 shows the Boise fab expansion under construction since 2023, with production now expected in 2027 and second fab construction expected to start later in 2026 at the southeast Boise site."
+   },
+   {
+    "id": "s5",
+    "source_type": "official_company_site",
+    "url": "https://investors.micron.com/contact-us",
+    "publisher": "Micron Technology",
+    "origin_group": "investors.micron.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:12-07:00",
+    "supporting_text": "Micron investor relations contact page gives the mailing address Mail Stop 407, 8000 South Federal Way, Boise, Idaho."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s2"
+   ],
+   "street_address": [
+    "s5"
+   ],
+   "local_presence_type": [
+    "s1",
+    "s2"
+   ],
+   "company_status": [
+    "s1",
+    "s2"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2",
+    "s4"
+   ],
+   "project_relationship_status": [
+    "s1",
+    "s3"
+   ]
+  },
+  "blank_field_reasons": {
+   "company_phone": "not_found",
+   "company_phone_source_url": "not_found",
+   "postal_code": "not_stated",
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "local_job_postings_observed": "not_applicable",
+   "job_titles_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "c2"
+ },
+ {
+  "company_name": "Burns & McDonnell",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Meridian",
+  "vertical": "construction_industrial",
+  "subsegment": "engineering_surveying",
+  "company_domain": "burnsmcd.com",
+  "company_website": "https://www.burnsmcd.com/",
+  "parent_company_name": "",
+  "company_phone": "",
+  "company_phone_source_url": "",
+  "street_address": "1120 S Rackham Way",
+  "postal_code": "",
+  "local_presence_type": "local_office",
+  "local_presence_source_url": "https://www.burnsmcd.com/news/expanding-presence-in-idaho-with-new-office-in-boise",
+  "company_status": "operating",
+  "company_status_source_url": "https://www.burnsmcd.com/news/expanding-presence-in-idaho-with-new-office-in-boise",
+  "employee_count_or_band": "13,000+",
+  "employee_count_scope": "company_press_release_stated_us_total",
+  "local_site_count": "1",
+  "buying_unit_key": "burns_mcdonnell_meridian",
+  "buying_unit_scope": "local_office",
+  "buyer_department": "regional_operations",
+  "signal_type": "market_expansion_hiring",
+  "signal_summary": "Burns & McDonnell announced on Apr 16, 2026 plans to open a Boise area office at 1120 S Rackham Way in Meridian and said it is hiring engineering, construction, consulting and environmental professionals for the region. Its jobs board lists Boise openings for Substation Project Manager and NEPA Project Manager, Environmental Studies (Boise).",
+  "signal_source_url": "https://www.burnsmcd.com/news/expanding-presence-in-idaho-with-new-office-in-boise",
+  "signal_published_date": "2026-04-16",
+  "signal_event_date": "2026-04-16",
+  "signal_date_is_observation": false,
+  "project_name": "Burns & McDonnell Meridian office opening",
+  "project_relationship_status": "announced_new_market",
+  "project_relationship_source_url": "https://www.burnsmcd.com/news/expanding-presence-in-idaho-with-new-office-in-boise",
+  "project_phase": "opening_announced",
+  "local_job_postings_observed": "2",
+  "job_titles_observed": [
+   "Substation Project Manager",
+   "NEPA Project Manager, Environmental Studies (Boise)"
+  ],
+  "hiring_evidence_url": "https://burnsmcd.jobs/boise-id/nepa-project-manager-environmental-studies-boise/CB28A83F56074CA8A46F7CDDBA20EB44/job/",
+  "hiring_count_scope": "distinct_open_requisitions_observed_boise",
+  "purchase_use_case_evidence": "A new Meridian office with Boise openings for Substation Project Manager and NEPA Project Manager, plus stated hiring across engineering, construction, consulting and environmental services, indicates a growing local team that will need office and field apparel and new hire kits.",
+  "purchase_use_case_source_url": "https://www.burnsmcd.com/news/expanding-presence-in-idaho-with-new-office-in-boise",
+  "procurement_route": "unknown_local_vs_corporate",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Burns & McDonnell announced on Apr 16, 2026 a new Boise area office at 1120 S Rackham Way in Meridian and is hiring Boise roles such as Substation Project Manager and NEPA Project Manager to build its Mountain Region team.",
+  "recommended_offer": "Office and field staff apparel plus new hire welcome kits for a newly opened engineering and construction office building out its Idaho team.",
+  "suggested_opening_line": "I saw Burns & McDonnell announce the new Meridian office on Rackham Way and post Boise project manager openings. Who is coordinating branded apparel and welcome kits as the Idaho team grows?",
+  "next_question": "Does the Mountain Region office buy its own branded apparel, or does corporate headquarters supply it through a company store?",
+  "outreach_caveat": "The Apr 16, 2026 release describes plans to open the Meridian office, so confirm it is staffed and open. Boise job pages were returned by the search index on Sep 23, 2026 without visible posting dates; confirm they remain open. As a large employee owned national firm it may run a central company store.",
+  "research_notes": "Company news release dated Apr 16, 2026 gives the 1120 S Rackham Way, Meridian address, names the Mountain Region leadership seat and says the firm of more than 13,000 employees is hiring in engineering, construction, consulting and environmental services. The company jobs board and a LinkedIn job listing show Boise roles for Substation Project Manager and NEPA Project Manager, Environmental Studies; the Boise project management listing also referenced Transmission Project Manager and Routing and Siting roles, which were not counted. No independent news coverage of the office was found before the web search quota ran out. Not on the exclusion index; independent employee owned firm.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "press_release",
+    "url": "https://www.burnsmcd.com/news/expanding-presence-in-idaho-with-new-office-in-boise",
+    "publisher": "Burns & McDonnell",
+    "origin_group": "burnsmcd.com",
+    "published_date": "2026-04-16",
+    "accessed_at": "2026-09-23T17:21:42-07:00",
+    "supporting_text": "News release dated Apr 16, 2026 announces plans to open an office at 1120 S Rackham Way in Meridian in the Boise metro area and says the firm, with more than 13,000 employees across the U.S., is hiring engineering, construction, consulting and environmental professionals to support growth in the region."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_employer_job",
+    "url": "https://burnsmcd.jobs/boise-id/substation-project-manager/272578CF1D6E46B7B115D9C435F0EBB2/job/",
+    "publisher": "Burns & McDonnell",
+    "origin_group": "burnsmcd.jobs",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:42-07:00",
+    "supporting_text": "Company jobs board page for Substation Project Manager located in Boise ID, returned by the search index on Sep 23, 2026 as an available position."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_employer_job",
+    "url": "https://burnsmcd.jobs/boise-id/nepa-project-manager-environmental-studies-boise/CB28A83F56074CA8A46F7CDDBA20EB44/job/",
+    "publisher": "Burns & McDonnell",
+    "origin_group": "burnsmcd.jobs",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:42-07:00",
+    "supporting_text": "Company jobs board page for NEPA Project Manager, Environmental Studies (Boise), described in search results as a position in the Boise office."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_employer_job",
+    "url": "https://www.linkedin.com/jobs/view/nepa-project-manager-environmental-studies-boise-at-burns-mcdonnell-4407963417",
+    "publisher": "LinkedIn",
+    "origin_group": "linkedin.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:42-07:00",
+    "supporting_text": "LinkedIn job listing posted by Burns & McDonnell for NEPA Project Manager, Environmental Studies (Boise)."
+   },
+   {
+    "id": "s5",
+    "source_type": "official_employer_careers",
+    "url": "https://burnsmcd.jobs/locations/boise-id/job-function/project-management/jobs/?q=water",
+    "publisher": "Burns & McDonnell",
+    "origin_group": "burnsmcd.jobs",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:42-07:00",
+    "supporting_text": "Boise ID project management listing on the company jobs board shows NEPA Project Manager, Substation Project Manager, Transmission Project Manager and Routing and Siting roles."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s4"
+   ],
+   "street_address": [
+    "s1"
+   ],
+   "local_presence_type": [
+    "s1"
+   ],
+   "company_status": [
+    "s1",
+    "s2"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "hiring_evidence_url": [
+    "s3",
+    "s4"
+   ],
+   "project_relationship_status": [
+    "s1"
+   ],
+   "employee_count_or_band": [
+    "s1"
+   ]
+  },
+  "blank_field_reasons": {
+   "company_phone": "not_published",
+   "company_phone_source_url": "not_published",
+   "postal_code": "not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "c2"
+ },
+ {
+  "company_name": "Intermountain Ice & Cold Storage",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Nampa",
+  "vertical": "adjacent_verticals",
+  "subsegment": "logistics_distribution",
+  "company_domain": "boisecold.com",
+  "company_website": "https://www.boisecold.com/",
+  "parent_company_name": "",
+  "company_phone": "+12083448477",
+  "company_phone_source_url": "https://www.boisecold.com/employment/",
+  "street_address": "215 Shannon Dr",
+  "postal_code": "",
+  "local_presence_type": "local_facility",
+  "local_presence_source_url": "https://www.cityofnampa.us/DocumentCenter/View/20636/Commercial-Permit---Plan-Review-Status---May",
+  "company_status": "operating",
+  "company_status_source_url": "https://www.boisecold.com/employment/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "2",
+  "buying_unit_key": "intermountain_ice_cold_storage_nampa",
+  "buying_unit_scope": "local_operating_company",
+  "buyer_department": "operations",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "City of Nampa commercial plan review log dated Jun 1, 2026 shows a May 19, 2026 application by Intermountain Ice and Cold Storage to install high piled storage racking at 215 Shannon Dr in Nampa for tenant Boise Cold Storage Co, covering freezer, dry storage and broker areas at a listed cost of $422,168.",
+  "signal_source_url": "https://www.cityofnampa.us/DocumentCenter/View/20636/Commercial-Permit---Plan-Review-Status---May",
+  "signal_published_date": "2026-06-01",
+  "signal_event_date": "2026-05-19",
+  "signal_date_is_observation": false,
+  "project_name": "Intermountain Ice and Cold Storage racking at 215 Shannon Dr, Nampa",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://www.cityofnampa.us/DocumentCenter/View/20636/Commercial-Permit---Plan-Review-Status---May",
+  "project_phase": "permit_review_fit_out",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "A racking fit out for freezer, dry storage and broker areas at the Nampa facility on Shannon Dr, added to a Boise warehouse that sends CDL and non CDL ice delivery drivers out on Treasure Valley routes, points to warehouse and route crews that wear branded workwear every day.",
+  "purchase_use_case_source_url": "https://www.cityofnampa.us/DocumentCenter/View/20636/Commercial-Permit---Plan-Review-Status---May",
+  "procurement_route": "unknown",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "The Nampa plan review log dated Jun 1, 2026 shows Intermountain Ice and Cold Storage applying on May 19, 2026 to install high piled racking for freezer and dry storage at 215 Shannon Dr in Nampa, while its Boise warehouse runs Treasure Valley ice delivery routes with CDL and non CDL drivers.",
+  "recommended_offer": "Branded warehouse and route driver apparel (tees, hoodies, jackets, caps) plus a site opening kit with branded coolers and giveaways for Nampa facility customers.",
+  "suggested_opening_line": "I saw Intermountain Ice and Cold Storage filed with Nampa in May to install storage racking at the Shannon Dr facility. Who handles apparel for the warehouse and delivery crews as that site comes online?",
+  "next_question": "Will the Nampa site get its own warehouse and driver crew, and does operations or the Boise office buy their apparel?",
+  "outreach_caveat": "The city log lists the May 19, 2026 racking submittal with an intake failed status, so confirm whether it was resubmitted and when the Nampa site opens. The company appears under both the Intermountain Ice and Cold Storage and Boise Cold names; the intermountainice domain from the lead could not be confirmed, so the boisecold domain is used.",
+  "research_notes": "Searched Sep 23, 2026. City of Nampa plan review log (dated Jun 1, 2026) names Intermountain Ice and Cold Storage as applicant for racking at 215 Shannon Dr with tenant Boise Cold Storage Co. Nampa Chamber directory lists Intermountain Ice and Cold Storage at 495 S 15th St, Boise 83702 with ice production, delivery, cold storage, logistics and truck and trailer rentals. Boise Cold employment page describes delivery driver roles based at the Boise warehouse; those postings are undated and liveness could not be confirmed, so active hiring was not used. Intermountain Trailer and Truck calls itself a sister company; no parent company found and nothing matches the exclusion index. The lead's July 2026 sign permit and state completion estimate could not be confirmed and are omitted. Company pages could not be loaded directly (egress blocked); facts come from search index summaries of the cited pages.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "government_record",
+    "url": "https://www.cityofnampa.us/DocumentCenter/View/20636/Commercial-Permit---Plan-Review-Status---May",
+    "publisher": "City of Nampa Department of Building Safety",
+    "origin_group": "cityofnampa.us",
+    "published_date": "2026-06-01",
+    "accessed_at": "2026-09-23T17:21:34-07:00",
+    "supporting_text": "Commercial plan review status log dated Jun 1, 2026 lists Intermountain Ice and Cold Storage Racking at 215 Shannon Dr, applied May 19, 2026: installation of high piled storage racking for tenant Boise Cold Storage Co, with sprinkler protection for dry storage, freezer and broker areas, project cost $422,168, status intake failed."
+   },
+   {
+    "id": "s2",
+    "source_type": "trade_directory",
+    "url": "https://members.nampa.com/directory/Details/intermountain-ice-cold-storage-4197706",
+    "publisher": "Nampa Chamber of Commerce",
+    "origin_group": "members.nampa.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:34-07:00",
+    "supporting_text": "Nampa Chamber member directory lists Intermountain Ice and Cold Storage at 495 S 15th St, Boise ID 83702, an ice manufacturer offering ice production, sales and delivery, cold storage, logistics and truck and trailer rentals across the Treasure Valley."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_employer_careers",
+    "url": "https://www.boisecold.com/employment/",
+    "publisher": "Boise Cold (Intermountain Ice and Cold Storage)",
+    "origin_group": "boisecold.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:34-07:00",
+    "supporting_text": "Employment page describes CDL Class A, CDL Class B and non CDL ice delivery driver roles starting each day at the Boise warehouse, seasonal to start with a year round driver team, and gives 208 344 8477 for employment inquiries."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_company_site",
+    "url": "https://www.intermountaintrailerandtruck.com/",
+    "publisher": "Intermountain Trailer and Truck",
+    "origin_group": "intermountaintrailerandtruck.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:34-07:00",
+    "supporting_text": "Intermountain Trailer and Truck site refers customers to its sister company Intermountain Ice and Cold Storage for cold storage and local ice products."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "street_address": [
+    "s1"
+   ],
+   "company_phone": [
+    "s3"
+   ],
+   "local_presence_type": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "company_status": [
+    "s2",
+    "s3"
+   ],
+   "signal_summary": [
+    "s1"
+   ],
+   "project_relationship_status": [
+    "s1"
+   ]
+  },
+  "blank_field_reasons": {
+   "postal_code": "not_stated",
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "parent_company_name": "not_found",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "a1"
+ },
+ {
+  "company_name": "Fairly Reliable Bob's, Inc.",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Meridian",
+  "vertical": "adjacent_verticals",
+  "subsegment": "auto_equipment_dealers",
+  "company_domain": "fairlys.com",
+  "company_website": "https://www.fairlys.com/",
+  "parent_company_name": "",
+  "company_phone": "+12083427777",
+  "company_phone_source_url": "https://www.fairlys.com/",
+  "street_address": "2957 E Fairview Ave",
+  "postal_code": "",
+  "local_presence_type": "local_facility",
+  "local_presence_source_url": "https://meridiancity.org/media/ngvnqlkc/weekly-reports-5-25-2026-thru-5-31-2026.pdf",
+  "company_status": "operating",
+  "company_status_source_url": "https://www.fairlys.com/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "2",
+  "buying_unit_key": "fairly_reliable_bobs_meridian",
+  "buying_unit_scope": "local_operating_company",
+  "buyer_department": "ownership_operations",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "City of Meridian weekly building permit report for May 25 to May 31, 2026 shows a commercial sign permit issued May 27, 2026, valued at $65,380, for a Fairly Reliable Bob's LED wall sign and double faced pylon sign at 2957 E Fairview Ave, Meridian, a new lot for the used car dealer whose official site still lists 2304 W Main St, Boise.",
+  "signal_source_url": "https://meridiancity.org/media/ngvnqlkc/weekly-reports-5-25-2026-thru-5-31-2026.pdf",
+  "signal_published_date": "2026-05-27",
+  "signal_event_date": "2026-05-27",
+  "signal_date_is_observation": false,
+  "project_name": "Fairly Reliable Bob's Meridian lot at 2957 E Fairview Ave",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://meridiancity.org/media/ngvnqlkc/weekly-reports-5-25-2026-thru-5-31-2026.pdf",
+  "project_phase": "signage_permitted_opening_pending",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "A new Meridian lot with permitted LED wall and pylon signage (permit issued May 27, 2026) points to a site opening where sales and service staff apparel and customer giveaway items are typical purchases; the dealer also lends its name to the Club Challenge Series at Firebird Raceway in Eagle, a recurring sponsorship use for branded merchandise.",
+  "purchase_use_case_source_url": "https://meridiancity.org/media/ngvnqlkc/weekly-reports-5-25-2026-thru-5-31-2026.pdf",
+  "procurement_route": "unknown_owner_vs_office",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "City of Meridian issued a commercial sign permit on May 27, 2026 for Fairly Reliable Bob's wall and pylon signs at 2957 E Fairview Ave, Meridian, a new lot for the used car dealer that has sold from 2304 W Main St in Boise since 1975.",
+  "recommended_offer": "Branded polos and service department shirts for sales and shop staff plus customer giveaway merchandise for the Meridian lot opening and the Firebird Raceway series sponsorship.",
+  "suggested_opening_line": "I saw the City of Meridian permit in late May 2026 for new Fairly Reliable Bob's signs at 2957 E Fairview Ave. Is the team planning new staff shirts or opening giveaways for the Meridian lot?",
+  "next_question": "Who handles apparel and promotional orders for the sales and service teams, and when do you expect to open on Fairview Ave?",
+  "outreach_caveat": "No source dated after Mar 1, 2026 confirms the Meridian opening date, and the official site still lists the Boise lot on W Main St; confirm timing and whether both lots will operate. Postal code for the Meridian lot is not published in the cited permit report.",
+  "research_notes": "City of Meridian weekly permit report for May 25 to May 31, 2026 lists a sign permit issued May 27, 2026 at 2957 E Fairview Ave for Fairly Reliable Bob's wall and pylon signs, installed by YESCO of Salt Lake City. Official site accessed Sep 23, 2026 shows live used car inventory, 2304 W Main, Boise 83702, phone 208 342 7777, and operating since 1975. Firebird Raceway in Eagle titles its Club Challenge Series standings Fairly Reliable Bobs. Apollo lookup confirms domain fairlys.com. Company Facebook update posts about the new lot could not be loaded, and the web search budget ran out before a September 2026 opening status check.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "government_record",
+    "url": "https://meridiancity.org/media/ngvnqlkc/weekly-reports-5-25-2026-thru-5-31-2026.pdf",
+    "publisher": "City of Meridian Building Division",
+    "origin_group": "meridiancity.org",
+    "published_date": "2026-05-27",
+    "accessed_at": "2026-09-23T17:20:50-07:00",
+    "supporting_text": "Weekly building permit report for May 25 to May 31, 2026 lists a commercial sign permit issued May 27, 2026 at 2957 E Fairview Ave, valuation $65,380, for one LED illuminated wall sign and one double faced LED pylon sign reading Fairly Reliable Bob's; contractor YESCO LLC of Salt Lake City."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_company_site",
+    "url": "https://www.fairlys.com/",
+    "publisher": "Fairly Reliable Bob's",
+    "origin_group": "fairlys.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:50-07:00",
+    "supporting_text": "Official site with live used car, truck, SUV and Corvette inventory states the dealer has served the Treasure Valley since 1975, lists 2304 W Main, Boise ID 83702 and phone 208 342 7777, and notes sales associates are not on commission."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_company_site",
+    "url": "https://www.fairlys.com/locations",
+    "publisher": "Fairly Reliable Bob's",
+    "origin_group": "fairlys.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:28-07:00",
+    "supporting_text": "Locations page places the dealership in downtown Boise at 2304 W Main, corner of 23rd and Main."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_event_page",
+    "url": "https://firebirdonline.com/points/club-team/",
+    "publisher": "Firebird Raceway",
+    "origin_group": "firebirdonline.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:28-07:00",
+    "supporting_text": "Firebird Raceway in Eagle publishes its Club Challenge Series team standings under the Fairly Reliable Bobs name, showing the dealer as series sponsor."
+   },
+   {
+    "id": "s5",
+    "source_type": "company_social_post",
+    "url": "https://www.facebook.com/fairlyreliable",
+    "publisher": "Facebook",
+    "origin_group": "facebook.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:31-07:00",
+    "supporting_text": "Company Facebook page is titled Fairly Reliable Bob's, Inc., Boise ID."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s2",
+    "s5"
+   ],
+   "street_address": [
+    "s1"
+   ],
+   "company_phone": [
+    "s2"
+   ],
+   "local_presence_type": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "company_status": [
+    "s2"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2"
+   ],
+   "project_relationship_status": [
+    "s1"
+   ],
+   "purchase_use_case_evidence": [
+    "s1",
+    "s4"
+   ]
+  },
+  "blank_field_reasons": {
+   "postal_code": "not_published",
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "procurement_source_url": "not_found",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "job_titles_observed": "not_applicable"
+  },
+  "_shard": "a2"
+ },
+ {
+  "company_name": "Ronald McDonald House Charities of Idaho",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Boise",
+  "vertical": "adjacent_verticals",
+  "subsegment": "nonprofit_staff_events",
+  "company_domain": "rmhcidaho.org",
+  "company_website": "https://www.rmhcidaho.org/",
+  "parent_company_name": "",
+  "company_phone": "+12083365478",
+  "company_phone_source_url": "https://www.rmhcidaho.org/",
+  "street_address": "139 E Warm Springs Ave",
+  "postal_code": "83712",
+  "local_presence_type": "headquarters_office",
+  "local_presence_source_url": "https://www.rmhcidaho.org/idahohouse/",
+  "company_status": "operating",
+  "company_status_source_url": "https://www.rmhcidaho.org/events/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "1",
+  "buying_unit_key": "rmhc_idaho_boise",
+  "buying_unit_scope": "company_hq_idaho",
+  "buyer_department": "executive_administration",
+  "signal_type": "observed_recurring_need",
+  "signal_summary": "RMHC of Idaho ran a 2026 Treasure Valley event program: its Sporting Clays Tournament on Jun 5 and 6, 2026 at Caldwell Gun Club with corporate and student teams, the partner led Treasure Valley Rescue Run (10K, 5K and Kids Dash) on Jun 6, 2026 at Reid Merrill Park in Eagle, and the J.R. Simplot Golf Tournament four person scramble on Thursday, Sep 10, 2026 at Falcon Crest Golf Club.",
+  "signal_source_url": "https://www.rmhcidaho.org/event/golf-tournament/",
+  "signal_published_date": "",
+  "signal_event_date": "2026-09-10",
+  "signal_date_is_observation": false,
+  "project_name": "",
+  "project_relationship_status": "",
+  "project_relationship_source_url": "",
+  "project_phase": "",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "Corporate and student shooting teams at the Jun 5 and 6 Sporting Clays Tournament in Caldwell, golfers in the Sep 10 four person scramble at Falcon Crest, and course and water station volunteers at the Jun 6 Rescue Run in Eagle point to a yearly need for event shirts, volunteer apparel and sponsor gifts run out of the Boise house.",
+  "purchase_use_case_source_url": "https://www.rmhcidaho.org/event/sporting-clays-tournament/",
+  "procurement_route": "unknown",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "RMHC of Idaho, based at its Ronald McDonald House on Warm Springs Avenue in Boise, ran three Treasure Valley events in 2026: the Sporting Clays Tournament on Jun 5 and 6 at Caldwell Gun Club, the Treasure Valley Rescue Run on Jun 6 in Eagle, and the J.R. Simplot Golf Tournament on Sep 10 at Falcon Crest Golf Club.",
+  "recommended_offer": "Tournament team shirts, volunteer and house staff apparel, and branded sponsor and golfer gifts for the annual Treasure Valley event calendar.",
+  "suggested_opening_line": "I saw RMHC of Idaho hosted the Sporting Clays Tournament at Caldwell Gun Club in June and the J.R. Simplot Golf Tournament at Falcon Crest on Sep 10. Who handles volunteer shirts and sponsor gifts as you plan next season's events?",
+  "next_question": "Does the events and development team buy tournament apparel and giveaways directly, or do presenting sponsors supply them?",
+  "outreach_caveat": "The three Treasure Valley events cited are already past; the next listed event, the Hearts and Hope Gala on Oct 10, 2026, is in Idaho Falls. The Rescue Run is led by Wright Physical Therapy and Fleet Feet Treasure Valley, so race shirts may be sourced by those partners. Event pages show no publish dates, so event dates stand in for the signal date. RMHC global brand standards may govern logo use on apparel; confirm local approval.",
+  "research_notes": "Official events page and individual event pages for the Sporting Clays Tournament and J.R. Simplot Golf Tournament checked via search index Sep 23, 2026. House address 139 E Warm Springs Ave, Boise 83712 and phone 208 336 5478 from the RMHC of Idaho site, matched by a Yelp listing. RunSignup race page confirms the Jun 6, 2026 Rescue Run in Eagle benefiting the charity and lists the Boise house, the Idaho Falls Family Room and hospitality carts in Boise and Twin Falls. Local nonprofit chapter in the RMHC network, not a McDonald's restaurant franchise unit, and not in the exclusion index. Older news coverage of the house construction and opening left out under the date rule. Family Fun Run (Jun 20) and the Oct 10 gala are in Idaho Falls and not counted for geography. Apollo lookup confirms the domain.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "official_company_site",
+    "url": "https://www.rmhcidaho.org/events/",
+    "publisher": "Ronald McDonald House Charities of Idaho",
+    "origin_group": "rmhcidaho.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:38-07:00",
+    "supporting_text": "Events page lists 2026 events including the Sporting Clays Tournament on Jun 5 and 6 and the Family Fun Run and Carnival on Jun 20; the site's event pages add the Treasure Valley Rescue Run on Jun 6, the J.R. Simplot Golf Tournament and the Hearts and Hope Gala on Oct 10 in Idaho Falls."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_event_page",
+    "url": "https://www.rmhcidaho.org/event/sporting-clays-tournament/",
+    "publisher": "Ronald McDonald House Charities of Idaho",
+    "origin_group": "rmhcidaho.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:53-07:00",
+    "supporting_text": "2026 Western States CAT Ronald McDonald House Charities of Idaho Sporting Clays Tournament on Friday Jun 5 and Saturday Jun 6, 2026 at Caldwell Gun Club, 21840 Pond Ln, Caldwell ID 83607; invites corporate teams, student team sponsors, golf cart and station sponsors."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_event_page",
+    "url": "https://www.rmhcidaho.org/event/golf-tournament/",
+    "publisher": "Ronald McDonald House Charities of Idaho",
+    "origin_group": "rmhcidaho.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:38-07:00",
+    "supporting_text": "2026 J.R. Simplot Golf Tournament benefiting RMHC of Idaho on Thursday Sep 10 at Falcon Crest Golf Club; four person scramble with a 9 am start, boxed lunch, hole contests and a 19th Hole cocktail reception."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_event_page",
+    "url": "https://runsignup.com/Race/ID/Eagle/TreasureValleyRescueRun",
+    "publisher": "RunSignup (Treasure Valley Rescue Run)",
+    "origin_group": "runsignup.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:53-07:00",
+    "supporting_text": "Treasure Valley Rescue Run on Saturday Jun 6, 2026 with Kids Dash, 5K and 10K on the Eagle Greenbelt, starting and finishing at Reid Merrill Park, led by Wright Physical Therapy and Fleet Feet Treasure Valley with proceeds to RMHC of Idaho, which runs the Ronald McDonald House in Boise."
+   },
+   {
+    "id": "s5",
+    "source_type": "trade_directory",
+    "url": "https://www.yelp.com/biz/ronald-mcdonald-house-charities-of-idaho-boise",
+    "publisher": "Yelp",
+    "origin_group": "yelp.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:38-07:00",
+    "supporting_text": "Yelp listing, marked updated June 2026, shows Ronald McDonald House Charities of Idaho at 139 E Warm Springs Ave, Boise, Idaho, categorized as community service and nonprofit."
+   },
+   {
+    "id": "s6",
+    "source_type": "official_company_site",
+    "url": "https://www.rmhcidaho.org/idahohouse/",
+    "publisher": "Ronald McDonald House Charities of Idaho",
+    "origin_group": "rmhcidaho.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:38-07:00",
+    "supporting_text": "Ronald McDonald House page for the Boise house; site gives 139 E Warm Springs Avenue, Boise, Idaho 83712 and phone 208 336 5478."
+   },
+   {
+    "id": "s7",
+    "source_type": "official_company_site",
+    "url": "https://www.rmhcidaho.org/tvrr-brings-community-together/",
+    "publisher": "Ronald McDonald House Charities of Idaho",
+    "origin_group": "rmhcidaho.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:38-07:00",
+    "supporting_text": "Post on the Jun 6 Treasure Valley Rescue Run says volunteers are needed for the course, water stations and finish line celebration, with Fleet Feet Treasure Valley and Wright Physical Therapy leading the event."
+   },
+   {
+    "id": "s8",
+    "source_type": "trade_directory",
+    "url": "https://web.idahononprofits.org/Health-Care-/Ronald-McDonald-House-Charities-of-Idaho-10101",
+    "publisher": "Idaho Nonprofit Center",
+    "origin_group": "idahononprofits.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:38-07:00",
+    "supporting_text": "Idaho Nonprofit Center directory carries a listing for Ronald McDonald House Charities of Idaho under Health Care."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s1",
+    "s4",
+    "s8"
+   ],
+   "street_address": [
+    "s6",
+    "s5"
+   ],
+   "company_phone": [
+    "s6"
+   ],
+   "local_presence_type": [
+    "s6",
+    "s5",
+    "s4"
+   ],
+   "company_status": [
+    "s1",
+    "s4"
+   ],
+   "signal_summary": [
+    "s2",
+    "s3",
+    "s4"
+   ],
+   "purchase_use_case_evidence": [
+    "s2",
+    "s3",
+    "s7"
+   ]
+  },
+  "blank_field_reasons": {
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "signal_published_date": "not_published",
+   "project_name": "not_applicable_no_named_project",
+   "project_relationship_status": "not_applicable_no_named_project",
+   "project_relationship_source_url": "not_applicable_no_named_project",
+   "project_phase": "not_applicable_no_named_project",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "a2"
+ },
+ {
+  "company_name": "Treasure Valley Family YMCA",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Boise",
+  "vertical": "adjacent_verticals",
+  "subsegment": "fitness_recreation",
+  "company_domain": "ymcatvidaho.org",
+  "company_website": "https://ymcatvidaho.org/",
+  "parent_company_name": "",
+  "company_phone": "+12083445501",
+  "company_phone_source_url": "https://ymcatvidaho.org/contact-us/",
+  "street_address": "1050 W State St",
+  "postal_code": "83702",
+  "local_presence_type": "local_facility",
+  "local_presence_source_url": "https://ymcatvidaho.org/contact-us/",
+  "company_status": "operating",
+  "company_status_source_url": "https://ymcatvidaho.org/contact-us/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "1",
+  "buying_unit_key": "treasure_valley_family_ymca_boise",
+  "buying_unit_scope": "local_operating_company",
+  "buyer_department": "operations",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "Treasure Valley Family YMCA is finishing the $80 million, 109,000 square foot CapEd Downtown Boise YMCA at 10th and State streets; the Y build page and its RunSignUp event page (observed Sep 23, 2026) set the grand opening and a Grand Opening Walk for Saturday Nov 7, 2026 at the Downtown Boise YMCA, 1050 W State St.",
+  "signal_source_url": "https://runsignup.com/Race/ID/Boise/TheCapEdDowntownBoiseYMCAGrandOpeningWalk",
+  "signal_published_date": "2026-09-23",
+  "signal_event_date": "2026-11-07",
+  "signal_date_is_observation": true,
+  "project_name": "CapEd Downtown Boise YMCA",
+  "project_relationship_status": "owner_operator",
+  "project_relationship_source_url": "https://ymcatvidaho.org/give-back/build-your-new-downtown-boise-ymca/",
+  "project_phase": "opening_announced",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "Registration for the Nov 7, 2026 Grand Opening Walk includes a commemorative Grand Opening T Shirt with extra shirts sold through the event store, and the move into a 109,000 square foot downtown Boise facility points to staff apparel for front desk, aquatics, fitness and child care teams.",
+  "purchase_use_case_source_url": "https://runsignup.com/Race/ID/Boise/TheCapEdDowntownBoiseYMCAGrandOpeningWalk",
+  "procurement_route": "unknown_association_vs_branch",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "during_nov_2026_grand_opening",
+  "reason_to_contact": "The Y has set the grand opening of the $80 million, 109,000 square foot CapEd Downtown Boise YMCA and a community Grand Opening Walk for Saturday Nov 7, 2026 in downtown Boise, and walk registration already bundles a commemorative shirt.",
+  "recommended_offer": "Grand opening event shirts and giveaways plus refreshed staff apparel for front desk, aquatics, fitness and child care teams at the new downtown Boise facility.",
+  "suggested_opening_line": "I saw the Y set the CapEd Downtown Boise YMCA Grand Opening Walk for Nov 7 with a commemorative shirt in every registration. Who is coordinating event shirts and new staff apparel for the downtown opening?",
+  "next_question": "Does the association office buy apparel for every branch, or does each branch director order for its own staff and events?",
+  "outreach_caveat": "The build page and RunSignUp page are undated, so the observation date (Sep 23, 2026) stands in for the published date while the event itself is dated Nov 7, 2026. The walk shirt may already be sourced, so lead with staff apparel for the new building and later Y events. Andersen Construction, an excluded account, is only the builder; the Y is the owner operator.",
+  "research_notes": "Grand opening date confirmed on the Y build page and on the RunSignUp Grand Opening Walk page; address and phone from the Y contact page; Apollo lookup matches the Y domain. An Idaho Press story on the building nearing completion was left out because its publish date could not be confirmed before the web search budget ran out. The Y is an independent nonprofit member association of the national YMCA federation, not a franchise with centrally supplied apparel. An undated Y hiring post mentions branches in Boise, Meridian and Caldwell, but only the downtown Boise address was confirmed, so local site count is 1.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "official_event_page",
+    "url": "https://runsignup.com/Race/ID/Boise/TheCapEdDowntownBoiseYMCAGrandOpeningWalk",
+    "publisher": "RunSignUp",
+    "origin_group": "runsignup.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:22:02-07:00",
+    "supporting_text": "The CapEd Downtown Boise YMCA Grand Opening Walk is set for Saturday Nov 7, 2026 at the Downtown Boise YMCA, 1050 W State St, for all ages; registration includes a commemorative Grand Opening T Shirt and extra shirts are sold through the event store."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_company_site",
+    "url": "https://ymcatvidaho.org/give-back/build-your-new-downtown-boise-ymca/",
+    "publisher": "Treasure Valley Family YMCA",
+    "origin_group": "ymcatvidaho.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:40-07:00",
+    "supporting_text": "Build page describes the $80 million, 109,000 square foot CapEd Downtown Boise YMCA at 10th and State streets as on track for a late 2026 opening and states the grand opening is Nov 7."
+   },
+   {
+    "id": "s3",
+    "source_type": "official_company_site",
+    "url": "https://ymcatvidaho.org/contact-us/",
+    "publisher": "Treasure Valley Family YMCA",
+    "origin_group": "ymcatvidaho.org_contact",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:22:02-07:00",
+    "supporting_text": "Contact page lists the Downtown Boise YMCA at 1050 W State Street, Boise ID 83702, phone 208 344 5501."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s2",
+    "s3"
+   ],
+   "street_address": [
+    "s3"
+   ],
+   "company_phone": [
+    "s3"
+   ],
+   "local_presence_type": [
+    "s1",
+    "s3"
+   ],
+   "company_status": [
+    "s2",
+    "s3"
+   ],
+   "signal_summary": [
+    "s1",
+    "s2"
+   ],
+   "project_relationship_status": [
+    "s2"
+   ]
+  },
+  "blank_field_reasons": {
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "not_stated",
+   "parent_company_name": "not_applicable_independent",
+   "local_job_postings_observed": "not_applicable",
+   "job_titles_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "a3"
+ },
+ {
+  "company_name": "Vista Bank (formerly Hillcrest Bank)",
+  "decision": "accept",
+  "reject_reason": "",
+  "city": "Eagle",
+  "vertical": "adjacent_verticals",
+  "subsegment": "banks_credit_unions",
+  "company_domain": "vistabank.com",
+  "company_website": "https://www.vistabank.com/",
+  "parent_company_name": "NBH Bank (National Bank Holdings Corporation)",
+  "company_phone": "+12083703756",
+  "company_phone_source_url": "https://www.hillcrestbank.com/location/80-east-eagles-gate-drive/",
+  "street_address": "80 E Eagles Gate Dr",
+  "postal_code": "83616",
+  "local_presence_type": "local_branch",
+  "local_presence_source_url": "https://www.hillcrestbank.com/location/80-east-eagles-gate-drive/",
+  "company_status": "operating",
+  "company_status_source_url": "https://www.hillcrestbank.com/location/80-east-eagles-gate-drive/",
+  "employee_count_or_band": "",
+  "employee_count_scope": "",
+  "local_site_count": "1",
+  "buying_unit_key": "vista_bank_eagle",
+  "buying_unit_scope": "local_branch",
+  "buyer_department": "branch_operations",
+  "signal_type": "facility_expansion_opening",
+  "signal_summary": "BoiseDev community calendar lists an Eagle Chamber ribbon cutting for Vista Bank, formerly Hillcrest Bank, on Aug 6, 2026 at the 80 E Eagles Gate Dr banking center in Eagle, and the Boise Metro Chamber posted a new event notice that Hillcrest Bank is changing its name to Vista Bank.",
+  "signal_source_url": "https://boisedev.com/calendar/details/eagle-chamber-ribbon-cutting-vista-bank-formerly-hillcrest-bank-/19543584/2026-08-06T11/",
+  "signal_published_date": "",
+  "signal_event_date": "2026-08-06",
+  "signal_date_is_observation": false,
+  "project_name": "",
+  "project_relationship_status": "",
+  "project_relationship_source_url": "",
+  "project_phase": "",
+  "local_job_postings_observed": "",
+  "job_titles_observed": [],
+  "hiring_evidence_url": "",
+  "hiring_count_scope": "",
+  "purchase_use_case_evidence": "The Vista Bank welcome page for Hillcrest clients says the name changes at banking centers, on the website and in the mobile app while the Hillcrest teams stay in place, and the Eagle ribbon cutting on Aug 6, 2026 put that new name in front of the local chamber, a fit for relabeled staff apparel and branded client giveaways at the Eagle branch.",
+  "purchase_use_case_source_url": "https://www.vistabank.com/welcome-hillcrest-bank-clients/",
+  "procurement_route": "unknown_local_vs_corporate",
+  "procurement_source_url": "",
+  "recommended_purchase_window": "confirm_timing",
+  "reason_to_contact": "Eagle Chamber ribbon cutting on Aug 6, 2026 marked the Eagle banking center at 80 E Eagles Gate Dr switching from Hillcrest Bank to Vista Bank, a name change that touches staff apparel, branch giveaways and community event merchandise for the Idaho team.",
+  "recommended_offer": "Vista Bank logo staff apparel for the Eagle banking center team plus branded giveaways for client appreciation and chamber events.",
+  "suggested_opening_line": "I saw the Eagle Chamber ribbon cutting on Aug 6, 2026 for Vista Bank, formerly Hillcrest Bank, at your Eagles Gate Dr banking center. Is the Eagle team still filling gaps in staff wear and client giveaways under the new name?",
+  "next_question": "Does the Eagle branch order its own event and staff apparel locally, or does NBH Bank corporate marketing supply everything carrying the Vista Bank logo?",
+  "outreach_caveat": "Vista Bank is a division of NBH Bank under National Bank Holdings Corporation, so rebrand apparel may be supplied centrally by the parent bank. The ribbon cutting on Aug 6, 2026 has passed, so lead with local event and community merchandise and confirm whether the Idaho team buys locally. Only the Eagle banking center is documented in scope. Publish dates of the calendar and chamber listings are not shown; the event date carries the signal.",
+  "research_notes": "Searches run Sep 23, 2026 returned the BoiseDev calendar listing for the Eagle Chamber ribbon cutting dated Aug 6, 2026 and the Boise Metro Chamber new event post on the Hillcrest to Vista name change. Address, phone and weekday hours come from the official Eagle location page on the Hillcrest domain, now titled Vista Bank. Parent is NBH Bank, a subsidiary of National Bank Holdings Corporation, per the Vista Bank site. Merger coverage from 2025 and the January 2026 closing release were left out under the date rule. The Idaho Hispanic Chamber post named in the sourcing note was not confirmed and is not cited. Apollo lookup confirms the vistabank.com domain.",
+  "sources": [
+   {
+    "id": "s1",
+    "source_type": "official_event_page",
+    "url": "https://boisedev.com/calendar/details/eagle-chamber-ribbon-cutting-vista-bank-formerly-hillcrest-bank-/19543584/2026-08-06T11/",
+    "publisher": "BoiseDev community calendar (Eagle Chamber of Commerce event)",
+    "origin_group": "boisedev.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:20:55-07:00",
+    "supporting_text": "Calendar listing titled Eagle Chamber Ribbon Cutting Vista Bank Formerly Hillcrest Bank, held Aug 6, 2026 at 80 E Eagles Gate Dr, Eagle, organized by the Eagle Chamber of Commerce."
+   },
+   {
+    "id": "s2",
+    "source_type": "official_company_site",
+    "url": "https://www.hillcrestbank.com/location/80-east-eagles-gate-drive/",
+    "publisher": "Vista Bank",
+    "origin_group": "vistabank.com_hillcrestbank.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:35-07:00",
+    "supporting_text": "Page titled Banking in Eagle, Idaho, Vista Bank: full service banking center with drive up service at 80 East Eagles Gate Drive, Eagle, Idaho 83616, phone 208 370 3756, open Monday through Friday 9:00 AM to 5:00 PM."
+   },
+   {
+    "id": "s3",
+    "source_type": "chamber_post",
+    "url": "https://www.boisechamber.org/blog-634429/hillcrest-bank-is-changing-its-name-to-vista-bank-new-event",
+    "publisher": "Boise Metro Chamber of Commerce",
+    "origin_group": "boisechamber.org",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:05-07:00",
+    "supporting_text": "Boise Metro Chamber member post titled Hillcrest Bank is changing its name to Vista Bank, published as a new event notice."
+   },
+   {
+    "id": "s4",
+    "source_type": "official_company_site",
+    "url": "https://www.vistabank.com/welcome-hillcrest-bank-clients/",
+    "publisher": "Vista Bank",
+    "origin_group": "vistabank.com_hillcrestbank.com",
+    "published_date": null,
+    "accessed_at": "2026-09-23T17:21:45-07:00",
+    "supporting_text": "Welcome Hillcrest Bank Clients page says Vista and Hillcrest Banks are now one, banking teams and accounts stay the same, and the name changes at banking centers, the website address and the mobile app; Vista Bank is a division of NBH Bank, a subsidiary of National Bank Holdings Corporation, with banking centers in Idaho, Utah, Texas and other states."
+   }
+  ],
+  "field_sources": {
+   "company_name": [
+    "s2",
+    "s4"
+   ],
+   "street_address": [
+    "s2",
+    "s1"
+   ],
+   "company_phone": [
+    "s2"
+   ],
+   "local_presence_type": [
+    "s2",
+    "s1"
+   ],
+   "company_status": [
+    "s2"
+   ],
+   "signal_summary": [
+    "s1",
+    "s3"
+   ],
+   "parent_company_name": [
+    "s4"
+   ]
+  },
+  "blank_field_reasons": {
+   "employee_count_or_band": "apollo_enrichment_not_run_firmographic_not_stated",
+   "employee_count_scope": "not_stated",
+   "signal_published_date": "not_published",
+   "project_name": "not_applicable_no_named_project",
+   "project_relationship_status": "not_applicable_no_named_project",
+   "project_relationship_source_url": "not_applicable_no_named_project",
+   "project_phase": "not_applicable_no_named_project",
+   "local_job_postings_observed": "not_applicable",
+   "hiring_evidence_url": "not_applicable",
+   "hiring_count_scope": "not_applicable",
+   "procurement_source_url": "not_found"
+  },
+  "_shard": "a3"
+ }
+]

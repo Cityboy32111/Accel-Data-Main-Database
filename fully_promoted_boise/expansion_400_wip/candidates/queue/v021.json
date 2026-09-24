@@ -1,0 +1,78 @@
+{
+ "batch_id": "v021",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Diamond Lawns",
+   "company_domain": "diamondlawns.com",
+   "city": "Meridian",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://diamondlawns.com/employment/",
+   "lead_date": "",
+   "lead_note": "The site has an employment page, and Indeed shows Sales & Operations Manager (Meridian) and Technician (Boise) roles. The office is at 3520 W Amity Rd, Meridian. It is a lawn, tree and pest company serving Boise, Caldwell, Eagle, Kuna, Nampa and Star.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Treasure Valley Athletic Center",
+   "company_domain": "tvacsports.org",
+   "city": "Meridian",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.tvacsports.org/basketball-tournaments",
+   "lead_date": "",
+   "lead_note": "Private multi sport volleyball and basketball facility at 1251 E Piper Ct, Meridian. It runs recurring youth leagues, basketball tournaments and summer volleyball camps, which suggests team and event apparel needs. Needs a dated 2026 event or hiring source.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Treasure Valley Habitat for Humanity",
+   "company_domain": "tvhabitat.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://tvhabitat.org/women-build",
+   "lead_date": "",
+   "lead_note": "Women Build page says 2026 team formation is closed and a women led build in Boise broke ground in spring 2026; recurring volunteer build crews; ReStores at 10537 W Overland Rd and 4716 W State St, admin office 9438 W Fairview Ave, Boise",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "A&I Distributors",
+   "company_domain": "aidistributors.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4401372/Default/Class-A-CDL-Driver-Boise",
+   "lead_date": "",
+   "lead_note": "Family- and employee-owned lubricants and oil wholesale distributor with a Boise warehouse (83709). Paylocity shows a Class A CDL Driver job in Boise, and ZipRecruiter lists more A&I jobs in Sep 2026. Need a second Boise role.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Lost Grove Brewing, LLC",
+   "company_domain": "lostgrovebrewing.com",
+   "city": "Boise",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://lostgrovebrewing.com/events",
+   "lead_date": "2026-09-23",
+   "lead_note": "B Corp brewery and taproom. Events page shows an Artist in Residence 2026 program (Sep 23 to Dec 30, 2026), a June 6, 2026 brunch and a recurring concert calendar. Supports nonprofits through its Powerful Pints program.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Idaho Trust Bank",
+   "company_domain": "idahotrust.com",
+   "city": "Boise",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.idahotrust.com/about-us/careers.html",
+   "lead_date": "",
+   "lead_note": "Boise headquartered bank at 888 W Broad St. Its careers page says it is currently hiring, and Indeed and Glassdoor show Boise roles: Trust and Investment Administrator, Wealth Management Operations Associate, SVP Commercial Relationship Manager and Trust Officer.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  }
+ ]
+}

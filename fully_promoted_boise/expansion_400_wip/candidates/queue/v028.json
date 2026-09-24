@@ -1,0 +1,78 @@
+{
+ "batch_id": "v028",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Crookham Company",
+   "company_domain": "crookham.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.facebook.com/100057263447549/posts/looking-for-summer-work-where-you-can-earn-a-good-wage-and-still-have-part-of-th/930851205500319/",
+   "lead_date": "",
+   "lead_note": "Family owned seed company with its HQ and seed plant in Caldwell. Recurring seasonal crew hiring for sweet corn and popcorn nurseries each July to August, applications open April and May. Job boards also show an Onion Stock Seed Manager, Mill Operator and Maintenance Mechanic. The Facebook post date needs confirming as 2026.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Tamarack Grove Engineering, PLLC",
+   "company_domain": "tamarackgrove.com",
+   "city": "Boise",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://idahobusinessreview.com/2026/05/27/idaho-companies-top-workplace-culture-treasure-valley/",
+   "lead_date": "2026-05-27",
+   "lead_note": "Boise structural firm named in IBR Top Companies in Treasure Valley (May 27 2026) and says it made the BoiseDev 2026 Peak 43 list. A company hiring post seeks an experienced structural engineer. Indeed shows Administrative Assistant and Structural Engineering Intern in Boise 83705, and ZipRecruiter shows a BIM Structural Drafter in Meridian.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "RADIX Construction, Inc.",
+   "company_domain": "radixconstruction.com",
+   "city": "Nampa",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.facebook.com/radixconstruction/posts/-the-big-dig-is-back-mark-your-calendars-for-the-3rd-annual-big-dig-treasure-val/1772938717472160/",
+   "lead_date": "2026-08-29",
+   "lead_note": "Nampa HQ design build GC at 4865 E Franklin Rd. Its Facebook post promotes the 3rd Annual Big Dig Treasure Valley construction charity event on Aug 29, 2026; its exact role in the event still needs confirming",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Layton Construction Co., LLC",
+   "company_domain": "laytonconstruction.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://boisedev.com/news/2026/06/26/st-lukes-1-1-billion-boise-expansion-reaches-milestone-with-years-still-to-go/",
+   "lead_date": "2026-06-26",
+   "lead_note": "BoiseDev (Jun 26, 2026) names Layton as GC on the St Luke's $1.1B Boise expansion topping out milestone, with years of work still ahead. Layton has a Boise office; its parent is STO Building Group, which is not excluded",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Brown and Caldwell",
+   "company_domain": "brownandcaldwell.com",
+   "city": "Boise",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://brownandcaldwell.com/careers/",
+   "lead_date": "",
+   "lead_note": "Boise office runs a recurring engineering intern cohort: Summer 2026 Intern Engineering (Private Sector) Boise, and Engineering Intern Summer 2027 (Northwest) Idaho/Boise posted about 4 days before observation. The firm does water/environmental engineering.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "HDR, Inc.",
+   "company_domain": "hdrinc.com",
+   "city": "Boise",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://hdr.referrals.selectminds.com/jobs/site-civil-land-development-engineer-buildings-45278",
+   "lead_date": "2026-08-21",
+   "lead_note": "Site Civil/Land Development Engineer (Buildings) posting dated Aug 21 2026 prefers local candidates. LinkedIn shows Site Civil/Land Development EIT/Coordinator and Site Civil Engineer in Boise, and Indeed lists 19 HDR Boise jobs. HDR absorbed SPF Water Engineering (Boise).",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v075",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Buckhorn Vineyards",
+   "company_domain": "",
+   "city": "Eagle",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "http://eagleid.chambermaster.com/events/details/eagle-chamber-ribbon-cutting-buckhorn-vineyards-6008",
+   "lead_date": "2026-09-03",
+   "lead_note": "Eagle Chamber held a ribbon cutting and open house on Sep 3, 2026 welcoming Buckhorn Vineyards, a new vineyard and tasting space at 2177 E Dunyon St Ste 108, Eagle. BoiseDev cross listed it. Domain not found.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  },
+  {
+   "company_name": "Mountain West Bank",
+   "company_domain": "mountainwestbank.com",
+   "city": "Meridian",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.gbcijobs.com/mountain-west-bank/jobs",
+   "lead_date": "",
+   "lead_note": "Glacier Bancorp careers site lists Mountain West Bank roles located in Meridian. The bank has Boise, Meridian and Nampa branches and is a Glacier Bancorp division, so procurement may be corporate.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Idaho Water Sports",
+   "company_domain": "idahowatersports.com",
+   "city": "Nampa",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://idahowatersports.com/careers",
+   "lead_date": "",
+   "lead_note": "Wake and surf boat dealer (Nautique, Malibu, Axis, Bennington) with a Nampa store (83687) plus Idaho Falls. The careers page is a general application, and Glassdoor shows 3 openings. It also has an events page. Signal is weak; count the Nampa roles.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Treasure Valley Children's Theater",
+   "company_domain": "treasurevalleychildrenstheater.com",
+   "city": "Meridian",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.treasurevalleychildrenstheater.com/",
+   "lead_date": "",
+   "lead_note": "Homepage (loaded) promotes its 14th (2026) season, a Legend of Sleepy Hollow run on Oct 2, 3, 9 and 10 and holiday season shows; Yelp lists 440 W Pennwood, Meridian, and the site mentions a TVCT theater in Boise, so confirm the site city and paid staff",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Hot Shots, Inc.",
+   "company_domain": "hotshotsincdelivery.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.hotshotsincdelivery.com/employment/",
+   "lead_date": "",
+   "lead_note": "Same-day courier operating since 1998, with its office at 753 N Meadowland Dr, Boise. The employment page (loaded) takes courier applications but lists no specific roles. Weak; verify live postings.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Crescent Brewery",
+   "company_domain": "crescentbeer.com",
+   "city": "Nampa",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://boisedev.com/calendar/details/live-music-at-the-crescent-brewery-every/19106892/2026-06-13T19",
+   "lead_date": "2026-06-13",
+   "lead_note": "Family run brewery at 1521 Front St, Nampa (oldest in Nampa). BoiseDev calendar shows live music every Saturday (Jun 13, 2026 listing), and a Jul 28, 2026 Instagram post promotes weekly karaoke. The evidence is thin, so it needs a stronger dated program or hiring.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  }
+ ]
+}

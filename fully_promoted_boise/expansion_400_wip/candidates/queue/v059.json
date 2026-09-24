@@ -1,0 +1,78 @@
+{
+ "batch_id": "v059",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Idaho Arthritis Center",
+   "company_domain": "idahoarthritis.com",
+   "city": "Caldwell",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.simplyhired.com/job/LAh3CkOVBGzF4WDI1y-jAgclPwBV2IWh3gWl3mJBH1KM2wbPjV1Gtw",
+   "lead_date": "2026-09-15",
+   "lead_note": "Physician-owned rheumatology practice. Infusion LPN for the Caldwell infusion team posted Sep 15, 2026 (SimplyHired); ZipRecruiter shows 13 jobs. Sites: 3277 E Louise Dr Meridian and Caldwell. Needs an own-ATS source.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Treasure Valley ABA",
+   "company_domain": "treasurevalleyaba.com",
+   "city": "Eagle",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.treasurevalleyaba.com/careers",
+   "lead_date": "",
+   "lead_note": "Careers page (loaded) is hiring an RBT and a BCBA. The site footer gives Eagle ID 83616, and a directory lists 1121 E State St Ste 102D, Eagle. It is a local in home ABA provider serving Boise, Meridian, Eagle, Nampa, Caldwell, Kuna and Star. Only 2 role types are listed.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Treasure Valley Family Medicine",
+   "company_domain": "tvfammed.com",
+   "city": "Meridian",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.tvfammed.com/",
+   "lead_date": "",
+   "lead_note": "Independent, veteran owned family medicine and direct primary care clinic at 2428 N Stokesberry Pl Meridian, with women's health; an Indeed employer page exists. No dated 2026 signal confirmed yet.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "RehabAuthority",
+   "company_domain": "prnpt.com",
+   "city": "Boise",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.prnpt.com/brands/rehab-authority/brands-rehab-authority-careers/",
+   "lead_date": "",
+   "lead_note": "Physical Rehabilitation Network (PRN) brand. LinkedIn lists 15 PRN jobs in the Boise metro, including a Clinic Director and several PT Aides. Clinics: Boise Broadway, Boise N Eagle Rd, Nampa (337 W Iowa Ave) and Caldwell (120 E Pine St). Buying is probably through corporate.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Karcher Post Acute",
+   "company_domain": "karcherpa.com",
+   "city": "Nampa",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://karcherpa.com/",
+   "lead_date": "",
+   "lead_note": "66 bed skilled nursing and post acute rehab at 1127 Caldwell Blvd, Nampa, a PACS Group affiliate. Hiring runs through the PACS Workday portal. Indeed shows Nampa openings at 19 to 27 dollars an hour, and sister campus Karcher Senior Living posted Housekeeper (Sep 15, 2026) and Med Tech roles. Fold Karcher Senior Living into this record.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Alexander Hoffman Orthodontics",
+   "company_domain": "boiseorthodontist.com",
+   "city": "Boise",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://boiseorthodontist.com/eagle/",
+   "lead_date": "",
+   "lead_note": "Loaded the site: 4 orthodontic offices (Downtown Boise at 1453 W Hays, East Boise at 3167 S Bown Way, Eagle at 450 W State St, SW Boise at 4521 S Cloverdale). No dated signal seen yet; check for hiring or an events calendar.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  }
+ ]
+}

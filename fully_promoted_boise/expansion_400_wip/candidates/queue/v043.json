@@ -1,0 +1,78 @@
+{
+ "batch_id": "v043",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Perfect Plumbing, Heating & Air (Any Hour Group Boise unit, Magic Electric)",
+   "company_domain": "perfectplumbingheatingair.com",
+   "city": "Garden City",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://bebee.com/us/jobs/plumbing-service-technician-any-hour-group-garden-city-id-united-states--appcast-7428_d7250cf41e463148464704ca17c354673901cb345da500e051ed97f02dab87f7",
+   "lead_date": "",
+   "lead_note": "Any Hour Group posting for Plumbing Service Technician at Magic Electric, Plumbing, Heating and Air (Boise), Garden City 83714; Apollo shows 2+ active postings for Perfect Plumbing. Confirm current brand name and domain before record build.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Absolute Fire Protection, LLC",
+   "company_domain": "abfirepro.net",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.abfirepro.net/jobs",
+   "lead_date": "",
+   "lead_note": "Homepage links to a Now Hiring jobs page; job boards show Fire Sprinkler Fitter Apprentice (Entry Level) in Boise at $20 to $22/hr and a fire sprinkler inspector role. Boise based sprinkler and fire alarm contractor.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Norfolk Iron & Metal Co.",
+   "company_domain": "norfolkiron.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.norfolkiron.com/contact/locations/boise-idaho/",
+   "lead_date": "",
+   "lead_note": "Steel service center branch at 10296 Hwy 20 26, Caldwell (listed as Boise location); signal not yet confirmed, check careers for Caldwell warehouse and driver roles.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "US Air Conditioning Distributors",
+   "company_domain": "us-ac.com",
+   "city": "Meridian",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://us-ac.com/stores/meridian/",
+   "lead_date": "",
+   "lead_note": "HVAC equipment and parts distributor store at 62 N Truckee Ave Ste 100, Meridian; signal not yet confirmed, check careers for Meridian counter and warehouse roles.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "American Construction Supply",
+   "company_domain": "americanconstructionsupply.com",
+   "city": "Nampa",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "http://www.americanconstructionsupply.com",
+   "lead_date": "",
+   "lead_note": "Construction supply distributor surfaced by Apollo in Nampa/Caldwell with job postings since Jul 2026; verify in scope branch address and careers page.",
+   "vertical": "construction_industrial",
+   "scope": "c_apollo_jobs"
+  },
+  {
+   "company_name": "Consolidated Supply Co.",
+   "company_domain": "consolidatedsupply.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.indeed.com/q-consolidated-supply-l-nampa,-id-jobs.html",
+   "lead_date": "",
+   "lead_note": "Employee owned plumbing, hydronic and waterworks wholesaler (Tigard OR) with branches at 777 N Five Mile Rd Boise and Nampa; boards show Warehouse/Driver, Estimator, Counter Sales, Inside Sales Plumbing roles Boise and Nampa; need employer ATS.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  }
+ ]
+}

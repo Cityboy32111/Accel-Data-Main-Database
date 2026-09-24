@@ -1,0 +1,78 @@
+{
+ "batch_id": "v003",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "The Pitch Idaho",
+   "company_domain": "thepitchidaho.com",
+   "city": "Caldwell",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.instagram.com/p/DYTMNH9jzyG/",
+   "lead_date": "2026-05-13",
+   "lead_note": "57,000 sq ft indoor soccer facility at 412 S Kit Ave Caldwell running U7 to U18 youth leagues, camps, Kids Pitch sessions and a World Cup Youth 3v3 Tournament (May 13, 2026 post). It opened in late 2025, so the pre March 2026 opening coverage must be left out.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Residences at River Birch",
+   "company_domain": "",
+   "city": "Eagle",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://happeningnext.com/event/residences-at-river-birch-ribbon-cutting-andamp-ground-breaking-event-eid3a0djl9emj",
+   "lead_date": "2026-05-05",
+   "lead_note": "An event listing shows a Residences at River Birch ribbon cutting and groundbreaking on May 5, 2026 at 3705 N Hwy 16, Eagle, for a residential community. The developer or management company still needs to be identified, and this source is an aggregator, not a chamber.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  },
+  {
+   "company_name": "Athletic Club Boise",
+   "company_domain": "acboise.com",
+   "city": "Garden City",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://cushingterrell.com/blog/idaho-treasure-valley-sports-and-recreation-venues/",
+   "lead_date": "2026-06-05",
+   "lead_note": "USL League One pro soccer club. Its stadium at the former Les Bois Park in Garden City had a soft opening Mar 28, 2026 and a first home game Apr 4, 2026 (Cushing Terrell, Jun 5, 2026). acboise.com says the club moves to the USL Championship in 2027 and will add 3,000 seats, a practice pitch and a training facility.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Advocates Against Family Violence",
+   "company_domain": "aafvhope.org",
+   "city": "Caldwell",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.aafvhope.org/events/pathways-to-hope-gala/",
+   "lead_date": "2026-10-02",
+   "lead_note": "13th annual Pathways to Hope Gala on Oct 2, 2026 at The Palace Event Center in Caldwell; operates Hope's Door emergency shelter for women and children in Caldwell",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Merchants Moving & Storage, Inc. (iWest Companies)",
+   "company_domain": "merchantsmoving.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://iwest.com/careers/",
+   "lead_date": "",
+   "lead_note": "The iWest careers page (loaded) lists Boise openings for Packers & Movers, Local Drivers (Class A/B CDL), Longhaul Drivers and Warehouse. The iWest Boise location page shows Merchants Moving & Storage at 11345 Executive Dr. This is one company: do not also add iWest separately.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Vertical Venues",
+   "company_domain": "verticalvenues.com",
+   "city": "Caldwell",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/07/16/skydiving-helicopter-arrivals-new-caldwell-wedding-venue-takes-grand-entrances-to-new-heights/",
+   "lead_date": "2026-07-16",
+   "lead_note": "BoiseDev (Jul 16, 2026): new 12,000 sq ft hangar wedding and corporate event venue with an in house bar at Caldwell Executive Airport (4916 E Linden St). Locally owned.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  }
+ ]
+}

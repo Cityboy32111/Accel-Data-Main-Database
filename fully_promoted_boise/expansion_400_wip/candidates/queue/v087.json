@@ -1,0 +1,78 @@
+{
+ "batch_id": "v087",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Peppy Heating & Cooling",
+   "company_domain": "callpeppy.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://callpeppy.com/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page present; offices at 16096 N 20 St Nampa and 590 N Maple Grove Rd Boise; formerly Shanco Heating and Air; community involvement page may support an event program angle.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Tacoma Screw Products, Inc.",
+   "company_domain": "tacomascrew.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://tacomascrew.atsondemand.com/",
+   "lead_date": "",
+   "lead_note": "Family owned fastener and industrial supply distributor (since 1946) with Boise branch at 2230 S Cole Rd; LinkedIn shows Boise Counter Sales and Boise Outside Sales postings; confirm live on ATS.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Dillon Plumbing",
+   "company_domain": "dillonplumbing.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://dillonplumbing.com/careers",
+   "lead_date": "",
+   "lead_note": "Careers page snippet: hiring journeyman plumbers ($22 to $32/hr) and apprentices, Mon to Fri, no on call; Nampa since 1960. Page body did not render on scrape.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Crescent Electric Supply Company",
+   "company_domain": "cesco.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.cesco.com/",
+   "lead_date": "",
+   "lead_note": "Independent family owned electrical distributor with Boise branch at 415 N Phillippi St; Apollo shows recent local job postings (Aug to Sep 2026) for area; specific Boise postings not yet opened.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Shilo Plumbing LLC",
+   "company_domain": "shiloplumbingllc.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.shiloplumbingllc.com/employment/",
+   "lead_date": "",
+   "lead_note": "Employment page loaded Sep 23, 2026: hiring apprentice and journeyman plumbers, apprentices attend apprenticeship school; shop at 3508 Airport Rd Nampa.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Acme Construction Supply Co., Inc.",
+   "company_domain": "acmetool.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.acmetool.com/index.jsp?path=boise",
+   "lead_date": "",
+   "lead_note": "Portland based construction tool and fastener supplier with 16,790 sq ft Boise branch at 594 N Dupont Ave; Apollo flags recent area postings (Aug to Sep 2026); do not cite the 2023 opening.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  }
+ ]
+}

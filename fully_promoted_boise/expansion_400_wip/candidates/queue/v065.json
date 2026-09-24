@@ -1,0 +1,78 @@
+{
+ "batch_id": "v065",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Marcus Lowry Orthodontics",
+   "company_domain": "lowryortho.com",
+   "city": "Meridian",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.lowryortho.com/meridian-office-location/",
+   "lead_date": "",
+   "lead_note": "Two office orthodontic practice (Meridian on Eagle Rd, Nampa at 4401 E Flamingo Ave). Indeed has salary data for an Orthodontic Assistant in Meridian. No dated signal seen yet.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "FirstLight Home Care of Boise",
+   "company_domain": "firstlighthomecare.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.firstlighthomecare.com/home-healthcare-boise/careers/",
+   "lead_date": "",
+   "lead_note": "Franchise office 380 S 4th Street Suite 203, Boise; careers page lists Caregiver, Home Health Aide and Personal Care Assistant openings and FirstLight is hiring banner; Boise Metro Chamber member badge.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Dermatology Center of Canyon County",
+   "company_domain": "dermcentercc.com",
+   "city": "Nampa",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://dermcentercc.com/",
+   "lead_date": "",
+   "lead_note": "Independent dermatology and laser practice at 318 2nd St S, Nampa. The provider bio cites about 20 employees and four clinical providers. Weak: no dated signal found yet.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Behavioral Health Group (BHG) Boise Treatment Center",
+   "company_domain": "bhgrecovery.com",
+   "city": "Boise",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.bhgrecovery.com/careers/",
+   "lead_date": "",
+   "lead_note": "Opioid treatment clinics in Boise and Meridian; the location page loaded and names the Medical Director for Boise and Meridian. Snippets show a Clinical Supervisor role in Boise and a Substance Abuse Counselor posting. This is a national chain, so procurement may be corporate.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Elevate Healthcare",
+   "company_domain": "elevatehealthcarenampa.com",
+   "city": "Nampa",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://elevatehealthcarenampa.com/health-care-services",
+   "lead_date": "",
+   "lead_note": "Senior focused primary care office in Nampa serving Caldwell and Boise, found via Apollo lookup. No dated signal confirmed yet.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Gridiron Rehab & Athletic Fitness LLC (Gridiron Physical Therapy)",
+   "company_domain": "gridironpt.com",
+   "city": "Meridian",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/Recruiting/PublicLeads/New/c7917828-ec76-412e-9420-66c4917c5228",
+   "lead_date": "",
+   "lead_note": "Sports focused PT clinic at 3035 W McMillan Rd Ste 104, Meridian. It has a Paylocity recruiting account (talent lead form), so its Paylocity board may list roles. No specific posting seen yet.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  }
+ ]
+}

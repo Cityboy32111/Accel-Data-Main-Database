@@ -1,0 +1,78 @@
+{
+ "batch_id": "v061",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "WSP USA (POWER Engineers, member of WSP)",
+   "company_domain": "wsp.com",
+   "city": "Meridian",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.ziprecruiter.com/co/Wsp-Usa/Jobs/-in-Boise,ID",
+   "lead_date": "",
+   "lead_note": "Former POWER Engineers office in Meridian (Eagle View Landing), now part of WSP. Boards show Senior Mechanical Engineer, Experienced Electrical Engineer (Power & Energy) and a Lead Generation Electrical Engineer in Meridian, plus interns. Scope fit is weaker: this is mainly utility/power engineering. Needs WSP's own careers page.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Border States Industries, Inc.",
+   "company_domain": "borderstates.com",
+   "city": "Nampa",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://careers.borderstates.com/",
+   "lead_date": "",
+   "lead_note": "Employee owned electrical distributor with Nampa branch; Apollo flags recent area postings; the Nampa grand opening was 2023 so it cannot be cited; need live Nampa requisitions.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Eleven Western Builders, Inc.",
+   "company_domain": "ewbinc.com",
+   "city": "Meridian",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "market_expansion_hiring",
+   "lead_url": "https://www.facebook.com/ewbinc/posts/exciting-news-from-the-eleven-western-builders-teamweve-expanded-into-the-mounta/1265915004903769/",
+   "lead_date": "",
+   "lead_note": "Company post announces a new Meridian office for its Mountain West expansion (post date not captured). Monster shows a Boise Superintendent posted about 6 days before Sep 23, 2026, and ZipRecruiter lists 12 Boise jobs",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Fox Heating and Cooling, LLC",
+   "company_domain": "foxhvacpro.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://foxhvacpro.applicantpro.com/jobs/4104362.html",
+   "lead_date": "",
+   "lead_note": "ApplicantPro Lead Install Technician in Boise and a career.io HVAC Service Specialist posting (Boise 83709); locally owned, family operated, 11187 W Southerland Ct Boise; ApplicantPro header updated Jun 2026.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Bronco Electric, Inc.",
+   "company_domain": "broncoelectric.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://broncoelectric.com/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page recruits electricians for Bakersfield CA and Nampa ID; Nampa (Boise) office at 2220 Cortland Place; union NECA/IBEW shop. General application only, needs named postings.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "NessCampbell Crane + Rigging",
+   "company_domain": "nesscampbell.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://nesscampbell.com/boise/",
+   "lead_date": "",
+   "lead_note": "Portland based lifting, rigging and heavy haul firm with a Boise branch (208 366 9727); check careers for Boise operator and mechanic roles or dated project posts.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  }
+ ]
+}

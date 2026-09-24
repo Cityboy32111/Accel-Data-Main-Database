@@ -1,0 +1,78 @@
+{
+ "batch_id": "v039",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Horizon Credit Union",
+   "company_domain": "hzcu.org",
+   "city": "Boise",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.hzcu.org/branches-atms/orchard-branch/",
+   "lead_date": "",
+   "lead_note": "The branch page (loaded, undated) says the Orchard Branch at 910 N Orchard St, Boise is closed for a full remodel finishing in early 2027. It also has Emerald, Chinden and Nampa branches, a Paylocity MSR posting, and a Boise financial advisor role. The BoiseDev article on the rebuild is dated Feb 2026, too early to use.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Prestige Water Sports",
+   "company_domain": "prestigewatersports.com",
+   "city": "Boise",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.facebook.com/prestigewatersports/",
+   "lead_date": "",
+   "lead_note": "Boise boat dealer HQ at 2820 W Main St. FB says 'Prestige Water Sports McCall is officially OPEN'. The opening date needs checking, and McCall is out of territory, so the buying unit is the Boise HQ. The careers page includes an apparel department option.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Ignite Sports",
+   "company_domain": "playignitesports.com",
+   "city": "Meridian",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.playignitesports.com/page/show/4194717-ignite-volleyball",
+   "lead_date": "",
+   "lead_note": "Ignite Volleyball held 2026 to 27 tryouts in summer 2026 at St. Ignatius Catholic School (18U on Jul 14) and has 85+ players on 8 teams; Ignite Baseball runs travel teams. The listed office is 3078 W Gemstone Dr Meridian, which should be confirmed as a real site.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Treasure Valley Landscape (a Sperber Landscape Company)",
+   "company_domain": "treasurevalleylandscape.com",
+   "city": "Nampa",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://secure.ipsonline.net/ta/SPERBER.careers?CareersSearch&ein_id=34844928",
+   "lead_date": "",
+   "lead_note": "The Sperber UKG board shows 5 Nampa jobs: Groundman, Plant Health Care Technician (Licensed Applicator), Lead Climber (Tree Care), Maintenance Gardener (Boise) and Gardener (Commercial Landscaping). The office is at 5061 Ustick Rd, Nampa. The parent company is Sperber Landscape Companies.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Firebird Raceway",
+   "company_domain": "firebirdonline.com",
+   "city": "Eagle",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://firebirdonline.com/events/",
+   "lead_date": "2026-09-26",
+   "lead_note": "Drag racing venue at 8551 State Highway 16, Eagle. The 2026 schedule includes the Fall Swap Meet and Drag Races (Sep 26, 2026), Classic XXXIII (Oct 6 to 11) and the yearly Nightfire Nationals. It runs a seasonal part time event staff program.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Big Brothers Big Sisters of Southwest Idaho",
+   "company_domain": "bbbsidaho.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://boisedev.com/news/2026/07/17/they-really-came-in-and-saved-the-day-for-us-river-club-steps-up-to-host-non-profit-fundraiser-after-abrupt-closure-of-s2-pickleball/",
+   "lead_date": "2026-07-20",
+   "lead_note": "BoiseDev Jul 20, 2026: River Club stepped in to host the BBBS pickleball fundraiser after S2 Pickleball closed, an event planned for about a year; careers page also lists a Match Support Specialist opening",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  }
+ ]
+}

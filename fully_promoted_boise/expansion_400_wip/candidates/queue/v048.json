@@ -1,0 +1,78 @@
+{
+ "batch_id": "v048",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Kuna Force Basketball",
+   "company_domain": "kunaforce.com",
+   "city": "Kuna",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://kunaforce.com/",
+   "lead_date": "",
+   "lead_note": "Youth basketball program in Kuna for boys and girls from kindergarten through high school, with seasonal team rosters. Dated 2026 to 27 season registration or tournament dates still need confirming.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "A Cut Above Tree Service",
+   "company_domain": "acutabovetrees.com",
+   "city": "Boise",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.acutabovetrees.com/career",
+   "lead_date": "",
+   "lead_note": "The page says 'We are Hiring!' and lists Entry Level General Labor, Entry Level Climber and ISA Certified Arborist. The address is 8401 W Desert Ave, Boise. Indeed also shows a Tree Groundsperson role in Boise at $17 to $30.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Middleton Fitness Center",
+   "company_domain": "middletonfitnesscenter.com",
+   "city": "Middleton",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.middletonfitnesscenter.com/",
+   "lead_date": "",
+   "lead_note": "Locally owned 24 hour gym at 1008 W Main St, Middleton, promoting an expanded facility it calls 3.0. Its site grand opening was before the Mar 1 window, so it only qualifies if a post Mar 2026 hiring or expansion post turns up. Low confidence.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Metro Community Services (Meals on Wheels Metro Boise)",
+   "company_domain": "metrocommunityservices.net",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.facebook.com/MealsOnWheelsMetroBoise/",
+   "lead_date": "2026-10-10",
+   "lead_note": "Facebook promotes the Race for the Rest of Us 2026 on Sat Oct 10 benefiting Metro Community Services; March for Meals held Mar 28, 2026; delivers about 2,000 meals each weekday from 4900 N Rosepoint Way, Boise, with driver and kitchen teams",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Diamond Line Delivery Systems, Inc.",
+   "company_domain": "dlds.com",
+   "city": "Meridian",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/0235ac01-513d-41c2-a298-ca7794fdb8cd/Diamond-Line-Delivery-Systems-Inc",
+   "lead_date": "",
+   "lead_note": "Employee-owned LTL carrier with its HQ in Meridian (1550 S Tech Ln) and a terminal at 1450 N Hickory Ave. The Paylocity board shows 3 openings: a Meridian Mechanic, a Meridian PM Dock Supervisor and an SLC dockworker dated 04/30/2026. The PM Supervisor detail page now reads inactive, so check that 2 or more Meridian roles are still live.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Ste. Chapelle Winery",
+   "company_domain": "stechapelle.com",
+   "city": "Caldwell",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://sunnyslopewinetrail.com/wine-festival/",
+   "lead_date": "2026-09-06",
+   "lead_note": "Hosted the 2026 Sunnyslope Wine Festival (Sep 6, 2026) at 19348 Lowell Rd. A seasonal harvest cellar worker posting also appeared. Owned by Precept Wine (Seattle); Sawtooth Winery is a sister brand, so keep one record.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  }
+ ]
+}

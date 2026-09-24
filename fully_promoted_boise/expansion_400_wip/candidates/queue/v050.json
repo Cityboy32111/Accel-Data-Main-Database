@@ -1,0 +1,78 @@
+{
+ "batch_id": "v050",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Kaleidoscope Pediatric Therapy",
+   "company_domain": "kaleidoscopepediatrictherapy.com",
+   "city": "Boise",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://kaleidoscopepediatrictherapy.betterteam.com/",
+   "lead_date": "2026-09-23",
+   "lead_note": "Betterteam board loaded Sep 23, 2026 shows two live Boise roles: Pediatric Speech Therapist (Part Time) and Pediatric Speech Language Pathologist (Full Time). Therapist owned practice with a 6,000 sq ft clinic.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Cascadia Healthcare",
+   "company_domain": "cascadiahc.com",
+   "city": "Eagle",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/cascadia-healthcare-jobs-boise-id",
+   "lead_date": "",
+   "lead_note": "Eagle HQ at 2205 E Riverside Dr. Operates Cascadia of Boise, Shaw Mountain and Arbor Valley in Boise, Cascadia of Nampa, Wellspring, Orchards and Sunny Ridge in Nampa, and Caldwell Care and Canyon West in Caldwell. The LinkedIn jobs page shows 9 Boise roles (HR Business Partner, compliance clinical roles). Treat all of these as one company record.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Kuna Dental",
+   "company_domain": "kunadental.info",
+   "city": "Kuna",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.kunadental.info/",
+   "lead_date": "",
+   "lead_note": "Kuna family practice since 1977 at 935 N Linder Rd Ste 101; known for an annual free dentistry day tradition (older press only); need a 2026 dated event or hiring post",
+   "vertical": "healthcare",
+   "scope": "h_dental_canyon"
+  },
+  {
+   "company_name": "Ancora Health Services",
+   "company_domain": "ancoracares.com",
+   "city": "Meridian",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.ancoracares.com/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page lists Hospice RN Case Manager (Meridian), Hospice Aide full time (Meridian office) and Hospice Nurse Practitioner based in Meridian; Meridian office 660 E Franklin Rd Suite 140 (also a Fruitland office, out of scope). Facebook also shows a Community Educator hiring post.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Treasure Valley Hospital (Surgical Center of Treasure Valley)",
+   "company_domain": "treasurevalleyhospital.com",
+   "city": "Meridian",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://surgicalcenteroftvh.proxy.wakeflywebsites.com/career-center/",
+   "lead_date": "2026-08-27",
+   "lead_note": "Physician-owned surgical hospital (8800 W Emerald, Boise) plus its ASC at 1722 S Jade Way, Meridian. The ASC careers page points to the SCA Health board, which shows Orderly and part-time RN PreOp PACU II (Aug 27, 2026) at the Meridian ASC and an RN PreOp PACU II at the Boise hospital. SCA Health is a partner, so check buying authority.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Honor Behavioral Health",
+   "company_domain": "honorbh.com",
+   "city": "Boise",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.career.com/job/honor-behavioral-health/recovery-coach/j202607060147265994581",
+   "lead_date": "2026-08-24",
+   "lead_note": "A Recovery Coach role in Boise was posted Aug 24 2026 (Career.com, loaded). Indeed lists about 15 Honor roles in Boise (RN, Counselor PRN, Outpatient MH Therapist, Peer Support). The Boise provider offers independent PHP and IOP treatment plus supportive housing. The official ATS is still needed.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  }
+ ]
+}

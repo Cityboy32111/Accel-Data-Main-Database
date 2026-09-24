@@ -1,0 +1,78 @@
+{
+ "batch_id": "v084",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Crane Creek Country Club",
+   "company_domain": "cranecreekcountryclub.com",
+   "city": "Boise",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://cranecreekcountryclub.com/employment",
+   "lead_date": "",
+   "lead_note": "Private golf, tennis, pool and fitness club at 500 W Curling Dr, Boise. The employment page says it is currently looking for co-workers but has only a general application, no named roles. Weak lead: needs named postings.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Block 22 LLC",
+   "company_domain": "block22llc.com",
+   "city": "Boise",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/a176ff2d-48b3-4034-9287-2615393ca3ee/Block-22-Group-LLC",
+   "lead_date": "2026-09-18",
+   "lead_note": "Operates the Idaho Steelheads (ECHL) and Idaho Central Arena in downtown Boise, plus hotels. The Paylocity search snippet showed Idaho Central Arena Concessions Runner and Fry and Prep Cook (Sep 18, 2026) and a Trillium Line Cook; the board page did not load in the scraper. Roll the Steelheads and Arena up under this company, not as separate records.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Interfaith Sanctuary",
+   "company_domain": "interfaithsanctuary.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://idahonews.com/news/local/boise-shelter-transition-reshapes-emergency-bed-access-as-interfaith-moves-to-new-facility",
+   "lead_date": "",
+   "lead_note": "Idaho News reports that Interfaith Sanctuary completed its move to a new 42,500 sq ft, 205 bed Shelter Home at 4306 W State St, Boise in March 2026 and closed its River St site. Staff and volunteer apparel is the likely need. The exact article day was not captured, so it must be confirmed to be Mar 1 or later.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  },
+  {
+   "company_name": "Frasier Transport, Inc.",
+   "company_domain": "frasiertransport.net",
+   "city": "Nampa",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "http://www.frasiertransport.net/",
+   "lead_date": "",
+   "lead_note": "Woman-owned heavy haul, flatbed and dry van carrier at 8171 E Executive Dr, Nampa. Its site says it is celebrating 31 years in 2026, and FreightWaves (Sep 13, 2026) ranks it a top Boise-area carrier to work for. Verify driver openings.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "The Cub Tavern",
+   "company_domain": "",
+   "city": "Boise",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://idahonews.com/news/local/new-tavern-opening-in-historic-boise-building",
+   "lead_date": "2026-09-03",
+   "lead_note": "KBOI (Sep 3, 2026) and Idaho Statesman (Sep 4, 2026): new tavern in the restored Smith Block at 1015 W Main St, Boise, grand opening Sep 4, 2026. Operator and domain not confirmed.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Mountain America Credit Union",
+   "company_domain": "macu.com",
+   "city": "Meridian",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://macu.wd5.myworkdayjobs.com/MACU_Careers",
+   "lead_date": "",
+   "lead_note": "Its Workday board shows Member Service Representative (Teller) postings, and a Sep 2026 snippet mentions Boise. Idaho branches include Meridian Franklin Rd and Ten Mile Rd, Boise 3rd St and Nampa 2nd St S. Utah based regional credit union.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  }
+ ]
+}

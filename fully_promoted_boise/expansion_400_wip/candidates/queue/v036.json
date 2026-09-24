@@ -1,0 +1,78 @@
+{
+ "batch_id": "v036",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Boise Youth Amateur Hockey Association (Idaho Jr. Steelheads)",
+   "company_domain": "jrsteelheads.com",
+   "city": "Boise",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://myhockeyrankings.com/association-info?a=473",
+   "lead_date": "",
+   "lead_note": "MyHockeyRankings 2026 to 27 team list (search snippet) shows Idaho Jr Steelheads Blue 10U A and White 10U B teams. Boise youth travel hockey program for 10U to 18U, each season needing team and travel apparel.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Franz Witte Landscape Contracting, Inc.",
+   "company_domain": "franzwitte.com",
+   "city": "Nampa",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.franzwitte.com/about/careers",
+   "lead_date": "",
+   "lead_note": "The careers page lists about 20 Nampa roles through ourcareerpages.com. They include Commercial Landscape Estimator, Production Manager, Irrigation Technician, CDL Driver, Landscape Services Account Manager, Foreman and garden center crew. The company also operates in Boise and McCall.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Idaho Fitness Factory",
+   "company_domain": "idahofitnessfactory.com",
+   "city": "Kuna",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.instagram.com/p/Db_XNrrnII8/",
+   "lead_date": "2026-08-13",
+   "lead_note": "Largest locally owned gym chain in the valley (12+ clubs, owned by Alturas Ventures). An Aug 13, 2026 post says the Kuna club at 1515 N School Ave is on its way, and the Star club at 12214 W Bounty Ln is on the City of Star new businesses list. It is also hiring gym staff.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Idaho Shakespeare Festival",
+   "company_domain": "idahoshakespeare.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://tickets.idahoshakespeare.org/",
+   "lead_date": "2026-09-20",
+   "lead_note": "50th anniversary season in 2026 at the 5657 Warm Springs Ave amphitheater, with performances listed Sep 20 to 26, 2026; LinkedIn post recruiting weekend front of house staff for the 50th season",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "L.K.L. Associates, Inc.",
+   "company_domain": "lklassociates.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/57fc5d30-db40-4ae1-ad9c-612d66fc0655/LKL-Associates-Inc",
+   "lead_date": "",
+   "lead_note": "Family-owned drywall and building materials distributor (Utah/Idaho). Paylocity shows a NON CDL DRIVER job at 258 N Maple Grove Rd, Boise (loaded), a second Boise non-CDL driver requisition and a CDL Class A Driver job in Meridian. Subsegment fit is a delivery fleet and distribution yard.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Fat Guy's Fresh Deli",
+   "company_domain": "fatguysfreshdeli.com",
+   "city": "Meridian",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/09/14/fat-guys-fresh-deli-express-meridian/",
+   "lead_date": "2026-09-14",
+   "lead_note": "BoiseDev (Sep 14, 2026): local deli chain (Meridian 1626 S Wells Ave, Caldwell 805 Saddle Ave, Boise) is opening Fat Guy's Express at 4300 E Fairview Ave, Meridian.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  }
+ ]
+}

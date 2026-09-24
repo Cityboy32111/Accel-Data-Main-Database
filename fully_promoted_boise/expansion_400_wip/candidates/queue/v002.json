@@ -1,0 +1,78 @@
+{
+ "batch_id": "v002",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Integrity Mental Health (Integrity Psychiatric Services, LLC)",
+   "company_domain": "mentalhealthidaho.com",
+   "city": "Meridian",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.instagram.com/p/DYiiefIjPGa/",
+   "lead_date": "2026-05-19",
+   "lead_note": "Instagram post of May 19 2026 (search snippet only) announces the new, larger Meridian location at 3017 S Meridian Rd, opened May 18. The psychiatric group also has clinics in Boise, Eagle and Nampa.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Trinity Home Care & Resource",
+   "company_domain": "trinityhomecareresource.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.trinityhomecareresource.com/careers/",
+   "lead_date": "2026-03-19",
+   "lead_note": "Locally owned since 2010, Boise office 6154 N Meeker Pl Ste 150; careers page (updated Mar 19, 2026) recruits caregivers and recent posts Aug 10, Aug 24 and Sep 14, 2026 promote flexible caregiving jobs; serves Boise, Meridian, Eagle, Nampa, Caldwell, Star, Middleton.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Momentum Chiropractic",
+   "company_domain": "dcmomentum.com",
+   "city": "Meridian",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/calendar/details/ribbon-cutting-momentum-chiropractic/18997437/2026-06-17T14",
+   "lead_date": "2026-06-17",
+   "lead_note": "BoiseDev calendar entry (search snippet, not opened) shows a Meridian Chamber ribbon cutting for Momentum Chiropractic on Jun 17, 2026, at 2973 N Eagle Rd Ste 100. Owner profile says it opened Mar 2026. Single doctor practice, so a small buyer.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Nampa Naturopathic Health Clinic (Butterfield Natural Medicine)",
+   "company_domain": "nnhealthclinic.com",
+   "city": "Caldwell",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.facebook.com/NampaNaturopathic/posts/youre-invited-join-us-as-we-celebrate-the-official-ribbon-cutting-ceremony-for-b/1645241567606516/",
+   "lead_date": "2026-07-14",
+   "lead_note": "Facebook post Jul 14, 2026 invites the public to the official ribbon cutting on Wed Jul 15, 2026 for the new Butterfield Natural Medicine Caldwell location, 524 Cleveland Blvd #201. Also runs the Nampa clinic.",
+   "vertical": "healthcare",
+   "scope": "h_news_systems"
+  },
+  {
+   "company_name": "Full Circle Health",
+   "company_domain": "fullcircleidaho.org",
+   "city": "Boise",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/check-in-check-out-representative-caldwell-urgent-care-at-full-circle-health-4463083926",
+   "lead_date": "2026-09-03",
+   "lead_note": "Nonprofit FQHC and residency with clinics in Boise, Meridian, Nampa, Kuna and Caldwell (admin HQ 777 N Raymond St Boise); LinkedIn posting dated Sep 3, 2026 for Check In Check Out Rep at Caldwell Urgent Care, Indeed shows about 22 Boise roles (MA Emerald Urgent Care, MA/LPN Boise Pediatrics, Reception Supervisor Nampa North). Official job board link sits on the contact page; ATS host not yet confirmed.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Pioneer Sports & Pain Center",
+   "company_domain": "pioneerclinic.com",
+   "city": "Kuna",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.pioneerclinic.com/",
+   "lead_date": "",
+   "lead_note": "Homepage loaded Sep 23, 2026 now shows two locations, Boise (83709) and Kuna (757 E Wythe Creek Ct). Site images were uploaded June 2026, so the Boise clinic may be a 2026 addition, but this is not confirmed. Integrated chiropractic, PT and sports rehab. Needs a dated opening source.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  }
+ ]
+}

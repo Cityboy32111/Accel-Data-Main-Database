@@ -1,0 +1,78 @@
+{
+ "batch_id": "v054",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "TerraVita Landscape & Gardening",
+   "company_domain": "terravitaidaho.com",
+   "city": "Boise",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://terravitaidaho.com/jobs-at-terravita/",
+   "lead_date": "",
+   "lead_note": "The careers page lists Landscape Crew Member and Garden Crew Member (Full-time Seasonal) postings, plus openings in management/operations, gardening, sprinkler and plant health care. It serves Boise, Eagle and Meridian. The page is undated, so it counts only as live on the observation date.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Boise Hawks Professional Baseball Club",
+   "company_domain": "boisehawks.com",
+   "city": "Garden City",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.boisehawks.com/ClubInfo/2026JobFair",
+   "lead_date": "2026-03-03",
+   "lead_note": "Mar 3, 2026 release announced the annual seasonal job fair on Apr 11, 2026 at Memorial Stadium (5600 N Glenwood St). It is hiring ushers, ticket takers, box office staff, cooks and parking attendants for 53 home games, so it has a yearly game day staff cohort.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Boys & Girls Clubs of Canyon County",
+   "company_domain": "bgcnampa.org",
+   "city": "Nampa",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://bgcnampa.org/",
+   "lead_date": "2026-11-13",
+   "lead_note": "Homepage (loaded) promotes a Miracle on the Dirt raffle on Nov 13, 2026 benefiting the clubs; club sites are Helpenstell and Centennial in Nampa and Lincoln in Caldwell, plus Nampa after school elementary busing",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Hayden Beverage Company",
+   "company_domain": "haydenbeverage.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.haydenbeverage.com/job-openings/",
+   "lead_date": "",
+   "lead_note": "Family-owned beer, wine and NA beverage distributor headquartered in Boise with 600+ employees. The job openings page (loaded) covers warehouse, delivery, draught and sales teams. Boards show Warehouse Associate Shift 1 and Shift 3 jobs in Boise 83716 on Paycom.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "The Dusty Miller",
+   "company_domain": "thedustymiller.com",
+   "city": "Boise",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/08/27/the-dusty-miller-set-to-open-at-36th-street-event-center-this-fall/",
+   "lead_date": "2026-08-27",
+   "lead_note": "BoiseDev (Aug 27, 2026): bakery cafe with full event catering opening this fall inside the 36th Street Event Center (3823 N Garden Center Way). Instagram says it is hiring a pastry chef, prep cook and line cook. It also runs Dusty Miller Goods on W Main.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "The Flying Pickle",
+   "company_domain": "theflyingpickle.com",
+   "city": "Nampa",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://cushingterrell.com/blog/idaho-treasure-valley-sports-and-recreation-venues/",
+   "lead_date": "2026-06-05",
+   "lead_note": "Indoor pickleball brand founded in Meridian (1135 N Hickory Ave). Cushing Terrell (Jun 5, 2026) describes the new downtown Nampa club in a long vacant building, which added a gym, and says the brand has franchised 15 more locations. It is locally owned at HQ, but check whether it counts as a franchise.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  }
+ ]
+}

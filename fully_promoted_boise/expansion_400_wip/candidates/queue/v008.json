@@ -1,0 +1,78 @@
+{
+ "batch_id": "v008",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Sawtooth Physical Therapy LLC",
+   "company_domain": "sawtoothpt.com",
+   "city": "Boise",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://sawtoothpt.com/careers/",
+   "lead_date": "2026-09-23",
+   "lead_note": "Careers page loaded Sep 23, 2026 lists Front Office Coordinator and Staff Physical Therapist, with clinics in Boise, Meridian and Nampa. The page does not give a location for each role. Footer mentions Kestrel Therapy Group, a possible parent to check.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Table Rock Senior Living",
+   "company_domain": "tablerocksl.com",
+   "city": "Meridian",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://tablerocksl.com/careers/",
+   "lead_date": "",
+   "lead_note": "Idaho operator with three communities: Barber Station in Boise, Paramount in Meridian and Park Place in Nampa. The careers page links an open positions board for each site. Indeed shows 7 openings at Paramount Meridian (medication aide, med tech, activities). Glassdoor shows housekeeper and medication aide roles in Nampa and Meridian.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Treasure Valley Orthodontics",
+   "company_domain": "treasurevalleyortho.com",
+   "city": "Meridian",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/orthodontic-assistant-at-treasure-valley-orthodontics-at-specialty-dental-brands-4468129869",
+   "lead_date": "2026-09-21",
+   "lead_note": "Loaded LinkedIn job: Orthodontic Assistant at Treasure Valley Orthodontics, Meridian, posted 2 days before Sep 23 2026; a second Meridian ortho assistant req (4469043667) and a Boise Specialty Dental Brands posting also show. The brand has offices in Boise, Meridian, Star, Nampa, Kuna and Eagle and is affiliated with the Specialty Dental Brands DSO.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Multi-Care Home Health & Personal Care Services",
+   "company_domain": "multicareinc.com",
+   "city": "Meridian",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.multicareinc.com/about-caregivers-hiring/",
+   "lead_date": "",
+   "lead_note": "Privately owned home health, private duty nursing and personal care agency at 324 S Meridian Rd Suite 14; site links an Employment page and job aggregators show Intake Coordinator and Home Health Community Liaison openings in Meridian. Needs check of live postings.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Southwest Idaho ENT, PA",
+   "company_domain": "swient.com",
+   "city": "Meridian",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://tallo.com/talent/job/administrative/medical-biller/id/meridian/experienced-medical-biller-944814c3",
+   "lead_date": "2026-06-12",
+   "lead_note": "Southwest Idaho ENT and Surgery Center: Experienced Medical Biller in Meridian (posted Jun 12, 2026, updated Jul 26) and Medical Assistant/Scribe in Boise (Glassdoor Sep 2026). Offices at 3080 E Gentry Way, Meridian and 900 N Liberty St, Boise, plus an ENT surgery center.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Caravel Autism Health",
+   "company_domain": "caravelautism.com",
+   "city": "Meridian",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/registered-behavior-technician-at-caravel-autism-health-4446962293",
+   "lead_date": "2026-08-20",
+   "lead_note": "LinkedIn job: Registered Behavior Technician, Meridian, full time, dated Aug 20 2026. Snippets also show a BCBA in Nampa and a Behavior Analyst in Meridian. It runs ABA clinics in Meridian and Nampa and is based in Wisconsin.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  }
+ ]
+}

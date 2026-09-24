@@ -1,0 +1,78 @@
+{
+ "batch_id": "v010",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "FloForm Countertops (Meridian)",
+   "company_domain": "floform.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/lead-countertop-installer-at-floform-countertops-4468212881",
+   "lead_date": "2026-09-15",
+   "lead_note": "LinkedIn Lead Countertop Installer for Boise team posted Sep 15, 2026; Indeed shows Tile Installer (Experienced) Meridian from $30/hr. Canadian owned multi market fabricator with local Meridian shop.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Dillon Toyota Lift",
+   "company_domain": "dillontoyotalift.com",
+   "city": "Nampa",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "http://www.dillontoyotalift.com",
+   "lead_date": "",
+   "lead_note": "Forklift and material handling dealer/service surfaced by Apollo in Nampa/Caldwell with job postings since Jul 2026 (field service techs likely); verify branch city and careers page.",
+   "vertical": "construction_industrial",
+   "scope": "c_apollo_jobs"
+  },
+  {
+   "company_name": "Gayle Manufacturing Company",
+   "company_domain": "gaylemfg.com",
+   "city": "Caldwell",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.craigslist.org/view/d/nampa-maintenance-technician-career/bo3yP7WhebreYLzkcq5oDe",
+   "lead_date": "2026-09-10",
+   "lead_note": "Structural steel fabricator/erector with plants in Caldwell and Nampa; Craigslist Sep 10, 2026 Maintenance Technician for Nampa facility; own job openings page lists Welders ($25/hr); Indeed shows CNC Operator, Machine Operator II, Fabricator/Welder Caldwell.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "High Desert Bobcat & Doosan",
+   "company_domain": "hdbobcat.com",
+   "city": "Nampa",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.indeed.com/viewjob?jk=949e0598f6916cef",
+   "lead_date": "",
+   "lead_note": "Bobcat and Doosan dealer at 2324 Caldwell Blvd Nampa; Service Technician Nampa posting ($28 to $35/hr); only one local role seen so far, need a second on employer page.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Kittelson & Associates, Inc.",
+   "company_domain": "kittelson.com",
+   "city": "Boise",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.kittelson.com/current-opportunities/",
+   "lead_date": "",
+   "lead_note": "Boise office in downtown (83702). A posting cites an immediate opening for a transportation/civil design engineer in the Boise office. Need a second live Boise req to qualify; weaker lead.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Electrical Wholesale Supply Co., Inc.",
+   "company_domain": "electricalwholesale.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.electricalwholesale.com/contact-a-branch/",
+   "lead_date": "",
+   "lead_note": "Family owned independent electrical distributor with 17 branches in S Idaho, W Montana, W Wyoming; Boise branch at 5185 W Bethel; hiring signal not yet confirmed, check LinkedIn and careers.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  }
+ ]
+}

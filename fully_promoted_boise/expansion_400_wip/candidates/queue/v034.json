@@ -1,0 +1,78 @@
+{
+ "batch_id": "v034",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Hawkeye Builders, Inc.",
+   "company_domain": "hawkeyebuildersinc.com",
+   "city": "Nampa",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://app.govly.com/public/awards/b68c941245c280f19d9402b30006327c",
+   "lead_date": "2026-05-18",
+   "lead_note": "City of Nampa awarded Hawkeye Builders the Matthew Peltzer Trailhead at Wilson Path construction contract ($674,777) on May 18, 2026; the office is at 527 S Canyon St, Nampa. The domain comes from a truncated directory snippet, so verify it",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  },
+  {
+   "company_name": "Parametrix, Inc.",
+   "company_domain": "parametrix.com",
+   "city": "Boise",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "http://job-boards.greenhouse.io/parametrix",
+   "lead_date": "",
+   "lead_note": "Greenhouse board (27 jobs). Boards show Boise roles: Transportation Civil Engineer I ($65K to $75K), Stormwater Leader (Boise 83714) and Structures CAD Technician.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Adler Industrial, LLC",
+   "company_domain": "adler-industrial.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://idahobusinessreview.com/2026/06/22/district-at-ten-mile-meridian-development/",
+   "lead_date": "2026-06-22",
+   "lead_note": "IBR Jun 22, 2026 names Adler Industrial as the industrial and flex building partner at District at Ten Mile, Meridian. IBR says Adler designs and builds Class A industrial space in Boise, Meridian and Nampa. Verify it self performs construction (developer vs GC) before confirming the subsegment.",
+   "vertical": "construction_industrial",
+   "scope": "c_news_projects"
+  },
+  {
+   "company_name": "Bailey Engineering, Inc.",
+   "company_domain": "baileyengineers.com",
+   "city": "Eagle",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://baileyengineers.com/careers/",
+   "lead_date": "",
+   "lead_note": "Loaded the careers page: 'Where we're hiring right now' lists Professional Engineer (PE), Civil Project Engineer (EIT), Land Use Planner, Landscape Architect (PLA) and Civil Engineering Intern at the Eagle, Idaho office. Ownership changed in 2026 (new CEO); the Jan 2026 sale date predates the cutoff and cannot be cited.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Lurre Construction",
+   "company_domain": "lurreconstruction.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://idahonews.com/news/local/ada-county-marks-expo-idaho-milestone-as-athletic-club-boise-opens-first-season",
+   "lead_date": "2026-04-04",
+   "lead_note": "Lurre was the builder of the $42M Stadium at Expo Idaho (Garden City), which opened Apr 4, 2026 for Athletic Club Boise's first season. Lead date is the opening date; the article's byline date was not seen. Apollo returned no domain, so both the domain and the Boise HQ city need confirming.",
+   "vertical": "construction_industrial",
+   "scope": "c_news_projects"
+  },
+  {
+   "company_name": "FOCUS Engineering & Surveying, LLC",
+   "company_domain": "focus-es.com",
+   "city": "Meridian",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://focus-es.com/careers-at-focus/",
+   "lead_date": "",
+   "lead_note": "Loaded the careers page: it lists Administrative Support (Idaho Office) and Rodman/Survey Drafter (Idaho Office), plus civil, structural, transportation, survey entry-level and intern roles. Idaho office is at 1001 N Rosario St, Meridian. HQ is in Utah.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  }
+ ]
+}

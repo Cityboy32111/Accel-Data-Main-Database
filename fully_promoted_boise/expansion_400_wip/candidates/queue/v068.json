@@ -1,0 +1,78 @@
+{
+ "batch_id": "v068",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Rocky Mountain Care (Sunterra Springs Riverview)",
+   "company_domain": "rockymountaincare.com",
+   "city": "Boise",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://rockymountaincare.com/project-type/skilled-nursing-rehab-idaho/",
+   "lead_date": "",
+   "lead_note": "Utah based operator running Sunterra Springs Riverview at 3550 W Americana Terrace, Boise (30 bed short term rehab named in the Idaho Statesman) and Terrace Health Boise. Boise hiring is not yet observed.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Boise Valley Orthodontics",
+   "company_domain": "boisevalleyortho.com",
+   "city": "Nampa",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.boisevalleyortho.com/",
+   "lead_date": "",
+   "lead_note": "Orthodontic practice at 987 S Rising Sun Dr, Nampa, serving Boise, Nampa and Caldwell. No dated signal seen yet.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Vital Care of Boise",
+   "company_domain": "vitalcare.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/staff-infusion-nurse-at-vital-care-of-boise-4287536595",
+   "lead_date": "",
+   "lead_note": "Home and ambulatory infusion franchise at 12828 W LaSalle St Suite 101, Boise; LinkedIn shows Staff Infusion Nurse at Vital Care of Boise and Monster lists Intake Specialist in Meridian. Posting dates need confirming.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Treasure Valley Eyecare",
+   "company_domain": "tveyecare.com",
+   "city": "Caldwell",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://tveyecare.com/",
+   "lead_date": "",
+   "lead_note": "Independent optometry practice at 1702 S Kimball Ave, Caldwell with residency-trained optometrists. Weak: no dated signal found yet.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Kuna Counseling Center",
+   "company_domain": "kunacounselingcenter.com",
+   "city": "Kuna",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/company/kuna-counseling-center",
+   "lead_date": "",
+   "lead_note": "Full service mental health agency at 145 E Deer Flat Rd, Kuna (homepage loaded). Snippets show Behavioral Intervention Specialist and TBS Worker (Glassdoor) and LinkedIn roles for Therapeutic Behavioral Specialist, Clinical Counseling Graduate Intern and LMFT. The hiring evidence is weak and dates are still needed.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Kuna Healthcare Family Medicine",
+   "company_domain": "kunahealthcare.com",
+   "city": "Kuna",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.kunahealthcare.com/",
+   "lead_date": "",
+   "lead_note": "Family medicine clinic with a med spa at 943 Linder Rd Ste 103 Kuna. A Sep 2026 MAA listing for a Kuna private practice with two family physicians hiring may be this practice or Advanced Family Medicine; needs confirming.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v001",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Freightliner Northwest (Gordon Truck Centers, Inc.)",
+   "company_domain": "freightlinernorthwest.com",
+   "city": "Nampa",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.gordontruckcenters.com/current-openings",
+   "lead_date": "2026-08-31",
+   "lead_note": "Nampa dealership at 1214 N Franklin Blvd; openings seen for Parts Front Counterperson, Support Service Account Manager/Service Advisor, Parts Route Sales Driver (posted Aug 31, 2026) and Diesel Technician, all Nampa.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "PACE Supply Corp.",
+   "company_domain": "pacesupply.com",
+   "city": "Nampa",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.phcppros.com/articles/23913-pace-supply-expands-into-idaho-with-new-full-service-locations-in-nampa-and-twin-falls",
+   "lead_date": "2026-08-10",
+   "lead_note": "Trade press Aug 10, 2026: employee owned PACE Supply enters Idaho with an 80,500 sq ft Nampa branch at 216 Shannon Dr Ste 106 with fire fabrication shop and pump build center.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Western Heating & Air Conditioning",
+   "company_domain": "westernhvac.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://westernhvac.com/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page links to a Paycom open positions board; office 4980 E Bradley St Boise 83714; HVAC, plumbing and electrical since 1967, majority owned by SEER Group (absorbed Veterans Plumbing and K F Electric). Count Paycom roles.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Teton Valley Brands",
+   "company_domain": "tetonvalleybrands.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.idahopress.com/news/local/potato-chip-manufacturer-establishes-new-hq-in-caldwell/article_bc1211d8-4c80-4f64-944d-82d0c72ec20b.html",
+   "lead_date": "2026-08-31",
+   "lead_note": "Idaho Press, KTVB and KIVI: the Real Idaho Potato Chips maker moved its HQ and production from Nampa to a new 14,000 sq ft Caldwell facility (about 4x the old space, 10,000 bags a day) and held a grand opening. The Aug 31, 2026 date comes from a search summary, not the article byline, so verify it.",
+   "vertical": "construction_industrial",
+   "scope": "c_news_projects"
+  },
+  {
+   "company_name": "DC Engineering, Inc.",
+   "company_domain": "dcengineering.net",
+   "city": "Meridian",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/edc8abd3-f84c-439d-8d39-ef58b6f78086/DC-Engineering-Inc",
+   "lead_date": "2026-09-11",
+   "lead_note": "Paylocity board shows 10 openings. They include Structural Engineer (Meridian, Sep 3 2026), Mechanical Drafter/Designer (Meridian, Sep 11 2026), Sr Control Systems Integrator (Sep 11 2026), Sr Structural Engineer and Electrical Drafter/Designer (Meridian or Missoula). The firm does structural and MEP engineering.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Forte Construction Services, LLC",
+   "company_domain": "fcsboise.com",
+   "city": "Eagle",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://lp.constantcontactpages.com/ev/reg/697rke5/lp/cc4218a3-6b60-497f-ac97-b93388e7e83b",
+   "lead_date": "2026-05-28",
+   "lead_note": "Presenting sponsor of Warm Havana Nights 2026, the ASA of Idaho's signature summer kickoff event (May 28, 2026), which it has sponsored before. The GC is at 1740 E State St, Eagle",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  }
+ ]
+}

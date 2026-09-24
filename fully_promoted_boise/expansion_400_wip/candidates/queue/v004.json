@@ -1,0 +1,78 @@
+{
+ "batch_id": "v004",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Ardurra Group, Inc. (T-O Engineers)",
+   "company_domain": "ardurra.com",
+   "city": "Meridian",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://ardurra.com/careers",
+   "lead_date": "2026-09-08",
+   "lead_note": "T-O Engineers is now an Ardurra company; its corporate office is in Meridian and it also has a Nampa office at 332 N Broadmore Way. Boards show Project Manager Civil Engineering for the Boise market incl. Meridian (Sep 8 2026), Junior Civil Engineer Land Development (Sep 11 2026), Entry-Level Civil Engineer Boise and Civil Engineer EIT Nampa.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Alliance Testing & Inspection, LLC",
+   "company_domain": "",
+   "city": "Nampa",
+   "subsegment": "construction_materials_testing_geotechnical",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.indeed.com/q-alliance-testing-&-inspection-l-nampa,-id-jobs.html",
+   "lead_date": "",
+   "lead_note": "Family-owned CMT firm with a fixed lab at 1310 N 39th St, Nampa (ODOT lab cert through Mar 2027); Idaho AGC member since 2025. Glassdoor (Jul 2026) shows Field Technician Nampa at $18 to $25/hr. No company website found, only a Facebook page, so the domain is blank. Needs an own ATS or a dated hiring post.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "GeoEngineers, Inc.",
+   "company_domain": "geoengineers.com",
+   "city": "Boise",
+   "subsegment": "construction_materials_testing_geotechnical",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.geoengineers.com/job-location/boise/",
+   "lead_date": "2026-08-24",
+   "lead_note": "Boise job location page shows a Staff Geotechnical Engineer posted Aug 24 2026. LinkedIn shows a Project Geotechnical Engineer in Boise, and there is a Summer 2026 geotechnical intern posting. Boise office is in 83706.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "State Street Electric",
+   "company_domain": "statestreetelectric.com",
+   "city": "Eagle",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.facebook.com/StateStreetElectric/posts/new-gear-for-the-crew-state-street-electric-serving-star-eagle-and-the-treasure-/122208628772495431/",
+   "lead_date": "",
+   "lead_note": "Company Facebook post titled New gear for the crew shows branded crew gear; HQ 1121 E State St Ste 100 Eagle, serves Star, Eagle, Meridian. Post date not confirmed, must be on or after Mar 1, 2026.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Doherty Electric",
+   "company_domain": "dohertyelectric.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://idahoworks.gov/jobs/2597776",
+   "lead_date": "2026-08-18",
+   "lead_note": "IdahoWorks posting dated Aug 18, 2026 for a licensed Journeyman Electrician at the veteran owned Treasure Valley contractor; founded 1971 in Nampa, office 3005 W Overland Rd Boise.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Rush Truck Centers (Boise)",
+   "company_domain": "rushtruckcenters.com",
+   "city": "Boise",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.rushtruckcenters.com/locations/22010000-boise",
+   "lead_date": "",
+   "lead_note": "International, Hino and IC Bus dealer location in Boise with sales, parts and service; large national dealer group, likely technician and parts hiring; verify Boise requisitions and local vs corporate apparel buying.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  }
+ ]
+}

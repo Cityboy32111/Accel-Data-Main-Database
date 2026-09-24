@@ -1,0 +1,78 @@
+{
+ "batch_id": "v018",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Ride for Joy",
+   "company_domain": "rideforjoy.org",
+   "city": "Caldwell",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.rideforjoy.org/barnparty",
+   "lead_date": "2026-09-12",
+   "lead_note": "Annual Barn Party fundraiser on Sep 12, 2026 at the Hands of Promise Campus, 28379 El Paso Rd, Caldwell; 2026 therapeutic riding gala hosted by 96.1 BOB FM in Sep 2026; it shares a campus with Idaho Youth Ranch, so confirm it is a separate organization",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Cool Mountain Transport",
+   "company_domain": "coolmountaintransport.com",
+   "city": "Nampa",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.coolmountaintransport.com/contact-career/",
+   "lead_date": "",
+   "lead_note": "Asset-based refrigerated and dry van carrier headquartered at 1428 Madison Ave, Nampa. The career center (loaded) says the company is expanding and links to a Tenstreet driver application. Need 2 or more live local roles.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Helina Marie's Wine Bar",
+   "company_domain": "helinamarieswinebar.com",
+   "city": "Star",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://helinamarieswinebar.com/events",
+   "lead_date": "2026-08-11",
+   "lead_note": "Star wine bar, wine shop and cocktail lounge at 11053 W State St under new ownership. A grand reopening with a Star Chamber ribbon cutting is set for Oct 10, 2026 (announced on Instagram Aug 11, 2026).",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Northwest Christian Credit Union",
+   "company_domain": "mynccu.org",
+   "city": "Nampa",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.facebook.com/mynccu/",
+   "lead_date": "",
+   "lead_note": "Nampa headquartered credit union at 716 E Colorado Ave. Its Facebook page notes a 2026 Best of Canyon honor. Single location since closing its Boise Overland branch in 2023; small, low confidence.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Bobby Combs RV Center",
+   "company_domain": "bobbycombsrvcenter.com",
+   "city": "Caldwell",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.bobbycombsrvcenter.com/employment",
+   "lead_date": "",
+   "lead_note": "Regional RV dealer with a Caldwell store at 5816 Cleveland Blvd. Its employment page advertises sales, service, parts and admin openings, and Indeed shows Caldwell Sales Associate, RV Technician and Head Cleaner/Lot Assistant roles. Confirm on the company's own board.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Global Sports Academy",
+   "company_domain": "global-sports-academy.com",
+   "city": "Middleton",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.global-sports-academy.com/",
+   "lead_date": "",
+   "lead_note": "GSA, which includes the Middleton Soccer Club, serves Middleton, Star and Eagle. The site shows a 2026 to 2027 team shop, GSA tryouts Jun 8 to 9, a U6 to U10 camp and 491 registered players.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  }
+ ]
+}

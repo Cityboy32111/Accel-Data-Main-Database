@@ -1,0 +1,78 @@
+{
+ "batch_id": "v097",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Upson Company",
+   "company_domain": "upsoncompany.com",
+   "city": "Caldwell",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.upsoncompany.com/employment/",
+   "lead_date": "",
+   "lead_note": "Commercial roofing contractor at 4512 E Ustick Rd Caldwell; employment page lists Commercial Estimator and Service Production Coordinator plus separate Commercial Roofer posting page.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Mountain West Excavation, LLC",
+   "company_domain": "mountainwestex.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://mountainwestex.com/employment",
+   "lead_date": "",
+   "lead_note": "Employment page (Boise 83709) says it is currently hiring CDL Class A drivers, heavy equipment operators, grade hands, pipe layers, top hands, grade foremen and pipe foremen. Indeed also lists Heavy Equipment Operator and Pipe Foreman roles in Nampa",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  },
+  {
+   "company_name": "Aim Sign Company, Inc.",
+   "company_domain": "aimsign.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://aimsign.com/careers/",
+   "lead_date": "",
+   "lead_note": "Full service electric sign company founded 1985, 3677 E Comstock Ave Nampa (MapQuest also lists Garden City); careers page with apprentice program, generic apply form.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Idaho Site Works, LLC",
+   "company_domain": "idahositeworks.com",
+   "city": "Nampa",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/idahositeworks/",
+   "lead_date": "",
+   "lead_note": "Nampa site civil, underground pipe, curb and landscape contractor. Its Facebook page shows NOW HIRING Grading Superintendent at $100K to $110K, Glassdoor lists 2 open positions, and a foreman for underground projects is advertised. The FB page did not render in scrape, so verify",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  },
+  {
+   "company_name": "Johnson Thermal Systems, Inc. (JTS, a Mission Critical Group company)",
+   "company_domain": "jts.cool",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.factoryfix.com/jobs/welder-fabricator--caldwell--id--2059939511--V2",
+   "lead_date": "",
+   "lead_note": "Modular power and cooling manufacturer based in Caldwell, with the JTS Nampa 1 plant opened Jun 2025 (before the cutoff). FactoryFix shows a Caldwell Welder/Fabricator with a sign on bonus. The old JazzHR board (johnsonthermalsystems.applytojob.com) now shows no openings, so the current MCG ATS needs finding.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Mountain Steel Fabrication",
+   "company_domain": "msfboise.com",
+   "city": "Kuna",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.msfboise.com/",
+   "lead_date": "",
+   "lead_note": "Structural steel and handrail fabricator at 712 E Access St Kuna, est 2001; hiring or expansion signal not yet found.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  }
+ ]
+}

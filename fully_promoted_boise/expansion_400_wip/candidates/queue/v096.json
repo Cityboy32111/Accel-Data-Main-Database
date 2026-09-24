@@ -1,0 +1,78 @@
+{
+ "batch_id": "v096",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Rose Masonry Construction",
+   "company_domain": "rosemasonryidaho.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/rosemasonry/",
+   "lead_date": "",
+   "lead_note": "Treasure Valley commercial masonry contractor (Meridian FB page) posting HIRING Masons and Hods, stone, brick, block, full and part time; post date not confirmed.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Western Construction, Inc.",
+   "company_domain": "wciboise.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.wciboise.com/",
+   "lead_date": "",
+   "lead_note": "Heavy civil GC at 10139 S Federal Way, Boise, covering grading, paving and crushing crews. ZipRecruiter shows Boise openings, but they may include other companies with similar names. Weak lead: confirm official postings",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Mirage Trailers LLC",
+   "company_domain": "mirageinc.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d16ba13d-474e-4326-b628-74c87f0b289a&ccId=9200605865396_2&lang=en_US",
+   "lead_date": "",
+   "lead_note": "Enclosed and cargo trailer maker at 2212 Industrial Rd, Nampa. Loaded the contact page, which links to an ADP careers board; beBee shows a MIG Welder role in Nampa. The ADP board did not render, so the posting count is unconfirmed.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Image National Signs",
+   "company_domain": "imagenational.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.imagenational.com/careers/",
+   "lead_date": "",
+   "lead_note": "70 year sign manufacturer and installer at Star and Franklin Rd Nampa; careers page with open listings (JS) and FB post hiring Sign Designer and maintenance tech. Verify live roles.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Idaho Materials & Construction (Staker Parson Materials & Construction)",
+   "company_domain": "idahomaterials.com",
+   "city": "Nampa",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.monster.com/job-openings/loader-operator-imc-treasure-valley-caldwell-id--16360332-2c51-4288-9b0a-7d6c04ee3b03",
+   "lead_date": "2026-09-12",
+   "lead_note": "IMC Treasure Valley (paving, site work, aggregates; Nampa base, CRH owned via Staker Parson) shows several local postings: Loader Operator Caldwell (Sep 12, 2026), Asphalt Laborer (Aug 7, 2026), Asphalt Paving Technician Nampa (Sep 14, 2026), Aggregate Operations Manager and HMA Plant Maintenance Nampa. Verify on jobs.crh.com",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  },
+  {
+   "company_name": "Omnipure Filter Company, Inc.",
+   "company_domain": "omnipure.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting2.ultipro.com/CUL1000CULL2/JobBoard/cb852549-14da-4512-80e5-299dc7a43529/?q=&o=postedDateDesc&w=&wc=&we=&wpst=",
+   "lead_date": "",
+   "lead_note": "Water filter plant at 1904 Industrial Way, Caldwell. Loaded the employment page, which links to a UltiPro board (Culligan tenant). Job boards show Injection Molding Maintenance Technician (Snagajob, Sep 4, 2026), Carbon Block Operator, Account Service Coordinator and Maintenance Technician in Caldwell.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  }
+ ]
+}

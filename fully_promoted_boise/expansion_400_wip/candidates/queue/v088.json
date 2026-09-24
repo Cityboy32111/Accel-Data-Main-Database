@@ -1,0 +1,18 @@
+{
+ "batch_id": "v088",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Siren Song Wines",
+   "company_domain": "",
+   "city": "Eagle",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/calendar/show/?start=2026-04-16",
+   "lead_date": "2026-04-16",
+   "lead_note": "BoiseDev calendar for the week of Apr 16, 2026 lists an Eagle Chamber ribbon cutting for Siren Song Winemaker. The listing was cut off in the result; it is an Eagle winery and tasting room. The exact event day and address need checking.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  }
+ ]
+}

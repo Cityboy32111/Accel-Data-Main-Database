@@ -1,0 +1,78 @@
+{
+ "batch_id": "v057",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Caldwell Night Rodeo",
+   "company_domain": "caldwellnightrodeo.com",
+   "city": "Caldwell",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://caldwellnightrodeo.com/",
+   "lead_date": "2026-08-18",
+   "lead_note": "Not for profit rodeo held Aug 18 to 22, 2026 at 2301 Blaine St, Caldwell; its sister Caldwell Night Rodeo Foundation runs a capital campaign and youth events; the KTVB and Idaho News previews dated Feb 26, 2026 are before the cutoff and must not be cited",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Western Power Sports, Inc.",
+   "company_domain": "wps-inc.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.wps-inc.com/employment",
+   "lead_date": "",
+   "lead_note": "Powersports aftermarket distributor with its HQ and distribution center at 601 E Gowen Rd, Boise. The employment page (loaded) links to View Open Jobs; count the live Boise warehouse roles there.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Birreria El Sem\u00e1foro",
+   "company_domain": "birreriaelsemaforo.com",
+   "city": "Nampa",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.idahostatesman.com/entertainment/restaurants/article315760487.html",
+   "lead_date": "2026-05-18",
+   "lead_note": "Idaho Statesman (May 18, 2026): third Nampa spot, Taqueria & Birrieria El Sem\u00e1foro, debuted May 5 in the Canyon Crossing strip mall. The local brand also has a food truck and the 5830 E Franklin Rd restaurant, and names Meridian and Boise as expansion goals.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "VALT Bank, N.A. (In Organization)",
+   "company_domain": "valtinvestorgroup.com",
+   "city": "Eagle",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "market_expansion_hiring",
+   "lead_url": "https://www.bankingdive.com/news/valt-bank-gets-fdic-nod-deposit-insurance-gediman/829100/",
+   "lead_date": "",
+   "lead_note": "New digital business bank based in Eagle. The OCC gave conditional charter approval in Mar 2026 and the FDIC gave conditional deposit insurance approval in Aug 2026, and the bank must open within 18 months. The domain came from Apollo and needs checking. The team is small, so the verifier should confirm named roles.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Happy Camper RV Sales",
+   "company_domain": "happycampertrailers.com",
+   "city": "Garden City",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.happycampertrailers.com/",
+   "lead_date": "",
+   "lead_note": "Local RV dealer since 2003 with a Garden City lot at 4770 W Chinden Blvd and a Caldwell Superstore; member of the Treasure Valley RV Dealers Association. Signal is weak: look for 2026 RV show or event participation or live postings.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Elevation Athletics",
+   "company_domain": "elevationathleticsidaho.com",
+   "city": "Meridian",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.elevationathleticsidaho.com/allstar",
+   "lead_date": "",
+   "lead_note": "All Star cheer, STUNT and tumbling gym at 2198 E Franklin Rd Ste 160 Meridian. It fields Prime, Elite Lite, Summit and Worlds teams, and the site lists a 2026 The Peak competition in Mar/Apr. The Facebook page is recruiting cheer and tumbling coaches.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v091",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Phoenix Commercial Construction",
+   "company_domain": "phoenixcommercialconstruction.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://www.phoenixcommercialconstruction.com/current-projects",
+   "lead_date": "",
+   "lead_note": "Treasure Valley CM/GC since 1999 at 3295 Elder St Ste 209, Boise. Its current projects page loaded but showed no dated named projects. Weak lead: it needs a 2026 dated project or hiring evidence",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Perigee Group, LLC",
+   "company_domain": "perigee-group.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://perigee-group.com/projects/",
+   "lead_date": "",
+   "lead_note": "Boise CM/GC for medical and commercial work (1775 W State St #147), founded 2019. The projects page lists named medical builds, but none dated. Weak lead: it needs a 2026 project or hiring signal",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Western Idaho Cabinets, Inc.",
+   "company_domain": "westernidahocabinets.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.westernidahocabinets.com/jobs",
+   "lead_date": "",
+   "lead_note": "Own jobs/trabajos application page; LinkedIn Sales Manager posting and Indeed Machine Maintenance Technician ($63K to $68K), 8025 W Woodlark St Boise 83709.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "McAlvain Companies, Inc.",
+   "company_domain": "mcalvain.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.mcalvain.com/careers",
+   "lead_date": "",
+   "lead_note": "Careers page (loaded Sep 23, 2026) lists Superintendent, Superintendent Concrete, Project Manager Concrete, Project Manager Civil, Project Engineer, Estimator, Concrete Finisher and Carpenter; a Civil Construction Project Engineer Boise posting is dated Aug 6, 2026. McAlvain is a Big D company, and Big D is not on the exclusion list",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "HB Specialty Foods (Hydroblend, Inc.)",
+   "company_domain": "hbspecialtyfoods.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://hbspecialtyfoodscareers.applytojob.com/apply",
+   "lead_date": "",
+   "lead_note": "Loaded the JazzHR board: 3 live Nampa roles (Electrician Maintenance Technician, Maintenance Technician, Production Associate) alongside TN and WI roles. LinkedIn also shows a Nampa Production Associate post dated Sep 4, 2026. HQ plant is in Nampa.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Anvil Fence Company",
+   "company_domain": "anvilfence.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://anvilfence.com/company/jobs/",
+   "lead_date": "",
+   "lead_note": "Careers page: Boise fence contractor since 1961 recruiting installation crew and office operations staff with benefits; residential, commercial and ag fencing. No itemized role list, verify count.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  }
+ ]
+}
