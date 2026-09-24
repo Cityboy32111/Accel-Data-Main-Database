@@ -1,0 +1,78 @@
+{
+ "batch_id": "v081",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Precision Fulfillment and Kitting, LLC",
+   "company_domain": "precisionfulfillmentandkitting.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.precisionfulfillmentandkitting.com/about-us/",
+   "lead_date": "",
+   "lead_note": "Local 3PL for fulfillment, kitting and contract assembly since 1998, at 583 N Cloverdale Rd, Boise. It runs an hourly warehouse labor model, but no dated signal was seen; verify hiring or a 2026 expansion.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Wild Frontier Beer Project",
+   "company_domain": "",
+   "city": "Boise",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisebrewblog.com/wild-frontier-beer-project-boises-latest-brewing-launch/",
+   "lead_date": "2026-03-08",
+   "lead_note": "Boise Brew Blog (Mar 8, 2026): new independent brewery and taproom at 2772 S Cole Rd Ste 140, Boise (former Mad Swede site), grand opening Mar 5, 2026. Its distribution deal was signed before launch. No website found, only Instagram, so the domain is unconfirmed.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Beehive Federal Credit Union",
+   "company_domain": "beehive.org",
+   "city": "Meridian",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://beehive.org/id/meridian/",
+   "lead_date": "",
+   "lead_note": "Rexburg based credit union with a Meridian branch at 5968 N Linder Rd. A job board snippet shows full time and part time Teller openings at the Meridian branch. The verifier needs to confirm these on its official careers page.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Corwin Ford Nampa",
+   "company_domain": "corwinfordnampa.com",
+   "city": "Nampa",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.corwinfordnampa.com/careers/",
+   "lead_date": "",
+   "lead_note": "Ford store in Nampa; the careers page loaded Sep 23, 2026 recruits new and used sales consultants, service technicians, service valets/porters and lot attendants. Parent is Corwin Automotive Group, based out of state, but the store is local.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "St. Joseph's Catholic School",
+   "company_domain": "stjoes.com",
+   "city": "Boise",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.dioceseofboise.org/employment",
+   "lead_date": "",
+   "lead_note": "Diocese of Boise jobs board (loaded) lists a temporary Kitchen Assistant at St. Joseph's Boise; a LinkedIn listing says the school is expanding its math department with a Secondary Mathematics Teacher role. Posting dates still need checking. K to 8 school downtown.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Blue Ribbon Landscape & Maintenance, Inc.",
+   "company_domain": "blueribbonlandscapes.com",
+   "city": "Caldwell",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.blueribbonlandscapes.com/careers",
+   "lead_date": "",
+   "lead_note": "The careers page has an irrigation position for commercial, HOA and home properties, and the site footer shows Caldwell 83605. Indeed and Glassdoor show a Landscape Sales and Estimate Manager in Caldwell at $60K to $70K. The company was formed in 1999 in Nampa.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  }
+ ]
+}

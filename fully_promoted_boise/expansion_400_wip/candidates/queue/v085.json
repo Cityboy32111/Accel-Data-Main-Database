@@ -1,0 +1,78 @@
+{
+ "batch_id": "v085",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "CMC Mechanical, LLC",
+   "company_domain": "cmcmechanical-id.com",
+   "city": "Caldwell",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.cmcmechanical-id.com/",
+   "lead_date": "",
+   "lead_note": "Locally owned commercial HVAC, refrigeration and building automation contractor HQ 11305 Aspen Hill Dr Caldwell with 24/7 crews; careers URL returned 404. Hiring signal unconfirmed, check LinkedIn and Facebook for dated posts.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Tates Rents, Inc.",
+   "company_domain": "tatesrents.com",
+   "city": "Eagle",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/dff4a982-5a8f-4a00-ad9f-48438c01fc4c/Tates-Rents-Inc",
+   "lead_date": "",
+   "lead_note": "Employee owned equipment rental and Bobcat dealer; Paylocity snippet lists Yard Technician Eagle, Rental Consultant Eagle, Yard Technician Meridian plus Nampa yard roles; also Nampa store at 2803 12th Ave Rd.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "J&D Heating, Cooling & Water",
+   "company_domain": "getjdnow.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.getjdnow.com/webapp/p/825/now-hiring-",
+   "lead_date": "",
+   "lead_note": "NOW HIRING page seeks experienced HVAC technicians and installers; employment form on site; Nexstar member, Nampa office serving Ada and Canyon cities.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Farwest Steel Corporation",
+   "company_domain": "farweststeel.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.farweststeel.com/steel-service-center/farwest-careers/open-positions-jobs-in-steel/",
+   "lead_date": "",
+   "lead_note": "Steel service center and fabrication support at 4421 Enterprise, Boise; job boards show Warehouse Person and Warehouse Parts Processor roles in Boise; confirm on company open positions page.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Legends Mechanical",
+   "company_domain": "legendsmechanical.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://legendsmechanical.com/careers/",
+   "lead_date": "",
+   "lead_note": "Site wide We are HIRING banner and careers page; Idaho office 16130 N Elder St Nampa (also Utah); Facebook recruits full time HVAC installers. Needs named role count.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Standard Plumbing Supply Co.",
+   "company_domain": "standardplumbing.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/counter-sales-at-standard-plumbing-supply-4320957350",
+   "lead_date": "",
+   "lead_note": "Utah family owned plumbing/HVAC supplier with Boise plumbing and Standard Air Supply branches (145 N Curtis Rd) and Sprinkler World Caldwell; LinkedIn Counter Sales Boise and Indeed HVAC Counter Sales Boise; boards also show Warehouse Manager and Delivery Driver in Idaho.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v038",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "CenterPointe, Inc.",
+   "company_domain": "centerpointeinc.com",
+   "city": "Nampa",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.centerpointeinc.com/professionals/current-job-openings/",
+   "lead_date": "",
+   "lead_note": "Current openings page (loaded) lists Behavioral Interventionists, Therapeutic Behavioral Coach and Clinician. A Behavioral Intervention Professional (Nampa) was syndicated Sep 7 2026. This is a local children's DDA and behavioral health provider in Nampa.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Unity Health Center",
+   "company_domain": "uhcidaho.com",
+   "city": "Meridian",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://uhcidaho.com/",
+   "lead_date": "",
+   "lead_note": "Locally and family owned urgent care, family medicine and med aesthetics clinic at 1130 E Fairview Ave Meridian (site loaded). No dated signal found yet.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Foundations Pediatric Therapy",
+   "company_domain": "play2growidaho.com",
+   "city": "Middleton",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.play2growidaho.com/employment-opportunities",
+   "lead_date": "",
+   "lead_note": "Employment page snippet says it is seeking a Speech Language Pathologist and a COTA for the clinic at 412 S King Ave Suite 103, Middleton. Not the same business as the Alabama 'Foundations Pediatric Therapy' (fptal).",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "The Gables Assisted Living and Memory Care of Caldwell",
+   "company_domain": "thegablesfamily.com",
+   "city": "Caldwell",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://thegablesfamily.com/employment-opportunities/",
+   "lead_date": "",
+   "lead_note": "Assisted living and memory care at 917 E Ustick Rd, Caldwell (Gables Holdings, an Idaho and Utah operator). A Day and Noc Med Tech/Caregiver posting for Caldwell runs until Oct 4, 2026. The company Facebook page references a new memory care building in 2026, which could be a second signal.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Clock Tower Orthodontics",
+   "company_domain": "clocktowerortho.com",
+   "city": "Caldwell",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/clocktowerorthodontics/",
+   "lead_date": "",
+   "lead_note": "Facebook snippet mentions a front office receptionist opening (date not seen). Orthodontic offices in Caldwell (4203 Clock Tower Ave) and Middleton (1060 W Main St).",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Havenwood Caregiver Services",
+   "company_domain": "havenwoodhomecare.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://havenwoodhomecare.com/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page says now hiring in Boise and Nampa and lists Boise Caregiver, Boise CNA, Nampa Caregiver and Caldwell Caregiver openings (ApplicantStack board); Boise office (208) 327 1011; Spokane based regional operator.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  }
+ ]
+}

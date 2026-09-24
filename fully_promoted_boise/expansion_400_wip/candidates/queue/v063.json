@@ -1,0 +1,78 @@
+{
+ "batch_id": "v063",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Family Advocates",
+   "company_domain": "familyadvocates.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://idahochildrenstrustfund.org/mc-events/family-advocates-spring-fling-boise/?mc_id=74",
+   "lead_date": "2026-05-30",
+   "lead_note": "Held the Family Advocates Spring Fling in Boise on May 30, 2026; a Facebook post dated Sep 11, 2026 promotes a brewery fundraiser with Boise Brewing, Clairvoyant and Sockeye; runs the Ada County CASA volunteer program; Facebook lists Garden City, so confirm the office city",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Idaho Specialized Transportation (IST / Sauer Transport, Inc.)",
+   "company_domain": "idahospecialized.com",
+   "city": "Caldwell",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/p/Idaho-Specialized-Transportation-100053023188906/",
+   "lead_date": "",
+   "lead_note": "Family-owned Nampa/Caldwell carrier group: Sauer Transport (refrigerated and dry van) plus IST Logistics. A Facebook snippet reads Now Hiring: Diesel and/or Trailer Mechanic, Caldwell. The post date is unconfirmed; verify a second local role.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Function PDX",
+   "company_domain": "functionpdx.com",
+   "city": "Garden City",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://brewpublic.com/beer-news/function-x-western-collective-announce-garden-city-idaho-taproom-collaboration/",
+   "lead_date": "2026-05-26",
+   "lead_note": "Brewpublic (May 26, 2026): the Portland rotating brewery taproom opened Function x Western Collective at 111 W 33rd St, Garden City on Jun 2. BoiseDev (Aug 12, 2026) reports its own Garden City building is planned half a mile away. The owner relocated to the Treasure Valley.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Idaho First Bank",
+   "company_domain": "idahofirstbank.com",
+   "city": "Boise",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/017d1e74-39a7-4fb1-8a7f-271722ef5973/Idaho-First-Bank",
+   "lead_date": "2026-08-24",
+   "lead_note": "Search snippets of its Paylocity board show VP Bank Operations Director at the Boise Main Office (Aug 24, 2026) and a Collections Specialist in Loan Servicing in Boise, plus Loan Accounting Specialist and Rover Teller roles. Indeed shows 6 Boise jobs. Branches at 209 N 12th St Boise and 560 E State St Eagle; McCall based.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Dennis Dillon RV & Marine",
+   "company_domain": "ddrv.com",
+   "city": "Boise",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.dillonmarine.com/careers-jobs-employment-boats-dealership--xcareers",
+   "lead_date": "",
+   "lead_note": "Dillon RV, Marine and Powersports at 6772 W Targee St, Boise. LinkedIn and Glassdoor show Boise RV Porter, Powersports Lot Tech, RV Sales Consultant and Powersports Technician postings. Treat it as one record for the Dennis Dillon family group (sister auto stores, and Snake River Yamaha, which it absorbed).",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "HSB Academy",
+   "company_domain": "hsbacademy.com",
+   "city": "Garden City",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.hsbacademy.com/",
+   "lead_date": "",
+   "lead_note": "Youth basketball training academy (the site also references Meridian) with a Garden City 83714 location and preseason classes for grades 9 to 12. Dated 2026 sessions and the physical site still need confirming.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v074",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "A Body & Mind Health Services, LLC",
+   "company_domain": "abmhealthservices.com",
+   "city": "Middleton",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.abmhealthservices.com/join-our-team/",
+   "lead_date": "",
+   "lead_note": "Join Our Team page (loaded) is seeking a CBRS/Service Coordinator, Peer Support Specialist, Family Support Specialist and telemental health clinicians. Offices are at 148 S Cole Rd, Boise, with a Middleton location page. The page also mentions a 2026 Bell Seal. This company is unrelated to ABM Industries.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Independent Family Doctors",
+   "company_domain": "independentfamilydoctors.com",
+   "city": "Caldwell",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://business.caldwellchamber.org/list/Details/independent-family-doctors-4869442",
+   "lead_date": "",
+   "lead_note": "Direct primary care practice with offices in Caldwell and Boise (site loaded, opened 2017, small team) and a Caldwell Chamber member. No dated 2026 signal found yet.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Idaho Sports Medicine Institute",
+   "company_domain": "idsportsmed.com",
+   "city": "Boise",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://idsportsmed.com/physical-therapy-sports-rehabilitation/",
+   "lead_date": "",
+   "lead_note": "Boise sports medicine practice with in house physical therapy and sports rehab. Job searches returned nothing, so no signal yet. Check its careers page and events, such as athlete programs.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Saint Alphonsus Regional Rehabilitation Hospital (Encompass Health affiliate)",
+   "company_domain": "encompasshealth.com",
+   "city": "Boise",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.encompasshealth.com/locations/boise-rehab",
+   "lead_date": "",
+   "lead_note": "40 bed inpatient rehab hospital at 711 N Curtis Rd, Boise, a joint venture of Encompass Health and Saint Alphonsus. Hiring is likely on the Encompass careers ATS but not yet observed. Encompass also announced a Post Falls hospital, which is out of scope.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Cusimano Orthodontics",
+   "company_domain": "cusimanoorthodontics.com",
+   "city": "Nampa",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.cusimanoorthodontics.com/",
+   "lead_date": "",
+   "lead_note": "Independent orthodontist in Nampa with over 23 years in practice. No dated signal seen yet; check hiring.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "KidsCare Home Health",
+   "company_domain": "kidscarehomehealth.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://kidscarehomehealth.com/boise-id-nursing-and-therapy-jobs/",
+   "lead_date": "",
+   "lead_note": "Pediatric home health and private duty nursing office at 1835 Wildwood St, Boise; Boise jobs page recruits pediatric nurses plus physical, occupational and speech therapists with iCIMS apply links; count live Boise reqs on iCIMS.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  }
+ ]
+}

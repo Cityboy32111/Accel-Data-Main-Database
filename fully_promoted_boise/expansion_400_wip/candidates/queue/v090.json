@@ -1,0 +1,78 @@
+{
+ "batch_id": "v090",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "DK Constructors, LLC",
+   "company_domain": "dkconstructorsid.com",
+   "city": "Star",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://www.dkconstructorsid.com/",
+   "lead_date": "",
+   "lead_note": "Commercial GC at 507 N Heliopolis Way, Star (Star and Nampa chamber member). The site lists projects such as Boise Vision Care and Meridian Fence but gives no dates; needs a dated 2026 project or hiring post",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  },
+  {
+   "company_name": "ZZ Construction",
+   "company_domain": "zzconstructionidaho.com",
+   "city": "Nampa",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://web.idahoagc.org/General-Contractors/ZZ-Construction-5285",
+   "lead_date": "",
+   "lead_note": "Idaho AGC member at 3776 E Amity Ave Ste 104, Nampa, specializing in medium commercial construction (it also builds homes). No dated 2026 signal found yet; check Instagram and the Nampa permit reports",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  },
+  {
+   "company_name": "Winspear Construction, LLC",
+   "company_domain": "winspearconstruction.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://www.winspearconstruction.com/",
+   "lead_date": "",
+   "lead_note": "Boise based service disabled veteran owned heavy civil and public works contractor with a Careers page. It was a bidder (not the awardee) on the May 2026 Nampa Wilson Path trailhead; needs a 2026 award or postings",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  },
+  {
+   "company_name": "Pusher Construction, Inc.",
+   "company_domain": "",
+   "city": "Garden City",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://network.procore.com/p/pusher-construction-inc-boise",
+   "lead_date": "",
+   "lead_note": "Concrete paving and excavation contractor at 111 E 40th St, Garden City. A Suncore post names Pusher placing concrete paving on 8th Street in Boise, and a Class A truck driver posting was seen. The domain was not found, and the 8th St role and date need verifying",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  },
+  {
+   "company_name": "Apex Equipment Rentals",
+   "company_domain": "apexequiprental.com",
+   "city": "Nampa",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://apexequiprental.com/",
+   "lead_date": "",
+   "lead_note": "Family owned rental of excavators, skid steers, lifts and trailers based in Nampa serving Boise; independent; signal not yet confirmed, check Facebook for dated hiring or expansion posts.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Micro 100 Tool Corporation (Harvey Performance Company)",
+   "company_domain": "micro100.com",
+   "city": "Meridian",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.ziprecruiter.com/c/Harvey-Performance/Job/CNC-Machinist-PM-Shift/-in-Meridian,ID?jid=f26b3b63eee717bb",
+   "lead_date": "2026-09-14",
+   "lead_note": "CNC Machinist PM Shift in Meridian dated Sep 14, 2026; Harvey Performance FB post says hiring several CNC, Shipping and Tube and Label roles in Meridian grinding facility. Need official ATS for verification.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  }
+ ]
+}

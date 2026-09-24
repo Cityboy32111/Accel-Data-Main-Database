@@ -1,0 +1,78 @@
+{
+ "batch_id": "v060",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Cutting Edge Landscape",
+   "company_domain": "cuttingedgelandscape.com",
+   "city": "Garden City",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.cuttingedgelandscape.com/careers/",
+   "lead_date": "",
+   "lead_note": "The careers page links to an ADP board (myjobs.adp.com/cuttingedgeservices). LinkedIn shows Landscape Construction Crew Member and Maintenance Crew Leader roles in Boise, posted about a month ago. Sites are 5407 Alworth St, Garden City and 16719 N Idaho Center Blvd, Nampa. The company is part of Heartland.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Technology Credit Union (Tech CU)",
+   "company_domain": "techcu.com",
+   "city": "Meridian",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "market_expansion_hiring",
+   "lead_url": "https://www.techcu.com/Idaho",
+   "lead_date": "",
+   "lead_note": "California credit union entering the Treasure Valley. Its first Idaho branch, at 1394 W Chinden Blvd in Meridian, opened in 2025, and a Treasure Valley offer page runs through Sep 30, 2026. Needs a 2026 hiring or event signal.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Bretz RV & Marine",
+   "company_domain": "bretzrv.com",
+   "city": "Boise",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://bretzrv.applytojob.com/apply",
+   "lead_date": "",
+   "lead_note": "ApplyToJob board loaded Sep 23, 2026 lists many roles, including RV Technician (Boise), RV Service Advisor, Lot Porter/Forklift Operator, RV Detailer and RV & Marine Salesperson, with Boise and Nampa locations shown. The company is based in Missoula and runs a Boise store.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Nampa Premier Soccer Club",
+   "company_domain": "nampapremiersoccer.com",
+   "city": "Nampa",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://my.peachjar.com/district/7759/flyer/3053771?audienceId=71355",
+   "lead_date": "",
+   "lead_note": "Peachjar flyer (search snippet) announces Nampa Premier Toyota Soccer Club competitive tryouts Jun 8 to 10 for Fall 2026 and Spring 2027. The club runs rec and competitive youth soccer for ages 3 to 18. Uniforms currently come through a Tursi Soccer store, so check whether spirit wear and camp gear are open to other suppliers.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "ONE Grounds Management",
+   "company_domain": "onegm.com",
+   "city": "Nampa",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://onegm.com/careers.html",
+   "lead_date": "",
+   "lead_note": "The careers page links to a PrismHR hiring portal, which did not render, so the open roles need checking. The contact page gives a Nampa 83687 address. The homepage mentions a management training in Nampa with 24 managers and directors. The company does commercial grounds and snow work.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "TimberStone Golf Course",
+   "company_domain": "playtimberstone.com",
+   "city": "Caldwell",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.facebook.com/playtimberstone/",
+   "lead_date": "2026-09-08",
+   "lead_note": "Privately run golf course at 22500 Aura Vista Way, Caldwell. It runs a 2026 Fall League (Sep 8 to Oct 13) and has posted openings for grill, pro shop, cart staff and maintenance crew; the date of the hiring post needs checking.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  }
+ ]
+}

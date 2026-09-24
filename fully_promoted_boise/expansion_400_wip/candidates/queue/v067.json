@@ -1,0 +1,78 @@
+{
+ "batch_id": "v067",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Concrete Placing Company, Inc.",
+   "company_domain": "cpcboise.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.cpcboise.com/employment",
+   "lead_date": "",
+   "lead_note": "Careers page (loaded Sep 23, 2026) lists six open positions: Batch Plant Foreman, Carpenter, Class A CDL Truck Drivers, Concrete Finishers, Laborer, Paving Superintendent; 6451 W Gowen Rd Boise. Undated, counts as live on observation date.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Bartlett Roofing",
+   "company_domain": "bartlettroofs.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://apply.workable.com/bartlett-roofs/",
+   "lead_date": "",
+   "lead_note": "Workable board (JS rendered, snippet only) shows Assistant Production Manager, Accounts Receivable Rep and multiple Sales Reps; Indeed shows 20 Boise jobs; own careers page indexed Mar 2, 2026. Verify which postings are Boise vs other markets.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Adam Roe Painting, Inc.",
+   "company_domain": "arppainting.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://arppainting.com/employment/",
+   "lead_date": "",
+   "lead_note": "Employment page lists current positions from Entry Level Prepper, Prepper, Painter, Journeyman 1 and 2 through Foreman in Training, Foreman and Foreman/Superintendent with pay bands; Boise commercial coatings contractor.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Hawaiian Built Roofing, LLC",
+   "company_domain": "hawaiianbuiltroofing.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.hawaiianbuiltroofing.com/roofing-jobs-in-boise-idaho-roofing-careers-at-hawaiian-built-roofing/",
+   "lead_date": "",
+   "lead_note": "Careers page Now Hiring: Entry Level Roofing Crew Members, Experienced Roof Installers, Tear Off Crew Lead / Production Manager; family owned, 7966 W Woodlark St Boise.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Boise Steel Erectors, Inc.",
+   "company_domain": "boisesteel.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/p/Boise-Steel-Erectors-100059522294712/",
+   "lead_date": "",
+   "lead_note": "Facebook post 'Now Hiring: Steel Erection Crew Members' and ZipRecruiter Welders/Ironworkers posting; application page at boisesteel.com/join-our-team; 2230 S Cole Rd Boise. Need dated post >= Mar 2026.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Swinerton Builders",
+   "company_domain": "swinerton.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/project-engineer-university-recruiting-at-swinerton-4461994236",
+   "lead_date": "2026-09-04",
+   "lead_note": "Swinerton has a Boise office. Boise openings include Project Engineer University Recruiting (Sep 4, 2026), a Project Engineer Intern (posted Sep 2026) and a Project Engineer role updated Sep 16, 2026",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  }
+ ]
+}

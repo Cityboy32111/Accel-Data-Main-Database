@@ -1,0 +1,78 @@
+{
+ "batch_id": "v011",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Thrive Pediatrics",
+   "company_domain": "thrive-pediatrics.com",
+   "city": "Meridian",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://thrive-pediatrics.com/join-our-team/",
+   "lead_date": "",
+   "lead_note": "Independent pediatric practice with three Meridian clinics (4740 N Penngrove Way, 3090 E Gentry Way, 1435 E Phenomenal St); Join Our Team page links a Current Job Openings board, which looks like Paycom and blocked scraping. ZipRecruiter and Glassdoor show Pediatric Provider and FNP roles.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Odyssey Pediatric Therapy Specialists, LLC",
+   "company_domain": "odysseytherapies.com",
+   "city": "Nampa",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.odysseytherapies.com/careers",
+   "lead_date": "2026-09-23",
+   "lead_note": "Careers page loaded Sep 23, 2026 lists a COTA for the Caldwell clinic and an OT for the Nampa clinic (1031 W Sanetta St), plus an Emmett COTA, which is out of scope. The page says 'We are always hiring'.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Tanabell Health Services (Meridian Meadows)",
+   "company_domain": "tanabell.com",
+   "city": "Meridian",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://tanabell.com/careers/",
+   "lead_date": "",
+   "lead_note": "Operates Meridian Meadows Assisted Living (2584 E Magic View Dr) and Meridian Meadows Transitional Care, a skilled nursing facility at 2656 E Magic View Dr, both in Meridian. The careers page says they are hiring nursing, therapy and support roles. Indeed shows Meridian RN, MDS Coordinator and Med Tech postings, and LinkedIn shows MDS Coordinator and ADON roles.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Dan Streeby DDS PC",
+   "company_domain": "danstreeby.com",
+   "city": "Eagle",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://tallo.com/talent/job/browse/healthcare/dental-assistant/id/eagle",
+   "lead_date": "2026-07-05",
+   "lead_note": "Tallo snippet: Pediatric Dental Assistant at Dan Streeby DDS PC, Eagle, posted Jul 5 2026. A Glassdoor snippet (June 2026) shows an Administrative Receptionist in Eagle. Pediatric practice at 450 W State St, Eagle.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Homewatch CareGivers of Boise",
+   "company_domain": "homewatchcaregivers.com",
+   "city": "Meridian",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://homewatch-caregivers-of-boise.careerplug.com/account",
+   "lead_date": "",
+   "lead_note": "Franchise office 3650 E Copper Point Dr Suite 150, Meridian; CareerPlug board lists In Home Caregivers Start Immediately plus other roles (one American Falls). Client reviews dated Jul and Aug 2026. Local count needs verification.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Family Eyecare Specialists",
+   "company_domain": "familyeyes.com",
+   "city": "Caldwell",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.familyeyes.com/hours-location/employment-opportunities/",
+   "lead_date": "",
+   "lead_note": "Employment page says 'accepting applications due to growth' and links a Dayforce portal under keplrvision (Keplr Vision is likely the parent; check it). Sites: Nampa, Caldwell (2) and Middleton. A Middleton address change banner was uploaded 2026/07.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  }
+ ]
+}

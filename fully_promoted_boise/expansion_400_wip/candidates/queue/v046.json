@@ -1,0 +1,78 @@
+{
+ "batch_id": "v046",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Donahue McNamara Steel Erectors, LLC",
+   "company_domain": "dmserectors.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://dmserectors.com/contact/employment/",
+   "lead_date": "",
+   "lead_note": "Employment page recruiting ironworkers at $20 to $30/hr, welding certs preferred; 1330 Exchange St Boise. Generic application only, verify distinct roles.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Pacific North Contractors, Inc.",
+   "company_domain": "pnccontractors.com",
+   "city": "Caldwell",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://pnccontractors.com/join-our-team",
+   "lead_date": "2026-07-24",
+   "lead_note": "Join Our Team page (901 Dearborn St, Caldwell) lists Apprentice Field Technician, Field Technician, Service Division Lead, Superintendent, Project Compliance Coordinator, Project Engineer, Project Manager and Administrative Support; Tallo shows the Caldwell Superintendent posting dated Jul 24, 2026, updated Sep 17, 2026",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  },
+  {
+   "company_name": "Camille Beckman Corporation",
+   "company_domain": "camillebeckman.com",
+   "city": "Eagle",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://camillebeckman.com/pages/jobs",
+   "lead_date": "",
+   "lead_note": "Skincare factory at 175 S Rosebud Ln, Eagle; jobs page describes production work (filling machines, labeling, making lotion, shipping) and says hiring runs through Indeed.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "All County Roofing",
+   "company_domain": "allcountyroofingid.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://allcountyroofingid.com/category/jobs/",
+   "lead_date": "",
+   "lead_note": "Jobs category on own site lists Commercial Roofing Superintendent Job Boise and Commercial Roofing Estimator Jobs Boise; verify post dates are 2026.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "CSDI Construction, Inc.",
+   "company_domain": "csdiconstruction.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.csdiconstruction.com/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page (loaded Sep 23, 2026) lists Project Manager, Estimator and Superintendent roles plus internships. ZipRecruiter shows a Project Manager opening in Boise, and the company is at Boise, ID 83716",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Idaho Plumbing, Heating & Air",
+   "company_domain": "idahoheating.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.idahoheating.com/contact-us/careers/",
+   "lead_date": "2026-09-04",
+   "lead_note": "Careers page says Now Hiring HVAC Residential Service Technicians and lists employee appreciation events and parties; ZipRecruiter shows HVAC Lead Installer in Meridian posted Sep 4, 2026. Locally owned since 2003, also brands Idaho Geothermal.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  }
+ ]
+}

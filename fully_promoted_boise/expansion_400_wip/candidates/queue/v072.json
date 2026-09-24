@@ -1,0 +1,78 @@
+{
+ "batch_id": "v072",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Aura Living",
+   "company_domain": "auraliving.co",
+   "city": "Boise",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://auraliving.discovered.ai/",
+   "lead_date": "",
+   "lead_note": "The official board lists Maintenance Technician (Boise), Maintenance Technician (Eagle) and Floating Leasing Consultant. A LinkedIn Maintenance Technician posting for Boise is dated Aug 24, 2026. The company is a multifamily management firm headquartered at 770 S 13th St, Boise, with on-site teams.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Nampa Christian Schools",
+   "company_domain": "nampachristianschools.com",
+   "city": "Nampa",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/16191a76-ff06-4e17-8635-bd013e31cea5/Nampa-Christian-Schools-Inc",
+   "lead_date": "2026-09-08",
+   "lead_note": "Paylocity snippet shows 6 openings, including Route Driver (Sep 8, 2026) and Middle and High School Substitute (Aug 18, 2026), across the Flamingo and Orchard campuses in Nampa. The Paylocity page did not render in the scraper.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Syringa Property Management, Inc.",
+   "company_domain": "syringaproperties.com",
+   "city": "Boise",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://syringaproperties.com/careers/",
+   "lead_date": "",
+   "lead_note": "The careers page recruits for day-to-day operations at affordable apartment communities, which have on-site and resident managers. The HQ is at 1277 W Shoreline Ln, Boise, and the company manages multifamily communities across the West. The count of local postings still needs to be confirmed.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Let's Play Sports Inc.",
+   "company_domain": "letsplaysoccer.com",
+   "city": "Boise",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://builtin.com/job/manager-training-boise-indoor-soccer/6919052",
+   "lead_date": "",
+   "lead_note": "Indoor soccer operator. LinkedIn lists its HQ as Boise Indoor Soccer, 11448 W President Dr, and it runs sites in other states. Hiring for Manager in Training (path to GM) at Boise Indoor Soccer, with facility staff and youth soccer instructor roles on its careers board. Confirm the Boise count on the official board (facility_id=3 turned out to be Grand Rapids).",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Boise Rescue Mission Ministries",
+   "company_domain": "boiserm.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://boiserm.org/careers-hiring/",
+   "lead_date": "2026-09-23",
+   "lead_note": "We're Hiring page (loaded) lists Bilingual Holiday Guest Registrar (seasonal, Boise), Data Entry Assistant (seasonal, Boise) and Resident Advisor Women's Shelter Swing (Nampa); runs shelters in Boise and Nampa and a holiday guest program",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Buske Logistics (Nampa facility)",
+   "company_domain": "buske.com",
+   "city": "Nampa",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.buske.com/warehouse-locations/nampa-idaho",
+   "lead_date": "",
+   "lead_note": "Private 3PL headquartered in Illinois with a contract warehouse in Nampa. People directories show a Nampa warehouse supervisor and an inventory manager. Check Buske careers for live Nampa roles and confirm the street address.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  }
+ ]
+}

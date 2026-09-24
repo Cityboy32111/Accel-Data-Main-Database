@@ -1,0 +1,78 @@
+{
+ "batch_id": "v013",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "R & M Steel Company",
+   "company_domain": "rmsteel.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://rmsteel.com/",
+   "lead_date": "",
+   "lead_note": "Pre engineered metal building manufacturer HQ 20595 Farmway Rd Caldwell with Employment Opportunities page; local listing dated Sep 8, 2026. Hiring roles not yet itemized.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Gerding Builders, LLC",
+   "company_domain": "gerdingbuilders.com",
+   "city": "Caldwell",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.instagram.com/p/Dcjnvl2AYGb/",
+   "lead_date": "",
+   "lead_note": "Employee owned Oregon GC with an Idaho office at 3924 Muller Dr Ste 101, Caldwell. An Instagram post asks for a Nampa Chamber welcome (date not captured). Its careers page currently shows no openings",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Powerhouse Electric, Inc.",
+   "company_domain": "powerhelectricinc.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.powerhelectricinc.com/careers",
+   "lead_date": "",
+   "lead_note": "Careers page loaded Sep 23, 2026 lists Current Openings for Apprentice Electrician and Journeyman Electrician in Nampa; states a team of 85 including 6 project managers.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Cobalt Truck Equipment",
+   "company_domain": "cobalttruck.com",
+   "city": "Nampa",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.ziprecruiter.com/co/Cobalt-Truck-Equipment/Jobs/-in-Nampa,ID",
+   "lead_date": "",
+   "lead_note": "Custom service truck upfitter HQ in Nampa; Custom Service Truck Upfitting Technician and Service Technician Dielectric roles in Nampa; find official ATS.",
+   "vertical": "construction_industrial",
+   "scope": "c_apollo_jobs"
+  },
+  {
+   "company_name": "Priority Electric, Inc.",
+   "company_domain": "priorityelectricid.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.priorityelectricid.com/careers",
+   "lead_date": "",
+   "lead_note": "Careers page says Priority Electric is hiring commercial and residential journeyman electricians; company Facebook page recruits project managers, journeymen, apprentices and service electricians. Need a second distinct posting or dated FB post.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Deacon Construction, LLC",
+   "company_domain": "deacon.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "market_expansion_hiring",
+   "lead_url": "https://deacon.com/treasure-valley-expansion",
+   "lead_date": "",
+   "lead_note": "Treasure Valley expansion page names a Boise office led by a Regional Manager and a Business Development Manager. LinkedIn and Monster show Superintendent and Travel Superintendent openings for the Boise team",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  }
+ ]
+}

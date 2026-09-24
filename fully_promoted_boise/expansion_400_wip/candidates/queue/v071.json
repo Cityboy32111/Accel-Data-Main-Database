@@ -1,0 +1,78 @@
+{
+ "batch_id": "v071",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Altitude Physical Therapy",
+   "company_domain": "altitudept.com",
+   "city": "Nampa",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.altitudept.com/",
+   "lead_date": "",
+   "lead_note": "Independent PT at 63 S Midland Blvd, Nampa, serving Caldwell and Nampa. No hiring or opening page seen yet.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Maleki Physical Therapy Services dba Ascend Physical Therapy",
+   "company_domain": "ascendptidaho.com",
+   "city": "Meridian",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://ascendptidaho.com/physical-therapy-meridian",
+   "lead_date": "",
+   "lead_note": "Indeed and Glassdoor list a Physical Therapist role in Meridian at $74K to $96K. Only one role seen, so a second is needed. Boise Metro Chamber 2026 Healthcare Industry Excellence finalist. Boise clinic (671 E Riverpark Ln) and Meridian clinic (1940 S Bonito Way). Its site posts May and July 2026 newsletters.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Arbor Village at Hillcrest",
+   "company_domain": "arborvillageathillcrest.com",
+   "city": "Boise",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.arborvillageathillcrest.com/careers/",
+   "lead_date": "",
+   "lead_note": "Independent living, assisted living and respite community on Hilton St, Boise. It has its own careers page, Glassdoor lists a Maintenance Assistant, and the site posted blog articles in Jul 2026. Need to confirm two or more live roles.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Slattery Orthodontics",
+   "company_domain": "slatteryortho.com",
+   "city": "Boise",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.slatteryortho.com/",
+   "lead_date": "",
+   "lead_note": "Orthodontic practice at 665 E Parkcenter Blvd, Boise, plus McCall. An older listing (2020) also named Meridian and Nampa offices, so the current in scope site count needs confirming. No dated signal seen yet.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "A Better Solution In Home Care (Boise)",
+   "company_domain": "abettersolutioninhomecare.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://abettersolutioninhomecare.com/boise/careers/",
+   "lead_date": "",
+   "lead_note": "Boise location (6560 W area address on site) hiring experienced caregivers for day, weekend and overnight shifts ($16 to $19/hr per Indeed and Facebook posts); operator also serves Reno.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Boise Valley Asthma & Allergy Clinic",
+   "company_domain": "bvaac.com",
+   "city": "Boise",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.bvaac.com/",
+   "lead_date": "",
+   "lead_note": "Allergy and asthma specialty clinic at 901 N Curtis Rd #100, Boise. Weak: no dated signal found yet; check careers and social posts.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  }
+ ]
+}

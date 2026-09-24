@@ -1,0 +1,78 @@
+{
+ "batch_id": "v095",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "ZoRoCo Packaging, Inc.",
+   "company_domain": "zorocopackaging.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.zorocopackaging.com/about-us/join-our-team",
+   "lead_date": "",
+   "lead_note": "Loaded the careers page: 'Now Hiring' Production Associates across day, swing and graveyard shifts, citing rapid growth and new business. Three Caldwell plants (frozen, gluten free, free from). The page is undated, so live dated postings on Indeed need checking.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Brickline Masonry Company, LLC",
+   "company_domain": "",
+   "city": "Caldwell",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://network.procore.com/p/brickline-masonry-company-llc-caldwell",
+   "lead_date": "",
+   "lead_note": "Commercial block, brick and stone masonry sub at 1215 Stahlridge St Caldwell (Idaho AGC member, est 1999); no website or hiring signal found yet. Low confidence.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Materne North America Corp. (GoGo squeeZ)",
+   "company_domain": "gogosqueez.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://gogosqueez.com/about-gogo-squeez/careers/",
+   "lead_date": "",
+   "lead_note": "Nampa applesauce pouch plant. Search results show several Nampa machine operator roles (Flex Machine Operator Pre Processing, Volpak Operator, Bossar Machine Operator, Sanitation Operator), and the careers Facebook page says the plant is hiring. Parent is Bel Group.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Funky Painting",
+   "company_domain": "funkypainting.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.funkypainting.com/careers/",
+   "lead_date": "",
+   "lead_note": "Locally owned Boise painting company careers page recruiting Crew Leader, Lead Painter, Painter and Apprentice via application form.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Kiewit Corporation",
+   "company_domain": "kiewit.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.digitalhire.com/job-listing/opening/1tK2Z7rir7BmM2v2IxsoBc",
+   "lead_date": "",
+   "lead_note": "Field/Office Engineer MEC Industrial role in Boise (2026) is on a third party board, and ZipRecruiter shows 13 Kiewit Boise openings. The roles may be project based (industrial or Micron work), so confirm the local site and live postings on kiewitcareers",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Woodgrain Inc.",
+   "company_domain": "woodgrain.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://woodgrain.com/careers/openings/",
+   "lead_date": "",
+   "lead_note": "Millwork plant in Nampa; HQ is in Fruitland, which is out of scope. ZipRecruiter and Glassdoor show 17 Nampa openings, including Entry Level Production Worker swing shift, Production Team Member and Payroll Administrator 2. Official openings page and jobs.woodgrain.com still need checking.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  }
+ ]
+}

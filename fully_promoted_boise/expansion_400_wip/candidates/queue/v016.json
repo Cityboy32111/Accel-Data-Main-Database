@@ -1,0 +1,78 @@
+{
+ "batch_id": "v016",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "EnviroTech Industries (Envirotech, incl. G Zero CNC)",
+   "company_domain": "envirotechind.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.idmfg.org/job-postings/machinist-2/",
+   "lead_date": "",
+   "lead_note": "IMA board lists Journeyman CNC Mill Machinist and Manufacturing Salesperson at EnviroTech Boise; Indeed shows CNC Machinist Swing Shift; G Zero CNC in Meridian now operates under EnviroTech.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "AeroLEDs (a Whelen Aerospace company)",
+   "company_domain": "aeroleds.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://aeroleds.com/pages/careers",
+   "lead_date": "",
+   "lead_note": "Aircraft LED lighting plant on Elisa St, Boise 83709; Production Associate opening posted via Indeed and ZipRecruiter (Whelen Engineering); careers page lists open positions.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "AERO Specialties",
+   "company_domain": "aerospecialties.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.aerospecialties.com/careers/",
+   "lead_date": "",
+   "lead_note": "Aviation ground support equipment maker headquartered in Boise 83713; careers page exists but roles not rendered in scrape, verify postings.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Guerdon, LLC",
+   "company_domain": "guerdonmodularbuildings.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.guerdonmodularbuildings.com/about-us/careers/",
+   "lead_date": "",
+   "lead_note": "Modular building factory at 5556 Federal Way; careers page banner says We are Hiring with Boise Framer posting page; PM and growth roles seen on job boards.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Ultimate Heating & Air Inc",
+   "company_domain": "ultimateheatingandair.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "http://www.ultimateheatingandair.com",
+   "lead_date": "",
+   "lead_note": "Local HVAC/plumbing contractor; search shows Residential Service Plumber opening in Meridian and Apollo flags trade postings since Jul 2026; find official careers/ATS page to count roles.",
+   "vertical": "construction_industrial",
+   "scope": "c_apollo_jobs"
+  },
+  {
+   "company_name": "Rock Creek Electric LLC",
+   "company_domain": "rockcreekelectric.net",
+   "city": "Kuna",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.rockcreekelectric.net/careers",
+   "lead_date": "",
+   "lead_note": "Careers page takes applications for Idaho electrical apprentices and journeymen with paid apprentice schooling; family owned, Kuna based. No posting count on page.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v022",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Nelson Construction Corp",
+   "company_domain": "nelson-corp.com",
+   "city": "Eagle",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/company/nelson-construction-corp",
+   "lead_date": "",
+   "lead_note": "Heavy civil and structural concrete GC with an office at 1117 E Plaza Dr Suite D, Eagle. LinkedIn hiring posts list a Project Manager for the Boise metro and a Structural Concrete Carpenter in Boise, and ZipRecruiter lists operator roles in Eagle",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Plexus Corp.",
+   "company_domain": "plexus.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://plexus.wd504.myworkdayjobs.com/plexus_careers/job/Nampa-ID/Manufacturing-Technician---A-Shift_R041505",
+   "lead_date": "",
+   "lead_note": "Electronics manufacturing plant at 16399 Franklin Blvd, Nampa. Workday lists multiple Nampa roles (Manufacturing Technician A and D Shift, Production Lead, Production Supervisor 2nd Shift, and Summer 2027 engineering interns posted around Sep 1, 2026). Indeed shows about 34 Nampa jobs.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Spectra Contract Flooring (Boise)",
+   "company_domain": "spectracf.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://spectracf.com/locations/boise/",
+   "lead_date": "",
+   "lead_note": "Commercial flooring contractor with Boise branch (Diverzify company); national board shows 20+ openings, need to confirm Boise located installer/PM roles.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "CM Company, Inc.",
+   "company_domain": "cmcompany.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://cmcompany.com/careers/",
+   "lead_date": "",
+   "lead_note": "Boise CM/GC at 431 W McGregor Dr. A Project Superintendent posting was seen on a third party job board, but the careers page itself lists no roles, so an official ATS and a second role are needed. Weak lead",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Signs2U",
+   "company_domain": "signs2uboise.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://signs2uboise.com/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page current openings show Sign Builder & Installer (plus separate Sign Fabricator & Installer posting page); women owned sign fab and install shop, 5300 W Fairview Ave Boise. Only one or two roles seen.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Black Ark Builders, LLC",
+   "company_domain": "blackarkbuilders.com",
+   "city": "Meridian",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/associate-project-manager-project-engineer-at-black-ark-builders-4453746330",
+   "lead_date": "2026-08-18",
+   "lead_note": "Heavy civil and underground utility contractor serving Boise and Meridian (Indeed lists Meridian 83642). Postings: Associate Project Manager / Project Engineer (LinkedIn, Aug 18, 2026), Operator Heavy Civil and Utility (Sep 9, 2026), Elite Pipelayer and Skilled Excavator Operator. The domain is inferred from the hiring email, so verify",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v066",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Sunshine Landscape LLC",
+   "company_domain": "sunshinelandscape.net",
+   "city": "Nampa",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://sunshinelandscape.net/Careers",
+   "lead_date": "",
+   "lead_note": "The company has a careers page for commercial construction, maintenance, irrigation and snow roles. An Indeed snippet shows a Mow Crew Lead in Nampa 83687 at $18 to $26. It has operated since 2000 and appears on BoiseDev, which lists it in Boise. The site phone number looks like a placeholder, so the page should be checked.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Tee Up Indoor Golf",
+   "company_domain": "",
+   "city": "Meridian",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/03/29/indoor-golf-training-facility-opening-in-meridian/",
+   "lead_date": "2026-03-29",
+   "lead_note": "BoiseDev reported on Mar 29, 2026 that Tee Up Indoor Golf was opening in April at 4736 N Park Crossing Ave, Meridian, with simulators, coaching and a year round junior golf academy. Check that this is a different business from Tee Box Meridian.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  },
+  {
+   "company_name": "Boise Bicycle Project",
+   "company_domain": "boisebicycleproject.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://idahonews.com/news/local/boise-bicycle-project-expands-apprenticeship-program-for-incarcerated-women",
+   "lead_date": "2026-05-05",
+   "lead_note": "Idaho News May 5, 2026: BBP is expanding its Shifting Gears apprenticeship with IDOC, alongside its teen apprenticeship cohorts; careers page is hiring a full time Lead Mechanic (priority consideration by Sep 18)",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Valley Custom Moving LLC",
+   "company_domain": "valleycustommoving.com",
+   "city": "Nampa",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://valleycustommoving.com/employment/",
+   "lead_date": "",
+   "lead_note": "The employment page (loaded) says Now Hiring for lead/driver and mover crew. Local mover listed in Nampa and serving Boise, Meridian and Nampa; verify the street address of the yard.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "The Cellars at River's Edge (Sol Invictus Vineyard)",
+   "company_domain": "cellarswinebar.com",
+   "city": "Star",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/eats-newsletter/boisedev-eats-3-5-2026/",
+   "lead_date": "2026-03-04",
+   "lead_note": "BoiseDev Eats (Mar 4, 2026): the owners of Sol Invictus Vineyard opened a wine bar, speakeasy and event center in a restored 1921 farmhouse at 6926 Highway 44, Star. It opened in May 2026. The main BoiseDev article is dated Feb 27, so cite only the post Mar 1 sources.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Marin Boxing Academy",
+   "company_domain": "marinboxingacademy.com",
+   "city": "Meridian",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.marinboxingacademy.com/",
+   "lead_date": "",
+   "lead_note": "Locally founded boxing gym in Meridian. Its listings show two addresses (1668 E Franklin Rd and 1500 N Locust Grove Rd Ste 103), which points to a move or added location, and Instagram showed sold out classes on May 30, 2026. Low confidence: the date of the new location is unconfirmed.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  }
+ ]
+}

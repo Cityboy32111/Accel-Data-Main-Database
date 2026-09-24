@@ -1,0 +1,78 @@
+{
+ "batch_id": "v045",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Treasure Valley Beach",
+   "company_domain": "treasurevalleybeach.org",
+   "city": "Meridian",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://idahonews.com/news/local/inside-idahos-first-indoor-beach-volleyball-facility",
+   "lead_date": "2026-08-22",
+   "lead_note": "Idaho News (KIVI) covered Idaho's first indoor beach volleyball facility, about 14,000 sq ft with three courts, next to Treasure Valley Athletic Center near Locust Grove and Franklin, Meridian. The grand opening was Aug 22, 2026 and leagues run year round, so jerseys are a likely need. Owned by its founder. The lead date is the grand opening date because the article date was not captured.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  },
+  {
+   "company_name": "Boise Philharmonic Association",
+   "company_domain": "boisephil.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://boisephil.org/about/jobs/",
+   "lead_date": "2026-09-09",
+   "lead_note": "Selling subscriptions for the 26/27 season, Illuminated Through Sound; orchestra auditions were held Sep 9 and 10, 2026, and it runs a youth orchestra program; LinkedIn shows 59 employees; the apparel angle is weaker (staff and youth orchestra)",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Whitewater Moving",
+   "company_domain": "whitewatermoving.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/groups/448851781976260/posts/2847728672088547/",
+   "lead_date": "",
+   "lead_note": "Facebook group post says the company is currently hiring for its local moving team (post date not confirmed). Boise mover at 1616 Oakland Ave serving Boise, Eagle, Meridian and Nampa.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Payette Brewing Company (Payette Provisions)",
+   "company_domain": "payettebrewing.com",
+   "city": "Boise",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.idahostatesman.com/living/food-drink/article316792917.html",
+   "lead_date": "2026-08-07",
+   "lead_note": "Idaho Statesman (Aug 7, 2026): former largest Boise brewery rebranded as Payette Provisions, 'new direction'. The article body did not load (paywall), so confirm whether the rebrand includes a new concept or site. It is a strong rebrand apparel trigger.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Northwest Bank",
+   "company_domain": "northwest-bank.com",
+   "city": "Boise",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/ed7a10c7-4699-4abe-80f1-6c17120ad3d5/Northwest-Bank",
+   "lead_date": "2026-08-07",
+   "lead_note": "Boise headquartered business bank. A Paylocity snippet lists a Boise Commercial Banking Relationship Manager (Aug 7, 2026), plus a Customer Service Specialist/Bank Teller and Credit Analyst/Assistant RM roles.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Western Truck Center",
+   "company_domain": "westerntruckcenter.com",
+   "city": "Boise",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://vizi.vizirecruiter.com/Western-Truck-Center-4129/index.html",
+   "lead_date": "",
+   "lead_note": "Freightliner and Western Star dealer serving Southwest Idaho from 9301 W Franklin Rd, Boise. The Vizi board lists parts, service and technician roles, but whether any are Boise roles still needs checking. The company is based in California.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  }
+ ]
+}

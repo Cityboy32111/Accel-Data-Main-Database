@@ -1,0 +1,78 @@
+{
+ "batch_id": "v026",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Crystal Canyon Family Dental",
+   "company_domain": "crystalcanyonfamilydental.com",
+   "city": "Caldwell",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.facebook.com/crystalcanyonfamilydental/",
+   "lead_date": "",
+   "lead_note": "Caldwell practice at 616 S 10th Ave; Mar 5 Facebook post celebrates Dental Assistant Appreciation Week (recurring staff program); confirm year and look for hiring",
+   "vertical": "healthcare",
+   "scope": "h_dental_canyon"
+  },
+  {
+   "company_name": "Visiting Angels Boise, ID",
+   "company_domain": "visitingangels.com",
+   "city": "Meridian",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://visitingangelsboiseid.applicantstack.com/x/openings",
+   "lead_date": "",
+   "lead_note": "ApplicantStack board (loaded Sep 2026) shows 15 open Client Care roles incl. Caregiver, Overnight Caregiver, Live In CNA, Private Duty Caregiver and PCA in Caldwell plus Companion Caregiver and CNA Nurse Aide; office 36 E Pine Ave, Meridian (independently owned franchise; some roles are Melba, out of scope).",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Retina Specialists of Idaho, PLLC",
+   "company_domain": "retinaidaho.com",
+   "city": "Boise",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://beta.asrs.org/career-center/jobs",
+   "lead_date": "2026-07-01",
+   "lead_note": "ASRS career center shows a full-time vitreoretinal surgeon posting for Boise dated Jul 1, 2026. Glassdoor also lists an Ophthalmic Assistant/Technician in Boise. Offices: 13923 W Wainwright Dr and 128 E Mallard Dr, Boise.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Children's Home Society of Idaho",
+   "company_domain": "childrenshomeidaho.org",
+   "city": "Boise",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/0c310a56-b26b-44b9-9826-337f883226e4/Childrens-Home-Society-of-Idaho",
+   "lead_date": "2026-08-20",
+   "lead_note": "Paylocity board (snippet) lists 3 Boise clinical roles: School Based Mental Health Clinician (08/20/2026), Mental Health Clinician (05/12/2026) and Play Therapy Clinician (05/08/2026). This is a youth mental health counseling nonprofit.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Idaho Health Neighborhood Center",
+   "company_domain": "healthneighborhoodcenter.org",
+   "city": "Nampa",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://healthneighborhoodcenter.org/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page (loaded) lists two open roles, IHNC Front Desk Clerk and Behavioral Health Clinician, at the primary and urgent care clinic at 824 S Diamond St, Nampa. Apply links go to c-who.org job pages. Undated, so treat as observation date.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Wright Physical Therapy",
+   "company_domain": "wrightpt.com",
+   "city": "Meridian",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://wrightpt.com/join-our-team/careers/",
+   "lead_date": "2026-09-23",
+   "lead_note": "Careers page loaded Sep 23, 2026 has apply links for Meridian, Central Boise, Nampa and Boise roles, next to Magic Valley and eastern Idaho openings. Treasure Valley clinics: Garden City, Boise, Meridian, North Meridian, SE Boise and Nampa. Headquartered in Twin Falls.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v080",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Treasure Valley Housecalls, Hospice & Palliative Care",
+   "company_domain": "treasurevalleyhousecalls.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/treasurevalleyhousecalls/posts/were-building-something-beautiful-%EF%B8%8Fat-treasure-valley-hospice-were-creating-more/1888582095716184/",
+   "lead_date": "",
+   "lead_note": "Boise HQ mobile primary care plus hospice and palliative teams; Facebook post says we are building something beautiful at Treasure Valley Hospice and seeks full time and part time RNs. LinkedIn RN Case Manager post is over a year old, so needs a dated 2026 posting.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Paramount Surgery Center",
+   "company_domain": "pscidaho.com",
+   "city": "Meridian",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.pscidaho.com/employment/",
+   "lead_date": "",
+   "lead_note": "Meridian ASC. The employment page invites nursing applications (no call or weekends) by email to admin, but lists no named requisitions. Weak.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "North End Wellness & Counseling (NEW Meridian Counseling and Therapy)",
+   "company_domain": "boisecounseling.org",
+   "city": "Meridian",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.meridianidcounseling.com/job-openings",
+   "lead_date": "",
+   "lead_note": "Job openings page (loaded) lists full time openings for fully licensed (LCPC, LCSW) and basic licensed (LPC, LMSW) clinicians in both Boise and Meridian. This is a local group practice; the alternate domain is meridianidcounseling.com.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Norco, Inc.",
+   "company_domain": "norco-inc.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://myjobs.adp.com/norcoexternal/cx/job-details?reqId=5001219838106",
+   "lead_date": "",
+   "lead_note": "Boise HQ employee owned home medical equipment and gas supplier (Norco Medical); ADP board shows Customer Service Representative, Medical Store and LinkedIn shows Medical Customer Service Central Support (about 5 days old); Indeed lists 12 Boise Norco jobs. Offer standard apparel only, not FR.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Keller Skin Care",
+   "company_domain": "kellerskincare.com",
+   "city": "Eagle",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.indeed.com/q-skincare-l-meridian,-id-jobs.html",
+   "lead_date": "",
+   "lead_note": "Job boards show Medical Assistant, Dermatology in Eagle (from $19/hr, Indeed) and Medical Office Specialist in Eagle (Glassdoor, 6 days old). Dermatology offices at 1605 E Riverside Dr, Eagle and 6051 N Eagle Rd, Boise. Needs an own-ATS source.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Zelus Recovery",
+   "company_domain": "zelusrecovery.com",
+   "city": "Meridian",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.zelusrecovery.com/about-zelus-recovery/careers/",
+   "lead_date": "",
+   "lead_note": "Independent adolescent and adult addiction outpatient, IOP and PHP provider in Meridian with an alumni program and a college scholarship. The careers page loaded but rendered no role list, so the ATS or Indeed roles still need checking. Low confidence.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  }
+ ]
+}

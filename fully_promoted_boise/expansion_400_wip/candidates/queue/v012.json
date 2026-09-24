@@ -1,0 +1,78 @@
+{
+ "batch_id": "v012",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Snake River Stampede",
+   "company_domain": "snakeriverstampede.com",
+   "city": "Nampa",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.kivitv.com/nampa/111th-annual-snake-river-stampede-your-complete-event-guide",
+   "lead_date": "2026-06-16",
+   "lead_note": "111th annual Snake River Stampede ran June 16 to 20, 2026 at Ford Idaho Center, Nampa; nonprofit rodeo with staff, volunteers and board, and Facebook Meet the Team posts in Sep 2026",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Camp Rainbow Gold",
+   "company_domain": "camprainbowgold.org",
+   "city": "Boise",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://camprainbowgold.org/camps/",
+   "lead_date": "",
+   "lead_note": "2026 camp dates page (loaded): Youth Oncology Jun 7 to 12, Sibling Jun 14 to 19, Teen Jun 21 to 26, Summer Family Aug 6 to 9 and Fall Family Sep 24 to 27, plus volunteer staff and the Share Your Heart Ball. Boise based nonprofit; the camp site is outside the valley, so confirm the Boise office address.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Summer Lawns, Inc.",
+   "company_domain": "summerlawns.com",
+   "city": "Boise",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.summerlawns.com/careers/",
+   "lead_date": "",
+   "lead_note": "The careers page lists Landscape Maintenance Gardener, Crew Leader, Account Manager, Irrigation Technician and Landscape Construction Foreman. Certified Arborist and Licensed Applicator appear in the site navigation. The pages are undated and may be static, so live status needs checking.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Nine Realms Athletics",
+   "company_domain": "ninerealmsathletics.com",
+   "city": "Caldwell",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.ninerealmsathletics.com/",
+   "lead_date": "2026-04-24",
+   "lead_note": "Locally owned strength gym run by first responders at 3719 Cleveland Blvd, Caldwell. It moved into a long vacant building; Yelp says it officially opened Apr 24 (announced for 2026) and it had a booth at Indian Creek Plaza on Aug 29. It is a Caldwell Chamber member.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Life's Kitchen",
+   "company_domain": "lifeskitchen.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://idahobusinessreview.com/2026/07/13/lifes-kitchen-boise-grant-jacques-pepin-foundation/",
+   "lead_date": "2026-07-13",
+   "lead_note": "IBR Jul 13, 2026: $50,000 Jacques Pepin Foundation grant for youth culinary job training cohorts at 8574 W Fairview Ave, Boise; also hosts the Chefs Challenge 2026 fundraiser and runs a cafe and catering business",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Echevarria Trucking LLC",
+   "company_domain": "",
+   "city": "Caldwell",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://cazvid.com/en/job/belt-truck-driver-6f336cc0",
+   "lead_date": "2026-09-08",
+   "lead_note": "Caldwell carrier at 510 N 16th Ave. A Belt Truck Driver posting is dated Sep 8, 2026 (third-party board), and the company's Facebook page has driver recruiting posts. No company website was found (Apollo has no domain), so the Facebook page is the likely official hiring source.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  }
+ ]
+}

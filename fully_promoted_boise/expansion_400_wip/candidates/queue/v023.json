@@ -1,0 +1,78 @@
+{
+ "batch_id": "v023",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Blaisdell Dental Center",
+   "company_domain": "blaisdelldental.com",
+   "city": "Caldwell",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://kdhnews.com/online_features/press_releases/expansion-of-cosmetic-dentistry-services-at-blaisdell-dental-center/article_77d9df01-cf4f-50db-964e-b462a94fc8a5.html",
+   "lead_date": "2026-08-04",
+   "lead_note": "Loaded a PressAdvantage release dated Aug 4 2026: Blaisdell Dental Center at 3611 S 10th Ave, Caldwell, announces expanded cosmetic dentistry services. This is a service expansion, not a new site; weak signal.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Everything Sleep Idaho",
+   "company_domain": "everythingsleepidaho.com",
+   "city": "Nampa",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://everythingsleepidaho.com/",
+   "lead_date": "",
+   "lead_note": "Sleep medicine group. The site says it is establishing a Nampa clinic (now listed at 210 W Georgia Ave #120, Nampa) alongside the Boise clinic at 7272 W Potomac Dr, and welcomes a new NP. Sister company Everything CPAP. Undated, so a 2026 source is needed.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Recovery Ways Idaho",
+   "company_domain": "recoverywaysidaho.com",
+   "city": "Boise",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://recoverywaysidaho.com/tag/mental-health-in-meridian-idaho/",
+   "lead_date": "",
+   "lead_note": "Site banner (loaded) says 'Recovery Ways Idaho Now Offers PHP', a new adult Partial Hospitalization Program at 2273 S Vista Ave Ste 190, Boise. Blog posts are dated through Aug and Sep 2026, but the PHP launch date still needs confirming. The parent is Recovery Ways (UT).",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Women's Health Associates",
+   "company_domain": "womenshealthboise.com",
+   "city": "Boise",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://womenshealthboise.com/careers/",
+   "lead_date": "2026-06-05",
+   "lead_note": "Independent OB/GYN, midwifery and primary care group (with Table Rock Medicine) at 333 N First St Boise plus a Meridian office; careers page updated Jun 5, 2026 links a UKG board (secure7.saashr.com/ta/6220367.careers). That board would not load via Bright Data. Table Rock Medicine MA (Experienced) posting seen on hiringcafe.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Current Physical Therapy",
+   "company_domain": "currentphysicaltherapy.com",
+   "city": "Nampa",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.currentphysicaltherapy.com/physical-therapy-center-meridian/",
+   "lead_date": "",
+   "lead_note": "Homepage loaded Sep 23, 2026 lists Nampa, Kuna, Caldwell and a Meridian clinic at 1020 N Hickory Ave Ste 115, plus Fruitland and Weiser, which are out of scope. Meridian was missing from an earlier snippet, so it may be new, but the date is not confirmed. Locally owned. Check for hiring posts too.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "MorningStar Senior Living (MorningStar of Boise)",
+   "company_domain": "morningstarseniorliving.com",
+   "city": "Boise",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.morningstarseniorliving.com/communities/senior-living-boise/",
+   "lead_date": "2026-08-22",
+   "lead_note": "Assisted living and memory care at 5850 N Five Mile Rd, Boise. A Housekeeper posting is dated Aug 22, 2026. Indeed shows 7 Boise jobs (lead dining room server, caregiver) and Glassdoor shows 9. Need to confirm on MorningStar's own careers portal.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v031",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Eagle Industrial Construction",
+   "company_domain": "eagleindustrialco.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://www.cityofnampa.us/DocumentCenter/View/20630/Weekly-Permit-Activity-Report-05-18-2026---05-22-2026",
+   "lead_date": "2026-05-18",
+   "lead_note": "Boise industrial TI GC listed as the registered building contractor in Nampa's weekly permit report for May 18 to 22, 2026. A local taqueria thanked the company on Sep 15, 2026 for a 50 breakfast burrito crew order",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Stantec",
+   "company_domain": "stantec.com",
+   "city": "Boise",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://stantec.jobs/locations/boise-id/jobs/",
+   "lead_date": "2026-08-21",
+   "lead_note": "stantec.jobs shows 41 Boise jobs, including Senior Civil Engineer Water Infrastructure (Boise primary, Aug 21 2026), Structural Engineer, Water Project Manager and Environmental Scientist/Biologist. Process Mechanical EIT is dated Mar 25 2026.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Mussell Construction, Inc.",
+   "company_domain": "mussellconstruction.com",
+   "city": "Nampa",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://www.cityofnampa.us/DocumentCenter/View/20690/Weekly-Permit-Activity-Report-06-29-2026---07-03-2026",
+   "lead_date": "2026-07-07",
+   "lead_note": "Nampa GC (320 11th Ave S) listed as the registered building contractor on commercial permit COM-05451-2026 in Nampa's weekly permit report for Jun 29 to Jul 3, 2026, published Jul 7, 2026",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Keller Associates, Inc.",
+   "company_domain": "kellerassociates.com",
+   "city": "Meridian",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://kellerassociates.com/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page lists Meridian as an Idaho office. Job boards show Water/Wastewater Project Engineer EI, Bridge Engineer and Senior Transportation PM based in the Meridian office (about 25 openings company wide). The listings are in an embedded widget, so the ATS still has to be loaded to confirm them.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Optimum Build Group",
+   "company_domain": "optimumbuildgroup.com",
+   "city": "Star",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://dpw.idaho.gov/construction/",
+   "lead_date": "2026-04-03",
+   "lead_note": "Star GC (10984 W Wild Iris St) founded 2025 by former McAlvain preconstruction leadership. It appears on the Idaho DPW bid results at $90,322 (Apr 3, 2026) and was welcomed as a new Idaho AGC member. Weak lead: an award or dated project role still needs confirming",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Horrocks",
+   "company_domain": "horrocks.net",
+   "city": "Meridian",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://trilongroup.pinpointhq.com/horrocks",
+   "lead_date": "",
+   "lead_note": "Pinpoint ATS (Trilon Group) lists Engineer in Training Roadway/Site Development in Meridian. Boards also show Traffic Engineer, Water Resources Lead, Drainage Engineer and Senior Operations Engineer at the Meridian office, which opened in 2004.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  }
+ ]
+}

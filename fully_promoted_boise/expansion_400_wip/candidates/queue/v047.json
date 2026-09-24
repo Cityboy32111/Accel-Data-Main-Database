@@ -1,0 +1,78 @@
+{
+ "batch_id": "v047",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Whitestone Dental",
+   "company_domain": "whitestonedentalcare.com",
+   "city": "Meridian",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.instagram.com/p/DYOVpQvRN2e/",
+   "lead_date": "2026-05-15",
+   "lead_note": "Search snippets (the post page did not render) say the practice is officially open, with a Grand Opening Event on Friday May 15 (2026), 4 to 7 PM, at 1740 S Spanish Sun Way, Meridian. New single location family practice.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Alpine Surgical Arts",
+   "company_domain": "alpinesa.com",
+   "city": "Boise",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.instagram.com/reel/DchB6JohtvC/",
+   "lead_date": "",
+   "lead_note": "Loaded an Instagram reel posted about 4 weeks before Sep 23 2026: the practice is back for another season as the Idaho Steelheads Official Oral and Maxillofacial Surgeons. Oral surgery offices in downtown Boise, Meridian and Southeast Boise.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "HomeWell Care Services of Boise",
+   "company_domain": "homewellcares.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://homewellcares.com/in-home-care-id-boise-id288/",
+   "lead_date": "2026-04-23",
+   "lead_note": "Franchise office 212 S Cole Rd, Boise 83709 serving Boise, Eagle, Meridian, Nampa; site (updated Apr 23, 2026) has Become a caregiver and Find A Job pages; needs check for two or more live roles.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Rocky Mountain Foot & Ankle",
+   "company_domain": "rockyfootandankle.com",
+   "city": "Caldwell",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.rockyfootandankle.com/",
+   "lead_date": "",
+   "lead_note": "Podiatry practice with clinics at 2667 E Gala Ct Meridian and Caldwell. The site highlights ongoing support for local nonprofits (a possible sponsorship program), and the Meridian Facebook page is active (Mar 5, 2026 post). Weak: needs a dated sponsorship or hiring source.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Meridian Advanced Psychiatry",
+   "company_domain": "map-clinic.com",
+   "city": "Caldwell",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.map-clinic.com/",
+   "lead_date": "",
+   "lead_note": "Homepage (loaded) lists locations in North Meridian, South Meridian, West Boise, Caldwell (211 E Logan St Ste 301) and a new Nampa page, plus Twin Falls. It is a local multi site psychiatry and ketamine practice. A dated 2026 opening or hiring post is still needed. Low confidence.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "OGA Women's Health",
+   "company_domain": "ogaidaho.com",
+   "city": "Meridian",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.ogaidaho.com/careers/",
+   "lead_date": "2026-07-14",
+   "lead_note": "OB/GYN group with Meridian, Ten Mile and Eagle locations; Indeed shows Lead Medical Coder OB/GYN and Medical Assistant in Meridian, and a Medical Assistant Float posting is dated Jul 14, 2026. Site also announces new midwifery services launching. The careers page itself says to email careers@ and watch job boards.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v092",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "McMillen, Inc.",
+   "company_domain": "mcmillen.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.mcmillen.com/careers/openings",
+   "lead_date": "2026-09-15",
+   "lead_note": "Boise HQ design build contractor at 1471 Shoreline Dr. A Superintendent Commercial Group posting is dated Sep 15, 2026, and its ourcareerpages ATS lists Quality Control Manager and Cost Estimator heavy civil roles in Boise",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "VertiCon Construction",
+   "company_domain": "verticonidaho.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/company/verticon-construction-id",
+   "lead_date": "2026-09-11",
+   "lead_note": "LinkedIn company page shows a Project Coordinator/Assistant Estimator opening in Boise (a ZipRecruiter copy is dated Sep 11, 2026) and a Superintendent posting. Posts also cover the Ten Mile Storage Condos groundbreaking and a Meridian TI for Apex Advanced Spine & Pain",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Ledcor Construction Inc.",
+   "company_domain": "ledcor.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.ledcor.com/search/jobs/in/boise",
+   "lead_date": "2026-08-25",
+   "lead_note": "Ledcor's own careers site shows 15 Boise jobs posted Jul 21 to Sep 17, 2026, most dated Aug 25, 2026. They include Project Manager Heavy Civil, Superintendent Heavy Civil, Senior Project Coordinator, Project Controls Coordinator, HS&E Advisor and mining crew roles",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "AceCo Precision Manufacturing, LLC",
+   "company_domain": "acecoprecision.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/p/AceCo-Precision-Manufacturing-100064696160118/",
+   "lead_date": "",
+   "lead_note": "Semiconductor CNC machining shop in Boise; Facebook says hiring machinists and operators (undated); sister AceCo Precision Tools and K Edge at 4419 Federal Way.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Mark Guho Construction Company",
+   "company_domain": "mguho.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/markguhoconstructioncompany/",
+   "lead_date": "",
+   "lead_note": "Boise GC at 11450 W Joplin Rd. Its Facebook page is recruiting commercial construction superintendents, and ZipRecruiter lists a Carpenter/Concrete Journeyman for Boise area commercial work. Postings are undated, so check that they are live",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Porvair Filtration Group Inc.",
+   "company_domain": "porvairfiltration.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=87119e12-8f0a-4e3b-afbe-54f0357224f4",
+   "lead_date": "",
+   "lead_note": "Sintered metal filter plant at 1226 Caldwell Blvd, Nampa. A search snippet of its ADP board shows a Production Floater in Nampa posted 'yesterday'. The ADP page would not render in the scraper, so the posting count is unconfirmed. Parent is Porvair plc (UK).",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  }
+ ]
+}

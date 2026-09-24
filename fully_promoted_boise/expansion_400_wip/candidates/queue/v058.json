@@ -1,0 +1,78 @@
+{
+ "batch_id": "v058",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "CSHQA",
+   "company_domain": "cshqa.com",
+   "city": "Boise",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "http://www.cshqa.com",
+   "lead_date": "",
+   "lead_note": "Boise architecture, engineering and interiors firm surfaced by Apollo with job postings since Jul 2026; confirm engineering roles in Boise on careers page.",
+   "vertical": "construction_industrial",
+   "scope": "c_apollo_jobs"
+  },
+  {
+   "company_name": "Syngenta Seeds, LLC",
+   "company_domain": "syngenta-us.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.smartrecruiters.com/SyngentaGroup/744000145760331-operations-lead-",
+   "lead_date": "2026-09-15",
+   "lead_note": "Seen in search results only (SmartRecruiters and LinkedIn): Operations Lead for Nampa R&D Seed Operations (Sep 15, 2026), Vegetable Seeds Development Intern in Nampa (Sep 15, 2026), a Seeds QMS and Regulatory Compliance Lead in Nampa, and a Vegetable Seed Production Research Intern in Caldwell.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Land Solutions, Land Surveying and Consulting, PC",
+   "company_domain": "landsolutions.biz",
+   "city": "Meridian",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.simplyhired.com/job/crhEs3BM7RL4sxPSr3IQR-7wlZ1A9rRhRSX9DXCLlMO6s-ecBKyd7g",
+   "lead_date": "",
+   "lead_note": "Locally owned Meridian surveying firm (20 years). Job boards show Land Survey Party Chief (posted days ago, Meridian) and Land Survey Technician (entry-level field crew, $20/hr). These are third-party listings; the company's own careers or ATS page still has to be found.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "HM.CLAUSE, Inc.",
+   "company_domain": "hmclause.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://lensa.com/job-v1/hm-clause/nampa-id/production-worker/077f5c0debd385db851c75b7770a6586",
+   "lead_date": "2026-08-25",
+   "lead_note": "Vegetable seed company at 1832 Garrity Blvd, Nampa. Search results show a Seasonal Agronomic Production Worker (Aug 25, 2026), a Stock Seed Specialist and a Quality Control Specialist, all in Nampa. Only third party boards so far; the official Limagrain or HM.CLAUSE ATS still needs confirming.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Water, Civil, and Environmental Inc.",
+   "company_domain": "wce-inc.com",
+   "city": "Boise",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.glassdoor.com/job-listing/senior-environmental-engineer-water-civil-and-environmental-inc-JV_IC1127927_KO0,29_KE30,63.htm?jl=1009556418933",
+   "lead_date": "",
+   "lead_note": "Women-owned Boise environmental/civil firm (83703). Seen hiring a Senior Environmental Engineer in Boise, with a second Indeed listing needing 6+ yrs experience. Weak lead: needs an own-site page and 2 live reqs.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Oldcastle Infrastructure, Inc. (Nampa precast plant)",
+   "company_domain": "oldcastleinfrastructure.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.equest.com/jobs/ID/oldcastle-infrastructure-inc/production-lead-485324028.html",
+   "lead_date": "2026-09-20",
+   "lead_note": "CRH precast concrete plant in Nampa. Production Lead posted Sep 20, 2026, plus Plant Manager (Precast Concrete Operations), EHS Coordinator, Operational Excellence Manager and Shift Leader roles tied to Nampa. Indeed shows 5 Nampa jobs.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  }
+ ]
+}

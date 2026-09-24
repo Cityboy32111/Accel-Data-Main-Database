@@ -1,0 +1,78 @@
+{
+ "batch_id": "v006",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Potlatch No. 1 Financial Credit Union (P1FCU)",
+   "company_domain": "p1fcu.org",
+   "city": "Eagle",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.instagram.com/p/DXadlLpjU3g/",
+   "lead_date": "2026-04-21",
+   "lead_note": "P1FCU Instagram post dated Apr 21, 2026 celebrates the grand opening of its Eagle Branch at 3635 W Johnny St, with an Eagle Chamber ribbon cutting and Business After Hours. Idaho based credit union that also has Meridian, Nampa and Garden City branches.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Birds of Prey Motorsports",
+   "company_domain": "birdsofpreymotorsports.com",
+   "city": "Caldwell",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://reasonstoride.com/event/bike-night-at-birds-of-prey-motorsports/",
+   "lead_date": "2026-08-15",
+   "lead_note": "Multi brand powersports dealer (Yamaha, Can Am, Sea Doo, Triumph, CFMOTO) at 721 Hannibal St, Caldwell. Bike Night event dated Aug 15, 2026, and it hosts Ride for 22 bike night rides.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Gem 73 Winery",
+   "company_domain": "gem73.com",
+   "city": "Caldwell",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/03/19/all-the-best-former-executives-come-out-of-retirement-to-build-a-new-winery-focused-on-connection/",
+   "lead_date": "2026-03-19",
+   "lead_note": "BoiseDev (Mar 19, 2026): new 15,500 sq ft winery and tasting room being built at 21254 Chalk Hills Ln in Sunnyslope, targeting a June opening. Its site says 'coming summer 2026' and has a careers page.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Washington Trust Bank",
+   "company_domain": "watrust.com",
+   "city": "Boise",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.facebook.com/WashingtonTrustBank/posts/boise-were-movingour-overland-branch-is-relocating-to-a-new-space-and-wed-love-f/1985058332724719/",
+   "lead_date": "2026-09-22",
+   "lead_note": "Company posts (Instagram dated Sep 22, 2026, also on Facebook and X) say the Boise Overland Branch is moving to 11059 W Overland Rd, with a ribbon cutting at 4 pm on Oct 13, 2026. Spokane based regional bank.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Uncharted Recreation",
+   "company_domain": "unchartedrec.com",
+   "city": "Meridian",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.facebook.com/UnchartedRecreation/",
+   "lead_date": "2026-09-11",
+   "lead_note": "Family owned RV dealer at 1005 E Fairview Ave Meridian; FB post Sep 11, 2026 says a new sign is going up, inventory is arriving daily, and they are on track for an October opening. Confirm the new site's address.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Charlie's Produce",
+   "company_domain": "charliesproduce.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://careers.smartrecruiters.com/CharliesProduce1/charlies-main",
+   "lead_date": "",
+   "lead_note": "The SmartRecruiters board (loaded) lists 3 Boise jobs: Class B Driver, Class A Driver and Order Selector Nights. Wholesale produce branch at 1262 Exchange St, Boise, opened 2017; the company is a family-owned Seattle distributor.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  }
+ ]
+}

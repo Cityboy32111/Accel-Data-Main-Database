@@ -1,0 +1,78 @@
+{
+ "batch_id": "v076",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "J.R. Simplot Company (Caldwell food plant)",
+   "company_domain": "simplot.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://careers.simplot.com/",
+   "lead_date": "",
+   "lead_note": "Boise headquartered, family owned food company with a large Caldwell potato processing plant. Job boards show 25 to 60 Caldwell openings, e.g. Raw Receiving Operator Crew D, High Bay Freezer Forklift Operator, Packaging A Crew C and Maintenance Support Technician 1. Confirm on careers.simplot.com.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Idaho Insulation",
+   "company_domain": "idahoinsulation.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://idahoinsulation.com/",
+   "lead_date": "",
+   "lead_note": "Family run spray foam and attic insulation contractor serving Nampa and Boise; site updated recently; hiring signal not yet confirmed.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Schmidt Construction Company, Inc.",
+   "company_domain": "schmidtconstruction.biz",
+   "city": "Caldwell",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/groups/208jobshelpwanted/posts/25186103374387611/",
+   "lead_date": "",
+   "lead_note": "Wet utility pipe contractor based in Caldwell (20109 Monte Way). A 208 Jobs group post says Schmidt is URGENTLY hiring pipe layers and laborers because its schedule is full, and the website has a Careers page. The post date was not visible, so it needs a dated company post or careers listing",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  },
+  {
+   "company_name": "Cornerstone Building Brands (Caldwell plant)",
+   "company_domain": "cornerstonebuildingbrands.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.smartrecruiters.com/CornerstoneBuildingBrandsCareers/3743990013651876-loader",
+   "lead_date": "",
+   "lead_note": "Loaded the SmartRecruiters posting: Loader, 1st shift, $22 to $24/hr, at the manufacturing plant at 4021 Skyway Street, Caldwell. Only one live Caldwell role confirmed so far; a second is needed.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "CMCI, LLC (Conveyored Materials Company of Idaho)",
+   "company_domain": "conveyoredmaterials.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://members.nampa.com/events-calendar/details/ribbon-cutting-conveyored-materials-company-1726340",
+   "lead_date": "2026-06-05",
+   "lead_note": "Loaded the Nampa Chamber page: ribbon cutting Jun 5, 2026 at 9265 Ustick Rd, Nampa. Local operator running five conveyor trucks and a 12 acre rock yard for material placement. Outside the manufacturing scope but inside the vertical.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Mountain View Equipment Co.",
+   "company_domain": "mtvieweq.com",
+   "city": "Meridian",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/mountainvieweq/posts/-service-technicians-ready-for-your-next-opportunity-mountain-view-equipment-is-/1543779644415444/",
+   "lead_date": "2026-04-15",
+   "lead_note": "CLAAS and New Holland ag and construction dealer (HQ Jerome) with a Meridian store; Facebook hiring post Apr 15, 2026 for Service Technician in Meridian; employment page lists sales, parts and service roles incl. Meridian. Need a second live Meridian posting.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  }
+ ]
+}

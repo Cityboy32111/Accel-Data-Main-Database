@@ -1,0 +1,78 @@
+{
+ "batch_id": "v035",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Center for Lifetime Health",
+   "company_domain": "centerforlifetimehealth.com",
+   "city": "Boise",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.centerforlifetimehealth.com/",
+   "lead_date": "",
+   "lead_note": "Independent family medicine, walk in and pediatric urgent care clinic at 111 W Main St Boise that also advertises Garden City care. No dated signal confirmed yet; next check is its hiring or new site status.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Peak Physical Therapy",
+   "company_domain": "peakphysicaltherapy.net",
+   "city": "Boise",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://careers.goconfluent.com/peak-physical-therapy/jobs",
+   "lead_date": "",
+   "lead_note": "Confluent Health careers portal. A LinkedIn snippet shows a Physical Therapist Technician at 3035 E Barber Valley Dr, Boise, posted about 6 days ago. The Nampa clinic page (formerly Idaho Physical Therapy) shows Now Hiring, and there is also a Middleton clinic. The portal did not render its job list, so recount there.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Skyline Transitional Care Center",
+   "company_domain": "skylinetransitional.com",
+   "city": "Boise",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://skylinetransitional.com/",
+   "lead_date": "",
+   "lead_note": "Skilled nursing and short term rehab at 1001 S Hilton St, Boise. The site says it is looking for professionals, and Indeed shows 11 jobs (housekeeper, SLP, OT, OTA, PT, CNA, RN). The operator is unconfirmed; the site format matches the Ensign affiliates.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Idaho Perio",
+   "company_domain": "idahoperio.com",
+   "city": "Meridian",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.glassdoor.co.in/Job/mountain-home-dental-office-jobs-SRCH_IL.0,13_IM594_KO14,27.htm",
+   "lead_date": "",
+   "lead_note": "Glassdoor snippet: Idaho Perio Surgical Dental Assistant in Boise, pay posted by the employer. Periodontal group with 3 offices: Meridian (2352 S Titanium Pl), Boise Vista Ave and Boise N Eagle Rd. A second live role still needs confirming.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Idaho Home Health & Hospice (LHC Group, part of Optum)",
+   "company_domain": "lhcgroup.com",
+   "city": "Meridian",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://careers.unitedhealthgroup.com/location/meridian-jobs/34088/6252001-5596512-5600685/4",
+   "lead_date": "",
+   "lead_note": "UnitedHealth Group careers shows 10 Meridian results incl. Physical Therapist Full Time and Certified Nursing Assistant (Idaho Home Health Meridian). Sister LHC brands Heart n Home Hospice and Treasure Valley Hospice screened as same parent; procurement may be corporate.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Dermatology Clinic of Idaho",
+   "company_domain": "idahoderm.com",
+   "city": "Boise",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://idahoderm.com/about/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page links an ADP Workforce Now requisition board. Glassdoor shows an Aesthetician opening. Clinic at 7733 W Emerald St, Boise. Footer lists an ET-hours support line, so a PE platform may own it; check.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v033",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "The River Club",
+   "company_domain": "riverclubboise.com",
+   "city": "Garden City",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://idahobusinessreview.com/2026/04/24/garden-city-river-club-golf-course-remodel-brian-curley/",
+   "lead_date": "2026-04-24",
+   "lead_note": "Private golf club in Garden City, formerly Plantation Country Club (renamed 2020). Idaho Business Review (Apr 24, 2026) says a large course remodel by Brian Curley is in its final stages; the article page did not load in the scraper, so this comes from the search snippet. The employment page takes applications for food and beverage, kitchen, golf shop, grounds and pool and pickleball staff.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Children's Museum of Idaho",
+   "company_domain": "cmidaho.org",
+   "city": "Meridian",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://visitboise.com/events/superhero-fun-run-health-expo/",
+   "lead_date": "2026-08-15",
+   "lead_note": "Museum hosted the SuperHero Fun Run and Health Expo on Aug 15, 2026 at Jabil Field and a Space Day at Nampa Civic Center in Sep 2026; museum at 790 S Progress Ave, Meridian, with a daily program calendar",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Stein Distributing Company, Inc.",
+   "company_domain": "steinbeer.com",
+   "city": "Boise",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.steinbeer.com/careers/",
+   "lead_date": "",
+   "lead_note": "Boise beer and specialty beverage wholesaler founded in 1956. The homepage says We're Hiring and the careers page links to a Paycom job board. Count the live Boise roles on that board.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  },
+  {
+   "company_name": "Zullee Mediterranean Grill",
+   "company_domain": "zullee.com",
+   "city": "Boise",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/08/19/local-mediterranean-restaurant-chain-strikes-deal-with-eagle-firm-to-help-fuel-expansion/",
+   "lead_date": "2026-08-19",
+   "lead_note": "BoiseDev (Aug 19, 2026): Boise headquartered chain (Nampa and Village at Meridian stores) took Alturas Ventures investment to expand. A third local store at Orchard Park is set to open and more Boise area sites are planned.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Capra Bank",
+   "company_domain": "caprabank.com",
+   "city": "Boise",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "market_expansion_hiring",
+   "lead_url": "https://boisedev.com/news/2026/07/30/bank-claiming-title-of-fastest-growing-opens-boise-branch/",
+   "lead_date": "2026-07-30",
+   "lead_note": "BoiseDev reported on Jul 30, 2026 that Capra Bank, based in Dubuque, Iowa, opened a Boise branch at 1400 S Vista Ave in a former Wells Fargo location, its fourth branch. This is a new market entry, and named local roles still need checking.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  },
+  {
+   "company_name": "Valley European Auto Service",
+   "company_domain": "",
+   "city": "Nampa",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/calendar/details/ribbon-cutting-valley-european-auto-service/19328635/2026-07-09T14",
+   "lead_date": "2026-07-09",
+   "lead_note": "BoiseDev calendar lists a Nampa Chamber ribbon cutting on Jul 9, 2026 welcoming Valley European Auto Service. It is an independent repair shop rather than a dealer, so the subsegment fit is loose; mechanic uniforms are the need.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  }
+ ]
+}

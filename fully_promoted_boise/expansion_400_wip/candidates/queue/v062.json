@@ -1,0 +1,78 @@
+{
+ "batch_id": "v062",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Right at Home Boise",
+   "company_domain": "rightathome.net",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.rightathome.net/boise/jobs",
+   "lead_date": "",
+   "lead_note": "Locally owned franchise jobs page lists 7 roles: CNA (Boise), CNA (Meridian), CNA (Nampa), Caregiver/Homemaker Companion (Boise, Meridian, Nampa) and Caregiver/Homemaker Boise; office on W State St Ste 313, Boise 83703.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "West Idaho Orthopedics & Sports Medicine",
+   "company_domain": "westidahoorthopedics.com",
+   "city": "Meridian",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://ascc.wsu.edu/companies/west-idaho-orthopedics-sports-medicine/jobs/",
+   "lead_date": "",
+   "lead_note": "Independent orthopedic group at 3875 E Overland Rd, Meridian and in Caldwell (Fruitland and Payette are out of scope). The contact page has a staffing/employment channel and there is a WSU jobs listing. Weak: open roles are unconfirmed.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Intermountain Hospital",
+   "company_domain": "intermountainhospital.com",
+   "city": "Boise",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.uhsinc.com/intermountain-hospital",
+   "lead_date": "",
+   "lead_note": "UHS careers portal for this Boise psychiatric hospital. LinkedIn shows 15 Boise jobs (admissions, dietary, reception, housekeeping) and Indeed shows RN Behavioral Health and LPN roles. The New Start Center for Recovery page is dated Jul 2 2026. The parent is Universal Health Services.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "East West DPC",
+   "company_domain": "eastwestdpc.com",
+   "city": "Meridian",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.eastwestdpc.com/",
+   "lead_date": "",
+   "lead_note": "Direct primary care clinic at 1524 W Cayuse Creek Dr Meridian. Small practice with no dated signal found yet; needs a hiring or expansion check.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Modern Chiropractic Center",
+   "company_domain": "modernchiropracticcenter.com",
+   "city": "Boise",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://modernchiropracticcenter.com/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page exists, but roles did not show in the scrape. ZipRecruiter and Glassdoor snippets show an Associate Chiropractor / Future Lead Doctor for the Boise and Nampa area and a Chiropractic Assistant. Clinics at 8631 W Ardene St, Boise and 206 S Midland Blvd, Nampa.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "CornerStone Senior Living",
+   "company_domain": "csseniorliving.com",
+   "city": "Boise",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.csseniorliving.com/come-work-with-us/",
+   "lead_date": "",
+   "lead_note": "Locally owned 50 unit memory care community at 350 S Allumbaugh Way, Boise. Its Come Work With Us page lists open positions for Caregiving/Med Tech and an independent Salon Stylist, with site photos uploaded Jun 2026. It may clear the two role bar only narrowly. This is not Pennant's former Cornerstone Healthcare.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  }
+ ]
+}

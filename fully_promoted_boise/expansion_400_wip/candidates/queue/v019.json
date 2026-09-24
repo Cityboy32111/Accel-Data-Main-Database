@@ -1,0 +1,78 @@
+{
+ "batch_id": "v019",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "EquipmentShare",
+   "company_domain": "equipmentshare.com",
+   "city": "Nampa",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.equipmentshare.com/location-directory/id/boise/equipment-rental",
+   "lead_date": "",
+   "lead_note": "National rental company with Nampa branch serving Boise; typically posts yard, driver and technician roles; verify Nampa requisitions and whether branch apparel is centrally supplied.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Creation Technologies (Meridian, formerly Computrol)",
+   "company_domain": "creationtech.com",
+   "city": "Meridian",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://creationtech.wd1.myworkdayjobs.com/Creation",
+   "lead_date": "",
+   "lead_note": "EMS electronics plant in Meridian; Workday board plus Indeed show Meridian Production Supervisor, Manufacturing Technician and Production Technician 2 TEST roles.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Boise Metal Works",
+   "company_domain": "boisemetalworks.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.snagajob.com/jobs/1285442755",
+   "lead_date": "",
+   "lead_note": "Custom Metal Fabricator opening in Boise ($20 to $29/hr); metal fabrication shop since 1994. Needs official careers confirmation.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Rekluse Motor Sports",
+   "company_domain": "rekluse.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/company/rekluse-motor-sports",
+   "lead_date": "",
+   "lead_note": "Clutch manufacturer at 12000 W Franklin Rd; LinkedIn post on Production Operator opening in Friction Bonding; Indeed shows CNC Programmer/Machinist, CNC Machine Operator, Manufacturing Technician.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "NW Label Boise",
+   "company_domain": "nwlboise.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/pre-press-digital-press-operator-at-nw-label-boise-4468029383",
+   "lead_date": "",
+   "lead_note": "Label printing plant at 432 N Steelhead Way; LinkedIn job Pre press / Digital press operator posted about 5 days before Sep 23, 2026; need second role.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Western Aircraft, Inc.",
+   "company_domain": "westair.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.lever.co/westair",
+   "lead_date": "",
+   "lead_note": "Aviation maintenance, avionics and interiors shop at 4300 Kennedy St; Lever board shows Experienced Avionics Technician, Aircraft Mechanic Boise, A&P Aircraft Maintenance Technician.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v005",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Revel Communities (Revel Eagle)",
+   "company_domain": "revelcommunities.com",
+   "city": "Eagle",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/5b83c721-5bd5-4da1-94bf-8d219d696f74/Revel-Communities",
+   "lead_date": "2026-06-10",
+   "lead_note": "146 unit independent senior living community at 745 E Riverside Dr, Eagle. The Paylocity board snippet shows a Revel Eagle Concierge On Call role dated Jun 10, 2026, and ZipRecruiter shows server roles at Revel Eagle. The board did not render in the scrape, so the count still needs confirming.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Pearl Dentistry",
+   "company_domain": "caldwelldentalcare.com",
+   "city": "Caldwell",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "http://www.caldwelldentalcare.com/about-us/community-involvement/",
+   "lead_date": "",
+   "lead_note": "Caldwell practice at 4012 Brian Ave; team volunteers at Give Kids a Smile and hosts community events (Halloween open house giveaways); needs a 2026 dated event",
+   "vertical": "healthcare",
+   "scope": "h_dental_canyon"
+  },
+  {
+   "company_name": "Soleo Health",
+   "company_domain": "soleohealth.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://xtalks.com/job/infusion-nurse-59/",
+   "lead_date": "2026-04-24",
+   "lead_note": "Specialty pharmacy and home infusion site in Boise (208 617 3600); Apr 24, 2026 posting for Per Diem Infusion Nurse for Boise and surrounding areas plus Paylocity Infusion Nurse req; national company, confirm second local role on Paylocity.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Intermountain Medical Imaging",
+   "company_domain": "aboutimi.com",
+   "city": "Meridian",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://aboutimi.com/careers-at-imi/",
+   "lead_date": "2026-08-04",
+   "lead_note": "Radiologic Technologist in Meridian posted Aug 4, 2026 (resume-library). A LinkedIn post advertises an Ultrasound Imaging Services Supervisor in Meridian. Sites: Boise, Magic View Meridian, Ten Mile Meridian and Eagle Health Plaza.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Idaho Youth Ranch",
+   "company_domain": "youthranch.org",
+   "city": "Caldwell",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/ba1a590a-a3da-4bcd-ad5e-fb8475855c63/Idaho-Youth-Ranch",
+   "lead_date": "2026-08-12",
+   "lead_note": "Paylocity board (snippet; the page renders only with JS) shows a Residential Manager posted 08/12/2026 for the Residential Center for Healing & Resilience (Hands of Promise campus, 28371 El Paso Rd, Caldwell). Other snippets show Youth Care Provider and Residential Nurse roles in Caldwell. This nonprofit also runs thrift stores.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Terry Reilly Health Services",
+   "company_domain": "trhs.org",
+   "city": "Nampa",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.trhs.org/careers",
+   "lead_date": "",
+   "lead_note": "Private nonprofit FQHC with clinics in Nampa, Caldwell, Boise and Meridian; careers page links an ApplicantPool board (trhs.applicantpool.com, JS rendered). Indeed lists about 24 Nampa roles (Clinical Supervisor, Dental Assistant, Housing Navigator, MA Nampa). Also demolition for a new Parma clinic Aug 20, 2026, but Parma is out of scope.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v094",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "The Stow Company",
+   "company_domain": "thestowcompany.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://thestowcompany.com/careers/nampa/",
+   "lead_date": "",
+   "lead_note": "550,000 sq ft closet systems plant in Nampa, about 220 jobs. Loaded the Nampa careers page, which says hiring continues but links out to Indeed. Indeed shows Maintenance Machine Repair I Nampa (2 hours old) and ZipRecruiter shows Maintenance Electrician 1st Shift Nampa.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "KD Roofing",
+   "company_domain": "kdroofing.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://kdroofing.com/employment-opportunities/",
+   "lead_date": "",
+   "lead_note": "Employment page (1100 E Overland Rd Meridian) recruits roofers with weekly pay and benefits via general form; no itemized roles, low confidence.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Sunnyridge Construction, LLC",
+   "company_domain": "sunnyridgeconstruction.com",
+   "city": "Nampa",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/p/Sunnyridge-Construction-LLC-100082112920572/",
+   "lead_date": "",
+   "lead_note": "Nampa GC and site contractor (3700 Sunnyridge Rd) and an Idaho AGC member. Facebook posts recruit grade crew operators, laborers and paving crew, but the post dates were not captured",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Best Bath Systems, Inc. (Bestbath)",
+   "company_domain": "bestbath.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/Details/4328203/Best-Bath-Systems/Swing-Shift-Production-Operator",
+   "lead_date": "",
+   "lead_note": "Bath and shower systems plant at 723 Garber St, Caldwell. The Paylocity board shows Swing Shift Production Operator, Production Operator and CNC Machinist in Caldwell; ZipRecruiter shows 6 Caldwell jobs.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Big City Insulation of Idaho",
+   "company_domain": "bigcityinsulationidaho.com",
+   "city": "Nampa",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.bigcityinsulationidaho.com/careers/",
+   "lead_date": "",
+   "lead_note": "Insulation installer at 1314 Shilo Dr Nampa, part of Installed Building Products; careers page mentions quarterly installers BBQ and summer picnic; IBP Insulation Installer posting Sep 13, 2026 may be this branch.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Nampa Paving & Asphalt Co.",
+   "company_domain": "nampapaving.com",
+   "city": "Nampa",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://nampapaving.com/jobs/",
+   "lead_date": "",
+   "lead_note": "Family owned paver since 1983 (444 W Karcher Rd, Nampa). The jobs page says Now Hiring with an online application, and Indeed shows a Grade Crew/Laborer/Operator posting in Nampa at $20 to $32 an hour; confirm two or more distinct roles",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_canyon_civil"
+  }
+ ]
+}

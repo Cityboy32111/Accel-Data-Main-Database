@@ -1,0 +1,78 @@
+{
+ "batch_id": "v093",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Rebel Roofing",
+   "company_domain": "rebelroofingidaho.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://rebelroofingidaho.com/careers/",
+   "lead_date": "",
+   "lead_note": "Family owned Boise roofer (4697 N Tumbleweed Pl) careers page 'Rebel Roofing is hiring' form; form asks for crew size and contractor license so may be subcontract crews. Low confidence.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Jordan-Wilcomb Construction, Inc.",
+   "company_domain": "jordan-wilcomb.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://tallo.com/talent/job/architecture-and-construction/construction-helper-or-worker/id/commercial-construction-labore-b467e3e7",
+   "lead_date": "",
+   "lead_note": "Idaho's oldest operating GC, at 600 S 8th St, Boise. A Commercial Construction Laborer posting for various Boise jobsites was seen on a third party board. Weak lead: official postings still need finding",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "PerforMix Nutrition Systems, LLC",
+   "company_domain": "performixnutrition.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://talents.vaia.com/companies/performix-nutrition-systems-llc/",
+   "lead_date": "",
+   "lead_note": "Livestock feed supplement maker (an Agri Beef company) with its manufacturing HQ in Nampa. Search results show a Nampa Intern (posted about Sep 17 to 19, 2026) and a Feed Production Tech. Roles are listed through agribeef.com careers, which needs confirming. Lead URL is inferred from a search snippet, not opened.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "G&G Insulation, LLC",
+   "company_domain": "gandginsulation.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://gandginsulation.com/",
+   "lead_date": "",
+   "lead_note": "Locally owned insulation contractor since 1951, HQ 75 W Taylor #800 Meridian plus Twin Falls branch; hiring signal not yet seen, check careers/Indeed.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Exyte U.S., Inc.",
+   "company_domain": "exyte.net",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://careers.exyte.net/global/en/job/EGQEGGGLOBAL22496EXTERNALENGLOBAL/Mechanical-Engineer-Exentec",
+   "lead_date": "",
+   "lead_note": "Semiconductor design builder with Boise openings on its own careers site, including a Mechanical Engineer at Exentec, its Nampa unit. LinkedIn shows a Lead Chemical Engineer in Boise. BoiseDev reported in Nov 2025 that it was replaced as Micron GC, so confirm a current local site",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Capitol Distributing (Jacksons Companies)",
+   "company_domain": "capitoldist.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/food-production-worker-at-jacksons-food-stores-4468175377",
+   "lead_date": "",
+   "lead_note": "Locally owned distributor running a food production plant in Caldwell. Search results show Food Production Worker (posted about Sep 21, 2026), Food Plant Operator II Production and Materials Lead, and a Food Plant Supply Chain Supervisor, all in Caldwell.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v070",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Aviation Specialties Unlimited, Inc.",
+   "company_domain": "asu-nvg.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.asu-nvg.com/",
+   "lead_date": "",
+   "lead_note": "Boise night vision and aviation equipment modifier found via Apollo; no posting observed in this pass, careers page needs checking.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Sloan Metal Solutions",
+   "company_domain": "sloanmetals.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://webuildidaho.ourcareerpages.com/job/137218?source=ccp&returnURL=",
+   "lead_date": "",
+   "lead_note": "Idaho AGC career board posting Welder/Steel Fabricator (structural steel, MIG/TIG) at family owned Boise fab shop since 1991; separate ourcareerpages Administrative Assistant, structural steel fabrication shop 83709. Part of Sloan Security Group.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "Hansen-Rice, Inc.",
+   "company_domain": "hansen-rice.com",
+   "city": "Nampa",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.ourcareerpages.com/job/596943~Primary?source=Indeed",
+   "lead_date": "",
+   "lead_note": "Industrial design build GC with its HQ at 1717 E Chisholm Dr, Nampa. Its own ATS shows a Project Manager General Construction role in Nampa, and Glassdoor lists Project Superintendent and Project Engineer GC Operations roles in Nampa",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Allied Seed, LLC",
+   "company_domain": "alliedseed.com",
+   "city": "Nampa",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.growmark.com/alliedseed/go/Allied-Seed-Jobs/9512300/",
+   "lead_date": "",
+   "lead_note": "Loaded the GROWMARK SuccessFactors board for Allied Seed: 2 live Nampa plant roles (Warehouse Operator, Inventory Specialist). This is a seed packaging and processing plant in Nampa; the parent is GROWMARK.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Boise River Fence, Inc. (dba Boise River Industries)",
+   "company_domain": "boiseriverfence.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://web.idahoagc.org/Services/Boise-River-Fence,-Inc-dba-Boise-River-Industries-3157",
+   "lead_date": "",
+   "lead_note": "Commercial fence contractor at 5200 W Bethel St Boise, Idaho AGC member with job board link; Indeed shows welder and iron cutter roles. Signal not yet confirmed.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_structure"
+  },
+  {
+   "company_name": "JC Constructors, Inc.",
+   "company_domain": "jccboise.com",
+   "city": "Meridian",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.jccboise.com/apply",
+   "lead_date": "",
+   "lead_note": "Heavy civil water and wastewater contractor at 1305 E Columbia Rd, Meridian. It has an online job application page, and third party boards list Concrete Formwork Carpenter and Concrete Finisher roles. An official posting count still needs confirming",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  }
+ ]
+}

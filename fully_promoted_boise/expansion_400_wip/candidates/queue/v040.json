@@ -1,0 +1,78 @@
+{
+ "batch_id": "v040",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "NxEdge Inc.",
+   "company_domain": "nxedge.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://careers.enpro.com/jobs/search?page=1&department_uids%5B%5D=820f0769ca57a81705e53b582fbaf745&query=",
+   "lead_date": "",
+   "lead_note": "Enpro careers board (loaded) shows 17 live NxEdge Boise openings incl Operations Manager, CNC Lathe and Mill Machinist, Production Operator, Prod Tech I, Quality Manager, Material Handler; Enpro subsidiary.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Interwest Supply",
+   "company_domain": "interwestsupply.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://interwestsupply.com/",
+   "lead_date": "",
+   "lead_note": "Caldwell irrigation supply and pump service firm (pivot repair, pump bearing service); field crews; signal not yet confirmed.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Rhino Pumps",
+   "company_domain": "rhinopumps.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.rhinopumps.com/caldwell-id",
+   "lead_date": "",
+   "lead_note": "Pump sales and field service for irrigation and municipal systems based in Caldwell serving Treasure Valley; signal not yet confirmed.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Industrial Hardware Idaho",
+   "company_domain": "ihidaho.com",
+   "city": "Garden City",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.ihidaho.com/",
+   "lead_date": "",
+   "lead_note": "Local construction tool, fastener and hardware supplier at 115 E 48th St (Boise 83714 mailing, Garden City area); confirm city and look for hiring or dated posts.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Gem State Metals",
+   "company_domain": "gemstatemetals.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://gemstatemetals.com/",
+   "lead_date": "",
+   "lead_note": "Veteran owned metal supermarket with CNC plasma, shearing and fabrication off Chinden; confirm Boise vs Garden City address and any dated hiring.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Beniton Construction Company, Inc.",
+   "company_domain": "beniton.com",
+   "city": "Meridian",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://www.idahobids.com/government-agencies/canyon/vallivue-school-district-139-41752/13167327-falcon-ridge-elementary-school.html",
+   "lead_date": "",
+   "lead_note": "Meridian CM/GC at 389 SW 5th Ave. The Falcon Ridge Elementary (Vallivue SD) 2026 bid listing routes plan sets through Beniton's office as CM, and it holds a CM agreement on the Canyon County Elections Building. The dates need checking",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  }
+ ]
+}

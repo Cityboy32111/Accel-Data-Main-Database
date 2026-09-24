@@ -1,0 +1,78 @@
+{
+ "batch_id": "v055",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "BHB Structural",
+   "company_domain": "bhbengineers.com",
+   "city": "Meridian",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/BHBStructural/",
+   "lead_date": "",
+   "lead_note": "Idaho office at 390 E Corporate Dr Ste 104, Meridian. A company post says 'We're growing our Idaho team' (Senior Project Manager, structural), and a board shows Structural Engineer P.E. in Meridian. Post dates unconfirmed. HQ is Salt Lake City.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Rocky Mountain Packaging",
+   "company_domain": "rockymtnpackaging.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://members.idmfg.org/jobs",
+   "lead_date": "2026-08-04",
+   "lead_note": "cGMP contract packager at 3214 E Amity Rd; IMA job board (loaded) shows Production Line Lead posted 08/04/2026; need a second local posting.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "HMH Engineering",
+   "company_domain": "hmh-llc.com",
+   "city": "Meridian",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.hmh-llc.com/job-listing-survey-party-chief",
+   "lead_date": "",
+   "lead_note": "Engineering and surveying firm with a Meridian office (it acquired Boise-based Fox Land Surveys earlier). The own-site listing for Survey Party Chief names Meridian, ID as the location. Only one req seen; weak lead.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Trinity Trailer Mfg., Inc.",
+   "company_domain": "trinitytrailer.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://trinitytrailer.com/about-us/careers",
+   "lead_date": "2026-08-24",
+   "lead_note": "All trailers built at Boise plant; careers page lists Welder and Service/Maintenance Technician Boise; Machine Operator (Fabricated Parts) listing dated Aug 24, 2026.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Engineering Consultants, Inc.",
+   "company_domain": "eciboise.com",
+   "city": "Boise",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.eciboise.com/careers/",
+   "lead_date": "",
+   "lead_note": "MEP and refrigeration engineering firm at 303 S Federal Way Boise; careers page shows Drafter/BIM Modeler opening; confirm second role.",
+   "vertical": "construction_industrial",
+   "scope": "c_apollo_jobs"
+  },
+  {
+   "company_name": "Swire Coca-Cola, USA (Meridian production)",
+   "company_domain": "swirecc.com",
+   "city": "Meridian",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/production-maintenance-technician-at-swire-coca-cola-usa-4466141227",
+   "lead_date": "2026-09-14",
+   "lead_note": "Production Maintenance Technician in Meridian posted Sep 14, 2026; large bottler, uniform program may be corporate, confirm local buying.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  }
+ ]
+}

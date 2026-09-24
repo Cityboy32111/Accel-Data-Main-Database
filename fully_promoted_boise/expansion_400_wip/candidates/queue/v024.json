@@ -1,0 +1,78 @@
+{
+ "batch_id": "v024",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Kendall Auto Idaho (Kendall Dealership Holdings LLC)",
+   "company_domain": "kendallautoidaho.com",
+   "city": "Meridian",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.kendallautoidaho.com/jobs/",
+   "lead_date": "",
+   "lead_note": "Dealer group with stores in Boise, Meridian and Nampa (Kendall Ford of Meridian, Kendall Hyundai of Nampa, Kendall Auto Mall and others). Paylocity shows Service Porter (Kendall Ford of Meridian), HR Staffing Specialist (Meridian), Phone Receptionist (Meridian), Quick Lane Technician and Diesel Technician. Record it as one group.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Riverstone International School",
+   "company_domain": "riverstoneschool.org",
+   "city": "Boise",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.riverstoneschool.org/about-us/careers-at-riverstone/",
+   "lead_date": "2026-09-21",
+   "lead_note": "Careers page (updated Sep 21, 2026, loaded) lists Bus Driver, Elementary School Substitute Teachers and Middle and High School Substitute Teachers for the 5521 E Warm Springs Ave Boise PreK to 12 IB day and boarding campus.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Timmy's Tree Service",
+   "company_domain": "timmystrees.com",
+   "city": "Nampa",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.timmystrees.com/careers/",
+   "lead_date": "",
+   "lead_note": "The careers page lists Groundsman, Tree Climber I and Tree Climber II, all based in Nampa. There is a second office at 10780 W Excalibur St, Boise. The company is family owned and has operated since 2006.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Bogus Basin Recreational Association, Inc.",
+   "company_domain": "bogusbasin.org",
+   "city": "Boise",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/Recruiting/Jobs/All/5733a42d-4243-4f7d-8b77-c8f55301d34d/Bogus-Basin-Recreational-Association-Inc",
+   "lead_date": "2026-09-17",
+   "lead_note": "Nonprofit ski and four season recreation area with a Boise downtown sales office. Its Paylocity board showed 19 openings, including Winter Ticket Office Associate 26/27 (Sep 17, 2026), Winter Sustainability Technician (Sep 14, 2026), Snowcat Operator, CDL Plow Crew and Nordic Instructor.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  },
+  {
+   "company_name": "Girl Scouts of Silver Sage Council",
+   "company_domain": "girlscouts-ssc.org",
+   "city": "Boise",
+   "subsegment": "nonprofit_staff_events",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.girlscouts-ssc.org/",
+   "lead_date": "",
+   "lead_note": "Boise based council runs camp and outdoor programs, Girl Scout kickoff events and the cookie program; a Seasonal Community Recruiter part time Boise role is listed on a job aggregator; the signal is weak and undated, and uniforms may come from the national shop",
+   "vertical": "adjacent_verticals",
+   "scope": "a_nonprofits"
+  },
+  {
+   "company_name": "Holman Transportation Services, Inc.",
+   "company_domain": "holmantransport.com",
+   "city": "Caldwell",
+   "subsegment": "logistics_distribution",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/company/holman-transportation",
+   "lead_date": "",
+   "lead_note": "Refrigerated truckload carrier at 1010 Holman Ct, Caldwell, with about 164 trucks. Leonard's Express bought its assets in 2021, so confirm it still operates under the Holman name and record the parent. A Caldwell job-seeker group post named Holman among hiring carriers; the post date is unclear.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_logistics"
+  }
+ ]
+}

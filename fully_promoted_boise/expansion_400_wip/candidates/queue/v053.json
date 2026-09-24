@@ -1,0 +1,78 @@
+{
+ "batch_id": "v053",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Advanced Family Medicine",
+   "company_domain": "afmboise.com",
+   "city": "Kuna",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://afmboise.com/about/job-openings/",
+   "lead_date": "",
+   "lead_note": "Family medicine and OB clinic with Kuna (825 W Deer Flat Rd) and Nampa offices, Nampa Chamber member; job openings page (loaded) lists MA Phlebotomist/Admin. A Sep 2026 MAA listing for a Kuna private practice hiring a family physician may also be theirs. Only one role confirmed so far.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Mountain Land Physical Therapy (Mountain Land Rehabilitation LLC)",
+   "company_domain": "mlpt.com",
+   "city": "Boise",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.mlpt.com/careers/",
+   "lead_date": "2026-09-23",
+   "lead_note": "Careers page says it is hiring across Utah, Idaho and Montana and links to a Paylocity board. A PRN PT posting (search snippet only, not opened) lists Downtown Boise, Maple Grove, Meridian, Eagle, Nampa, Kuna and Caldwell clinics. Based in Utah but has many local sites.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Grace Assisted Living",
+   "company_domain": "graceseniorcommunity.com",
+   "city": "Caldwell",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://graceseniorcommunity.com/careers/",
+   "lead_date": "",
+   "lead_note": "Idaho family owned operator (Kamo family) with sites at Boise Englefield, Boise Eagle, State Street Memory Care, Caldwell, Meridian and Nampa. The careers page advertises caregiver, CNA, med tech and dining roles, and Indeed and Glassdoor show med tech and caregiver jobs in Caldwell and Meridian. This is not Grace Management, which is excluded.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Happy Campers Pediatric Dentistry",
+   "company_domain": "happycamperspd.com",
+   "city": "Meridian",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.career.com/job/happy-campers-pediatric-dentistry/dental-assistant/j202311142135422114378",
+   "lead_date": "2026-08-22",
+   "lead_note": "Loaded posting: full time Dental Assistant in Meridian, posted Aug 22 2026 and closed Sep 19 2026, with sedation surgery center days. A SimplyHired snippet also shows a Clinic Coordinator role. Need 2 or more live roles.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Senior Helpers of Boise Treasure Valley",
+   "company_domain": "seniorhelpers.com",
+   "city": "Meridian",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.seniorhelpers.com/id/boise-treasure-valley/careers/",
+   "lead_date": "",
+   "lead_note": "Independently owned franchise; careers page says We Are Hiring Now for caregivers, home health aides and CNAs at the Meridian location (days, evenings, nights, weekends, live in); Great Place to Work badge dated May 2026.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Eyecare Associates of Idaho (Eyecare Associates of Nampa)",
+   "company_domain": "ecaidaho.com",
+   "city": "Nampa",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://ecanampajobs.com/",
+   "lead_date": "",
+   "lead_note": "Own careers board (scraped Sep 23, 2026) lists 5 openings: Eyewear Specialist Nampa, Optical Sales Associate/Optician Nampa, Eyewear Sales Specialist Kuna, Optical Sales Associate/Optician Kuna, Medical Receptionist Kuna. Clinics in Nampa, Boise and Kuna.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  }
+ ]
+}

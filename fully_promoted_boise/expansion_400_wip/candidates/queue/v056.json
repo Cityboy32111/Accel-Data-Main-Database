@@ -1,0 +1,78 @@
+{
+ "batch_id": "v056",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Access Behavioral Health Services",
+   "company_domain": "accessbhs.com",
+   "city": "Nampa",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://accessbhs.com/job-openings/",
+   "lead_date": "",
+   "lead_note": "Own jobs page (loaded) lists a Wraparound Program Care Coordinator (Nampa), CBRS/Case Manager roles (Boise and Nampa), a Mental Health Counselor, an SUD Counselor (Boise) and a Habilitative Intervention Specialist. Offices are at 1276 W River St, Boise and 3307 Caldwell Blvd, Nampa.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Boise Family Medicine",
+   "company_domain": "boisefamilymedicine.com",
+   "city": "Boise",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.boisefamilymedicine.com/careers/",
+   "lead_date": "",
+   "lead_note": "Independent family practice with Quick Care service; careers page (loaded) lists a live Certified Medical Assistant opening, and a Glassdoor MA Family Medicine posting runs four 10 hour weekday shifts. Only one confirmed role, so hiring count needs checking.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Therapeutic Associates Physical Therapy",
+   "company_domain": "therapeuticassociates.com",
+   "city": "Meridian",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.therapeuticassociates.com/careers/open-positions/",
+   "lead_date": "2026-09-23",
+   "lead_note": "Dayforce board loaded Sep 23, 2026 has Meridian and Boise and Treasure Valley filters, but the first postings shown were in Oregon and Washington. The North Meridian page shows no openings. The Eagle clinic has closed; Meridian, Boise and Nampa clinics are open. Weak until Idaho roles are counted.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Timber Springs Transitional Care",
+   "company_domain": "timberspringscare.com",
+   "city": "Boise",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://timberspringscare.com/",
+   "lead_date": "",
+   "lead_note": "Skilled nursing and short term rehab at 1140 N Allumbaugh St, Boise. It is an Ensign Group affiliate (acquired Jul 2025) and uses ensignservices contact addresses. Indeed lists 5 Timber Springs jobs (RN and others). The site sits behind a bot check, so the hiring page needs a direct load.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Morning Star Dental",
+   "company_domain": "mystardentist.com",
+   "city": "Star",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://us.job-medley.com/facility/5444/",
+   "lead_date": "2026-07-21",
+   "lead_note": "Family practice at 88 N Seneca Springs Way, Star; job board shows 2 openings (Front Desk Receptionist posted Jul 21, 2026; Part Time Dental Hygienist)",
+   "vertical": "healthcare",
+   "scope": "h_dental_canyon"
+  },
+  {
+   "company_name": "Greenstaff HomeCare",
+   "company_domain": "greenstaffhomecare.com",
+   "city": "Meridian",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.greenstaffhomecare.com/locations/boise",
+   "lead_date": "",
+   "lead_note": "Boise/Meridian office at 1047 S Wells St Suite 104, Meridian with named Care Partner Experience Manager and Client Experience Manager seats and a Join Our Team job link; multi state operator (Phoenix HQ).",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  }
+ ]
+}

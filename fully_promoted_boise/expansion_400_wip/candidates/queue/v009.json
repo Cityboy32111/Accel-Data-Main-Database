@@ -1,0 +1,78 @@
+{
+ "batch_id": "v009",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "El Tenampa Mexican Grill & Cantina",
+   "company_domain": "eltenampaidaho.com",
+   "city": "Nampa",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/04/15/el-tenampa-rebuild/",
+   "lead_date": "2026-04-15",
+   "lead_note": "BoiseDev (Apr 15, 2026): construction of a new building at 248 Caldwell Blvd, Nampa started Apr 20. The Pedraza family group also runs El Tenampa Meridian, two Metztli taquerias and the Colombia Event Center in Caldwell.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "WaFd Bank",
+   "company_domain": "wafdbank.com",
+   "city": "Meridian",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/07/30/bank-claiming-title-of-fastest-growing-opens-boise-branch/",
+   "lead_date": "2026-07-30",
+   "lead_note": "A BoiseDev 2026 bank expansion result says WaFd Bank recently opened on Milwaukee St, Boise, is building a branch at Eagle Rd and Ustick in Meridian, and plans another on Ten Mile Rd, Meridian. Check that this Jul 30 article is where that is stated. WaFd is a regional bank based in Seattle.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  },
+  {
+   "company_name": "Rocket Express Car Wash",
+   "company_domain": "",
+   "city": "Meridian",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.instagram.com/p/Db8vqt4AY91/",
+   "lead_date": "2026-08-12",
+   "lead_note": "A Meridian Chamber Instagram post on Aug 12, 2026 celebrated the ribbon cutting of Rocket Express Car Wash. The car wash crew makes it a uniform candidate, but the subsegment fit is loose. Whether it is independent or a chain, and its address, need checking.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  },
+  {
+   "company_name": "Idaho Show Sports",
+   "company_domain": "idahoshowsports.com",
+   "city": "Boise",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.idahoshowsports.com/page/show/5245099-club-information-",
+   "lead_date": "",
+   "lead_note": "Club volleyball, baseball and softball organization (Facebook lists 1775 W State St Boise). Its 2026 to 27 volleyball season adds a new 12 week Idaho Show Volleyball Academy for 10U to 17U teams, and tryouts are at Boise High.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Keystone Pacific Property Management, LLC",
+   "company_domain": "kppm.com",
+   "city": "Meridian",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/81d7e5bb-4914-4c82-b82c-ecb50d23d736/Keystone-Pacific-Property-Management",
+   "lead_date": "2026-09-08",
+   "lead_note": "The Paylocity snippet shows Community Association Manager (Boise) and Assistant Maintenance Technician (Boise), both dated 09/08/2026. The Idaho office is at 2318 S Eagle Rd, Meridian (kppmidaho.com). Its site says AMI (Association Management Inc) is now Keystone, so this is an HOA management consolidation. The HQ is in California.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Tee Box Meridian",
+   "company_domain": "tbx.golf",
+   "city": "Meridian",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/06/11/new-indoor-golf-training-facility-opening-in-meridian/",
+   "lead_date": "2026-06-12",
+   "lead_note": "BoiseDev (Jun 12, 2026): a new indoor golf training facility at 535 N Locust Grove Rd, co-owned locally, with founding members at end of July and a grand opening in August 2026. It offers coaching, a golf fitness gym, junior programs and corporate memberships. The Tee Box brand also has a Utah site, so check franchise status.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  }
+ ]
+}

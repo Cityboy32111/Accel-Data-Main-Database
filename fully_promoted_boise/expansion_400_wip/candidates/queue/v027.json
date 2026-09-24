@@ -1,0 +1,78 @@
+{
+ "batch_id": "v027",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Tante Emma",
+   "company_domain": "",
+   "city": "Boise",
+   "subsegment": "hospitality_breweries",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/news/2026/08/12/the-american-dream-is-very-much-alive-popular-garden-valley-restaurant-expanding-to-boises-downtown-scene/",
+   "lead_date": "2026-08-12",
+   "lead_note": "BoiseDev (Aug 12, 2026) and Idaho Statesman (Aug 19, 2026): the Garden Valley German restaurant and biergarten is opening its second location at 855 W Broad St, Boise (former Bonefish, Hawkins HQ building). The remodel is underway and a podcast mentions a late November target. Website domain not confirmed (Facebook/Instagram only).",
+   "vertical": "adjacent_verticals",
+   "scope": "a_hospitality"
+  },
+  {
+   "company_name": "Westmark Credit Union",
+   "company_domain": "westmark.org",
+   "city": "Nampa",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/Details/4461976/Westmark-Credit-Union/Member-Advisor---Idaho-Center-Branch",
+   "lead_date": "",
+   "lead_note": "Its Paylocity board shows a Member Advisor role at the Idaho Center Branch (6034 Birch Lane, Nampa) among 5 openings, some in Twin Falls and Idaho Falls. Idaho Falls based, with several Boise area branches. It may have only 1 local role.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Edmark Toyota",
+   "company_domain": "edmarktoyota.com",
+   "city": "Nampa",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.edmarktoyota.com/careers/",
+   "lead_date": "",
+   "lead_note": "Toyota store at 15933 N Idaho Center Blvd, Nampa. Careers page loaded Sep 23, 2026 invites applicants for new and pre owned sales consultants, service technicians and service valets/porters. Indeed also shows Nampa Lot Porter postings, and uniforms are listed as a benefit.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Boise Timbers Thorns",
+   "company_domain": "boisetimbersthorns.org",
+   "city": "Meridian",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://boisetimbersthorns.org/programs/competitive/",
+   "lead_date": "2026-05-30",
+   "lead_note": "Competitive programming page (dated May 30, 2026 in snippet) lists the 2026 to 2027 coaching staff for Thorns girls and Timbers boys. About 400 players a year, ECNL girls, summer camps and tryouts. Based in Meridian.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "The Logan Luxury Living",
+   "company_domain": "",
+   "city": "Nampa",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://nampahorizon.growthzoneapp.com/events-calendar/Details/ribbon-cutting-the-logan-luxury-living-1919532?sourceTypeId=Website",
+   "lead_date": "2026-09-29",
+   "lead_note": "Nampa Chamber posted a ribbon cutting on Sep 29, 2026 for The Logan Luxury Living, a new apartment community at 2409 Sundance Rd, Nampa. The property management operator still needs to be identified and would be the buyer.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_chamber_sweep"
+  },
+  {
+   "company_name": "Treasure Valley Skate",
+   "company_domain": "treasurevalleyskate.com",
+   "city": "Boise",
+   "subsegment": "fitness_recreation",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://boisemom.com/venue/treasure-valley-skate/",
+   "lead_date": "2026-09-07",
+   "lead_note": "Boise's only roller rink, at 4712 W State St. Recurring dated public sessions and themed nights (Sep 7, 2026 session; Aug 22 themed night on Instagram) and weekly lesson programs suggest a steady need for staff and event apparel.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_fitness"
+  }
+ ]
+}

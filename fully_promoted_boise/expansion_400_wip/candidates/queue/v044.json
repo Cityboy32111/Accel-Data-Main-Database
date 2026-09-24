@@ -1,0 +1,78 @@
+{
+ "batch_id": "v044",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Small Talk Pediatric Therapy",
+   "company_domain": "smalltalkpediatrictherapy.com",
+   "city": "Meridian",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://smalltalkpediatrictherapy.com/meet-the-team/careers/",
+   "lead_date": "",
+   "lead_note": "Pediatric speech, OT and PT clinic at 3086 W Milano Dr, Meridian. Its site navigation has a 'Career Opportunity' page, which I did not open. Site says it is accepting new clients.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Swan Falls Assisted Living (Bestlife Healthcare)",
+   "company_domain": "bestlifehealthcare.health",
+   "city": "Kuna",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.bestlifehealthcare.health/",
+   "lead_date": "",
+   "lead_note": "Assisted living and memory care at 194 W White Way, Kuna, and the main Kuna option found. This is a small independent operator and no dated signal was found yet, so the signal is low confidence.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Caldwell Orthodontics",
+   "company_domain": "caldwellorthodontics.com",
+   "city": "Caldwell",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.caldwellorthodontics.com/",
+   "lead_date": "",
+   "lead_note": "Independent orthodontic practice in Caldwell. No dated signal seen yet; gives Canyon County coverage.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "The Idaho Center for Reproductive Medicine",
+   "company_domain": "idahoreproductive.com",
+   "city": "Meridian",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://idahoreproductive.com/",
+   "lead_date": "",
+   "lead_note": "Homepage announces a 'New Office in Meridian!': a pregnancy care center in Talus Professional Plaza, 3875 E Overland Rd Ste 103. Main clinic is 1000 E Park Blvd, Boise. Undated, so a 2026 date source is still needed.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Oak Ridge Recovery",
+   "company_domain": "oakridgeidaho.com",
+   "city": "Meridian",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.eventbrite.com/e/open-house-oak-ridge-recovery-tickets-1988110604336",
+   "lead_date": "2026-06-02",
+   "lead_note": "Eventbrite page (loaded) lists an open house on Jun 2 2026 at the new outpatient SUD and mental health site, 2650 S Eagle Rd Ste 100, Meridian. The company is founder led and independent, with a VP of Patient Access.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "West Valley Medical Center",
+   "company_domain": "westvalleymedctr.com",
+   "city": "Caldwell",
+   "subsegment": "hospital_health_system",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.westvalleymedctr.com/",
+   "lead_date": "",
+   "lead_note": "HCA hospital in Caldwell. Apollo flags active job postings in Treasure Valley cities since Aug 2026. Its renovation news is from 2025, so do not use it. Confirm two or more local roles on the careers site.",
+   "vertical": "healthcare",
+   "scope": "h_news_systems"
+  }
+ ]
+}

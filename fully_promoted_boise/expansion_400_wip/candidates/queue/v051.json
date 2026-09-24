@@ -1,0 +1,78 @@
+{
+ "batch_id": "v051",
+ "vertical": "adjacent_verticals",
+ "candidates": [
+  {
+   "company_name": "Treasure Valley Subaru",
+   "company_domain": "tvsubaru.com",
+   "city": "Nampa",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.prnewswire.com/news-releases/treasure-valley-subaru-in-idaho-receives-2026-subaru-love-promise-retailer-of-the-year-award-302861940.html",
+   "lead_date": "2026-08-27",
+   "lead_note": "PR Newswire Aug 27, 2026: named the 2026 Subaru Love Promise Retailer of the Year for community giving programs. The careers page (5605 E Gate Blvd, Nampa) reads 'Now Hiring', and the FB page says 'We are expanding!'.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Bishop Kelly High School",
+   "company_domain": "bk.org",
+   "city": "Boise",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://www.bk.org/important-info-2026/",
+   "lead_date": "",
+   "lead_note": "2026 to 2027 info page (loaded) shows Aug 7, 2026 new student orientation with the BK Spirit Store open and a fall 2026 head coach roster across many teams; search snippet shows an employment page recruiting a part time athletics bus driver. Private Catholic high school, 7009 Franklin Rd Boise.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  },
+  {
+   "company_name": "Rental Management Associates",
+   "company_domain": "rentalsinboise.com",
+   "city": "Boise",
+   "subsegment": "property_management_landscaping",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://rentalsinboise.com/june-2026-owner-newsletter/",
+   "lead_date": "",
+   "lead_note": "The June 2026 owner newsletter, titled 'Expansion News', announces growth into the Magic Valley and Twin Falls. The Boise HQ at 9436 W Fairview Ave is the buying unit. Because the expansion is outside Ada and Canyon counties, local roles would strengthen this lead.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_propmgmt_landscape"
+  },
+  {
+   "company_name": "Pioneer Federal Credit Union",
+   "company_domain": "pioneerfcu.org",
+   "city": "Caldwell",
+   "subsegment": "banks_credit_unions",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.pioneerfcu.org/Blog/What-s-New",
+   "lead_date": "2026-03-06",
+   "lead_note": "The company's What's New blog (search snippet dated Mar 6, 2026) says it is building a new branch in Caldwell. Momentum lists the Caldwell branch build as a project. Mountain Home based credit union with Boise and Nampa branches.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_banks"
+  },
+  {
+   "company_name": "Eco Motors",
+   "company_domain": "ecomotors.us",
+   "city": "Star",
+   "subsegment": "auto_equipment_dealers",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.facebook.com/p/Twin-Falls-Eco-Motors-61573059000915/",
+   "lead_date": "2026-07-20",
+   "lead_note": "Golf cart and low speed EV dealer headquartered at 10366 W State St, Star, with a Meridian showroom at 1720 W Franklin Rd (shared with Idaho Recreation Superstore and Denago Idaho, likely affiliates). Twin Falls store page is active Jul 2026; that expansion is outside the territory, so a local signal is needed.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_dealers"
+  },
+  {
+   "company_name": "Boise Baseball Academy",
+   "company_domain": "boisebeasts.com",
+   "city": "Boise",
+   "subsegment": "private_schools_youth_sports",
+   "lead_signal_type": "observed_recurring_need",
+   "lead_url": "https://idahoclubbaseball.com/",
+   "lead_date": "",
+   "lead_note": "Boise Baseball Academy 18u appears on the Idaho Club Baseball 2026 Fall League schedule. Youth club for ages 7 to 18 (Boise Beasts) with multiple travel teams.",
+   "vertical": "adjacent_verticals",
+   "scope": "a_schools_youth"
+  }
+ ]
+}

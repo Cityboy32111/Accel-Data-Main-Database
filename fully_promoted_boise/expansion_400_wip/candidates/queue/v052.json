@@ -1,0 +1,78 @@
+{
+ "batch_id": "v052",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Jackson Group Peterbilt, Inc.",
+   "company_domain": "jgpete.com",
+   "city": "Boise",
+   "subsegment": "heavy_equipment_dealer_service_parts",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jgpete.com/location/boise/",
+   "lead_date": "",
+   "lead_note": "Peterbilt dealer store at 9700 S Blue Cloud Ln Boise with Open Positions link; Glassdoor lists Counter Sales Representative Boise and Indeed shows diesel technician roles; regional group (Utah) with 34 stores.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Franklin Building Supply Co.",
+   "company_domain": "franklinbuildingsupply.com",
+   "city": "Boise",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/03a49939-a29c-4669-8eff-a9006db53227/The-Franklin-Group",
+   "lead_date": "2026-08-07",
+   "lead_note": "Boise HQ employee owned lumber and building supply (17 locations, about 650 staff); Paylocity board (The Franklin Group) snippet shows Warehouse Assistant dated Aug 7, 2026 plus CDL Driver DOT, Sales Specialist Boise, Estimator Boise; board did not render in scraper, verify in browser.",
+   "vertical": "construction_industrial",
+   "scope": "c_vendors_equipment"
+  },
+  {
+   "company_name": "Wickstrom Plumbing Heating & Cooling",
+   "company_domain": "wickstromphc.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.monster.com/job-openings/sales-manager-meridian-id--c6360491-c5a1-4b27-9788-6b2d9d280d89",
+   "lead_date": "2026-09-15",
+   "lead_note": "Sales Manager posting in Meridian dated Sep 15, 2026; Indeed shows 13 Meridian roles (HVAC Technician, HVAC Apprentice, Experienced Plumber, CSR). Official careers URL returned 404, locate ATS. Family owned since 1992, 125 W Taylor Ave Meridian.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Western Trailer Co. (Western Trailers)",
+   "company_domain": "westerntrailer.com",
+   "city": "Boise",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.westerntrailer.com/company/careers/job_postings/",
+   "lead_date": "2026-08-21",
+   "lead_note": "Official job postings page (loaded) lists six Boise roles dated 8/21/2026: Warehouse Operator, Steel Welder, Truck Driver, Painter, Janitor, Assembly Technician; plant at 251 W Gowen Rd.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Idaho Survey Group",
+   "company_domain": "idahosurvey.com",
+   "city": "Boise",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.idahosurvey.com/careers/",
+   "lead_date": "",
+   "lead_note": "Loaded the careers page: it lists Professional Land Surveyor and Survey Crew Chief for the Boise office (83704), plus a Survey Crew Assistant in Idaho Falls. A LinkedIn post also shows an Office Technician for the Boise survey department. The page carries golf tournament and team event photos.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Scentsy, Inc.",
+   "company_domain": "scentsy.com",
+   "city": "Meridian",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/cefbdadf-fc6c-441c-a513-59c4f9a61741/Scentsy",
+   "lead_date": "2026-09-11",
+   "lead_note": "Paylocity board snippet shows 7 openings dated 09/11/2026 incl R&D Technician for Intermountain Blending and Filling (its Meridian production arm); page is JS rendered, needs full load.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch_id": "v079",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Keller Supply Company",
+   "company_domain": "kellersupply.com",
+   "city": "Nampa",
+   "subsegment": "industrial_vendors",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://boisedev.com/calendar/details/ribbon-cutting-keller-supply-company/19328637/2026-07-31T10",
+   "lead_date": "2026-07-31",
+   "lead_note": "New plumbing and HVAC supply branch at 9791 Ustick Rd Ste 150, Nampa. A company LinkedIn post said it would open in April 2026, and the Nampa Chamber ribbon cutting was Jul 31, 2026. Family owned Seattle distributor.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Diamond Heating, Cooling, Plumbing & Electrical",
+   "company_domain": "diamondheatingandcooling.com",
+   "city": "Garden City",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://recruiting.paylocity.com/recruiting/jobs/All/3c0e06db-4d4d-432d-a6e4-8e0f2a91585b/Diamond",
+   "lead_date": "",
+   "lead_note": "Paylocity board (Sep 2026 snippets) lists Journeyman Service Plumber with sign on bonus and HVAC Install Technician Apprentice level 2/3; careers page recruits HVAC, electrical and plumbing techs. Unit of Intermountain Home Services (Bestige); board is JS rendered.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Bald Mountain Manufacturing",
+   "company_domain": "baldmtnmfg.com",
+   "city": "Middleton",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.facebook.com/61577104389460/videos/some-cnc-manufacturing-as-we-continue-to-work-on-our-new-facility-/874372275162704/",
+   "lead_date": "2026-07-31",
+   "lead_note": "Family owned CNC machining and fabrication shop in Middleton. A Facebook video dated Jul 31, 2026 mentions work on a 'new facility'. It surfaced in a Bald Mountain search, but the page is not confirmed as theirs. Low confidence; included for Middleton coverage.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "KPFF Consulting Engineers",
+   "company_domain": "kpff.com",
+   "city": "Boise",
+   "subsegment": "engineering_surveying",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://careers.smartrecruiters.com/KPFFConsultingEngineers",
+   "lead_date": "2026-09-13",
+   "lead_note": "SmartRecruiters board shows 9 Boise jobs: Entry-Level Structural Engineer, Structural Project Engineer (3 to 6 yrs), Entry-Level Bridge Structural Engineer (Sep 13 2026) and Entry-Level Civil Roadway Engineer. Boise office is at 412 E Parkcenter Blvd.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  },
+  {
+   "company_name": "Prusik Construction, LLC",
+   "company_domain": "prusikbuilt.com",
+   "city": "Boise",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://www.facebook.com/PrusikBuilt/",
+   "lead_date": "2026-09-07",
+   "lead_note": "Prusik's Facebook post of Sep 7, 2026 says Phase Two of the Kuna Library expansion is underway and mentions a light industrial project in Boise. ZipRecruiter lists a Project Superintendent role in Boise",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Kimley-Horn and Associates, Inc.",
+   "company_domain": "kimley-horn.com",
+   "city": "Boise",
+   "subsegment": "civil_engineering_land_development",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://careers-kimley-horn.icims.com/jobs/24975/civil-engineering-intern/job",
+   "lead_date": "2026-08-17",
+   "lead_note": "iCIMS posting for a Boise Civil Engineering Intern dated Aug 17 2026. The dejobs board lists 5 Idaho jobs, including Civil Engineering Analyst and Civil Engineer Land Development in Boise. Boise office is at 1100 W Idaho St.",
+   "vertical": "construction_industrial",
+   "scope": "c_eng_testing"
+  }
+ ]
+}

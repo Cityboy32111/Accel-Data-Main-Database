@@ -1,0 +1,66 @@
+{
+ "batch_id": "v083",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Direct Doctor Care",
+   "company_domain": "directdoctorcare.org",
+   "city": "Middleton",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://directdoctorcare.org/",
+   "lead_date": "",
+   "lead_note": "Direct primary care family practice in Middleton with an MD and a PA. It is one of the few Middleton clinics, and West Valley Medical Group closed its Middleton clinic Aug 10, 2026. No dated signal confirmed yet.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Country Time Assisted Living",
+   "company_domain": "countrytimehome.com",
+   "city": "Star",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://countrytimehome.com/",
+   "lead_date": "",
+   "lead_note": "Local family owned assisted living and independent senior living at 277 S Main St, Star, with 24 hour care. No dated signal was found yet, so the signal is low confidence. Added for Star coverage.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Black Pine Oral Surgery",
+   "company_domain": "blackpineoralsurgery.com",
+   "city": "Boise",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://blackpineoralsurgery.com/",
+   "lead_date": "",
+   "lead_note": "Oral surgery practice in Boise serving Meridian, Eagle and Nampa. No dated signal seen yet; check hiring or expansion.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Lincare",
+   "company_domain": "lincare.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/delivery-driver-medical-equipment-at-lincare-4442336971",
+   "lead_date": "",
+   "lead_note": "Home respiratory and medical equipment provider hiring Delivery Driver, Medical Equipment in Boise; Indeed shows 8 Lincare Boise jobs incl. DME Specialist and Liaison. National company, apparel may be corporate; confirm local branch address.",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Treasure Valley Dermatology & Skin Cancer Center, PLLC",
+   "company_domain": "dermatologyboise.com",
+   "city": "Meridian",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.glassdoor.com/Job/boise-dermatology-jobs-SRCH_IL.0,5_IC1127927_KO6,17.htm",
+   "lead_date": "",
+   "lead_note": "Dermatology Medical Assistant openings in Meridian appear on Glassdoor (Aug 2026 listing page), Indeed and SimplyHired. Clinics at 2535 E Fairview Ave Meridian and 999 N Curtis Rd Boise.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  }
+ ]
+}

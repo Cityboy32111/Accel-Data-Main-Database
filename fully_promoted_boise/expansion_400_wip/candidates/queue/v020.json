@@ -1,0 +1,78 @@
+{
+ "batch_id": "v020",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Ridgeview Family Health",
+   "company_domain": "ridgeviewfamily.com",
+   "city": "Meridian",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://ridgeviewfamily.com/",
+   "lead_date": "",
+   "lead_note": "Independent family practice at 2840 S Meridian Rd (the former Saltzer South Meridian building) with several MD and PA providers and 1,500+ reviews. Social posts say it is accepting new patients in South Meridian. No dated signal confirmed yet.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  },
+  {
+   "company_name": "Children's Therapy Place, Inc.",
+   "company_domain": "childrenstherapyplace.com",
+   "city": "Nampa",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://app.eddy.com/careers/childrenstherapyplace",
+   "lead_date": "",
+   "lead_note": "Eddy ATS snippet lists RBT and BCBA roles in Nampa, an SLP in Boise and a Mental Health Counselor in Meridian; Indeed shows a pediatric COTA and PT in Nampa. Pediatric speech, OT and PT practice with Boise, Meridian and Nampa sites. Snippets only, not opened.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Spring Fields Senior Living",
+   "company_domain": "springfieldssl.com",
+   "city": "Caldwell",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://springfieldssl.com/",
+   "lead_date": "",
+   "lead_note": "Assisted living and memory care at 4119 Lenity Living Ave, Caldwell. Formerly Aspen Creek Senior Living (and before that Lenity Senior Living), now rebranded under PACS, with site assets dated Dec 2025. Careers redirect to the PACS Workday portal, which needs checking for Caldwell postings. Same parent as Karcher Post Acute.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Dr. Alexis Phillips Kids Dentist",
+   "company_domain": "drpkidsdentist.com",
+   "city": "Eagle",
+   "subsegment": "dental_orthodontic",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.drpkidsdentist.com/location/eagle",
+   "lead_date": "",
+   "lead_note": "Loaded the site: pediatric practice with Boise (136 E Mallard Dr) and Eagle (60 N Echohawk Ln) offices and an open 'always looking for talented individuals' apply prompt. No dated postings seen yet.",
+   "vertical": "healthcare",
+   "scope": "h_dental_ada"
+  },
+  {
+   "company_name": "Rock and Armor Physical Therapy and Sports Performance, LLC",
+   "company_domain": "rockandarmor.com",
+   "city": "Star",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.rockandarmor.com/star-id/",
+   "lead_date": "",
+   "lead_note": "Loaded Sep 23, 2026: the Star page says the fifth clinic, at 12340 W Bounty Lane, Star, opens November 2026. It joins the Meridian, SE Boise, Nampa and Garden City clinics. Its careers page also lists Performance PT, admin and aide roles. A search snippet showed an Instagram reel dated May 8, 2026 about Star, but I did not open it.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "The Ponderosa Estate",
+   "company_domain": "theponderosaestate.com",
+   "city": "Eagle",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "facility_expansion_opening",
+   "lead_url": "https://www.facebook.com/theponderosaestate/posts/-eagle-weve-been-waiting-for-this-moment-and-its-almost-here%EF%B8%8F-youre-invited-ribb/122167684664667818/",
+   "lead_date": "2026-05-27",
+   "lead_note": "New boutique luxury assisted living home with 16 suites at 4346 W Old Valley Rd, Eagle. It held a grand opening ribbon cutting and open house on Wednesday, May 27 (2026 per the posts). Listed on the Eagle Chamber member map. The year is inferred from the weekday, so verify it.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  }
+ ]
+}

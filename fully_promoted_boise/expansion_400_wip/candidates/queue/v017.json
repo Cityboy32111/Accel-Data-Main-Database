@@ -1,0 +1,78 @@
+{
+ "batch_id": "v017",
+ "vertical": "healthcare",
+ "candidates": [
+  {
+   "company_name": "Intermountain Physical Therapy & Hand Rehabilitation",
+   "company_domain": "intermountainpt.com",
+   "city": "Meridian",
+   "subsegment": "outpatient_therapy",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.linkedin.com/jobs/view/physical-therapist-at-intermountain-physical-therapy-hand-rehabilitation-4460426173",
+   "lead_date": "",
+   "lead_note": "Search snippets show a full time PT, a PRN PT, a PTA and a part time receptionist at 90 E Ustick Rd, Meridian. These came from LinkedIn, Indeed and CareerBuilder; I did not find an employer hosted board. Hand therapy clinic that is also listed in the ptandme.com network.",
+   "vertical": "healthcare",
+   "scope": "h_therapy"
+  },
+  {
+   "company_name": "Creekside Transitional Care & Rehabilitation",
+   "company_domain": "creeksidetransitional.com",
+   "city": "Meridian",
+   "subsegment": "care_rehabilitation",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.facebook.com/CreeksideTransitional/",
+   "lead_date": "",
+   "lead_note": "139 bed skilled nursing and rehab facility at 1351 W Pine Ave, Meridian, and an Ensign affiliate like Timber Springs. A Facebook post recruits nursing assistants, CNAs and licensed and registered nurses. Need a dated post or live ATS listing.",
+   "vertical": "healthcare",
+   "scope": "h_senior"
+  },
+  {
+   "company_name": "Home Instead (Treasure Valley)",
+   "company_domain": "homeinstead.com",
+   "city": "Boise",
+   "subsegment": "home_health_hospice",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.homeinstead.com/home-care/usa/id/treasure-valley/707/home-care-jobs/",
+   "lead_date": "",
+   "lead_note": "Franchise office Boise 83704; jobs page lists Caregivers, Care Professional for evenings and weekends, In Home Caregiver, Service Coordinator/Scheduler and Client Care Advisor (LinkedIn Client Care Advisor post Apr 21, 2026).",
+   "vertical": "healthcare",
+   "scope": "h_home"
+  },
+  {
+   "company_name": "Idaho Foot & Ankle Associates",
+   "company_domain": "idahofootandankle.com",
+   "city": "Nampa",
+   "subsegment": "medical_specialty_groups",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.idahofootandankle.com/",
+   "lead_date": "",
+   "lead_note": "Podiatry group with offices at 809 N Liberty St Boise, 2635 Caldwell Blvd Nampa and 2947 E Magic View Dr Meridian. Weak: no dated signal found yet; check the careers/ATS page.",
+   "vertical": "healthcare",
+   "scope": "h_specialty"
+  },
+  {
+   "company_name": "Center for Change (Boise Campus)",
+   "company_domain": "centerforchange.com",
+   "city": "Boise",
+   "subsegment": "behavioral_health",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://jobs.uhsinc.com/center-for-change/jobs",
+   "lead_date": "",
+   "lead_note": "Eating disorder PHP and IOP campus in Boise. UHS careers and Glassdoor show Behavioral Health Tech and outreach roles, and Indeed shows Nursing Assistant and Psychiatric Technician roles in Boise. It shares a UHS parent with Intermountain Hospital but is a separate buying unit.",
+   "vertical": "healthcare",
+   "scope": "h_behavioral"
+  },
+  {
+   "company_name": "Initial Point Family Medicine",
+   "company_domain": "initialpointmedical.com",
+   "city": "Meridian",
+   "subsegment": "multi_clinic_primary_care",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://initialpointmedical.com/dpc/",
+   "lead_date": "",
+   "lead_note": "Family medicine and direct primary care practice at 2640 S Eagle Rd serving Meridian and Boise. No dated signal found yet.",
+   "vertical": "healthcare",
+   "scope": "h_primary_multi"
+  }
+ ]
+}

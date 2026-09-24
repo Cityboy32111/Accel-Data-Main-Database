@@ -1,0 +1,78 @@
+{
+ "batch_id": "v089",
+ "vertical": "construction_industrial",
+ "candidates": [
+  {
+   "company_name": "Proficient Plumbing Service",
+   "company_domain": "proficientplumbingservice.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.proficientplumbingservice.com/careers",
+   "lead_date": "",
+   "lead_note": "Careers page snippet says We're Hiring, growing and looking for people to join the team in Meridian; page body did not render on scrape, confirm roles.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Lea Electric, Inc.",
+   "company_domain": "leaelectric.com",
+   "city": "Meridian",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://leaelectric.com/careers/",
+   "lead_date": "",
+   "lead_note": "Careers page loaded Sep 23, 2026 shows Now Hiring For Journeyman Electrician / Project Manager and Electrical Estimator; Meridian HQ, NECA Idaho member, commercial and industrial design build.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  },
+  {
+   "company_name": "Rhino Metals, Inc.",
+   "company_domain": "rhinosafe.com",
+   "city": "Caldwell",
+   "subsegment": "industrial_manufacturing",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.craigslist.org/view/d/caldwell-production-general-labor/evdGkwxSBG4apw7ZpLgZSS",
+   "lead_date": "2026-08-25",
+   "lead_note": "Veteran owned safe manufacturer at 607 Garber St, Caldwell. A Craigslist ad dated Aug 25, 2026 seeks Production General Labor from $20/hr. The official career page only says 'join the team', so a second live posting is still needed.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_canyon"
+  },
+  {
+   "company_name": "Power Construction Company, LLC",
+   "company_domain": "powerconstruction.net",
+   "city": "Meridian",
+   "subsegment": "commercial_civil_gc",
+   "lead_signal_type": "project_relationship",
+   "lead_url": "https://www.linkedin.com/posts/power-construction_were-proud-to-partner-with-oshas-idaho-activity-7498762437152919552-RX8G",
+   "lead_date": "",
+   "lead_note": "LinkedIn post: OSHA's Idaho Area Office and Power Construction signed a partnership agreement for the Life Time Fitness Meridian project, which sits at The District at Ten Mile (groundbreaking May 5, 2026). Chicago HQ with active local jobsites and superintendents based in Boise",
+   "vertical": "construction_industrial",
+   "scope": "c_gc_ada"
+  },
+  {
+   "company_name": "Hobson Fabricating Corp.",
+   "company_domain": "hobsonfab.com",
+   "city": "Boise",
+   "subsegment": "specialty_trades_plumbing_hvac",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.hobsonfab.com/about-us/careers/",
+   "lead_date": "",
+   "lead_note": "HVAC, structural and specialty metals fabricator (40 shop, 120 field staff); careers page plus TradesmenUp Commercial Roofing Foreman Boise posting.",
+   "vertical": "construction_industrial",
+   "scope": "c_mfg_ada"
+  },
+  {
+   "company_name": "Hi-Tech Electric",
+   "company_domain": "hitechelect.com",
+   "city": "Garden City",
+   "subsegment": "specialty_trades",
+   "lead_signal_type": "active_hiring",
+   "lead_url": "https://www.hitechelect.com/careersf3a93050",
+   "lead_date": "",
+   "lead_note": "Careers page lists Journeyman Electrician under Current Hiring Needs; family operated, serves Boise, Garden City, Meridian, Nampa, Caldwell. Only one role seen.",
+   "vertical": "construction_industrial",
+   "scope": "c_trades_mep"
+  }
+ ]
+}
