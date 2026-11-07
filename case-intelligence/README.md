@@ -8,14 +8,19 @@ profiles and a creditor directory to a Base44 dashboard. Every fact carries a
 page-level source citation, a confidence rating, and a verification status, so
 confirmed information is never presented the same way as inferred information.
 
-This directory currently holds **proposal documents only**. No application
-code is written until the proposal is approved.
+Milestone 1 (schema, tenancy, auth, storage, audit, verification workflow,
+tests, pipeline preparation) is delivered; see
+[docs/04-milestone-1-report.md](docs/04-milestone-1-report.md) for how to run
+it. Repository layout: `supabase/` (migrations, pgTAP tests, seed),
+`scripts/` (Management API migration and test runners), `worker/` (pipeline),
+`fixtures/equitybuild/` (saved index page and the pilot subset plan).
 
 | Document | Purpose |
 | --- | --- |
 | [docs/01-architecture.md](docs/01-architecture.md) | System design, data model, pipeline stages, API surface, security model |
 | [docs/02-source-access-validation.md](docs/02-source-access-validation.md) | How each source is cleared before ingestion, pilot source findings, what the system refuses to do |
 | [docs/03-milestones.md](docs/03-milestones.md) | Delivery plan with acceptance criteria, decisions required, and open risks |
+| [docs/04-milestone-1-report.md](docs/04-milestone-1-report.md) | What Milestone 1 delivered, runbooks, and configuration that needs your involvement |
 
 ## Non-negotiable constraints
 

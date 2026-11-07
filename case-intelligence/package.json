@@ -1,0 +1,33 @@
+{
+  "name": "accel-case-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Receivership case intelligence MVP: Supabase schema, pipeline worker, and dashboard API",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "db:migrate": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 node scripts/apply-migrations.mjs",
+    "db:migrate:dry": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 node scripts/apply-migrations.mjs --dry-run",
+    "db:test": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 node scripts/run-db-tests.mjs",
+    "db:seed": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 node scripts/apply-migrations.mjs --seed",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "worker": "tsx worker/src/cli.ts",
+    "db:status": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 node scripts/apply-migrations.mjs --status"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.119.0",
+    "cheerio": "1.2.0",
+    "p-limit": "6.2.0",
+    "pdfjs-dist": "4.10.38",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
+  }
+}

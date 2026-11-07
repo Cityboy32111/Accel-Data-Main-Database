@@ -16,7 +16,9 @@ pilot source validation findings committed to the repository.
 
 Acceptance: you approve the plan or return it with changes.
 
-### M1. Foundation: schema, tenancy, audit, tests (3 days)
+### M1. Foundation: schema, tenancy, audit, tests (3 days) — DELIVERED 2026-11-07
+
+See [04-milestone-1-report.md](04-milestone-1-report.md) for what shipped, how to run it, and the configuration still needed.
 
 - Supabase migrations for every table in the architecture document.
 - RLS policies on all tenant tables and Storage buckets.
@@ -113,7 +115,7 @@ Acceptance: documentation complete; all tests green; metrics reported.
 Total: about 21 working days after approval, with M2 through M5 able to
 overlap partially once M1 lands.
 
-## 2. Decisions required before M1 starts
+## 2. Decisions required before M1 starts (resolved 2026-11-07: Supabase project `jsfdewizzkyvbqziniou`, EquityBuild pilot confirmed, Lead Ocean as primary enrichment provider, dedicated environment "Accel Case Intelligence")
 
 1. **Supabase project.** Create a new project for this MVP, or use an
    existing one? I need the project reference and one of: a Supabase access

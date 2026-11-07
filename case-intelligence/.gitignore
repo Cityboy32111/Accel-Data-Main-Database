@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+coverage/
+.supabase/
+*.log
+fixtures/equitybuild/downloads/
+fixtures/equitybuild/downloads-log.txt
