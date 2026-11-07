@@ -2,7 +2,8 @@ import { z } from "zod";
 
 const schema = z.object({
   SUPABASE_URL: z.string().url().default("https://jsfdewizzkyvbqziniou.supabase.co"),
-  SUPABASE_SERVICE_ROLE_KEY: z.string().min(1).default("proxy-injected"),
+  /** Scoped token for the pipeline-ingest Edge Function. The worker never holds the service-role key. */
+  PIPELINE_WORKER_TOKEN: z.string().default(""),
   PIPELINE_USER_AGENT: z
     .string()
     .default("AccelCaseIntelligence/0.1 (+contact: firm administrator)"),

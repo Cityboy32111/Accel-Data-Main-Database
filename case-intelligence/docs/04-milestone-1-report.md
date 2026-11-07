@@ -92,15 +92,10 @@ dashboard, then update the stored secret. Nothing in the repository changes.
 
 ## 4. Configuration that needs your involvement
 
-1. **Service-role key for the worker.** Two secure-form submissions were made
-   for host `jsfdewizzkyvbqziniou.supabase.co`, but the environment now holds
-   only one entry for that host (header `apikey`), and requests through it
-   are answered "Invalid API key". The worker therefore cannot yet write to
-   Storage or the database from the cloud session. To fix it, open the
-   environment "Accel Case Intelligence" in Claude settings, Network secrets,
-   and make sure the entry for that host holds the project's `service_role`
-   key for both headers `apikey` and `Authorization` (prefix Bearer). The
-   `download` stage is unaffected and has been run.
+1. **Service-role key for the worker.** Resolved on 2026-11-07 by moving all
+   privileged writes into the `pipeline-ingest` Edge Function; see
+   [05-ingestion-report.md](05-ingestion-report.md). The network-secret
+   entries for the project host should be deleted from the environment.
 2. **Lead Ocean API key.** The `leadocean` provider row exists and is
    disabled. When Milestone 5 begins, I will request the key through the
    secure form; it is referenced in the database only by the secret name

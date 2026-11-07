@@ -13,6 +13,7 @@ tests, pipeline preparation) is delivered; see
 [docs/04-milestone-1-report.md](docs/04-milestone-1-report.md) for how to run
 it. Repository layout: `supabase/` (migrations, pgTAP tests, seed),
 `scripts/` (Management API migration and test runners), `worker/` (pipeline),
+`supabase/functions/pipeline-ingest/` (the only component holding the service-role key),
 `fixtures/equitybuild/` (saved index page and the pilot subset plan).
 
 | Document | Purpose |
@@ -21,6 +22,7 @@ it. Repository layout: `supabase/` (migrations, pgTAP tests, seed),
 | [docs/02-source-access-validation.md](docs/02-source-access-validation.md) | How each source is cleared before ingestion, pilot source findings, what the system refuses to do |
 | [docs/03-milestones.md](docs/03-milestones.md) | Delivery plan with acceptance criteria, decisions required, and open risks |
 | [docs/04-milestone-1-report.md](docs/04-milestone-1-report.md) | What Milestone 1 delivered, runbooks, and configuration that needs your involvement |
+| [docs/05-ingestion-report.md](docs/05-ingestion-report.md) | Edge Function credential mechanism, pilot ingestion results, access re-verification, extraction status |
 
 ## Non-negotiable constraints
 

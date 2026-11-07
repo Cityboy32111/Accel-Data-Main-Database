@@ -10,8 +10,8 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { createHash } from "node:crypto";
-import type { SupabaseClient } from "@supabase/supabase-js";
 import type { WorkerConfig } from "../config.js";
+import type { IngestClient } from "../ingest-client.js";
 import { PoliteFetcher } from "../acquire/fetcher.js";
 import {
   parseReceiverSiteIndex,
@@ -127,29 +127,6 @@ async function readManifest(manifestPath: string): Promise<LocalDownload[]> {
   }
 }
 
-async function loadLocalPdf(cfg: WorkerConfig, listingKey: string): Promise<Uint8Array | null> {
-  try {
-    return new Uint8Array(await readFile(path.join(cfg.PIPELINE_DOWNLOAD_DIR, `${listingKey}.pdf`)));
-  } catch {
-    return null;
-  }
-}
-
-export async function loadValidatedSource(db: SupabaseClient, cfg: WorkerConfig): Promise<SourceRow> {
-  const { data, error } = await db
-    .from("sources")
-    .select("id, firm_id, kind, base_url, status, restriction_markers, min_delay_ms, store_copy")
-    .eq("id", cfg.PIPELINE_SOURCE_ID)
-    .single();
-  if (error) throw new Error(`loading source: ${error.message}`);
-  if (data.status !== "validated") {
-    throw new Error(`source ${data.id} is ${data.status}; ingestion requires a validated source`);
-  }
-  if (data.firm_id !== cfg.PIPELINE_FIRM_ID) throw new Error("source belongs to another firm");
-  if (!data.base_url) throw new Error("source has no base_url");
-  return data as SourceRow;
-}
-
 export async function planAcquisition(
   fetcher: PoliteFetcher,
   source: SourceRow,
@@ -161,131 +138,70 @@ export async function planAcquisition(
   return { listings, sections: summarizeBySection(listings), subset: selectSubset(listings, plan) };
 }
 
-export async function recordKnownDocuments(db: SupabaseClient, cfg: WorkerConfig, known: number): Promise<void> {
-  const { error } = await db.rpc("recompute_case_coverage", { p_case_id: cfg.PIPELINE_CASE_ID, p_documents_known: known });
-  if (error) throw new Error(`recompute_case_coverage: ${error.message}`);
+export async function recordKnownDocuments(client: IngestClient, cfg: WorkerConfig, known: number): Promise<void> {
+  await client.recomputeCoverage(cfg.PIPELINE_CASE_ID, known);
 }
 
-export async function acquireSubset(
-  db: SupabaseClient,
+/**
+ * Store the locally downloaded subset through the pipeline-ingest Edge
+ * Function: the function verifies the worker token, re-hashes the bytes,
+ * uploads to the private bucket and writes document and page rows as the
+ * service role. Page text is PII-masked here before it leaves the worker.
+ */
+export async function acquireFromManifest(
+  client: IngestClient,
   cfg: WorkerConfig,
-  fetcher: PoliteFetcher,
-  source: SourceRow,
-  subset: SubsetSelection[],
+  restrictionMarkers: string[] | undefined,
   opts: { limit?: number; log?: (line: string) => void } = {},
 ): Promise<AcquireReport> {
   const log = opts.log ?? ((l) => console.log(l));
   const report: AcquireReport = { attempted: 0, stored: 0, skippedExisting: 0, halted: 0, failed: [] };
-  const targets = opts.limit ? subset.slice(0, opts.limit) : subset;
-  await mkdir(cfg.PIPELINE_DOWNLOAD_DIR, { recursive: true });
-
+  const manifest = await readManifest(path.join(cfg.PIPELINE_DOWNLOAD_DIR, "manifest.json"));
+  if (manifest.length === 0) throw new Error("no local downloads; run `worker download` first");
+  const targets = opts.limit ? manifest.slice(0, opts.limit) : manifest;
   for (const item of targets) {
     report.attempted++;
     try {
-      // Skip by URL first (cheap), then by content hash after download.
-      const { data: byUrl } = await db
-        .from("source_documents")
-        .select("id")
-        .eq("case_id", cfg.PIPELINE_CASE_ID)
-        .eq("original_url", item.url)
-        .maybeSingle();
-      if (byUrl) {
-        report.skippedExisting++;
-        log(`skip (already acquired) ${item.fileName}`);
-        continue;
-      }
-
-      const local = await loadLocalPdf(cfg, item.listingKey);
-      const pdf = local
-        ? { bytes: local, sha256: createHash("sha256").update(local).digest("hex") }
-        : await fetcher.getPdf(item.url);
-      if (local) log(`using local copy of ${item.fileName}`);
-      const { data: byHash } = await db
-        .from("source_documents")
-        .select("id")
-        .eq("case_id", cfg.PIPELINE_CASE_ID)
-        .eq("sha256", pdf.sha256)
-        .maybeSingle();
-      if (byHash) {
-        report.skippedExisting++;
-        log(`skip (same content already acquired) ${item.fileName}`);
-        continue;
-      }
-
-      if (!local) await writeFile(path.join(cfg.PIPELINE_DOWNLOAD_DIR, `${item.listingKey}.pdf`), pdf.bytes);
-
-      const extracted = await extractPdfText(pdf.bytes);
-      const headText = extracted.pages.slice(0, 3).map((p) => p.text).join("\n");
-      const screen = screenText(headText, source.restriction_markers);
+      const bytes = new Uint8Array(await readFile(item.localPath));
+      const sha256 = createHash("sha256").update(bytes).digest("hex");
+      if (sha256 !== item.sha256) throw new Error("local file hash differs from manifest");
+      const extracted = await extractPdfText(bytes);
+      const screen = screenText(extracted.pages.slice(0, 3).map((p) => p.text).join("\n"), restrictionMarkers);
       const halted = screen.halting.length > 0;
-
-      const storagePath = `${cfg.PIPELINE_FIRM_ID}/${cfg.PIPELINE_CASE_ID}/${pdf.sha256}.pdf`;
-      if (source.store_copy) {
-        const up = await db.storage.from("source-documents").upload(storagePath, pdf.bytes, {
-          contentType: "application/pdf",
-          upsert: false,
-        });
-        if (up.error && !/already exists/i.test(up.error.message)) {
-          throw new Error(`storage upload: ${up.error.message}`);
-        }
-      }
-
-      const { data: doc, error: docErr } = await db
-        .from("source_documents")
-        .insert({
-          firm_id: cfg.PIPELINE_FIRM_ID,
+      const pages = extracted.pages.map((p) => {
+        const masked = maskPii(p.text);
+        return { page_number: p.pageNumber, text: masked.text, text_method: p.textMethod, pii_masked: masked.counts.total > 0 };
+      });
+      const result = await client.ingestDocument(
+        {
           case_id: cfg.PIPELINE_CASE_ID,
-          source_id: source.id,
+          source_id: cfg.PIPELINE_SOURCE_ID,
           original_url: item.url,
-          storage_path: source.store_copy ? storagePath : null,
-          sha256: pdf.sha256,
-          byte_size: pdf.bytes.length,
+          sha256,
           title: item.title,
           document_category: item.category,
           docket_number: item.docketNumber,
           docket_suffix: item.docketSuffix,
           filed_date: item.filedDate,
           page_count: extracted.pageCount,
-          processing_status: halted ? "halted_restricted" : "text_extracted",
           restriction_flags: screen.flags,
+          halted,
           screening_notes: [
-            item.exhibitsOmitted ? "Posted copy omits some exhibits." : null,
+            /not included/i.test(item.title) ? "Posted copy omits some exhibits." : null,
             screen.matches.length ? `markers: ${screen.matches.map((m) => m.marker).join(", ")}` : null,
-          ]
-            .filter(Boolean)
-            .join(" "),
-          processed_at: new Date().toISOString(),
-        })
-        .select("id")
-        .single();
-      if (docErr) throw new Error(`insert source_documents: ${docErr.message}`);
-
-      if (!halted) {
-        const rows = extracted.pages.map((p) => {
-          const masked = maskPii(p.text);
-          return {
-            firm_id: cfg.PIPELINE_FIRM_ID,
-            document_id: doc.id,
-            page_number: p.pageNumber,
-            text: masked.text,
-            text_method: p.textMethod,
-            pii_masked: masked.counts.total > 0,
-          };
-        });
-        for (let i = 0; i < rows.length; i += 200) {
-          const { error: pageErr } = await db
-            .from("document_pages")
-            .upsert(rows.slice(i, i + 200), { onConflict: "document_id,page_number" });
-          if (pageErr) throw new Error(`insert document_pages: ${pageErr.message}`);
-        }
-      } else {
-        report.halted++;
+          ].filter(Boolean).join(" ") || null,
+          pages: halted ? [] : pages,
+        },
+        bytes,
+      );
+      if (result.skipped) {
+        report.skippedExisting++;
+        log(`skip (${result.skipped}) ${item.fileName}`);
+        continue;
       }
       report.stored++;
-      const noText = extracted.pages.filter((p) => p.textMethod === "none").length;
-      log(
-        `stored ${item.fileName} (${extracted.pageCount} pages${noText ? `, ${noText} need OCR` : ""}${halted ? ", HALTED: restriction marker" : ""})`,
-      );
+      if (halted) report.halted++;
+      log(`stored ${item.fileName} (${extracted.pageCount} pages, ${result.pages_written ?? 0} page rows${halted ? ", HALTED" : ""})`);
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
       report.failed.push({ url: item.url, error: message });
