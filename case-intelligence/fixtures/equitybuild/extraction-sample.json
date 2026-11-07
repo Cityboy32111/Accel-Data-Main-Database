@@ -1,10 +1,27 @@
 {
   "$comment": "Initial five-document extraction sample for SEC v. EquityBuild. Chosen to cover receiver appointment and parties, the estate's properties, institutional lender creditors, the claims distribution process, and a related state court proceeding.",
   "documents": [
-    { "title_prefix": "Order Appointing Receiver", "why": "appointment, receivership defendants, receiver powers, counsel" },
-    { "title_contains": "First Status Report", "why": "early inventory of properties, lenders and estate status" },
-    { "docket_number": "1967", "why": "Group 10 distribution plan: claimants, properties, treatment" },
-    { "docket_number": "1806", "why": "SEC response to Group 7 position statements of BMO, Citibank and Sabal: institutional lenders" },
-    { "docket_number": "1938", "why": "settlement of the state court action: related proceeding and parties" }
+    {
+      "title_prefix": "Order Appointing Receiver",
+      "why": "appointment, receivership defendants, receiver powers, counsel"
+    },
+    {
+      "title_prefix": "Receiver's First Status Report",
+      "max_pages": 25,
+      "why": "early inventory of properties, lenders and estate status (exhibits beyond page 25 deferred)"
+    },
+    {
+      "docket_number": "1967",
+      "max_pages": 20,
+      "why": "Group 10 distribution plan narrative: claimants, properties, treatment (273-page filing; exhibits deferred)"
+    },
+    {
+      "docket_number": "1806",
+      "why": "SEC response to Group 7 position statements of BMO, Citibank and Sabal: institutional lenders"
+    },
+    {
+      "docket_number": "1938",
+      "why": "settlement of the state court action: related proceeding and parties"
+    }
   ]
 }

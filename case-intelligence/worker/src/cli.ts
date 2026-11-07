@@ -87,14 +87,15 @@ async function main(): Promise<void> {
     const wantTitles = String(flags.get("titles") ?? "").split("|").map((s) => s.trim()).filter(Boolean);
     const sample = flags.has("sample")
       ? (JSON.parse(await readFile(String(flags.get("sample") === true ? "fixtures/equitybuild/extraction-sample.json" : flags.get("sample")), "utf8")) as {
-          documents: { docket_number?: string; title_prefix?: string; title_contains?: string }[];
+          documents: { docket_number?: string; title_prefix?: string; title_contains?: string; max_pages?: number }[];
         }).documents
       : [];
-    const matchesSample = (d: DocumentSummary & { docket_number: string | null }) =>
-      sample.some((s) =>
+    const sampleEntry = (d: DocumentSummary & { docket_number: string | null }) =>
+      sample.find((s) =>
         (s.docket_number && d.docket_number === s.docket_number) ||
         (s.title_prefix && d.title.toLowerCase().startsWith(s.title_prefix.toLowerCase())) ||
         (s.title_contains && d.title.toLowerCase().includes(s.title_contains.toLowerCase())));
+    const matchesSample = (d: DocumentSummary & { docket_number: string | null }) => sampleEntry(d) !== undefined;
     const targets = documents.filter((d) =>
       matchesSample(d) ||
       (wantDockets.length > 0 && d.docket_number !== null && wantDockets.includes(d.docket_number)) ||
@@ -104,7 +105,8 @@ async function main(): Promise<void> {
     const maxPages = flags.has("max-pages") ? Number(flags.get("max-pages")) : undefined;
     console.log(`extracting ${targets.length} documents with ${model}${maxPages ? `, first ${maxPages} pages each` : ""}`);
     for (const t of targets) console.log(`  - [${t.docket_number ?? "-"}] ${t.title.slice(0, 100)} (${t.page_count} pages)`);
-    const report = await extractDocuments(client, cfg, targets, { model, maxPagesPerDocument: maxPages });
+    const perDocumentMax = new Map(targets.map((t) => [t.id, sampleEntry(t)?.max_pages ?? maxPages]));
+    const report = await extractDocuments(client, cfg, targets, { model, maxPagesPerDocument: maxPages, perDocumentMaxPages: perDocumentMax });
     console.log(JSON.stringify(report, null, 2));
     if (report.documents.some((d) => d.failures.length)) process.exitCode = 1;
     return;

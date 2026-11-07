@@ -98,13 +98,13 @@ export async function extractDocuments(
   client: IngestClient,
   cfg: WorkerConfig,
   docs: DocumentSummary[],
-  opts: { model: string; maxPagesPerDocument?: number; log?: (line: string) => void } ,
+  opts: { model: string; maxPagesPerDocument?: number; perDocumentMaxPages?: Map<string, number | undefined>; log?: (line: string) => void },
 ): Promise<ExtractReport> {
   const log = opts.log ?? ((l) => console.log(l));
   const report: ExtractReport = { documents: [], totals: { pages: 0, grounded: 0, rejected: 0, input_tokens: 0, output_tokens: 0 } };
   for (const doc of docs) {
     const entry = { id: doc.id, title: doc.title, pages_attempted: 0, pages_skipped: 0, grounded: 0, rejected: 0, input_tokens: 0, output_tokens: 0, failures: [] as string[] };
-    const pages = Math.min(doc.page_count, opts.maxPagesPerDocument ?? doc.page_count);
+    const pages = Math.min(doc.page_count, opts.perDocumentMaxPages?.get(doc.id) ?? opts.maxPagesPerDocument ?? doc.page_count);
     for (let page = 1; page <= pages; page++) {
       try {
         const res = await client.json<ExtractPageResponse>({
