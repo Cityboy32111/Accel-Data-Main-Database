@@ -14,7 +14,9 @@ export interface PageText {
 export const MIN_TEXT_LAYER_CHARS = 40;
 
 export async function extractPdfText(bytes: Uint8Array): Promise<{ pageCount: number; pages: PageText[] }> {
-  const doc = await getDocument({ data: bytes, useSystemFonts: true, disableFontFace: true }).promise;
+  // pdf.js transfers (detaches) the buffer it is given; work on a copy so the
+  // caller's bytes stay intact for hashing and storage.
+  const doc = await getDocument({ data: new Uint8Array(bytes), useSystemFonts: true, disableFontFace: true }).promise;
   const pages: PageText[] = [];
   for (let i = 1; i <= doc.numPages; i++) {
     const page = await doc.getPage(i);

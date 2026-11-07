@@ -14,6 +14,29 @@ describe("restriction screening", () => {
     expect(r.halting).toEqual([]);
   });
 
+  it("does not halt on a public sale through sealed bids (EquityBuild Dkt. 164)", () => {
+    const r = screenText(
+      "x".repeat(700) + " the Court finds that the public sale process through sealed bids comports with the requirements of 28 U.S.C. §§ 2001 and 2004.",
+    );
+    expect(r.flags).not.toContain("sealed_marker");
+    expect(r.halting).toEqual([]);
+  });
+
+  it("halts on an explicit under-seal phrase anywhere in the opening pages", () => {
+    const r = screenText("x".repeat(900) + " This exhibit was filed under seal pursuant to the Court's order.");
+    expect(r.halting).toEqual(["sealed_marker"]);
+  });
+
+  it("ignores a lowercase confidentiality instruction in prose (EquityBuild Dkt. 155) but keeps a caption legend", () => {
+    const prose = screenText("x".repeat(700) + " designate the same as \"highly confidential-attorneys' eyes only.\"");
+    expect(prose.flags).not.toContain("confidential_marker");
+    expect(prose.halting).toEqual([]);
+    const legend = screenText("CONFIDENTIAL - SUBJECT TO PROTECTIVE ORDER\nIN THE UNITED STATES DISTRICT COURT");
+    expect(legend.flags).toContain("confidential_marker");
+    expect(legend.flags).toContain("protective_order_reference");
+    expect(legend.halting).toEqual([]);
+  });
+
   it("flags protective order references without halting", () => {
     const r = screenText("Pursuant to the Protective Order entered on May 1, the parties exchanged documents.");
     expect(r.flags).toContain("protective_order_reference");
@@ -42,5 +65,18 @@ describe("pii masking", () => {
     const input = "Dkt. No. 1992, 11/04/2026, distribution of $12,345,678.90 to Group 10.";
     expect(detectPii(input).total).toBe(0);
     expect(maskPii(input).text).toBe(input);
+  });
+});
+
+describe("pdf text extraction keeps caller bytes intact", () => {
+  it("does not detach the input buffer", async () => {
+    const { extractPdfText } = await import("../src/extract/pdf-text.js");
+    const minimal = new TextEncoder().encode(
+      "%PDF-1.1\n1 0 obj<</Type/Catalog/Pages 2 0 R>>endobj\n2 0 obj<</Type/Pages/Kids[3 0 R]/Count 1>>endobj\n3 0 obj<</Type/Page/Parent 2 0 R/MediaBox[0 0 200 200]>>endobj\ntrailer<</Root 1 0 R>>\n%%EOF",
+    );
+    const before = minimal.length;
+    const result = await extractPdfText(minimal);
+    expect(result.pageCount).toBe(1);
+    expect(minimal.length).toBe(before);
   });
 });

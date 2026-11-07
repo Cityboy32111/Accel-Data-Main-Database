@@ -37,25 +37,34 @@ function flagFor(marker: string): RestrictionFlag {
 }
 
 /**
- * Scan the opening pages of a document for restriction markers. A marker only
- * counts when it appears as a standalone phrase in caption-like context (the
- * word "sealed" inside ordinary prose about a sealed envelope would otherwise
- * halt every filing that discusses one). We approximate caption context as:
- * uppercase match, or the phrase appearing in the first 1,500 characters.
+ * Scan the opening pages of a document for restriction markers.
+ *
+ * Halting is reserved for a filing that is itself sealed. Two signals count:
+ * an explicit phrase ("FILED UNDER SEAL", "UNDER SEAL") anywhere in the
+ * opening pages, or the bare word in caption position (the first 600
+ * characters, where a sealed filing carries its legend) or in all caps.
+ * Ordinary prose about sealed bids, sealed envelopes or a motion to seal is
+ * recorded as context, not treated as a sealed filing: the EquityBuild sale
+ * process orders speak of "public sale through sealed bids".
  */
+const CAPTION_CHARS = 600;
+const SEALED_PROSE_EXCEPTIONS = /^sealed\s+(bid|bids|bidding|envelope|envelopes|offer|offers)\b|^seal(ed)?\s+the\b/i;
+
 export function screenText(text: string, markers: string[] = DEFAULT_RESTRICTION_MARKERS): ScreenResult {
   const flags = new Set<RestrictionFlag>();
   const matches: ScreenResult["matches"] = [];
-  const head = text.slice(0, 1500);
   for (const marker of markers) {
     const re = new RegExp(`\\b${marker.replace(/\s+/g, "\\s+")}\\b`, "gi");
+    const explicitPhrase = /\s/.test(marker.trim());
     let m: RegExpExecArray | null;
     while ((m = re.exec(text)) !== null) {
-      const inHead = m.index < head.length;
+      const inCaption = m.index < CAPTION_CHARS;
       const isUpper = m[0] === m[0].toUpperCase();
-      if (!inHead && !isUpper) continue;
-      // "sealed" appearing in a docket-text style phrase like "motion to seal" is not a sealed filing.
-      flags.add(flagFor(marker));
+      const flag = flagFor(marker);
+      const trailing = text.slice(m.index, m.index + 40);
+      if (flag === "sealed_marker" && SEALED_PROSE_EXCEPTIONS.test(trailing)) continue;
+      if (!explicitPhrase && !inCaption && !isUpper) continue;
+      flags.add(flag);
       matches.push({ marker, context: text.slice(Math.max(0, m.index - 60), m.index + marker.length + 60) });
       if (matches.length > 20) break;
     }
