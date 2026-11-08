@@ -32,7 +32,9 @@ See [04-milestone-1-report.md](04-milestone-1-report.md) for what shipped, how t
 Acceptance: `supabase db reset` followed by `supabase test db` passes; a
 cross-tenant read attempt in the test suite returns zero rows.
 
-### M2. Acquisition and text extraction for the pilot case (3 days)
+### M2. Acquisition and text extraction for the pilot case (3 days) — DELIVERED 2026-11-07
+
+See [05-ingestion-report.md](05-ingestion-report.md): 39 pilot documents stored privately with 1,191 masked page rows through the `pipeline-ingest` Edge Function.
 
 - Receiver-site adapter: parse the index, map the four sections to document
   categories, parse docket numbers and filing dates from link text.
@@ -46,7 +48,9 @@ cross-tenant read attempt in the test suite returns zero rows.
 Acceptance: the pilot subset is in Storage with page text; the coverage block
 on the case reads documents known 809, acquired about 40, processed about 40.
 
-### M3. LLM extraction with grounded citations (4 days)
+### M3. LLM extraction with grounded citations (4 days) — FIRST SAMPLE RUN 2026-11-08
+
+See [06-extraction-report.md](06-extraction-report.md): 88 pages, 224 grounded assertions, independent verification precision 0.926 on a 27-assertion sample, six prompt/schema fixes queued. The golden-set gate (citation accuracy 0.95, precision 0.85 per type) is still to be formalized.
 
 - Versioned extraction schema and prompt for parties, attorneys, creditors,
   properties, related lawsuits, dates, and amounts.
