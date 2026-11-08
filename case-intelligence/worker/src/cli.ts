@@ -4,6 +4,7 @@
 //   npm run worker -- download [--limit N]  download, screen, extract the subset locally (no database)
 //   npm run worker -- acquire [--limit N]   store the downloaded subset through the pipeline-ingest Edge Function
 //   npm run worker -- extract --sample [--dockets 1967,1806] [--titles "a|b"] [--max-pages N] [--model m]
+//   npm run worker -- retest [--out dir] [--model m]   version-2 extraction of the fixed 10-page list, fixtures only, no DB writes
 //   npm run worker -- status                counts and coverage for the pilot case
 //
 // acquire/status/plan need PIPELINE_WORKER_TOKEN (scoped token for the Edge Function).
@@ -109,6 +110,19 @@ async function main(): Promise<void> {
     const report = await extractDocuments(client, cfg, targets, { model, maxPagesPerDocument: maxPages, perDocumentMaxPages: perDocumentMax });
     console.log(JSON.stringify(report, null, 2));
     if (report.documents.some((d) => d.failures.length)) process.exitCode = 1;
+    return;
+  }
+
+  if (command === "retest") {
+    const { runRetest } = await import("./retest/retest-pages.js");
+    const selection = JSON.parse(await readFile("fixtures/equitybuild/review-2026-11-08/page-selection.json", "utf8")) as { key: string; page: number; document: string; title_prefix: string }[];
+    const { documents } = await client.json<{ documents: { id: string; title: string }[] }>({ action: "list_documents", case_id: cfg.PIPELINE_CASE_ID });
+    const outDir = String(flags.get("out") ?? "fixtures/equitybuild/retest-2026-11-08");
+    const model = String(flags.get("model") ?? "claude-sonnet-5-5");
+    const functionUrl = `${cfg.SUPABASE_URL}/functions/v1/pipeline-extract-test`;
+    console.log(`retest: ${selection.length} pages through ${functionUrl} with ${model}; output to ${outDir}; no database writes`);
+    const { bundles, totals } = await runRetest(cfg, selection, documents, { model, outDir, functionUrl });
+    console.log(JSON.stringify({ pages: bundles.length, assertions: bundles.reduce((n, b) => n + b.assertions.length, 0), dropped: bundles.reduce((n, b) => n + b.dropped.length, 0), flagged: bundles.reduce((n, b) => n + b.assertions.filter((a) => a.needs_review).length, 0), ...totals }, null, 2));
     return;
   }
 

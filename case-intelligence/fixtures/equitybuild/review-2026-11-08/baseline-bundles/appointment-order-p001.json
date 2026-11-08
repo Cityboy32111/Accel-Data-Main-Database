@@ -1,0 +1,172 @@
+{
+ "document": "Order Appointing Receiver (2018-08-17), Dkt. 16",
+ "page": 1,
+ "pdf": "fixtures/equitybuild/downloads/a751844d80ae222497ada928d7f0bdfc.pdf",
+ "page_text": "1\nUNITED STATES DISTRICT COURT\nNORTHERN DISTRICT OF ILLINOIS\nEASTERN DIVISION\n______________________________________\n)\nUNITED STATES SECURITIES  )\nAND EXCHANGE COMMISSION,  )\n)  Civil Action No.\nPlaintiff,  )\nv.  )\n)  Hon. Judge\nEQUITYBUILD, INC.,  )\nEQUITYBUILD FINANCE , LLC,  )\nJEROME H. COHEN  and  )\nSHAUN D. COHEN  )\n)\nDefendants,  )\n_____ )\nORDER APPOINTING RECEIVER\nWHEREAS  this matter has come before this Court upon  P laintiff United States\nSecurities and Exchange Commission\u2019s (\u201cSEC\u201d or \u201cCommission\u201d) Emergency Motion for a\nTemporary Restraining  Order to Prevent Violations of the Federal Securities Laws, to Appoint a\nReceiver, and to Provide for Other Ancillary Relief ; and,\nWHEREAS  the Court finds that, based on the record in these proceedings, the\nappointment of a receiver in this action is neces sary and appropriate for the purposes of\nmarshaling and preserving all assets  of  Defendants  Equitybuild, Inc., Equitybuild Finance, LLC,\ntheir affiliates , and the affiliate entities of Defendants Jerome Cohen and Shaun Cohen ;  and,\nWHEREAS  this Court has subject matter jurisdiction over this action and personal\njurisdiction over the Defendants, a nd venue properly lies in this D istrict.\nNOW T HEREFOR E, IT IS HEREBY ORDERED, ADJUDGED AND DECREED\nTHAT:\n1.  This Court hereby takes exclusive juri sdiction and possession of the assets, of\nCase: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 1 of 29 PageID #:393",
+ "saved_entities": {
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "aliases": [
+     "SEC",
+     "Commission"
+    ],
+    "party_roles": [
+     "plaintiff"
+    ],
+    "canonical_name": "United States Securities and Exchange Commission"
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "EquityBuild, Inc."
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "EquityBuild Finance, LLC"
+   },
+   {
+    "key": "p4",
+    "kind": "person",
+    "aliases": [
+     "Jerome Cohen"
+    ],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "Jerome H. Cohen"
+   },
+   {
+    "key": "p5",
+    "kind": "person",
+    "aliases": [
+     "Shaun Cohen"
+    ],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "Shaun D. Cohen"
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": []
+ },
+ "saved_assertions": [
+  {
+   "id": "043c4fe4-61f6-46e4-9e84-fe2bb9dac5e8",
+   "document_title": "Order Appointing Receiver (08/17/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "party",
+   "subject_label": "United States Securities and Exchange Commission",
+   "predicate": "has_role",
+   "object_value": "plaintiff",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "UNITED STATES SECURITIES  )\nAND EXCHANGE COMMISSION,  )",
+   "status": "unverified"
+  },
+  {
+   "id": "6294a2a0-702a-4b9f-b92b-fb2113d9c370",
+   "document_title": "Order Appointing Receiver (08/17/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "party",
+   "subject_label": "EquityBuild, Inc.",
+   "predicate": "has_role",
+   "object_value": "defendant",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "EQUITYBUILD, INC.,  )",
+   "status": "unverified"
+  },
+  {
+   "id": "df996532-2b1d-4bdf-8219-402ff6ec0ab8",
+   "document_title": "Order Appointing Receiver (08/17/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "party",
+   "subject_label": "EquityBuild Finance, LLC",
+   "predicate": "has_role",
+   "object_value": "defendant",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "EQUITYBUILD FINANCE , LLC,",
+   "status": "unverified"
+  },
+  {
+   "id": "a7841701-e57e-465a-bd86-ece8641635a0",
+   "document_title": "Order Appointing Receiver (08/17/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "party",
+   "subject_label": "Jerome H. Cohen",
+   "predicate": "has_role",
+   "object_value": "defendant",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "JEROME H. COHEN  and  )",
+   "status": "unverified"
+  },
+  {
+   "id": "5f22a533-4056-42ae-a7e1-74f5618b2e00",
+   "document_title": "Order Appointing Receiver (08/17/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "party",
+   "subject_label": "Shaun D. Cohen",
+   "predicate": "has_role",
+   "object_value": "defendant",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "SHAUN D. COHEN  )",
+   "status": "unverified"
+  },
+  {
+   "id": "f2eb5361-12b1-42d1-bfa5-d71bf1f5fbe4",
+   "document_title": "Order Appointing Receiver (08/17/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "case",
+   "subject_label": "SEC v. EquityBuild, Inc., et al.",
+   "predicate": "status",
+   "object_value": "Court finds receiver appointment necessary to marshal and preserve assets of defendants and affiliates",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.8500",
+   "quote": "the appointment of a receiver in this action is neces sary and appropriate for the purposes of\nmarshaling and preserving all assets",
+   "status": "unverified"
+  }
+ ],
+ "saved_counts": {
+  "parties": 5,
+  "creditors": 0,
+  "attorneys": 0,
+  "properties": 0,
+  "related_lawsuits": 0
+ },
+ "stored_assertion_count": 6
+}

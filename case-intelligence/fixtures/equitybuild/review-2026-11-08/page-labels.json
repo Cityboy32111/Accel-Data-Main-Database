@@ -1,0 +1,597 @@
+{
+ "appointment-order-p001": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "United States Securities and Exchange Commission",
+    "detail": "Plaintiff; federal agency. Variants on page: \"UNITED STATES SECURITIES AND EXCHANGE COMMISSION\" (caption), \"SEC\", \"Commission\".",
+    "evidence": "Plaintiff United States Securities and Exchange Commission's (\"SEC\" or \"Commission\") Emergency Motion for a Temporary Restraining Order"
+   },
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Defendant; EquityBuild entity whose assets are to be marshaled by the receiver. Variants: \"EQUITYBUILD, INC.\" (caption), \"Equitybuild, Inc.\" (body).",
+    "evidence": "marshaling and preserving all assets of Defendants Equitybuild, Inc., Equitybuild Finance, LLC"
+   },
+   {
+    "name": "EquityBuild Finance, LLC",
+    "detail": "Defendant; EquityBuild affiliate LLC whose assets are to be marshaled by the receiver. Variants: \"EQUITYBUILD FINANCE , LLC\" (caption, stray space in text layer), \"Equitybuild Finance, LLC\" (body).",
+    "evidence": "Defendants Equitybuild, Inc., Equitybuild Finance, LLC, their affiliates, and the affiliate entities of Defendants Jerome Cohen and Shaun Cohen"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [
+   {
+    "name": "SEC v. EquityBuild, Inc., et al., No. 1:18-cv-05587 (N.D. Ill., Eastern Division)",
+    "detail": "The receivership action itself; this page is the caption and opening of the Order Appointing Receiver (Dkt. 16, filed 08/17/18, PageID 393). Caption leaves the civil action number and judge blank; the docket number appears only in the ECF header. Also references the SEC's Emergency Motion for a TRO, appointment of a receiver, and ancillary relief within the same action.",
+    "evidence": "Case: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 1 of 29 PageID #:393 ... ORDER APPOINTING RECEIVER"
+   }
+  ],
+  "authorities": [],
+  "page_kind": "mixed",
+  "notes": "Page 1 of 29 of the Order Appointing Receiver (Dkt. 16): court heading, case caption, title, three WHEREAS recitals, and the start of decretal paragraph 1 (cut off mid-sentence). Individuals named (not organizations): defendants Jerome H. Cohen and Shaun D. Cohen (also \\\"Jerome Cohen and Shaun Cohen\\\" in body) \u2014 these are defendants/persons, not creditors, attorneys, or organizations. No creditors, attorneys, specific properties/assets, or precedent authorities appear on this page. The receiver is referenced generically (\\\"a receiver\\\") and is not named. Generic references to \\\"their affiliates\\\" and \\\"affiliate entities\\\" of the Cohens are not distinct named entities and were not labeled. The caption's \\\"Civil Action No.\\\" and \\\"Hon. Judge\\\" fields are blank on the face of the page; only the ECF header supplies the docket number 1:18-cv-05587. Text layer and image match; the only irregularity is stray whitespace (e.g., \\\"P laintiff\\\", \\\"EQUITYBUILD FINANCE , LLC\\\"). Whether to count the receivership action itself as a \\\"related proceeding\\\" is a labeling convention the human reviewer should confirm; it is the only proceeding on the page."
+ },
+ "appointment-order-p005": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [],
+  "properties_or_assets": [],
+  "related_proceedings": [],
+  "authorities": [],
+  "page_kind": "body",
+  "notes": "Page 5 of 29 (PageID #:397) of the Order Appointing Receiver, Case 1:18-cv-05587, Dkt. 16, filed 08/17/18. The page is the continuation of the receiver's enumerated powers (end of paragraph A defining \"Receivership Assets\"/\"Receivership Estate\", then paragraphs B through the start of H: custody of assets, management of the estate, control of bank/investment/securities \"Accounts\", check-signing authority, opening new accounts under the estate's FEIN, liquidating securities, using assets for the estate's benefit). No named companies, banks, law firms, agencies, EquityBuild entities, creditors, specific properties or addresses, bank accounts, related proceedings, or case-law/statutory citations appear on this page. The only proper name is an individual: \"The representatives of the Receiver initially designated with authority over these accounts shall be Kevin B. Duff.\" He is named here only as the Receiver's designated account signatory, not as counsel for any party, so he is not labeled as an attorney under the schema (attorney = named lawyer with firm and client); a scorer treating him as a person/role mention should note that no firm or representation is stated on this page. \"Receivership Defendants\", \"Receiver\", \"Receivership Estate\", \"Receivership Assets\" and \"Accounts\" are generic defined role terms, not named entities. The header \"Case: 1:18-cv-05587\" identifies this same proceeding, not a related one. All categories are empty for this page; it is a zero-entity ground-truth page for creditors, organizations, properties/assets, related proceedings and authorities."
+ },
+ "status-report-1-p001": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "United States Securities and Exchange Commission",
+    "detail": "Plaintiff in the main action; also referred to as the SEC. Appears only in the caption on this page.",
+    "evidence": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,"
+   },
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Defendant; Receivership Defendant whose estate the Receiver administers.",
+    "evidence": "the Estate of Defendants EquityBuild, Inc., EquityBuild Finance, LLC, their affiliates"
+   },
+   {
+    "name": "EquityBuild Finance, LLC",
+    "detail": "Defendant; Receivership Defendant. Text layer renders it with irregular spacing as \"EQUITYBUILD FINANCE , LLC\" / \"E quityB uild F inance, LLC\".",
+    "evidence": "EQUITYBUILD, INC., EQUITYBUILD FINANCE , LLC, JEROME H. COHEN, and SHAUN D. COHEN, Defendants."
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [
+   {
+    "name": "SEC v. EquityBuild, Inc., et al., No. 1:18-cv-05587 (N.D. Ill., Eastern Division)",
+    "detail": "This is the main action in which the status report itself is filed (caption shows Civil Action No. 18-cv-5587, Hon. John Z. Lee, Magistrate Judge Young B. Kim). Listed because it is the only proceeding identified on the page; it is not a separate or collateral proceeding. The page also references the Order Appointing Receiver (Docket No. 16, entered August 17, 2018) within this same case.",
+    "evidence": "Civil Action No. 18-cv-5587 ... Hon. John Z. Lee ... Magistrate Judge Young B. Kim"
+   }
+  ],
+  "authorities": [],
+  "page_kind": "caption",
+  "notes": "Page 1 of 30 of Dkt. 107, Receiver's First Status Report (Third Quarter 2018), filed 10/30/18, PageID #:954. The page contains the court caption, the report title, an introductory paragraph, and the start of Section I (Background). No creditors, attorneys, properties, bank accounts, or precedent citations appear. Named individuals not fitting any category: Kevin B. Duff (the Receiver, not acting as counsel on this page), Jerome H. Cohen and Shaun D. Cohen (individual defendants; text layer spells them \\\"Jerome Cohen\\\" / \\\"Shaun Cohen\\\" in the body), Hon. John Z. Lee and Magistrate Judge Young B. Kim (judges, excluded). Generic references to \\\"their affiliates\\\" and \\\"affiliate entities\\\" of the Cohens are not named entities. The Order Appointing Receiver (Docket No. 16) is a docket entry in the main case, not a separate proceeding. The only related-proceeding entry is the main case caption itself; a scorer treating the main case as out of scope should drop that item, which would leave related_proceedings empty. Text layer line \"Magistrate Judge Y oung B. Kim\" has a whitespace artifact; the image reads \"Young\"."
+ },
+ "status-report-1-p022": {
+  "creditors": [
+   {
+    "name": "Fireshark Enterprises, LLC",
+    "detail": "Plaintiff in a pending Cook County Law Division action against EquityBuild, Inc.; litigation claimant (no amount stated on this page); action stayed by the receivership",
+    "evidence": "Fireshark Enterprises, LLC, v. EquityBuild, Inc., Case No. 2018 L 9026, Circuit Court of Cook County, Law Division."
+   },
+   {
+    "name": "Markwell",
+    "detail": "Plaintiff in a pending Harris County, Texas action against EquityBuild, Inc.; litigation claimant (first name not given; no amount stated); motion to stay pending",
+    "evidence": "Markwell v. EquityBuild, Inc., Case No. 2018-13722, 165th Judicial District Court, Harris County, Texas."
+   },
+   {
+    "name": "City of Chicago",
+    "detail": "Municipal taxing/regulatory authority asserting building code violations and fines against estate properties (housing court matters, Buildings Department, Streets and Sanitation, Water Management); fines imposed, no dollar amounts stated",
+    "evidence": "there are more than two dozen open building code violations involving the City of Chicago ... As to the remaining five, a single-count fine was imposed."
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "Fireshark Enterprises, LLC",
+    "detail": "LLC; plaintiff suing EquityBuild, Inc. in Cook County",
+    "evidence": "Fireshark Enterprises, LLC, v. EquityBuild, Inc."
+   },
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Receivership defendant entity; named defendant in both state-court actions (variant: \"EquityBuild's counsel in Texas\")",
+    "evidence": "Markwell v. EquityBuild, Inc., Case No. 2018-13722"
+   },
+   {
+    "name": "City of Chicago",
+    "detail": "Municipality; party to code-violation matters; its corporation counsel is referenced generically (unnamed)",
+    "evidence": "open building code violations involving the City of Chicago"
+   },
+   {
+    "name": "City of Chicago Buildings Department",
+    "detail": "City agency that filed approximately twelve administrative proceedings",
+    "evidence": "approximately twelve City of Chicago administrative proceedings filed by the City of Chicago Buildings Department were known to be pending"
+   },
+   {
+    "name": "Department of Streets and Sanitation (City of Chicago)",
+    "detail": "City agency with approximately twelve administrative proceedings pending; seven dismissed October 16, 2018",
+    "evidence": "approximately twelve administrative proceedings were known to be pending with the Department of Streets and Sanitation"
+   },
+   {
+    "name": "Department of Water Management (City of Chicago)",
+    "detail": "City agency with one administrative matter pending",
+    "evidence": "one City of Chicago administrative matter pending with the Department of Water Management"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [
+   {
+    "name": "Fireshark Enterprises, LLC v. EquityBuild, Inc., Case No. 2018 L 9026",
+    "detail": "Circuit Court of Cook County, Law Division; Receiver filed appearance and Notice of Appointment of Receiver and Stay of Litigation on September 24, 2018 (text layer renders docket as \"20 18 L 9026\")",
+    "evidence": "On September 24, 2018, the Receiver filed his appearance and Notice of Appointment of Receiver and Stay of Litigation."
+   },
+   {
+    "name": "Markwell v. EquityBuild, Inc., Case No. 2018-13722",
+    "detail": "165th Judicial District Court, Harris County, Texas; EquityBuild's Texas counsel filed a motion to stay, awaiting court order",
+    "evidence": "EquityBuild's counsel in Texas filed a motion to stay the proceedings and is awaiting a court order."
+   },
+   {
+    "name": "City of Chicago municipal housing court matters (seven)",
+    "detail": "Seven known housing court code-violation matters; no case numbers given; compliance includes a 16-unit rehab, roof on fire-damaged building, porch replacements and repairs",
+    "evidence": "There are seven currently known City of Chicago municipal housing court matters."
+   },
+   {
+    "name": "City of Chicago Buildings Department administrative proceedings (approximately twelve)",
+    "detail": "Pending as of September 30, 2018; one dismissed October 16, 2018 after compliance; a second involves only a minor fine; no case numbers given",
+    "evidence": "The Receiver achieved compliance on one matter which was dismissed on October 16, 2018; and a second matter involves only the imposition of a minor fine."
+   },
+   {
+    "name": "Department of Streets and Sanitation administrative proceedings (approximately twelve)",
+    "detail": "Pending as of September 30, 2018; seven dismissed in their entirety on October 16, 2018; single-count fine imposed on the remaining five; no case numbers given",
+    "evidence": "On October 16, 2018, seven of these were dismissed in their entirety. As to the remaining five, a single-count fine was imposed."
+   },
+   {
+    "name": "Department of Water Management administrative matter (one)",
+    "detail": "One City of Chicago administrative matter pending; no case number given",
+    "evidence": "There is known to be one City of Chicago administrative matter pending with the Department of Water Management."
+   },
+   {
+    "name": "Two open City of Chicago violations with notice sent, no court date",
+    "detail": "Notices issued, no court date assigned yet; no case numbers given",
+    "evidence": "The Receiver is also aware of two open City of Chicago violations for which notice has been sent but a court date has not yet been assigned."
+   }
+  ],
+  "authorities": [],
+  "page_kind": "body",
+  "notes": "Page 22 of 30 (PageID 975) of Dkt. 107 in SEC v. EquityBuild, Inc., et al., No. 1:18-cv-05587 (N.D. Ill.) \u2014 header caption of the main case, not listed as a related proceeding. Page continues a list of pending litigation against EquityBuild (last two bullets: Fireshark and Markwell) and then describes City of Chicago building-code matters. No individual attorneys are named (\"EquityBuild's counsel in Texas,\" \"the Receiver's counsel,\" and the City's \"corporation counsel\" are all unnamed role references). No property addresses or receiver property numbers appear; the only property descriptions are generic (\"a building that was affected by a fire in 2016,\" \"one building\" needing 90 lintels). No dollar amounts and no settlement language on this page. Creditor labels for Fireshark, Markwell and the City of Chicago are judgment calls: they are litigation/regulatory claimants against the estate's entities and properties, not lenders or mortgagees; the text does not state amounts. The parenthetical \"(housing, buildings, streets and sanitation, and waste management)\" at the bottom refers to City departments generically; \"waste management\" is not listed as a separate organization since it is not presented as a named agency on this page (the earlier bullet names the Department of Water Management, which may be what the parenthetical intends). No case-law or statutory authorities cited."
+ },
+ "dkt-1806-p001": {
+  "creditors": [
+   {
+    "name": "BMO Bank N.A.",
+    "detail": "Institutional lender; Group 7 claimant; filed Group 7 Position Statement (ECF 1794). Also referred to as \"BMO\" in the title.",
+    "evidence": "the Group 7 Position Statements of BMO Bank N.A. (ECF 1794)"
+   },
+   {
+    "name": "Citibank N.A.",
+    "detail": "Institutional lender; Group 7 claimant asserting priority on Properties 69 and 73; Position Statement at ECF 1797. Also \"Citibank\".",
+    "evidence": "Citibank (Properties 69 and 73) and Sabal (Property 70)"
+   },
+   {
+    "name": "Sabal Capital Operations, LLC",
+    "detail": "Institutional lender; Group 7 claimant asserting priority on Property 70; Position Statement at ECF 1798. Also \"Sabal\".",
+    "evidence": "Sabal Capital Operations, LLC (ECF 1798)"
+   },
+   {
+    "name": "Midland",
+    "detail": "Institutional lender; Group 6 claimant; Group 6 Position Statement at ECF 1757 (named only in footnote 1; full entity name not given on this page).",
+    "evidence": "the Group 6 Position Statements of Midland (ECF 1757) and UBS (1756)"
+   },
+   {
+    "name": "UBS",
+    "detail": "Institutional lender; Group 6 claimant; Group 6 Position Statement at ECF 1756 (named only in footnote 1; full entity name not given on this page).",
+    "evidence": "Midland (ECF 1757) and UBS (1756)"
+   },
+   {
+    "name": "Group 7 investors (unnamed investor-mortgagees)",
+    "detail": "Unnamed collective of investors holding recorded first-in-time mortgages on Properties 69, 70 and 73 whom the SEC says should have priority; not an individually named entity.",
+    "evidence": "the Court should find that such Group 7 investors likewise have priority"
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "U.S. Securities and Exchange Commission",
+    "detail": "Plaintiff; author of this filing. Referred to as \"the SEC\".",
+    "evidence": "U.S. SECURITIES AND EXCHANGE COMMISSION, Plaintiff"
+   },
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Lead defendant (\"et al.\").",
+    "evidence": "EQUITYBUILD, INC., et al., Defendants."
+   },
+   {
+    "name": "BMO Bank N.A.",
+    "detail": "Bank; Group 7 institutional lender. Variant: \"BMO\".",
+    "evidence": "BMO Bank N.A. (ECF 1794)"
+   },
+   {
+    "name": "Citibank N.A.",
+    "detail": "Bank; Group 7 institutional lender. Variant: \"Citibank\".",
+    "evidence": "Citibank N.A. (ECF 1797)"
+   },
+   {
+    "name": "Sabal Capital Operations, LLC",
+    "detail": "LLC; Group 7 institutional lender. Variant: \"Sabal\".",
+    "evidence": "Sabal Capital Operations, LLC (ECF 1798)"
+   },
+   {
+    "name": "Midland",
+    "detail": "Group 6 institutional lender (footnote 1); short name only on this page.",
+    "evidence": "Group 6 Position Statements of Midland (ECF 1757)"
+   },
+   {
+    "name": "UBS",
+    "detail": "Group 6 institutional lender (footnote 1); short name only on this page.",
+    "evidence": "and UBS (1756)"
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "Property 69",
+    "detail": "Receiver property number; subject of Citibank's priority claim; investors hold recorded first-in-time mortgages with no releases.",
+    "evidence": "Citibank (Properties 69 and 73)"
+   },
+   {
+    "name": "Property 70",
+    "detail": "Receiver property number; subject of Sabal's priority claim.",
+    "evidence": "Sabal (Property 70)"
+   },
+   {
+    "name": "Property 73",
+    "detail": "Receiver property number; subject of Citibank's priority claim.",
+    "evidence": "for Properties 69, 70, and 73: (a) investors obtained and recorded valid first-in-time mortgages"
+   }
+  ],
+  "related_proceedings": [
+   {
+    "name": "SEC v. EquityBuild, Inc., et al., Civil Action No. 18-CV-5587 (N.D. Ill., Eastern Division), Hon. Manish S. Shah",
+    "detail": "The main receivership action in which this filing (Dkt. 1806, filed 12/16/24) was made; the Group 6 and Group 7 position statements (ECF 1756, 1757, 1765, 1794, 1795, 1797, 1798) are entries in this same docket.",
+    "evidence": "Civil Action No. 18-CV-5587 ... Hon. Manish S. Shah ... Case: 1:18-cv-05587 Document #: 1806"
+   },
+   {
+    "name": "Seventh Circuit appeal(s) on EquityBuild priority disputes",
+    "detail": "Prior Seventh Circuit ruling(s) in this estate's priority disputes between investor-mortgagees and institutional lenders; no caption or docket number stated on this page.",
+    "evidence": "this Court and the Seventh Circuit have already addressed factually similar priority disputes in favor of investors who had recorded mortgages that were never validly released"
+   }
+  ],
+  "authorities": [],
+  "page_kind": "mixed",
+  "notes": "Page 1 of 6 of Dkt. 1806 (filed 12/16/24, PageID 123785): case caption, title, opening paragraph, start of Section A, and footnote 1. No individual attorneys are named (footnote 1 refers only to \"the same attorneys\"). No case-law or statutory authorities are cited by name; the Seventh Circuit is referenced only generically, so authorities is empty. The Seventh Circuit and the district court are courts and are excluded from organizations. \"Institutional Lenders\" is a role label, not an entity. Midland and UBS appear only by short name; full legal names are not on this page. The \"Group 7 investors\" creditor entry is an unnamed collective and may be excluded by a scorer who counts only named entities; the receiver is not mentioned on this page. Docket ECF references (1794, 1795, 1797, 1798, 1756, 1757, 1765) are filings within the same case, not separate proceedings."
+ },
+ "dkt-1806-p003": {
+  "creditors": [
+   {
+    "name": "Citibank",
+    "detail": "Institutional lender/claimant asserting priority over investors' mortgages on Properties 69, 70, and 73 (Group 7 position statement); relies on 5201 Washington decision and Collateral Agency and Servicing Agreements.",
+    "evidence": "Citibank and Sabal\u2019s reliance on the unpublished 5201 Washington decision is similarly misplaced. In that case, unlike Properties 69, 70, and 73"
+   },
+   {
+    "name": "Sabal",
+    "detail": "Institutional lender/claimant (paired with Citibank) asserting priority on Properties 69, 70, and 73; Group 7 position statement.",
+    "evidence": "the same documents Citibank and Sabal (and BMO) cite \u2013 the Collateral Agency and Servicing Agreements \u2013 and considered the same arguments Citibank and Sabal rehash"
+   },
+   {
+    "name": "BMO",
+    "detail": "Institutional lender/claimant for Property 2; filed Position Statement at ECF 1794 asserting priority based on an executed-but-unrecorded release.",
+    "evidence": "B. BMO (Property 2) In its Position Statement, BMO does not dispute that for Property 2: (a) the investors recorded a valid, prior-in-time mortgage"
+   },
+   {
+    "name": "DLP",
+    "detail": "Lender/claimant named in quoted prior ruling (ECF 1679 at 25) bearing burden to show Equitybuild Finance had authority to release Individual Investors' mortgage; appears only inside footnote 4 quotation.",
+    "evidence": "It is DLP\u2019s burden to show that Equitybuild Finance had the authority, actual or apparent, to release the Individual Investors\u2019 mortgage\u2026DLP has not done so."
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "Citibank",
+    "detail": "Bank; institutional lender claimant in Group 7.",
+    "evidence": "Citibank and Sabal\u2019s reliance on the unpublished 5201 Washington decision is similarly misplaced."
+   },
+   {
+    "name": "Sabal",
+    "detail": "Lender/claimant paired with Citibank; full entity name not given on this page.",
+    "evidence": "Citibank and Sabal\u2019s reliance on the unpublished 5201 Washington decision"
+   },
+   {
+    "name": "BMO",
+    "detail": "Bank; institutional lender claimant for Property 2; Position Statement at ECF 1794.",
+    "evidence": "In its Position Statement, BMO does not dispute that for Property 2"
+   },
+   {
+    "name": "DLP",
+    "detail": "Lender referenced in quoted language from ECF 1679 (footnote 4).",
+    "evidence": "It is DLP\u2019s burden to show that Equitybuild Finance had the authority"
+   },
+   {
+    "name": "Equitybuild Finance",
+    "detail": "EquityBuild affiliate; court held it lacked authority to release individual investors' mortgages (ECF 1386; ECF 1679). Variant: 'Equitybuild Finance'.",
+    "evidence": "the Court unambiguously held that \u201cEquitybuild Finance lacked the authority to release the individual investors\u2019 mortgages.\u201d"
+   },
+   {
+    "name": "Equitybuild, Inc.",
+    "detail": "EquityBuild entity; named defendant/appellee in the Illinois Appellate Court decision 5201 Wash. Invs. LLC v. Equitybuild, Inc.",
+    "evidence": "5201 Wash. Invs. LLC v. Equitybuild, Inc., 2024 IL App (1st) 231403-U"
+   },
+   {
+    "name": "5201 Wash. Invs. LLC",
+    "detail": "LLC; plaintiff/appellant in the Illinois Appellate Court decision; variant '5201 Washington' used as decision shorthand.",
+    "evidence": "5201 Wash. Invs. LLC v. Equitybuild, Inc., 2024 IL App (1st) 231403-U, *P28-*P32 (Aug. 14, 2024)"
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "Property 69",
+    "detail": "Receiver property number; no release ever recorded; Citibank/Sabal claim at issue.",
+    "evidence": "In that case, unlike Properties 69, 70, and 73, a release was publicly recorded"
+   },
+   {
+    "name": "Property 70",
+    "detail": "Receiver property number; no release ever recorded; Citibank/Sabal claim at issue.",
+    "evidence": "unlike Properties 69, 70, and 73, a release was publicly recorded"
+   },
+   {
+    "name": "Property 73",
+    "detail": "Receiver property number; no release ever recorded; Citibank/Sabal claim at issue.",
+    "evidence": "unlike Properties 69, 70, and 73, a release was publicly recorded"
+   },
+   {
+    "name": "Property 2",
+    "detail": "Receiver property number; BMO claim; investors hold valid prior-in-time recorded mortgage; release executed but never recorded (ECF 1794 at 2, 5).",
+    "evidence": "BMO does not dispute that for Property 2: (a) the investors recorded a valid, prior-in-time mortgage"
+   }
+  ],
+  "related_proceedings": [
+   {
+    "name": "5201 Wash. Invs. LLC v. Equitybuild, Inc., 2024 IL App (1st) 231403-U (Aug. 14, 2024)",
+    "detail": "Unpublished Illinois Appellate Court, First District, decision involving EquityBuild entity; concerned whether a publicly recorded release was valid and authorized; cited by Citibank and Sabal and distinguished by the SEC. Referred to as '5201 Washington'. Also functions as a cited authority.",
+    "evidence": "5201 Wash. Invs. LLC v. Equitybuild, Inc., 2024 IL App (1st) 231403-U, *P28-*P32 (Aug. 14, 2024)"
+   },
+   {
+    "name": "Seventh Circuit appeal in this receivership (cited as 'Id. at 533')",
+    "detail": "U.S. Court of Appeals for the Seventh Circuit decision holding investors' first-in-time mortgages had priority absent a valid release under the Illinois Mortgage Act; full caption appears on a prior page, only short cite 'Id. at 533' on this page.",
+    "evidence": "the Seventh Circuit was explicit that \u201c[b]ecause payment alone cannot extinguish a preexisting security interest without a valid release under the Illinois Mortgage Act, and because no valid release occurred,\u201d the investors\u2019 first-in-time mortgages had priority. Id. at 533."
+   }
+  ],
+  "authorities": [
+   {
+    "name": "Illinois Mortgage Act",
+    "detail": "Illinois statute; a valid release under the Act is required to extinguish a preexisting security interest (quoted from the Seventh Circuit opinion).",
+    "evidence": "payment alone cannot extinguish a preexisting security interest without a valid release under the Illinois Mortgage Act"
+   }
+  ],
+  "page_kind": "body",
+  "notes": "Page 3 of 6 of SEC's Response to Group 7 Position Statements, Dkt. 1806, Case 1:18-cv-05587 (N.D. Ill.), PageID 123787. Body text with footnote 4. No attorneys, signature block, or SEC/Receiver named by entity name on this page. Docket entries cited within the same case (not separate proceedings): ECF 1794 at 2, 5 (BMO Position Statement); ECF 1386 at 1, 14-28 (prior ruling that Equitybuild Finance lacked release authority); ECF 1679 at 25 (prior ruling re DLP burden). Documents referenced but not entities: Collateral Agency and Servicing Agreements. 'The investors' / 'Individual Investors' are claimants but are a generic unnamed group, so not listed as a creditor entity. The 5201 Washington decision is listed once under related_proceedings (it involves an EquityBuild party) rather than duplicated under authorities; the Seventh Circuit opinion is this case's own appeal and is likewise placed under related_proceedings. '5201 Washington' is also a property address implied by the case name but the page does not present it as an estate asset, so it is not listed under properties. Courts (Seventh Circuit, Illinois Appellate Court, this Court) excluded from organizations per rules."
+ },
+ "dkt-1938-p001": {
+  "page_kind": "mixed",
+  "creditors": [
+   {
+    "name": "Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased",
+    "detail": "Tort/wrongful-death-type claimant; plaintiff in the Cook County Circuit Court Action against two EquityBuild SPEs and WPD; referred to as \"Pennington\". Party to the settlement the Receiver seeks to approve. No settlement amount appears on this page.",
+    "evidence": "moves for an order approving a settlement reached with Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased (\"Pennington\")"
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "United States Securities and Exchange Commission",
+    "detail": "Plaintiff in the receivership case (SEC).",
+    "evidence": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff"
+   },
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Defendant; Receivership Defendant; defined as \"EquityBuild\".",
+    "evidence": "Estate of Defendants EquityBuild, Inc. (\"EquityBuild\")"
+   },
+   {
+    "name": "EquityBuild Finance, LLC",
+    "detail": "Defendant; Receivership Defendant; defined as \"EquityBuild Finance\".",
+    "evidence": "EquityBuild Finance, LLC (\"EquityBuild Finance\")"
+   },
+   {
+    "name": "4533-47 Calumet LLC",
+    "detail": "Named defendant in the Circuit Court Action caption (distinct spelling from 4533-37 S Calumet LLC).",
+    "evidence": "v. 4533-47 Calumet LLC, 4533-37 S Calumet LLC, and WPD Management, LLC"
+   },
+   {
+    "name": "4533-37 S Calumet LLC",
+    "detail": "EquityBuild special purpose entity; owner of 4533-47 S Calumet Avenue; defendant in the Circuit Court Action.",
+    "evidence": "owned by EquityBuild special purpose entity defendant 4533-37 S Calumet LLC"
+   },
+   {
+    "name": "WPD Management, LLC",
+    "detail": "Property manager of 4533-47 S Calumet; defendant in the Circuit Court Action. Variant on the same page: \"WPD Property Management LLC\" (defined as \"WPD\").",
+    "evidence": "managed by defendant WPD Property Management LLC (\"WPD\")"
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "4533-47 S Calumet Avenue (Property No. 2)",
+    "detail": "Apartment building in which the decedent was a tenant; owned by 4533-37 S Calumet LLC and managed by WPD. Receiver property number 2.",
+    "evidence": "the apartment building located at 4533-47 S Calumet Avenue (Property No. 2), that was owned by EquityBuild special purpose entity defendant 4533-37 S Calumet LLC"
+   }
+  ],
+  "related_proceedings": [
+   {
+    "name": "SEC v. EquityBuild, Inc., EquityBuild Finance, LLC, Jerome H. Cohen, and Shaun D. Cohen, Civil Action No. 1:18-cv-05587 (N.D. Ill., Eastern Division)",
+    "detail": "The receivership case itself, in which this motion (Dkt. 1938, filed 01/05/26) is brought; Judge Manish Shah, Magistrate Judge Young B. Kim.",
+    "evidence": "Civil Action No. 18-cv-5587 / Judge Manish Shah / Magistrate Judge Young B. Kim"
+   },
+   {
+    "name": "Jerrine Pennington as Special Administrator of the Estate of Valerie Pennington, Deceased v. 4533-47 Calumet LLC, 4533-37 S Calumet LLC, and WPD Management, LLC, Case No. 2021 L 010115 (Circuit Court of Cook County, Law Division)",
+    "detail": "The \"Circuit Court Action\"; state-court tort complaint filed on or about October 14, 2021, whose settlement the Receiver seeks to approve.",
+    "evidence": "Pennington filed a Complaint in the Law Division of the Circuit Court of Cook County captioned ... Case No. 2021 L 010115 (the \"Circuit Court Action\")"
+   }
+  ],
+  "authorities": [],
+  "notes": "Page 1 of 8 of Dkt. 1938 (PageID 127940): caption plus the opening of the body (intro paragraph and paragraph 1, which breaks mid-sentence at the page end). Individuals who are not organizations and not attorneys on this page: Kevin B. Duff (presented as receiver, not as counsel; Jerome H. Cohen and Shaun D. Cohen (individual defendants). No settlement amount, approval status, or payment language appears on this page; the motion asks for an order approving the settlement, so as of this page the settlement is proposed/pending court approval. The $30,000 figure flagged in the priority-1 task is not on page 1 and would have to be verified on a later page. WPD is named two ways on this page (\"WPD Management, LLC\" in the state caption; \"WPD Property Management LLC\" in the body) and is labeled once. No case-law or statutory authorities are cited on this page."
+ },
+ "dkt-1938-p002": {
+  "creditors": [
+   {
+    "name": "Jerrine Pennington, on behalf of the Estate of Valerie Pennington, Deceased",
+    "detail": "Tort / wrongful-death claimant (plaintiff in the Circuit Court Action, a personal-injury suit over a tenant's death) who settled with the Receiver for $30,000; the settlement is described as proposed and subject to Court approval, not yet approved or paid. Referred to on the page as \"Pennington\".",
+    "evidence": "the Receiver will pay thirty thousand dollars ($30,000) from the Receiver's account, by check payable to Jerrine Pennington on behalf of the Estate of Valerie Pennington, Deceased"
+   },
+   {
+    "name": "Keating Law Offices, P.C.",
+    "detail": "Law firm named as co-payee on the proposed $30,000 settlement check \"in full settlement of their claims\" \u2014 presented as holding a claim (presumably attorney-fee/lien interest) against the settlement proceeds; proposed, not yet approved or paid.",
+    "evidence": "by check payable to Jerrine Pennington on behalf of the Estate of Valerie Pennington, Deceased, and Keating Law Offices, P.C., in full settlement of their claims"
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "Keating Law Offices, P.C.",
+    "detail": "Law firm; co-payee on the proposed settlement check (apparently counsel for Pennington in the Circuit Court Action, though the page does not expressly say so).",
+    "evidence": "and Keating Law Offices, P.C., in full settlement of their claims"
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "Receiver's account",
+    "detail": "Bank account of the receivership estate from which the proposed $30,000 settlement payment would be made; no account number or institution given on this page.",
+    "evidence": "the Receiver will pay thirty thousand dollars ($30,000) from the Receiver's account"
+   }
+  ],
+  "related_proceedings": [
+   {
+    "name": "Circuit Court Action (Pennington personal-injury/wrongful-death suit)",
+    "detail": "State-court action in the Circuit Court (Law Division) in which the Receiver appeared as defendant; stayed January 27, 2022 pursuant to the Order Appointing Receiver and placed on the Law Division's special stay calendar on February 15, 2024; to be dismissed with prejudice by Pennington under the proposed settlement. Caption and docket number are not stated on this page (defined term carried over from page 1).",
+    "evidence": "On January 27, 2022, the Circuit Court Action was stayed pursuant to the Order Appointing Receiver in the instant case, and on February 15, 2024, the case was placed on the Law Division's special stay calendar."
+   }
+  ],
+  "authorities": [],
+  "page_kind": "body",
+  "notes": "Page 2 of 8 of Dkt. 1938 (Case 1:18-cv-05587, PageID 127941), numbered paragraphs 2-5(b) of the Receiver's motion. Key qualifiers for the $30,000 figure: the Settlement Agreement is attached as Exhibit A, \\\"subject to Court approval\\\"; para. 5 opens \\\"Pursuant to the proposed Settlement Agreement, and with the Court's approval\\\"; payment is conditioned on (a) an order approving the Settlement and (b) an order dismissing the Circuit Court Action with prejudice, with payment due within seven days of the dismissal order. The page therefore describes the settlement as PROPOSED, not approved or paid. No individual attorneys are named (only \\\"both parties having been represented by counsel\\\"). No EquityBuild entities, SEC, or banks appear on this page. References to the instant case: the August 17, 2018 Order Appointing Receiver (Dkt. 16, para. 8(N)) authorizing the Receiver to defend suits against the Receivership Estate \u2014 this is an order in the same case, not a precedent authority, so it is not listed under authorities or related proceedings. \\\"Estate of Valerie Pennington, Deceased\\\" is a decedent's probate estate, not a company, so it is folded into the Pennington creditor entry rather than listed as a separate organization. \\\"Law Division\\\" is a court division and is excluded. The defendants in the Circuit Court Action are referred to only as \\\"these defendants\\\" on this page (named on page 1)."
+ },
+ "dkt-1967-p001": {
+  "creditors": [],
+  "attorneys": [
+   {
+    "name": "Michael Rachlis",
+    "detail": "Rachlis Duff & Peel, LLC; counsel for Kevin B. Duff, Receiver (email mrachlis@rdaplaw.net)",
+    "evidence": "Michael Rachlis ... Rachlis Duff & Peel, LLC ... Attorneys for Kevin B. Duff, Receiver"
+   },
+   {
+    "name": "Jodi Rosen Wine",
+    "detail": "Rachlis Duff & Peel, LLC; counsel for Kevin B. Duff, Receiver (email jwine@rdaplaw.net)",
+    "evidence": "Jodi Rosen Wine ... Rachlis Duff & Peel, LLC ... Attorneys for Kevin B. Duff, Receiver"
+   }
+  ],
+  "organizations": [
+   {
+    "name": "United States Securities and Exchange Commission",
+    "detail": "Plaintiff in the receivership action; caption spells it in caps: UNITED STATES SECURITIES AND EXCHANGE COMMISSION",
+    "evidence": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,"
+   },
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Lead defendant (et al.); caption spelling EQUITYBUILD, INC.",
+    "evidence": "EQUITYBUILD, INC., et al., Defendants."
+   },
+   {
+    "name": "Rachlis Duff & Peel, LLC",
+    "detail": "Law firm representing the Receiver, 216 W. Jackson Blvd., Suite 975, Chicago, IL 60606; domain rdaplaw.net",
+    "evidence": "Rachlis Duff & Peel, LLC 216 W. Jackson Blvd., Suite 975 Chicago, IL 60606"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [
+   {
+    "name": "SEC v. EquityBuild, Inc., et al., Case No. 1:18-cv-5587 (N.D. Ill., Eastern Division)",
+    "detail": "The receivership action itself, in which this motion (Dkt. 1967, filed 06/30/26) is brought; Hon. Manish S. Shah presiding, Magistrate Judge Young B. Kim. Header spells docket as 1:18-cv-05587.",
+    "evidence": "Case No. 1:18-cv-5587 ... Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 1 of 273"
+   }
+  ],
+  "authorities": [],
+  "page_kind": "caption",
+  "notes": "Page 1 of 273 of Dkt. 1967 is the cover/caption page only: court heading, case caption, motion title (\"RECEIVER'S MOTION TO APPROVE GROUP 10 DISTRIBUTION PLAN\"), and the receiver's counsel signature-style block. Individuals not falling into the five categories: Kevin B. Duff (Receiver, represented party, not an attorney on this page), Hon. Manish S. Shah (district judge) and Magistrate Judge Young B. Kim (court, excluded). No creditors, properties, bank accounts, settlement amounts, or precedent citations appear on this page. The $30,000 settlement is not referenced here. Labels were made from the PDF image and text layer only; no extraction output was consulted."
+ },
+ "dkt-1967-p003": {
+  "creditors": [
+   {
+    "name": "Allred",
+    "detail": "Individual claimant/insider-promoter; unsecured claim the Receiver proposes to exclude (TOC heading IV.A.1, p. 26). Surname only on this page.",
+    "evidence": "1. Allred's Unsecured Claim Should Be Excluded"
+   },
+   {
+    "name": "Mora",
+    "detail": "Individual claimant/insider-promoter; unsecured claim the Receiver proposes to exclude (TOC heading IV.A.2, p. 27). Surname only on this page.",
+    "evidence": "2. Mora's Unsecured Claim Should Be Excluded."
+   },
+   {
+    "name": "Capital Investors, LLC",
+    "detail": "Entity claimant; unsecured claim related to 6949-59 S. Merrill and 5001 S. Drexel, proposed to be excluded (TOC heading IV.B, p. 27).",
+    "evidence": "Capital Investors, LLC's Unsecured Claim Related to 6949-59 S. Merrill and 5001 S. Drexel Should Be Excluded"
+   },
+   {
+    "name": "6951 South Merrill Fund I LLC",
+    "detail": "Entity claimant; unsecured claim proposed to be allowed (TOC heading IV.B, p. 27).",
+    "evidence": "the Unsecured Claims of 6951 South Merrill Fund I LLC and 5001 South Drexel Blvd Fund II LLC Should Be Allowed"
+   },
+   {
+    "name": "5001 South Drexel Blvd Fund II LLC",
+    "detail": "Entity claimant; unsecured claim proposed to be allowed (TOC heading IV.B, p. 27).",
+    "evidence": "the Unsecured Claims of 6951 South Merrill Fund I LLC and 5001 South Drexel Blvd Fund II LLC Should Be Allowed"
+   },
+   {
+    "name": "Michael and Lyanne Terada",
+    "detail": "Individual claimants (married couple); unsecured claim 940-551, proposed to be excluded for failure of documentation (TOC heading IV.C, p. 29).",
+    "evidence": "Michael and Lyanne Terada's Unsecured Claim 940-551 Should Be Excluded Due To a Failure of Documentation Supporting the Claim."
+   },
+   {
+    "name": "Shatar",
+    "detail": "Claimant with multiple unsecured claims; Receiver proposes subordination (TOC heading IV.D, p. 30). Surname/short name only on this page.",
+    "evidence": "Subordination of Shatar's Unsecured Claims Is Appropriate."
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "Capital Investors, LLC",
+    "detail": "LLC claimant named in TOC heading IV.B.",
+    "evidence": "Capital Investors, LLC's Unsecured Claim Related to 6949-59 S. Merrill and 5001 S. Drexel"
+   },
+   {
+    "name": "6951 South Merrill Fund I LLC",
+    "detail": "LLC/fund claimant named in TOC heading IV.B; property-named entity.",
+    "evidence": "the Unsecured Claims of 6951 South Merrill Fund I LLC"
+   },
+   {
+    "name": "5001 South Drexel Blvd Fund II LLC",
+    "detail": "LLC/fund claimant named in TOC heading IV.B; property-named entity.",
+    "evidence": "5001 South Drexel Blvd Fund II LLC Should Be Allowed"
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "6949-59 S. Merrill",
+    "detail": "Real property address (Chicago) referenced in TOC heading IV.B; text layer renders as '6949 - 59 S. Merrill'. Related to Capital Investors, LLC's claim and 6951 South Merrill Fund I LLC.",
+    "evidence": "Unsecured Claim Related to 6949-59 S. Merrill and 5001 S. Drexel"
+   },
+   {
+    "name": "5001 S. Drexel",
+    "detail": "Real property address (Chicago) referenced in TOC heading IV.B; related to Capital Investors, LLC's claim and 5001 South Drexel Blvd Fund II LLC.",
+    "evidence": "Unsecured Claim Related to 6949-59 S. Merrill and 5001 S. Drexel"
+   }
+  ],
+  "related_proceedings": [],
+  "authorities": [],
+  "page_kind": "table of contents",
+  "notes": "Page 3 of 273 (PDF p. 3, document p. ii) of Dkt. 1967 is the second page of the table of contents (sections IV through VIII plus Certificate of Service). No attorneys, authorities, or other proceedings appear. The only proceeding reference is the page header for the main case itself (Case: 1:18-cv-05587, Document #: 1967, Filed 06/30/26, PageID #:128333), which is this receivership action, not a separate related proceeding, so it is not listed under related_proceedings. The SEC, EquityBuild entities, and the Receiver are not named on this page. Generic claimant groups referenced but not named as distinct entities: 'Insiders and Promoters' (IV.A), 'Non-Contributing Claims' (IV.E; text layer splits as 'Non - Contribu ting'), and 'The Remaining Investors and Institutional Lenders' (IV.F); these are not labeled as creditors because they are not named entities. Claim number 940-551 (text layer '940 - 551') is attached to the Terada claim. Claimant status for Allred, Mora, Terada, Shatar, Capital Investors, LLC and the two Fund LLCs is inferred from TOC headings describing their unsecured claims; Allred, Mora, and Shatar appear by surname/short name only, so full identification requires the body pages. Methodology terms (Rising Tide, Net Loss, Relative Percentage Analysis) are not entities."
+ }
+}

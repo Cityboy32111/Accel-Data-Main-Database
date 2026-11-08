@@ -1,0 +1,60 @@
+{
+ "document": "Order Appointing Receiver (2018-08-17), Dkt. 16",
+ "page": 5,
+ "pdf": "fixtures/equitybuild/downloads/a751844d80ae222497ada928d7f0bdfc.pdf",
+ "page_text": "5\ninterests, contracts, certificates of title, instruments, inheritances,  interests\nin any trust, art, collectibles, furnishings, jewelry, personal effects, digital\ncurrencies, virtual currencies, cryptocurrencies, digital or electronic\nproperty, rights, and other assets, together with all rents, profits, dividends,\ninterest or  other income attributable thereto, of whatever kind and\nwherever located, which the Receivership Defendants own, possess, have\na beneficial interest in, or control directly or indirectly (the foregoing,\ntogether with all assets described in this Order  col lectively may be\nref erred to as  \u201cReceivership Assets\u201d  or the \u201cReceivership Estate \u201d);\nB .  To take custody, control ,  and possession  of all Receivership Assets  and\nrecords relevant thereto  from the Receivership Defendants;  to sue for and\ncollect, recover, receive ,  and take into possession  from third parties  all\nReceivership Assets  and records  relevant thereto ;\nC.  T o manage, control, operate and maintain the Receiver ship Estate  and\nhold in his possession, custody and contro l all  Receivership Assets ,\npend ing further Order of this Court;\nD.  To take possession of all bank and investment accounts or securities\naccounts owned  controlled, or held, in whole or in part,  by or associated\nwith the Receivership Estate or Receivership  Defendants, whether in the\nname of the Receivership Defendants or their subsidiaries or affiliates,\nwherever located (collectively, the  \u201c Accounts \u201d ). The Receiver shall have\nthe authority to open, close, transfer and change all bank, investment and\nsecurit ies Accounts.\nE.  To sign checks on, otherwise withdraw or transfer, trade ,  or otherwise\ncontrol the funds and/or securities co ntained in any Accounts owned,\ncontrolled , or held, in whole or in part,  by, or in the name of, the\nReceivership Defendants and R eceivership Estate. The Receiver shall also\nbe authorized to add or delete signers, including those currently authorized\non the Account(s). The representatives of the Receiver initially designated\nwith authority over these accounts shall be  Kevin B. Duff .\nF.  To open and maintain new bank accounts in the name of the Receiver for\nthe use in administering and preservation of the Receivership Estate, using\nthe Federal Employer Identification Number of the Receivership Estate, at\nthe Receiver \u2019 s discretion.\nG .  To take control of, conserve, and liquidate any and all securities or\ncommodities, owned , controlled, or held by, in whole or in part,  by or for\nthe benefit of the Receivership Estate, as the Receiver deems advisable or\nnecessary.\nH .  To use Receiver ship  Assets  for the ben efit of the Receivership Estate ,\nCase: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 5 of 29 PageID #:397",
+ "saved_entities": {
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "person",
+    "aliases": [
+     "the Receiver"
+    ],
+    "party_roles": [
+     "receiver"
+    ],
+    "canonical_name": "Kevin B. Duff"
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "Receivership Defendants"
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": []
+ },
+ "saved_assertions": [
+  {
+   "id": "1f1a9944-e510-4a56-a2f0-d047604ecf9c",
+   "document_title": "Order Appointing Receiver (08/17/2018)",
+   "docket_number": null,
+   "page_number": 5,
+   "subject_type": "party",
+   "subject_label": "Kevin B. Duff",
+   "predicate": "has_role",
+   "object_value": "representative of the Receiver initially designated with authority over accounts",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.7000",
+   "quote": "The representatives of the Receiver initially designated with authority over these accounts shall be  Kevin B. Duff .",
+   "status": "unverified"
+  }
+ ],
+ "saved_counts": {
+  "parties": 2,
+  "creditors": 0,
+  "attorneys": 0,
+  "properties": 0,
+  "related_lawsuits": 0
+ },
+ "stored_assertion_count": 1
+}

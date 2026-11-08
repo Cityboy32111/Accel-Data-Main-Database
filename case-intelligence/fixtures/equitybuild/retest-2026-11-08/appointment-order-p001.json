@@ -1,0 +1,229 @@
+{
+ "key": "appointment-order",
+ "page": 1,
+ "document": "Order Appointing Receiver (2018-08-17), Dkt. 16",
+ "document_id": "241e638c-979b-442a-a15e-1957dc70e562",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.2",
+ "schema_version": "2026-11-08.2",
+ "input_tokens": 5289,
+ "output_tokens": 1255,
+ "latency_ms": 6333,
+ "page_kind": "mixed",
+ "output": {
+  "page_kind": "mixed",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION",
+    "party_roles": [
+     "plaintiff"
+    ],
+    "aliases": [
+     "SEC",
+     "Commission"
+    ]
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "EQUITYBUILD, INC.",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": [
+     "Equitybuild, Inc."
+    ]
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "EQUITYBUILD FINANCE, LLC",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": [
+     "Equitybuild Finance, LLC"
+    ]
+   },
+   {
+    "key": "p4",
+    "kind": "person",
+    "canonical_name": "JEROME H. COHEN",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": [
+     "Jerome Cohen"
+    ]
+   },
+   {
+    "key": "p5",
+    "kind": "person",
+    "canonical_name": "SHAUN D. COHEN",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": [
+     "Shaun Cohen"
+    ]
+   },
+   {
+    "key": "p6",
+    "kind": "organization",
+    "canonical_name": "UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF ILLINOIS",
+    "party_roles": [
+     "court"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "status",
+    "object_value": "Court finds appointment of a receiver necessary and appropriate to marshal and preserve assets of the defendants, their affiliates, and affiliate entities of the Cohens",
+    "object_type": null,
+    "object_key": null,
+    "modality": "ordered",
+    "conditions": "based on the record in these proceedings",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "the appointment of a receiver in this action is neces sary and appropriate for the purposes of marshaling and preserving all assets",
+    "confidence": 0.8,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "filed_on",
+    "object_value": "2018-08-17",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 1 of 29 PageID #:393",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "authorized_to",
+    "object_value": "Court takes exclusive jurisdiction and possession of the assets",
+    "object_type": null,
+    "object_key": null,
+    "modality": "ordered",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "This Court hereby takes exclusive juri sdiction and possession of the assets, of",
+    "confidence": 0.7,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "status",
+   "object_value": "Court finds appointment of a receiver necessary and appropriate to marshal and preserve assets of the defendants, their affiliates, and affiliate entities of the Cohens",
+   "object_type": null,
+   "object_key": null,
+   "modality": "ordered",
+   "conditions": "based on the record in these proceedings",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "the appointment of a receiver in this action is neces sary and appropriate for the purposes of marshaling and preserving all assets",
+   "confidence": 0.8,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.8,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "filed_on",
+   "object_value": "2018-08-17",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 1 of 29 PageID #:393",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "authorized_to",
+   "object_value": "Court takes exclusive jurisdiction and possession of the assets",
+   "object_type": null,
+   "object_key": null,
+   "modality": "ordered",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "This Court hereby takes exclusive juri sdiction and possession of the assets, of",
+   "confidence": 0.7,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.7,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "page_text": "1\nUNITED STATES DISTRICT COURT\nNORTHERN DISTRICT OF ILLINOIS\nEASTERN DIVISION\n______________________________________\n)\nUNITED STATES SECURITIES  )\nAND EXCHANGE COMMISSION,  )\n)  Civil Action No.\nPlaintiff,  )\nv.  )\n)  Hon. Judge\nEQUITYBUILD, INC.,  )\nEQUITYBUILD FINANCE , LLC,  )\nJEROME H. COHEN  and  )\nSHAUN D. COHEN  )\n)\nDefendants,  )\n_____ )\nORDER APPOINTING RECEIVER\nWHEREAS  this matter has come before this Court upon  P laintiff United States\nSecurities and Exchange Commission’s (“SEC” or “Commission”) Emergency Motion for a\nTemporary Restraining  Order to Prevent Violations of the Federal Securities Laws, to Appoint a\nReceiver, and to Provide for Other Ancillary Relief ; and,\nWHEREAS  the Court finds that, based on the record in these proceedings, the\nappointment of a receiver in this action is neces sary and appropriate for the purposes of\nmarshaling and preserving all assets  of  Defendants  Equitybuild, Inc., Equitybuild Finance, LLC,\ntheir affiliates , and the affiliate entities of Defendants Jerome Cohen and Shaun Cohen ;  and,\nWHEREAS  this Court has subject matter jurisdiction over this action and personal\njurisdiction over the Defendants, a nd venue properly lies in this D istrict.\nNOW T HEREFOR E, IT IS HEREBY ORDERED, ADJUDGED AND DECREED\nTHAT:\n1.  This Court hereby takes exclusive juri sdiction and possession of the assets, of\nCase: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 1 of 29 PageID #:393"
+}

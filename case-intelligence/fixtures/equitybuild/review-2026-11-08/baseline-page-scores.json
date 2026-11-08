@@ -1,0 +1,873 @@
+{
+ "appointment-order-p001": {
+  "creditors": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "attorneys": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "organizations": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [
+    "United States Securities and Exchange Commission (saved p1, aliases SEC/Commission, plaintiff) = label 'United States Securities and Exchange Commission'",
+    "EquityBuild, Inc. (saved p2, defendant) = label 'EquityBuild, Inc.'",
+    "EquityBuild Finance, LLC (saved p3, defendant) = label 'EquityBuild Finance, LLC'"
+   ],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "properties_or_assets": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "related_proceedings": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": [
+    "SEC v. EquityBuild, Inc., et al., No. 1:18-cv-05587 (N.D. Ill.) - the receivership action itself; saved related_lawsuits is empty. Counted per the labels, but this is the main case, not a separate related proceeding; if the convention excludes the main action, FN = 0 (see judgment_calls)."
+   ]
+  },
+  "citations": [
+   {
+    "assertion_id": "043c4fe4-61f6-46e4-9e84-fe2bb9dac5e8",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": ""
+   },
+   {
+    "assertion_id": "6294a2a0-702a-4b9f-b92b-fb2113d9c370",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": ""
+   },
+   {
+    "assertion_id": "df996532-2b1d-4bdf-8219-402ff6ec0ab8",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "Quote reproduces the text-layer stray space ('EQUITYBUILD FINANCE , LLC'); matches the page ignoring whitespace. Caption lists the entity under 'Defendants'."
+   },
+   {
+    "assertion_id": "a7841701-e57e-465a-bd86-ece8641635a0",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": ""
+   },
+   {
+    "assertion_id": "5f22a533-4056-42ae-a7e1-74f5618b2e00",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": ""
+   },
+   {
+    "assertion_id": "f2eb5361-12b1-42d1-bfa5-d71bf1f5fbe4",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "Supported by the second WHEREAS recital (quote matches ignoring the 'neces sary' text-layer split). Minor imprecision, not a dropped qualifier: the page scopes the assets to 'Defendants Equitybuild, Inc., Equitybuild Finance, LLC, their affiliates, and the affiliate entities of Defendants Jerome Cohen and Shaun Cohen'; the object_value's 'assets of defendants and affiliates' could be read to include the Cohens' personal assets, which this recital does not say. Also predicate 'status' is used for what is a court finding, and docket_number is null although the ECF header shows 1:18-cv-05587."
+   }
+  ],
+  "judgment_calls": [
+   "Related proceedings: the only proceeding on the page is the receivership action itself (SEC v. EquityBuild, Inc., et al., 1:18-cv-05587). The labels count it as a related proceeding; the extractor left related_lawsuits empty. Whether the main case should count as a 'related proceeding' is a labeling convention to confirm. If the main action is excluded by convention, this page has FN = 0 and the category is N/A (0/0/0) rather than 0 TP / 1 FN.",
+   "Assertion f2eb5361 (case status): object_value compresses the recital's asset scope ('Defendants Equitybuild, Inc., Equitybuild Finance, LLC, their affiliates, and the affiliate entities of Defendants Jerome Cohen and Shaun Cohen') to 'assets of defendants and affiliates'. I scored it supported because the meaning is not reversed, but a strict reviewer could treat the omission of the entity-only scope (excluding the Cohens' personal assets) as a dropped qualifier. Human should confirm the tolerance for this kind of paraphrase.",
+   "Assertion f2eb5361 uses predicate 'status' for a court finding in a WHEREAS recital; the page does not state a procedural status. Scored on substance, but the predicate taxonomy choice should be confirmed.",
+   "All six assertions have docket_number null even though the ECF header on the page shows Case 1:18-cv-05587, Document 16. Not a citation failure under the stated rules (page and quote are correct), but worth confirming whether docket_number is expected to be populated from the ECF header.",
+   "Organizations: 'SEC' and 'Commission' were saved as aliases of one party rather than as separate generic entities, which is correct; no generic role words ('Receiver', 'Defendants') were saved as entities on this page. No creditors, attorneys, or properties appear on the page and none were saved, so those categories have zero denominators (N/A) for this page."
+  ]
+ },
+ "appointment-order-p005": {
+  "creditors": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "attorneys": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "organizations": {
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [
+    "Receivership Defendants (party p2, kind=organization) - generic defined role term in the order, not a named entity"
+   ],
+   "fn_items": []
+  },
+  "properties_or_assets": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "related_proceedings": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "citations": [
+   {
+    "assertion_id": "1f1a9944-e510-4a56-a2f0-d047604ecf9c",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None for the assertion as written: paragraph E on PDF page 5 (Dkt. 16, Page 5 of 29, PageID #:397) states verbatim that the representatives of the Receiver initially designated with authority over the Accounts shall be Kevin B. Duff, which matches subject, predicate and object. Metadata gaps only: docket_number is null although the page header shows Document #: 16, and the quote has stray double spaces from text extraction."
+   }
+  ],
+  "judgment_calls": [
+   "Organizations FP policy: 'Receivership Defendants' (saved party p2, kind=organization, role defendant) was scored as a false positive because it is a generic defined role term on this page, not a named entity. If the project treats defined collective party terms as acceptable organization placeholders, this page would have 0 FP and all categories would be empty-vs-empty.",
+   "Saved party p1 records Kevin B. Duff with alias 'the Receiver' and party_role 'receiver'. This page only names him as the representative of the Receiver designated with account authority, not as the Receiver himself; the receiver identity comes from elsewhere in the order. Persons are not a scored category here, so this did not affect counts, but a human should confirm whether page-level party roles are allowed to carry document-level context.",
+   "The single stored assertion is accurate (quote on page, claim supported), but its docket_number field is null even though the page header reads 'Case: 1:18-cv-05587 Document #: 16'. This is a citation-metadata completeness issue rather than a quote/claim failure; confirm whether a null docket number should count against citation accuracy under the 95% gate.",
+   "This is a zero-entity ground-truth page for creditors, attorneys, properties/assets and related proceedings (0/0/0 each), so precision and recall for those types are N/A from this page alone; only organizations contributes evidence (1 FP, 0 TP, 0 FN), which yields precision 0/1 and recall N/A."
+  ]
+ },
+ "status-report-1-p001": {
+  "creditors": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "attorneys": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "organizations": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [
+    "United States Securities and Exchange Commission (saved p1, alias SEC, role plaintiff) = label 'United States Securities and Exchange Commission'",
+    "EquityBuild, Inc. (saved p2, role defendant) = label 'EquityBuild, Inc.'",
+    "EquityBuild Finance, LLC (saved p3, role defendant) = label 'EquityBuild Finance, LLC'"
+   ],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "properties_or_assets": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "related_proceedings": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": [
+    "SEC v. EquityBuild, Inc., et al., No. 1:18-cv-05587 (N.D. Ill.) -- the main action's own caption; saved related_lawsuits is empty. Counted as FN only because the label set lists it; see judgment_calls (if the main case is out of scope for related_proceedings, this category is 0/0/0 on this page)."
+   ]
+  },
+  "citations": [
+   {
+    "assertion_id": "68019d41-6e8e-4ad8-9228-d0c57175e884",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "none -- 'Kevin B. Duff, as the receiver (\"Receiver\")' appears verbatim in the opening paragraph (stored quote has a text-layer space artifact 'a s'); page supports Kevin B. Duff has_role receiver."
+   },
+   {
+    "assertion_id": "0d3636ef-433a-4af9-9a41-e9c4aa081458",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "none, with a minor inference -- quote appears verbatim ('pursuant to the powers vested in him by Order of this Court entered on August 17, 2018'). The page identifies the Order Appointing Receiver as Docket No. 16 in the same sentence and says the Order vesting the Receiver's powers was entered August 17, 2018; the page does not literally say 'the Receiver was appointed on August 17, 2018', so receiver_appointed_on = 2018-08-17 rests on reading the powers-vesting order as the appointment order. Subject 'SEC v. EquityBuild, Inc., et al.' matches the caption."
+   },
+   {
+    "assertion_id": "20ec8c58-7254-4383-9745-7620e7e036a7",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "none -- caption reads 'Civil Action No. 18-cv-5587' (stored quote has text-layer spacing '18 - cv - 5587'); ECF header also shows 1:18-cv-05587. docket_number = 18-cv-5587 supported for the main case."
+   },
+   {
+    "assertion_id": "4ba488af-77c4-4537-8971-ba4216d3bb77",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "none -- caption reads 'UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,' across three caption lines; SEC has_role plaintiff supported."
+   },
+   {
+    "assertion_id": "34c2d523-3dc3-4bfd-9965-a947ba739604",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "none -- caption lists 'JEROME H. COHEN, and SHAUN D. COHEN, Defendants.'; Jerome H. Cohen has_role defendant supported."
+   }
+  ],
+  "judgment_calls": [
+   "related_proceedings FN: the only label item is the main action itself (SEC v. EquityBuild, No. 1:18-cv-05587). The label notes say a scorer treating the main case as out of scope should drop it. If the project policy is that related_lawsuits covers only separate/collateral proceedings, the extractor's empty list is correct and this category should be scored 0 TP / 0 FP / 0 FN (N/A) for this page rather than 1 FN. A human should confirm which policy applies before this FN counts against recall.",
+   "Assertion 0d3636ef (receiver_appointed_on = 2018-08-17): the page states the Order vesting the Receiver's powers was entered August 17, 2018 and separately names the Order Appointing Receiver as Docket No. 16; equating the two is a reasonable but inferential step. I scored it as supported; a strict reader could mark it 'partially supported'. Recommend a human confirm Dkt. 16 was entered 8/17/2018 (consistent with the record, but not stated verbatim on this page).",
+   "Saved party p6 'Kevin B. Duff' carries the alias 'Receiver' and p7 'John Z. Lee' is stored as a party with role 'court'. Neither is in a scored category (both are kind person, so excluded from organizations), so no FP was charged, but storing the judge as a 'party' and a role word as an alias are modeling choices a human may want to flag for entity resolution.",
+   "Text-layer artifacts on this page ('a s the receiver', 'E quityB uild F inance', 'Y oung B. Kim', '18 - cv - 5587') were ignored for quote matching per the whitespace rule; the image confirms the clean text. Stored quotes carry these artifacts, which may matter if quotes are later matched by exact string.",
+   "docket_number in all five saved assertions is null even though the page's ECF header shows 'Document #: 107'. Not a citation failure under the scoring rules, but a human may want this populated for provenance."
+  ]
+ },
+ "status-report-1-p022": {
+  "creditors": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 3,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": [
+    "Fireshark Enterprises, LLC (plaintiff in Cook County Law Division action; labeled as litigation claimant, no amount)",
+    "Markwell (plaintiff in Harris County, Texas action; labeled as litigation claimant, no amount)",
+    "City of Chicago (code-violation fines against estate properties; saved only as a party with role 'claimant', not in saved_entities.creditors)"
+   ]
+  },
+  "attorneys": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "organizations": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 3,
+   "tp_items": [
+    "EquityBuild, Inc. (p1) = label EquityBuild, Inc.",
+    "Fireshark Enterprises, LLC (p2) = label Fireshark Enterprises, LLC",
+    "City of Chicago (p4) = label City of Chicago"
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "City of Chicago Buildings Department",
+    "Department of Streets and Sanitation (City of Chicago)",
+    "Department of Water Management (City of Chicago)"
+   ]
+  },
+  "properties_or_assets": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "related_proceedings": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 5,
+   "tp_items": [
+    "l1 Fireshark Enterprises, LLC, v. EquityBuild, Inc., 2018 L 9026, Circuit Court of Cook County, Law Division = label Fireshark Enterprises, LLC v. EquityBuild, Inc., Case No. 2018 L 9026 (saved docket correctly normalized from text-layer '20 18 L 9026')",
+    "l2 Markwell v. EquityBuild, Inc., 2018-13722, 165th Judicial District Court, Harris County, Texas = label Markwell v. EquityBuild, Inc., Case No. 2018-13722"
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "City of Chicago municipal housing court matters (seven)",
+    "City of Chicago Buildings Department administrative proceedings (approximately twelve)",
+    "Department of Streets and Sanitation administrative proceedings (approximately twelve)",
+    "Department of Water Management administrative matter (one)",
+    "Two open City of Chicago violations with notice sent, no court date"
+   ]
+  },
+  "citations": [
+   {
+    "assertion_id": "4f74687c-c1a2-43d3-bf05-5afb0f0a4156",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None. Quote appears verbatim on PDF page 22 (Dkt. 107, PageID 975) in the Fireshark bullet; the status assertion names the right proceeding (Fireshark Enterprises, LLC v. EquityBuild, Inc., Cook County Law Division) and restates the sentence without dropping any qualifier. Metadata note only: assertion docket_number is null although the document is Dkt. 107."
+   },
+   {
+    "assertion_id": "e3dfe497-f572-4691-a0f7-a81d772aeee8",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None. Quote appears verbatim on PDF page 22 in the Markwell bullet (text-layer spacing 'c ounsel' differs only by whitespace); the object_value omits the words 'the proceedings' but that does not change meaning. Right proceeding (Markwell v. EquityBuild, Inc., 165th Judicial District Court, Harris County, Texas) and right party (EquityBuild's Texas counsel, unnamed). Metadata note only: docket_number null."
+   }
+  ],
+  "judgment_calls": [
+   "Creditor scoring depends on policy: the labels treat Fireshark Enterprises, LLC, Markwell and the City of Chicago as creditors because they are litigation/regulatory claimants against the estate, but the page states no dollar amounts and no debt. If the project defines creditors as lenders/mortgagees/claim-filers with amounts, all three FNs should be dropped and creditors become 0/0/0 (N/A) on this page. Note the extractor did capture City of Chicago as a party with role 'claimant', so the information is present but not in the creditors list.",
+   "Related-proceedings scoring depends on whether aggregated, un-numbered groups of municipal matters (seven housing court matters, ~12 Buildings Department proceedings, ~12 Streets and Sanitation proceedings, one Water Management matter, two noticed violations) count as related proceedings. None has a case number or caption; if the schema requires an identifiable docket, the five FNs should be reduced or removed and the extractor's 2/2 captioned actions would be a clean result.",
+   "Organization scoring: the three missed City departments could be treated as sub-units of the already-captured City of Chicago rather than separate organizations. If so, organizations become 3 TP / 0 FP / 0 FN on this page.",
+   "The extractor typed 'Markwell' as kind=person. The page gives only a surname in a caption; person is the more likely reading but is not confirmed by the page. Not scored as an error.",
+   "The extractor assigned City of Chicago the role 'claimant' and did not list the receivership (SEC v. EquityBuild, 1:18-cv-05587, visible only in the header) as a related proceeding; both choices agree with the labels.",
+   "Both stored assertions have docket_number null although the bundle identifies the document as Dkt. 107. This is a metadata gap on the assertion record, not a citation failure, but a human should decide whether it counts against citation completeness project-wide."
+  ]
+ },
+ "dkt-1806-p001": {
+  "creditors": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 2,
+   "tp_items": [
+    "BMO Bank N.A. (p3, Group 7, institutional_lender) = label BMO Bank N.A.",
+    "Citibank N.A. (p4, Group 7, institutional_lender) = label Citibank N.A.",
+    "Sabal Capital Operations, LLC (p5, Group 7, institutional_lender) = label Sabal Capital Operations, LLC"
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "Midland (Group 6 lender, footnote 1, ECF 1757) - not extracted as party or creditor",
+    "UBS (Group 6 lender, footnote 1, ECF 1756) - not extracted as party or creditor"
+   ]
+  },
+  "attorneys": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "organizations": {
+   "tp": 5,
+   "fp": 0,
+   "fn": 2,
+   "tp_items": [
+    "U.S. Securities and Exchange Commission (p1, alias SEC, plaintiff)",
+    "EquityBuild, Inc. (p2, defendant)",
+    "BMO Bank N.A. (p3, alias BMO)",
+    "Citibank N.A. (p4, alias Citibank)",
+    "Sabal Capital Operations, LLC (p5, alias Sabal)"
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "Midland (footnote 1)",
+    "UBS (footnote 1)"
+   ]
+  },
+  "properties_or_assets": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [
+    "Property 69 (pr69)",
+    "Property 70 (pr70)",
+    "Property 73 (pr73)"
+   ],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "related_proceedings": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 2,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": [
+    "SEC v. EquityBuild, Inc., et al., No. 18-CV-5587 (N.D. Ill.), Hon. Manish S. Shah - main receivership action; saved related_lawsuits is empty (the case does appear as the subject of assertion 7ff3d528 but not as a related_lawsuit entity)",
+    "Seventh Circuit appeal(s) on EquityBuild priority disputes - referenced generically on the page ('this Court and the Seventh Circuit have already addressed factually similar priority disputes'); not extracted"
+   ]
+  },
+  "citations": [
+   {
+    "assertion_id": "39ac3db3-1eb3-4b75-b790-956742fc2d94",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "Quote is the Section A heading on page 1, verified in the PDF. Page identifies Citibank as an Institutional Lender whose Position Statement concerns Properties 69 and 73, which supports 'secured_by_property' for those two properties; note the page never uses the word 'secured' (it is an inference from 'Institutional Lenders Citibank' plus the property heading), and object_label ('Property 69') covers only one of the two properties in object_value. Not a correctness failure, but the assertion does not capture that the SEC argues investor mortgages have priority over Citibank's interest."
+   },
+   {
+    "assertion_id": "16b4b0da-4e0e-4562-8daf-12e640920aa2",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "Quote verified on page 1 (Section A heading). Page identifies Sabal as an Institutional Lender whose Position Statement concerns Property 70, supporting 'secured_by_property: Property 70'. Same caveat as above: 'secured' is inferred from the lender role and property heading rather than stated expressly."
+   },
+   {
+    "assertion_id": "7ff3d528-deea-4d3c-a3c8-74d2723e0a55",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "Quote verified on page 1, final sentence of the opening paragraph. Object value correctly qualifies the statement as the SEC's contention ('SEC contends ... have priority'), so no dropped qualifier; the page does not say the Court has ruled. Minor schema concern: predicate 'status' on subject 'case' frames an advocacy position as case status; a predicate such as 'party_position' would be more accurate, but the claim as written is supported."
+   }
+  ],
+  "judgment_calls": [
+   "Label creditor 'Group 7 investors (unnamed investor-mortgagees)' was excluded from the creditor FN count because it is an unnamed collective, consistent with the rule that descriptive placeholders are not named entities. If a reviewer counts it, creditor FN becomes 3 (recall 3/6 = 50% instead of 3/5 = 60%).",
+   "Midland and UBS appear only by short name in footnote 1 as Group 6 lenders, not Group 7 lenders that this filing responds to. They were counted as FN in both creditors and organizations per the labels; a reviewer could decide footnote-only mentions of other-group lenders are out of scope for this page, which would make creditors 3/3 and organizations 5/5.",
+   "Related proceedings: the labels treat the main receivership action (18-CV-5587) itself as a related proceeding. The extractor did capture the case as the subject of assertion 7ff3d528 but recorded no related_lawsuits. Whether the main case should count as a 'related' proceeding at all is a policy question; if excluded, related_proceedings FN drops to 1 (the generic Seventh Circuit appeal reference).",
+   "The Seventh Circuit reference on this page is generic (no caption or docket number). Counting it as a missed related proceeding is debatable; it could equally be treated as a precedent/authority reference rather than a proceeding entity.",
+   "Assertions 39ac3db3 and 16b4b0da use predicate 'secured_by_property'. The page supports that Citibank and Sabal are institutional lenders with claimed interests on the named properties, but does not expressly state their loans are 'secured' by them; a human should confirm that this inference meets the project's claim-support standard.",
+   "Assertion 7ff3d528 uses predicate 'status' for what is an SEC advocacy position. Claim is accurate as written because of the 'SEC contends' qualifier, but the predicate choice should be confirmed as acceptable or flagged for a schema correction.",
+   "Assertion 39ac3db3 has object_value 'Property 69 and Property 73' but object_label 'Property 69' only; confirm whether a one-to-many property link should be split into two assertions."
+  ]
+ },
+ "dkt-1806-p003": {
+  "creditors": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 1,
+   "tp_items": [
+    "BMO (saved p1) = label BMO",
+    "Citibank (saved p2) = label Citibank",
+    "Sabal Capital Operations, LLC / alias Sabal (saved p3) = label Sabal"
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "DLP (label; appears only inside the footnote 4 quotation of ECF 1679: 'It is DLP's burden to show that Equitybuild Finance had the authority...DLP has not done so.')"
+   ]
+  },
+  "attorneys": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "organizations": {
+   "tp": 4,
+   "fp": 0,
+   "fn": 3,
+   "tp_items": [
+    "BMO",
+    "Citibank",
+    "Sabal Capital Operations, LLC (alias Sabal; only 'Sabal' appears on this page)",
+    "Equitybuild Finance"
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "DLP (footnote 4 quotation only)",
+    "Equitybuild, Inc. (appears only in the case caption '5201 Wash. Invs. LLC v. Equitybuild, Inc.')",
+    "5201 Wash. Invs. LLC (appears only in the case caption)"
+   ]
+  },
+  "properties_or_assets": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 3,
+   "tp_items": [
+    "Property 2 (saved pr2) = label Property 2"
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "Property 69 ('unlike Properties 69, 70, and 73, a release was publicly recorded')",
+    "Property 70",
+    "Property 73"
+   ]
+  },
+  "related_proceedings": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 1,
+   "tp_items": [
+    "5201 Wash. Invs. LLC v. Equitybuild, Inc., 2024 IL App (1st) 231403-U (saved l1, Illinois Appellate Court, First District) = label 5201 Wash. Invs. LLC v. Equitybuild, Inc."
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "Seventh Circuit appeal in this receivership (cited only as 'Id. at 533' on this page; full caption is on a prior page)"
+   ]
+  },
+  "citations": [
+   {
+    "assertion_id": "0d513e75-90b5-457d-91b7-fbcaf94fb6fe",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None. PDF page 3, section B: 'In its Position Statement, BMO does not dispute that for Property 2: (a) the investors recorded a valid, prior-in-time mortgage; (b) the investors never received payment associated with the purported release of their mortgage' (ECF 1794 at 2, 5). Subject BMO, predicate does_not_dispute, and object match the page; the only nuance is that this is the SEC's characterization of BMO's Position Statement, which the predicate correctly preserves."
+   },
+   {
+    "assertion_id": "7934b1ab-e191-4e56-a130-a14ca0ad0df2",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None. PDF page 3: BMO does not dispute that '(c) \"a release was executed, but never recorded.\" (ECF 1794 at 2, 5)'. The status assertion for Property 2 is supported as an undisputed fact on the page; a human could consider adding the qualifier that it is drawn from the SEC's summary of BMO's own Position Statement (ECF 1794), but the assertion as written is not contradicted or materially over-stated."
+   },
+   {
+    "assertion_id": "4489e6ce-4855-4501-ba61-5934da35a0d9",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None. PDF page 3, footnote 4: 'this Court twice has thoroughly analyzed ... After doing so, the Court unambiguously held that \"Equitybuild Finance lacked the authority to release the individual investors' mortgages.\" (ECF 1386 at 1, 14-28 ...)'. Subject is the main case (Case 1:18-cv-05587, SEC v. EquityBuild, Inc., et al.), predicate 'held' matches 'the Court ... held', and the ECF 1386 reference is correct. Note the characterization of the holding is the SEC's, but it is presented as a direct quotation of the Court's ruling."
+   }
+  ],
+  "judgment_calls": [
+   "DLP as creditor/organization: it appears only inside a parenthetical quotation of a prior ruling (ECF 1679 at 25) in footnote 4. Whether a lender named only within quoted prior-ruling language counts as a creditor on this page is a policy call; I followed the labels and scored it as a false negative in both creditors and organizations.",
+   "Equitybuild, Inc. and 5201 Wash. Invs. LLC as organizations: both appear only inside the case caption of the cited Illinois Appellate Court decision. If caption-only parties of a cited decision are not meant to be extracted as organizations, these two FNs should be removed (organizations would then be TP 4 / FP 0 / FN 1).",
+   "Seventh Circuit appeal as a related proceeding: on this page it is cited only as 'Id. at 533' with no caption. Expecting a page-level extractor to emit it is arguable; if short-form 'Id.' cites are out of scope for page-level scoring, related_proceedings becomes TP 1 / FP 0 / FN 0.",
+   "5201 Wash. Invs. LLC v. Equitybuild, Inc.: the labels classify it as a related proceeding (an EquityBuild party is involved) rather than a precedent authority. The saved related_lawsuit entry matches that classification, so it is counted as a TP; a human should confirm the project's rule for state-court decisions involving an EquityBuild affiliate that are cited as authority.",
+   "Saved Sabal canonical name 'Sabal Capital Operations, LLC' comes from the document title (page 1), not from this page, where only 'Sabal' appears; matched as a name variant per the rules.",
+   "Properties 69, 70 and 73: the saved output captured only Property 2 (the one with its own heading) and missed the three receiver property numbers in the Citibank/Sabal paragraph. This is a clear miss but worth confirming the extractor is expected to capture property numbers mentioned in passing.",
+   "Assertion 7934b1ab (Property 2 release executed but never recorded) is stated as a bare status; the page sources it to BMO's own Position Statement (ECF 1794) as an undisputed point. I scored it as supported, but a human may prefer the stored object_value to carry the 'per BMO Position Statement / undisputed' provenance."
+  ]
+ },
+ "dkt-1938-p001": {
+  "creditors": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [
+    "p7 Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased = label 'Jerrine Pennington, as Special Administrator...' (creditor_type other; treatment_summary 'proposed for approval' matches page, which has no amount)"
+   ],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "attorneys": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "organizations": {
+   "tp": 5,
+   "fp": 0,
+   "fn": 1,
+   "tp_items": [
+    "p1 United States Securities and Exchange Commission = label SEC",
+    "p2 EquityBuild, Inc. = label EquityBuild, Inc.",
+    "p3 EquityBuild Finance, LLC = label EquityBuild Finance, LLC",
+    "p8 4533-37 S Calumet LLC = label 4533-37 S Calumet LLC",
+    "p9 WPD Management, LLC (aliases WPD, WPD Property Management LLC) = label WPD Management, LLC"
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "4533-47 Calumet LLC (first-named defendant in the Circuit Court Action caption; labels treat it as distinct from 4533-37 S Calumet LLC; extractor captured it only inside the related_lawsuit caption string, not as a party)"
+   ]
+  },
+  "properties_or_assets": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [
+    "pr1 4533-47 S Calumet Avenue, Property No. 2 = label 4533-47 S Calumet Avenue (Property No. 2)"
+   ],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "related_proceedings": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 1,
+   "tp_items": [
+    "r1 Pennington v. 4533-47 Calumet LLC et al., Case No. 2021 L 010115, Circuit Court of Cook County, Law Division = label Circuit Court Action (caption, docket and court all match the page)"
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "SEC v. EquityBuild, Inc. et al., No. 1:18-cv-05587 (N.D. Ill.) - the receivership case itself; labeled as a related proceeding but absent from saved related_lawsuits (see judgment_calls: likely a schema/policy exclusion rather than an extraction miss)"
+   ]
+  },
+  "citations": [
+   {
+    "assertion_id": "d66b57bd-9c10-4fe5-8218-6ca50f8989de",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None. Quote matches page text ('respectfully moves for an order approving a settlement reached with Jerrine Pennington'; 'approv ing' is a stored-text spacing artifact). Object correctly describes the settlement as something the Receiver moves to have approved (proposed/pending), not approved or paid. No settlement amount is asserted and none appears on this page; the flagged $30,000 figure must be verified on a later page of Dkt. 1938."
+   },
+   {
+    "assertion_id": "38e4e62a-e456-4b18-926a-8a439eea523f",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None material. Quote is on the page and the subject is the correct proceeding (Circuit Court Action, Case No. 2021 L 010115). Minor: the page says 'On or about October 14, 2021' and the stored object_value is the bare date 2021-10-14, dropping the 'on or about' hedge; this does not change the identified date but a human may want the approximate qualifier preserved."
+   },
+   {
+    "assertion_id": "2bc18a1d-9475-4ed8-85fa-70b9c0809c41",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None material. Quote is on the page; the page identifies 4533-37 S Calumet LLC as the 'EquityBuild special purpose entity defendant' that owned the building, and the Receiver himself tags it Property No. 2. Note the sentence is framed as what 'The Complaint asserted' and uses past tense ('was owned by'); the assertion states ownership as a flat fact without that framing."
+   },
+   {
+    "assertion_id": "fae4318f-996a-4c72-819e-2f8131531669",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None material. Quote is on the page. The page names the manager as 'WPD Property Management LLC (\"WPD\")' in the body while the state-court caption says 'WPD Management, LLC'; the stored object_value 'WPD Management' / object_label 'WPD Management, LLC' resolves to the same defined entity. Same allegation framing ('The Complaint asserted ... managed by') and past tense as the owned_by assertion."
+   }
+  ],
+  "judgment_calls": [
+   "Organizations FN: '4533-47 Calumet LLC' (state-court caption) vs '4533-37 S Calumet LLC' (body). The ground-truth labels treat them as distinct entities; they may be the same SPE with a misnamed caption. If a human decides they are one entity, the organizations FN drops to 0 (precision 5/5, recall 5/5).",
+   "Related proceedings FN: the labels list the receivership case itself (SEC v. EquityBuild, 1:18-cv-05587) as a related proceeding. The extractor's related_lawsuits schema appears to hold only other proceedings, so its absence is probably by design, not a miss. If a human agrees the main case should not be counted, related_proceedings recall becomes 1/1.",
+   "Properties: the saved record adds city 'Chicago' and state 'IL', neither of which appears on page 1. Treated as harmless inference (not penalized), but the fields are not page-supported.",
+   "Pennington is saved with kind 'person'. She is an individual acting as Special Administrator of an estate; the labels do not list her as an organization, so no scoring impact, but confirm the project's convention for estate representatives.",
+   "Assertion 38e4e62a drops the 'on or about' qualifier from the filing date. Counted as supported because the date itself is correct; confirm whether the project wants approximate-date hedges preserved.",
+   "Assertions 2bc18a1d and fae4318f restate as fact what the page frames as the Complaint's allegations (and in past tense). Counted as supported because the Receiver independently identifies 4533-37 S Calumet LLC as an EquityBuild SPE and the building as Property No. 2; confirm this is acceptable under the no-dropped-qualifier rule.",
+   "Settlement-review context: page 1 contains no settlement amount and no approval/payment language; the motion only requests an order approving the settlement. The $30,000 figure in the priority-1 task cannot be verified from this page and must be checked on a later page of Dkt. 1938 (8 pages total)."
+  ]
+ },
+ "dkt-1938-p002": {
+  "creditors": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 1,
+   "tp_items": [
+    "Jerrine Pennington (saved p1, creditor_type 'other') = label 'Jerrine Pennington, on behalf of the Estate of Valerie Pennington, Deceased'"
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "Keating Law Offices, P.C. (co-payee on the proposed $30,000 check 'in full settlement of their claims'); saved only as a party with role 'counsel', not as a creditor"
+   ]
+  },
+  "attorneys": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "organizations": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [
+    "Keating Law Offices, P.C. (saved p3, kind organization)"
+   ],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "properties_or_assets": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": [
+    "Receiver's account (source of the proposed $30,000 payment; saved properties list is empty)"
+   ]
+  },
+  "related_proceedings": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [
+    "Circuit Court Action (Pennington v. defendants; personal injury/wrongful death), Circuit Court Law Division, relationship state_court_action = label 'Circuit Court Action (Pennington personal-injury/wrongful-death suit)'"
+   ],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "citations": [
+   {
+    "assertion_id": "2c29b03a-e5a8-4568-a8b4-c5a8b863f983",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": ""
+   },
+   {
+    "assertion_id": "b149c6ca-c13e-4838-9dfc-9aab3ab7edd4",
+    "quote_on_page": true,
+    "claim_supported": false,
+    "problem": "Wrong proceeding and dropped qualifiers. The quote is on page 2 (para. 5(b)), but the $30,000 is the proposed settlement of the related state-court Circuit Court Action between the Receiver and Pennington (Jerrine Pennington obo Estate of Valerie Pennington, Deceased, and Keating Law Offices, P.C.), not a settlement amount of the main case 'SEC v. EquityBuild, Inc., et al.' The page also describes it as proposed only: the Settlement Agreement is 'subject to Court approval', para. 5 is 'Pursuant to the proposed Settlement Agreement, and with the Court's approval', and payment is conditioned on an order approving the Settlement and an order dismissing the Circuit Court Action with prejudice (payable within 7 days of the dismissal order). Not approved or paid as of this filing. Recommended correction: subject_type related_lawsuit, subject_label 'Circuit Court Action (Pennington v. defendants; personal injury/wrongful death)' (or 'Receiver-Pennington settlement'), predicate 'proposed_settlement_amount' (or settlement_amount with status qualifier 'proposed, subject to Court approval'), object_value 30000, payee 'Jerrine Pennington on behalf of the Estate of Valerie Pennington, Deceased, and Keating Law Offices, P.C.', payor 'Receiver (from the Receiver's account)'."
+   },
+   {
+    "assertion_id": "1f7bdeeb-0190-4a13-9ea2-ac6bacc08b09",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "Supported as to the parties (para. 4: 'Settlement discussions between the Receiver and Pennington... these parties entered into the settlement agreement attached hereto as Exhibit A'), but the agreement is expressly 'subject to Court approval'; the stored predicate 'settled_with' carries no proposed/pending-approval qualifier. Counted as supported because the parties did execute the agreement; recommend adding the qualifier."
+   }
+  ],
+  "judgment_calls": [
+   "Keating Law Offices, P.C. as a creditor: the labels count the law firm as a creditor because it is a named co-payee 'in full settlement of their claims'; the extractor recorded it only as counsel. Confirm whether a co-payee law firm (likely fee/lien interest) should be a creditor entry; if not, creditors become TP 1 / FP 0 / FN 0.",
+   "'Receiver's account' as a property/asset: the page names no institution or account number. The labels list it; it could instead be treated as a descriptive placeholder (which the matching rules say to discount). If excluded, properties_or_assets becomes 0/0/0 (N/A).",
+   "Saved party p2 'Valerie Pennington' (kind person, alias 'Estate of Valerie Pennington', role 'other') is not scored in any category here. The labels fold the decedent's estate into the Pennington creditor entry. Confirm whether the estate should be a separate party, and whether the creditor should be keyed to the estate rather than to Jerrine Pennington individually.",
+   "Assertion 1f7bdeeb ('Jerrine Pennington settled_with Receiver') was counted as supported even though the settlement is 'subject to Court approval'. If the project treats a missing 'proposed/subject to approval' qualifier as disqualifying for a settled_with predicate, this becomes claim_supported false and the page's citation accuracy drops to 1/3.",
+   "Assertion b149c6ca is the flagged $30,000 settlement: verdict is quote present but claim not supported as written (wrong proceeding: Circuit Court Action, not SEC v. EquityBuild; status is proposed, not approved or paid). The assertion and its 'unverified' status were left unchanged per the read-only instruction; the correction above needs human sign-off before any edit.",
+   "The object_value 'Receiver' in assertion 1f7bdeeb is a role word rather than a named entity (the Receiver's name does not appear on this page). Acceptable as a case-scoped role, but a human may prefer the canonical receiver name once resolved from page 1 or the caption."
+  ]
+ },
+ "dkt-1967-p001": {
+  "creditors": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "attorneys": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [
+    "Michael Rachlis (Rachlis Duff & Peel, LLC; represents p3 Kevin B. Duff, Receiver) = label Michael Rachlis",
+    "Jodi Rosen Wine (Rachlis Duff & Peel, LLC; represents p3 Kevin B. Duff, Receiver) = label Jodi Rosen Wine"
+   ],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "organizations": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 1,
+   "tp_items": [
+    "p1 United States Securities and Exchange Commission (plaintiff) = label United States Securities and Exchange Commission",
+    "p2 EquityBuild, Inc. (defendant) = label EquityBuild, Inc."
+   ],
+   "fp_items": [],
+   "fn_items": [
+    "Rachlis Duff & Peel, LLC (law firm; present on page in the counsel block; saved only as attorneys[].law_firm, not as a party of kind organization)"
+   ]
+  },
+  "properties_or_assets": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "related_proceedings": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": [
+    "SEC v. EquityBuild, Inc., et al., Case No. 1:18-cv-5587 (N.D. Ill.) - the receivership action itself; saved related_lawsuits is empty"
+   ]
+  },
+  "citations": [
+   {
+    "assertion_id": "08688946-ff2c-4c0c-baaf-18bf998e619a",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None. 'Attorneys for Kevin B. Duff, Receiver' appears verbatim under the Rachlis Duff & Peel counsel block that lists Michael Rachlis; the page supports that Michael Rachlis represents Kevin B. Duff as Receiver in Case No. 1:18-cv-5587. Minor modeling note only: subject is the attorney while the predicate reads 'represented_by'; the object_value states the relationship in the correct direction."
+   },
+   {
+    "assertion_id": "4a3121b6-d10e-4bfa-9ecf-abae112e9ce4",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None. Quote matches the motion title (extra internal spaces in the stored text are whitespace differences). The header 'Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26' supports the filing date and docket; the caption confirms the proceeding is SEC v. EquityBuild, Inc., et al. The object_value correctly describes the plan as the subject of a motion to approve (not as approved)."
+   },
+   {
+    "assertion_id": "9b4ad736-de52-4a5f-85e8-c3dc53968aaa",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None. Caption reads 'UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,' in Case No. 1:18-cv-5587."
+   },
+   {
+    "assertion_id": "024a79f7-6ddb-4d92-b20c-8191eed153e8",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "None. Caption reads 'EQUITYBUILD, INC., et al., Defendants.' in Case No. 1:18-cv-5587."
+   }
+  ],
+  "judgment_calls": [
+   "Organizations FN for Rachlis Duff & Peel, LLC: the extractor captured the firm in attorneys[].law_firm for both attorneys but did not declare it as a party of kind organization. Under the stated scoring rule (saved parties with kind organization vs labels.organizations) this is a false negative, but a human should confirm whether law firms recorded on the attorney record should count as extracted organizations; if so, organizations would be 3 TP / 0 FP / 0 FN on this page.",
+   "Related proceedings FN for the receivership action itself (SEC v. EquityBuild, Inc., et al., 1:18-cv-5587): the labels list the main case as a related proceeding, while the extractor's related_lawsuits field appears intended for other proceedings referenced by the filing. A human should decide whether the main case belongs in related_proceedings at all; if it is excluded by policy, this category is 0/0/0 (N/A) on this page rather than recall 0%.",
+   "Saved persons Kevin B. Duff (receiver), Manish S. Shah and Young B. Kim (court) are kind person and so fall outside the five scored categories; they are not counted as FPs anywhere. The alias 'Receiver' on p3 is attached to a named entity, not a standalone generic entry, so it was not treated as a placeholder FP.",
+   "Assertion 4a3121b6 uses predicate 'status' with a value describing the motion being filed; the claim is factually supported by the page, but a human may want to confirm that 'status' is the intended predicate for a filing event (vs. a filing/event predicate).",
+   "Assertion 08688946 has subject_type attorney with predicate 'represented_by'; the object_value reads in the correct direction (Receiver represented by attorney). Scored as supported; schema-direction consistency is a data-model question for human review.",
+   "This page contains no settlement reference; the flagged $30,000 settlement review does not touch this page."
+  ]
+ },
+ "dkt-1967-p003": {
+  "creditors": {
+   "tp": 7,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [
+    "Allred (p1) = label Allred",
+    "Mora (p2) = label Mora",
+    "Capital Investors, LLC (p3) = label Capital Investors, LLC",
+    "6951 South Merrill Fund I LLC (p4) = label 6951 South Merrill Fund I LLC",
+    "5001 South Drexel Blvd Fund II LLC (p5) = label 5001 South Drexel Blvd Fund II LLC",
+    "Michael and Lyanne Terada (p6) = label Michael and Lyanne Terada",
+    "Shatar (p7) = label Shatar"
+   ],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "attorneys": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "organizations": {
+   "tp": 3,
+   "fp": 1,
+   "fn": 0,
+   "tp_items": [
+    "Capital Investors, LLC (p3)",
+    "6951 South Merrill Fund I LLC (p4)",
+    "5001 South Drexel Blvd Fund II LLC (p5)"
+   ],
+   "fp_items": [
+    "Shatar (p7) declared kind=organization; page 3 gives only the short name 'Shatar' in a TOC heading with no indication of entity status, so the organization typing is not supported by this page (see judgment_calls)"
+   ],
+   "fn_items": []
+  },
+  "properties_or_assets": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 2,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": [
+    "6949-59 S. Merrill (appears in TOC heading IV.B; extractor mentioned it only inside p3's treatment_summary, not as a property)",
+    "5001 S. Drexel (appears in TOC heading IV.B; same)"
+   ]
+  },
+  "related_proceedings": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tp_items": [],
+   "fp_items": [],
+   "fn_items": []
+  },
+  "citations": [
+   {
+    "assertion_id": "51224876-19ed-458b-9eb6-8fd61da017da",
+    "quote_on_page": true,
+    "claim_supported": false,
+    "problem": "Quote 'Allred's Unsecured Claim Should Be Excluded' is on PDF p. 3 (TOC heading IV.A.1). The page states the Receiver's recommendation in a motion ('Should Be Excluded'); the stored object_value 'excluded' drops the proposed/recommended qualifier and reads as a settled treatment. Recommended correction: object_value 'proposed to be excluded (Receiver recommendation, subject to court approval)' or predicate 'proposed_treatment'."
+   },
+   {
+    "assertion_id": "0318efdd-2d6c-442a-9f7c-b21948fdfbd6",
+    "quote_on_page": true,
+    "claim_supported": false,
+    "problem": "Quote 'Mora's Unsecured Claim Should Be Excluded.' is on PDF p. 3 (TOC heading IV.A.2). Same qualifier issue: page supports only the Receiver's proposed exclusion, not an ordered/final treatment of 'excluded'."
+   },
+   {
+    "assertion_id": "e32ec148-e9bd-476a-93cf-8a162b17a9c6",
+    "quote_on_page": true,
+    "claim_supported": false,
+    "problem": "Quote 'Subordination of Shatar's Unsecured Claims Is Appropriate.' is on PDF p. 3 (TOC heading IV.D). Page supports that the Receiver argues subordination is appropriate (proposed); stored object_value 'subordinated' states it as accomplished treatment without the proposed qualifier."
+   },
+   {
+    "assertion_id": "8bd8643c-e27a-4695-9202-57661812d55c",
+    "quote_on_page": true,
+    "claim_supported": false,
+    "problem": "Quote fragment 'Excluded Due To a Failure of Documentation Supporting the Claim.' is on PDF p. 3 (TOC heading IV.C) but omits the subject; full heading is 'Michael and Lyanne Terada's Unsecured Claim 940-551 Should Be Excluded Due To a Failure of Documentation Supporting the Claim.' Same qualifier issue: 'Should Be Excluded' is the Receiver's proposal; stored object_value states exclusion as settled. Claim number 940-551 is also dropped from the assertion."
+   },
+   {
+    "assertion_id": "06b07632-9575-4c9b-a298-f0c742ab9b50",
+    "quote_on_page": true,
+    "claim_supported": true,
+    "problem": "Quote is on PDF p. 3 (TOC heading V.D, across a line break). Predicate 'recommended_methodology' correctly preserves the recommendation qualifier and section V is titled 'THE RECEIVER'S RECOMMENDED DISTRIBUTION METHODOLOGY'. Minor: subject_label 'SEC v. EquityBuild, Inc., et al.' is not printed on this page (header shows only Case 1:18-cv-05587), and the recommendation is the Receiver's rather than the case's; acceptable as case-level context."
+   }
+  ],
+  "judgment_calls": [
+   "Proposed-vs-ordered policy: four 'treatment' assertions (Allred, Mora, Shatar, Terada) were scored claim_supported=false because object_values ('excluded', 'subordinated', 'excluded due to failure of documentation') drop the 'proposed/recommended' qualifier that the TOC headings ('Should Be Excluded', 'Is Appropriate') carry in a motion to approve. If the project treats a 'treatment' predicate sourced from a Receiver's motion as implicitly proposed, all four flip to supported and this page's citation accuracy becomes 5/5 instead of 1/5. A human should set this policy once and apply it across all 10 pages.",
+   "Shatar kind: saved as organization, labels list it only as a creditor with kind undetermined. Page 3 gives only 'Shatar'. Body page 30 (TOC reference) likely identifies the claimant (possibly an entity such as a Shatar-named capital company); if so, the organization FP becomes a TP. Scored as FP strictly from this page.",
+   "Properties in a TOC: the two addresses (6949-59 S. Merrill, 5001 S. Drexel) appear only inside TOC heading IV.B. The extractor captured them in p3's treatment_summary text but not in saved_entities.properties. Confirm whether TOC-only address mentions should count as property entities; if not, the 2 FNs should be waived.",
+   "Terada: extractor and labels both treat 'Michael and Lyanne Terada' as a single person party with two aliases; acceptable, but entity resolution may want two person records.",
+   "creditor_type values ('other' for Allred/Mora/Shatar, 'investor_lender' for Terada and the LLCs) are not verifiable from page 3 (a TOC) and were not scored; Allred and Mora fall under the 'Insiders and Promoters' heading, so 'other' may be fine, but Shatar's type is unknown from this page.",
+   "Assertion 06b07632 subject_label 'SEC v. EquityBuild, Inc., et al.' is inferred from the case number in the header, not printed on the page; scored as supported since it is the main case, not a related proceeding."
+  ]
+ }
+}

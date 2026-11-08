@@ -1,0 +1,220 @@
+{
+ "document": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+ "page": 3,
+ "pdf": "fixtures/equitybuild/downloads/82a24c37462e5c4baee37bdd57e23048.pdf",
+ "page_text": "ii\nIV.  THE RECEIVER HAS IDENTIFIED CLAIMANTS WHO ARE ELIGIBLE FOR A\nDISTRIBUTION AND DETERMINED HOW TO CLASSIFY CLAIMS. ...................... 24\nA.  Exclusion of Claims from Insiders and Promoters Is Appropriate.  ....................... 25\n1.  Allred\u2019s Unsecured Claim Should Be Excluded .  ................................ ............. 26\n2.  Mora\u2019s Unsecured Claim Should Be Excluded.  ................................ .............. 27\nB.  Capital Investors, LLC\u2019s Unsecured Claim Related to 6949 - 59 S. Merrill and\n5001 S. Drexel Should Be Excluded and the Unsecured Claims of 6951 South\nMerrill Fund I LLC and 5001 South Drexel Blvd Fund II LLC Should Be\nAllowed.  ................................ ................................ ................................ ................. 2 7\nC.  Michael  and Lyanne Terada\u2019s Unsecured Claim 940 - 551 Should Be\nExcluded Due To a Failure of Documentation Supporting the Claim.  .................. 2 9\nD.  Subordination of Shatar\u2019s Unsecured Claims Is Appropriate.  ............................... 30\nE.  Subordination of  Non - Contribu ting  Claims Is Appropriate. ................................ .. 35\nF.  The Remaining Investors and Institutional Lenders Should Be Treated\nEquitably Based on Their Actual Losses and Relative Equities, Not\nCategorical Labels.  ................................ ................................ ................................ 3 8\nV.  THE RECEIVER\u2019S RECOMMENDED DISTRIBUTION METHODOLOGY.  .............. 41\nA.  The Receiver Considered Rising Tide and Net Loss Methodologies.  ................... 4 1\nB.  The Court Has the Discretion to Determine an Equitable Distribution\nMethodology.  ................................ ................................ ................................ ......... 4 2\nC.  The Percentage of Claimants Receiving Funds from the Receivership Is a\nKey Factor.  ................................ ................................ ................................ ............. 43\nD.  In this Case, the Receiver\u2019s Relative Percentage Analysis Supports Using\na  Rising Tide Methodology over a Net Loss Distribution.  ................................ .... 4 4\nVI.  THE RECEIVER\u2019S PROPOSED DISTRIBUTION PLAN  ................................ .............. 4 7\nVII.  THE  COURT SHOULD APPROVE PRIORITY PAYMENT OF\nADMINISTRATIVE EXPENSES NECESSARY TO PRESERVE AND\nADMINISTER THE RECEIVERSHIP ESTATE.  ................................ ............................. 5 0\nVIII.  THE RECEIVER RECOMMENDS THE FOLLOWING PROCEDURE FOR\nOBJECTIONS TO THE PROPOSED DISTRIBUTION PLAN.  ................................ ...... 52\nCertificate of Service  ................................ ................................ ................................ ..................... 58\nCase: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 3 of 273 PageID #:128333",
+ "saved_entities": {
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "person",
+    "aliases": [],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "Allred"
+   },
+   {
+    "key": "p2",
+    "kind": "person",
+    "aliases": [],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "Mora"
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "Capital Investors, LLC"
+   },
+   {
+    "key": "p4",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "6951 South Merrill Fund I LLC"
+   },
+   {
+    "key": "p5",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "5001 South Drexel Blvd Fund II LLC"
+   },
+   {
+    "key": "p6",
+    "kind": "person",
+    "aliases": [
+     "Michael Terada",
+     "Lyanne Terada"
+    ],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "Michael and Lyanne Terada"
+   },
+   {
+    "key": "p7",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "Shatar"
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p1",
+    "claim_group": null,
+    "creditor_type": "other",
+    "treatment_summary": "Unsecured claim should be excluded",
+    "claim_amount_asserted": null
+   },
+   {
+    "party_key": "p2",
+    "claim_group": null,
+    "creditor_type": "other",
+    "treatment_summary": "Unsecured claim should be excluded",
+    "claim_amount_asserted": null
+   },
+   {
+    "party_key": "p3",
+    "claim_group": null,
+    "creditor_type": "investor_lender",
+    "treatment_summary": "Unsecured claim related to 6949-59 S. Merrill and 5001 S. Drexel should be excluded",
+    "claim_amount_asserted": null
+   },
+   {
+    "party_key": "p4",
+    "claim_group": null,
+    "creditor_type": "investor_lender",
+    "treatment_summary": "Unsecured claim should be allowed",
+    "claim_amount_asserted": null
+   },
+   {
+    "party_key": "p5",
+    "claim_group": null,
+    "creditor_type": "investor_lender",
+    "treatment_summary": "Unsecured claim should be allowed",
+    "claim_amount_asserted": null
+   },
+   {
+    "party_key": "p6",
+    "claim_group": null,
+    "creditor_type": "investor_lender",
+    "treatment_summary": "Unsecured claim 940-551 should be excluded for failure of documentation",
+    "claim_amount_asserted": null
+   },
+   {
+    "party_key": "p7",
+    "claim_group": null,
+    "creditor_type": "other",
+    "treatment_summary": "Unsecured claims should be subordinated",
+    "claim_amount_asserted": null
+   }
+  ],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": []
+ },
+ "saved_assertions": [
+  {
+   "id": "51224876-19ed-458b-9eb6-8fd61da017da",
+   "document_title": "Receiver's Motion To Approve Group 10 Distribution Plan (06/30/2026, Dkt. 1967)",
+   "docket_number": "1967",
+   "page_number": 3,
+   "subject_type": "creditor",
+   "subject_label": "Allred",
+   "predicate": "treatment",
+   "object_value": "excluded",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "Allred\u2019s Unsecured Claim Should Be Excluded",
+   "status": "unverified"
+  },
+  {
+   "id": "0318efdd-2d6c-442a-9f7c-b21948fdfbd6",
+   "document_title": "Receiver's Motion To Approve Group 10 Distribution Plan (06/30/2026, Dkt. 1967)",
+   "docket_number": "1967",
+   "page_number": 3,
+   "subject_type": "creditor",
+   "subject_label": "Mora",
+   "predicate": "treatment",
+   "object_value": "excluded",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "Mora\u2019s Unsecured Claim Should Be Excluded.",
+   "status": "unverified"
+  },
+  {
+   "id": "e32ec148-e9bd-476a-93cf-8a162b17a9c6",
+   "document_title": "Receiver's Motion To Approve Group 10 Distribution Plan (06/30/2026, Dkt. 1967)",
+   "docket_number": "1967",
+   "page_number": 3,
+   "subject_type": "creditor",
+   "subject_label": "Shatar",
+   "predicate": "treatment",
+   "object_value": "subordinated",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "Subordination of Shatar\u2019s Unsecured Claims Is Appropriate.",
+   "status": "unverified"
+  },
+  {
+   "id": "8bd8643c-e27a-4695-9202-57661812d55c",
+   "document_title": "Receiver's Motion To Approve Group 10 Distribution Plan (06/30/2026, Dkt. 1967)",
+   "docket_number": "1967",
+   "page_number": 3,
+   "subject_type": "creditor",
+   "subject_label": "Michael and Lyanne Terada",
+   "predicate": "treatment",
+   "object_value": "excluded due to failure of documentation",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.8500",
+   "quote": "Excluded Due To a Failure of Documentation Supporting the Claim.",
+   "status": "unverified"
+  },
+  {
+   "id": "06b07632-9575-4c9b-a298-f0c742ab9b50",
+   "document_title": "Receiver's Motion To Approve Group 10 Distribution Plan (06/30/2026, Dkt. 1967)",
+   "docket_number": "1967",
+   "page_number": 3,
+   "subject_type": "case",
+   "subject_label": "SEC v. EquityBuild, Inc., et al.",
+   "predicate": "recommended_methodology",
+   "object_value": "Rising Tide over Net Loss",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.8500",
+   "quote": "Supports Using a Rising Tide Methodology over a Net Loss Distribution.",
+   "status": "unverified"
+  }
+ ],
+ "saved_counts": {
+  "parties": 7,
+  "creditors": 7,
+  "attorneys": 0,
+  "properties": 0,
+  "related_lawsuits": 0
+ },
+ "stored_assertion_count": 5
+}

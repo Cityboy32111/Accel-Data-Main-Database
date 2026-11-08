@@ -1,0 +1,154 @@
+{
+ "document": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+ "page": 1,
+ "pdf": "fixtures/equitybuild/downloads/82a24c37462e5c4baee37bdd57e23048.pdf",
+ "page_text": "IN THE UNITED STATES DISTRICT COURT\nFOR THE NORTHERN DISTRICT OF ILLINOIS\nEASTERN DIVISION\nUNITED STATES SECURITIES AND\nEXCHANGE COMMISSION,\nPlaintiff,\nv.\nEQUITYBUILD, INC.,  et al. ,\nDefendants.\nCase No. 1:18 - cv - 5587\nHon. Manish S. Shah\nMagistrate Judge Young B. Kim\nRECEIVER\u2019S MOTION TO APPROVE  GROUP 10  DISTRIBUTION PLAN\nMichael Rachlis\nJodi Rosen Wine\nRachlis Duff & Peel, LLC\n216 W. Jackson Blvd., Suite 975\nChicago, IL 60606\nPhone (312) 733 - 3950\nmrachlis@rdaplaw.net\njwine@rdaplaw.net\nAttorneys for Kevin B. Duff, Receiver\nCase: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 1 of 273 PageID #:128331",
+ "saved_entities": {
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "aliases": [
+     "SEC"
+    ],
+    "party_roles": [
+     "plaintiff"
+    ],
+    "canonical_name": "United States Securities and Exchange Commission"
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "EquityBuild, Inc."
+   },
+   {
+    "key": "p3",
+    "kind": "person",
+    "aliases": [
+     "Receiver"
+    ],
+    "party_roles": [
+     "receiver"
+    ],
+    "canonical_name": "Kevin B. Duff"
+   },
+   {
+    "key": "p4",
+    "kind": "person",
+    "aliases": [],
+    "party_roles": [
+     "court"
+    ],
+    "canonical_name": "Manish S. Shah"
+   },
+   {
+    "key": "p5",
+    "kind": "person",
+    "aliases": [],
+    "party_roles": [
+     "court"
+    ],
+    "canonical_name": "Young B. Kim"
+   }
+  ],
+  "creditors": [],
+  "attorneys": [
+   {
+    "key": "a1",
+    "law_firm": "Rachlis Duff & Peel, LLC",
+    "full_name": "Michael Rachlis",
+    "represents_party_keys": [
+     "p3"
+    ]
+   },
+   {
+    "key": "a2",
+    "law_firm": "Rachlis Duff & Peel, LLC",
+    "full_name": "Jodi Rosen Wine",
+    "represents_party_keys": [
+     "p3"
+    ]
+   }
+  ],
+  "properties": [],
+  "related_lawsuits": []
+ },
+ "saved_assertions": [
+  {
+   "id": "08688946-ff2c-4c0c-baaf-18bf998e619a",
+   "document_title": "Receiver's Motion To Approve Group 10 Distribution Plan (06/30/2026, Dkt. 1967)",
+   "docket_number": "1967",
+   "page_number": 1,
+   "subject_type": "attorney",
+   "subject_label": "Michael Rachlis",
+   "predicate": "represented_by",
+   "object_value": "Kevin B. Duff, Receiver is represented by Michael Rachlis",
+   "object_type": "party",
+   "object_label": "Kevin B. Duff",
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "Attorneys for Kevin B. Duff, Receiver",
+   "status": "unverified"
+  },
+  {
+   "id": "4a3121b6-d10e-4bfa-9ecf-abae112e9ce4",
+   "document_title": "Receiver's Motion To Approve Group 10 Distribution Plan (06/30/2026, Dkt. 1967)",
+   "docket_number": "1967",
+   "page_number": 1,
+   "subject_type": "case",
+   "subject_label": "SEC v. EquityBuild, Inc., et al.",
+   "predicate": "status",
+   "object_value": "Receiver's motion to approve Group 10 distribution plan filed 06/30/26",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "RECEIVER\u2019S MOTION TO APPROVE  GROUP 10  DISTRIBUTION PLAN",
+   "status": "unverified"
+  },
+  {
+   "id": "9b4ad736-de52-4a5f-85e8-c3dc53968aaa",
+   "document_title": "Receiver's Motion To Approve Group 10 Distribution Plan (06/30/2026, Dkt. 1967)",
+   "docket_number": "1967",
+   "page_number": 1,
+   "subject_type": "party",
+   "subject_label": "United States Securities and Exchange Commission",
+   "predicate": "has_role",
+   "object_value": "plaintiff",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "UNITED STATES SECURITIES AND\nEXCHANGE COMMISSION,\nPlaintiff,",
+   "status": "unverified"
+  },
+  {
+   "id": "024a79f7-6ddb-4d92-b20c-8191eed153e8",
+   "document_title": "Receiver's Motion To Approve Group 10 Distribution Plan (06/30/2026, Dkt. 1967)",
+   "docket_number": "1967",
+   "page_number": 1,
+   "subject_type": "party",
+   "subject_label": "EquityBuild, Inc.",
+   "predicate": "has_role",
+   "object_value": "defendant",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "EQUITYBUILD, INC.,  et al. ,\nDefendants.",
+   "status": "unverified"
+  }
+ ],
+ "saved_counts": {
+  "parties": 5,
+  "creditors": 0,
+  "attorneys": 2,
+  "properties": 0,
+  "related_lawsuits": 0
+ },
+ "stored_assertion_count": 4
+}
