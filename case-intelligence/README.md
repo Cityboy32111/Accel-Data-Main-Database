@@ -23,6 +23,7 @@ has run; see the reports below for how to run each stage. Repository layout: `su
 | [docs/05-ingestion-report.md](docs/05-ingestion-report.md) | Edge Function credential mechanism, pilot ingestion results, access re-verification |
 | [docs/06-extraction-report.md](docs/06-extraction-report.md) | Five-document extraction results, independent verification, defects fixed, tuning queue |
 | [docs/07-extraction-review.md](docs/07-extraction-review.md) | Read-only review: settlement verdict, 10-page entity scorecard, citation accuracy, gate decision, sign-off list |
+| [docs/08-retest-report.md](docs/08-retest-report.md) | Version-2 extractor regression retest on the same 10 pages: changes, side-by-side scorecard, cost, decision, fresh pages for the next check |
 
 ## Non-negotiable constraints
 
