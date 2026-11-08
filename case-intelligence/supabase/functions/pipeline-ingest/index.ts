@@ -232,17 +232,17 @@ async function ingestExtraction(client: SupabaseClient, body: ExtractionIn): Pro
     .single();
   if (exErr) return json({ error: `extractions: ${exErr.message}` }, 500);
 
+  // Must mirror the normalized_name / normalized_address generated columns.
   const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  const firstMatch = async <T,>(q: { order: (c: string) => { limit: (n: number) => { maybeSingle: () => Promise<{ data: T | null }> } } }) =>
+    (await q.order("created_at").limit(1).maybeSingle()).data;
   const ids = new Map<string, { type: string; id: string }>();
 
   // Parties
   for (const p of body.entities.parties ?? []) {
-    const { data: found } = await client
-      .from("parties")
-      .select("id, party_roles, aliases")
-      .eq("case_id", body.case_id)
-      .eq("normalized_name", norm(p.canonical_name))
-      .maybeSingle();
+    const found = await firstMatch<{ id: string; party_roles: string[]; aliases: string[] }>(
+      client.from("parties").select("id, party_roles, aliases").eq("case_id", body.case_id).eq("normalized_name", norm(p.canonical_name)),
+    );
     if (found) {
       const roles = Array.from(new Set([...(found.party_roles ?? []), ...p.party_roles]));
       const aliases = Array.from(new Set([...(found.aliases ?? []), ...p.aliases]));
@@ -263,7 +263,7 @@ async function ingestExtraction(client: SupabaseClient, body: ExtractionIn): Pro
   for (const c of body.entities.creditors ?? []) {
     const party = ids.get(`party:${c.party_key}`);
     if (!party) continue;
-    const { data: found } = await client.from("creditors").select("id").eq("case_id", body.case_id).eq("party_id", party.id).maybeSingle();
+    const found = await firstMatch<{ id: string }>(client.from("creditors").select("id").eq("case_id", body.case_id).eq("party_id", party.id));
     if (found) {
       ids.set(`creditor:${c.party_key}`, { type: "creditor", id: found.id });
       continue;
@@ -279,7 +279,9 @@ async function ingestExtraction(client: SupabaseClient, body: ExtractionIn): Pro
 
   // Attorneys
   for (const a of body.entities.attorneys ?? []) {
-    const { data: found } = await client.from("attorneys").select("id, represents_party_ids").eq("case_id", body.case_id).ilike("full_name", a.full_name).maybeSingle();
+    const found = await firstMatch<{ id: string; represents_party_ids: string[] }>(
+      client.from("attorneys").select("id, represents_party_ids").eq("case_id", body.case_id).ilike("full_name", a.full_name),
+    );
     const represents = (a.represents_party_keys ?? []).map((k) => ids.get(`party:${k}`)?.id).filter((x): x is string => !!x);
     if (found) {
       const merged = Array.from(new Set([...(found.represents_party_ids ?? []), ...represents]));
@@ -298,7 +300,7 @@ async function ingestExtraction(client: SupabaseClient, body: ExtractionIn): Pro
 
   // Properties
   for (const pr of body.entities.properties ?? []) {
-    const { data: found } = await client.from("properties").select("id").eq("case_id", body.case_id).eq("normalized_address", norm(pr.address)).maybeSingle();
+    const found = await firstMatch<{ id: string }>(client.from("properties").select("id").eq("case_id", body.case_id).eq("normalized_address", norm(pr.address)));
     if (found) {
       ids.set(`property:${pr.key}`, { type: "property", id: found.id });
       continue;
@@ -316,7 +318,7 @@ async function ingestExtraction(client: SupabaseClient, body: ExtractionIn): Pro
   for (const rl of body.entities.related_lawsuits ?? []) {
     let q = client.from("related_lawsuits").select("id").eq("case_id", body.case_id);
     q = rl.docket_number ? q.eq("docket_number", rl.docket_number) : q.ilike("caption", rl.caption);
-    const { data: found } = await q.maybeSingle();
+    const found = await firstMatch<{ id: string }>(q);
     if (found) {
       ids.set(`related_lawsuit:${rl.key}`, { type: "related_lawsuit", id: found.id });
       continue;

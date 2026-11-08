@@ -3,7 +3,7 @@
 // worker performs the grounding check before anything is stored.
 
 export const EXTRACTION_SCHEMA_VERSION = "2026-11-07.1";
-export const EXTRACTION_PROMPT_VERSION = "2026-11-07.1";
+export const EXTRACTION_PROMPT_VERSION = "2026-11-08.1";
 
 export const EXTRACTION_TOOL = {
   name: "record_page_extraction",
@@ -155,32 +155,49 @@ export interface ExtractResult {
 
 export async function extractPage(apiKey: string, req: ExtractRequest): Promise<ExtractResult> {
   const started = Date.now();
-  const user = `Case: ${req.case_caption}\nDocument: ${req.document_title}\nPage: ${req.page_number}\n\n<page_text>\n${req.page_text}\n</page_text>\n\nRecord every entity and fact stated on this page using the tool.`;
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "x-api-key": apiKey,
-      "anthropic-version": "2023-06-01",
-      "content-type": "application/json",
-    },
-    body: JSON.stringify({
-      model: req.model,
-      max_tokens: req.max_tokens ?? 4096,
-      system: SYSTEM_PROMPT,
-      tools: [EXTRACTION_TOOL],
-      tool_choice: { type: "tool", name: EXTRACTION_TOOL.name },
-      messages: [{ role: "user", content: user }],
-    }),
-  });
-  const body = await res.json();
-  if (!res.ok) {
-    throw new Error(`anthropic ${res.status}: ${JSON.stringify(body).slice(0, 500)}`);
+  const user = `Case: ${req.case_caption}\nDocument: ${req.document_title}\nPage: ${req.page_number}\n\n<page_text>\n${req.page_text}\n</page_text>\n\nCall the ${EXTRACTION_TOOL.name} tool exactly once to record every entity and fact stated on this page. Do not answer in prose.`;
+  // Claude Sonnet 5.5 and Opus 5.5 reject forced tool_choice ("any"/"tool"), so the
+  // call is steered from the prompt under "auto" and retried once if the model
+  // answers in text instead.
+  const call = async (nudge: string | null) => {
+    const messages: unknown[] = [{ role: "user", content: user }];
+    if (nudge) messages.push({ role: "system", content: nudge });
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "x-api-key": apiKey, "anthropic-version": "2023-06-01", "content-type": "application/json" },
+      body: JSON.stringify({
+        model: req.model,
+        max_tokens: req.max_tokens ?? 8192,
+        system: SYSTEM_PROMPT,
+        tools: [EXTRACTION_TOOL],
+        tool_choice: { type: "auto", disable_parallel_tool_use: true },
+        output_config: { effort: "medium" },
+        messages,
+      }),
+    });
+    const body = await res.json();
+    if (!res.ok) throw new Error(`anthropic ${res.status}: ${JSON.stringify(body).slice(0, 500)}`);
+    return body;
+  };
+  let body = await call(null);
+  let toolUse = (body.content as Array<{ type: string; name?: string; input?: unknown }>).find((c) => c.type === "tool_use");
+  let usage = { input: body.usage?.input_tokens ?? 0, output: body.usage?.output_tokens ?? 0 };
+  if (!toolUse && body.stop_reason !== "refusal") {
+    body = await call(`The previous answer did not call ${EXTRACTION_TOOL.name}. Respond only by calling that tool.`);
+    toolUse = (body.content as Array<{ type: string; name?: string; input?: unknown }>).find((c) => c.type === "tool_use");
+    usage = { input: usage.input + (body.usage?.input_tokens ?? 0), output: usage.output + (body.usage?.output_tokens ?? 0) };
   }
-  const toolUse = (body.content as Array<{ type: string; name?: string; input?: unknown }>).find((c) => c.type === "tool_use");
+  // Some models wrap the arguments in a single envelope key ("parameters",
+  // "input"); unwrap when the envelope holds the expected shape.
+  let output = (toolUse?.input ?? null) as Record<string, unknown> | null;
+  if (output && !("assertions" in output)) {
+    const inner = Object.values(output).find((v) => v && typeof v === "object" && "assertions" in (v as Record<string, unknown>));
+    if (inner) output = inner as Record<string, unknown>;
+  }
   return {
-    output: toolUse?.input ?? null,
-    input_tokens: body.usage?.input_tokens ?? 0,
-    output_tokens: body.usage?.output_tokens ?? 0,
+    output,
+    input_tokens: usage.input,
+    output_tokens: usage.output,
     latency_ms: Date.now() - started,
     model: body.model ?? req.model,
     prompt_version: EXTRACTION_PROMPT_VERSION,
