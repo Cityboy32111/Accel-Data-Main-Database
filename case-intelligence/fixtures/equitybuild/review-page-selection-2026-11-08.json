@@ -1,0 +1,82 @@
+[
+ {
+  "key": "appointment-order",
+  "document": "Order Appointing Receiver (2018-08-17), Dkt. 16",
+  "title_prefix": "Order Appointing Receiver",
+  "pdf": "fixtures/equitybuild/downloads/a751844d80ae222497ada928d7f0bdfc.pdf",
+  "page": 1,
+  "rationale": "caption and parties page"
+ },
+ {
+  "key": "appointment-order",
+  "document": "Order Appointing Receiver (2018-08-17), Dkt. 16",
+  "title_prefix": "Order Appointing Receiver",
+  "pdf": "fixtures/equitybuild/downloads/a751844d80ae222497ada928d7f0bdfc.pdf",
+  "page": 5,
+  "rationale": "densest processed page after page 2 (2777 characters)"
+ },
+ {
+  "key": "status-report-1",
+  "document": "Receiver's First Status Report, Q3 2018, Dkt. 107",
+  "title_prefix": "Receiver's First Status Report",
+  "pdf": "fixtures/equitybuild/downloads/3fcf3845b1a3a6c6c7b22d3f55c94578.pdf",
+  "page": 1,
+  "rationale": "caption and parties page"
+ },
+ {
+  "key": "status-report-1",
+  "document": "Receiver's First Status Report, Q3 2018, Dkt. 107",
+  "title_prefix": "Receiver's First Status Report",
+  "pdf": "fixtures/equitybuild/downloads/3fcf3845b1a3a6c6c7b22d3f55c94578.pdf",
+  "page": 22,
+  "rationale": "densest processed page after page 2 (2569 characters)"
+ },
+ {
+  "key": "dkt-1806",
+  "document": "SEC's Response To Group 7 Position Statements, Dkt. 1806",
+  "title_prefix": "SEC's Response To Group 7",
+  "pdf": "fixtures/equitybuild/downloads/64670431ccf24243407ac06adf32b213.pdf",
+  "page": 1,
+  "rationale": "caption and parties page"
+ },
+ {
+  "key": "dkt-1806",
+  "document": "SEC's Response To Group 7 Position Statements, Dkt. 1806",
+  "title_prefix": "SEC's Response To Group 7",
+  "pdf": "fixtures/equitybuild/downloads/64670431ccf24243407ac06adf32b213.pdf",
+  "page": 3,
+  "rationale": "densest processed page after page 2 (2152 characters)"
+ },
+ {
+  "key": "dkt-1938",
+  "document": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+  "title_prefix": "Receiver's Motion To Approve Settlement Of State Court Action",
+  "pdf": "fixtures/equitybuild/downloads/4e6d66cc362e06d914a153080513ed80.pdf",
+  "page": 1,
+  "rationale": "caption and parties page"
+ },
+ {
+  "key": "dkt-1938",
+  "document": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+  "title_prefix": "Receiver's Motion To Approve Settlement Of State Court Action",
+  "pdf": "fixtures/equitybuild/downloads/4e6d66cc362e06d914a153080513ed80.pdf",
+  "page": 2,
+  "rationale": "flagged $30,000 settlement page (mandated)"
+ },
+ {
+  "key": "dkt-1967",
+  "document": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+  "title_prefix": "Receiver's Motion To Approve Group 10 Distribution Plan",
+  "pdf": "fixtures/equitybuild/downloads/82a24c37462e5c4baee37bdd57e23048.pdf",
+  "page": 1,
+  "rationale": "caption and parties page"
+ },
+ {
+  "key": "dkt-1967",
+  "document": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+  "title_prefix": "Receiver's Motion To Approve Group 10 Distribution Plan",
+  "pdf": "fixtures/equitybuild/downloads/82a24c37462e5c4baee37bdd57e23048.pdf",
+  "page": 3,
+  "rationale": "densest processed page after page 2 (2854 characters)"
+ }
+]

@@ -22,6 +22,7 @@ has run; see the reports below for how to run each stage. Repository layout: `su
 | [docs/04-milestone-1-report.md](docs/04-milestone-1-report.md) | What Milestone 1 delivered, runbooks, and configuration that needs your involvement |
 | [docs/05-ingestion-report.md](docs/05-ingestion-report.md) | Edge Function credential mechanism, pilot ingestion results, access re-verification |
 | [docs/06-extraction-report.md](docs/06-extraction-report.md) | Five-document extraction results, independent verification, defects fixed, tuning queue |
+| [docs/07-extraction-review.md](docs/07-extraction-review.md) | Read-only review: settlement verdict, 10-page entity scorecard, citation accuracy, gate decision, sign-off list |
 
 ## Non-negotiable constraints
 

@@ -105,4 +105,138 @@ same real-world entity as a match, counted generic role words and
 placeholders as false positives, and counted precedent citations recorded as
 related proceedings as false positives.
 
-SCORECARD_PLACEHOLDER
+## 3. Entity scorecard (10 pages)
+
+Counts are summed over the 10 pages. Precision is TP / (TP + FP); recall is
+TP / (TP + FN). A category with a zero denominator is marked N/A rather than
+scored, and the counts are shown so sparse categories stay visible.
+
+| Entity type | TP | FP | FN | Precision | Recall |
+| --- | --- | --- | --- | --- | --- |
+| Creditors | 15 | 0 | 7 | 1.000 (15/15) | 0.682 (15/22) |
+| Attorneys | 2 | 0 | 0 | 1.000 (2/2) | 1.000 (2/2) |
+| Organizations | 29 | 2 | 10 | 0.935 (29/31) | 0.744 (29/39) |
+| Properties / assets | 5 | 0 | 6 | 1.000 (5/5) | 0.455 (5/11) |
+| Related proceedings | 5 | 0 | 12 | 1.000 (5/5) | 0.294 (5/17) |
+
+Per page (TP/FP/FN per type, then citation checks):
+
+| Page | Creditors | Attorneys | Organizations | Properties | Related proc. | Quote on page | Claim supported |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| appointment-order p1 | 0/0/0 | 0/0/0 | 3/0/0 | 0/0/0 | 0/0/1 | 6/6 | 6/6 |
+| appointment-order p5 | 0/0/0 | 0/0/0 | 0/1/0 | 0/0/0 | 0/0/0 | 1/1 | 1/1 |
+| status-report-1 p1 | 0/0/0 | 0/0/0 | 3/0/0 | 0/0/0 | 0/0/1 | 5/5 | 5/5 |
+| status-report-1 p22 | 0/0/3 | 0/0/0 | 3/0/3 | 0/0/0 | 2/0/5 | 2/2 | 2/2 |
+| dkt-1806 p1 | 3/0/2 | 0/0/0 | 5/0/2 | 3/0/0 | 0/0/2 | 3/3 | 3/3 |
+| dkt-1806 p3 | 3/0/1 | 0/0/0 | 4/0/3 | 1/0/3 | 1/0/1 | 3/3 | 3/3 |
+| dkt-1938 p1 | 1/0/0 | 0/0/0 | 5/0/1 | 1/0/0 | 1/0/1 | 4/4 | 4/4 |
+| dkt-1938 p2 | 1/0/1 | 0/0/0 | 1/0/0 | 0/0/1 | 1/0/0 | 3/3 | 2/3 |
+| dkt-1967 p1 | 0/0/0 | 2/0/0 | 2/0/1 | 0/0/0 | 0/0/1 | 4/4 | 4/4 |
+| dkt-1967 p3 | 7/0/0 | 0/0/0 | 3/1/0 | 0/0/2 | 0/0/0 | 5/5 | 1/5 |
+
+**What is behind the numbers.**
+
+- The two organization false positives are a generic role term
+  ("Receivership Defendants", Dkt. 16 p. 5) and "Shatar" typed as an
+  organization from a table-of-contents heading that gives only a surname-like
+  short name (Dkt. 1967 p. 3).
+- Creditor misses: the Group 6 lenders Midland and UBS named only in a
+  footnote (Dkt. 1806 p. 1); DLP named only inside a quoted prior ruling
+  (Dkt. 1806 p. 3); Fireshark Enterprises, Markwell and the City of Chicago as
+  litigation and regulatory claimants (Dkt. 107 p. 22); Keating Law Offices
+  as co-payee of the settlement check (Dkt. 1938 p. 2).
+- Property misses: receiver Properties 69, 70 and 73 mentioned in running
+  prose (Dkt. 1806 p. 3); two addresses inside a contents heading (Dkt. 1967
+  p. 3); the "Receiver's account" as a funding source (Dkt. 1938 p. 2), which
+  is arguably a placeholder rather than an asset.
+- Related-proceeding misses are dominated by two labeling conventions. Five
+  of the 12 are the receivership action itself, which the extraction schema
+  explicitly excludes ("not the main case itself"), so under the project's
+  own convention they are not misses. Five more are aggregated, un-numbered
+  groups of City of Chicago housing-court and administrative matters on Dkt.
+  107 p. 22 (for example "approximately twelve Buildings Department
+  proceedings"), which no page-level extractor could record as discrete
+  proceedings. The remaining two are a short-form "Id." citation to the
+  Seventh Circuit appeal and a generic reference to prior appeals.
+
+| Related proceedings, recall under each convention | FN | Recall |
+| --- | --- | --- |
+| As scored by the labelers | 12 | 5/17 = 0.294 |
+| Excluding the main case (matches the schema) | 7 | 0.417 (5/12) |
+| Also excluding aggregated municipal matters | 2 | 0.714 (5/7) |
+
+Precision is unchanged under every convention because no related proceeding
+on these pages was a false positive; the case-law-as-proceeding problem
+noted in the earlier report did not occur on the 10 selected pages.
+
+## 4. Citation accuracy (36 stored assertions on the 10 pages)
+
+| Check | Numerator / denominator | Rate |
+| --- | --- | --- |
+| Quote is on the cited PDF page | 36 / 36 | 1.000 |
+| Claim supported as written (right proceeding, parties, qualifiers) | 31 / 36 | 0.861 |
+| **Citation accurate (both checks pass)** | **31 / 36** | **0.861** |
+
+Every quote was found on its cited page, so the grounding check is doing its
+job. All five failures are claim-support failures of one kind, modality:
+
+1. Dkt. 1938 p. 2, the $30,000 settlement (Section 1): wrong proceeding and
+   proposed stated as settled.
+2. to 5. Dkt. 1967 p. 3, four "treatment" assertions for Allred, Mora, Shatar
+   and the Teradas whose object values read "excluded" or "subordinated"
+   where the page, a table of contents, says the Receiver argues the claim
+   "Should Be Excluded" or that subordination "Is Appropriate". The
+   recommendation of a movant was stored as the court's disposition.
+
+## 5. Gates
+
+| Gate | Result | Decision |
+| --- | --- | --- |
+| Citation accuracy at least 95% | 86.1% (31/36) | **Not met.** The miss is systematic (modality), not random. |
+| Precision at least 85%, creditors | 100% (15/15) | Met |
+| Precision at least 85%, organizations | 93.5% (29/31) | Met |
+| Precision at least 85%, attorneys | 100% (2/2) | **Too little evidence**: two predictions on 10 pages |
+| Precision at least 85%, properties | 100% (5/5) | Met on thin evidence; recall is the problem (45%) |
+| Precision at least 85%, related proceedings | 100% (5/5) | Met on thin evidence; recall depends on convention (29% to 71%) |
+
+Recall has no gate in the plan, but at 45% for properties and under 70% for
+creditors the directory would miss claimants a lawyer expects to see, and the
+coverage statement on every view is what keeps that honest in the meantime.
+
+## 6. Recommendation and human sign-off
+
+**Recommendation: fix and retest within the same five documents before
+entity resolution.** The citation gate fails on a single, well-understood
+cause that a prompt and schema change addresses: a required `modality` field
+(ordered, proposed, recommended, alleged, argued) and an instruction never to
+state a movant's request as a disposition, plus treating table-of-contents
+pages as index material rather than evidence. The same pass should take the
+recall fixes that the misses point to: read footnotes, record receiver
+property numbers in prose, record law firms as organizations when they
+appear in a counsel block, and type litigation and regulatory claimants as
+creditors. Then re-extract these five documents and re-score the same 10
+pages against the same labels, which costs about $1.20 of model usage and a
+few minutes. Entity resolution (BMO vs BMO Bank N.A., Citibank variants,
+Property 2 vs its address) can be designed in parallel, but running it on
+assertions that are about to be superseded would only have to be repeated.
+
+Findings that need a human signature before anything changes:
+
+1. The settlement correction in Section 1, entered through the correction
+   workflow by a reviewer with the right role. I did not change the row.
+2. The four Dkt. 1967 p. 3 treatment assertions: reject or correct to
+   "proposed" treatment.
+3. Labeling conventions the scorecard depends on: whether the main case
+   counts as a related proceeding (the schema says no), whether aggregated
+   municipal matters count, whether City departments are separate
+   organizations, whether parties named only in a cited decision's caption
+   or a quoted prior ruling count, whether Keating Law Offices is a creditor,
+   and whether the "Receiver's account" is an asset.
+4. The "Shatar" typing and the Terada single-party treatment.
+5. Approval to spend about $1.20 on the re-extraction once the prompt and
+   schema changes are in.
+
+Everything in this report was produced by AI reviewers reading the PDFs; the
+page labels, the matching decisions and the claim-support judgments have not
+been checked by a person.
+
