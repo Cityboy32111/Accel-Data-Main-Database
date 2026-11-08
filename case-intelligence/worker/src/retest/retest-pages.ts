@@ -69,7 +69,20 @@ export interface RetestBundle {
   output: V2Output;
   assertions: ProcessedAssertion[];
   dropped: { quote: string; reason: string }[];
+  warnings: string[];
   page_text: string;
+}
+
+/** Page-level coverage warnings that are not about a single assertion. */
+export function pageWarnings(output: V2Output): string[] {
+  const warnings: string[] = [];
+  const creditorKeys = new Set((output.creditors ?? []).map((c) => c.party_key));
+  for (const p of output.parties ?? []) {
+    if (p.party_roles.includes("lender") && !creditorKeys.has(p.key)) {
+      warnings.push(`lender_not_creditor: ${p.canonical_name} has role lender but no creditor entry`);
+    }
+  }
+  return warnings;
 }
 
 export function processOutput(output: V2Output, pageText: string): { assertions: ProcessedAssertion[]; dropped: { quote: string; reason: string }[] } {
@@ -94,7 +107,7 @@ export function processOutput(output: V2Output, pageText: string): { assertions:
       continue;
     }
     const lint = lintAssertion({
-      modality: a.modality, quote: a.quote, object_value: a.object_value, conditions: a.conditions,
+      modality: a.modality, predicate: a.predicate, quote: a.quote, object_value: a.object_value, conditions: a.conditions,
       page_kind: output.page_kind, subject_type: a.subject_type, proceeding: a.proceeding,
     });
     const relatedLabel = a.proceeding?.scope === "related_lawsuit" && a.proceeding.related_lawsuit_key
@@ -118,7 +131,7 @@ export function processOutput(output: V2Output, pageText: string): { assertions:
 
 export async function runRetest(
   cfg: WorkerConfig,
-  pages: RetestPage[],
+  pages: { key: string; page: number; document: string; title_prefix: string }[],
   documents: { id: string; title: string }[],
   opts: { model: string; outDir: string; functionUrl: string; log?: (l: string) => void },
 ): Promise<{ bundles: RetestBundle[]; totals: { input_tokens: number; output_tokens: number } }> {
@@ -149,7 +162,7 @@ export async function runRetest(
       key: p.key, page: p.page, document: p.document, document_id: doc.id,
       model: body.model, prompt_version: body.prompt_version, schema_version: body.schema_version,
       input_tokens: body.input_tokens, output_tokens: body.output_tokens, latency_ms: body.latency_ms,
-      page_kind: output.page_kind, output, assertions, dropped, page_text: body.page_text,
+      page_kind: output.page_kind, output, assertions, dropped, warnings: pageWarnings(output), page_text: body.page_text,
     };
     totals.input_tokens += body.input_tokens;
     totals.output_tokens += body.output_tokens;

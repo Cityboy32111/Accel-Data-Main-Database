@@ -4,7 +4,7 @@
 //   npm run worker -- download [--limit N]  download, screen, extract the subset locally (no database)
 //   npm run worker -- acquire [--limit N]   store the downloaded subset through the pipeline-ingest Edge Function
 //   npm run worker -- extract --sample [--dockets 1967,1806] [--titles "a|b"] [--max-pages N] [--model m]
-//   npm run worker -- retest [--out dir] [--model m]   version-2 extraction of the fixed 10-page list, fixtures only, no DB writes
+//   npm run worker -- retest [--pages sel.json] [--out dir] [--model m]   isolated extraction of a fixed page list, fixtures only, no DB writes
 //   npm run worker -- status                counts and coverage for the pilot case
 //
 // acquire/status/plan need PIPELINE_WORKER_TOKEN (scoped token for the Edge Function).
@@ -115,7 +115,8 @@ async function main(): Promise<void> {
 
   if (command === "retest") {
     const { runRetest } = await import("./retest/retest-pages.js");
-    const selection = JSON.parse(await readFile("fixtures/equitybuild/review-2026-11-08/page-selection.json", "utf8")) as { key: string; page: number; document: string; title_prefix: string }[];
+    const selectionPath = String(flags.get("pages") ?? "fixtures/equitybuild/review-2026-11-08/page-selection.json");
+    const selection = JSON.parse(await readFile(selectionPath, "utf8")) as { key: string; page: number; document: string; title_prefix: string }[];
     const { documents } = await client.json<{ documents: { id: string; title: string }[] }>({ action: "list_documents", case_id: cfg.PIPELINE_CASE_ID });
     const outDir = String(flags.get("out") ?? "fixtures/equitybuild/retest-2026-11-08");
     const model = String(flags.get("model") ?? "claude-sonnet-5-5");

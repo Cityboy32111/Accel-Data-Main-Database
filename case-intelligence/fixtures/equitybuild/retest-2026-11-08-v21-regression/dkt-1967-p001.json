@@ -1,0 +1,287 @@
+{
+ "key": "dkt-1967",
+ "page": 1,
+ "document": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+ "document_id": "087d434a-4ac4-4929-960f-6b245ab5ce44",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.3",
+ "schema_version": "2026-11-08.3",
+ "input_tokens": 5359,
+ "output_tokens": 1450,
+ "latency_ms": 7063,
+ "page_kind": "caption",
+ "output": {
+  "page_kind": "caption",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION",
+    "party_roles": [
+     "plaintiff"
+    ],
+    "aliases": [
+     "SEC"
+    ]
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "EQUITYBUILD, INC.",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "person",
+    "canonical_name": "Kevin B. Duff",
+    "party_roles": [
+     "receiver"
+    ],
+    "aliases": [
+     "Receiver"
+    ]
+   },
+   {
+    "key": "p4",
+    "kind": "organization",
+    "canonical_name": "Rachlis Duff & Peel, LLC",
+    "party_roles": [
+     "counsel"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p5",
+    "kind": "person",
+    "canonical_name": "Manish S. Shah",
+    "party_roles": [
+     "court"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p6",
+    "kind": "person",
+    "canonical_name": "Young B. Kim",
+    "party_roles": [
+     "court"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [],
+  "attorneys": [
+   {
+    "key": "a1",
+    "full_name": "Michael Rachlis",
+    "law_firm": "Rachlis Duff & Peel, LLC",
+    "law_firm_party_key": "p4",
+    "represents_party_keys": [
+     "p3"
+    ]
+   },
+   {
+    "key": "a2",
+    "full_name": "Jodi Rosen Wine",
+    "law_firm": "Rachlis Duff & Peel, LLC",
+    "law_firm_party_key": "p4",
+    "represents_party_keys": [
+     "p3"
+    ]
+   }
+  ],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-06-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 1 of 273",
+    "confidence": 0.95,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "attorney",
+    "subject_key": "a1",
+    "predicate": "counsel_for",
+    "object_value": "Kevin B. Duff, Receiver",
+    "object_type": "party",
+    "object_key": "p3",
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "Attorneys for Kevin B. Duff, Receiver",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "attorney",
+    "subject_key": "a2",
+    "predicate": "counsel_for",
+    "object_value": "Kevin B. Duff, Receiver",
+    "object_type": "party",
+    "object_key": "p3",
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "Attorneys for Kevin B. Duff, Receiver",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "party_position",
+    "object_value": "Receiver moves to approve Group 10 distribution plan (requested)",
+    "object_type": null,
+    "object_key": null,
+    "modality": "requested",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "RECEIVER’S MOTION TO APPROVE GROUP 10 DISTRIBUTION PLAN",
+    "confidence": 0.85,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-06-30",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 1 of 273",
+   "confidence": 0.95,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.95,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "attorney",
+   "subject_key": "a1",
+   "predicate": "counsel_for",
+   "object_value": "Kevin B. Duff, Receiver",
+   "object_type": "party",
+   "object_key": "p3",
+   "modality": "reported",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "Attorneys for Kevin B. Duff, Receiver",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "Michael Rachlis",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "attorney",
+   "subject_key": "a2",
+   "predicate": "counsel_for",
+   "object_value": "Kevin B. Duff, Receiver",
+   "object_type": "party",
+   "object_key": "p3",
+   "modality": "reported",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "Attorneys for Kevin B. Duff, Receiver",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "Jodi Rosen Wine",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "party_position",
+   "object_value": "Receiver moves to approve Group 10 distribution plan (requested)",
+   "object_type": null,
+   "object_key": null,
+   "modality": "requested",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "RECEIVER’S MOTION TO APPROVE GROUP 10 DISTRIBUTION PLAN",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "page_text": "IN THE UNITED STATES DISTRICT COURT\nFOR THE NORTHERN DISTRICT OF ILLINOIS\nEASTERN DIVISION\nUNITED STATES SECURITIES AND\nEXCHANGE COMMISSION,\nPlaintiff,\nv.\nEQUITYBUILD, INC.,  et al. ,\nDefendants.\nCase No. 1:18 - cv - 5587\nHon. Manish S. Shah\nMagistrate Judge Young B. Kim\nRECEIVER’S MOTION TO APPROVE  GROUP 10  DISTRIBUTION PLAN\nMichael Rachlis\nJodi Rosen Wine\nRachlis Duff & Peel, LLC\n216 W. Jackson Blvd., Suite 975\nChicago, IL 60606\nPhone (312) 733 - 3950\nmrachlis@rdaplaw.net\njwine@rdaplaw.net\nAttorneys for Kevin B. Duff, Receiver\nCase: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 1 of 273 PageID #:128331"
+}

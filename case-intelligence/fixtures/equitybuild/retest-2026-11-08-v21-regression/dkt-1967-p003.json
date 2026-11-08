@@ -1,0 +1,477 @@
+{
+ "key": "dkt-1967",
+ "page": 3,
+ "document": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+ "document_id": "087d434a-4ac4-4929-960f-6b245ab5ce44",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.3",
+ "schema_version": "2026-11-08.3",
+ "input_tokens": 6112,
+ "output_tokens": 2609,
+ "latency_ms": 11978,
+ "page_kind": "table_of_contents",
+ "output": {
+  "page_kind": "table_of_contents",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "person",
+    "canonical_name": "Allred",
+    "party_roles": [
+     "claimant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "person",
+    "canonical_name": "Mora",
+    "party_roles": [
+     "claimant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "Capital Investors, LLC",
+    "party_roles": [
+     "claimant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p4",
+    "kind": "organization",
+    "canonical_name": "6951 South Merrill Fund I LLC",
+    "party_roles": [
+     "claimant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p5",
+    "kind": "organization",
+    "canonical_name": "5001 South Drexel Blvd Fund II LLC",
+    "party_roles": [
+     "claimant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p6",
+    "kind": "person",
+    "canonical_name": "Michael and Lyanne Terada",
+    "party_roles": [
+     "claimant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p7",
+    "kind": "organization",
+    "canonical_name": "Shatar",
+    "party_roles": [
+     "claimant"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p1",
+    "creditor_type": "investor_lender",
+    "claim_amount_asserted": null,
+    "claim_group": null,
+    "treatment_summary": "Receiver argues unsecured claim should be excluded"
+   },
+   {
+    "party_key": "p2",
+    "creditor_type": "investor_lender",
+    "claim_amount_asserted": null,
+    "claim_group": null,
+    "treatment_summary": "Receiver argues unsecured claim should be excluded"
+   },
+   {
+    "party_key": "p3",
+    "creditor_type": "investor_lender",
+    "claim_amount_asserted": null,
+    "claim_group": null,
+    "treatment_summary": "Receiver argues unsecured claim should be excluded"
+   },
+   {
+    "party_key": "p4",
+    "creditor_type": "investor_lender",
+    "claim_amount_asserted": null,
+    "claim_group": null,
+    "treatment_summary": "Receiver argues unsecured claim should be allowed"
+   },
+   {
+    "party_key": "p5",
+    "creditor_type": "investor_lender",
+    "claim_amount_asserted": null,
+    "claim_group": null,
+    "treatment_summary": "Receiver argues unsecured claim should be allowed"
+   },
+   {
+    "party_key": "p6",
+    "creditor_type": "investor_lender",
+    "claim_amount_asserted": null,
+    "claim_group": null,
+    "treatment_summary": "Receiver argues claim 940-551 should be excluded for failure of documentation"
+   },
+   {
+    "party_key": "p7",
+    "creditor_type": "investor_lender",
+    "claim_amount_asserted": null,
+    "claim_group": null,
+    "treatment_summary": "Receiver argues unsecured claims should be subordinated"
+   }
+  ],
+  "attorneys": [],
+  "properties": [
+   {
+    "key": "pr1",
+    "address": "6949-59 S. Merrill",
+    "city": null,
+    "state": null,
+    "receiver_property_number": null,
+    "disposition": "unknown"
+   },
+   {
+    "key": "pr2",
+    "address": "5001 S. Drexel",
+    "city": null,
+    "state": null,
+    "receiver_property_number": null,
+    "disposition": "unknown"
+   }
+  ],
+  "related_lawsuits": [],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-06-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "creditor",
+    "subject_key": "p1",
+    "predicate": "treatment",
+    "object_value": "Receiver argues Allred's unsecured claim should be excluded",
+    "object_type": null,
+    "object_key": null,
+    "modality": "index_reference",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": 26,
+    "quote": "Allred’s Unsecured Claim Should Be Excluded",
+    "confidence": 0.55,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "creditor",
+    "subject_key": "p2",
+    "predicate": "treatment",
+    "object_value": "Receiver argues Mora's unsecured claim should be excluded",
+    "object_type": null,
+    "object_key": null,
+    "modality": "index_reference",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": 27,
+    "quote": "Mora’s Unsecured Claim Should Be Excluded.",
+    "confidence": 0.55,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "creditor",
+    "subject_key": "p3",
+    "predicate": "treatment",
+    "object_value": "Receiver argues Capital Investors, LLC's unsecured claim should be excluded; claims of 6951 South Merrill Fund I LLC and 5001 South Drexel Blvd Fund II LLC should be allowed",
+    "object_type": null,
+    "object_key": null,
+    "modality": "index_reference",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": 27,
+    "quote": "Capital Investors, LLC’s Unsecured Claim Related to 6949 - 59 S. Merrill and 5001 S. Drexel Should Be Excluded",
+    "confidence": 0.55,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "creditor",
+    "subject_key": "p6",
+    "predicate": "treatment",
+    "object_value": "Receiver argues Terada unsecured claim 940-551 should be excluded for failure of documentation",
+    "object_type": null,
+    "object_key": null,
+    "modality": "index_reference",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": 29,
+    "quote": "Should Be Excluded Due To a Failure of Documentation Supporting the Claim.",
+    "confidence": 0.55,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "creditor",
+    "subject_key": "p7",
+    "predicate": "treatment",
+    "object_value": "Receiver argues subordination of Shatar's unsecured claims is appropriate",
+    "object_type": null,
+    "object_key": null,
+    "modality": "index_reference",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": 30,
+    "quote": "Subordination of Shatar’s Unsecured Claims Is Appropriate.",
+    "confidence": 0.55,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "party_position",
+    "object_value": "Receiver argues Rising Tide methodology is supported over Net Loss distribution",
+    "object_type": null,
+    "object_key": null,
+    "modality": "index_reference",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": 44,
+    "quote": "the Receiver’s Relative Percentage Analysis Supports Using a Rising Tide Methodology over a Net Loss Distribution.",
+    "confidence": 0.55,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+   "object_type": null,
+   "object_key": null,
+   "modality": "index_reference",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-06-30",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [
+    "toc_page: modality completed downgraded to index_reference"
+   ],
+   "needs_review": true,
+   "final_confidence": 0.54,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "creditor",
+   "subject_key": "p1",
+   "predicate": "treatment",
+   "object_value": "Receiver argues Allred's unsecured claim should be excluded",
+   "object_type": null,
+   "object_key": null,
+   "modality": "index_reference",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": 26,
+   "quote": "Allred’s Unsecured Claim Should Be Excluded",
+   "confidence": 0.55,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": true,
+   "final_confidence": 0.33,
+   "subject_label": "Allred",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "creditor",
+   "subject_key": "p2",
+   "predicate": "treatment",
+   "object_value": "Receiver argues Mora's unsecured claim should be excluded",
+   "object_type": null,
+   "object_key": null,
+   "modality": "index_reference",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": 27,
+   "quote": "Mora’s Unsecured Claim Should Be Excluded.",
+   "confidence": 0.55,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": true,
+   "final_confidence": 0.33,
+   "subject_label": "Mora",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "creditor",
+   "subject_key": "p3",
+   "predicate": "treatment",
+   "object_value": "Receiver argues Capital Investors, LLC's unsecured claim should be excluded; claims of 6951 South Merrill Fund I LLC and 5001 South Drexel Blvd Fund II LLC should be allowed",
+   "object_type": null,
+   "object_key": null,
+   "modality": "index_reference",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": 27,
+   "quote": "Capital Investors, LLC’s Unsecured Claim Related to 6949 - 59 S. Merrill and 5001 S. Drexel Should Be Excluded",
+   "confidence": 0.55,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": true,
+   "final_confidence": 0.33,
+   "subject_label": "Capital Investors, LLC",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "creditor",
+   "subject_key": "p6",
+   "predicate": "treatment",
+   "object_value": "Receiver argues Terada unsecured claim 940-551 should be excluded for failure of documentation",
+   "object_type": null,
+   "object_key": null,
+   "modality": "index_reference",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": 29,
+   "quote": "Should Be Excluded Due To a Failure of Documentation Supporting the Claim.",
+   "confidence": 0.55,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": true,
+   "final_confidence": 0.33,
+   "subject_label": "Michael and Lyanne Terada",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "creditor",
+   "subject_key": "p7",
+   "predicate": "treatment",
+   "object_value": "Receiver argues subordination of Shatar's unsecured claims is appropriate",
+   "object_type": null,
+   "object_key": null,
+   "modality": "index_reference",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": 30,
+   "quote": "Subordination of Shatar’s Unsecured Claims Is Appropriate.",
+   "confidence": 0.55,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": true,
+   "final_confidence": 0.33,
+   "subject_label": "Shatar",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "party_position",
+   "object_value": "Receiver argues Rising Tide methodology is supported over Net Loss distribution",
+   "object_type": null,
+   "object_key": null,
+   "modality": "index_reference",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": 44,
+   "quote": "the Receiver’s Relative Percentage Analysis Supports Using a Rising Tide Methodology over a Net Loss Distribution.",
+   "confidence": 0.55,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": true,
+   "final_confidence": 0.33,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "page_text": "ii\nIV.  THE RECEIVER HAS IDENTIFIED CLAIMANTS WHO ARE ELIGIBLE FOR A\nDISTRIBUTION AND DETERMINED HOW TO CLASSIFY CLAIMS. ...................... 24\nA.  Exclusion of Claims from Insiders and Promoters Is Appropriate.  ....................... 25\n1.  Allred’s Unsecured Claim Should Be Excluded .  ................................ ............. 26\n2.  Mora’s Unsecured Claim Should Be Excluded.  ................................ .............. 27\nB.  Capital Investors, LLC’s Unsecured Claim Related to 6949 - 59 S. Merrill and\n5001 S. Drexel Should Be Excluded and the Unsecured Claims of 6951 South\nMerrill Fund I LLC and 5001 South Drexel Blvd Fund II LLC Should Be\nAllowed.  ................................ ................................ ................................ ................. 2 7\nC.  Michael  and Lyanne Terada’s Unsecured Claim 940 - 551 Should Be\nExcluded Due To a Failure of Documentation Supporting the Claim.  .................. 2 9\nD.  Subordination of Shatar’s Unsecured Claims Is Appropriate.  ............................... 30\nE.  Subordination of  Non - Contribu ting  Claims Is Appropriate. ................................ .. 35\nF.  The Remaining Investors and Institutional Lenders Should Be Treated\nEquitably Based on Their Actual Losses and Relative Equities, Not\nCategorical Labels.  ................................ ................................ ................................ 3 8\nV.  THE RECEIVER’S RECOMMENDED DISTRIBUTION METHODOLOGY.  .............. 41\nA.  The Receiver Considered Rising Tide and Net Loss Methodologies.  ................... 4 1\nB.  The Court Has the Discretion to Determine an Equitable Distribution\nMethodology.  ................................ ................................ ................................ ......... 4 2\nC.  The Percentage of Claimants Receiving Funds from the Receivership Is a\nKey Factor.  ................................ ................................ ................................ ............. 43\nD.  In this Case, the Receiver’s Relative Percentage Analysis Supports Using\na  Rising Tide Methodology over a Net Loss Distribution.  ................................ .... 4 4\nVI.  THE RECEIVER’S PROPOSED DISTRIBUTION PLAN  ................................ .............. 4 7\nVII.  THE  COURT SHOULD APPROVE PRIORITY PAYMENT OF\nADMINISTRATIVE EXPENSES NECESSARY TO PRESERVE AND\nADMINISTER THE RECEIVERSHIP ESTATE.  ................................ ............................. 5 0\nVIII.  THE RECEIVER RECOMMENDS THE FOLLOWING PROCEDURE FOR\nOBJECTIONS TO THE PROPOSED DISTRIBUTION PLAN.  ................................ ...... 52\nCertificate of Service  ................................ ................................ ................................ ..................... 58\nCase: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 3 of 273 PageID #:128333"
+}

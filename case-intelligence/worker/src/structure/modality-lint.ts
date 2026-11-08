@@ -27,6 +27,7 @@ const OUTCOME_WORDS = /\b(excluded|subordinated|approved|granted|denied|dismisse
 
 export interface LintInput {
   modality: string;
+  predicate?: string;
   quote: string;
   object_value: unknown;
   conditions: string | null;
@@ -78,7 +79,18 @@ export function lintAssertion(a: LintInput): LintResult {
     factor = Math.min(factor, 0.8);
   }
 
-  // 5. A settlement, payment or stay fact on the main case while the page names a related proceeding.
+  // 5. A document filing date from an ECF header recorded as the case's own date.
+  if (a.subject_type === "case" && /^(filed_on|filing_date|filed)$/i.test(a.predicate ?? "")
+      && (typeof a.object_value !== "string" || /^\d{4}-\d{2}-\d{2}$/.test(a.object_value) || /^\d{1,2}\/\d{1,2}\/\d{2,4}$/.test(a.object_value))) {
+    flags.push("document_date_as_case_date: case filed_on with a bare date; ECF headers date the document, not the case");
+    factor = Math.min(factor, 0.5);
+  }
+  if (/\bDocument\s*#?:?\s*\d+\s+Filed:/i.test(a.quote) && a.subject_type === "case" && !/document|dkt|docket|order|motion|report|response|brief/i.test(String(a.object_value))) {
+    flags.push("ecf_header_quote: the quote is an ECF header; the fact belongs to the document");
+    factor = Math.min(factor, 0.5);
+  }
+
+  // 6. A settlement, payment or stay fact on the main case while the page names a related proceeding.
   if (a.subject_type === "case" && a.proceeding?.scope === "related_lawsuit") {
     flags.push("proceeding_mismatch: subject is the main case but proceeding.scope is related_lawsuit");
     factor = Math.min(factor, 0.5);

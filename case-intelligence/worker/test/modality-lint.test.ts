@@ -53,3 +53,16 @@ describe("modality lint: requests and proposals are never outcomes", () => {
     expect(r.needs_review).toBe(false);
   });
 });
+
+describe("modality lint: ECF header dates", () => {
+  it("flags a case-level filed_on with a bare date taken from the ECF header", () => {
+    const r = lintAssertion({ ...base, modality: "completed", predicate: "filed_on", subject_type: "case", quote: "Case: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 1 of 29", object_value: "2018-08-17" });
+    expect(r.flags.some((f) => f.startsWith("document_date_as_case_date"))).toBe(true);
+    expect(r.flags.some((f) => f.startsWith("ecf_header_quote"))).toBe(true);
+    expect(r.needs_review).toBe(true);
+  });
+  it("accepts the same header recorded as the document's filing", () => {
+    const r = lintAssertion({ ...base, modality: "completed", predicate: "document_filed", subject_type: "case", quote: "Case: 1:18-cv-05587 Document #: 16 Filed: 08/17/18", object_value: "Order Appointing Receiver, Dkt. 16" });
+    expect(r.flags).toEqual([]);
+  });
+});

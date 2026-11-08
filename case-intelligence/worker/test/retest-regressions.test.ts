@@ -2,18 +2,23 @@
 // review. They run against the committed version-2 retest fixtures, so they
 // fail loudly if a future prompt or schema change reintroduces the pattern.
 
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 
-const dir = new URL("../../fixtures/equitybuild/retest-2026-11-08/", import.meta.url);
+// Every committed retest of the regression pages must satisfy these checks, so a
+// later extractor version cannot quietly reintroduce an earlier failure.
+const root = new URL("../../fixtures/equitybuild/", import.meta.url);
+const retestDirs = readdirSync(root).filter((d) => /^retest-\d{4}-\d{2}-\d{2}/.test(d)).sort();
+const EMPTY = { page_kind: "missing", assertions: [], output: { parties: [], creditors: [], related_lawsuits: [] }, warnings: [] };
+const NON_OUTCOME = new Set(["proposed", "requested", "recommended", "alleged", "argued", "index_reference"]);
+
+for (const d of retestDirs) {
+const dir = new URL(`${d}/`, root);
 const have = (name: string) => existsSync(new URL(name, dir));
-const EMPTY = { page_kind: "missing", assertions: [], output: { parties: [], creditors: [], related_lawsuits: [] } };
 // describe.skipIf still collects the suite body, so a missing fixture must not throw here.
 const load = (name: string) => (have(name) ? JSON.parse(readFileSync(new URL(name, dir), "utf8")) : EMPTY);
 
-const NON_OUTCOME = new Set(["proposed", "requested", "recommended", "alleged", "argued", "index_reference"]);
-
-describe.skipIf(!have("dkt-1938-p002.json"))("Dkt. 1938 page 2: the $30,000 Pennington settlement", () => {
+describe.skipIf(!have("dkt-1938-p002.json"))(`${d} / Dkt. 1938 page 2: the $30,000 Pennington settlement`, () => {
   const bundle = load("dkt-1938-p002.json");
   const money = bundle.assertions.filter((a: { quote: string; object_value: unknown }) => /30,000|30000|thirty thousand/i.test(`${a.quote} ${JSON.stringify(a.object_value)}`));
 
@@ -41,7 +46,7 @@ describe.skipIf(!have("dkt-1938-p002.json"))("Dkt. 1938 page 2: the $30,000 Penn
   });
 });
 
-describe.skipIf(!have("dkt-1967-p003.json"))("Dkt. 1967 page 3: contents-page treatment headings", () => {
+describe.skipIf(!have("dkt-1967-p003.json"))(`${d} / Dkt. 1967 page 3: contents-page treatment headings`, () => {
   const bundle = load("dkt-1967-p003.json");
 
   it("classifies the page as a table of contents", () => {
@@ -69,3 +74,45 @@ describe.skipIf(!have("dkt-1967-p003.json"))("Dkt. 1967 page 3: contents-page tr
     for (const a of bundle.assertions) expect(a.referenced_page === null || a.referenced_page > 3).toBe(true);
   });
 });
+
+// The date and creditor rules apply to versions from 2026-11-08.3 onward; the
+// 2026-11-08.2 retest is kept as the record of the failures it exposed.
+const creditorRuleApplies = (b: { schema_version?: string }) => (b.schema_version ?? "") >= "2026-11-08.3";
+
+describe.skipIf(!have("appointment-order-p001.json") || !creditorRuleApplies(load("appointment-order-p001.json")))(`${d} / Dkt. 16 page 1: document date is not the case date`, () => {
+  const bundle = load("appointment-order-p001.json");
+  it("never records an unflagged case-level filed_on with a bare date", () => {
+    for (const a of bundle.assertions) {
+      const bareDate = typeof a.object_value !== "string" || /^\d{4}-\d{2}-\d{2}$/.test(a.object_value);
+      const caseFiledOn = a.subject_type === "case" && /^(filed_on|filing_date|filed)$/i.test(a.predicate) && bareDate;
+      expect(caseFiledOn && !a.needs_review).toBe(false);
+    }
+  });
+  it("records the ECF header, if at all, as the document's filing", () => {
+    for (const a of bundle.assertions) {
+      if (/Document\s*#?:?\s*\d+\s+Filed:/i.test(a.quote) && a.subject_type === "case") {
+        expect(/document|dkt|order/i.test(String(a.object_value)) || a.needs_review).toBe(true);
+      }
+    }
+  });
+});
+
+describe.skipIf(!have("dkt-1806-p003.json") || !creditorRuleApplies(load("dkt-1806-p003.json")))(`${d} / Dkt. 1806 page 3: objecting lenders stay creditors`, () => {
+  const bundle = load("dkt-1806-p003.json");
+  const creditorNames = () => bundle.output.creditors.map((c: { party_key: string }) => bundle.output.parties.find((p: { key: string }) => p.key === c.party_key)?.canonical_name.toLowerCase() ?? "").join(" | ");
+  it("lists BMO, Citibank and Sabal as creditors although their role on the page is objector", () => {
+    for (const n of ["bmo", "citibank", "sabal"]) expect(creditorNames()).toContain(n);
+  });
+  it("reports no lender declared without a creditor entry", () => {
+    expect(bundle.warnings.filter((w: string) => w.startsWith("lender_not_creditor"))).toEqual([]);
+  });
+});
+
+describe.skipIf(!have("dkt-1806-p001.json") || !creditorRuleApplies(load("dkt-1806-p001.json")))(`${d} / Dkt. 1806 page 1: footnoted Group 6 lenders are creditors`, () => {
+  const bundle = load("dkt-1806-p001.json");
+  it("lists Midland and UBS under creditors", () => {
+    const names = bundle.output.creditors.map((c: { party_key: string }) => bundle.output.parties.find((p: { key: string }) => p.key === c.party_key)?.canonical_name.toLowerCase() ?? "").join(" | ");
+    for (const n of ["midland", "ubs"]) expect(names).toContain(n);
+  });
+});
+}

@@ -1,0 +1,311 @@
+{
+ "key": "dkt-1938",
+ "page": 2,
+ "document": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+ "document_id": "340fe550-633c-48e7-b6c2-b730b2eed226",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.3",
+ "schema_version": "2026-11-08.3",
+ "input_tokens": 5655,
+ "output_tokens": 1957,
+ "latency_ms": 9606,
+ "page_kind": "body",
+ "output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "person",
+    "canonical_name": "Jerrine Pennington",
+    "party_roles": [
+     "claimant",
+     "plaintiff"
+    ],
+    "aliases": [
+     "Pennington"
+    ]
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "Keating Law Offices, P.C.",
+    "party_roles": [
+     "counsel",
+     "claimant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "person",
+    "canonical_name": "Valerie Pennington",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": [
+     "Estate of Valerie Pennington, Deceased"
+    ]
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p1",
+    "creditor_type": "litigation_claimant",
+    "claim_amount_asserted": null,
+    "claim_group": null,
+    "treatment_summary": "Proposed payment of $30,000 in full settlement of claims, on behalf of the Estate of Valerie Pennington, subject to Court approval"
+   },
+   {
+    "party_key": "p2",
+    "creditor_type": "litigation_claimant",
+    "claim_amount_asserted": null,
+    "claim_group": null,
+    "treatment_summary": "Named co-payee of proposed $30,000 settlement payment, subject to Court approval"
+   }
+  ],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [
+   {
+    "key": "r1",
+    "caption": "Pennington Circuit Court Action",
+    "court": "Circuit Court, Law Division",
+    "docket_number": null,
+    "relationship": "state_court_action"
+   }
+  ],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "r1",
+    "predicate": "status",
+    "object_value": "stayed January 27, 2022; placed on special stay calendar February 15, 2024",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "stayed pursuant to the Order Appointing Receiver",
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "r1"
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "On  January 27, 2022 , the Circuit Court  A ction was stayed pursuant to the Order Appointing Receiver in the instant case, and  on February 15, 2024, the case was placed on the Law Division’s  special stay calendar.",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "r1",
+    "predicate": "settlement_amount",
+    "object_value": "proposed payment of $30,000",
+    "object_type": null,
+    "object_key": null,
+    "modality": "proposed",
+    "conditions": "with the Court's approval; within seven days of entry of an order dismissing the Circuit Court Action with prejudice; by check from Receiver's account payable to Jerrine Pennington on behalf of the Estate of Valerie Pennington and Keating Law Offices, P.C.",
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "r1"
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "the  Receiver will pay  thirty thousand dollars ( $30,000 )  from the Receiver’s account ,  by check payable to Jerrine Pennington on behalf of the Estate of Valerie Pennington, Deceased, and Keating Law Offices, P.C.,  in full settlement of  their claims",
+    "confidence": 0.92,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "r1",
+    "predicate": "ordered_to",
+    "object_value": "proposed: Pennington to file motion to dismiss with prejudice within 7 days of order approving settlement",
+    "object_type": null,
+    "object_key": null,
+    "modality": "proposed",
+    "conditions": "with the Court's approval; in a format approved by the Receiver",
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "r1"
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "within seven (7) days of the entry of an order approving the Settlement, Pennington will file a motion to dismiss the Circuit Court Action with prejudice",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "authorized_to",
+    "object_value": "Receiver authorized to defend all suits, actions, claims and demands against the Receivership Estate",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "which authorizes the Receiver t o defend all suits, actions, claims, and demands asserted against the Receivership Estate  (Dkt. 16, ¶ 8(N))",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-01-05",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 2 of 8",
+    "confidence": 0.9,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "related_lawsuit",
+   "subject_key": "r1",
+   "predicate": "status",
+   "object_value": "stayed January 27, 2022; placed on special stay calendar February 15, 2024",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": "stayed pursuant to the Order Appointing Receiver",
+   "proceeding": {
+    "scope": "related_lawsuit",
+    "related_lawsuit_key": "r1"
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "On  January 27, 2022 , the Circuit Court  A ction was stayed pursuant to the Order Appointing Receiver in the instant case, and  on February 15, 2024, the case was placed on the Law Division’s  special stay calendar.",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "Pennington Circuit Court Action",
+   "proceeding_label": "Pennington Circuit Court Action"
+  },
+  {
+   "subject_type": "related_lawsuit",
+   "subject_key": "r1",
+   "predicate": "settlement_amount",
+   "object_value": "proposed payment of $30,000",
+   "object_type": null,
+   "object_key": null,
+   "modality": "proposed",
+   "conditions": "with the Court's approval; within seven days of entry of an order dismissing the Circuit Court Action with prejudice; by check from Receiver's account payable to Jerrine Pennington on behalf of the Estate of Valerie Pennington and Keating Law Offices, P.C.",
+   "proceeding": {
+    "scope": "related_lawsuit",
+    "related_lawsuit_key": "r1"
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "the  Receiver will pay  thirty thousand dollars ( $30,000 )  from the Receiver’s account ,  by check payable to Jerrine Pennington on behalf of the Estate of Valerie Pennington, Deceased, and Keating Law Offices, P.C.,  in full settlement of  their claims",
+   "confidence": 0.92,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.92,
+   "subject_label": "Pennington Circuit Court Action",
+   "proceeding_label": "Pennington Circuit Court Action"
+  },
+  {
+   "subject_type": "related_lawsuit",
+   "subject_key": "r1",
+   "predicate": "ordered_to",
+   "object_value": "proposed: Pennington to file motion to dismiss with prejudice within 7 days of order approving settlement",
+   "object_type": null,
+   "object_key": null,
+   "modality": "proposed",
+   "conditions": "with the Court's approval; in a format approved by the Receiver",
+   "proceeding": {
+    "scope": "related_lawsuit",
+    "related_lawsuit_key": "r1"
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "within seven (7) days of the entry of an order approving the Settlement, Pennington will file a motion to dismiss the Circuit Court Action with prejudice",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "Pennington Circuit Court Action",
+   "proceeding_label": "Pennington Circuit Court Action"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "authorized_to",
+   "object_value": "Receiver authorized to defend all suits, actions, claims and demands against the Receivership Estate",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "which authorizes the Receiver t o defend all suits, actions, claims, and demands asserted against the Receivership Estate  (Dkt. 16, ¶ 8(N))",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-01-05",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 2 of 8",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "page_text": "2\nthat tenant suffered personal injuries causing her death as a result of one or more of these\ndefendants’  alleged  negligent acts or  omissions.\n2.  Pursuant to the  August  17, 2018 Order Appointing Receiver (D k t.  16),  which\nauthorizes the Receiver t o defend all suits, actions, claims, and demands asserted against the\nReceivership Estate  (Dkt. 16, ¶ 8(N)), the Receiver appeared in the Circuit Court Action .\n3.  On  January 27, 2022 , the Circuit Court  A ction was stayed pursuant to the Order\nAppointing Receiver in the instant case, and  on February 15, 2024, the case was placed on the Law\nDivision’s  special stay calendar.\n4.  Settlement discussions between the Receiver and Pennington have taken  place —\nwith both parties having been represented by counsel — and these parties entered into the settlement\nagreement attached hereto as Exhibit A (the  “ Settlement Agreement ” ), subject to Court approval,\nto resolve their claims and defenses without the expense, delay ,  and  risks of protracted litigation.\n5.  Pursuant to the proposed Settlemen t  Agreement ,  and with the Court’s approval :\na.  within seven (7) days of the entry of an order approving the Settlement,\nPennington will file a motion to dismiss the Circuit Court Action with prejudice, in a format\nthat has been approved by the Receiver;\nb.  within  seven (7)  days of  entry of an order dismissing  the Circuit Court\nAction  with prejudice , the  Receiver will pay  thirty thousand dollars ( $30,000 )  from the\nReceiver’s account ,  by check payable to Jerrine Pennington on behalf of the Estate of\nValerie Pennington, Deceased, and Keating Law Offices, P.C.,  in full settlement of  their\nclaims ;\nCase: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 2 of 8 PageID #:127941"
+}

@@ -12,8 +12,8 @@
 //   - recall rules: footnotes, receiver property numbers in prose, law firms in
 //     counsel blocks, litigation and regulatory claimants as creditors.
 
-export const EXTRACTION_SCHEMA_VERSION = "2026-11-08.2";
-export const EXTRACTION_PROMPT_VERSION = "2026-11-08.2";
+export const EXTRACTION_SCHEMA_VERSION = "2026-11-08.3";
+export const EXTRACTION_PROMPT_VERSION = "2026-11-08.3";
 
 export const MODALITIES = [
   "ordered", "approved", "completed", "reported",
@@ -175,13 +175,17 @@ Preserve what the filing actually says:
 - Attach each assertion to the proceeding the passage names. If the passage is about a settlement, payment, claim, stay or ruling in another action (a state-court case, an appeal, an administrative matter), declare that action under related_lawsuits, set proceeding.scope to related_lawsuit with its key, and make the related_lawsuit the subject when the fact is a property of that action (its settlement amount, its status). Use subject 'case' only for facts about the receivership case itself. Never default to the main case because the document is filed in it.
 - Case-law and statutes cited as precedent go in authorities, never in related_lawsuits.
 
+Dates and headers:
+- The ECF header at the top of a page ("Case: 1:18-cv-05587 Document #: 16 Filed: 08/17/18") dates the document, never the case. If you record it, use subject "case", predicate "document_filed", object_value naming the document (for example "Order Appointing Receiver, Dkt. 16"), as_of_date set to the date, modality completed. Never record the case as filed_on that date, and never record a bare date as the object of a case-level filed_on.
+
 Table of contents pages:
-- If page_kind is table_of_contents, do not record factual assertions. Record each heading that names a claimant or property as an index_reference assertion with modality index_reference, object_value restating the heading as a recommendation or argument ("Receiver argues Allred's unsecured claim should be excluded"), referenced_page set to the page number printed next to the heading, and confidence at most 0.6. Entities named in headings may still be declared.
+- If page_kind is table_of_contents, do not record factual assertions. Record each heading that names a claimant or property, or that states a recommendation, methodology, position or argument of the filer, as an index_reference assertion with modality index_reference, object_value restating the heading as a recommendation or argument ("Receiver argues Allred's unsecured claim should be excluded"), referenced_page set to the page number printed next to the heading, and confidence at most 0.6. Entities named in headings may still be declared.
 
 Entities:
 - Declare every named organization on the page, including law firms in counsel and signature blocks (declare the firm as a party and link it from the attorney's law_firm_party_key), banks and lenders named only in footnotes, agencies, funds and LLCs. Copy names verbatim with their suffixes.
 - Never create a party for a role word or a defined collective term ("the Receiver", "the Commission", "Receivership Defendants", "Objecting Lenders") when it stands for named entities; use the named entity, or omit it.
 - Creditors include tort and litigation plaintiffs against estate entities, taxing and regulatory authorities asserting fines or taxes, settlement payees, and professionals owed fees, not only lenders. The court, the SEC and the receiver are never creditors.
+- A party the page describes as a lender, mortgagee, noteholder, investor-lender or holder of a claim or interest in estate property is a creditor on every page where it appears in that capacity, including when its procedural role on this page is objector, appellant, movant or respondent, and including lenders named only in a footnote. Objecting, appealing or filing a position statement never removes creditor status. Give such a party both its procedural role and the lender role, and list it under creditors.
 - Record receiver property numbers ("Property 69, 70 and 73") and street addresses as properties even when mentioned in passing or in a heading.
 - Persons are kind "person"; companies, banks, trusts, agencies and funds are "organization". If the page gives only a short name with no indication of entity type, choose the kind the page supports and lower confidence.
 
