@@ -1,0 +1,306 @@
+{
+ "key": "dkt-1938",
+ "page": 4,
+ "document": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+ "document_id": "340fe550-633c-48e7-b6c2-b730b2eed226",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.3",
+ "schema_version": "2026-11-08.3",
+ "input_tokens": 5463,
+ "output_tokens": 1571,
+ "latency_ms": 7763,
+ "page_kind": "signature_block",
+ "output": {
+  "page_kind": "signature_block",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "Rachlis Duff & Peel, LLC",
+    "party_roles": [
+     "counsel"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "person",
+    "canonical_name": "Pennington",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "person",
+    "canonical_name": "Michael Rachlis",
+    "party_roles": [
+     "counsel"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p4",
+    "kind": "person",
+    "canonical_name": "Jodi Rosen Wine",
+    "party_roles": [
+     "counsel"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [],
+  "attorneys": [
+   {
+    "key": "a1",
+    "full_name": "Michael Rachlis",
+    "law_firm": "Rachlis Duff & Peel, LLC",
+    "law_firm_party_key": "p1",
+    "represents_party_keys": []
+   },
+   {
+    "key": "a2",
+    "full_name": "Jodi Rosen Wine",
+    "law_firm": "Rachlis Duff & Peel, LLC",
+    "law_firm_party_key": "p1",
+    "represents_party_keys": []
+   }
+  ],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-01-05",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 4 of 8 PageID #:127943",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "party_position",
+    "object_value": "SEC consents to the relief requested in the motion",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-01-05",
+    "referenced_page": null,
+    "quote": "The Receiver has conferred with counsel for the SEC which consents to the relief requested in this motion.",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "status",
+    "object_value": "requested order finding the Settlement between the Receiver and Pennington fair, reasonable, and in the best interests of the Receivership Estate",
+    "object_type": null,
+    "object_key": null,
+    "modality": "requested",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-01-05",
+    "referenced_page": null,
+    "quote": "an order finding that the Settlement between the Receiver and Pennington is fair, reasonable, and in the best interests of the Receivership Estate;",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "status",
+    "object_value": "requested finding either that no objections were filed or that the Settlement is approved over any objections",
+    "object_type": null,
+    "object_key": null,
+    "modality": "requested",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-01-05",
+    "referenced_page": null,
+    "quote": "an order finding either that no objections were filed or a finding that the Settlement is approved over any such objections",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "attorney",
+    "subject_key": "a1",
+    "predicate": "counsel_for",
+    "object_value": "Receiver",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-01-05",
+    "referenced_page": null,
+    "quote": "/s/ Michael Rachlis Michael Rachlis Jodi Rosen Wine Rachlis Duff & Peel, LLC",
+    "confidence": 0.6,
+    "origin": "inferred"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-01-05",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 4 of 8 PageID #:127943",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "party_position",
+   "object_value": "SEC consents to the relief requested in the motion",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-01-05",
+   "referenced_page": null,
+   "quote": "The Receiver has conferred with counsel for the SEC which consents to the relief requested in this motion.",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "status",
+   "object_value": "requested order finding the Settlement between the Receiver and Pennington fair, reasonable, and in the best interests of the Receivership Estate",
+   "object_type": null,
+   "object_key": null,
+   "modality": "requested",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-01-05",
+   "referenced_page": null,
+   "quote": "an order finding that the Settlement between the Receiver and Pennington is fair, reasonable, and in the best interests of the Receivership Estate;",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "status",
+   "object_value": "requested finding either that no objections were filed or that the Settlement is approved over any objections",
+   "object_type": null,
+   "object_key": null,
+   "modality": "requested",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-01-05",
+   "referenced_page": null,
+   "quote": "an order finding either that no objections were filed or a finding that the Settlement is approved over any such objections",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "attorney",
+   "subject_key": "a1",
+   "predicate": "counsel_for",
+   "object_value": "Receiver",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-01-05",
+   "referenced_page": null,
+   "quote": "/s/ Michael Rachlis Michael Rachlis Jodi Rosen Wine Rachlis Duff & Peel, LLC",
+   "confidence": 0.6,
+   "origin": "inferred",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.6,
+   "subject_label": "Michael Rachlis",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "page_text": "4\ninterested and potentially interested parties by posting a copy of it to the Receivership website  at\nhttps://rdaplaw.net/equitybuild - receivership/ .\n9.  The Receiver has conferred with counsel for the SEC which consents to the relief\nrequested in this motion.\nWHEREFORE, the Receiver seeks the following relief:\na)  a finding that adequate and fair notice has been provided to all interested and\npotentially interested parties of the current motion;\nb)  an order finding that the Settlement between the Receiver and  Pennington  is fair,\nreasonable, and in the best interests of the Receivership Estate;\nc)  an order providing a full and fair opportunity for each interested party to assert its\ninterests and any objections to the relief requested in this motion;\nd)  an order finding either that no objections were filed or a finding that the  Settlement\nis approved over any such objections; and\ne)  such other relief as the Court deems fair and equitable\nDated:  January 5, 2026  Respectfully submitted,\n/s/  Michael Rachlis\nMichael Rachlis\nJodi Rosen Wine\nRachlis Duff & Peel, LLC\n542 South Dearborn Street, Suite 900\nChicago, IL 60605\nPhone (312) 733 - 3950\nmrachlis@rdaplaw.net\njwine@rdaplaw.net\nCase: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 4 of 8 PageID #:127943"
+}

@@ -1,0 +1,164 @@
+{
+ "key": "dkt-1967",
+ "page": 15,
+ "document": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+ "document_id": "087d434a-4ac4-4929-960f-6b245ab5ce44",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.3",
+ "schema_version": "2026-11-08.3",
+ "input_tokens": 5771,
+ "output_tokens": 923,
+ "latency_ms": 4935,
+ "page_kind": "body",
+ "output": {
+  "page_kind": "body",
+  "parties": [],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-06-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 15 of 273 PageID #:128345",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "status",
+    "object_value": "Court-approved proof of claim process required claimants seeking a distribution to submit a proof of claim by July 1, 2019, later extended to December 31, 2019, covering claims arising January 1, 2010 to August 17, 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "claims arising between January 1, 2010 and August 17, 2018",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "must complete and submit a proof of claim on or before July 1, 2019  [later extended to December 31, 2019 ]",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "status",
+    "object_value": "Claimants required to provide supporting documentation and sworn attestation; failure may result in claim being rejected or reduced; submission does not guarantee a distribution",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "each claimant had to submit own proof of claim form through the designated claims portal by the bar date",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "[f]ailure to submit supporting documentation may result in your claim being rejected or reduced",
+    "confidence": 0.8,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-06-30",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 15 of 273 PageID #:128345",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "status",
+   "object_value": "Court-approved proof of claim process required claimants seeking a distribution to submit a proof of claim by July 1, 2019, later extended to December 31, 2019, covering claims arising January 1, 2010 to August 17, 2018",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": "claims arising between January 1, 2010 and August 17, 2018",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "must complete and submit a proof of claim on or before July 1, 2019  [later extended to December 31, 2019 ]",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "status",
+   "object_value": "Claimants required to provide supporting documentation and sworn attestation; failure may result in claim being rejected or reduced; submission does not guarantee a distribution",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": "each claimant had to submit own proof of claim form through the designated claims portal by the bar date",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "[f]ailure to submit supporting documentation may result in your claim being rejected or reduced",
+   "confidence": 0.8,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "fuzzy",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.68,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "page_text": "9\n2.  Proof s  of Claim\nThe Court - approved proof of claim process required that “ [ a ] ny persons or entities seeking\na distribution from the Receivership Estate  … must complete and submit a proof of claim on or\nbefore July 1, 2019  [later extended to December 31, 2019 ] ,” covering claims arising between\nJanuary 1, 2010 and August 17, 2018, and provid e  the requested information for that period .  (POC\nClaims Process Notice, Dkt. 241 - 1, at 13) Claimants were further advised that the Receiver’s\ndistribution plan “will likely observe distin ctions between competing claimant classes,” and that\nrecovery “may be affected by your ability to produce documentation supporting your claim,”\nmaking accuracy and completeness essential .  ( Id.  at 12) The submission of a proof of claim “does\nnot guarantee receipt of a distribution [ , ] ” underscoring that eligibility and recovery depend on\nproper compliance and evaluation of the claim .  ( Id. )\nTo be eligible for any distribution, each claimant was required to complete and submit the\nproof of claim form by the bar date, provide documentation substantiating all amounts claimed,\nand “attest under oath to verify the authenticity and accuracy” of the  information submitted .  ( Id.\nat 12, 16 ) The process required submission through the designated claims portal of both the\ncompleted form and legible copies of all documents  supporting the  claim, or a detailed explanation\nif such documents were unavailable,  along with a sworn attestation .  ( Id. ) Each claimant was\nrequired to submit his, her, or its own proof of claim form, and  was  notified  that  prior submissions\nto the Receiver or others were insufficient .  ( Id.  at 16)\nThe form repeatedly emphasized that  supporting  documentation is critical and “ [ f ] ailure to\nsubmit supporting documentation may result in your claim being rejected or reduced [ , ] ” with\nclaims lacking sufficient support subject to disallowance .  (POC Form, Sections 3, 4, 6, 7 , 8  & 9,\nDkt. 241 - 1, at  24 ,  26 ,  31 ,  33, 34  & 35) Claimants were warned that  those who  fail ed  to timely\nCase: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 15 of 273 PageID #:128345"
+}

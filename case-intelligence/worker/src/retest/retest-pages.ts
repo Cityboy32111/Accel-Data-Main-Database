@@ -74,6 +74,18 @@ export interface RetestBundle {
 }
 
 /** Page-level coverage warnings that are not about a single assertion. */
+const arr = <T,>(v: unknown): T[] => (Array.isArray(v) ? (v as T[]) : []);
+
+/** The model occasionally returns an object or null where the schema says array; coerce before use. */
+export function coerceOutput(raw: Partial<V2Output> | null | undefined): V2Output {
+  const o = raw ?? {};
+  return {
+    page_kind: typeof o.page_kind === "string" ? o.page_kind : "body",
+    parties: arr(o.parties), creditors: arr(o.creditors), attorneys: arr(o.attorneys), properties: arr(o.properties),
+    related_lawsuits: arr(o.related_lawsuits), authorities: arr(o.authorities), assertions: arr(o.assertions),
+  };
+}
+
 export function pageWarnings(output: V2Output): string[] {
   const warnings: string[] = [];
   const creditorKeys = new Set((output.creditors ?? []).map((c) => c.party_key));
@@ -156,7 +168,8 @@ export async function runRetest(
     });
     const body = await res.json();
     if (!res.ok || body.error) throw new Error(`extract ${p.key} p${p.page}: ${body.error ?? res.status}`);
-    const output = body.output as V2Output;
+    const output = coerceOutput(body.output as Partial<V2Output> | null);
+    if (!body.output) log(`  note: ${p.key} p${p.page} returned no tool output; recorded as empty`);
     const { assertions, dropped } = processOutput(output, body.page_text);
     const bundle: RetestBundle = {
       key: p.key, page: p.page, document: p.document, document_id: doc.id,

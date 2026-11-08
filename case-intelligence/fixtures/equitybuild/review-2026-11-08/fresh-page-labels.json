@@ -1,0 +1,957 @@
+{
+ "appointment-order-p012": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [],
+  "properties_or_assets": [],
+  "related_proceedings": [],
+  "authorities": [],
+  "key_facts": [
+   {
+    "fact": "The Receiver is authorized to take immediate possession of all personal property of the Receivership Defendants, wherever located, including electronically stored information, computers, books, papers, bank, savings and brokerage records and accounts, securities, contracts, mortgages, furniture, office supplies, automobiles and equipment (paragraph 18).",
+    "legal_status": "ordered",
+    "conditions": "None stated; applies to all personal property of the Receivership Defendants wherever located.",
+    "proceeding": "main case",
+    "evidence": "The Receiver is authorized to take immediate possession of all personal property of the Receivership Defendants, wherever located"
+   },
+   {
+    "fact": "The Receiver is authorized to take immediate possession of all real property of the Receivership Defendants, wherever located, including all ownership and leasehold interests and fixtures (paragraph 19).",
+    "legal_status": "ordered",
+    "conditions": "None stated; applies to all real property of the Receivership Defendants wherever located.",
+    "proceeding": "main case",
+    "evidence": "The Receiver is authorized to take immediate possession of all real property of the Receivership Defendants, wherever located, including but not limited to all ownership and leasehold interests and fixtures"
+   },
+   {
+    "fact": "Upon actual notice of the Order, all persons other than law enforcement officials acting within the scope of their official duties are prohibited from entering the Receivership Defendants' premises, removing anything from them, or destroying, concealing or erasing anything on them without the Receiver's express written permission (paragraph 19).",
+    "legal_status": "ordered",
+    "conditions": "Triggered upon receiving actual notice of the Order by personal service, facsimile transmission, or otherwise; exception for law enforcement officials acting within the course and scope of their official duties; may be overridden by express written permission of the Receiver.",
+    "proceeding": "main case",
+    "evidence": "all persons other than law enforcement officials acting within the course and scope of their official duties, are (without the express written permission of the Receiver) prohibited from entering such premises"
+   },
+   {
+    "fact": "The individual Receivership Defendants and their family members are permitted to continue residing in their respective primary places of residence until further notice by the Receiver (paragraph 19).",
+    "legal_status": "ordered",
+    "conditions": "Limited to primary places of residence; subject to further notice by the Receiver.",
+    "proceeding": "main case",
+    "evidence": "the individual Receivership Defendants, or any of their respective family members, shall be permitted to continue residing in their respective primary places of residence, until further notice by the Receiver"
+   },
+   {
+    "fact": "The Receiver is authorized to change door locks on the real property and premises of the Receivership Defendants (paragraph 20).",
+    "legal_status": "ordered",
+    "conditions": "In order to execute the express and implied terms of the Order; applies to the real property and premises described above.",
+    "proceeding": "main case",
+    "evidence": "the Receiver is authorized to change door locks to the real property and premises described above"
+   },
+   {
+    "fact": "The Receivership Defendants, and anyone acting or purporting to act on their behalf, are ordered not to change locks, have duplicate keys made, or possess keys during the term of the receivership unless the Receiver expressly permits it in advance in writing (paragraph 20).",
+    "legal_status": "ordered",
+    "conditions": "Applies during the term of the receivership; exception only with express advance written permission of the Receiver.",
+    "proceeding": "main case",
+    "evidence": "ordered not to change the locks in any manner, nor to have duplicate keys made, nor shall they have keys in their possession during the term of the receivership unless expressly permitted in advance by the Receiver in writing"
+   }
+  ],
+  "page_kind": "body",
+  "notes": "Page 12 of 29 of the Order Appointing Receiver, Case 1:18-cv-05587, Dkt. 16, filed 08/17/18 (PageID #:404), containing paragraphs 18 through 20. The page names no specific individuals, companies, law firms, lenders, addresses, bank accounts, related proceedings, or cited authorities. It refers only to defined collective/role terms (\"the Receiver\", \"the Receivership Defendants\", \"the individual Receivership Defendants\"), which stand for named entities defined elsewhere in the order and are excluded under the labeling rules. Generic categories of assets listed in paragraph 18 (bank records and accounts, brokerage accounts, securities, mortgages, automobiles, etc.) are not specific identified assets and so are not labeled as properties_or_assets. Header date 08/17/18 is the filing date of the order."
+ },
+ "appointment-order-p018": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [],
+  "properties_or_assets": [
+   {
+    "name": "Receivership Funds / Settlement Fund",
+    "detail": "The pooled receivership funds, to be qualified as a taxable Settlement Fund (Qualified Settlement Fund) under IRC Section 468B; no bank or account number stated",
+    "evidence": "enable the Receivership Funds to obtain and maintain the status of a taxable \"Settlement Fund,\""
+   },
+   {
+    "name": "Real property in the Receivership Estate",
+    "detail": "All real property of the estate, referenced generically (no addresses or property numbers on this page); subject to future court-ordered sale",
+    "evidence": "authorized to sell, and transfer clear title to, all real property in the Receivership Estate"
+   }
+  ],
+  "related_proceedings": [],
+  "authorities": [
+   {
+    "name": "28 U.S.C. \u00a7\u00a7 2001 and 2004",
+    "detail": "Statutory authority governing judicial sales of real and personal property in receiverships; cited as basis for future sale orders",
+    "evidence": "additional authority such as 28 U.S.C. \u00a7\u00a7 2001 and 2004"
+   },
+   {
+    "name": "Internal Revenue Code Section 468B",
+    "detail": "Statutory basis for treating the Receivership Funds as a taxable Settlement Fund",
+    "evidence": "within the meaning of Section 468B of the Internal Revenue Code"
+   },
+   {
+    "name": "Treas. Reg. \u00a7 1.468B-2(k)(3)(i)",
+    "detail": "Treasury regulation under which the Receiver is designated administrator of the Settlement Fund",
+    "evidence": "designated the administrator of the Settlement Fund, pursuant to Treas. Reg. \u00a7 1.468B-2(k)(3)(i)"
+   },
+   {
+    "name": "Treas. Reg. \u00a7 1.468B-2",
+    "detail": "Treasury regulation imposing administrative requirements (TIN, tax returns, withholding/reporting) on qualified settlement funds; cited three times on the page",
+    "evidence": "satisfy the administrative requirements imposed by Treas. Reg. \u00a7 1.468B-2"
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "Receiver will be authorized to sell and transfer clear title to all real property in the Receivership Estate, but only upon further order of the Court and pursuant to procedures the Court may require under 28 U.S.C. \u00a7\u00a7 2001 and 2004 (para. 39).",
+    "legal_status": "ordered",
+    "conditions": "Requires a further Order of this Court and compliance with court-required procedures and 28 U.S.C. \u00a7\u00a7 2001 and 2004; sales must be beneficial to the estate with due regard to the true and proper value of the property (carry-over from para. 38)",
+    "proceeding": "main case",
+    "evidence": "Upon further Order of this Court, pursuant to such procedures as may be required by this Court and additional authority such as 28 U.S.C. \u00a7\u00a7 2001 and 2004, the Receiver will be authorized to sell, and transfer clear title to, all real property in the Receivership Estate."
+   },
+   {
+    "fact": "Receiver is authorized to manage, maintain, and/or wind down business operations of the Receivership Estate, including making legally required payments to creditors, employees, and agents, and communicating with vendors, investors, and governmental/regulatory authorities (para. 40).",
+    "legal_status": "ordered",
+    "conditions": "Payments limited to those legally required; communications as appropriate",
+    "proceeding": "main case",
+    "evidence": "The Receiver is authorized to take all actions to manage, maintain, and/or wind-down business operations of the Receivership Estate, including making legally required payments to creditors, employees, and agents"
+   },
+   {
+    "fact": "Receiver shall take all necessary steps to have the Receivership Funds obtain and maintain status as a taxable Settlement Fund under IRC Section 468B, including filing required elections and statements (para. 41).",
+    "legal_status": "ordered",
+    "conditions": "Subject to applicable regulations whether proposed, temporary or final",
+    "proceeding": "main case",
+    "evidence": "The Receiver shall take all necessary steps to enable the Receivership Funds to obtain and maintain the status of a taxable \"Settlement Fund,\" within the meaning of Section 468B of the Internal Revenue Code"
+   },
+   {
+    "fact": "Receiver is designated administrator of the Settlement Fund under Treas. Reg. \u00a7 1.468B-2(k)(3)(i) and must satisfy the administrative requirements of Treas. Reg. \u00a7 1.468B-2: obtain a taxpayer identification number, timely file federal, state and local tax returns and pay taxes, and satisfy information, reporting and withholding requirements on distributions (para. 41).",
+    "legal_status": "ordered",
+    "conditions": "None stated beyond compliance with Treas. Reg. \u00a7 1.468B-2",
+    "proceeding": "main case",
+    "evidence": "The Receiver shall be designated the administrator of the Settlement Fund, pursuant to Treas. Reg. \u00a7 1.468B-2(k)(3)(i), and shall satisfy the administrative requirements imposed by Treas. Reg. \u00a7 1.468B-2, including but not limited to (a) obtaining a taxpayer identification number"
+   },
+   {
+    "fact": "Receiver shall cause the Settlement Fund to pay taxes consistent with treatment as a Qualified Settlement Fund (para. 41).",
+    "legal_status": "ordered",
+    "conditions": "None stated",
+    "proceeding": "main case",
+    "evidence": "The Receiver shall cause the Settlement Fund to pay taxes in a manner consistent with treatment of the Settlement Fund as a \"Qualified Settlement Fund.\""
+   },
+   {
+    "fact": "Receivership Defendants shall cooperate with the Receiver in fulfilling the Settlement Funds' obligations under Treas. Reg. \u00a7 1.468B-2 (para. 41).",
+    "legal_status": "ordered",
+    "conditions": "None stated",
+    "proceeding": "main case",
+    "evidence": "The Receivership Defendants shall cooperate with the Receiver in fulfilling the Settlement Funds' obligations under Treas. Reg. \u00a7 1.468B-2."
+   }
+  ],
+  "page_kind": "body",
+  "notes": "Page 18 of 29 of Dkt. 16 (Order Appointing Receiver), Case 1:18-cv-05587, filed 08/17/18, PageID #:410. Header shows the filing date 08/17/18 (document date), which is distinct from any case-level date. Page contains the tail of para. 38, paras. 39-41 in full, and the heading for Section X (Investigate and Prosecute Claims) with no body text following on this page. No named individuals, law firms, companies, banks, agencies, specific properties, or related proceedings appear; the only named parties are the defined collective terms 'the Receiver', 'the Court', 'Receivership Estate', 'Receivership Funds', and 'Receivership Defendants', which are excluded from organizations per the rules. 'Creditors', 'employees', 'agents', 'vendors', 'investors', and 'governmental and regulatory authorities' are mentioned only as generic classes in para. 40, not as named claimants, so no creditor entries. Text layer has irregular whitespace (e.g., 'S ettle ment Fund', '1.468B - 2'); evidence quotes are normalized to the image text."
+ },
+ "status-report-1-p013": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "EquityBuild",
+    "detail": "Receivership defendant entity; text layer splits it as \"Equit yBuild\"; referenced as the source of disorganized loan documentation and as having former counsel (unnamed)",
+    "evidence": "the disorganized and incomplete state of the documentation inherited from EquityBuild and its former counsel"
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "89 properties encumbered by 24 institutional mortgage loans (unnamed)",
+    "detail": "Aggregate group of estate real property securing institutional mortgage loans; no addresses or property numbers given on this page; aggregate outstanding principal approximately $55,441,000",
+    "evidence": "24 institutional mortgage loans originated by approximately 12 different institutions recorded against 89 properties with an aggregate outstanding principal balance of approximately $55,441,000"
+   }
+  ],
+  "related_proceedings": [],
+  "authorities": [],
+  "key_facts": [
+   {
+    "fact": "The Receiver and his retained professionals have determined there are 24 institutional mortgage loans originated by approximately 12 different institutions recorded against 89 properties, with aggregate outstanding principal of approximately $55,441,000.",
+    "legal_status": "reported",
+    "conditions": "Figures are stated as determined \"thus far\" and as approximate; footnote 8 states the Receiver is evaluating whether other lenders' interests should be characterized in the same fashion.",
+    "proceeding": "main case",
+    "evidence": "there are 24 institutional mortgage loans originated by approximately 12 different institutions recorded against 89 properties with an aggregate outstanding principal balance of approximately $55,441,000"
+   },
+   {
+    "fact": "Of the 24 institutional loans, at least 10 are held by trustees for commercial mortgage-backed securities (CMBS) portfolios.",
+    "legal_status": "reported",
+    "conditions": "Stated as \"at least 10\"; trustees not named on this page.",
+    "proceeding": "main case",
+    "evidence": "Of these 24 loans, at least 10 are held by trustees for commercial mortgage-backed securities (CMBS) portfolios."
+   },
+   {
+    "fact": "As of the filing date, the Receiver has obtained substantially all loan documents (loan agreements, mortgages, promissory notes) from the institutional lenders, after substantial correspondence and repeated requests over a two-month period.",
+    "legal_status": "reported",
+    "conditions": "\"Substantially all,\" not all; obtained as of the date of the filing (10/30/18).",
+    "proceeding": "main case",
+    "evidence": "the Receiver has obtained substantially all of the loan documents (i.e., loan agreements, mortgages, and promissory notes) from the institutional lenders"
+   },
+   {
+    "fact": "Many institutional loan files were received during October, nearly six weeks after the Receiver's appointment; before that the Receiver and counsel assembled loan information from other reports.",
+    "legal_status": "reported",
+    "conditions": "Sentence continues onto the next page (\"based on reports some\").",
+    "proceeding": "main case",
+    "evidence": "Many of the loan files were received during the month of October, nearly six weeks after the appointment of the Receiver"
+   },
+   {
+    "fact": "The Receiver's effort to discover encumbrances, monthly debt service and outstanding loan balances has been complicated by apparent competing security interests on some properties and by five listed factors: slow/recalcitrant institutional lenders, cross-collateralization, an array of recorded liens (some erroneously believed by investors to be in first position), disorganized EquityBuild documentation, and the Defendants' scheme.",
+    "legal_status": "reported",
+    "conditions": "Receiver's characterization; \"it appears that for some properties, competing security interests may have been recorded.\"",
+    "proceeding": "main case",
+    "evidence": "(i) the slow responses from and recalcitrance of some institutional lenders, (ii) cross-collateralization issues, (iii) an array of liens and encumbrances recorded against the properties"
+   },
+   {
+    "fact": "The Receiver is evaluating whether other lenders' interests should be characterized in the same fashion as the institutional mortgage loans (footnote 8).",
+    "legal_status": "reported",
+    "conditions": "Ongoing evaluation; no conclusion stated.",
+    "proceeding": "main case",
+    "evidence": "The Receiver is evaluating whether other lenders interests should be characterized in the same fashion."
+   }
+  ],
+  "page_kind": "body",
+  "notes": "Page 13 of Dkt. 107 (Case 1:18-cv-05587, Filed 10/30/18, PageID #:966), section \"i. Institutional Lenders\" of the Receiver's First Status Report. The page discusses institutional lenders and CMBS trustees only collectively and in the aggregate; no individual lender, trustee, law firm, attorney, property address, receiver property number, related proceeding, or legal authority is named, so the creditors list is empty even though the page establishes that approximately 12 unnamed institutions hold secured claims aggregating about $55,441,000. \"The Receiver,\" \"his retained professionals,\" \"his counsel,\" \"Defendants,\" \"some investors,\" and \"EquityBuild's former counsel\" are role references without names. The SEC and the court are not mentioned on this page. The final sentence is cut off and continues on page 14."
+ },
+ "status-report-1-p003": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "Rachlis Duff Adler Peel & Kaplan, LLC",
+    "detail": "Law firm retained by the Receiver as special counsel on August 17, 2018; defined on the page as \"RDAPK\"; rates approved by Court order on August 20, 2018 (Docket No. 19).",
+    "evidence": "The Receiver retained Rachlis Duff Adler Peel & Kaplan, LLC (\"RDAPK\") as special counsel on August 17, 2018"
+   },
+   {
+    "name": "BrookWeiner LLC",
+    "detail": "Accounting firm retained by the Receiver as accountant on August 23, 2018; rates approved by Court order on August 29, 2018 (Docket No. 45).",
+    "evidence": "The Receiver retained BrookWeiner LLC and Whitley Penn LLP as accountants on August 23, 2018"
+   },
+   {
+    "name": "Whitley Penn LLP",
+    "detail": "Accounting firm retained by the Receiver as accountant on August 23, 2018; rates approved by Court order on August 29, 2018 (Docket No. 45).",
+    "evidence": "The Receiver retained BrookWeiner LLC and Whitley Penn LLP as accountants on August 23, 2018"
+   },
+   {
+    "name": "Prometheum Technologies, Inc.",
+    "detail": "Vendor retained by the Receiver; the sentence describing its role is cut off at the bottom of this page and continues on the next page.",
+    "evidence": "The Receiver retained Prometheum Technologies, Inc."
+   },
+   {
+    "name": "SEC",
+    "detail": "Referenced on this page only within the case name of the cited precedent SEC v. Elliott (Securities and Exchange Commission, the agency that sought the Receiver's appointment is described generically as \"the governmental agency that sought his appointment\").",
+    "evidence": "SEC v. Elliott, 953 F.2d 1560, 1577 (11th Cir. 1992)"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [],
+  "authorities": [
+   {
+    "name": "Federal Sav. & Loan Ins. Corp. v. PSL Realty Co., 630 F.2d 515, 521 (7th Cir. 1980)",
+    "detail": "Cited for the proposition that a receiver is an officer of the court and subject to its orders in relation to the property for which he is responsible until discharged by the court.",
+    "evidence": "Federal Sav. & Loan Ins. Corp. v. PSL Realty Co., 630 F.2d 515, 521 (7th Cir. 1980) (A \"receiver is an officer of the court"
+   },
+   {
+    "name": "Holland v. Sterling Enterprises, Inc., 777 F.2d 1288, 1291 (7th Cir. 1985)",
+    "detail": "Cited in support of the Receiver being an officer, fiduciary, and agent of the appointing court.",
+    "evidence": "Holland v. Sterling Enterprises, Inc., 777 F.2d 1288, 1291 (7th Cir. 1985)"
+   },
+   {
+    "name": "Elfindepan, S.A., 169 F. Supp. 2d at 424",
+    "detail": "Short-form citation (full citation presumably on an earlier page); cited for the proposition that a receiver is a custodian of the property in receivership and not the exclusive agent of either party, nor appointed for the benefit of either party.",
+    "evidence": "Elfindepan, S.A., 169 F. Supp. 2d at 424 (a receiver, \"viewed as an officer of the court occupying a position of custodian of the property in receivership"
+   },
+   {
+    "name": "SEC v. Elliott, 953 F.2d 1560, 1577 (11th Cir. 1992)",
+    "detail": "Cited for the proposition that while the Receiver may take adverse positions to certain claimants, the Receiver acts under supervision of the court, which must independently approve the Receiver's legal and factual findings.",
+    "evidence": "SEC v. Elliott, 953 F.2d 1560, 1577 (11th Cir. 1992)"
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "The Receiver was appointed by the Court on August 17, 2018 (Docket No. 16).",
+    "legal_status": "ordered",
+    "conditions": "None stated on this page.",
+    "proceeding": "main case",
+    "evidence": "The Receiver was appointed by this Court on August 17, 2018. (Docket No. 16)"
+   },
+   {
+    "fact": "The Receiver retained Rachlis Duff Adler Peel & Kaplan, LLC (RDAPK) as special counsel on August 17, 2018.",
+    "legal_status": "reported",
+    "conditions": "None stated.",
+    "proceeding": "main case",
+    "evidence": "The Receiver retained Rachlis Duff Adler Peel & Kaplan, LLC (\"RDAPK\") as special counsel on August 17, 2018"
+   },
+   {
+    "fact": "On August 20, 2018, the Court entered the Order approving RDAPK's rates (Docket No. 19).",
+    "legal_status": "ordered",
+    "conditions": "None stated.",
+    "proceeding": "main case",
+    "evidence": "on August 20, 2018, the Court entered the Order approving RDAPK's rates. (Docket No. 19)"
+   },
+   {
+    "fact": "The Receiver retained BrookWeiner LLC and Whitley Penn LLP as accountants on August 23, 2018.",
+    "legal_status": "reported",
+    "conditions": "None stated.",
+    "proceeding": "main case",
+    "evidence": "The Receiver retained BrookWeiner LLC and Whitley Penn LLP as accountants on August 23, 2018"
+   },
+   {
+    "fact": "On August 29, 2018, the Court entered the Order approving the accountants' respective rates (Docket No. 45).",
+    "legal_status": "ordered",
+    "conditions": "None stated.",
+    "proceeding": "main case",
+    "evidence": "on August 29, 2018, the Court entered the Order approving their respective rates. (Docket No. 45)"
+   },
+   {
+    "fact": "The Receiver retained Prometheum Technologies, Inc. (role and date continue on the following page).",
+    "legal_status": "reported",
+    "conditions": "Sentence is incomplete on this page; details continue on page 4.",
+    "proceeding": "main case",
+    "evidence": "The Receiver retained Prometheum Technologies, Inc."
+   },
+   {
+    "fact": "The Receiver asserts, citing authority, that he is an officer, fiduciary, and agent of the court, is neutral, and does not work for the governmental agency that sought his appointment or any other party.",
+    "legal_status": "argued",
+    "conditions": "Legal position stated in the report's background section with case citations.",
+    "proceeding": "main case",
+    "evidence": "the Receiver is neutral and does not work for the governmental agency that sought his appointment or for any other party"
+   },
+   {
+    "fact": "The Receiver's stated purpose is to collect and marshal all receivership assets for the benefit of investors, creditors, and other victims of the fraud and wrongdoing.",
+    "legal_status": "reported",
+    "conditions": "Sentence begins on the prior page; continuation on this page.",
+    "proceeding": "main case",
+    "evidence": "to collect and marshal all receivership assets for the benefit of investors, creditors, and other victims of the fraud and wrongdoing"
+   }
+  ],
+  "page_kind": "body",
+  "notes": "Page 3 of 30 of Dkt. 107 (Receiver's First Status Report, filed 10/30/18, PageID 956). The page contains the end of section I (receiver's purpose), subsection I.b on the Receiver as officer and fiduciary of the court (four precedent citations), and the start of section II summarizing retention of professionals. No creditors, named attorneys, properties, bank accounts, or related proceedings appear on this page. The Receiver is not named on this page (referred to only as \\\"the Receiver\\\"). Docket entries 16, 19, and 45 are docket references in the main case, not related proceedings. Date distinction: the filing date of the document is 10/30/18; the Receiver's appointment date stated in the text is August 17, 2018. The Prometheum Technologies, Inc. sentence is truncated at the page break."
+ },
+ "dkt-1806-p005": {
+  "creditors": [
+   {
+    "name": "BMO",
+    "detail": "Mortgagee/lender asserting priority over Group 7 property sale proceeds; position statement at ECF 1794; SEC opposes its claim. Variant on page: \"BMO's\".",
+    "evidence": "BMO reasonably relied on the fraudulent release and payoff statement. (ECF 1794 at 7-15)"
+   },
+   {
+    "name": "DLP",
+    "detail": "Lender whose priority claim in Group 2 was previously decided; cited as factually comparable to BMO in Group 7.",
+    "evidence": "there is no meaningful difference between the facts facing DLP in Group 2 and BMO in Group 7"
+   },
+   {
+    "name": "BC57",
+    "detail": "Lender/appellant that raised the same arguments before the Seventh Circuit in Appeal No. 23-1870 (footnote 6).",
+    "evidence": "BC57 also raised each of these arguments before the Seventh Circuit."
+   },
+   {
+    "name": "Group 7 investors",
+    "detail": "Investor-lender claim group for Group 7 Properties 2, 69, 70 and 73; SEC asserts they have priority over BMO and are entitled to distribution of sale proceeds.",
+    "evidence": "Properties 2, 69, 70, and 73, the investors have priority and are entitled to a distribution of the proceeds of the properties' sale"
+   }
+  ],
+  "attorneys": [
+   {
+    "name": "Benjamin J. Hanauer",
+    "detail": "U.S. Securities and Exchange Commission, 175 West Jackson Blvd., Suite 1450, Chicago, IL 60604 (hanauerb@sec.gov; phone (312) 353-7390); Attorney for Plaintiff SEC. Signed as \"/s/ Benjamin Hanauer\".",
+    "evidence": "Benjamin J. Hanauer (hanauerb@sec.gov) ... Attorney for Plaintiff U.S. Securities and Exchange Commission"
+   }
+  ],
+  "organizations": [
+   {
+    "name": "U.S. Securities and Exchange Commission",
+    "detail": "Plaintiff; filer of this response. Referred to as \"the SEC\" in the body.",
+    "evidence": "Attorney for Plaintiff U.S. Securities and Exchange Commission"
+   },
+   {
+    "name": "BMO",
+    "detail": "Mortgagee lender whose Group 7 position statement (ECF 1794) the SEC opposes.",
+    "evidence": "The Court has already considered BMO's arguments"
+   },
+   {
+    "name": "DLP",
+    "detail": "Lender in Group 2 whose claim the Court already decided under Illinois and Seventh Circuit law.",
+    "evidence": "the facts facing DLP in Group 2 and BMO in Group 7"
+   },
+   {
+    "name": "BC57",
+    "detail": "Lender/appellant in Seventh Circuit Appeal No. 23-1870; named in footnote 6.",
+    "evidence": "BC57 also raised each of these arguments before the Seventh Circuit."
+   },
+   {
+    "name": "Equitybuild, Inc.",
+    "detail": "Receivership defendant; named in the appeal caption SEC v. Equitybuild, Inc. in footnote 6.",
+    "evidence": "See SEC v. Equitybuild, Inc., Appeal No. 23-1870, Docket 8"
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "Property 2 (Group 7)",
+    "detail": "Group 7 receivership property; SEC asks that investors be found to have priority in its sale proceeds.",
+    "evidence": "for Group 7 Properties 2, 69, 70, and 73, the investors have priority"
+   },
+   {
+    "name": "Property 69 (Group 7)",
+    "detail": "Group 7 receivership property; sale proceeds at issue.",
+    "evidence": "for Group 7 Properties 2, 69, 70, and 73, the investors have priority"
+   },
+   {
+    "name": "Property 70 (Group 7)",
+    "detail": "Group 7 receivership property; sale proceeds at issue.",
+    "evidence": "for Group 7 Properties 2, 69, 70, and 73, the investors have priority"
+   },
+   {
+    "name": "Property 73 (Group 7)",
+    "detail": "Group 7 receivership property; sale proceeds at issue.",
+    "evidence": "for Group 7 Properties 2, 69, 70, and 73, the investors have priority"
+   }
+  ],
+  "related_proceedings": [
+   {
+    "name": "SEC v. Equitybuild, Inc., Appeal No. 23-1870 (7th Cir.)",
+    "detail": "Seventh Circuit appeal in which BC57 filed an appellate brief (Docket 8, June 14, 2023) raising the same arguments BMO now raises; cited at pp. 13-30, 32-41.",
+    "evidence": "See SEC v. Equitybuild, Inc., Appeal No. 23-1870, Docket 8 (BC57 Appellate Brief, June 14, 2023), at pp. 13-30, 32-41."
+   }
+  ],
+  "authorities": [
+   {
+    "name": "ECF 1679 at 20 n.11 (this Court's prior group ruling)",
+    "detail": "Court's prior order in the main case, quoted as authority for the proposition that applying the law to similar facts across property groups will garner a similar result (not formally preclusive).",
+    "evidence": "\"decisions on one group of properties do not have preclusive effect for other groups...applying the law to a similar set of facts will garner a similar result.\" (ECF 1679 at 20 n.11)"
+   },
+   {
+    "name": "Illinois and Seventh Circuit law (general reference)",
+    "detail": "Body of law the Court applied in the Group 2 (DLP) ruling; no specific case or statute named on this page.",
+    "evidence": "when correctly applying Illinois and Seventh Circuit law to similar facts"
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "The SEC asks the Court to find that for Group 7 Properties 2, 69, 70, and 73 the investors have priority and are entitled to a distribution of the proceeds of the properties' sale.",
+    "legal_status": "requested",
+    "conditions": "Subject to the Court's ruling on the Group 7 position statements.",
+    "proceeding": "main case",
+    "evidence": "the SEC respectfully requests the Court find that for Group 7 Properties 2, 69, 70, and 73, the investors have priority and are entitled to a distribution of the proceeds of the properties' sale."
+   },
+   {
+    "fact": "BMO's position statement (ECF 1794 at 7-15) argues, among other points, that BMO reasonably relied on the fraudulent release and payoff statement.",
+    "legal_status": "argued",
+    "conditions": "Argument attributed to BMO by the SEC; the page shows only items (c)-(d) of BMO's argument list.",
+    "proceeding": "main case",
+    "evidence": "(d) BMO reasonably relied on the fraudulent release and payoff statement. (ECF 1794 at 7-15)."
+   },
+   {
+    "fact": "The Court previously advised (ECF 1679 at 20 n.11) that decisions on one group of properties do not have preclusive effect for other groups, but applying the law to a similar set of facts will garner a similar result.",
+    "legal_status": "reported",
+    "conditions": "Quoted from a prior order; cited by the SEC as the basis for treating BMO like DLP.",
+    "proceeding": "main case",
+    "evidence": "This Court has advised that while \"decisions on one group of properties do not have preclusive effect for other groups...applying the law to a similar set of facts will garner a similar result.\" (ECF 1679 at 20 n.11)."
+   },
+   {
+    "fact": "The SEC contends there is no meaningful difference between the facts facing DLP in Group 2 and BMO in Group 7, that the Court already considered BMO's arguments when applying Illinois and Seventh Circuit law, and that the outcome should be the same.",
+    "legal_status": "argued",
+    "conditions": "SEC's position; not yet adjudicated for Group 7.",
+    "proceeding": "main case",
+    "evidence": "Here, there is no meaningful difference between the facts facing DLP in Group 2 and BMO in Group 7. ... The outcome should be the same."
+   },
+   {
+    "fact": "BC57 raised each of the same arguments before the Seventh Circuit in its appellate brief (Appeal No. 23-1870, Docket 8, filed June 14, 2023, at pp. 13-30, 32-41).",
+    "legal_status": "reported",
+    "conditions": "Stated in footnote 6; outcome of the appeal not stated on this page.",
+    "proceeding": "SEC v. Equitybuild, Inc., Appeal No. 23-1870 (7th Cir.)",
+    "evidence": "BC57 also raised each of these arguments before the Seventh Circuit. See SEC v. Equitybuild, Inc., Appeal No. 23-1870, Docket 8 (BC57 Appellate Brief, June 14, 2023)"
+   },
+   {
+    "fact": "The response is dated December 16, 2024 and signed by Benjamin J. Hanauer as Attorney for Plaintiff U.S. Securities and Exchange Commission; the header shows it was filed 12/16/24 as Document 1806, page 5 of 6.",
+    "legal_status": "reported",
+    "conditions": "None.",
+    "proceeding": "main case",
+    "evidence": "Dated: December 16, 2024 Respectfully submitted, /s/ Benjamin Hanauer"
+   }
+  ],
+  "page_kind": "mixed",
+  "notes": "Page 5 of 6 of Dkt. 1806 (Case 1:18-cv-05587, filed 12/16/24, PageID 123789): end of argument body, prayer for relief, signature block, and footnote 6. The page opens mid-sentence (items (c)-(d) of BMO's argument list continue from page 4). ECF 1794 (BMO position statement) and ECF 1679 (prior court order) are main-case docket entries, not separate proceedings; ECF 1679 is listed under authorities because it is quoted as precedent. The Seventh Circuit and \"this Court\" are courts and are not labeled as organizations. \"The investors\" is treated as the Group 7 investor-lender claim group for creditor purposes. No bank accounts or addresses of estate properties appear on this page; properties are identified only by receiver property number."
+ },
+ "dkt-1806-p004": {
+  "creditors": [
+   {
+    "name": "BMO",
+    "detail": "Institutional lender; Group 7 claimant asserting mortgage priority over the investors' prior recorded mortgage based on a purported (unrecorded) release; SEC opposes. Referred to only as \"BMO\" on this page.",
+    "evidence": "BMO thus faces a similar fact pattern to the one the Court considered for institutional lender Direct Lending Partners"
+   },
+   {
+    "name": "Direct Lending Partners",
+    "detail": "Institutional lender; Group 2 claimant that lost priority dispute to the Group 2 investors (ECF 1679). Abbreviated \"DLP\".",
+    "evidence": "institutional lender Direct Lending Partners (\"DLP\") for Group 2"
+   },
+   {
+    "name": "BC57",
+    "detail": "Institutional lender; Group 1 claimant whose priority arguments (ECF 1152 at 15-28) BMO is said to repeat.",
+    "evidence": "the same Collateral Agency and Servicing Agreements at issue for BMO (and for BC57 in Group 1)"
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "BMO",
+    "detail": "Institutional lender / Group 7 objector-claimant; the subject of the SEC's response on this page.",
+    "evidence": "The facts are worse for BMO than they were for DLP"
+   },
+   {
+    "name": "Direct Lending Partners",
+    "detail": "Institutional lender in Group 2; variant \"DLP\".",
+    "evidence": "institutional lender Direct Lending Partners (\"DLP\") for Group 2"
+   },
+   {
+    "name": "BC57",
+    "detail": "Institutional lender in Group 1.",
+    "evidence": "arguments made by BC57 in Group 1 (see ECF 1152 at 15-28)"
+   },
+   {
+    "name": "EquityBuild Finance",
+    "detail": "EquityBuild affiliate; its President Shaun Cohen signed the purported release; Court previously found it lacked actual or apparent authority to release investors' mortgage.",
+    "evidence": "signed by Shaun Cohen, in his capacity as President of EquityBuild Finance. (See ECF 1794-4)"
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "Collateral Agency and Servicing Agreements",
+    "detail": "Documents (not real property) governing EquityBuild Finance's authority over investor mortgages; at issue for BMO, BC57 (Group 1) and DLP (Group 2).",
+    "evidence": "the same Collateral Agency and Servicing Agreements at issue for BMO (and for BC57 in Group 1)"
+   }
+  ],
+  "related_proceedings": [],
+  "authorities": [
+   {
+    "name": "5201 Washington, 2024 IL App (1st) 231403-U",
+    "detail": "Illinois Appellate Court (First District) unpublished order cited at *P24-*P26 for the proposition that subsequent purchasers may rely on a recorded release to qualify as bona fide purchasers; SEC distinguishes it because BMO's release was never recorded and BMO does not cite it or claim bona fide purchaser status.",
+    "evidence": "the one addressed in 5201 Washington: whether subsequent purchasers could rely on the recorded release to qualify as bona fide purchasers. 2024 IL App (1st) 231403-U, at *P24-*P26"
+   },
+   {
+    "name": "Illinois Fiduciary Obligations Act",
+    "detail": "Illinois statute that BMO argues establishes its priority (argument (b)), the same argument previously made by BC57 and DLP.",
+    "evidence": "(b) the Illinois Fiduciary Obligations Act establishes BMO's priority"
+   },
+   {
+    "name": "ECF 1679 (Court's Group 2 ruling)",
+    "detail": "Prior order in this receivership case (at 20 n.11, 21, 21-25) cited as the controlling holding that EquityBuild Finance, a \"different entity,\" could not release the investors' mortgage and lacked actual or apparent authority to do so.",
+    "evidence": "\"whether a purported release should be binding upon mortgagees who did not sign the releases themselves.\" (ECF 1679 at 20 n.11)"
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "The purported release of the investors' prior recorded mortgage was not signed by the mortgage holders; it was signed by Shaun Cohen as President of EquityBuild Finance (ECF 1794-4).",
+    "legal_status": "argued",
+    "conditions": "SEC's characterization of the record exhibit ECF 1794-4.",
+    "proceeding": "main case",
+    "evidence": "Rather, it was signed by Shaun Cohen, in his capacity as President of EquityBuild Finance. (See ECF 1794-4)."
+   },
+   {
+    "fact": "The Court previously held for the Group 2 investors over DLP (ECF 1679) that because EquityBuild Finance was a \"different entity\" than the investors on the prior mortgage, the release could not bind the mortgagees unless EquityBuild Finance was the Individual Investors' assignee or legal representative.",
+    "legal_status": "reported",
+    "conditions": "Prior court ruling at ECF 1679 at 20 n.11 and 21, as reported by the SEC.",
+    "proceeding": "main case",
+    "evidence": "DLP \"could not release the mortgage unless it was the Individual Investors' assignee or legal representative.\" (Id. at 21)"
+   },
+   {
+    "fact": "The Court analyzed the Collateral Agency and Servicing Agreements and determined EquityBuild Finance lacked actual or apparent authority to release the investors' mortgage (ECF 1679 at 21-25); the same agreements are at issue for BMO and BC57.",
+    "legal_status": "reported",
+    "conditions": "Prior court finding at ECF 1679 at 21-25, as reported by the SEC.",
+    "proceeding": "main case",
+    "evidence": "to determine that EquityBuild Finance lacked the authority \u2013 actual or apparent \u2013 to release the investors' mortgage. (Id. at 21-25)."
+   },
+   {
+    "fact": "The facts are worse for BMO than for DLP because, unlike in Group 2, the fraudulent release in BMO's situation was never recorded.",
+    "legal_status": "argued",
+    "conditions": "SEC argument; footnote 5 adds that this distinguishes 5201 Washington's bona fide purchaser analysis.",
+    "proceeding": "main case",
+    "evidence": "The facts are worse for BMO than they were for DLP because, unlike in Group 2, the fraudulent release here was never recorded."
+   },
+   {
+    "fact": "BMO fails to acknowledge the Court's Group 2 (or Group 1) holdings and repeats the same arguments made by BC57 in Group 1 (ECF 1152 at 15-28) and DLP in Group 2 (ECF 1559 at 2-6).",
+    "legal_status": "argued",
+    "conditions": "SEC argument.",
+    "proceeding": "main case",
+    "evidence": "BMO simply repeats the exact same arguments made by BC57 in Group 1 (see ECF 1152 at 15-28) and DLP in Group 2 (see ECF 1559 at 2-6)."
+   },
+   {
+    "fact": "BMO re-argues that (a) the investors' prior mortgage was released by payment to EquityBuild Finance (not the investors); (b) the Illinois Fiduciary Obligations Act establishes BMO's priority; and (c) the investors expressly authorized EquityBuild Finance to [continues on next page].",
+    "legal_status": "argued",
+    "conditions": "BMO's position as characterized by the SEC; item (c) is cut off at the page break.",
+    "proceeding": "main case",
+    "evidence": "BMO thus re-argues that: (a) the investors' prior mortgage was released by virtue of payment to EquityBuild Finance (but not the investors); (b) the Illinois Fiduciary Obligations Act establishes BMO's priority"
+   },
+   {
+    "fact": "BMO's Position Statement does not cite 5201 Washington or assert bona fide purchaser status.",
+    "legal_status": "argued",
+    "conditions": "SEC observation in footnote 5.",
+    "proceeding": "main case",
+    "evidence": "Notably, BMO's Position Statement does not cite 5201 Washington or assert bona fide purchaser status."
+   }
+  ],
+  "page_kind": "body",
+  "notes": "Page 4 of 6 of Dkt. 1806 (SEC's Response to Group 7 Position Statements), filed 12/16/24, PageID 123788. Header confirms Case 1:18-cv-05587. No attorneys, no SEC or Receiver named by name on this page (the SEC is the filer but is not mentioned in the text; the \\\"Court\\\" is referenced generically). Shaun Cohen is named as an individual (President of EquityBuild Finance) and is not a creditor, attorney or organization; excluded from entity lists per individual-exclusion rule. The unnamed Group 2 investors / \\\"Individual Investors\\\" are a collective of unnamed claimants, not a distinct named entity, so not listed as a creditor. No specific real property addresses or receiver property numbers appear; the Collateral Agency and Servicing Agreements are listed as identified documents rather than real property. 5201 Washington (2024 IL App (1st) 231403-U) is cited only as legal precedent on bona fide purchaser status, so it is placed under authorities rather than related proceedings even though it may concern EquityBuild-related property. Record citations ECF 1794-4, ECF 1152, ECF 1559 and ECF 1679 are docket entries in the main case; ECF 1679 is listed under authorities because it is cited as the controlling prior holding."
+ },
+ "dkt-1938-p003": {
+  "creditors": [
+   {
+    "name": "Pennington",
+    "detail": "Settlement counterparty whose claims, objections, and rights against the Receiver, the Receivership Estate, and WPD are released under the proposed Settlement; Pennington is to receive nothing further. Defined term; full name and whether individual or entity not stated on this page.",
+    "evidence": "such that Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD"
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "WPD",
+    "detail": "Defined-term abbreviation for a party to the Settlement aligned with the Receiver and Receivership Estate (Pennington releases claims against it); full name not stated on this page.",
+    "evidence": "between the Receiver, the Receivership Estate, WPD, and Pennington"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [],
+  "authorities": [
+   {
+    "name": "Gordon v. Dadante, 336 Fed. Appx. 540 (6th Cir. 2009)",
+    "detail": "Cited for the proposition that a settlement by a federal equity receiver is within the receiver's broad discretion and should be approved if fair; pin cite Id. at 545 for district court's determination of fairness being subject to its sound discretion.",
+    "evidence": "Gordon v. Dadante, 336 Fed. Appx. 540 (6th Cir. 2009)"
+   },
+   {
+    "name": "Sterling v. Stewart, 158 F.3d 1199, 1202 (11th Cir. 1998)",
+    "detail": "Cited (see also) for the proposition that the determination of fairness of a settlement in an equity receivership will not be overturned absent a clear showing of abuse of discretion.",
+    "evidence": "see also Sterling v. Stewart, 158 F.3d 1199, 1202 (11th Cir."
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "Settlement term (c): without any party admitting liability or the validity of any claim, the Settlement resolves all disputes of any kind or nature between the Receiver, the Receivership Estate, WPD, and Pennington.",
+    "legal_status": "proposed",
+    "conditions": "Subject to Court approval of the Settlement sought by this motion.",
+    "proceeding": "main case",
+    "evidence": "without any party admitting liability or the validity of any claim, this Settlement resolves all disputes of any kind or nature between the Receiver, the Receivership Estate, WPD, and Pennington"
+   },
+   {
+    "fact": "Settlement term (d): all claims, objections, or rights that might exist between the Receiver, the Receivership Estate, WPD, and Pennington are released, compromised, and waived, including as set forth in the Settlement Agreement, such that Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD.",
+    "legal_status": "proposed",
+    "conditions": "Subject to Court approval; release is as set forth in, but not limited by, the Settlement Agreement.",
+    "proceeding": "main case",
+    "evidence": "are hereby released, compromised, and waived"
+   },
+   {
+    "fact": "The Receiver submits that the Settlement is a fair and reasonable settlement for the Receivership Estate, is in its best interests, will save time and resources, and should be approved.",
+    "legal_status": "requested",
+    "conditions": "Receiver's position; approval requested from the Court.",
+    "proceeding": "main case",
+    "evidence": "fair and reasonable settlement for the Receivership Estate and is in the best interests of the Receivership Estate"
+   },
+   {
+    "fact": "Legal standard argued: a settlement by a federal equity receiver is within the receiver's broad discretion and should be approved if fair; the district court's fairness determination is within its sound discretion and is not overturned absent a clear showing of abuse of discretion.",
+    "legal_status": "argued",
+    "conditions": "None stated.",
+    "proceeding": "main case",
+    "evidence": "A settlement by a federal equity receiver is within the receiver's broad discretion and should be approved if it is fair."
+   },
+   {
+    "fact": "The Receiver will provide notice of the motion to all interested parties: service through the Court's electronic case filing system, a copy served by electronic mail on each claimant who has submitted claims in this matter, and the motion will be made publicly available (continues on next page).",
+    "legal_status": "proposed",
+    "conditions": "Notice process as described by the Receiver; sentence continues beyond this page.",
+    "proceeding": "main case",
+    "evidence": "the Receiver will serve a copy of this motion to each of the claimants who have submitted claims in this matter by electronic mail"
+   }
+  ],
+  "page_kind": "body",
+  "notes": "Page 3 of 8 of Dkt. 1938 (filed 01/05/26, PageID 127942). Contains settlement terms (c)-(d), paragraphs 6-8. No attorneys, properties, or bank accounts appear. The State Court Action referenced in the motion title is not named or docketed on this page, so related_proceedings is empty. \"WPD\" and \"Pennington\" are defined terms whose full names are not on this page; Pennington is treated as a creditor because the page frames the settlement as releasing Pennington's claims against the estate such that Pennington receives nothing further. The Receiver and Receivership Estate are excluded as generic role words. The \"Settlement Agreement\" is a document, not an entity."
+ },
+ "dkt-1938-p004": {
+  "creditors": [],
+  "attorneys": [
+   {
+    "name": "Michael Rachlis",
+    "detail": "Rachlis Duff & Peel, LLC; counsel for the Receiver; signatory of the motion (/s/ Michael Rachlis); mrachlis@rdaplaw.net",
+    "evidence": "/s/ Michael Rachlis ... Michael Rachlis Jodi Rosen Wine Rachlis Duff & Peel, LLC"
+   },
+   {
+    "name": "Jodi Rosen Wine",
+    "detail": "Rachlis Duff & Peel, LLC; counsel for the Receiver; jwine@rdaplaw.net",
+    "evidence": "Jodi Rosen Wine Rachlis Duff & Peel, LLC 542 South Dearborn Street, Suite 900"
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Rachlis Duff & Peel, LLC",
+    "detail": "Law firm for the Receiver; 542 South Dearborn Street, Suite 900, Chicago, IL 60605; Phone (312) 733-3950; domain rdaplaw.net",
+    "evidence": "Rachlis Duff & Peel, LLC 542 South Dearborn Street, Suite 900 Chicago, IL 60605"
+   },
+   {
+    "name": "SEC",
+    "detail": "Securities and Exchange Commission (plaintiff in the receivership case); its counsel consents to the relief requested",
+    "evidence": "The Receiver has conferred with counsel for the SEC which consents to the relief requested in this motion."
+   },
+   {
+    "name": "Pennington",
+    "detail": "Settlement counterparty to the Receiver in the state court action; referred to only by the single name \"Pennington\" on this page, so entity type (individual vs. company) is not stated here",
+    "evidence": "an order finding that the Settlement between the Receiver and Pennington is fair, reasonable, and in the best interests of the Receivership Estate"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [],
+  "authorities": [],
+  "key_facts": [
+   {
+    "fact": "The Receiver gave notice of the motion to interested and potentially interested parties by posting a copy to the Receivership website at https://rdaplaw.net/equitybuild-receivership/.",
+    "legal_status": "reported",
+    "conditions": "Sentence continues from page 3; the website URL is the notice mechanism stated.",
+    "proceeding": "main case",
+    "evidence": "interested and potentially interested parties by posting a copy of it to the Receivership website at https://rdaplaw.net/equitybuild-receivership/."
+   },
+   {
+    "fact": "The Receiver conferred with counsel for the SEC, which consents to the relief requested in the motion.",
+    "legal_status": "reported",
+    "conditions": "None",
+    "proceeding": "main case",
+    "evidence": "9. The Receiver has conferred with counsel for the SEC which consents to the relief requested in this motion."
+   },
+   {
+    "fact": "The Receiver asks for a finding that adequate and fair notice of the motion has been provided to all interested and potentially interested parties.",
+    "legal_status": "requested",
+    "conditions": "Relief item (a) of the WHEREFORE clause; subject to court ruling.",
+    "proceeding": "main case",
+    "evidence": "a) a finding that adequate and fair notice has been provided to all interested and potentially interested parties of the current motion;"
+   },
+   {
+    "fact": "The Receiver asks for an order finding that the Settlement between the Receiver and Pennington is fair, reasonable, and in the best interests of the Receivership Estate.",
+    "legal_status": "requested",
+    "conditions": "Relief item (b); approval not yet granted on this page.",
+    "proceeding": "main case (settlement of the state court action with Pennington)",
+    "evidence": "b) an order finding that the Settlement between the Receiver and Pennington is fair, reasonable, and in the best interests of the Receivership Estate;"
+   },
+   {
+    "fact": "The Receiver asks for an order providing each interested party a full and fair opportunity to assert its interests and any objections to the relief requested.",
+    "legal_status": "requested",
+    "conditions": "Relief item (c).",
+    "proceeding": "main case",
+    "evidence": "c) an order providing a full and fair opportunity for each interested party to assert its interests and any objections to the relief requested in this motion;"
+   },
+   {
+    "fact": "The Receiver asks for an order finding either that no objections were filed or that the Settlement is approved over any such objections, plus such other relief as the Court deems fair and equitable.",
+    "legal_status": "requested",
+    "conditions": "Relief items (d) and (e); contingent on whether objections are filed.",
+    "proceeding": "main case",
+    "evidence": "d) an order finding either that no objections were filed or a finding that the Settlement is approved over any such objections; and e) such other relief as the Court deems fair and equitable"
+   },
+   {
+    "fact": "The motion is dated January 5, 2026 and signed by Michael Rachlis of Rachlis Duff & Peel, LLC on behalf of the Receiver.",
+    "legal_status": "reported",
+    "conditions": "Filed 01/05/26 per header; Case 1:18-cv-05587, Document 1938, Page 4 of 8, PageID 127943.",
+    "proceeding": "main case",
+    "evidence": "Dated: January 5, 2026 Respectfully submitted, /s/ Michael Rachlis"
+   }
+  ],
+  "page_kind": "mixed",
+  "notes": "Page 4 of Dkt. 1938 (Receiver's Motion To Approve Settlement Of State Court Action), filed 01/05/26, PageID 127943. Content: tail of notice paragraph (continuing from page 3), paragraph 9 (SEC consent), the WHEREFORE prayer for relief (items a-e), and the signature block for Rachlis Duff & Peel, LLC. No creditors: Pennington is named only as the settlement counterparty; this page does not state that Pennington holds or asserts a claim against the estate or who pays whom under the Settlement, so Pennington is placed under organizations with its entity type flagged as unstated rather than under creditors. No related proceeding is captioned or docketed on this page; the underlying state court action is referenced only indirectly through \"the Settlement between the Receiver and Pennington\" (and in the document title), so related_proceedings is left empty for this page. No case-law or statutory authorities are cited. No real property, property numbers, or bank accounts appear; the Receivership website URL (https://rdaplaw.net/equitybuild-receivership/) is a notice mechanism, not an estate asset. The court (Case 1:18-cv-05587, N.D. Ill.) is excluded from organizations per instructions. Text-layer artifacts: the URL is split as \"equitybuild - receivership/\" and the phone as \"733 - 3950\" in the text layer; the image shows them unbroken."
+ },
+ "dkt-1967-p015": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [],
+  "properties_or_assets": [],
+  "related_proceedings": [],
+  "authorities": [],
+  "key_facts": [
+   {
+    "fact": "The Court-approved proof of claim process required any person or entity seeking a distribution from the Receivership Estate to complete and submit a proof of claim on or before July 1, 2019, a bar date later extended to December 31, 2019.",
+    "legal_status": "reported",
+    "conditions": "Applies to persons or entities seeking a distribution from the Receivership Estate; cited to POC Claims Process Notice, Dkt. 241-1, at 13.",
+    "proceeding": "main case",
+    "evidence": "must complete and submit a proof of claim on or before July 1, 2019 [later extended to December 31, 2019]"
+   },
+   {
+    "fact": "Proofs of claim covered claims arising between January 1, 2010 and August 17, 2018, and claimants had to provide the requested information for that period.",
+    "legal_status": "reported",
+    "conditions": "Claim period limited to January 1, 2010 through August 17, 2018.",
+    "proceeding": "main case",
+    "evidence": "covering claims arising between January 1, 2010 and August 17, 2018, and provide the requested information for that period"
+   },
+   {
+    "fact": "Claimants were advised that the Receiver's distribution plan would likely observe distinctions between competing claimant classes and that recovery may be affected by the claimant's ability to produce supporting documentation.",
+    "legal_status": "reported",
+    "conditions": "Cited to the POC Claims Process Notice, Dkt. 241-1, at 12.",
+    "proceeding": "main case",
+    "evidence": "\"will likely observe distinctions between competing claimant classes,\" and that recovery \"may be affected by your ability to produce documentation supporting your claim,\""
+   },
+   {
+    "fact": "Submission of a proof of claim does not guarantee receipt of a distribution; eligibility and recovery depend on proper compliance and evaluation of the claim.",
+    "legal_status": "reported",
+    "conditions": "None stated beyond compliance with the claims process.",
+    "proceeding": "main case",
+    "evidence": "The submission of a proof of claim \"does not guarantee receipt of a distribution[,]\""
+   },
+   {
+    "fact": "To be eligible for any distribution, each claimant had to submit the proof of claim form by the bar date through the designated claims portal, provide documentation substantiating all amounts claimed (or a detailed explanation if unavailable), and attest under oath to the authenticity and accuracy of the information submitted.",
+    "legal_status": "reported",
+    "conditions": "Submission by bar date; legible copies of supporting documents or detailed explanation; sworn attestation. Cited to Dkt. 241-1 at 12, 16.",
+    "proceeding": "main case",
+    "evidence": "and \"attest under oath to verify the authenticity and accuracy\" of the information submitted. (Id. at 12, 16)"
+   },
+   {
+    "fact": "Each claimant was required to submit his, her, or its own proof of claim form, and was notified that prior submissions to the Receiver or others were insufficient.",
+    "legal_status": "reported",
+    "conditions": "Cited to Dkt. 241-1 at 16.",
+    "proceeding": "main case",
+    "evidence": "required to submit his, her, or its own proof of claim form, and was notified that prior submissions to the Receiver or others were insufficient"
+   },
+   {
+    "fact": "The proof of claim form warned that failure to submit supporting documentation may result in the claim being rejected or reduced, with claims lacking sufficient support subject to disallowance.",
+    "legal_status": "reported",
+    "conditions": "Cited to POC Form, Sections 3, 4, 6, 7, 8 & 9, Dkt. 241-1, at 24, 26, 31, 33, 34 & 35.",
+    "proceeding": "main case",
+    "evidence": "\"[f]ailure to submit supporting documentation may result in your claim being rejected or reduced[,]\""
+   }
+  ],
+  "page_kind": "body",
+  "notes": "Page 15 of 273 (internal page 9), section \"2. Proofs of Claim\" of the Receiver's Group 10 Distribution Plan motion (Dkt. 1967, filed 06/30/26, PageID 128345). Pure narrative describing the Court-approved proof of claim process. No named companies, lenders, attorneys, properties, bank accounts, related proceedings, or precedent appear. \"Receivership Estate\" and \"the Receiver\" are defined collective terms and were not listed as organizations. The only citations are record citations to the POC Claims Process Notice and POC Form at Dkt. 241-1 (pages 12, 13, 16, 24, 26, 31, 33, 34, 35) in this same case; these are not precedent and so are not listed under authorities. The sentence beginning \"Claimants were warned that those who failed to timely\" continues on the next page."
+ },
+ "dkt-1967-p005": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "Securities and Exchange Commission",
+    "detail": "Plaintiff in the main case; appears on this page only as the 'SEC' party name in cited case captions (SEC v. ...). Variant: 'SEC'.",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I)"
+   },
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Receivership defendant; appears on this page as the named defendant in the three cited EquityBuild decisions (EquityBuild I, the June 20, 2024 N.D. Ill. decision, and EquityBuild II).",
+    "evidence": "SEC v. EquityBuild, Inc., No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024)"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [
+   {
+    "name": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I)",
+    "detail": "Seventh Circuit appeal arising from the receivership; the motion's short form is 'EquityBuild I'. Cited at pp. 6, 40.",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I) ...6, 40"
+   },
+   {
+    "name": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (EquityBuild II)",
+    "detail": "Seventh Circuit appeal affirming the district court's June 20, 2024 decision (No. 18 CV 5587, 2024 WL 3069682); the motion's short form is 'EquityBuild II'. Cited at pp. 30, 31, 31 n.15, 32, 33, 38-39, 40 and, as the affirmance of the district court decision, at pp. 6, 22, 24, 26, 39, 39 n.19.",
+    "evidence": "aff'd 161 F.4th 1020 (7th Cir. 2025)"
+   }
+  ],
+  "authorities": [
+   {
+    "name": "Quilling v. Trade Partners, Inc., No. 1:03-CV-236, 2007 WL 107669 (W.D. Mich. Jan. 9, 2007)",
+    "detail": "Case law; cited at pp. 48, 49.",
+    "evidence": "Quilling v. Trade Partners, Inc., No. 1:03-CV-236, 2007 WL 107669 (W.D. Mich. Jan. 9, 2007)"
+   },
+   {
+    "name": "Scholes v. Lehmann, 56 F.3d 750 (7th Cir. 1995)",
+    "detail": "Case law; cited at p. 20.",
+    "evidence": "Scholes v. Lehmann, 56 F.3d 750 (7th Cir. 1995)"
+   },
+   {
+    "name": "SEC v. Basic Energy & Affiliated Resources, Inc., 273 F.3d 657 (6th Cir. 2001)",
+    "detail": "Case law; cited at pp. 48, 49, 55.",
+    "evidence": "SEC v. Basic Energy & Affiliated Resources, Inc., 273 F.3d 657 (6th Cir. 2001)"
+   },
+   {
+    "name": "SEC v. Byers, 637 F. Supp. 2d 166 (S.D.N.Y. 2009)",
+    "detail": "Case law; cited at pp. 26, 42, 43.",
+    "evidence": "SEC v. Byers, 637 F. Supp. 2d 166 (S.D.N.Y. 2009)"
+   },
+   {
+    "name": "SEC v. Complete Business Solutions Group, Inc., No. 20-CV-81205-RAR, 2024 WL 5348580 (S.D. Fla. Dec. 16, 2024)",
+    "detail": "Case law; cited at pp. 25-26.",
+    "evidence": "SEC v. Complete Business Solutions Group, Inc., No. 20-CV-81205-RAR, 2024 WL 5348580 (S.D. Fla. Dec. 16, 2024)"
+   },
+   {
+    "name": "SEC v. Credit Bancorp, Ltd., No. 99 CIV. 11395 RWS, 2000 WL 1752979 (S.D.N.Y. Nov. 29, 2000), aff'd 290 F.3d 80 (2d Cir. 2002)",
+    "detail": "Case law (district court decision with affirmance); cited at pp. 16, 22.",
+    "evidence": "No. 99 CIV. 11395 RWS, 2000 WL 1752979 (S.D.N.Y. Nov. 29, 2000) aff'd 290 F.3d 80 (2d Cir. 2002)"
+   },
+   {
+    "name": "SEC v. Credit Bancorp, Ltd., 290 F.3d 80 (2d Cir. 2002)",
+    "detail": "Case law (appellate decision listed separately); cited at pp. 23, 36 n.17, 49.",
+    "evidence": "SEC v. Credit Bancorp, Ltd., 290 F.3d 80 (2d Cir. 2002) ...23, 36 n.17, 49"
+   },
+   {
+    "name": "SEC v. Elliott, 953 F.2d 1560 (11th Cir. 1992)",
+    "detail": "Case law; cited at pp. 16, 36 n.17, 55.",
+    "evidence": "SEC v. Elliott, 953 F.2d 1560 (11th Cir. 1992)"
+   },
+   {
+    "name": "SEC v. Enterprise Trust Co., No. 08 C 1260, 2008 WL 4534154 (N.D. Ill. Oct. 7, 2008), aff'd 559 F.3d 649 (7th Cir. 2009)",
+    "detail": "Case law (district court decision with affirmance); cited at pp. 15 n.10, 25, 26-27.",
+    "evidence": "No. 08 C 1260, 2008 WL 4534154 (N.D. Ill. Oct. 7, 2008) aff'd 559 F.3d 649 (7th Cir. 2009)"
+   },
+   {
+    "name": "SEC v. Enterprise Trust Co., 559 F.3d 649 (7th Cir. 2009)",
+    "detail": "Case law (appellate decision listed separately); cited at pp. 16, 17, 25, 31, 38.",
+    "evidence": "SEC v. Enterprise Trust Co., 559 F.3d 649 (7th Cir. 2009) ...16, 17, 25, 31, 38"
+   },
+   {
+    "name": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I)",
+    "detail": "Case law from this receivership's own appeal; short form 'EquityBuild I'; cited at pp. 6, 40.",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I)"
+   },
+   {
+    "name": "SEC v. EquityBuild, Inc., No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024), aff'd 161 F.4th 1020 (7th Cir. 2025)",
+    "detail": "District court decision in the main case (No. 18 CV 5587) with its Seventh Circuit affirmance; cited at pp. 6, 22, 24, 26, 39, 39 n.19.",
+    "evidence": "No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024) aff'd 161 F.4th 1020 (7th Cir. 2025)"
+   },
+   {
+    "name": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (EquityBuild II)",
+    "detail": "Case law from this receivership's own appeal; short form 'EquityBuild II'; cited at pp. 30, 31, 31 n.15, 32, 33, 38-39, 40.",
+    "evidence": "161 F.4th 1020 (7th Cir. 2025) (EquityBuild II)"
+   },
+   {
+    "name": "SEC v. First Choice Mgmt. Servs., Inc., 743 Fed. Appx. 33 (7th Cir. 2018)",
+    "detail": "Case law; cited at p. 17.",
+    "evidence": "SEC v. First Choice Mgmt. Servs., Inc., 743 Fed. Appx. 33 (7th Cir. 2018)"
+   },
+   {
+    "name": "SEC v. Forex Asset Mgmt. LLC, 242 F.3d 325 (5th Cir. 2001)",
+    "detail": "Case law; cited at p. 48.",
+    "evidence": "SEC v. Forex Asset Mgmt. LLC, 242 F.3d 325 (5th Cir. 2001)"
+   },
+   {
+    "name": "SEC v. Forte, Nos. 09-63, 09-64, 2012 WL 1719145 (E.D. Pa. May 16, 2012)",
+    "detail": "Case law; cited at pp. 26, 31.",
+    "evidence": "SEC v. Forte, Nos. 09-63, 09-64, 2012 WL 1719145 (E. D. Pa. May 16, 2012)"
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "This page is page iv of the table of authorities (Quilling through SEC v. Forte) of Dkt. 1967, a 273-page filing in Case 1:18-cv-05587 filed 06/30/26 (PageID 128335).",
+    "legal_status": "reported",
+    "conditions": "Header data only; no substantive argument appears on this page.",
+    "proceeding": "main case",
+    "evidence": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 5 of 273 PageID #:128335"
+   },
+   {
+    "fact": "The motion relies on the Seventh Circuit's decision in SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024), which it designates 'EquityBuild I', at pages 6 and 40.",
+    "legal_status": "reported",
+    "conditions": "Citation listing only; the proposition for which it is cited is not stated on this page.",
+    "proceeding": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I)",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I) ...6, 40"
+   },
+   {
+    "fact": "The motion relies on the Seventh Circuit's decision in SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025), designated 'EquityBuild II', at pages 30, 31, 31 n.15, 32, 33, 38-39 and 40.",
+    "legal_status": "reported",
+    "conditions": "Citation listing only.",
+    "proceeding": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (EquityBuild II)",
+    "evidence": "161 F.4th 1020 (7th Cir. 2025) (EquityBuild II) ..................... 30, 31, 31 n.15, 32, 33, 38-39, 40"
+   },
+   {
+    "fact": "The district court's June 20, 2024 decision in the main case (No. 18 CV 5587, 2024 WL 3069682) was affirmed by the Seventh Circuit at 161 F.4th 1020 (2025), and the motion cites it at pages 6, 22, 24, 26, 39 and 39 n.19.",
+    "legal_status": "reported",
+    "conditions": "As stated in the table of authorities via 'aff'd'.",
+    "proceeding": "main case",
+    "evidence": "No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024) aff'd 161 F.4th 1020 (7th Cir. 2025)"
+   },
+   {
+    "fact": "The motion cites SEC v. Enterprise Trust Co. (N.D. Ill. 2008, aff'd 559 F.3d 649 (7th Cir. 2009)) more heavily than any other non-EquityBuild authority on this page, at pages 15 n.10, 16, 17, 25, 26-27, 31 and 38.",
+    "legal_status": "reported",
+    "conditions": "Citation listing only.",
+    "proceeding": "main case",
+    "evidence": "SEC v. Enterprise Trust Co., 559 F.3d 649 (7th Cir. 2009) ...16, 17, 25, 31, 38"
+   }
+  ],
+  "page_kind": "table of contents",
+  "notes": "Page is the table of authorities (page iv) of Dkt. 1967, listing cited cases from Quilling v. Trade Partners through SEC v. Forte with pin pages. No creditors, attorneys, properties or bank accounts appear. Organizations labeled are limited to the SEC and EquityBuild, Inc., the only real-world entities connected to the estate on the page; litigant names inside precedent captions (e.g., Trade Partners, Inc., Credit Bancorp, Ltd., Enterprise Trust Co.) were treated as parts of case citations rather than as separate organizations. The two Seventh Circuit EquityBuild decisions are listed both as authorities (as cited) and as related proceedings (appeals from the receivership); the June 20, 2024 N.D. Ill. decision is a ruling in the main case and so appears only under authorities. Text layer has irregular spacing (e.g., 'a ff'd', '4 8', 'Tr ust'); quotes were normalized to the page image where needed. Legal status 'reported' is used because a table of authorities asserts nothing beyond the existence and location of the cited decisions."
+ }
+}

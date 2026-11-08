@@ -1,0 +1,114 @@
+{
+ "key": "dkt-1967",
+ "page": 5,
+ "document": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+ "document_id": "087d434a-4ac4-4929-960f-6b245ab5ce44",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.3",
+ "schema_version": "2026-11-08.3",
+ "input_tokens": 6272,
+ "output_tokens": 1115,
+ "latency_ms": 5506,
+ "page_kind": "mixed",
+ "output": {
+  "page_kind": "mixed",
+  "parties": [],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "Quilling v. Trade Partners, Inc., No. 1:03-CV-236, 2007 WL 107669 (W.D. Mich. Jan. 9, 2007)"
+   },
+   {
+    "citation": "Scholes v. Lehmann, 56 F.3d 750 (7th Cir. 1995)"
+   },
+   {
+    "citation": "SEC v. Basic Energy & Affiliated Resources, Inc., 273 F.3d 657 (6th Cir. 2001)"
+   },
+   {
+    "citation": "SEC v. Byers, 637 F. Supp. 2d 166 (S.D.N.Y. 2009)"
+   },
+   {
+    "citation": "SEC v. Complete Business Solutions Group, Inc., No. 20-CV-81205-RAR, 2024 WL 5348580 (S.D. Fla. Dec. 16, 2024)"
+   },
+   {
+    "citation": "SEC v. Credit Bancorp, Ltd., 290 F.3d 80 (2d Cir. 2002)"
+   },
+   {
+    "citation": "SEC v. Elliott, 953 F.2d 1560 (11th Cir. 1992)"
+   },
+   {
+    "citation": "SEC v. Enterprise Trust Co., 559 F.3d 649 (7th Cir. 2009)"
+   },
+   {
+    "citation": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024)"
+   },
+   {
+    "citation": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025)"
+   },
+   {
+    "citation": "SEC v. First Choice Mgmt. Servs., Inc., 743 Fed. Appx. 33 (7th Cir. 2018)"
+   },
+   {
+    "citation": "SEC v. Forex Asset Mgmt. LLC, 242 F.3d 325 (5th Cir. 2001)"
+   },
+   {
+    "citation": "SEC v. Forte, Nos. 09-63, 09-64, 2012 WL 1719145 (E.D. Pa. May 16, 2012)"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-06-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 5 of 273 PageID #:128335",
+    "confidence": 0.9,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-06-30",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 5 of 273 PageID #:128335",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "page_text": "iv\nQuilling v. Trade Partners, Inc. ,\nNo. 1:03 - CV - 236,  2007 WL 107669 (W.D. Mich.  Jan.  9,  2007)  ................................ ........ 4 8 ,  49\nScholes v. Lehmann , 56 F.3d 750 (7th Cir. 1995)  ................................ ................................ .......... 20\nSEC v. Basic Energy & Affil iated  Resources, Inc. , 273 F.3d 657 (6th Cir. 2001)  .............. 4 8 ,  49 ,  5 5\nSEC v. Byers , 637 F. Supp. 2d 166 (S.D.N.Y. 2009)  ................................ .......................... 26 ,  42 ,  4 3\nSEC v. Complete Business Solutions Group, Inc. ,\nNo. 20 - CV - 81205 - RAR, 2024 WL 5348580 (S.D. Fla. Dec. 16, 2024)  .............................  25 - 26\nSEC v. Credit Bancorp , Ltd. ,\nNo. 99 CIV. 11395 RWS, 2000 WL 1752979 (S.D.N.Y.  Nov.  29, 2000)\na ff’d  290 F.3d 80 (2d Cir. 2002)  ................................ ................................ ......................... 16 ,  22\nSEC v. Credit Bancorp , Ltd. , 290 F.3d 80 (2d Cir. 2002)  ................................ .......... 23 ,  36 n.1 7 ,  49\nSEC v. Elliott , 953 F.2d 1560 (11th Cir. 1992) ................................ ........................... 16 ,  36 n.1 7 ,  5 5\nSEC v. Enterprise Tr ust  Co. ,\nNo. 08 C 1260, 2008 WL 4534154 (N.D. Ill. Oct. 7, 2008)\na ff’d  559 F.3d 649 (7th Cir. 2009)  ................................ ................................ ..  15 n.10 ,  25,  26 - 27\nSEC v. Enterprise Tr ust  Co. , 559 F.3d 649 (7th Cir. 2009) ................................ .... 16 ,  17 ,  25 ,  31 ,  3 8\nSEC v. EquityBuild, Inc. , 101 F.4th 526 (7th Cir. 2024)  ( EquityBuild I )  ................................ ... 6 ,  40\nSEC v. EquityBuild, Inc. ,\nNo.  18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024)\na ff’d  161 F.4th 1020 (7th Cir. 2025)  ................................ ..................... 6 , 22 , 24 ,  26 ,  39 ,  39 n. 1 9\nSEC v. EquityBuild, Inc. ,\n161 F.4th 1020 (7th Cir. 2025)  ( EquityBuild II )  .....................  30,  31,  31 n.1 5 ,  32 ,  33 ,  38 - 39 ,  40\nSEC v. First Choice Mgmt. Servs. , Inc. , 743 Fed. Appx. 33 (7th Cir. 2018)  ................................ . 17\nSEC v. Forex Asset Mgmt. LLC , 242 F.3d 325 (5th Cir. 2001)  ................................ ...................... 4 8\nSEC v. Forte , Nos. 09 - 63, 09 - 64, 2012 WL 1719145 (E. D. Pa.  May 16, 2012) ..................... 26 ,  31\nCase: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 5 of 273 PageID #:128335"
+}

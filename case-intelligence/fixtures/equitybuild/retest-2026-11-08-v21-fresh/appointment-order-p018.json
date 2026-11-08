@@ -1,0 +1,222 @@
+{
+ "key": "appointment-order",
+ "page": 18,
+ "document": "Order Appointing Receiver (2018-08-17), Dkt. 16",
+ "document_id": "241e638c-979b-442a-a15e-1957dc70e562",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.3",
+ "schema_version": "2026-11-08.3",
+ "input_tokens": 5744,
+ "output_tokens": 1244,
+ "latency_ms": 6143,
+ "page_kind": "body",
+ "output": {
+  "page_kind": "body",
+  "parties": [],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "28 U.S.C. §§ 2001 and 2004"
+   },
+   {
+    "citation": "Treas. Reg. § 1.468B-2(k)(3)(i)"
+   },
+   {
+    "citation": "Treas. Reg. § 1.468B-2"
+   },
+   {
+    "citation": "Section 468B of the Internal Revenue Code"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Order Appointing Receiver, Dkt. 16",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 18 of 29 PageID #:410",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "authorized_to",
+    "object_value": "Receiver authorized to sell and transfer clear title to all real property in the Receivership Estate",
+    "object_type": null,
+    "object_key": null,
+    "modality": "ordered",
+    "conditions": "Upon further Order of this Court, pursuant to such procedures as may be required by this Court and additional authority such as 28 U.S.C. §§ 2001 and 2004",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "the Receiver will be authorized to sell, and transfer clear title to , all real property in the Receivership Estate.",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "authorized_to",
+    "object_value": "Receiver authorized to manage, maintain, and/or wind-down business operations, including making legally required payments to creditors, employees, and agents",
+    "object_type": null,
+    "object_key": null,
+    "modality": "ordered",
+    "conditions": "as appropriate",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "The Receiver is authorized to take all actions to manage, maintain, and/or wind-down business operations of the Receivership Estate",
+    "confidence": 0.8,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "ordered_to",
+    "object_value": "Receiver to take all necessary steps to enable Receivership Funds to obtain and maintain status of taxable Settlement Fund (Qualified Settlement Fund) and act as administrator",
+    "object_type": null,
+    "object_key": null,
+    "modality": "ordered",
+    "conditions": "when applicable",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "The Receiver shall take all necessary steps to enable the Receivership Funds to obtain and maintain the status of a taxable “Settlement Fund,”",
+    "confidence": 0.85,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Order Appointing Receiver, Dkt. 16",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 18 of 29 PageID #:410",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "authorized_to",
+   "object_value": "Receiver authorized to sell and transfer clear title to all real property in the Receivership Estate",
+   "object_type": null,
+   "object_key": null,
+   "modality": "ordered",
+   "conditions": "Upon further Order of this Court, pursuant to such procedures as may be required by this Court and additional authority such as 28 U.S.C. §§ 2001 and 2004",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "the Receiver will be authorized to sell, and transfer clear title to , all real property in the Receivership Estate.",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "authorized_to",
+   "object_value": "Receiver authorized to manage, maintain, and/or wind-down business operations, including making legally required payments to creditors, employees, and agents",
+   "object_type": null,
+   "object_key": null,
+   "modality": "ordered",
+   "conditions": "as appropriate",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "The Receiver is authorized to take all actions to manage, maintain, and/or wind-down business operations of the Receivership Estate",
+   "confidence": 0.8,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "fuzzy",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.68,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "ordered_to",
+   "object_value": "Receiver to take all necessary steps to enable Receivership Funds to obtain and maintain status of taxable Settlement Fund (Qualified Settlement Fund) and act as administrator",
+   "object_type": null,
+   "object_key": null,
+   "modality": "ordered",
+   "conditions": "when applicable",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "The Receiver shall take all necessary steps to enable the Receivership Funds to obtain and maintain the status of a taxable “Settlement Fund,”",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "page_text": "18\nbeneficial to the  Receivership Estate, and  with due re gard to the realization of the  true and proper\nvalue  of such real property .\n39 .  Upon further Order of this Court, pursuant to such procedures as may be  required\nby this Court and additional authority such as 28 U.S.C. §§ 2001 and 2004, the Receiver will be\nauthorized to sell, and transfer clear title  to ,  all  real property in the Receivership Estate.\n40 .  T he Receiver is authorized to t ake all actions to m anage, maintain, and/or wind -\ndown business operations of the Receivership E state , including making legally required\npayments to creditors, employees, and agents of the Receivership Es tate and c ommunicat ing\nwith vendors, investors, governmental and regulato ry authorities, and others, as appropriate.\n41 .  The Receiver shall take all necessary steps to enable the  Receivership  Funds to\nobtain and maintain the status of a taxable “Settlement Fund,” within the meaning of Section\n468B of the Internal Revenue Code  and of the regulations , when applicable , whether proposed,\ntemporary or final, or pronouncements thereunder, including the filing of the elections and\nstatements contemplated by those provisions. The Receiver shall be designated the administrator\nof the  S ettle ment Fund, pursuant to Treas. Reg. § 1.468B - 2(k)(3)(i), and shall satisfy the\nadministrative requirements imposed by Treas. Reg. § 1.468B - 2, including but not limited to (a)\nobtaining a taxpayer identification number, (b) timely filing applicable fede ral, state, and local\ntax returns and paying taxes reported thereon, and (c) satisfying any information, reporting or\nwithholding requirements imposed on distributions from the  Settle ment Fund. The Receiver\nshall cause the  Settle ment Fund to pay taxes in  a manner consistent with treatment of the\nSettle ment Fund as a “Qualified Settlement Fund.” The  Receivership D efendants shall cooperate\nwith the Receiver in fulfilling the  Settle ment  Fund s ’  obligatio ns under Treas. Reg. §  1.468B - 2 .\nX.  Investigate and Pro secute Claims\nCase: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 18 of 29 PageID #:410"
+}

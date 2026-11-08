@@ -1,0 +1,209 @@
+{
+ "key": "status-report-1",
+ "page": 13,
+ "document": "Receiver's First Status Report, Q3 2018, Dkt. 107",
+ "document_id": "b9f4a958-eb84-45cf-b637-b732df80fb7c",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.3",
+ "schema_version": "2026-11-08.3",
+ "input_tokens": 5700,
+ "output_tokens": 1116,
+ "latency_ms": 5697,
+ "page_kind": "body",
+ "output": {
+  "page_kind": "body",
+  "parties": [],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's First Status Report (Third Quarter 2018), Dkt. 107",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-10-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 13 of 30 PageID #:966",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "status",
+    "object_value": "Receiver reports 24 institutional mortgage loans from approximately 12 institutions recorded against 89 properties, aggregate outstanding principal approximately $55,441,000",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "thus far determined; Receiver is evaluating whether other lenders' interests should be characterized the same way",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-10-30",
+    "referenced_page": null,
+    "quote": "there are 24 in stitutional mortgage  loans  originated by approximately 12 different institutions  record ed against 89  properties  with  a n aggregate  outstanding  principal  balance  of  approximately  $ 55,441,000",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "status",
+    "object_value": "Receiver reports at least 10 of the 24 loans are held by trustees for CMBS portfolios",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-10-30",
+    "referenced_page": null,
+    "quote": "Of these 24 loans,  at least  10  are held by trustees for  commercial mortgage - backed securities  (CMBS) portfolios .",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "status",
+    "object_value": "Receiver reports having obtained substantially all loan documents from institutional lenders",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "as of the date of this filing",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-10-30",
+    "referenced_page": null,
+    "quote": "the Receiver has obtained substantially all of the loan documents",
+    "confidence": 0.85,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's First Status Report (Third Quarter 2018), Dkt. 107",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-10-30",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 13 of 30 PageID #:966",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "status",
+   "object_value": "Receiver reports 24 institutional mortgage loans from approximately 12 institutions recorded against 89 properties, aggregate outstanding principal approximately $55,441,000",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": "thus far determined; Receiver is evaluating whether other lenders' interests should be characterized the same way",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-10-30",
+   "referenced_page": null,
+   "quote": "there are 24 in stitutional mortgage  loans  originated by approximately 12 different institutions  record ed against 89  properties  with  a n aggregate  outstanding  principal  balance  of  approximately  $ 55,441,000",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "status",
+   "object_value": "Receiver reports at least 10 of the 24 loans are held by trustees for CMBS portfolios",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-10-30",
+   "referenced_page": null,
+   "quote": "Of these 24 loans,  at least  10  are held by trustees for  commercial mortgage - backed securities  (CMBS) portfolios .",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "status",
+   "object_value": "Receiver reports having obtained substantially all loan documents from institutional lenders",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": "as of the date of this filing",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-10-30",
+   "referenced_page": null,
+   "quote": "the Receiver has obtained substantially all of the loan documents",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "page_text": "13\ni .  Institutional Lenders\nThe Receiver  and his retained professi onals have  also been working to  discover  the\nencumbrances on each property, as well as the monthly debt service and outstanding loan  balances\nassociated  with the promissory notes secured by those encumbrances .  These  issues  have been\ncomplicated because  it  appears  that  for some properties,  competing security interests  may have\nbeen  recorded.  These efforts have  been  further  impacted by , among other things : (i) the slow\nresponses  from  and recalcitrance of some institutional lenders, (ii) cross - collateralizat ion issues ,\n(iii)  an array of liens and encumbrances recorded against the properties (or  erroneously  believed\nby some investors to have been recorded in a first position),  (i v)  the disorganiz ed and incomplete\nstate of the  documentation  inherited from  Equit yBuild and its  former counsel,  and  (v ) the\nDefendants’  scheme.\nThe Receiver and his retained professionals have  thus far  determined  that  there are 24\nin stitutional mortgage  loans  originated by approximately 12 different institutions  record ed against\n89  properties  with  a n aggregate  outstanding  principal  balance  of  approximately  $ 55,441,000 . 8  Of\nthese 24 loans,  at least  10  are held by trustees for  commercial mortgage - backed securities  (CMBS)\nportfolios .  As of the date of this  filing, the Receiver has obtained substantially all of the loan\ndocuments ( i.e.,  loan agreements, mortgages, and promissory notes) from the institutional lende rs.\nObtaining  these documents was a challenge  and entailed substantial correspondence and repeat ed\nrequests  over a two - month period .  M any of  the  loan files were received during the month of\nOctober ,  nearly six  weeks after  the  appointment of the Receiver; prior to that time, the Receiver\nand his counsel  were forced to assemble the relevant loan infor mation  based on reports some\n8  The Receiver is evaluating whether other lender s interests should  be characterized in the same\nfa shion.\nCase: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 13 of 30 PageID #:966"
+}
