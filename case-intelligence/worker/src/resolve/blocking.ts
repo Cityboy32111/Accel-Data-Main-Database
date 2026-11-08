@@ -181,7 +181,13 @@ export function blockProperties(props: PropertyRow[]): Candidate[] {
 
 export function blockLawsuits(suits: LawsuitRow[]): Candidate[] {
   const out: Candidate[] = [];
-  const dock = (s: LawsuitRow) => (s.docket_number ?? "").replace(/\s+/g, "").toLowerCase() || null;
+  // A reporter citation (101 F.4th 526, 2024 WL 3069682, 2024 IL App (1st) 231403-U) is not a docket number.
+  const REPORTER = /\b(f\.?\s?(2d|3d|4th)|f\.?\s?supp|wl|u\.?s\.?|il app|n\.?e\.?\s?(2d|3d)|fed\.?\s?appx)\b/i;
+  const dock = (s: LawsuitRow) => {
+    const raw = s.docket_number ?? "";
+    if (!raw || REPORTER.test(raw)) return null;
+    return raw.replace(/\s+/g, "").toLowerCase();
+  };
   const sig = (s: LawsuitRow) => new Set(normalize(s.caption).split(" ").filter((t) => t.length >= 4 && !/^(action|court|circuit|county|cook|llc|inc|equitybuild|defendants|personal|injury|wrongful|death|administrator|estate|special|deceased)$/.test(t)));
   for (let i = 0; i < suits.length; i++) for (let j = i + 1; j < suits.length; j++) {
     const a = suits[i], b = suits[j];

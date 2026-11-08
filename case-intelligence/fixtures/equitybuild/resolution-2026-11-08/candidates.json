@@ -1,6 +1,6 @@
 {
  "case_id": "0c000000-0000-4000-8000-000000000001",
- "generated_at": "2026-11-08T22:54:54.943Z",
+ "generated_at": "2026-11-08T23:03:25.973Z",
  "counts": {
   "parties": 65,
   "properties": 8,
@@ -854,19 +854,6 @@
    "score": 0,
    "proposal": "distinct",
    "rationale": "same caption but different docket numbers (2018 CH 9098 / 2018 CH 3665)",
-   "left_evidence": [],
-   "right_evidence": []
-  },
-  {
-   "entity_type": "related_lawsuit",
-   "left_id": "9b870ff8-3968-44f8-a3cd-3da97da2040e",
-   "right_id": "86d2a01e-7a46-46b7-abf4-12ad281cfb29",
-   "left_label": "SEC v. EquityBuild, Inc.",
-   "right_label": "SEC v. Equitybuild, Inc.",
-   "rule": "same_caption_different_docket",
-   "score": 0,
-   "proposal": "distinct",
-   "rationale": "same caption but different docket numbers (101 F.4th 526 / 23-1870)",
    "left_evidence": [],
    "right_evidence": []
   },

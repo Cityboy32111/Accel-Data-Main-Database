@@ -24,6 +24,8 @@ has run; see the reports below for how to run each stage. Repository layout: `su
 | [docs/06-extraction-report.md](docs/06-extraction-report.md) | Five-document extraction results, independent verification, defects fixed, tuning queue |
 | [docs/07-extraction-review.md](docs/07-extraction-review.md) | Read-only review: settlement verdict, 10-page entity scorecard, citation accuracy, gate decision, sign-off list |
 | [docs/08-retest-report.md](docs/08-retest-report.md) | Version-2 extractor regression retest on the same 10 pages: changes, side-by-side scorecard, cost, decision, fresh pages for the next check |
+| [docs/09-base44-handoff.md](docs/09-base44-handoff.md) | Private Base44 handoff: sign-in, firm access, read model, private PDF links, review and audit operations |
+| [docs/10-validation-and-readiness-report.md](docs/10-validation-and-readiness-report.md) | Version 2.1 fixes, out-of-sample fresh-page gate, entity alias resolution, enrichment readiness and what authorizes a live pilot |
 
 ## Non-negotiable constraints
 

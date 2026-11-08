@@ -60,6 +60,14 @@ describe("property and lawsuit blocking", () => {
     expect(c.find((x) => x.left_id === "b" && x.right_id === "c")).toMatchObject({ proposal: "distinct" });
     expect(c.find((x) => x.left_id === "d" && x.right_id === "e")).toMatchObject({ rule: "address_token_overlap", proposal: "adjudicate" });
   });
+  it("does not treat a reporter citation as a docket number", () => {
+    const c = blockLawsuits([
+      { id: "a", caption: "SEC v. EquityBuild, Inc.", docket_number: "101 F.4th 526", court: "7th Cir." },
+      { id: "b", caption: "SEC v. Equitybuild, Inc.", docket_number: "23-1870", court: "Seventh Circuit" },
+    ]);
+    // No rule may declare these distinct on a reporter citation; with no distinctive caption tokens they are left for a human.
+    expect(c.find((x) => x.proposal === "distinct")).toBeUndefined();
+  });
   it("keeps same-caption suits with different dockets distinct and flags caption overlap", () => {
     const c = blockLawsuits([
       { id: "a", caption: "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al.", docket_number: "2018 CH 9098", court: "Cook" },

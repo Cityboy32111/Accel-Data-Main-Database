@@ -1,0 +1,1554 @@
+{
+ "totals": {
+  "creditors": {
+   "tp": 6,
+   "fp": 0,
+   "fn": 2
+  },
+  "attorneys": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 0
+  },
+  "organizations": {
+   "tp": 14,
+   "fp": 0,
+   "fn": 7
+  },
+  "properties_or_assets": {
+   "tp": 4,
+   "fp": 0,
+   "fn": 4
+  },
+  "related_proceedings": {
+   "tp": 1,
+   "fp": 1,
+   "fn": 2
+  }
+ },
+ "citations": {
+  "assertions": 43,
+  "quote_match": 43,
+  "claim_support": 43,
+  "both": 43,
+  "modality_correct": 43,
+  "proceeding_correct": 43,
+  "flagged": 0,
+  "material_failures": 0
+ },
+ "key_facts": {
+  "labeled": 63,
+  "captured": 46,
+  "captured_with_status": 46
+ },
+ "perPage": [
+  {
+   "page": "appointment-order p12",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Header line 'Case: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 12 of 29 PageID #:404' is on the page verbatim; object 'Order Appointing Receiver, Dkt. 16' with as_of_date 2018-08-17 matches the document's filing date (the Dkt. 16 document-vs-case date is correct here); modality completed; main case."
+     },
+     {
+      "index": 1,
+      "predicate": "authorized_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Quote matches paragraph 18 ignoring the OCR whitespace artifacts ('t ake', 'Defendants ,'); Receiver authorized to take immediate possession of all personal property wherever located; ordered; no conditions stated on the page; main case."
+     },
+     {
+      "index": 2,
+      "predicate": "authorized_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote matches paragraph 19 ignoring whitespace. Object (real property incl. ownership and leasehold interests and fixtures) is accurate. The conditions field bundles two separate paragraph-19 provisions (the premises-entry prohibition and the primary-residence carve-out) as 'conditions' on the possession authorization; the content is accurate to the page but the entry prohibition is itself a standalone order, and the conditions text omits its 'upon receiving actual notice of this Order' trigger and the removing/destroying/concealing/erasing prongs. Not misleading; counted as supported."
+     },
+     {
+      "index": 3,
+      "predicate": "authorized_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Quote matches paragraph 20 ignoring whitespace; Receiver authorized to change door locks to the real property and premises described above; condition 'In order to execute the express and implied terms of the Order' is the stated purpose clause; ordered; main case."
+     },
+     {
+      "index": 4,
+      "predicate": "ordered_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote matches paragraph 20 verbatim. Object and condition ('unless expressly permitted in advance by the Receiver in writing') are accurate. Minor omission: the order also binds 'any other person acting or purporting to act on their behalf', which the object_value does not mention. Not misleading; counted as supported."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Receiver authorized to take immediate possession of all personal property of the Receivership Defendants, wherever located (para. 18).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1, modality ordered. The illustrative asset categories (ESI, bank/brokerage records and accounts, securities, mortgages, automobiles, etc.) are not enumerated in the object_value but the governing authorization is captured."
+     },
+     {
+      "fact": "Receiver authorized to take immediate possession of all real property of the Receivership Defendants, wherever located, including ownership and leasehold interests and fixtures (para. 19).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2, modality ordered, object includes ownership and leasehold interests and fixtures."
+     },
+     {
+      "fact": "Upon actual notice, all persons other than law enforcement officials acting within their official duties are prohibited from entering the premises, removing anything, or destroying/concealing/erasing anything without the Receiver's express written permission (para. 19).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured only partially and only as a clause inside assertion 2's conditions ('persons barred from premises without Receiver's express written permission, except law enforcement officials'). It sits within an 'ordered' assertion so status is preserved, but the actual-notice trigger and the removal/destruction/concealment/erasure prongs are omitted and there is no standalone ordered assertion for this prohibition."
+     },
+     {
+      "fact": "Individual Receivership Defendants and family members may continue residing in their primary residences until further notice by the Receiver (para. 19).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured in assertion 2's conditions with the 'until further notice by the Receiver' limit; not a standalone assertion."
+     },
+     {
+      "fact": "Receiver authorized to change door locks on the real property and premises (para. 20).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 3, modality ordered, purpose clause carried as condition."
+     },
+     {
+      "fact": "Receivership Defendants and anyone acting on their behalf ordered not to change locks, make duplicate keys, or possess keys during the receivership unless the Receiver expressly permits in advance in writing (para. 20).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 4, modality ordered, with the advance-written-permission exception as condition. 'Any other person acting or purporting to act on their behalf' is not reflected in the object_value."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Entity categories: both labels and retest output are empty for creditors, attorneys, organizations, properties_or_assets and related_proceedings (page contains only role terms: 'the Receiver', 'the Receivership Defendants'). All five categories score 0/0/0, so this page contributes no evidence toward the 85% entity precision target; it does confirm the extractor did not save role words as entities.",
+     "Assertion 2 (index 2): I counted the claim as supported although its conditions field repackages two independent paragraph-19 provisions (entry prohibition; residence carve-out) as conditions on the Receiver's possession authority. A stricter reviewer could treat this as a structural misfit (conditions vs. separate orders), but the text is accurate and does not change the legal effect of what counsel would read.",
+     "Key fact 3 (premises-entry prohibition) marked captured despite being partial: the retest carries it only as a condition clause on assertion 2 and drops the 'upon receiving actual notice' trigger and the removal/destruction/concealment/erasure prongs. If the project's recall rule requires a standalone assertion per operative order, this should be downgraded to not captured.",
+     "Assertion 4 (index 4): object_value names only 'Receivership Defendants' and omits 'any other person acting or purporting to act on their behalf'; counted as supported because the quoted text and the core prohibition are correct, but the scope narrowing is worth a human look.",
+     "Assertion 0 (document_filed) uses the header filing date 08/17/18 as as_of_date for Dkt. 16; this is the correct document date (not a case or related-proceeding date), consistent with the Dkt. 16 date fix under regression test.",
+     "Quote matching for indices 1-3 relied on ignoring the extractor's intra-word whitespace artifacts ('t ake', 't o', 'Defendants ,') that come from the page_text layer; the PDF image text is identical once whitespace is normalized."
+    ]
+   }
+  },
+  {
+   "page": "appointment-order p18",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Receivership Funds / Settlement Fund (pooled receivership funds to be qualified as a taxable Settlement Fund under IRC 468B; labels list it, output.properties is empty)",
+      "Real property in the Receivership Estate (generic reference, no addresses; labels list it, output.properties is empty)"
+     ]
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Header quote is verbatim; as_of_date 2018-08-17 matches the document filing date (Filed: 08/17/18) rather than a case-level date, confirming the Dkt. 16 document-versus-case date fix on this page."
+     },
+     {
+      "index": 1,
+      "predicate": "authorized_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Quote matches para. 39 (stray space before the comma only). The 'upon further Order of this Court ... 28 U.S.C. 2001 and 2004' condition is carried in conditions, so 'ordered' with that condition matches the labels' legal status; counsel should note the authority is prospective ('will be authorized')."
+     },
+     {
+      "index": 2,
+      "predicate": "authorized_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Minor: conditions 'as appropriate' on the page modifies the communications clause of para. 40, not the authorization to make legally required payments; object_value also drops the 'communicating with vendors, investors, governmental and regulatory authorities' half of the paragraph. Not misleading. Grounding was 'fuzzy' with final_confidence 0.68 although the quote is exact on the image (text-layer whitespace artifacts), and needs_review stayed false."
+     },
+     {
+      "index": 3,
+      "predicate": "ordered_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Minor: conditions 'when applicable' on the page qualifies the regulations ('and of the regulations, when applicable, whether proposed, temporary or final'), not the directive as a whole; the directive itself is unconditional ('shall take all necessary steps'). Object_value bundles the administrator designation (Treas. Reg. 1.468B-2(k)(3)(i)) into the same assertion without the specific administrative requirements. Not misleading."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Receiver will be authorized to sell and transfer clear title to all real property in the Receivership Estate, only upon further Order and per 28 U.S.C. 2001 and 2004 (para. 39)",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1; modality ordered with the further-order/2001-2004 condition preserved in conditions. The para. 38 carry-over ('beneficial to the estate ... true and proper value') is not captured but is a tail fragment on this page."
+     },
+     {
+      "fact": "Receiver authorized to manage, maintain, and/or wind down business operations, including legally required payments to creditors, employees, agents, and communicating with vendors, investors, governmental/regulatory authorities (para. 40)",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2 captures the authorization and the payments clause; the communications clause is omitted from object_value and the 'as appropriate' condition is mis-scoped."
+     },
+     {
+      "fact": "Receiver shall take all necessary steps for Receivership Funds to obtain and maintain taxable Settlement Fund status under IRC 468B, including filing elections and statements (para. 41)",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 3, modality ordered; elections/statements filing detail not stated in object_value."
+     },
+     {
+      "fact": "Receiver designated administrator of the Settlement Fund under Treas. Reg. 1.468B-2(k)(3)(i) and must satisfy Treas. Reg. 1.468B-2 requirements: TIN, tax returns and payment, information/reporting/withholding on distributions (para. 41)",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Partial: assertion 3 says the Receiver is to 'act as administrator' and both Treas. Reg. citations are in authorities, but the enumerated administrative duties (TIN, tax returns, withholding) are not captured anywhere."
+     },
+     {
+      "fact": "Receiver shall cause the Settlement Fund to pay taxes consistent with Qualified Settlement Fund treatment (para. 41)",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured; 'Qualified Settlement Fund' appears in assertion 3's object_value only as a status label, not as the pay-taxes directive."
+     },
+     {
+      "fact": "Receivership Defendants shall cooperate with the Receiver in fulfilling the Settlement Funds' obligations under Treas. Reg. 1.468B-2 (para. 41)",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured; no assertion or entity references the Receivership Defendants' cooperation duty."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Properties_or_assets FNs: both label items ('Receivership Funds / Settlement Fund' and 'Real property in the Receivership Estate') are defined collective terms with no address, account, or identifier. Counted as 2 FN per the fixed labels, but a reviewer may decide generic estate-wide references should not be scored as asset entities, which would make this category 0/0/0.",
+     "Assertion 1 modality: the order says the Receiver 'will be authorized' upon further Order; scored 'ordered' as correct because the condition is explicit and the labels use legal_status 'ordered', but 'conditional' or 'prospective' would also be defensible.",
+     "Assertions 2 and 3 conditions ('as appropriate', 'when applicable') are lifted from sub-clauses that modify narrower phrases on the page; scored as supported and non-material, but a stricter reviewer could mark claim_supported false for mis-scoped conditions.",
+     "Key fact 4 (administrator designation plus enumerated Treas. Reg. 1.468B-2 duties) scored captured=true on the strength of 'act as administrator' in assertion 3 even though the TIN/tax-return/withholding duties are absent; a stricter reviewer could mark it partial/false.",
+     "Assertion 2 was grounded 'fuzzy' at final_confidence 0.68 without needs_review, although the quote is exact on the page image; the fuzzy match appears to come from text-layer whitespace artifacts (e.g., 'T he Receiver', 'wind -\\ndown'). Consider whether the lint should flag sub-0.7 confidence for review.",
+     "Document-versus-case date check for Dkt. 16: assertion 0 carries as_of_date 2018-08-17 (the filing date in the header) under predicate document_filed with subject 'case'; this is the document date, not a case-level event date, and appears correct on this page."
+    ]
+   }
+  },
+  {
+   "page": "status-report-1 p13",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "EquityBuild (named on page as source of disorganized/incomplete documentation inherited by the Receiver, with unnamed former counsel; retest output.parties is empty)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "89 properties encumbered by 24 institutional mortgage loans (aggregate, unnamed; ~$55,441,000 outstanding principal) - retest output.properties is empty; the figures appear only inside assertion 1"
+     ]
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Header quote 'Case: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 13 of 30 PageID #:966' is verbatim on the page; Dkt. 107 filed 10/30/18 in the main case is supported and as_of_date 2018-10-30 correctly uses the document filing date rather than a case date. The title text 'Receiver's First Status Report (Third Quarter 2018)' is not printed on page 13 itself and comes from document metadata, consistent with how document_filed assertions were treated on earlier scorecards."
+     },
+     {
+      "index": 1,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote matches the page once text-layer spacing artifacts ('in stitutional', 'record ed', 'a n', '$ 55,441,000') are ignored. 24 loans / ~12 institutions / 89 properties / ~$55,441,000 are exactly as printed; conditions 'thus far determined' and the footnote-8 evaluation of other lenders' interests are both on the page; modality 'reported' is correct for a Receiver's status report."
+     },
+     {
+      "index": 2,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote is verbatim (hyphenation/spacing aside). 'At least 10' of the 24 loans held by CMBS trustees is stated exactly; trustees unnamed on page and the assertion does not name any. No problem."
+     },
+     {
+      "index": 3,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote verbatim. 'Substantially all' qualifier preserved; conditions 'as of the date of this filing' match the page sentence. The page's added context (two-month period of repeated requests; files received in October) is omitted but nothing stated is wrong."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "24 institutional mortgage loans from ~12 institutions recorded against 89 properties, aggregate outstanding principal ~$55,441,000",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1; figures exact, 'thus far' and 'approximately' qualifiers preserved; modality reported."
+     },
+     {
+      "fact": "At least 10 of the 24 institutional loans are held by trustees for CMBS portfolios",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2; 'at least 10' preserved; no trustee names invented."
+     },
+     {
+      "fact": "As of filing date the Receiver has obtained substantially all loan documents from institutional lenders, after substantial correspondence and repeated requests over a two-month period",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 3 captures the core fact with 'substantially all' and the as-of-filing condition; the two-month-period / repeated-requests detail and the enumerated document types (loan agreements, mortgages, promissory notes) are not carried into the assertion."
+     },
+     {
+      "fact": "Many institutional loan files were received during October, nearly six weeks after the Receiver's appointment; before that the Receiver and counsel assembled loan information from other reports",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not present anywhere in the retest output (no assertion, no entity). Sentence is on the page and continues to page 14."
+     },
+     {
+      "fact": "Receiver's discovery of encumbrances, debt service and loan balances complicated by apparent competing security interests and five listed factors (recalcitrant lenders, cross-collateralization, array of liens incl. investors' erroneous first-position belief, disorganized EquityBuild documentation, Defendants' scheme)",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured. This is the largest omission on the page: the entire first paragraph, including the competing-security-interest statement that bears on lien-priority disputes, is absent from the output. Omission only; nothing contrary is asserted."
+     },
+     {
+      "fact": "Receiver is evaluating whether other lenders' interests should be characterized in the same fashion as institutional mortgage loans (footnote 8)",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured only inside the conditions field of assertion 1 ('Receiver is evaluating whether other lenders' interests should be characterized the same way'), not as a standalone assertion; ongoing/unresolved status preserved."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Citation summary: 4/4 quotes on page, 4/4 claims supported as written, 4/4 modality and proceeding correct, 0 flagged for review, 0 material failures. Combined citation accuracy for this page = 100%.",
+     "Entity precision is undefined for this page (0 TP, 0 FP across all five categories) and should be treated as 'insufficient evidence' rather than a pass or fail; entity recall is 0/2 on the two labeled entities (EquityBuild; the 89-property aggregate).",
+     "EquityBuild counted as an organization FN per the frozen labels. However, EquityBuild is the receivership defendant/main-case party and the extraction prompt may deliberately not re-save main-case parties from every body page (output.parties was empty, not wrong). A human should confirm whether main-case defendants named in passing on body pages are expected in output.parties; if not, this FN should be waived.",
+     "The '89 properties encumbered by 24 institutional mortgage loans' label is an aggregate with no addresses or receiver property numbers. The retest captured all of its figures in assertion 1 rather than as a properties entity. Counted as a properties FN per labels, but a human should confirm whether unnamed aggregates belong in output.properties or whether assertion-level capture is the intended behavior (if the latter, the properties FN should be waived and recall becomes 0/1).",
+     "Assertion 0's object_value includes the document title '(Third Quarter 2018)', which is not printed on page 13; treated as supported because document_filed assertions are grounded on the ECF header and document metadata under the earlier scorecard convention. Confirm this convention still applies for the fresh-page gate.",
+     "Key fact 6 (footnote 8) was counted as captured because it appears verbatim in meaning inside assertion 1's conditions; if the gate requires standalone assertions for footnoted facts, change to not captured.",
+     "Key fact 3 was counted as captured although the two-month-period and repeated-requests detail is absent; the legally operative content ('substantially all' documents obtained as of filing) is intact.",
+     "Key-fact recall for this page: 4 of 6 captured with legal status preserved; the two misses (October receipt of loan files ~six weeks post-appointment; the complicating-factors paragraph incl. competing security interests) are omissions, not errors, so no material_errors are recorded. Counsel relying on this page's extraction would not see the competing-security-interest caveat, which may matter for lien-priority analysis; flag as a recall gap rather than a misleading statement."
+    ]
+   }
+  },
+  {
+   "page": "status-report-1 p3",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [
+      "Rachlis Duff Adler Peel & Kaplan, LLC (alias RDAPK)",
+      "BrookWeiner LLC",
+      "Whitley Penn LLP",
+      "Prometheum Technologies, Inc."
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "SEC (labels list it; on this page it appears only inside the precedent caption 'SEC v. Elliott', which the retest placed under authorities)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Header quote verified on page (Document #: 107 Filed: 10/30/18); as_of_date 2018-10-30 is the filing date, correctly distinguished from the August 17, 2018 appointment date. The title text 'Receiver's First Status Report (Third Quarter 2018)' is document metadata rather than on-page text, but Dkt. 107 and the filing date are on the page."
+     },
+     {
+      "index": 1,
+      "predicate": "appointed_on",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote verified. Receiver appointed August 17, 2018 (Docket No. 16); docket number carried in quote but not in object_value. Subject is 'case' rather than the Receiver because the Receiver is not modeled as a party; not misleading."
+     },
+     {
+      "index": 2,
+      "predicate": "retained_as",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. RDAPK retained as special counsel August 17, 2018; quote verified (smart quotes ignored)."
+     },
+     {
+      "index": 3,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Order approving RDAPK's rates entered August 20, 2018 (Docket No. 19); quote verified ignoring stray space before comma; modality 'approved' matches an entered order."
+     },
+     {
+      "index": 4,
+      "predicate": "retained_as",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. BrookWeiner LLC retained as accountant August 23, 2018; quote verified."
+     },
+     {
+      "index": 5,
+      "predicate": "retained_as",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Whitley Penn LLP retained as accountant August 23, 2018; same quote verified."
+     },
+     {
+      "index": 6,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote verified. object_value cites Dkt. 45 which is on the page immediately after the quoted sentence ('(Docket No. 45)') though omitted from the quote itself; supported by the page."
+     },
+     {
+      "index": 7,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Same as index 6 for Whitley Penn LLP; supported."
+     },
+     {
+      "index": 8,
+      "predicate": "retained_as",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote verified; sentence is truncated at the page break and the output says so in object_value ('role continues on next page') with as_of_date null and confidence 0.7. Past-tense 'retained' supports modality completed. needs_review is false despite the truncation; a review flag would have been prudent but the claim as written is accurate."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "The Receiver was appointed by the Court on August 17, 2018 (Docket No. 16).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1 (appointed_on 2018-08-17, modality completed); Docket No. 16 appears in the quote only."
+     },
+     {
+      "fact": "The Receiver retained Rachlis Duff Adler Peel & Kaplan, LLC (RDAPK) as special counsel on August 17, 2018.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2 plus party p1 with alias RDAPK and role counsel."
+     },
+     {
+      "fact": "On August 20, 2018, the Court entered the Order approving RDAPK's rates (Docket No. 19).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 3, modality approved, Dkt. 19 in object_value."
+     },
+     {
+      "fact": "The Receiver retained BrookWeiner LLC and Whitley Penn LLP as accountants on August 23, 2018.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertions 4 and 5, one per firm; party_roles recorded as 'other' rather than an accountant role."
+     },
+     {
+      "fact": "On August 29, 2018, the Court entered the Order approving the accountants' respective rates (Docket No. 45).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertions 6 and 7, modality approved, Dkt. 45 in object_value."
+     },
+     {
+      "fact": "The Receiver retained Prometheum Technologies, Inc. (role and date continue on the following page).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 8 and party p4; truncation acknowledged in object_value, as_of_date left null."
+     },
+     {
+      "fact": "The Receiver asserts, citing authority, that he is an officer, fiduciary, and agent of the court, is neutral, and does not work for the governmental agency that sought his appointment or any other party.",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured as an assertion; only the four supporting authorities are listed under output.authorities. This is a legal-position statement in the background section, not an operative case event."
+     },
+     {
+      "fact": "The Receiver's stated purpose is to collect and marshal all receivership assets for the benefit of investors, creditors, and other victims of the fraud and wrongdoing.",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured; the sentence begins on page 2 and only its tail appears on this page."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "SEC counted as an organization FN because the labels are fixed, but on this page 'SEC' appears only inside the precedent caption 'SEC v. Elliott' and the retest correctly placed that citation under authorities; a reviewer may reasonably treat it as not an entity on this page, which would make organizations 4 TP / 0 FP / 0 FN.",
+     "Assertion 0 (document_filed) was accepted as supported: Dkt. 107 and the 10/30/18 filing date are in the page header, while the report title comes from document metadata rather than on-page text. The filing date is correctly kept separate from the August 17, 2018 appointment date (the Dkt. 16 regression pattern does not recur here).",
+     "Assertion 1 uses subject 'case' for the Receiver's appointment because the Receiver is not modeled as a party; accepted as not misleading.",
+     "Assertions 6 and 7 quote the sentence without the trailing '(Docket No. 45)' that object_value relies on; the docket number is on the page directly after the quote, so the claim was scored as supported.",
+     "Assertion 8 (Prometheum) has needs_review false despite the truncated sentence; the claim as written is accurate and self-limiting, so not scored as an error, but a human may prefer a review flag.",
+     "Key facts 7 and 8 (legal-position statement about officer/fiduciary status and the receiver's stated purpose) were scored as not captured; whether the extraction schema is expected to record argued legal positions and partial carry-over sentences should be confirmed, since excluding them would make key-fact recall 6/6.",
+     "BrookWeiner LLC and Whitley Penn LLP carry party_roles 'other' rather than an accountant-specific role; the retained_as assertions make the role clear, so no FP or error was recorded."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1806 p5",
+   "scores": {
+    "creditors": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [
+      "BMO (p1, Group 7 secured lender; SEC opposes its priority claim)",
+      "DLP (p2, Group 2 lender used as factual comparator)",
+      "BC57 (p4, lender/appellant in footnote 6)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "Group 7 investors (the investor-lender claim group the SEC asks to be found to have priority in Properties 2, 69, 70, 73; appears only inside assertion 0 text, not saved as a creditor/party)"
+     ]
+    },
+    "attorneys": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Benjamin J. Hanauer (a1, represents p3 U.S. Securities and Exchange Commission; law_firm null but represents_party_keys correctly points at the SEC)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [
+      "U.S. Securities and Exchange Commission (p3, alias SEC, plaintiff)",
+      "BMO (p1)",
+      "DLP (p2)",
+      "BC57 (p4)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "Equitybuild, Inc. (receivership defendant named in the appeal caption in footnote 6; appears only inside the related_lawsuit caption r1, not as a party)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Property 2 (pr2, receiver_property_number 2)",
+      "Property 69 (pr69)",
+      "Property 70 (pr70)",
+      "Property 73 (pr73)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "SEC v. Equitybuild, Inc., Appeal No. 23-1870 (r1, Seventh Circuit, relationship appeal)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "requested",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Prayer for relief quoted verbatim; modality 'requested' and main-case scope are correct; as_of_date 2024-12-16 matches the Dated line and the filed date."
+     },
+     {
+      "index": 1,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Supported as written: object_value states 'SEC argues ...' and modality 'argued' is right. Minor structural quirk: subject_key is p1 (BMO) although the position is the SEC's about BMO; the object text makes the attribution clear, so not misleading."
+     },
+     {
+      "index": 2,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Footnote 6 quoted exactly; 'reported' modality and related_lawsuit scope (Appeal No. 23-1870) are correct."
+     },
+     {
+      "index": 3,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Header quote is on the page; as_of_date 2024-12-16 equals the Filed: 12/16/24 header and the Dated line (no document-vs-case date confusion). The full title 'Of BMO, Citibank, And Sabal Capital Operations, LLC' is not on page 5 but was verified against page 1 of the same PDF."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "SEC asks the Court to find that for Group 7 Properties 2, 69, 70, and 73 the investors have priority and are entitled to a distribution of sale proceeds.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 0, modality 'requested', main case; four properties saved. The investors themselves are not saved as a creditor party."
+     },
+     {
+      "fact": "BMO's position statement (ECF 1794 at 7-15) argues, among other points, that BMO reasonably relied on the fraudulent release and payoff statement.",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "No assertion covers BMO's own argument list or the ECF 1794 reference; BMO is only saved as a creditor with a treatment_summary describing the SEC's request."
+     },
+     {
+      "fact": "The Court previously advised (ECF 1679 at 20 n.11) that decisions on one property group are not preclusive for other groups but similar facts will garner a similar result.",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured; output.authorities is empty and no assertion references ECF 1679."
+     },
+     {
+      "fact": "SEC contends there is no meaningful difference between DLP in Group 2 and BMO in Group 7, that the Court already considered BMO's arguments under Illinois and Seventh Circuit law, and the outcome should be the same.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1, modality 'argued'. The 'Court has already considered BMO's arguments' clause is omitted from object_value but the core contention and its status as SEC argument are preserved."
+     },
+     {
+      "fact": "BC57 raised each of the same arguments before the Seventh Circuit in its appellate brief (Appeal No. 23-1870, Docket 8, June 14, 2023, pp. 13-30, 32-41).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2 ('reported', related_lawsuit r1) plus r1 entity. Docket 8, the June 14, 2023 brief date and page cites are not recorded."
+     },
+     {
+      "fact": "The response is dated December 16, 2024, signed by Benjamin J. Hanauer as Attorney for Plaintiff SEC, and filed 12/16/24 as Document 1806, page 5 of 6.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 3 (document_filed, completed, as_of 2024-12-16) plus attorney a1 representing p3."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Entity precision 13/13 (100%) with zero FPs; recall 13/15 (86.7%). The two misses are 'Group 7 investors' (creditor) and 'Equitybuild, Inc.' (organization). A reviewer could argue the investor claim group is a collective rather than a named creditor; I followed the labels and counted it as an FN.",
+     "BC57 is saved as creditor_type 'secured_lender' with claim_group null. On this page BC57 appears only as the appellant in footnote 6; the lender role is correct from the wider case but is not stated on page 5. Counted as TP per labels.",
+     "All four properties carry disposition 'sold'. Supported only indirectly by 'proceeds of the properties' sale'; no explicit sale order is on the page. Treated as supported, not an error.",
+     "Assertion 1 is keyed to subject p1 (BMO) although it records the SEC's argument about BMO. The object_value says 'SEC argues', so it was scored as supported and non-material; the pipeline may want party_position assertions keyed to the party holding the position.",
+     "Assertion 3's object_value includes the full filing title 'Of BMO, Citibank, And Sabal Capital Operations, LLC', which is not on page 5. I verified it against page 1 of the PDF and treated it as supported from document context rather than page text.",
+     "Two label key_facts (BMO's ECF 1794 argument list and the ECF 1679 n.11 non-preclusion quote) are not captured. Neither produces a misleading statement, but the ECF 1679 quote is the legal basis for the SEC's argument and output.authorities is empty; this is a recall gap rather than a material error.",
+     "Citation accuracy for this page: 4/4 quotes on page, 4/4 claims supported as written, 0 flagged for review, 0 material failures."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1806 p4",
+   "scores": {
+    "creditors": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "BMO (p1, Group 7, institutional_lender)",
+      "Direct Lending Partners / DLP (p2, Group 2, institutional_lender)",
+      "BC57 (p5, Group 1, institutional_lender)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "BMO (p1)",
+      "Direct Lending Partners (p2, alias DLP)",
+      "EquityBuild Finance (p3)",
+      "BC57 (p5)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Collateral Agency and Servicing Agreements (labels list it as an identified document/asset; output.properties is empty) - see judgment_calls, arguably not a property/asset at all"
+     ]
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [
+      "5201 Washington, 2024 IL App (1st) 231403-U saved as related_lawsuit r1 with relationship 'appeal' and court 'Illinois Appellate Court, First District' - on this page it is cited only as legal precedent (footnote 5) and the labels place it under authorities; nothing on the page supports an 'appeal' relationship to the receivership"
+     ],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote 'BMO simply repeats the exact same arguments made by BC57 in Group 1' is verbatim on page 4. Object (SEC argues BMO re-argues BC57/DLP arguments, including release by payment to EquityBuild Finance) is supported by the 'BMO thus re-argues that: (a)...' sentence. Modality argued and main case are correct. Minor: only argument (a) is captured; (b) Illinois Fiduciary Obligations Act and (c) are omitted."
+     },
+     {
+      "index": 1,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote is verbatim (first full sentence on the page). Object is supported: the page says the release was not signed by the holder of the prior recorded mortgage but by Shaun Cohen as President of EquityBuild Finance (ECF 1794-4). Modality argued (SEC characterization) is appropriate. Subject/predicate are awkward: this is an SEC factual assertion about the release, not EquityBuild Finance's own 'party_position' - EquityBuild Finance is not a litigant advancing a position here. Content is accurate so not scored as a failure."
+     },
+     {
+      "index": 2,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote matches (en dashes and curly apostrophe are formatting-only differences). Object ('Court found for Group 2 investors over DLP; EquityBuild Finance lacked authority to release the mortgage') is supported by 'In deciding for the Group 2 investors over DLP' and 'lacked the authority - actual or apparent' (ECF 1679 at 21-25). Modality reported (prior court ruling as reported by SEC) is correct; main case is correct. ECF 1679 pin cites and the 'different entity'/assignee reasoning are not captured."
+     },
+     {
+      "index": 3,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote is verbatim from footnote 5. Object (SEC argues 5201 Washington addressed whether subsequent purchasers could rely on a recorded release as bona fide purchasers and is distinguishable) is supported. Modality argued is correct. Proceeding label '5201 Washington' is internally consistent with the described holding, but it inherits the mis-typed related_lawsuit r1 (relationship 'appeal'); predicate 'status' is a poor fit for a description of a precedent's holding. The footnote's further observation that BMO's Position Statement does not cite 5201 Washington or assert bona fide purchaser status is not captured."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Purported release was not signed by the mortgage holders; signed by Shaun Cohen as President of EquityBuild Finance (ECF 1794-4).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1 captures it with modality argued; ECF 1794-4 record cite not captured; Shaun Cohen saved as person party p4."
+     },
+     {
+      "fact": "Court held for Group 2 investors over DLP (ECF 1679): EquityBuild Finance was a 'different entity', so release could not bind mortgagees unless EBF was the Individual Investors' assignee or legal representative.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2 (modality reported) and p2 treatment_summary capture the outcome for Group 2 investors over DLP; the 'different entity' / assignee-or-legal-representative reasoning and ECF 1679 at 20 n.11, 21 pin cites are not captured. Partial."
+     },
+     {
+      "fact": "Court analyzed the Collateral Agency and Servicing Agreements and found EBF lacked actual or apparent authority (ECF 1679 at 21-25); same agreements at issue for BMO and BC57.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Lack of actual/apparent authority captured in assertion 2 as reported; the Collateral Agency and Servicing Agreements and their linkage to BMO/BC57 are not captured anywhere (properties empty, no assertion). Partial."
+     },
+     {
+      "fact": "Facts are worse for BMO than DLP because the fraudulent release in BMO's situation was never recorded.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured only in p1 creditor treatment_summary ('SEC argues ... fraudulent release never recorded') and indirectly in assertion 3; no dedicated assertion. 'SEC argues' preserves argued status."
+     },
+     {
+      "fact": "BMO fails to acknowledge the Group 2 (or Group 1) holdings and repeats the arguments of BC57 (ECF 1152 at 15-28) and DLP (ECF 1559 at 2-6).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 0 captures the repetition of BC57/DLP arguments as argued; the 'fails to acknowledge' point and the ECF 1152 / ECF 1559 cites are not captured."
+     },
+     {
+      "fact": "BMO re-argues (a) release by payment to EBF, (b) Illinois Fiduciary Obligations Act establishes priority, (c) investors expressly authorized EBF to [continues].",
+      "captured": false,
+      "legal_status_preserved": true,
+      "note": "Only argument (a) appears (assertion 0). The Illinois Fiduciary Obligations Act argument (b) and argument (c) appear nowhere in the output; authorities list is empty. Scored as not captured because two of three arguments are missing."
+     },
+     {
+      "fact": "BMO's Position Statement does not cite 5201 Washington or assert bona fide purchaser status.",
+      "captured": false,
+      "legal_status_preserved": true,
+      "note": "Not captured. Assertion 3 says 5201 Washington is 'distinguishable' but omits the footnote's observation that BMO neither cites it nor claims bona fide purchaser status."
+     }
+    ],
+    "material_errors": [
+     "related_lawsuits r1 saves '5201 Washington' (2024 IL App (1st) 231403-U) as a related proceeding with relationship 'appeal'. Page 4 cites it only as legal precedent in footnote 5; nothing on the page says it is an appeal in or from the receivership. Counsel could read this as an appellate proceeding connected to the EquityBuild case. It belongs under authorities (output.authorities is empty)."
+    ],
+    "judgment_calls": [
+     "Properties FN: the labels list 'Collateral Agency and Servicing Agreements' under properties_or_assets while noting it is a document, not real property. I counted it as an FN per the fixed labels, but a reviewer may reasonably decide it should not be a properties_or_assets item at all, in which case properties is 0/0/0 and the only entity error is the 5201 Washington FP.",
+     "Related-proceeding FP: 5201 Washington may in fact concern an EquityBuild-related property (the labels note this), so a reviewer could treat it as a related proceeding rather than an authority. Even then, the 'appeal' relationship has no support on this page; I scored it FP per the labels' placement under authorities.",
+     "Assertion 1 attributes the Shaun Cohen signature fact to EquityBuild Finance as a 'party_position'. The content and quote are accurate, so I scored it supported, but the subject/predicate framing is wrong (it is the SEC's factual contention, not EBF's litigation position). A reviewer may want this counted as a non-material predicate error.",
+     "Assertion 3 uses predicate 'status' with proceeding scope related_lawsuit r1 to describe what 5201 Washington held. I scored proceeding_correct true because the label is internally consistent with the holding described, but if the reviewer treats r1 as mis-typed (see material_errors) they may flip proceeding_correct to false for this assertion.",
+     "Output.authorities is empty: ECF 1679 (controlling prior Group 2 ruling), the Illinois Fiduciary Obligations Act and 5201 Washington are all omitted from authorities. Per the scoring rules authorities are neither TP nor FP, but the omission of the Fiduciary Obligations Act argument contributes to the two key-fact misses.",
+     "Shaun Cohen is saved as a person party (p4). Labels exclude individuals from entity lists; he is not scored in any category (no FP) since parties of kind person are not an organizations item.",
+     "Summary metrics for this page: quote match 4/4, claim support 4/4 (combined citation accuracy 100%); entity TP 7, FP 1, FN 1 (precision 87.5%, recall 87.5%); key facts fully or partially captured 5/7 with legal status preserved in all captured cases."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1938 p3",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Pennington (settlement counterparty whose claims/objections/rights against the Receiver, Receivership Estate and WPD are released; receives nothing further) - saved only as a party (p2, kind person, role 'other'), not in output.creditors"
+     ]
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "WPD (output p1, kind organization)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": true,
+      "problem": "None. Header line 'Case: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 3 of 8 PageID #:127942' is on the page; as_of_date 2026-01-05 matches the stamped filing date; modality completed and main-case scope are correct."
+     },
+     {
+      "index": 1,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": true,
+      "problem": "None. Quote appears verbatim in term (d). Object value merges terms (c) and (d) (resolves all disputes / releases all claims; Pennington receives nothing further); conditions 'without any party admitting liability; subject to Court approval of the Settlement' are supported by term (c) and the motion posture; modality proposed is correct for a settlement awaiting approval."
+     },
+     {
+      "index": 2,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Quote is verbatim from paragraph 7; 'argued' modality fits the Receiver's submission that the Settlement is fair, reasonable, in the estate's best interests and should be approved. Omits the 'savings of time and resources' clause (not misleading)."
+     },
+     {
+      "index": 3,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None material. Quote is verbatim from paragraph 8; the notice plan (email service on claimants, public availability) is supported and 'proposed' fits a forward-looking notice undertaking. Predicate 'party_position' is a loose fit for a notice/service procedure, and the ECF-service component is omitted."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Settlement term (c): without any party admitting liability, the Settlement resolves all disputes between the Receiver, the Receivership Estate, WPD, and Pennington.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured in assertion 1 (object value 'releasing all claims between Receiver, Receivership Estate, WPD and Pennington' plus condition 'without any party admitting liability'), modality proposed. Terms (c) and (d) are merged into one assertion rather than stated separately."
+     },
+     {
+      "fact": "Settlement term (d): all claims, objections, or rights between the parties are released, compromised, and waived, such that Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured in assertion 1 with the verbatim 'nothing further' quote; modality proposed and subject to Court approval preserved."
+     },
+     {
+      "fact": "The Receiver submits that the Settlement is fair and reasonable, in the estate's best interests, will save time and resources, and should be approved.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured in assertion 2 as an 'argued' party_position (labels say 'requested'; equivalent non-ordered status). The savings-of-time-and-resources clause is omitted."
+     },
+     {
+      "fact": "Legal standard argued: a receiver's settlement is within the receiver's broad discretion and should be approved if fair; the court's fairness determination is within its sound discretion and not overturned absent clear abuse of discretion (Gordon v. Dadante; Sterling v. Stewart).",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Both authorities are listed under output.authorities with correct citations, but no assertion captures the legal-standard proposition itself. Not misleading, but the standard is not retrievable as a fact."
+     },
+     {
+      "fact": "The Receiver will provide notice: ECF service, email service on each claimant who submitted claims, and public availability of the motion (sentence continues on next page).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured in assertion 3 (email service on claimants and public availability), modality proposed. ECF-service component omitted; predicate 'party_position' is a loose fit for a notice procedure."
+     }
+    ],
+    "material_errors": [
+     "Pennington is omitted from output.creditors even though the page frames the Settlement as releasing Pennington's claims, objections and rights against the Receiver, the Receivership Estate and WPD so that Pennington receives nothing further. Pennington is saved only as a party with role 'other'; counsel filtering the creditor table for released/compromised claimants would miss this settlement counterparty. (Same creditor-omission pattern flagged for Dkt. 1806.)"
+    ],
+    "judgment_calls": [
+     "Pennington as a creditor is itself a label judgment: Pennington is a defined term whose full name and nature are not on page 3; the labels treat it as a creditor because its claims against the estate are released for no further payment. If the project rule requires an asserted claim amount or proof of claim, this FN could be downgraded to a party-only miss.",
+     "Output tags Pennington as kind 'person' with no support on the page (the labels say individual vs entity is not stated). Not scored as a wrong-type FP in organizations because the labels do not list Pennington as an organization, but a human should confirm the kind once the full name appears on another page.",
+     "Assertion 1 merges settlement terms (c) and (d) into a single 'treatment' assertion; counted as capturing both key facts, but a stricter reviewer could count term (c) ('resolves all disputes') as only partially captured.",
+     "Key fact 4 (legal standard from Gordon v. Dadante and Sterling v. Stewart) marked not captured because no assertion states the proposition; the two citations are correctly listed under authorities, which are neither TP nor FP under the scoring rules.",
+     "Assertion 3's predicate 'party_position' for the Receiver's notice/service plan is a loose predicate choice; scored as supported because the claim text, quote, modality and proceeding are all correct.",
+     "related_proceedings is empty in both labels and output; the State Court Action named in the motion title is not identified on this page, so no FN was counted. The main receivership case appears only as the proceeding scope, not as a related proceeding."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1938 p4",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Michael Rachlis (Rachlis Duff & Peel, LLC)",
+      "Jodi Rosen Wine (Rachlis Duff & Peel, LLC)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 2,
+     "tp_items": [
+      "Rachlis Duff & Peel, LLC"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "SEC (named in para. 9 as consenting to the relief; absent from output.parties entirely)",
+      "Pennington (labels list under organizations with entity type flagged as unstated; output saved it as kind=person, role 'other', so it is absent from the organizations list)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Header line matches verbatim; Dkt. 1938 filed 01/05/26, as_of_date 2026-01-05, main case, modality completed."
+     },
+     {
+      "index": 1,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Para. 9 verbatim; SEC consent is the Receiver's report, so modality 'reported' is correct."
+     },
+     {
+      "index": 2,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. WHEREFORE item (b) verbatim; correctly kept as 'requested', not approved. Predicate 'status' is a loose fit for a prayer-for-relief item (relief_requested would be more precise) but the claim as written is accurate."
+     },
+     {
+      "index": 3,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. WHEREFORE item (d) verbatim; 'requested' preserved."
+     },
+     {
+      "index": 4,
+      "predicate": "counsel_for",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote matches the signature block (ignoring line breaks). The quote itself does not contain the word 'Receiver'; the claim rests on the WHEREFORE clause ('the Receiver seeks the following relief') followed by 'Respectfully submitted, /s/ Michael Rachlis' on the same page. Output correctly marks origin 'inferred' at 0.6 confidence. represents_party_keys is empty because the Receiver is not saved as a party."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Notice of the motion given by posting to the Receivership website https://rdaplaw.net/equitybuild-receivership/",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured in any assertion or entity. The notice sentence (tail of the paragraph continuing from page 3) was skipped; page_text does contain it with the text-layer split 'equitybuild - receivership/'."
+     },
+     {
+      "fact": "Receiver conferred with counsel for the SEC, which consents to the relief requested",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1, modality reported. SEC is not saved as a party, so the fact exists only as a case-level assertion."
+     },
+     {
+      "fact": "Receiver asks for a finding that adequate and fair notice was provided to all interested and potentially interested parties (relief item a)",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Relief item (a) not captured."
+     },
+     {
+      "fact": "Receiver asks for an order finding the Settlement between the Receiver and Pennington fair, reasonable, and in the best interests of the Receivership Estate (relief item b)",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2, modality requested; not stated as approved."
+     },
+     {
+      "fact": "Receiver asks for an order providing each interested party a full and fair opportunity to assert interests and objections (relief item c)",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Relief item (c) not captured."
+     },
+     {
+      "fact": "Receiver asks for an order finding either that no objections were filed or that the Settlement is approved over objections, plus other relief the Court deems fair and equitable (relief items d and e)",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 3 captures item (d) as requested; catch-all item (e) is not separately captured, which is immaterial."
+     },
+     {
+      "fact": "Motion dated January 5, 2026 and signed by Michael Rachlis of Rachlis Duff & Peel, LLC on behalf of the Receiver",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 0 (filed 01/05/26, as_of 2026-01-05) plus assertion 4 (Michael Rachlis counsel_for Receiver) plus attorney a1 with law_firm Rachlis Duff & Peel, LLC. Document date and filing date coincide on this page, so no document-versus-case date issue arises."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Pennington entity type: the page never says whether Pennington is a person or a company. Labels placed it under organizations with the type explicitly flagged as unstated; the retest saved it as kind=person with role 'other'. Scored as an organizations FN per the frozen labels, but a human should confirm Pennington's actual type from the body of Dkt. 1938 or the state-court caption before treating this as a model error. If Pennington is in fact an individual, organizations becomes tp1 fp0 fn1 (SEC only).",
+     "SEC omission: the SEC appears only as 'counsel for the SEC' consenting to relief. Labels count it as an organization on the page; the retest captured the consent fact as a case-level assertion but did not save the SEC as a party. Counted as FN; the fact itself is not lost.",
+     "page_kind: retest says 'signature_block'; labels say 'mixed'. The page carries paragraph 9, the full WHEREFORE prayer (items a-e), and the signature block. If downstream logic de-prioritizes signature_block pages for assertion extraction, this classification likely explains why relief items (a) and (c) and the website-notice fact were dropped. Not a counsel-misleading error, but worth checking as a systematic cause of the 4/7 key-fact recall.",
+     "Assertion 4 (counsel_for Receiver) is marked 'inferred' at 0.6 and needs_review=false. Support comes from page context (WHEREFORE clause plus 'Respectfully submitted'), not the quoted span. Scored as supported; a stricter reviewer might require needs_review=true for inferred role assertions.",
+     "Predicate 'status' used for WHEREFORE relief items (assertions 2 and 3). Content and modality are correct; only the predicate label is loose. Not scored as a failure.",
+     "Entity precision on this page is 100% (3/3 across scored categories) but the sample is small (3 saved items); entity recall is 3/5 (60%) driven by the two organization misses. Citation accuracy 5/5 quote match and 5/5 claim support."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1967 p15",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Header line 'Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 15 of 273 PageID #:128345' is verbatim on the page; filing of Dkt. 1967 on 2026-06-30 in the main case is correct and 'completed' is the right modality."
+     },
+     {
+      "index": 1,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Quote 'must complete and submit a proof of claim on or before July 1, 2019 [later extended to December 31, 2019]' matches the page ignoring whitespace. Object value (bar date, extension, Jan 1 2010 - Aug 17 2018 claim period) and conditions are all on the page. 'reported' is right: the motion is describing the Court-approved process as cited to Dkt. 241-1 at 13. Minor: predicate 'status' on subject 'case' is a generic bucket for a process-description fact, but it does not misstate anything."
+     },
+     {
+      "index": 2,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Quote '[f]ailure to submit supporting documentation may result in your claim being rejected or reduced' is on the page (grounder marked it fuzzy only because of the spaced bracket '[ f ]' in page_text). All three propositions in the object value (documentation and sworn attestation required; rejection/reduction risk; no guaranteed distribution) and the conditions text (own form, designated claims portal, by the bar date) appear on the page. Not flagged despite final_confidence 0.68; nothing on the page contradicts it."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Court-approved POC process required submission of a proof of claim on or before July 1, 2019, later extended to December 31, 2019.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1 object value and quote carry both the original bar date and the extension; modality 'reported' matches the label."
+     },
+     {
+      "fact": "Proofs of claim covered claims arising between January 1, 2010 and August 17, 2018.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured in assertion 1 object value and conditions."
+     },
+     {
+      "fact": "Claimants advised that the distribution plan would likely observe distinctions between competing claimant classes and that recovery may be affected by ability to produce documentation.",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured anywhere. Assertion 2 mentions documentation being required, but the claimant-class distinction advisory (Dkt. 241-1 at 12) is absent. Recall gap, not an error."
+     },
+     {
+      "fact": "Submission of a proof of claim does not guarantee receipt of a distribution.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2 object value: 'submission does not guarantee a distribution'."
+     },
+     {
+      "fact": "Eligibility required submission by the bar date through the designated claims portal, documentation (or detailed explanation), and attestation under oath.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2 object value (documentation and sworn attestation) plus conditions (designated claims portal, by the bar date). The 'detailed explanation if documents unavailable' alternative is not captured; minor."
+     },
+     {
+      "fact": "Each claimant was required to submit his, her, or its own proof of claim form and was notified that prior submissions to the Receiver or others were insufficient.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Partially captured: 'each claimant had to submit own proof of claim form' is in assertion 2 conditions; the notice that prior submissions were insufficient is not captured."
+     },
+     {
+      "fact": "Failure to submit supporting documentation may result in the claim being rejected or reduced, with insufficiently supported claims subject to disallowance.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2 object value and quote; the explicit 'subject to disallowance' phrase is not carried but 'rejected or reduced' is."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Entity categories are empty on both sides (labels and output), so precision and recall for this page are undefined rather than 100%; the page contributes 0/0 to every entity denominator. 'Receivership Estate' and 'the Receiver' were treated as defined collective terms, not organizations, consistent with the labels.",
+     "Assertion 2 uses the 'conditions' field to hold parallel requirements (own form, claims portal, bar date) rather than true conditions on the claim. Scored as supported-as-written since every element is on the page, but a reviewer may prefer those requirements be split into separate assertions.",
+     "Both substantive assertions use predicate 'status' with subject 'case' for process-description facts. Accepted as not misleading, but a more specific predicate (e.g., claims_process_requirement) would make the record more useful to counsel.",
+     "Assertion 2 carries final_confidence 0.68 (fuzzy grounding caused only by the spaced '[ f ]' bracket in page_text) with needs_review=false. The claim is correct, so no flag was warranted here, but the grounder's bracket/whitespace handling is worth noting.",
+     "Key facts 3 (claimant-class distinction advisory) and the 'prior submissions insufficient' half of key fact 6 were not captured; recorded as recall gaps, not material errors, since nothing in the output misstates them.",
+     "The record citations to Dkt. 241-1 (POC Claims Process Notice and POC Form) were not saved under authorities by the model; labels also list none. Treated as correct behavior (same-case record cites are not precedent)."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1967 p5",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Securities and Exchange Commission (label; appears on the page only as the 'SEC' party name inside the cited case captions; output.parties is empty)",
+      "EquityBuild, Inc. (label; appears on the page only as the named defendant in the three cited EquityBuild decisions; output.parties is empty)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I) - Seventh Circuit appeal from this receivership; retest lists the citation only under output.authorities (neither TP nor FP there) and output.related_lawsuits is empty",
+      "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (EquityBuild II) - Seventh Circuit appeal affirming the June 20, 2024 district court decision; retest lists the citation only under output.authorities and output.related_lawsuits is empty"
+     ]
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. The quote is the ECF header 'Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 5 of 273 PageID #:128335', verified verbatim on the PDF page image (top line). The assertion states that Dkt. 1967 was filed as of 2026-06-30 in the main case, modality 'completed', which is exactly what the header shows; this is the new document_filed shape (document named in the value, date in as_of_date) rather than a bare case filed_on date, so the Dkt. 16 document-versus-case fix is honored here. Minor: the object_value carries the motion title, which does not appear on this page (it comes from document metadata); the header supports the docket number and date, and the title is correct for Dkt. 1967."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "This page is page iv of the table of authorities (Quilling through SEC v. Forte) of Dkt. 1967, a 273-page filing in Case 1:18-cv-05587 filed 06/30/26 (PageID 128335).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 0 captures the filing (Dkt. 1967, main case, as_of 2026-06-30) from the ECF header, and the 13 authorities span Quilling through SEC v. Forte. The retest classifies page_kind as 'mixed' rather than a table-of-contents/authorities page; 'completed' for a filing event is consistent with the labels' 'reported' status for header data."
+     },
+     {
+      "fact": "The motion relies on the Seventh Circuit's decision in SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024), which it designates 'EquityBuild I', at pages 6 and 40.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Partially captured: the citation 'SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024)' is in output.authorities, but the 'EquityBuild I' short form and the pin pages (6, 40) are not recorded anywhere, and the decision is not entered as a related proceeding. Nothing beyond existence of the citation is asserted, so no legal status is overstated."
+     },
+     {
+      "fact": "The motion relies on the Seventh Circuit's decision in SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025), designated 'EquityBuild II', at pages 30, 31, 31 n.15, 32, 33, 38-39 and 40.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Partially captured: the citation '161 F.4th 1020 (7th Cir. 2025)' is in output.authorities, but the 'EquityBuild II' short form and the pin pages are not recorded, and the decision is not entered as a related proceeding."
+     },
+     {
+      "fact": "The district court's June 20, 2024 decision in the main case (No. 18 CV 5587, 2024 WL 3069682) was affirmed by the Seventh Circuit at 161 F.4th 1020 (2025), and the motion cites it at pages 6, 22, 24, 26, 39 and 39 n.19.",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured. The retest's authorities list omits the N.D. Ill. June 20, 2024 decision (2024 WL 3069682) entirely and records no affirmance relationship; only the bare 161 F.4th 1020 citation appears. The three 'aff'd' pairs on the page (Credit Bancorp, Enterprise Trust, EquityBuild) were all collapsed to the appellate citation only."
+     },
+     {
+      "fact": "The motion cites SEC v. Enterprise Trust Co. (N.D. Ill. 2008, aff'd 559 F.3d 649 (7th Cir. 2009)) more heavily than any other non-EquityBuild authority on this page, at pages 15 n.10, 16, 17, 25, 26-27, 31 and 38.",
+      "captured": false,
+      "legal_status_preserved": true,
+      "note": "Only the appellate citation 'SEC v. Enterprise Trust Co., 559 F.3d 649 (7th Cir. 2009)' is in output.authorities; the district court decision (No. 08 C 1260, 2008 WL 4534154), the affirmance, and all pin pages are absent, so the frequency-of-citation fact cannot be reconstructed from the output. Nothing is misstated."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Entity denominators on this page are tiny and the page is a pure table of authorities: creditors, attorneys and properties are 0/0/0 in both labels and output (precision and recall undefined); organizations and related_proceedings each have a label denominator of 2 with zero output, so recall is 0/2 in each and precision is undefined (no FPs). This page should be reported as contributing FNs only and not as a 0% precision page.",
+     "Organizations FN (SEC and EquityBuild, Inc.): both names appear on this page only inside precedent captions ('SEC v. EquityBuild, Inc.'). The labels chose to list them because they are the real-world parties to this receivership, and the project's earlier scorecard (dkt-1806 p3) counted caption-only 'Equitybuild, Inc.' as an FN, so I scored consistently. A reviewer could reasonably decide that caption-only mentions on a table-of-authorities page should not be labeled organizations, which would make this page 0/0/0 for organizations.",
+     "Related-proceedings FN (EquityBuild I and II): the retest correctly captured both Seventh Circuit decisions as authorities, which per the scoring rules are neither TP nor FP, but did not also enter them as related lawsuits. The earlier scorecards (dkt-1806 p1 and p3) treated the Seventh Circuit appeal in this receivership as a related proceeding and counted its absence as an FN, so I did the same. Confirm whether the project wants appeals from the receivership dual-listed as related proceedings when they appear only as citations in a table of authorities.",
+     "The labels do not list the main receivership case as a related proceeding; the June 20, 2024 N.D. Ill. decision (No. 18 CV 5587) is placed under authorities only. The retest likewise keeps the main case out of related_lawsuits. No main-case item was treated as an FN.",
+     "Authorities coverage (unscored): the retest lists 13 citations against 16 in the labels. The three omissions are the district-court-with-affirmance entries (SEC v. Credit Bancorp, Ltd., 2000 WL 1752979 (S.D.N.Y. 2000); SEC v. Enterprise Trust Co., 2008 WL 4534154 (N.D. Ill. 2008); SEC v. EquityBuild, Inc., 2024 WL 3069682 (N.D. Ill. June 20, 2024)); each multi-line 'aff'd' entry was collapsed to its appellate citation. Pin pages and the 'EquityBuild I'/'EquityBuild II' short forms were dropped throughout. Not misleading, but the omission of the main case's own June 20, 2024 decision is the one most worth fixing. The 13 citations that are present are accurate transcriptions (irregular text-layer spacing such as 'Affil iated' and 'Tr ust' was correctly normalized).",
+     "page_kind: the labels call this a 'table of contents' page (table of authorities, page iv); the retest returned 'mixed'. The page has no body text at all, so 'mixed' is a misclassification; it is not an entity or citation item and did not affect the single assertion, but it may matter for any downstream lint that depends on page_kind (e.g., index_reference handling).",
+     "Citation result for the page: 1 of 1 quote on page, 1 of 1 claim supported as written, modality and proceeding correct, 0 flagged for review, 0 material errors. The sole assertion is header metadata; the retest correctly asserted nothing substantive from a table of authorities, matching the labels' note that the page asserts nothing beyond the existence and location of cited decisions."
+    ]
+   }
+  }
+ ]
+}
