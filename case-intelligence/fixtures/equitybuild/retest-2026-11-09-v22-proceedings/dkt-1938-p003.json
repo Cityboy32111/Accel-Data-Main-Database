@@ -1,0 +1,236 @@
+{
+ "key": "dkt-1938",
+ "page": 3,
+ "document": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+ "document_id": "340fe550-633c-48e7-b6c2-b730b2eed226",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-09.1",
+ "schema_version": "2026-11-09.1",
+ "input_tokens": 5865,
+ "output_tokens": 1263,
+ "latency_ms": 7262,
+ "page_kind": "body",
+ "output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "WPD",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "person",
+    "canonical_name": "Pennington",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "Gordon v. Dadante, 336 Fed. Appx. 540 (6th Cir. 2009)"
+   },
+   {
+    "citation": "Sterling v. Stewart, 158 F.3d 1199, 1202 (11th Cir. 1998)"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-01-05",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 3 of 8 PageID #:127942",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p2",
+    "predicate": "treatment",
+    "object_value": "proposed settlement releasing all claims between Receiver, Receivership Estate, WPD and Pennington; Pennington to receive nothing further",
+    "object_type": null,
+    "object_key": null,
+    "modality": "proposed",
+    "conditions": "without any party admitting liability; subject to Court approval of the Settlement",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD.",
+    "confidence": 0.7,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "party_position",
+    "object_value": "Receiver submits the Settlement is fair and reasonable, in the best interests of the Receivership Estate, and should be approved",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "The Receiver respectfully submits that the Settlement described in this motion is a fair and reasonable settlement",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "party_position",
+    "object_value": "Receiver will provide notice of the motion to all interested parties, serving claimants by email",
+    "object_type": null,
+    "object_key": null,
+    "modality": "proposed",
+    "conditions": "in addition to service through the Court's electronic case filing system",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "the Receiver will serve a copy of this motion to each of the claimants who have submitted claims in this matter by electronic mail",
+    "confidence": 0.8,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-01-05",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 3 of 8 PageID #:127942",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p2",
+   "predicate": "treatment",
+   "object_value": "proposed settlement releasing all claims between Receiver, Receivership Estate, WPD and Pennington; Pennington to receive nothing further",
+   "object_type": null,
+   "object_key": null,
+   "modality": "proposed",
+   "conditions": "without any party admitting liability; subject to Court approval of the Settlement",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD.",
+   "confidence": 0.7,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "fuzzy",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.595,
+   "subject_label": "Pennington",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "party_position",
+   "object_value": "Receiver submits the Settlement is fair and reasonable, in the best interests of the Receivership Estate, and should be approved",
+   "object_type": null,
+   "object_key": null,
+   "modality": "argued",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "The Receiver respectfully submits that the Settlement described in this motion is a fair and reasonable settlement",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "fuzzy",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.7225,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "party_position",
+   "object_value": "Receiver will provide notice of the motion to all interested parties, serving claimants by email",
+   "object_type": null,
+   "object_key": null,
+   "modality": "proposed",
+   "conditions": "in addition to service through the Court's electronic case filing system",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "the Receiver will serve a copy of this motion to each of the claimants who have submitted claims in this matter by electronic mail",
+   "confidence": 0.8,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.8,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "reclassified": [],
+ "page_text": "3\nc.  w ithout  any  party admitting liability  or the validity of any claim , this\nSettlement  resolves all disputes  of  any kind or  nature between  the Receiver ,  the\nReceivership Estate ,  WPD,  and  Pennington ;\nd.  all claims, objections, or rights that might exist between the Receiver ,  the\nReceivership Estate ,  WPD ,  and  Pennington  are hereby released, compromised, and\nwaived — including as set forth in, but not limiting in any respect, the Settlement\nAgreement — such that  Pennington  will receive nothing further from  the Receiver,  the\nReceivership Estate ,  or WPD .\n6.  A settlement by a federal equity receiver is within the receiver’s broad discretion\nand should be approved if it is fair.  Gordon v. Dadante , 336 Fed. Appx. 540 (6th Cir. 2009). A\ndistrict court’s determination of the fairness of a settlement by a receiver is subject to the sound\ndiscretion of the court.  Id.  at 545;  see also  Sterling v. Stewart , 158 F.3d 1199, 1202 (11th Cir.\n1998) (the determination of fairness of a settlement in an equity receivership will not be overturned\nabsent a clear showing of abus e of discretion).\n7.  The  Receiver  respectfully submits  that the  Settlement d escribed in this motion is  a\nfair and reasonable settlement for the  R eceivership  E state and  is  in the  best interests of the\nR eceivership  E stat e , and that there will be  savings of time and resources achieved based on the\nagreements reached between the Receiver and  Pennington , and should be approved.\n8.  The Receiver will provide fair, adequate, and sufficient n otice of this motion  to all\ninterested parties.  In addition to service through the Court’s electronic case filing system, the\nReceiver will serve a copy of this motion  to each of the claimants who have submitted claims in\nthis matter  by electronic mail .  In addition, this motion will be made publicly available to all\nCase: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 3 of 8 PageID #:127942"
+}

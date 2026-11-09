@@ -7,7 +7,10 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import type { WorkerConfig } from "../config.js";
 import { groundQuote } from "../structure/grounding.js";
-import { lintAssertion } from "../structure/modality-lint.js";
+import { classifyLawsuit, lintAssertion } from "../structure/modality-lint.js";
+
+/** Estate party names used to tell appeals from this receivership apart from precedent about strangers. */
+export const ESTATE_NAMES = ["equitybuild", "cohen", "duff", "receiver", "4533-37 s calumet", "wpd management", "shatar", "bc57", "amark"];
 
 export interface RetestPage {
   key: string;
@@ -70,6 +73,7 @@ export interface RetestBundle {
   assertions: ProcessedAssertion[];
   dropped: { quote: string; reason: string }[];
   warnings: string[];
+  reclassified: Reclassification[];
   page_text: string;
 }
 
@@ -97,7 +101,33 @@ export function pageWarnings(output: V2Output): string[] {
   return warnings;
 }
 
-export function processOutput(output: V2Output, pageText: string): { assertions: ProcessedAssertion[]; dropped: { quote: string; reason: string }[] } {
+export interface Reclassification { key: string; caption: string; from: string; to: string; reason: string }
+
+/**
+ * Move related lawsuits that are really cited authorities into output.authorities,
+ * and flag appeals identified only by reporter citations. Returns the list of
+ * moves so the bundle records what changed and why.
+ */
+export function reclassifyLawsuits(output: V2Output, estateNames: string[] = ESTATE_NAMES): Reclassification[] {
+  const moves: Reclassification[] = [];
+  const keep: V2Output["related_lawsuits"] = [];
+  for (const rl of output.related_lawsuits ?? []) {
+    const c = classifyLawsuit(rl, estateNames);
+    if (c.classification === "authority") {
+      output.authorities.push({ citation: `${rl.caption}${rl.docket_number ? ", " + rl.docket_number : ""}${rl.court ? " (" + rl.court + ")" : ""}` });
+      moves.push({ key: rl.key, caption: rl.caption, from: "related_lawsuit", to: "authority", reason: c.reason });
+      continue;
+    }
+    if (c.classification === "proceeding_review") moves.push({ key: rl.key, caption: rl.caption, from: "related_lawsuit", to: "related_lawsuit (review)", reason: c.reason });
+    keep.push(rl);
+  }
+  output.related_lawsuits = keep;
+  return moves;
+}
+
+export function processOutput(output: V2Output, pageText: string, moves: Reclassification[] = []): { assertions: ProcessedAssertion[]; dropped: { quote: string; reason: string }[] } {
+  const authorityKeys = new Set(moves.filter((m) => m.to === "authority").map((m) => m.key));
+  const reviewKeys = new Set(moves.filter((m) => m.to !== "authority").map((m) => m.key));
   const labels = new Map<string, string>([["case:case", "(main case)"]]);
   for (const p of output.parties ?? []) labels.set(`party:${p.key}`, p.canonical_name);
   for (const c of output.creditors ?? []) labels.set(`creditor:${c.party_key}`, labels.get(`party:${c.party_key}`) ?? c.party_key);
@@ -109,6 +139,10 @@ export function processOutput(output: V2Output, pageText: string): { assertions:
   const dropped: { quote: string; reason: string }[] = [];
   for (const a of output.assertions ?? []) {
     const subjectKey = a.subject_type === "case" ? "case:case" : `${a.subject_type}:${a.subject_key}`;
+    if (a.subject_type === "related_lawsuit" && authorityKeys.has(a.subject_key)) {
+      dropped.push({ quote: a.quote, reason: `subject is a cited authority, not a proceeding (${a.subject_key})` });
+      continue;
+    }
     if (!labels.has(subjectKey)) {
       dropped.push({ quote: a.quote, reason: `undeclared subject ${subjectKey}` });
       continue;
@@ -126,13 +160,17 @@ export function processOutput(output: V2Output, pageText: string): { assertions:
       ? labels.get(`related_lawsuit:${a.proceeding.related_lawsuit_key}`) ?? a.proceeding.related_lawsuit_key
       : "(main case)";
     const base = Math.min(0.95, Math.max(0, Number(a.confidence) || 0)) * g.penalty;
+    const extraFlags = a.subject_type === "related_lawsuit" && reviewKeys.has(a.subject_key)
+      ? [`authority_check: ${moves.find((m) => m.key === a.subject_key)?.reason ?? "review"}`] : [];
+    const proceedingFlags = a.proceeding?.scope === "related_lawsuit" && a.proceeding.related_lawsuit_key && authorityKeys.has(a.proceeding.related_lawsuit_key)
+      ? ["proceeding_is_authority: the proceeding this fact points at is a cited authority"] : [];
     kept.push({
       ...a,
       modality: lint.modality,
       grounded: true,
       grounding_method: g.method,
-      lint_flags: lint.flags,
-      needs_review: lint.needs_review,
+      lint_flags: [...lint.flags, ...extraFlags, ...proceedingFlags],
+      needs_review: lint.needs_review || extraFlags.length > 0 || proceedingFlags.length > 0,
       final_confidence: Math.round(base * lint.confidence_factor * 10000) / 10000,
       subject_label: labels.get(subjectKey) ?? subjectKey,
       proceeding_label: relatedLabel,
@@ -170,12 +208,13 @@ export async function runRetest(
     if (!res.ok || body.error) throw new Error(`extract ${p.key} p${p.page}: ${body.error ?? res.status}`);
     const output = coerceOutput(body.output as Partial<V2Output> | null);
     if (!body.output) log(`  note: ${p.key} p${p.page} returned no tool output; recorded as empty`);
-    const { assertions, dropped } = processOutput(output, body.page_text);
+    const moves = reclassifyLawsuits(output);
+    const { assertions, dropped } = processOutput(output, body.page_text, moves);
     const bundle: RetestBundle = {
       key: p.key, page: p.page, document: p.document, document_id: doc.id,
       model: body.model, prompt_version: body.prompt_version, schema_version: body.schema_version,
       input_tokens: body.input_tokens, output_tokens: body.output_tokens, latency_ms: body.latency_ms,
-      page_kind: output.page_kind, output, assertions, dropped, warnings: pageWarnings(output), page_text: body.page_text,
+      page_kind: output.page_kind, output, assertions, dropped, warnings: pageWarnings(output), reclassified: moves, page_text: body.page_text,
     };
     totals.input_tokens += body.input_tokens;
     totals.output_tokens += body.output_tokens;

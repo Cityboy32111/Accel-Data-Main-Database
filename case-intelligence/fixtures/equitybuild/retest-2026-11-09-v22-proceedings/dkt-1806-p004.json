@@ -1,0 +1,290 @@
+{
+ "key": "dkt-1806",
+ "page": 4,
+ "document": "SEC's Response To Group 7 Position Statements, Dkt. 1806",
+ "document_id": "721911fa-207d-43d4-b618-e24178486bd4",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-09.1",
+ "schema_version": "2026-11-09.1",
+ "input_tokens": 6011,
+ "output_tokens": 1542,
+ "latency_ms": 8101,
+ "page_kind": "body",
+ "output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "person",
+    "canonical_name": "Shaun Cohen",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "EquityBuild Finance",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "BMO",
+    "party_roles": [
+     "objector",
+     "lender"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p4",
+    "kind": "organization",
+    "canonical_name": "Direct Lending Partners",
+    "party_roles": [
+     "objector",
+     "lender"
+    ],
+    "aliases": [
+     "DLP"
+    ]
+   },
+   {
+    "key": "p5",
+    "kind": "organization",
+    "canonical_name": "BC57",
+    "party_roles": [
+     "objector",
+     "lender"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p3",
+    "creditor_type": "institutional_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 7",
+    "treatment_summary": "SEC argues BMO's release argument repeats arguments already rejected for Group 1 and Group 2"
+   },
+   {
+    "party_key": "p4",
+    "creditor_type": "institutional_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 2",
+    "treatment_summary": "Court found for Group 2 investors over DLP"
+   },
+   {
+    "party_key": "p5",
+    "creditor_type": "institutional_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 1",
+    "treatment_summary": null
+   }
+  ],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "2024 IL App (1st) 231403-U"
+   },
+   {
+    "citation": "5201 Washington"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "SEC's Response To Group 7 Position Statements, Dkt. 1806",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2024-12-16",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 4 of 6",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p3",
+    "predicate": "party_position",
+    "object_value": "SEC argues BMO's purported release was never recorded, making its facts worse than DLP's, and BMO repeats arguments of BC57 and DLP",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "The facts are worse for BMO than they were for DLP because, unlike in Group 2, the fraudulent release here was never recorded.",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p4",
+    "predicate": "treatment",
+    "object_value": "Court found for Group 2 investors over DLP because EquityBuild Finance lacked authority to release the mortgage",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "to determine that EquityBuild Finance lacked the authority – actual or apparent – to release the investors’ mortgage.",
+    "confidence": 0.8,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p1",
+    "predicate": "party_position",
+    "object_value": "Signed the release as President of EquityBuild Finance",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "it was signed by Shaun Cohen, in his capacity as President of EquityBuild Finance.",
+    "confidence": 0.8,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "SEC's Response To Group 7 Position Statements, Dkt. 1806",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2024-12-16",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 4 of 6",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p3",
+   "predicate": "party_position",
+   "object_value": "SEC argues BMO's purported release was never recorded, making its facts worse than DLP's, and BMO repeats arguments of BC57 and DLP",
+   "object_type": null,
+   "object_key": null,
+   "modality": "argued",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "The facts are worse for BMO than they were for DLP because, unlike in Group 2, the fraudulent release here was never recorded.",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "BMO",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p4",
+   "predicate": "treatment",
+   "object_value": "Court found for Group 2 investors over DLP because EquityBuild Finance lacked authority to release the mortgage",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "to determine that EquityBuild Finance lacked the authority – actual or apparent – to release the investors’ mortgage.",
+   "confidence": 0.8,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.8,
+   "subject_label": "Direct Lending Partners",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p1",
+   "predicate": "party_position",
+   "object_value": "Signed the release as President of EquityBuild Finance",
+   "object_type": null,
+   "object_key": null,
+   "modality": "argued",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "it was signed by Shaun Cohen, in his capacity as President of EquityBuild Finance.",
+   "confidence": 0.8,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.8,
+   "subject_label": "Shaun Cohen",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "reclassified": [],
+ "page_text": "4\nwho held the prior recorded mortgage. Rather, it was signed by Shaun Cohen, in his capacity as\nPresident of EquityBuild Finance. ( See  ECF 1794-4).\nBMO thus faces a similar fact pattern to the one the Court considered for institutional\nlender Direct Lending Partners (“DLP”) for Group 2: “whether a purported release should be\nbinding upon mortgagees who did not sign the releases themselves.” (ECF 1679 at 20 n.11). In\ndeciding for the Group 2 investors over DLP, the Court found that because the party executing\nthe release (EquityBuild Finance) was a “different entity” than the investors listed on the prior\nmortgage, DLP “could not release the mortgage unless it was the Individual Investors’ assignee\nor legal representative.” ( Id.  at 21). The Court then analyzed the relevant documents, including\nthe same Collateral Agency and Servicing Agreements at issue for BMO (and for BC57 in Group\n1), to determine that EquityBuild Finance lacked the authority – actual or apparent – to release\nthe investors’ mortgage. ( Id.  at 21-25).\nThe facts are worse for BMO than they were for DLP because, unlike in Group 2, the\nfraudulent release here was never recorded. 5  Nevertheless, BMO fails to even acknowledge the\nCourt’s holding for Group 2 (or Group 1). Instead, BMO simply repeats the exact same\narguments made by BC57 in Group 1 ( see  ECF 1152 at 15-28) and DLP in Group 2 ( see  ECF\n1559 at 2-6). BMO thus re-argues that: (a) the investors’ prior mortgage was released by virtue\nof payment to EquityBuild Finance (but not the investors); (b) the Illinois Fiduciary Obligations\nAct establishes BMO’s priority; (c) the investors expressly authorized EquityBuild Finance to\n5  The fact the purported release was never recorded readily distinguishes BMO’s situation from\nthe one addressed in  5201 Washington : whether subsequent purchasers could rely on the\nrecorded release to qualify as  bona fide  purchasers. 2024 IL App (1st) 231403-U, at *P24-*P26.\nNotably, BMO’s Position Statement does not cite  5201 Washington  or assert  bona fide  purchaser\nstatus.\nCase: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 4 of 6 PageID #:123788"
+}

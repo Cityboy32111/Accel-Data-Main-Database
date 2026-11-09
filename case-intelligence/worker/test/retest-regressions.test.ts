@@ -78,6 +78,7 @@ describe.skipIf(!have("dkt-1967-p003.json"))(`${d} / Dkt. 1967 page 3: contents-
 // The date and creditor rules apply to versions from 2026-11-08.3 onward; the
 // 2026-11-08.2 retest is kept as the record of the failures it exposed.
 const creditorRuleApplies = (b: { schema_version?: string }) => (b.schema_version ?? "") >= "2026-11-08.3";
+const authorityRuleApplies = (b: { schema_version?: string }) => (b.schema_version ?? "") >= "2026-11-09.1";
 
 describe.skipIf(!have("appointment-order-p001.json") || !creditorRuleApplies(load("appointment-order-p001.json")))(`${d} / Dkt. 16 page 1: document date is not the case date`, () => {
   const bundle = load("appointment-order-p001.json");
@@ -113,6 +114,31 @@ describe.skipIf(!have("dkt-1806-p001.json") || !creditorRuleApplies(load("dkt-18
   it("lists Midland and UBS under creditors", () => {
     const names = bundle.output.creditors.map((c: { party_key: string }) => bundle.output.parties.find((p: { key: string }) => p.key === c.party_key)?.canonical_name.toLowerCase() ?? "").join(" | ");
     for (const n of ["midland", "ubs"]) expect(names).toContain(n);
+  });
+});
+
+describe.skipIf(!have("dkt-1806-p004.json") || !authorityRuleApplies(load("dkt-1806-p004.json")))(`${d} / Dkt. 1806 page 4: a precedent is never an unflagged related proceeding`, () => {
+  const bundle = load("dkt-1806-p004.json");
+  it("5201 Washington is absent, an authority, or a related lawsuit held for review", () => {
+    const listed = bundle.output.related_lawsuits.filter((r: { caption: string }) => /5201/.test(r.caption));
+    const asAuthority = (bundle.output.authorities ?? []).some((a: { citation: string }) => /5201/.test(a.citation));
+    const flagged = (bundle.reclassified ?? []).some((m: { caption: string }) => /5201/.test(m.caption));
+    expect(listed.length === 0 || asAuthority || flagged).toBe(true);
+    for (const a of bundle.assertions) {
+      if (a.subject_type === "related_lawsuit" && /5201/.test(a.subject_label)) expect(a.needs_review).toBe(true);
+    }
+  });
+  it("never lists a non-estate precedent as a related lawsuit", () => {
+    for (const r of bundle.output.related_lawsuits) expect(/equitybuild|cohen|duff|receiver|calumet|wpd|shatar|bc57|amark/i.test(r.caption)).toBe(true);
+  });
+});
+
+describe.skipIf(!have("dkt-1967-p005.json") || !authorityRuleApplies(load("dkt-1967-p005.json")))(`${d} / Dkt. 1967 page 5: appeals from this receivership stay proceedings, other precedents do not`, () => {
+  const bundle = load("dkt-1967-p005.json");
+  it("never lists a non-estate precedent as a related lawsuit", () => {
+    for (const r of bundle.output.related_lawsuits) {
+      expect(/equitybuild|cohen|duff|receiver/i.test(r.caption)).toBe(true);
+    }
   });
 });
 }

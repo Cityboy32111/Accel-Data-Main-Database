@@ -98,3 +98,47 @@ export function lintAssertion(a: LintInput): LintResult {
 
   return { flags, modality, confidence_factor: factor, needs_review: flags.length > 0 || modality === "index_reference" };
 }
+
+// ---------------------------------------------------------------------------
+// Authority versus proceeding. A "related lawsuit" whose docket field is really
+// a reporter citation (101 F.4th 526, 2024 WL 3069682, 2024 IL App (1st) 231403-U)
+// is a cited authority unless an estate party is in its caption; a precedent
+// about strangers to the estate must never appear in the proceedings list.
+// ---------------------------------------------------------------------------
+export const REPORTER_CITATION = /(\b\d+\s+(f\.?\s?(2d|3d|4th)|f\.?\s?supp\.?(\s?(2d|3d))?|u\.?s\.?|s\.?\s?ct\.?|n\.?e\.?\s?(2d|3d)|fed\.?\s?app\'?x\.?)\s+\d+|\b\d{4}\s+wl\s+\d+|\b\d{4}\s+il\s+app\s*\([^)]+\)|\b\d+\s+ill\.?\s?(2d|app))/i;
+
+export interface LawsuitLike {
+  key: string;
+  caption: string;
+  docket_number: string | null;
+  court: string | null;
+}
+
+export interface AuthorityCheck {
+  /** "proceeding" keeps the row; "authority" moves it to authorities; "proceeding_review" keeps it but flags it. */
+  classification: "proceeding" | "authority" | "proceeding_review";
+  reason: string;
+}
+
+/**
+ * estateNames: normalized names of the estate's parties (receivership defendants,
+ * the receiver, affiliates) known for the case, used to tell an appeal from
+ * this receivership apart from a precedent about other parties.
+ */
+export function classifyLawsuit(l: LawsuitLike, estateNames: string[]): AuthorityCheck {
+  const text = `${l.caption} ${l.docket_number ?? ""} ${l.court ?? ""}`;
+  const reporter = REPORTER_CITATION.test(l.docket_number ?? "") || REPORTER_CITATION.test(l.caption);
+  const cap = l.caption.toLowerCase();
+  const namesEstate = estateNames.some((n) => n && cap.includes(n.toLowerCase()));
+  if (reporter && !namesEstate) {
+    return { classification: "authority", reason: `reporter citation "${(l.docket_number ?? l.caption).slice(0, 40)}" and no estate party in the caption` };
+  }
+  if (reporter && namesEstate) {
+    return { classification: "proceeding_review", reason: "appeal from this receivership identified only by a reporter citation; confirm the appellate docket" };
+  }
+  if (!l.docket_number && /\bv\.\b/.test(cap) && !namesEstate) {
+    return { classification: "proceeding_review", reason: "captioned case with no docket number and no estate party; may be an authority" };
+  }
+  void text;
+  return { classification: "proceeding", reason: "" };
+}

@@ -12,8 +12,8 @@
 //   - recall rules: footnotes, receiver property numbers in prose, law firms in
 //     counsel blocks, litigation and regulatory claimants as creditors.
 
-export const EXTRACTION_SCHEMA_VERSION = "2026-11-08.3";
-export const EXTRACTION_PROMPT_VERSION = "2026-11-08.3";
+export const EXTRACTION_SCHEMA_VERSION = "2026-11-09.1";
+export const EXTRACTION_PROMPT_VERSION = "2026-11-09.1";
 
 export const MODALITIES = [
   "ordered", "approved", "completed", "reported",
@@ -173,7 +173,7 @@ Preserve what the filing actually says:
 - Every assertion carries a modality. Never turn a request, proposal, recommendation, allegation or argument into an outcome. "The Receiver moves for an order approving" is requested; "pursuant to the proposed Settlement Agreement, and with the Court's approval, the Receiver will pay" is proposed; "X's claim should be excluded" is recommended; "the Complaint asserted that" is alleged; "the SEC contends" is argued; "IT IS ORDERED" is ordered; "the Receiver retained BrookWeiner on August 23" is completed; "the Receiver holds 40 accounts" is reported.
 - Phrase object_value in that modality ("exclusion recommended", "proposed payment of $30,000"), and put every qualifier from the sentence in conditions ("subject to Court approval", "within seven days of an order dismissing the action with prejudice", "except as provided in Section VI").
 - Attach each assertion to the proceeding the passage names. If the passage is about a settlement, payment, claim, stay or ruling in another action (a state-court case, an appeal, an administrative matter), declare that action under related_lawsuits, set proceeding.scope to related_lawsuit with its key, and make the related_lawsuit the subject when the fact is a property of that action (its settlement amount, its status). Use subject 'case' only for facts about the receivership case itself. Never default to the main case because the document is filed in it.
-- Case-law and statutes cited as precedent go in authorities, never in related_lawsuits.
+- Case-law and statutes cited as precedent go in authorities, never in related_lawsuits. A citation with a reporter (101 F.4th 526, 2024 WL 3069682, 2024 IL App (1st) 231403-U, 336 Fed. Appx. 540) is an authority unless the caption names an EquityBuild party, the Cohens or the Receiver, in which case it is an appeal from this receivership and belongs in related_lawsuits with the reporter citation kept in docket_number. A case cited in a footnote or parenthetical for a legal proposition is an authority even if it is a recent decision from the same court.
 
 Dates and headers:
 - The ECF header at the top of a page ("Case: 1:18-cv-05587 Document #: 16 Filed: 08/17/18") dates the document, never the case. If you record it, use subject "case", predicate "document_filed", object_value naming the document (for example "Order Appointing Receiver, Dkt. 16"), as_of_date set to the date, modality completed. Never record the case as filed_on that date, and never record a bare date as the object of a case-level filed_on.

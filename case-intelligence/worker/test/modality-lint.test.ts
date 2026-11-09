@@ -66,3 +66,47 @@ describe("modality lint: ECF header dates", () => {
     expect(r.flags).toEqual([]);
   });
 });
+
+describe("authority versus proceeding", () => {
+  const estate = ["equitybuild", "cohen", "duff", "receiver"];
+  it("moves a precedent with a reporter citation and no estate party to authorities", async () => {
+    const { classifyLawsuit } = await import("../src/structure/modality-lint.js");
+    expect(classifyLawsuit({ key: "r1", caption: "5201 Wash. Invs. LLC v. Other Party, Inc.", docket_number: "2024 IL App (1st) 231403-U", court: "Illinois Appellate Court" }, estate).classification).toBe("authority");
+    expect(classifyLawsuit({ key: "r2", caption: "Gordon v. Dadante", docket_number: "336 Fed. Appx. 540", court: "6th Cir." }, estate).classification).toBe("authority");
+    expect(classifyLawsuit({ key: "r3", caption: "SEC v. Wealth Mgmt., LLC", docket_number: "628 F.3d 323", court: "7th Cir." }, estate).classification).toBe("authority");
+  });
+  it("keeps an appeal from this receivership but flags the reporter citation for review", async () => {
+    const { classifyLawsuit } = await import("../src/structure/modality-lint.js");
+    const c = classifyLawsuit({ key: "r4", caption: "SEC v. EquityBuild, Inc. (EquityBuild I)", docket_number: "101 F.4th 526", court: "7th Cir." }, estate);
+    expect(c.classification).toBe("proceeding_review");
+    // A state-court appeal that names an estate entity but is cited as precedent is kept and flagged, not dropped.
+    const w = classifyLawsuit({ key: "r6", caption: "5201 Wash. Invs. LLC v. Equitybuild, Inc.", docket_number: "2024 IL App (1st) 231403-U", court: "Illinois Appellate Court" }, estate);
+    expect(w.classification).toBe("proceeding_review");
+  });
+  it("keeps a docketed state-court action as a proceeding", async () => {
+    const { classifyLawsuit } = await import("../src/structure/modality-lint.js");
+    expect(classifyLawsuit({ key: "r5", caption: "Fireshark Enterprises, LLC v. EquityBuild, Inc.", docket_number: "2018 L 9026", court: "Circuit Court of Cook County" }, estate).classification).toBe("proceeding");
+  });
+  it("reclassification moves the row, drops its assertions as authority facts, and records the move", async () => {
+    const { reclassifyLawsuits, processOutput, coerceOutput } = await import("../src/retest/retest-pages.js");
+    const output = coerceOutput({
+      page_kind: "body",
+      related_lawsuits: [
+        { key: "r1", caption: "Gordon v. Dadante", docket_number: "336 Fed. Appx. 540", court: "6th Cir.", relationship: "other" },
+        { key: "r2", caption: "Fireshark Enterprises, LLC v. EquityBuild, Inc.", docket_number: "2018 L 9026", court: "Circuit Court of Cook County", relationship: "state_court_action" },
+      ],
+      assertions: [
+        { subject_type: "related_lawsuit", subject_key: "r1", predicate: "status", object_value: "held that a receiver's settlement is reviewed for fairness", object_type: null, object_key: null, modality: "reported", conditions: null, proceeding: { scope: "related_lawsuit", related_lawsuit_key: "r1" }, as_of_date: null, referenced_page: null, quote: "Gordon v. Dadante", confidence: 0.8, origin: "extracted" },
+        { subject_type: "related_lawsuit", subject_key: "r2", predicate: "status", object_value: "stayed", object_type: null, object_key: null, modality: "reported", conditions: null, proceeding: { scope: "related_lawsuit", related_lawsuit_key: "r2" }, as_of_date: null, referenced_page: null, quote: "Fireshark Enterprises, LLC v. EquityBuild, Inc. was stayed", confidence: 0.8, origin: "extracted" },
+      ],
+    });
+    const moves = reclassifyLawsuits(output, ["cohen", "duff", "receiver"]);
+    expect(moves.map((m) => m.to)).toEqual(["authority"]);
+    expect(output.related_lawsuits.map((r) => r.key)).toEqual(["r2"]);
+    expect(output.authorities[0].citation).toMatch(/Gordon v\. Dadante/);
+    const { assertions, dropped } = processOutput(output, "Gordon v. Dadante, 336 Fed. Appx. 540. Fireshark Enterprises, LLC v. EquityBuild, Inc. was stayed", moves);
+    expect(dropped).toHaveLength(1);
+    expect(dropped[0].reason).toMatch(/cited authority/);
+    expect(assertions).toHaveLength(1);
+  });
+});
