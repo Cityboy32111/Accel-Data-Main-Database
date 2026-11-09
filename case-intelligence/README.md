@@ -26,6 +26,7 @@ has run; see the reports below for how to run each stage. Repository layout: `su
 | [docs/08-retest-report.md](docs/08-retest-report.md) | Version-2 extractor regression retest on the same 10 pages: changes, side-by-side scorecard, cost, decision, fresh pages for the next check |
 | [docs/09-base44-handoff.md](docs/09-base44-handoff.md) | Private Base44 handoff: sign-in, firm access, read model, private PDF links, review and audit operations |
 | [docs/10-validation-and-readiness-report.md](docs/10-validation-and-readiness-report.md) | Version 2.1 fixes, out-of-sample fresh-page gate, entity alias resolution, enrichment readiness and what authorizes a live pilot |
+| [docs/11-proceedings-retest-report.md](docs/11-proceedings-retest-report.md) | Authority-versus-proceeding rule, retest on ten proceedings-bearing pages, the three post-processing fixes it surfaced, gate decision and open definitions |
 
 ## Non-negotiable constraints
 
