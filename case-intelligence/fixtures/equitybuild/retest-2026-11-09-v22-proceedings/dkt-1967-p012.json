@@ -167,6 +167,32 @@
   {
    "subject_type": "case",
    "subject_key": "case",
+   "predicate": "appointed_on",
+   "object_value": "2018-08-17",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "On August 17, 2018, this Court appointed a receiver for the assets of the Receivership Defendants. (Dkt. 16)",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "spaceless",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
    "predicate": "status",
    "object_value": "Receivership involves at least 108 real estate properties, more than 1,600 residential units, and 2,442 claims submitted by 914 claimants",
    "object_type": null,
@@ -183,10 +209,10 @@
    "confidence": 0.85,
    "origin": "extracted",
    "grounded": true,
-   "grounding_method": "fuzzy",
+   "grounding_method": "spaceless",
    "lint_flags": [],
    "needs_review": false,
-   "final_confidence": 0.7225,
+   "final_confidence": 0.85,
    "subject_label": "(main case)",
    "proceeding_label": "(main case)"
   },
@@ -210,19 +236,16 @@
    "origin": "extracted",
    "grounded": true,
    "grounding_method": "normalized",
-   "lint_flags": [],
-   "needs_review": false,
-   "final_confidence": 0.7,
+   "lint_flags": [
+    "holding_as_position: the text reports a court's holding, not a party's position; confirm the predicate and the proceeding"
+   ],
+   "needs_review": true,
+   "final_confidence": 0.42,
    "subject_label": "EquityBuild, Inc.",
    "proceeding_label": "(main case)"
   }
  ],
- "dropped": [
-  {
-   "quote": "On August 17, 2018, this Court appointed a receiver for the assets of the Receivership Defendants. (Dkt. 16)",
-   "reason": "quote not found on page"
-  }
- ],
+ "dropped": [],
  "warnings": [],
  "reclassified": [
   {
@@ -359,5 +382,5 @@
    }
   ]
  },
- "postprocess_version": "2026-11-09.2"
+ "postprocess_version": "2026-11-09.3"
 }

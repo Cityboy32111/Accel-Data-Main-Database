@@ -169,10 +169,10 @@
    "confidence": 0.7,
    "origin": "extracted",
    "grounded": true,
-   "grounding_method": "fuzzy",
+   "grounding_method": "spaceless",
    "lint_flags": [],
    "needs_review": false,
-   "final_confidence": 0.595,
+   "final_confidence": 0.7,
    "subject_label": "Pennington",
    "proceeding_label": "(main case)"
   },
@@ -195,10 +195,10 @@
    "confidence": 0.85,
    "origin": "extracted",
    "grounded": true,
-   "grounding_method": "fuzzy",
+   "grounding_method": "spaceless",
    "lint_flags": [],
    "needs_review": false,
-   "final_confidence": 0.7225,
+   "final_confidence": 0.85,
    "subject_label": "(main case)",
    "proceeding_label": "(main case)"
   },
@@ -346,5 +346,5 @@
    }
   ]
  },
- "postprocess_version": "2026-11-09.2"
+ "postprocess_version": "2026-11-09.3"
 }

@@ -3,10 +3,10 @@
 
 export interface GroundingResult {
   ok: boolean;
-  method: "exact" | "normalized" | "fuzzy" | "none";
+  method: "exact" | "normalized" | "spaceless" | "fuzzy" | "none";
   char_start: number | null;
   char_end: number | null;
-  /** Confidence multiplier: 1 for exact/normalized, 0.85 for fuzzy, 0 for none. */
+  /** Confidence multiplier: 1 for exact/normalized/spaceless, 0.85 for fuzzy, 0 for none. */
   penalty: number;
 }
 
@@ -48,6 +48,20 @@ export function groundQuote(pageText: string, quote: string, threshold = 0.9): G
   const normQuote = normalizeForMatch(q);
   const idx = normPage.indexOf(normQuote);
   if (idx >= 0) return { ok: true, method: "normalized", char_start: idx, char_end: idx + normQuote.length, penalty: 1 };
+
+  // Text layers of scanned filings often split words ("r eceiver", "th e C ourt").
+  // A quote whose characters match the page exactly once all whitespace is removed
+  // is still a verbatim quote; map the match back to normalized-page offsets.
+  const squeezedQuote = normQuote.replace(/\s+/g, "");
+  if (squeezedQuote.length >= 12) {
+    const map: number[] = [];
+    let squeezedPage = "";
+    for (let i = 0; i < normPage.length; i++) {
+      if (normPage[i] !== " ") { squeezedPage += normPage[i]; map.push(i); }
+    }
+    const at = squeezedPage.indexOf(squeezedQuote);
+    if (at >= 0) return { ok: true, method: "spaceless", char_start: map[at], char_end: map[at + squeezedQuote.length - 1] + 1, penalty: 1 };
+  }
 
   // Sliding window over the normalized page at the quote's length, stepping by
   // a few characters; accept the best window above the threshold.

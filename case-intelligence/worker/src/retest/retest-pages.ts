@@ -10,6 +10,10 @@ import { groundQuote } from "../structure/grounding.js";
 import { classifyLawsuit, lintAssertion } from "../structure/modality-lint.js";
 
 /** Estate party names used to tell appeals from this receivership apart from precedent about strangers. */
+/** The receivership case itself: its docket, its caption and the court that decides it. */
+export const MAIN_CASE = { docket: /18[\s-]*cv[\s-]*0?5587/i, caption: /\bsec\s+v\.\s+equitybuild/i, court: /\bn\.\s?d\.\s?ill\b/i };
+/** An appellate reporter or court marker; a decision carrying one is not the district court's own order. */
+export const APPELLATE_CITE = /\d+\s+f\.\s?(2d|3d|4th)\s+\d+|fed\.\s?app\'?x|\bcir\.|circuit/i;
 export const ESTATE_NAMES = ["equitybuild", "cohen", "duff", "receiver", "4533-37 s calumet", "wpd management", "shatar", "bc57", "amark"];
 
 export interface RetestPage {
@@ -108,7 +112,7 @@ export interface Reclassification { key: string; caption: string; from: string; 
  * and flag appeals identified only by reporter citations. Returns the list of
  * moves so the bundle records what changed and why.
  */
-export const POSTPROCESS_VERSION = "2026-11-09.2";
+export const POSTPROCESS_VERSION = "2026-11-09.3";
 
 export function reclassifyLawsuits(output: V2Output, estateNames: string[] = ESTATE_NAMES): Reclassification[] {
   const moves: Reclassification[] = [];
@@ -124,8 +128,11 @@ export function reclassifyLawsuits(output: V2Output, estateNames: string[] = EST
     const namesEstate = estateNames.some((n) => n && lower.includes(n.toLowerCase()));
     const m = cite.match(/(\d+\s+F\.\s?(?:2d|3d|4th)\s+\d+|\d{4}\s+WL\s+\d+|No\.\s*[\w:-]+[\s\w-]*?\d)/i);
     const citeKey = (m ? m[1] : cite).replace(/\s+/g, " ").trim().toLowerCase();
-    // A decision of the main case itself (its own docket number) is not a related proceeding.
-    const isMainCaseDecision = /18[\s-]*cv[\s-]*0?5587/i.test(cite);
+    // A decision of the main case itself is not a related proceeding: its own docket number,
+    // or the main-case caption decided by the receivership court with no appellate reporter
+    // (SEC v. EquityBuild, Inc., 2024 WL 3069682 (N.D. Ill. June 20, 2024) is Dkt. 1679).
+    const isMainCaseDecision = MAIN_CASE.docket.test(cite)
+      || (MAIN_CASE.caption.test(cite) && MAIN_CASE.court.test(cite) && !APPELLATE_CITE.test(cite));
     const alreadyListed = (output.related_lawsuits ?? []).some((r) => (r.docket_number ?? "").replace(/\s+/g, " ").trim().toLowerCase() === citeKey);
     if (namesEstate && !alreadyListed && !isMainCaseDecision && /\bv\.(?=\s)/.test(lower)) {
       const key = `promoted_${++promoted}`;

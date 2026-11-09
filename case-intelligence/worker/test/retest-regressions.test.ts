@@ -79,6 +79,7 @@ describe.skipIf(!have("dkt-1967-p003.json"))(`${d} / Dkt. 1967 page 3: contents-
 // 2026-11-08.2 retest is kept as the record of the failures it exposed.
 const creditorRuleApplies = (b: { schema_version?: string }) => (b.schema_version ?? "") >= "2026-11-08.3";
 const authorityRuleApplies = (b: { schema_version?: string }) => (b.schema_version ?? "") >= "2026-11-09.1";
+const mainCaseRuleApplies = (b: { postprocess_version?: string }) => (b.postprocess_version ?? "") >= "2026-11-09.3";
 
 describe.skipIf(!have("appointment-order-p001.json") || !creditorRuleApplies(load("appointment-order-p001.json")))(`${d} / Dkt. 16 page 1: document date is not the case date`, () => {
   const bundle = load("appointment-order-p001.json");
@@ -139,6 +140,32 @@ describe.skipIf(!have("dkt-1967-p005.json") || !authorityRuleApplies(load("dkt-1
     for (const r of bundle.output.related_lawsuits) {
       expect(/equitybuild|cohen|duff|receiver/i.test(r.caption)).toBe(true);
     }
+  });
+  it.skipIf(!mainCaseRuleApplies(bundle))("keeps the main case's own June 20, 2024 order out of related lawsuits", () => {
+    const asProceeding = bundle.output.related_lawsuits.some((r: { docket_number: string | null; caption: string }) => /3069682/.test(`${r.docket_number} ${r.caption}`));
+    const asAuthority = (bundle.output.authorities ?? []).some((a: { citation: string }) => /3069682/.test(a.citation));
+    expect(asProceeding).toBe(false);
+    expect(asAuthority).toBe(true);
+  });
+  it.skipIf(!mainCaseRuleApplies(bundle))("still lists both Seventh Circuit appeals as related lawsuits held for review", () => {
+    for (const cite of ["101 F.4th 526", "161 F.4th 1020"]) {
+      expect(bundle.output.related_lawsuits.some((r: { docket_number: string | null }) => (r.docket_number ?? "").includes(cite))).toBe(true);
+      expect((bundle.reclassified ?? []).some((m: { to: string; key: string }) => m.to.includes("review") && bundle.output.related_lawsuits.some((r: { key: string; docket_number: string | null }) => r.key === m.key && (r.docket_number ?? "").includes(cite)))).toBe(true);
+    }
+  });
+});
+
+describe.skipIf(!have("dkt-1967-p012.json") || !mainCaseRuleApplies(load("dkt-1967-p012.json")))(`${d} / Dkt. 1967 page 12: a Seventh Circuit holding is never an unflagged party position`, () => {
+  const bundle = load("dkt-1967-p012.json");
+  it("flags the Ponzi-scheme holding for review when stored as a party position", () => {
+    const holdings = bundle.assertions.filter((a: { object_value: unknown; quote: string }) => /ponzi/i.test(`${a.object_value} ${a.quote}`));
+    expect(holdings.length).toBeGreaterThan(0);
+    for (const a of holdings) {
+      if (a.predicate === "party_position") expect(a.needs_review).toBe(true);
+    }
+  });
+  it("grounds the August 17, 2018 appointment despite split words in the text layer", () => {
+    expect(bundle.assertions.some((a: { predicate: string; object_value: unknown }) => a.predicate === "appointed_on" && String(a.object_value).startsWith("2018-08-17"))).toBe(true);
   });
 });
 }

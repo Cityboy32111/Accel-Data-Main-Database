@@ -27,13 +27,6 @@
    {
     "key": "promoted_2",
     "caption": "SEC v. EquityBuild, Inc.",
-    "court": null,
-    "docket_number": "2024 WL 3069682",
-    "relationship": "other"
-   },
-   {
-    "key": "promoted_3",
-    "caption": "SEC v. EquityBuild, Inc.",
     "court": "7th Cir.",
     "docket_number": "161 F.4th 1020",
     "relationship": "appeal"
@@ -63,6 +56,9 @@
    },
    {
     "citation": "SEC v. Enterprise Trust Co., 2008 WL 4534154 (N.D. Ill. Oct. 7, 2008), aff'd 559 F.3d 649 (7th Cir. 2009)"
+   },
+   {
+    "citation": "SEC v. EquityBuild, Inc., 2024 WL 3069682 (N.D. Ill. June 20, 2024)"
    },
    {
     "citation": "SEC v. First Choice Mgmt. Servs., Inc., 743 Fed. Appx. 33 (7th Cir. 2018)"
@@ -138,13 +134,6 @@
   },
   {
    "key": "promoted_2",
-   "caption": "SEC v. EquityBuild, Inc.",
-   "from": "authority",
-   "to": "related_lawsuit (review)",
-   "reason": "cited as precedent but the caption names an estate party; appeal or action from this receivership"
-  },
-  {
-   "key": "promoted_3",
    "caption": "SEC v. EquityBuild, Inc.",
    "from": "authority",
    "to": "related_lawsuit (review)",
@@ -225,5 +214,5 @@
    }
   ]
  },
- "postprocess_version": "2026-11-09.2"
+ "postprocess_version": "2026-11-09.3"
 }

@@ -110,3 +110,20 @@ describe("authority versus proceeding", () => {
     expect(assertions).toHaveLength(1);
   });
 });
+
+describe("holding recorded as a party position", () => {
+  it("flags a court's holding stored under party_position", async () => {
+    const { lintAssertion } = await import("../src/structure/modality-lint.js");
+    const r = lintAssertion({ modality: "argued", predicate: "party_position", subject_type: "party", page_kind: "body", conditions: null,
+      object_value: "Seventh Circuit recognized the Cohens ran a Ponzi scheme through EquityBuild, Inc.",
+      quote: "the Cohens ran a Ponzi scheme through their real estate companies" });
+    expect(r.flags.some((f) => f.startsWith("holding_as_position"))).toBe(true);
+    expect(r.needs_review).toBe(true);
+  });
+  it("leaves a genuine party position alone", async () => {
+    const { lintAssertion } = await import("../src/structure/modality-lint.js");
+    const r = lintAssertion({ modality: "argued", predicate: "party_position", subject_type: "party", page_kind: "body", conditions: null,
+      object_value: "SEC argues BMO's release was never recorded", quote: "The facts are worse for BMO than they were for DLP" });
+    expect(r.flags.some((f) => f.startsWith("holding_as_position"))).toBe(false);
+  });
+});

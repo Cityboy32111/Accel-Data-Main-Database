@@ -45,6 +45,9 @@ export interface LintResult {
   needs_review: boolean;
 }
 
+/** A court stating, holding or affirming something, as opposed to a party arguing it. */
+export const HOLDING_LANGUAGE = /\b(circuit|court of appeals|appellate court|supreme court|district court|this court|the court)\b[^.;]{0,40}\b(held|holds|holding|recognized|found|ruled|affirmed|concluded|determined)\b|\b(held|holding|affirmed)\s+(that|by)\b[^.;]{0,30}\b(circuit|court)\b/i;
+
 export function lintAssertion(a: LintInput): LintResult {
   const flags: string[] = [];
   let modality = a.modality;
@@ -94,6 +97,14 @@ export function lintAssertion(a: LintInput): LintResult {
   if (a.subject_type === "case" && a.proceeding?.scope === "related_lawsuit") {
     flags.push("proceeding_mismatch: subject is the main case but proceeding.scope is related_lawsuit");
     factor = Math.min(factor, 0.5);
+  }
+
+  // 7. A court's holding recorded as a party's litigation position. "The Seventh Circuit
+  // recognized that ..." is a judicial finding, not advocacy; counsel must not read it as
+  // a position a party can retreat from.
+  if (a.predicate === "party_position" && HOLDING_LANGUAGE.test(`${a.object_value ?? ""} ${a.quote ?? ""}`)) {
+    flags.push("holding_as_position: the text reports a court's holding, not a party's position; confirm the predicate and the proceeding");
+    factor = Math.min(factor, 0.6);
   }
 
   return { flags, modality, confidence_factor: factor, needs_review: flags.length > 0 || modality === "index_reference" };
