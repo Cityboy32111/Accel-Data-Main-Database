@@ -159,5 +159,98 @@
  "dropped": [],
  "warnings": [],
  "reclassified": [],
- "page_text": "22\n•  Fireshark Enterprises,  LLC, v . EquityBuild, Inc.,  Case No.  20 18 L 9026, Circuit\nCourt  of Cook County, Law Division.  On  September 24, 2018, the Receiver filed\nhis appearance and Notice of Appointment of Receiver and Stay of Litigation .\n•  Markwell  v. EquityBuild, Inc.,  Case No. 2018 - 13722, 165th  Judicial  Distric t Court,\nHarris County, Texas.  EquityBuild’s c ounsel  in Texas  filed  a motion to stay  the\nproceedings  and  is awaiting  a court order.\nAdditionally,  there are  more than two  dozen  open bu ilding code violations involving the\nCity of Chicago, as follows:\n•  There are  seven currently known  City of Chicago  municipal housing court matters.\nThe Receiver’s counsel has been communicating with the  corporation counsel and\nthe  respective p roperty  man agers  to  address  the  alleged  violations  and  the\npreservation of those properties.  Full  compliance  will ultimately  include,  inter alia ,\na full  rehab for approximately 16 units and a roof for a building that  was affected\nby a fire in 2016,  replacement of si x porches,  and  the  rep air of two  additional\nporches.  As of the  date of this filing, one porch replacement had begun.\n•  As of September 30, 2018,  a pproximately  twelve  City of Chicago administrative\nproceedings filed by the City of Chicago Buildings Depart ment were known to be\npending. Compliance  with local law will ultimately range  from  “ turning ”  one unit\nand addressing  a bug infe station  to  replacing o ver 90 lintels on one building,  to  a\nporch  replacement,  to  masonry/tuckpointing  work.  The  Receiver  achie ved\ncompliance on one matter  which  was dismissed  on October 16, 2018; and a second\nmatter involves only the imposition of a minor fine.\n•  As of September 30, 2018, approximately  twelve administrative proceedings were\nknown to be pending with the Departmen t of Streets and Sanitation .  On  October\n16, 2018,  seven  of these w ere dismissed in their entirety. A s to the remaining five,\na  single - count fine was imposed .\n•  There is  known to be one  City of Chicago  administrative matter  pending with the\nDepartment of  Water  Management .\nThe Receiver is also aware of  two  open City of Chicago violations for which notice has\nbeen sent bu t  a court date has not yet been assigned.\nThe Receiver and his counsel have been working closely with  the City’s  corporation\ncounse l  for each  department  (housing, buildings, streets and sanitation, and waste management),\nCase: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 22 of 30 PageID #:975"
+ "page_text": "22\n•  Fireshark Enterprises,  LLC, v . EquityBuild, Inc.,  Case No.  20 18 L 9026, Circuit\nCourt  of Cook County, Law Division.  On  September 24, 2018, the Receiver filed\nhis appearance and Notice of Appointment of Receiver and Stay of Litigation .\n•  Markwell  v. EquityBuild, Inc.,  Case No. 2018 - 13722, 165th  Judicial  Distric t Court,\nHarris County, Texas.  EquityBuild’s c ounsel  in Texas  filed  a motion to stay  the\nproceedings  and  is awaiting  a court order.\nAdditionally,  there are  more than two  dozen  open bu ilding code violations involving the\nCity of Chicago, as follows:\n•  There are  seven currently known  City of Chicago  municipal housing court matters.\nThe Receiver’s counsel has been communicating with the  corporation counsel and\nthe  respective p roperty  man agers  to  address  the  alleged  violations  and  the\npreservation of those properties.  Full  compliance  will ultimately  include,  inter alia ,\na full  rehab for approximately 16 units and a roof for a building that  was affected\nby a fire in 2016,  replacement of si x porches,  and  the  rep air of two  additional\nporches.  As of the  date of this filing, one porch replacement had begun.\n•  As of September 30, 2018,  a pproximately  twelve  City of Chicago administrative\nproceedings filed by the City of Chicago Buildings Depart ment were known to be\npending. Compliance  with local law will ultimately range  from  “ turning ”  one unit\nand addressing  a bug infe station  to  replacing o ver 90 lintels on one building,  to  a\nporch  replacement,  to  masonry/tuckpointing  work.  The  Receiver  achie ved\ncompliance on one matter  which  was dismissed  on October 16, 2018; and a second\nmatter involves only the imposition of a minor fine.\n•  As of September 30, 2018, approximately  twelve administrative proceedings were\nknown to be pending with the Departmen t of Streets and Sanitation .  On  October\n16, 2018,  seven  of these w ere dismissed in their entirety. A s to the remaining five,\na  single - count fine was imposed .\n•  There is  known to be one  City of Chicago  administrative matter  pending with the\nDepartment of  Water  Management .\nThe Receiver is also aware of  two  open City of Chicago violations for which notice has\nbeen sent bu t  a court date has not yet been assigned.\nThe Receiver and his counsel have been working closely with  the City’s  corporation\ncounse l  for each  department  (housing, buildings, streets and sanitation, and waste management),\nCase: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 22 of 30 PageID #:975",
+ "raw_output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "Fireshark Enterprises, LLC",
+    "party_roles": [
+     "plaintiff"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "EquityBuild, Inc.",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "City of Chicago",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [
+   {
+    "key": "rl1",
+    "caption": "Fireshark Enterprises, LLC, v. EquityBuild, Inc.",
+    "court": "Circuit Court of Cook County, Law Division",
+    "docket_number": "2018 L 9026",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "rl2",
+    "caption": "Markwell v. EquityBuild, Inc.",
+    "court": "165th Judicial District Court, Harris County, Texas",
+    "docket_number": "2018-13722",
+    "relationship": "state_court_action"
+   }
+  ],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "rl1",
+    "predicate": "status",
+    "object_value": "Receiver filed appearance and Notice of Appointment of Receiver and Stay of Litigation on 2018-09-24",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "rl1"
+    },
+    "as_of_date": "2018-09-24",
+    "referenced_page": null,
+    "quote": "On September 24, 2018, the Receiver filed his appearance and Notice of Appointment of Receiver and Stay of Litigation .",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "rl2",
+    "predicate": "status",
+    "object_value": "EquityBuild's Texas counsel filed a motion to stay; awaiting court order",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "awaiting a court order",
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "rl2"
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "EquityBuild’s c ounsel  in Texas  filed  a motion to stay  the proceedings  and  is awaiting  a court order.",
+    "confidence": 0.9,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "postprocess_version": "2026-11-09.2"
 }

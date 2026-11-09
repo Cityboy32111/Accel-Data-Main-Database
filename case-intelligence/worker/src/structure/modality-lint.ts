@@ -136,7 +136,7 @@ export function classifyLawsuit(l: LawsuitLike, estateNames: string[]): Authorit
   if (reporter && namesEstate) {
     return { classification: "proceeding_review", reason: "appeal from this receivership identified only by a reporter citation; confirm the appellate docket" };
   }
-  if (!l.docket_number && /\bv\.\b/.test(cap) && !namesEstate) {
+  if (!l.docket_number && /\bv\.(?=\s)/.test(cap) && !namesEstate) {
     return { classification: "proceeding_review", reason: "captioned case with no docket number and no estate party; may be an authority" };
   }
   void text;

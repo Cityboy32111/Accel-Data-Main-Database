@@ -153,5 +153,87 @@
  ],
  "warnings": [],
  "reclassified": [],
- "page_text": "2\nthe Order Appoin ting Receiver. (Docket No. 16)  The Receiver also  expects that this status report\nwill be a primary source of i nformation for many, including without limitation, investors, lenders,\nand other creditors.\na .  General Powers and Duties  of a Receiver\nThere are two basic principles in cases inv olving equitable receiverships . The first relates\nto a  “ common threa d  [that]  keeps emerging out of the cases involving equity receiverships — that\nis, a district court has extremely broad discretion in supervising an equity receivership and in\ndetermining the appropriate procedures to  be used in its administration.”  FDIC v.  Bernstein,  786\nF.Supp. 170, 177  (E.D.N.Y. 1992);  see also  SEC v. Hardy , 803 F.2d 1034, 1037  (9th  Cir. 1986);\nSEC v. Safety Financial Service, Inc.,  674 F.2d 368, 372  (5th Cir. 1982)  (“ action by a trial court\nin supervising an equity receivership is commit ted to his sound discretion and will not be disturbed\nunless th ere is a clear showing of abuse ”).  The court’s  “broad powers and wide discretion”  stem\nfrom the inherently complex transactions  and  multiple parties to a receivership action  and the need\nfor o rderly administration of the estate .  Hardy , 803 F.2d at 1037.  Another  “ primary purpose of\nequity receiverships is to promote orderly and efficient administration of the estate by the district\ncour t for the benefit of creditors.”  Id.  at 1038.  A s such, “ reasonable procedures  instituted by the\ndistrict court ”  that ultimately serve these basic principles are generally upheld.  Id.\nBecause an equity receivership is subject to the  C ourt’s broad discretion, “ a receiver\nreceives [his]  power and authority d irectly f rom the  C ourt and therefore is ‘ subject to the court ’ s\ndirections and orders in the discharge of  [his]  official duties. ’ ”  SEC v. Elfindepan, S.A.,  169 F.\nSupp. 2d 420, 424 (M.D.N.C. 2001) .  The Receiver is tasked with powers and duties under th e\nC ourt  O rder appointing him .  ( See, e.g.,  Docket No, 16, Ord er Appointing Receiver ¶¶ 6 - 8) The\nprac tical effect of these broad powers and duties is that the  R eceiver effectively steps in the shoes\nCase: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 2 of 30 PageID #:955"
+ "page_text": "2\nthe Order Appoin ting Receiver. (Docket No. 16)  The Receiver also  expects that this status report\nwill be a primary source of i nformation for many, including without limitation, investors, lenders,\nand other creditors.\na .  General Powers and Duties  of a Receiver\nThere are two basic principles in cases inv olving equitable receiverships . The first relates\nto a  “ common threa d  [that]  keeps emerging out of the cases involving equity receiverships — that\nis, a district court has extremely broad discretion in supervising an equity receivership and in\ndetermining the appropriate procedures to  be used in its administration.”  FDIC v.  Bernstein,  786\nF.Supp. 170, 177  (E.D.N.Y. 1992);  see also  SEC v. Hardy , 803 F.2d 1034, 1037  (9th  Cir. 1986);\nSEC v. Safety Financial Service, Inc.,  674 F.2d 368, 372  (5th Cir. 1982)  (“ action by a trial court\nin supervising an equity receivership is commit ted to his sound discretion and will not be disturbed\nunless th ere is a clear showing of abuse ”).  The court’s  “broad powers and wide discretion”  stem\nfrom the inherently complex transactions  and  multiple parties to a receivership action  and the need\nfor o rderly administration of the estate .  Hardy , 803 F.2d at 1037.  Another  “ primary purpose of\nequity receiverships is to promote orderly and efficient administration of the estate by the district\ncour t for the benefit of creditors.”  Id.  at 1038.  A s such, “ reasonable procedures  instituted by the\ndistrict court ”  that ultimately serve these basic principles are generally upheld.  Id.\nBecause an equity receivership is subject to the  C ourt’s broad discretion, “ a receiver\nreceives [his]  power and authority d irectly f rom the  C ourt and therefore is ‘ subject to the court ’ s\ndirections and orders in the discharge of  [his]  official duties. ’ ”  SEC v. Elfindepan, S.A.,  169 F.\nSupp. 2d 420, 424 (M.D.N.C. 2001) .  The Receiver is tasked with powers and duties under th e\nC ourt  O rder appointing him .  ( See, e.g.,  Docket No, 16, Ord er Appointing Receiver ¶¶ 6 - 8) The\nprac tical effect of these broad powers and duties is that the  R eceiver effectively steps in the shoes\nCase: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 2 of 30 PageID #:955",
+ "raw_output": {
+  "page_kind": "body",
+  "parties": [],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "FDIC v. Bernstein, 786 F.Supp. 170, 177 (E.D.N.Y. 1992)"
+   },
+   {
+    "citation": "SEC v. Hardy, 803 F.2d 1034, 1037 (9th Cir. 1986)"
+   },
+   {
+    "citation": "SEC v. Safety Financial Service, Inc., 674 F.2d 368, 372 (5th Cir. 1982)"
+   },
+   {
+    "citation": "SEC v. Elfindepan, S.A., 169 F. Supp. 2d 420, 424 (M.D.N.C. 2001)"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's First Status Report (Third Quarter 2018), Dkt. 107",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-10-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 2 of 30 PageID #:955",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "party_position",
+    "object_value": "Receiver expects the status report will be a primary source of information for investors, lenders, and other creditors",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "The Receiver also expects that this status report will be a primary source of information for many, including without limitation, investors, lenders, and other creditors.",
+    "confidence": 0.8,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "party_position",
+    "object_value": "Receiver is tasked with powers and duties under the Court order appointing him (Order Appointing Receiver ¶¶ 6-8)",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "The Receiver is tasked with powers and duties under the Court Order appointing him.",
+    "confidence": 0.7,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "postprocess_version": "2026-11-09.2"
 }

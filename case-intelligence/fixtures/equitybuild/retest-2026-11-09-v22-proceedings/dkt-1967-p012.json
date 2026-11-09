@@ -37,16 +37,25 @@
   "creditors": [],
   "attorneys": [],
   "properties": [],
-  "related_lawsuits": [],
+  "related_lawsuits": [
+   {
+    "key": "promoted_1",
+    "caption": "SEC v. EquityBuild, Inc.",
+    "court": "7th Cir.",
+    "docket_number": "101 F.4th 526",
+    "relationship": "appeal"
+   },
+   {
+    "key": "promoted_2",
+    "caption": "SEC v. EquityBuild, Inc.",
+    "court": "7th Cir.",
+    "docket_number": "161 F.4th 1020",
+    "relationship": "appeal"
+   }
+  ],
   "authorities": [
    {
-    "citation": "SEC v. EquityBuild, Inc., 101 F.4th 526, 528 (7th Cir. 2024)"
-   },
-   {
     "citation": "SEC v. EquityBuild, Inc., No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024)"
-   },
-   {
-    "citation": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025)"
    }
   ],
   "assertions": [
@@ -215,6 +224,140 @@
   }
  ],
  "warnings": [],
- "reclassified": [],
- "page_text": "6\nresulted in mortgages on properties that in the aggregate were sometimes multiples of the actual\nvalue of the properties.  ( Id. )  The Cohens created a labyrinthian network of over 158 separate\ncorporate entities as cover for their activities.  ( See  Dkt. 241 at 3 )  And at the heart of this\ncomplexity — and particularly during the claims process for Groups 1 - 9 — were  competing,\npurportedly secured, claims asserted by both institutional lender claimants and investor lender\nclaimants against properties in the estate.  ( See  Dkt. 1589,  Ex. 6 ;  see also  Dkt. 693,  Ex .  1 (claims\norganized by property) )\nThe Seventh Circuit recognized , as this Court  held ,  that the Cohens “ran a Ponzi scheme\nthrough their real estate companies EquityBuild, Inc. and EquityBuild Finance, LLC (‘EBF’) from\nat least 2010 to 2018.”  SEC  v. EquityBuild, Inc. , 101 F.4th 526, 528 (7th Cir. 2024)  (“ EquityBuild\nI ”) .  “In this litigation, liability for this Ponzi scheme was established years ago….”  I d.  at 534\n(Easterbrook, J., conc.) ;  see also, e.g.,  SEC v. EquityBuild, Inc. ,  No.  18 CV 5587, 2024 WL\n3069682, at *1 (N.D. Ill. June 20, 2024)  ( Dkt. 1679 ) ,  aff ’ d sub nom.  SEC  v. EquityBuild, I nc . , 161\nF.4th 1020, 1025 - 26 (7th Cir. 2025)  (“ EquityBuild II ”) .\nC.  Appointment of  the  Receiver\nO n  August 17, 2018 , this Court  appointed  a  r eceiver for the assets of  the Receivership\nDefendants . ( Dkt. 16 ) Primary among his duties, the Receiver was charged with discovering,\nretrieving ,  and preserving monies and other assets of the Receivership Defendants, identifying the\ninvestor victims  and creditors  of the Ponzi scheme ,  and eventually proposing and administering a\nplan of distribution of the collected assets.  ( Id .)\nThe  R eceivership has been complex and substantial, involving  at least  108 real estate\nproperties, more than 1,600 residential units, and  2 , 442  claims  submitted by  914  claimants\nCase: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 12 of 273 PageID #:128342"
+ "reclassified": [
+  {
+   "key": "promoted_1",
+   "caption": "SEC v. EquityBuild, Inc.",
+   "from": "authority",
+   "to": "related_lawsuit (review)",
+   "reason": "cited as precedent but the caption names an estate party; appeal or action from this receivership"
+  },
+  {
+   "key": "promoted_2",
+   "caption": "SEC v. EquityBuild, Inc.",
+   "from": "authority",
+   "to": "related_lawsuit (review)",
+   "reason": "cited as precedent but the caption names an estate party; appeal or action from this receivership"
+  }
+ ],
+ "page_text": "6\nresulted in mortgages on properties that in the aggregate were sometimes multiples of the actual\nvalue of the properties.  ( Id. )  The Cohens created a labyrinthian network of over 158 separate\ncorporate entities as cover for their activities.  ( See  Dkt. 241 at 3 )  And at the heart of this\ncomplexity — and particularly during the claims process for Groups 1 - 9 — were  competing,\npurportedly secured, claims asserted by both institutional lender claimants and investor lender\nclaimants against properties in the estate.  ( See  Dkt. 1589,  Ex. 6 ;  see also  Dkt. 693,  Ex .  1 (claims\norganized by property) )\nThe Seventh Circuit recognized , as this Court  held ,  that the Cohens “ran a Ponzi scheme\nthrough their real estate companies EquityBuild, Inc. and EquityBuild Finance, LLC (‘EBF’) from\nat least 2010 to 2018.”  SEC  v. EquityBuild, Inc. , 101 F.4th 526, 528 (7th Cir. 2024)  (“ EquityBuild\nI ”) .  “In this litigation, liability for this Ponzi scheme was established years ago….”  I d.  at 534\n(Easterbrook, J., conc.) ;  see also, e.g.,  SEC v. EquityBuild, Inc. ,  No.  18 CV 5587, 2024 WL\n3069682, at *1 (N.D. Ill. June 20, 2024)  ( Dkt. 1679 ) ,  aff ’ d sub nom.  SEC  v. EquityBuild, I nc . , 161\nF.4th 1020, 1025 - 26 (7th Cir. 2025)  (“ EquityBuild II ”) .\nC.  Appointment of  the  Receiver\nO n  August 17, 2018 , this Court  appointed  a  r eceiver for the assets of  the Receivership\nDefendants . ( Dkt. 16 ) Primary among his duties, the Receiver was charged with discovering,\nretrieving ,  and preserving monies and other assets of the Receivership Defendants, identifying the\ninvestor victims  and creditors  of the Ponzi scheme ,  and eventually proposing and administering a\nplan of distribution of the collected assets.  ( Id .)\nThe  R eceivership has been complex and substantial, involving  at least  108 real estate\nproperties, more than 1,600 residential units, and  2 , 442  claims  submitted by  914  claimants\nCase: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 12 of 273 PageID #:128342",
+ "raw_output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "EquityBuild, Inc.",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "EquityBuild Finance, LLC",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": [
+     "EBF"
+    ]
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "SEC v. EquityBuild, Inc., 101 F.4th 526, 528 (7th Cir. 2024)"
+   },
+   {
+    "citation": "SEC v. EquityBuild, Inc., No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024)"
+   },
+   {
+    "citation": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025)"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-06-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 12 of 273 PageID #:128342",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "appointed_on",
+    "object_value": "2018-08-17",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "On August 17, 2018, this Court appointed a receiver for the assets of the Receivership Defendants. (Dkt. 16)",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "status",
+    "object_value": "Receivership involves at least 108 real estate properties, more than 1,600 residential units, and 2,442 claims submitted by 914 claimants",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "involving at least 108 real estate properties, more than 1,600 residential units, and 2,442 claims submitted by 914 claimants",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p1",
+    "predicate": "party_position",
+    "object_value": "Seventh Circuit recognized the Cohens ran a Ponzi scheme through EquityBuild, Inc. and EBF from at least 2010 to 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "the Cohens “ran a Ponzi scheme through their real estate companies EquityBuild, Inc. and EquityBuild Finance, LLC (‘EBF’) from at least 2010 to 2018.”",
+    "confidence": 0.7,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "postprocess_version": "2026-11-09.2"
 }

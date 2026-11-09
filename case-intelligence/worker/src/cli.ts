@@ -5,6 +5,7 @@
 //   npm run worker -- acquire [--limit N]   store the downloaded subset through the pipeline-ingest Edge Function
 //   npm run worker -- extract --sample [--dockets 1967,1806] [--titles "a|b"] [--max-pages N] [--model m]
 //   npm run worker -- retest [--pages sel.json] [--out dir] [--model m]   isolated extraction of a fixed page list, fixtures only, no DB writes
+//   npm run worker -- reprocess --dir <retest dir>   re-run post-processing over saved bundles (no model calls)
 //   npm run worker -- status                counts and coverage for the pilot case
 //
 // acquire/status/plan need PIPELINE_WORKER_TOKEN (scoped token for the Edge Function).
@@ -57,6 +58,12 @@ async function main(): Promise<void> {
     const { downloads, failed } = await downloadSubset(cfg, fetcher, result.subset, undefined, { limit });
     console.log(JSON.stringify({ downloaded: downloads.length, failed }, null, 2));
     if (failed.length) process.exitCode = 1;
+    return;
+  }
+
+  if (command === "reprocess") {
+    const { reprocessDir } = await import("./retest/retest-pages.js");
+    await reprocessDir(String(flags.get("dir") ?? ""));
     return;
   }
 

@@ -108,9 +108,35 @@ export interface Reclassification { key: string; caption: string; from: string; 
  * and flag appeals identified only by reporter citations. Returns the list of
  * moves so the bundle records what changed and why.
  */
+export const POSTPROCESS_VERSION = "2026-11-09.2";
+
 export function reclassifyLawsuits(output: V2Output, estateNames: string[] = ESTATE_NAMES): Reclassification[] {
   const moves: Reclassification[] = [];
   const keep: V2Output["related_lawsuits"] = [];
+  // Reverse direction: an "authority" whose caption names an estate party is an appeal or
+  // action from this receivership that the model filed as precedent. Promote it to a related
+  // lawsuit held for review, so appeals such as SEC v. EquityBuild, 101 F.4th 526 are not lost.
+  const remainingAuthorities: V2Output["authorities"] = [];
+  let promoted = 0;
+  for (const a of output.authorities ?? []) {
+    const cite = a.citation ?? "";
+    const lower = cite.toLowerCase();
+    const namesEstate = estateNames.some((n) => n && lower.includes(n.toLowerCase()));
+    const m = cite.match(/(\d+\s+F\.\s?(?:2d|3d|4th)\s+\d+|\d{4}\s+WL\s+\d+|No\.\s*[\w:-]+[\s\w-]*?\d)/i);
+    const citeKey = (m ? m[1] : cite).replace(/\s+/g, " ").trim().toLowerCase();
+    // A decision of the main case itself (its own docket number) is not a related proceeding.
+    const isMainCaseDecision = /18[\s-]*cv[\s-]*0?5587/i.test(cite);
+    const alreadyListed = (output.related_lawsuits ?? []).some((r) => (r.docket_number ?? "").replace(/\s+/g, " ").trim().toLowerCase() === citeKey);
+    if (namesEstate && !alreadyListed && !isMainCaseDecision && /\bv\.(?=\s)/.test(lower)) {
+      const key = `promoted_${++promoted}`;
+      const caption = cite.split(/,\s*(?=\d)/)[0].trim();
+      output.related_lawsuits.push({ key, caption, court: /7th cir|seventh circuit/i.test(cite) ? "7th Cir." : null, docket_number: m ? m[1].trim() : null, relationship: /cir\./i.test(cite) ? "appeal" : "other" });
+      moves.push({ key, caption, from: "authority", to: "related_lawsuit (review)", reason: "cited as precedent but the caption names an estate party; appeal or action from this receivership" });
+      continue;
+    }
+    remainingAuthorities.push(a);
+  }
+  output.authorities = remainingAuthorities;
   for (const rl of output.related_lawsuits ?? []) {
     const c = classifyLawsuit(rl, estateNames);
     if (c.classification === "authority") {
@@ -122,7 +148,8 @@ export function reclassifyLawsuits(output: V2Output, estateNames: string[] = EST
     keep.push(rl);
   }
   output.related_lawsuits = keep;
-  return moves;
+  const seen = new Set<string>();
+  return moves.filter((m) => { const k = `${m.key}|${m.to}`; if (seen.has(k)) return false; seen.add(k); return true; });
 }
 
 export function processOutput(output: V2Output, pageText: string, moves: Reclassification[] = []): { assertions: ProcessedAssertion[]; dropped: { quote: string; reason: string }[] } {
@@ -223,4 +250,20 @@ export async function runRetest(
     log(`${p.key} p${p.page} [${output.page_kind}]: ${assertions.length} grounded, ${dropped.length} dropped, ${assertions.filter((a) => a.needs_review).length} flagged (${body.input_tokens}+${body.output_tokens} tok)`);
   }
   return { bundles, totals };
+}
+
+/** Re-run post-processing (reclassification, grounding, lint) over saved bundles whose raw model output is kept. */
+export async function reprocessDir(dir: string, log: (l: string) => void = console.log): Promise<void> {
+  const { readdir } = await import("node:fs/promises");
+  for (const f of (await readdir(dir)).filter((x) => /-p\d{3}\.json$/.test(x)).sort()) {
+    const full = path.join(dir, f);
+    const b = JSON.parse(await readFile(full, "utf8")) as RetestBundle & { raw_output?: V2Output; postprocess_version?: string };
+    const raw = b.raw_output ?? b.output; // first reprocess keeps the model output as raw_output
+    const output = coerceOutput(JSON.parse(JSON.stringify(raw)));
+    const moves = reclassifyLawsuits(output);
+    const { assertions, dropped } = processOutput(output, b.page_text, moves);
+    const next = { ...b, raw_output: raw, output, assertions, dropped, warnings: pageWarnings(output), reclassified: moves, postprocess_version: POSTPROCESS_VERSION };
+    await writeFile(full, JSON.stringify(next, null, 1));
+    log(`${f}: ${assertions.length} assertions, ${dropped.length} dropped, ${moves.length} reclassified (${moves.map((m) => m.to).join(", ")})`);
+  }
 }
