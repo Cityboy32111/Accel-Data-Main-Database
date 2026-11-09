@@ -1,0 +1,188 @@
+{
+ "key": "dkt-1967",
+ "page": 6,
+ "document": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+ "document_id": "087d434a-4ac4-4929-960f-6b245ab5ce44",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-09.1",
+ "schema_version": "2026-11-09.1",
+ "input_tokens": 5952,
+ "output_tokens": 950,
+ "latency_ms": 4845,
+ "page_kind": "table_of_contents",
+ "output": {
+  "page_kind": "table_of_contents",
+  "parties": [],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "SEC v. HKW Trading LLC, 2009 WL 2499146 (M.D. Fla. Aug. 14, 2009)"
+   },
+   {
+    "citation": "SEC v. Huber, 702 F.3d 903 (7th Cir. 2012)"
+   },
+   {
+    "citation": "SEC v. Infinity Grp. Co., 226 Fed. App'x 217 (3d Cir. 2007)"
+   },
+   {
+    "citation": "SEC v. Merrill Scott & Assocs., 2006 WL 3813320 (D. Utah Dec. 21, 2006)"
+   },
+   {
+    "citation": "SEC v. Parish, 2010 WL 5394736 (D.S.C. Feb. 10, 2010)"
+   },
+   {
+    "citation": "SEC v. TLC Invs. & Trade Co., 147 F. Supp. 2d 1031 (C.D. Cal. 2001)"
+   },
+   {
+    "citation": "SEC v. Wang, 944 F.2d 80 (2d Cir. 1991)"
+   },
+   {
+    "citation": "SEC v. Wealth Mgmt., LLC, 628 F.3d 323 (7th Cir. 2010)"
+   },
+   {
+    "citation": "U.S. v. Mikaitis, 33 F.4th 393 (7th Cir. 2022)"
+   },
+   {
+    "citation": "Vanston Bondholders Protective Committee v. Green, 329 U.S. 156 (1946)"
+   },
+   {
+    "citation": "15 USC § 77(b)"
+   },
+   {
+    "citation": "15 USC § 78u(d)"
+   },
+   {
+    "citation": "15 USC § 78u(e)"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-06-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 6 of 273",
+    "confidence": 0.9,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+   "object_type": null,
+   "object_key": null,
+   "modality": "index_reference",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-06-30",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 6 of 273",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [
+    "toc_page: modality completed downgraded to index_reference"
+   ],
+   "needs_review": true,
+   "final_confidence": 0.54,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "reclassified": [],
+ "page_text": "v\nSEC v. HKW Trading LLC ,\nNo. 8:05 - CV - 1076 - T - 24 - TB, 2009 WL 2499146 (M.D. Fla. Aug. 14, 2009) ........................... 5 1\nSEC v. Huber , 702 F.3d 903 (7th Cir. 2012)  ................  1 5 - 16 ,  18 ,  19 , 20 ,  22 ,  23 ,  31 ,  4 0 ,  41 ,  42 ,  43\nSEC v. Infinity Grp. Co. , 226 Fed. App’x 217 (3d Cir. 2007)  ................................ ........................ 49\nSEC v. Merrill Scott & Assocs. , No. 02CV39, 2006 WL 3813320 (D. Utah Dec. 21, 2006)  ........ 26\nSEC  v. Parish , No. 2:07 - cv - 00919 - DCN, 2010 WL 5394736 (D.S.C. Feb. 10, 2010) .................. 43\nSEC v. TLC Invs. & Trade Co. , 147 F. Supp. 2d 1031 (C.D. Cal. 2001)  ................................ ....... 16\nSEC v. Wang , 944 F.2d 80 (2d Cir. 1991)  ................................ ................................ ................ 4 8 ,  49\nSEC v. Wealth Mgmt., LLC,\n628 F.3d 323 (7th Cir. 2010)  ................................ ....... 16 ,  17 ,  19 , 25 ,  31 ,  36 ,  36 n.1 7 ,  3 8 ,  4 2 ,  5 1\nU.S. v. Mikaitis,  33 F.4th 393  (7th Cir. 2022)  ................................ ................................ ................ 32\nVanston Bondholders Protective Committee v. Green , 329 U.S. 156 (1946)  ................................ . 23\nOther Authorities\n15 USC § 77(b)  ................................ ................................ ................................ ................................ 4\n15 USC § 78u(d)  ................................ ................................ ................................ ............................. 4\n15 USC § 78u(e)  ................................ ................................ ................................ .............................. 4\nCase: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 6 of 273 PageID #:128336",
+ "raw_output": {
+  "page_kind": "table_of_contents",
+  "parties": [],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "SEC v. HKW Trading LLC, 2009 WL 2499146 (M.D. Fla. Aug. 14, 2009)"
+   },
+   {
+    "citation": "SEC v. Huber, 702 F.3d 903 (7th Cir. 2012)"
+   },
+   {
+    "citation": "SEC v. Infinity Grp. Co., 226 Fed. App'x 217 (3d Cir. 2007)"
+   },
+   {
+    "citation": "SEC v. Merrill Scott & Assocs., 2006 WL 3813320 (D. Utah Dec. 21, 2006)"
+   },
+   {
+    "citation": "SEC v. Parish, 2010 WL 5394736 (D.S.C. Feb. 10, 2010)"
+   },
+   {
+    "citation": "SEC v. TLC Invs. & Trade Co., 147 F. Supp. 2d 1031 (C.D. Cal. 2001)"
+   },
+   {
+    "citation": "SEC v. Wang, 944 F.2d 80 (2d Cir. 1991)"
+   },
+   {
+    "citation": "SEC v. Wealth Mgmt., LLC, 628 F.3d 323 (7th Cir. 2010)"
+   },
+   {
+    "citation": "U.S. v. Mikaitis, 33 F.4th 393 (7th Cir. 2022)"
+   },
+   {
+    "citation": "Vanston Bondholders Protective Committee v. Green, 329 U.S. 156 (1946)"
+   },
+   {
+    "citation": "15 USC § 77(b)"
+   },
+   {
+    "citation": "15 USC § 78u(d)"
+   },
+   {
+    "citation": "15 USC § 78u(e)"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-06-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 6 of 273",
+    "confidence": 0.9,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "postprocess_version": "2026-11-09.3"
+}

@@ -1,0 +1,1110 @@
+{
+ "dkt-1806-p004": {
+  "creditors": [
+   {
+    "name": "BMO",
+    "detail": "Institutional lender; Group 7 claimant asserting mortgage priority over the investors' prior recorded mortgage based on a purported (unrecorded) release; SEC opposes. Referred to only as \"BMO\" on this page.",
+    "evidence": "BMO thus faces a similar fact pattern to the one the Court considered for institutional lender Direct Lending Partners"
+   },
+   {
+    "name": "Direct Lending Partners",
+    "detail": "Institutional lender; Group 2 claimant that lost priority dispute to the Group 2 investors (ECF 1679). Abbreviated \"DLP\".",
+    "evidence": "institutional lender Direct Lending Partners (\"DLP\") for Group 2"
+   },
+   {
+    "name": "BC57",
+    "detail": "Institutional lender; Group 1 claimant whose priority arguments (ECF 1152 at 15-28) BMO is said to repeat.",
+    "evidence": "the same Collateral Agency and Servicing Agreements at issue for BMO (and for BC57 in Group 1)"
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "BMO",
+    "detail": "Institutional lender / Group 7 objector-claimant; the subject of the SEC's response on this page.",
+    "evidence": "The facts are worse for BMO than they were for DLP"
+   },
+   {
+    "name": "Direct Lending Partners",
+    "detail": "Institutional lender in Group 2; variant \"DLP\".",
+    "evidence": "institutional lender Direct Lending Partners (\"DLP\") for Group 2"
+   },
+   {
+    "name": "BC57",
+    "detail": "Institutional lender in Group 1.",
+    "evidence": "arguments made by BC57 in Group 1 (see ECF 1152 at 15-28)"
+   },
+   {
+    "name": "EquityBuild Finance",
+    "detail": "EquityBuild affiliate; its President Shaun Cohen signed the purported release; Court previously found it lacked actual or apparent authority to release investors' mortgage.",
+    "evidence": "signed by Shaun Cohen, in his capacity as President of EquityBuild Finance. (See ECF 1794-4)"
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "Collateral Agency and Servicing Agreements",
+    "detail": "Documents (not real property) governing EquityBuild Finance's authority over investor mortgages; at issue for BMO, BC57 (Group 1) and DLP (Group 2).",
+    "evidence": "the same Collateral Agency and Servicing Agreements at issue for BMO (and for BC57 in Group 1)"
+   }
+  ],
+  "related_proceedings": [],
+  "authorities": [
+   {
+    "name": "5201 Washington, 2024 IL App (1st) 231403-U",
+    "detail": "Illinois Appellate Court (First District) unpublished order cited at *P24-*P26 for the proposition that subsequent purchasers may rely on a recorded release to qualify as bona fide purchasers; SEC distinguishes it because BMO's release was never recorded and BMO does not cite it or claim bona fide purchaser status.",
+    "evidence": "the one addressed in 5201 Washington: whether subsequent purchasers could rely on the recorded release to qualify as bona fide purchasers. 2024 IL App (1st) 231403-U, at *P24-*P26"
+   },
+   {
+    "name": "Illinois Fiduciary Obligations Act",
+    "detail": "Illinois statute that BMO argues establishes its priority (argument (b)), the same argument previously made by BC57 and DLP.",
+    "evidence": "(b) the Illinois Fiduciary Obligations Act establishes BMO's priority"
+   },
+   {
+    "name": "ECF 1679 (Court's Group 2 ruling)",
+    "detail": "Prior order in this receivership case (at 20 n.11, 21, 21-25) cited as the controlling holding that EquityBuild Finance, a \"different entity,\" could not release the investors' mortgage and lacked actual or apparent authority to do so.",
+    "evidence": "\"whether a purported release should be binding upon mortgagees who did not sign the releases themselves.\" (ECF 1679 at 20 n.11)"
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "The purported release of the investors' prior recorded mortgage was not signed by the mortgage holders; it was signed by Shaun Cohen as President of EquityBuild Finance (ECF 1794-4).",
+    "legal_status": "argued",
+    "conditions": "SEC's characterization of the record exhibit ECF 1794-4.",
+    "proceeding": "main case",
+    "evidence": "Rather, it was signed by Shaun Cohen, in his capacity as President of EquityBuild Finance. (See ECF 1794-4)."
+   },
+   {
+    "fact": "The Court previously held for the Group 2 investors over DLP (ECF 1679) that because EquityBuild Finance was a \"different entity\" than the investors on the prior mortgage, the release could not bind the mortgagees unless EquityBuild Finance was the Individual Investors' assignee or legal representative.",
+    "legal_status": "reported",
+    "conditions": "Prior court ruling at ECF 1679 at 20 n.11 and 21, as reported by the SEC.",
+    "proceeding": "main case",
+    "evidence": "DLP \"could not release the mortgage unless it was the Individual Investors' assignee or legal representative.\" (Id. at 21)"
+   },
+   {
+    "fact": "The Court analyzed the Collateral Agency and Servicing Agreements and determined EquityBuild Finance lacked actual or apparent authority to release the investors' mortgage (ECF 1679 at 21-25); the same agreements are at issue for BMO and BC57.",
+    "legal_status": "reported",
+    "conditions": "Prior court finding at ECF 1679 at 21-25, as reported by the SEC.",
+    "proceeding": "main case",
+    "evidence": "to determine that EquityBuild Finance lacked the authority \u2013 actual or apparent \u2013 to release the investors' mortgage. (Id. at 21-25)."
+   },
+   {
+    "fact": "The facts are worse for BMO than for DLP because, unlike in Group 2, the fraudulent release in BMO's situation was never recorded.",
+    "legal_status": "argued",
+    "conditions": "SEC argument; footnote 5 adds that this distinguishes 5201 Washington's bona fide purchaser analysis.",
+    "proceeding": "main case",
+    "evidence": "The facts are worse for BMO than they were for DLP because, unlike in Group 2, the fraudulent release here was never recorded."
+   },
+   {
+    "fact": "BMO fails to acknowledge the Court's Group 2 (or Group 1) holdings and repeats the same arguments made by BC57 in Group 1 (ECF 1152 at 15-28) and DLP in Group 2 (ECF 1559 at 2-6).",
+    "legal_status": "argued",
+    "conditions": "SEC argument.",
+    "proceeding": "main case",
+    "evidence": "BMO simply repeats the exact same arguments made by BC57 in Group 1 (see ECF 1152 at 15-28) and DLP in Group 2 (see ECF 1559 at 2-6)."
+   },
+   {
+    "fact": "BMO re-argues that (a) the investors' prior mortgage was released by payment to EquityBuild Finance (not the investors); (b) the Illinois Fiduciary Obligations Act establishes BMO's priority; and (c) the investors expressly authorized EquityBuild Finance to [continues on next page].",
+    "legal_status": "argued",
+    "conditions": "BMO's position as characterized by the SEC; item (c) is cut off at the page break.",
+    "proceeding": "main case",
+    "evidence": "BMO thus re-argues that: (a) the investors' prior mortgage was released by virtue of payment to EquityBuild Finance (but not the investors); (b) the Illinois Fiduciary Obligations Act establishes BMO's priority"
+   },
+   {
+    "fact": "BMO's Position Statement does not cite 5201 Washington or assert bona fide purchaser status.",
+    "legal_status": "argued",
+    "conditions": "SEC observation in footnote 5.",
+    "proceeding": "main case",
+    "evidence": "Notably, BMO's Position Statement does not cite 5201 Washington or assert bona fide purchaser status."
+   }
+  ],
+  "page_kind": "body",
+  "notes": "Page 4 of 6 of Dkt. 1806 (SEC's Response to Group 7 Position Statements), filed 12/16/24, PageID 123788. Header confirms Case 1:18-cv-05587. No attorneys, no SEC or Receiver named by name on this page (the SEC is the filer but is not mentioned in the text; the \\\"Court\\\" is referenced generically). Shaun Cohen is named as an individual (President of EquityBuild Finance) and is not a creditor, attorney or organization; excluded from entity lists per individual-exclusion rule. The unnamed Group 2 investors / \\\"Individual Investors\\\" are a collective of unnamed claimants, not a distinct named entity, so not listed as a creditor. No specific real property addresses or receiver property numbers appear; the Collateral Agency and Servicing Agreements are listed as identified documents rather than real property. 5201 Washington (2024 IL App (1st) 231403-U) is cited only as legal precedent on bona fide purchaser status, so it is placed under authorities rather than related proceedings even though it may concern EquityBuild-related property. Record citations ECF 1794-4, ECF 1152, ECF 1559 and ECF 1679 are docket entries in the main case; ECF 1679 is listed under authorities because it is cited as the controlling prior holding."
+ },
+ "dkt-1967-p005": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "Securities and Exchange Commission",
+    "detail": "Plaintiff in the main case; appears on this page only as the 'SEC' party name in cited case captions (SEC v. ...). Variant: 'SEC'.",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I)"
+   },
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Receivership defendant; appears on this page as the named defendant in the three cited EquityBuild decisions (EquityBuild I, the June 20, 2024 N.D. Ill. decision, and EquityBuild II).",
+    "evidence": "SEC v. EquityBuild, Inc., No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024)"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [
+   {
+    "name": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I)",
+    "detail": "Seventh Circuit appeal arising from the receivership; the motion's short form is 'EquityBuild I'. Cited at pp. 6, 40.",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I) ...6, 40"
+   },
+   {
+    "name": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (EquityBuild II)",
+    "detail": "Seventh Circuit appeal affirming the district court's June 20, 2024 decision (No. 18 CV 5587, 2024 WL 3069682); the motion's short form is 'EquityBuild II'. Cited at pp. 30, 31, 31 n.15, 32, 33, 38-39, 40 and, as the affirmance of the district court decision, at pp. 6, 22, 24, 26, 39, 39 n.19.",
+    "evidence": "aff'd 161 F.4th 1020 (7th Cir. 2025)"
+   }
+  ],
+  "authorities": [
+   {
+    "name": "Quilling v. Trade Partners, Inc., No. 1:03-CV-236, 2007 WL 107669 (W.D. Mich. Jan. 9, 2007)",
+    "detail": "Case law; cited at pp. 48, 49.",
+    "evidence": "Quilling v. Trade Partners, Inc., No. 1:03-CV-236, 2007 WL 107669 (W.D. Mich. Jan. 9, 2007)"
+   },
+   {
+    "name": "Scholes v. Lehmann, 56 F.3d 750 (7th Cir. 1995)",
+    "detail": "Case law; cited at p. 20.",
+    "evidence": "Scholes v. Lehmann, 56 F.3d 750 (7th Cir. 1995)"
+   },
+   {
+    "name": "SEC v. Basic Energy & Affiliated Resources, Inc., 273 F.3d 657 (6th Cir. 2001)",
+    "detail": "Case law; cited at pp. 48, 49, 55.",
+    "evidence": "SEC v. Basic Energy & Affiliated Resources, Inc., 273 F.3d 657 (6th Cir. 2001)"
+   },
+   {
+    "name": "SEC v. Byers, 637 F. Supp. 2d 166 (S.D.N.Y. 2009)",
+    "detail": "Case law; cited at pp. 26, 42, 43.",
+    "evidence": "SEC v. Byers, 637 F. Supp. 2d 166 (S.D.N.Y. 2009)"
+   },
+   {
+    "name": "SEC v. Complete Business Solutions Group, Inc., No. 20-CV-81205-RAR, 2024 WL 5348580 (S.D. Fla. Dec. 16, 2024)",
+    "detail": "Case law; cited at pp. 25-26.",
+    "evidence": "SEC v. Complete Business Solutions Group, Inc., No. 20-CV-81205-RAR, 2024 WL 5348580 (S.D. Fla. Dec. 16, 2024)"
+   },
+   {
+    "name": "SEC v. Credit Bancorp, Ltd., No. 99 CIV. 11395 RWS, 2000 WL 1752979 (S.D.N.Y. Nov. 29, 2000), aff'd 290 F.3d 80 (2d Cir. 2002)",
+    "detail": "Case law (district court decision with affirmance); cited at pp. 16, 22.",
+    "evidence": "No. 99 CIV. 11395 RWS, 2000 WL 1752979 (S.D.N.Y. Nov. 29, 2000) aff'd 290 F.3d 80 (2d Cir. 2002)"
+   },
+   {
+    "name": "SEC v. Credit Bancorp, Ltd., 290 F.3d 80 (2d Cir. 2002)",
+    "detail": "Case law (appellate decision listed separately); cited at pp. 23, 36 n.17, 49.",
+    "evidence": "SEC v. Credit Bancorp, Ltd., 290 F.3d 80 (2d Cir. 2002) ...23, 36 n.17, 49"
+   },
+   {
+    "name": "SEC v. Elliott, 953 F.2d 1560 (11th Cir. 1992)",
+    "detail": "Case law; cited at pp. 16, 36 n.17, 55.",
+    "evidence": "SEC v. Elliott, 953 F.2d 1560 (11th Cir. 1992)"
+   },
+   {
+    "name": "SEC v. Enterprise Trust Co., No. 08 C 1260, 2008 WL 4534154 (N.D. Ill. Oct. 7, 2008), aff'd 559 F.3d 649 (7th Cir. 2009)",
+    "detail": "Case law (district court decision with affirmance); cited at pp. 15 n.10, 25, 26-27.",
+    "evidence": "No. 08 C 1260, 2008 WL 4534154 (N.D. Ill. Oct. 7, 2008) aff'd 559 F.3d 649 (7th Cir. 2009)"
+   },
+   {
+    "name": "SEC v. Enterprise Trust Co., 559 F.3d 649 (7th Cir. 2009)",
+    "detail": "Case law (appellate decision listed separately); cited at pp. 16, 17, 25, 31, 38.",
+    "evidence": "SEC v. Enterprise Trust Co., 559 F.3d 649 (7th Cir. 2009) ...16, 17, 25, 31, 38"
+   },
+   {
+    "name": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I)",
+    "detail": "Case law from this receivership's own appeal; short form 'EquityBuild I'; cited at pp. 6, 40.",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I)"
+   },
+   {
+    "name": "SEC v. EquityBuild, Inc., No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024), aff'd 161 F.4th 1020 (7th Cir. 2025)",
+    "detail": "District court decision in the main case (No. 18 CV 5587) with its Seventh Circuit affirmance; cited at pp. 6, 22, 24, 26, 39, 39 n.19.",
+    "evidence": "No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024) aff'd 161 F.4th 1020 (7th Cir. 2025)"
+   },
+   {
+    "name": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (EquityBuild II)",
+    "detail": "Case law from this receivership's own appeal; short form 'EquityBuild II'; cited at pp. 30, 31, 31 n.15, 32, 33, 38-39, 40.",
+    "evidence": "161 F.4th 1020 (7th Cir. 2025) (EquityBuild II)"
+   },
+   {
+    "name": "SEC v. First Choice Mgmt. Servs., Inc., 743 Fed. Appx. 33 (7th Cir. 2018)",
+    "detail": "Case law; cited at p. 17.",
+    "evidence": "SEC v. First Choice Mgmt. Servs., Inc., 743 Fed. Appx. 33 (7th Cir. 2018)"
+   },
+   {
+    "name": "SEC v. Forex Asset Mgmt. LLC, 242 F.3d 325 (5th Cir. 2001)",
+    "detail": "Case law; cited at p. 48.",
+    "evidence": "SEC v. Forex Asset Mgmt. LLC, 242 F.3d 325 (5th Cir. 2001)"
+   },
+   {
+    "name": "SEC v. Forte, Nos. 09-63, 09-64, 2012 WL 1719145 (E.D. Pa. May 16, 2012)",
+    "detail": "Case law; cited at pp. 26, 31.",
+    "evidence": "SEC v. Forte, Nos. 09-63, 09-64, 2012 WL 1719145 (E. D. Pa. May 16, 2012)"
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "This page is page iv of the table of authorities (Quilling through SEC v. Forte) of Dkt. 1967, a 273-page filing in Case 1:18-cv-05587 filed 06/30/26 (PageID 128335).",
+    "legal_status": "reported",
+    "conditions": "Header data only; no substantive argument appears on this page.",
+    "proceeding": "main case",
+    "evidence": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 5 of 273 PageID #:128335"
+   },
+   {
+    "fact": "The motion relies on the Seventh Circuit's decision in SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024), which it designates 'EquityBuild I', at pages 6 and 40.",
+    "legal_status": "reported",
+    "conditions": "Citation listing only; the proposition for which it is cited is not stated on this page.",
+    "proceeding": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I)",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I) ...6, 40"
+   },
+   {
+    "fact": "The motion relies on the Seventh Circuit's decision in SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025), designated 'EquityBuild II', at pages 30, 31, 31 n.15, 32, 33, 38-39 and 40.",
+    "legal_status": "reported",
+    "conditions": "Citation listing only.",
+    "proceeding": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (EquityBuild II)",
+    "evidence": "161 F.4th 1020 (7th Cir. 2025) (EquityBuild II) ..................... 30, 31, 31 n.15, 32, 33, 38-39, 40"
+   },
+   {
+    "fact": "The district court's June 20, 2024 decision in the main case (No. 18 CV 5587, 2024 WL 3069682) was affirmed by the Seventh Circuit at 161 F.4th 1020 (2025), and the motion cites it at pages 6, 22, 24, 26, 39 and 39 n.19.",
+    "legal_status": "reported",
+    "conditions": "As stated in the table of authorities via 'aff'd'.",
+    "proceeding": "main case",
+    "evidence": "No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024) aff'd 161 F.4th 1020 (7th Cir. 2025)"
+   },
+   {
+    "fact": "The motion cites SEC v. Enterprise Trust Co. (N.D. Ill. 2008, aff'd 559 F.3d 649 (7th Cir. 2009)) more heavily than any other non-EquityBuild authority on this page, at pages 15 n.10, 16, 17, 25, 26-27, 31 and 38.",
+    "legal_status": "reported",
+    "conditions": "Citation listing only.",
+    "proceeding": "main case",
+    "evidence": "SEC v. Enterprise Trust Co., 559 F.3d 649 (7th Cir. 2009) ...16, 17, 25, 31, 38"
+   }
+  ],
+  "page_kind": "table of contents",
+  "notes": "Page is the table of authorities (page iv) of Dkt. 1967, listing cited cases from Quilling v. Trade Partners through SEC v. Forte with pin pages. No creditors, attorneys, properties or bank accounts appear. Organizations labeled are limited to the SEC and EquityBuild, Inc., the only real-world entities connected to the estate on the page; litigant names inside precedent captions (e.g., Trade Partners, Inc., Credit Bancorp, Ltd., Enterprise Trust Co.) were treated as parts of case citations rather than as separate organizations. The two Seventh Circuit EquityBuild decisions are listed both as authorities (as cited) and as related proceedings (appeals from the receivership); the June 20, 2024 N.D. Ill. decision is a ruling in the main case and so appears only under authorities. Text layer has irregular spacing (e.g., 'a ff'd', '4 8', 'Tr ust'); quotes were normalized to the page image where needed. Legal status 'reported' is used because a table of authorities asserts nothing beyond the existence and location of the cited decisions."
+ },
+ "dkt-1938-p003": {
+  "creditors": [
+   {
+    "name": "Pennington",
+    "detail": "Settlement counterparty whose claims, objections, and rights against the Receiver, the Receivership Estate, and WPD are released under the proposed Settlement; Pennington is to receive nothing further. Defined term; full name and whether individual or entity not stated on this page.",
+    "evidence": "such that Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD"
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "WPD",
+    "detail": "Defined-term abbreviation for a party to the Settlement aligned with the Receiver and Receivership Estate (Pennington releases claims against it); full name not stated on this page.",
+    "evidence": "between the Receiver, the Receivership Estate, WPD, and Pennington"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [],
+  "authorities": [
+   {
+    "name": "Gordon v. Dadante, 336 Fed. Appx. 540 (6th Cir. 2009)",
+    "detail": "Cited for the proposition that a settlement by a federal equity receiver is within the receiver's broad discretion and should be approved if fair; pin cite Id. at 545 for district court's determination of fairness being subject to its sound discretion.",
+    "evidence": "Gordon v. Dadante, 336 Fed. Appx. 540 (6th Cir. 2009)"
+   },
+   {
+    "name": "Sterling v. Stewart, 158 F.3d 1199, 1202 (11th Cir. 1998)",
+    "detail": "Cited (see also) for the proposition that the determination of fairness of a settlement in an equity receivership will not be overturned absent a clear showing of abuse of discretion.",
+    "evidence": "see also Sterling v. Stewart, 158 F.3d 1199, 1202 (11th Cir."
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "Settlement term (c): without any party admitting liability or the validity of any claim, the Settlement resolves all disputes of any kind or nature between the Receiver, the Receivership Estate, WPD, and Pennington.",
+    "legal_status": "proposed",
+    "conditions": "Subject to Court approval of the Settlement sought by this motion.",
+    "proceeding": "main case",
+    "evidence": "without any party admitting liability or the validity of any claim, this Settlement resolves all disputes of any kind or nature between the Receiver, the Receivership Estate, WPD, and Pennington"
+   },
+   {
+    "fact": "Settlement term (d): all claims, objections, or rights that might exist between the Receiver, the Receivership Estate, WPD, and Pennington are released, compromised, and waived, including as set forth in the Settlement Agreement, such that Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD.",
+    "legal_status": "proposed",
+    "conditions": "Subject to Court approval; release is as set forth in, but not limited by, the Settlement Agreement.",
+    "proceeding": "main case",
+    "evidence": "are hereby released, compromised, and waived"
+   },
+   {
+    "fact": "The Receiver submits that the Settlement is a fair and reasonable settlement for the Receivership Estate, is in its best interests, will save time and resources, and should be approved.",
+    "legal_status": "requested",
+    "conditions": "Receiver's position; approval requested from the Court.",
+    "proceeding": "main case",
+    "evidence": "fair and reasonable settlement for the Receivership Estate and is in the best interests of the Receivership Estate"
+   },
+   {
+    "fact": "Legal standard argued: a settlement by a federal equity receiver is within the receiver's broad discretion and should be approved if fair; the district court's fairness determination is within its sound discretion and is not overturned absent a clear showing of abuse of discretion.",
+    "legal_status": "argued",
+    "conditions": "None stated.",
+    "proceeding": "main case",
+    "evidence": "A settlement by a federal equity receiver is within the receiver's broad discretion and should be approved if it is fair."
+   },
+   {
+    "fact": "The Receiver will provide notice of the motion to all interested parties: service through the Court's electronic case filing system, a copy served by electronic mail on each claimant who has submitted claims in this matter, and the motion will be made publicly available (continues on next page).",
+    "legal_status": "proposed",
+    "conditions": "Notice process as described by the Receiver; sentence continues beyond this page.",
+    "proceeding": "main case",
+    "evidence": "the Receiver will serve a copy of this motion to each of the claimants who have submitted claims in this matter by electronic mail"
+   }
+  ],
+  "page_kind": "body",
+  "notes": "Page 3 of 8 of Dkt. 1938 (filed 01/05/26, PageID 127942). Contains settlement terms (c)-(d), paragraphs 6-8. No attorneys, properties, or bank accounts appear. The State Court Action referenced in the motion title is not named or docketed on this page, so related_proceedings is empty. \"WPD\" and \"Pennington\" are defined terms whose full names are not on this page; Pennington is treated as a creditor because the page frames the settlement as releasing Pennington's claims against the estate such that Pennington receives nothing further. The Receiver and Receivership Estate are excluded as generic role words. The \"Settlement Agreement\" is a document, not an entity."
+ },
+ "status-report-1-p022": {
+  "creditors": [
+   {
+    "name": "Fireshark Enterprises, LLC",
+    "detail": "Plaintiff in a pending Cook County Law Division action against EquityBuild, Inc.; litigation claimant (no amount stated on this page); action stayed by the receivership",
+    "evidence": "Fireshark Enterprises, LLC, v. EquityBuild, Inc., Case No. 2018 L 9026, Circuit Court of Cook County, Law Division."
+   },
+   {
+    "name": "Markwell",
+    "detail": "Plaintiff in a pending Harris County, Texas action against EquityBuild, Inc.; litigation claimant (first name not given; no amount stated); motion to stay pending",
+    "evidence": "Markwell v. EquityBuild, Inc., Case No. 2018-13722, 165th Judicial District Court, Harris County, Texas."
+   },
+   {
+    "name": "City of Chicago",
+    "detail": "Municipal taxing/regulatory authority asserting building code violations and fines against estate properties (housing court matters, Buildings Department, Streets and Sanitation, Water Management); fines imposed, no dollar amounts stated",
+    "evidence": "there are more than two dozen open building code violations involving the City of Chicago ... As to the remaining five, a single-count fine was imposed."
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "Fireshark Enterprises, LLC",
+    "detail": "LLC; plaintiff suing EquityBuild, Inc. in Cook County",
+    "evidence": "Fireshark Enterprises, LLC, v. EquityBuild, Inc."
+   },
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Receivership defendant entity; named defendant in both state-court actions (variant: \"EquityBuild's counsel in Texas\")",
+    "evidence": "Markwell v. EquityBuild, Inc., Case No. 2018-13722"
+   },
+   {
+    "name": "City of Chicago",
+    "detail": "Municipality; party to code-violation matters; its corporation counsel is referenced generically (unnamed)",
+    "evidence": "open building code violations involving the City of Chicago"
+   },
+   {
+    "name": "City of Chicago Buildings Department",
+    "detail": "City agency that filed approximately twelve administrative proceedings",
+    "evidence": "approximately twelve City of Chicago administrative proceedings filed by the City of Chicago Buildings Department were known to be pending"
+   },
+   {
+    "name": "Department of Streets and Sanitation (City of Chicago)",
+    "detail": "City agency with approximately twelve administrative proceedings pending; seven dismissed October 16, 2018",
+    "evidence": "approximately twelve administrative proceedings were known to be pending with the Department of Streets and Sanitation"
+   },
+   {
+    "name": "Department of Water Management (City of Chicago)",
+    "detail": "City agency with one administrative matter pending",
+    "evidence": "one City of Chicago administrative matter pending with the Department of Water Management"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [
+   {
+    "name": "Fireshark Enterprises, LLC v. EquityBuild, Inc., Case No. 2018 L 9026",
+    "detail": "Circuit Court of Cook County, Law Division; Receiver filed appearance and Notice of Appointment of Receiver and Stay of Litigation on September 24, 2018 (text layer renders docket as \"20 18 L 9026\")",
+    "evidence": "On September 24, 2018, the Receiver filed his appearance and Notice of Appointment of Receiver and Stay of Litigation."
+   },
+   {
+    "name": "Markwell v. EquityBuild, Inc., Case No. 2018-13722",
+    "detail": "165th Judicial District Court, Harris County, Texas; EquityBuild's Texas counsel filed a motion to stay, awaiting court order",
+    "evidence": "EquityBuild's counsel in Texas filed a motion to stay the proceedings and is awaiting a court order."
+   },
+   {
+    "name": "City of Chicago municipal housing court matters (seven)",
+    "detail": "Seven known housing court code-violation matters; no case numbers given; compliance includes a 16-unit rehab, roof on fire-damaged building, porch replacements and repairs",
+    "evidence": "There are seven currently known City of Chicago municipal housing court matters."
+   },
+   {
+    "name": "City of Chicago Buildings Department administrative proceedings (approximately twelve)",
+    "detail": "Pending as of September 30, 2018; one dismissed October 16, 2018 after compliance; a second involves only a minor fine; no case numbers given",
+    "evidence": "The Receiver achieved compliance on one matter which was dismissed on October 16, 2018; and a second matter involves only the imposition of a minor fine."
+   },
+   {
+    "name": "Department of Streets and Sanitation administrative proceedings (approximately twelve)",
+    "detail": "Pending as of September 30, 2018; seven dismissed in their entirety on October 16, 2018; single-count fine imposed on the remaining five; no case numbers given",
+    "evidence": "On October 16, 2018, seven of these were dismissed in their entirety. As to the remaining five, a single-count fine was imposed."
+   },
+   {
+    "name": "Department of Water Management administrative matter (one)",
+    "detail": "One City of Chicago administrative matter pending; no case number given",
+    "evidence": "There is known to be one City of Chicago administrative matter pending with the Department of Water Management."
+   },
+   {
+    "name": "Two open City of Chicago violations with notice sent, no court date",
+    "detail": "Notices issued, no court date assigned yet; no case numbers given",
+    "evidence": "The Receiver is also aware of two open City of Chicago violations for which notice has been sent but a court date has not yet been assigned."
+   }
+  ],
+  "authorities": [],
+  "page_kind": "body",
+  "notes": "Page 22 of 30 (PageID 975) of Dkt. 107 in SEC v. EquityBuild, Inc., et al., No. 1:18-cv-05587 (N.D. Ill.) \u2014 header caption of the main case, not listed as a related proceeding. Page continues a list of pending litigation against EquityBuild (last two bullets: Fireshark and Markwell) and then describes City of Chicago building-code matters. No individual attorneys are named (\"EquityBuild's counsel in Texas,\" \"the Receiver's counsel,\" and the City's \"corporation counsel\" are all unnamed role references). No property addresses or receiver property numbers appear; the only property descriptions are generic (\"a building that was affected by a fire in 2016,\" \"one building\" needing 90 lintels). No dollar amounts and no settlement language on this page. Creditor labels for Fireshark, Markwell and the City of Chicago are judgment calls: they are litigation/regulatory claimants against the estate's entities and properties, not lenders or mortgagees; the text does not state amounts. The parenthetical \"(housing, buildings, streets and sanitation, and waste management)\" at the bottom refers to City departments generically; \"waste management\" is not listed as a separate organization since it is not presented as a named agency on this page (the earlier bullet names the Department of Water Management, which may be what the parenthetical intends). No case-law or statutory authorities cited."
+ },
+ "dkt-1967-p006": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [],
+  "properties_or_assets": [],
+  "related_proceedings": [],
+  "authorities": [
+   {
+    "name": "SEC v. HKW Trading LLC, No. 8:05-CV-1076-T-24-TB, 2009 WL 2499146 (M.D. Fla. Aug. 14, 2009)",
+    "detail": "Unpublished district court decision (Middle District of Florida) cited at brief page 51.",
+    "evidence": "SEC v. HKW Trading LLC, No. 8:05-CV-1076-T-24-TB, 2009 WL 2499146 (M.D. Fla. Aug. 14, 2009)...51"
+   },
+   {
+    "name": "SEC v. Huber, 702 F.3d 903 (7th Cir. 2012)",
+    "detail": "Seventh Circuit receivership-distribution precedent; the most heavily cited case on this page, at brief pages 15-16, 18, 19, 20, 22, 23, 31, 40, 41, 42, 43.",
+    "evidence": "SEC v. Huber, 702 F.3d 903 (7th Cir. 2012) ... 15-16, 18, 19, 20, 22, 23, 31, 40, 41, 42, 43"
+   },
+   {
+    "name": "SEC v. Infinity Grp. Co., 226 Fed. App'x 217 (3d Cir. 2007)",
+    "detail": "Unpublished Third Circuit decision cited at brief page 49.",
+    "evidence": "SEC v. Infinity Grp. Co., 226 Fed. App'x 217 (3d Cir. 2007)...49"
+   },
+   {
+    "name": "SEC v. Merrill Scott & Assocs., No. 02CV39, 2006 WL 3813320 (D. Utah Dec. 21, 2006)",
+    "detail": "Unpublished District of Utah decision cited at brief page 26.",
+    "evidence": "SEC v. Merrill Scott & Assocs., No. 02CV39, 2006 WL 3813320 (D. Utah Dec. 21, 2006) ... 26"
+   },
+   {
+    "name": "SEC v. Parish, No. 2:07-cv-00919-DCN, 2010 WL 5394736 (D.S.C. Feb. 10, 2010)",
+    "detail": "Unpublished District of South Carolina decision cited at brief page 43.",
+    "evidence": "SEC v. Parish, No. 2:07-cv-00919-DCN, 2010 WL 5394736 (D.S.C. Feb. 10, 2010)...43"
+   },
+   {
+    "name": "SEC v. TLC Invs. & Trade Co., 147 F. Supp. 2d 1031 (C.D. Cal. 2001)",
+    "detail": "Central District of California decision cited at brief page 16.",
+    "evidence": "SEC v. TLC Invs. & Trade Co., 147 F. Supp. 2d 1031 (C.D. Cal. 2001) ... 16"
+   },
+   {
+    "name": "SEC v. Wang, 944 F.2d 80 (2d Cir. 1991)",
+    "detail": "Second Circuit decision cited at brief pages 48, 49.",
+    "evidence": "SEC v. Wang, 944 F.2d 80 (2d Cir. 1991) ... 48, 49"
+   },
+   {
+    "name": "SEC v. Wealth Mgmt., LLC, 628 F.3d 323 (7th Cir. 2010)",
+    "detail": "Seventh Circuit receivership-distribution precedent cited at brief pages 16, 17, 19, 25, 31, 36, 36 n.17, 38, 42, 51.",
+    "evidence": "SEC v. Wealth Mgmt., LLC, 628 F.3d 323 (7th Cir. 2010)...16, 17, 19, 25, 31, 36, 36 n.17, 38, 42, 51"
+   },
+   {
+    "name": "U.S. v. Mikaitis, 33 F.4th 393 (7th Cir. 2022)",
+    "detail": "Seventh Circuit decision cited at brief page 32.",
+    "evidence": "U.S. v. Mikaitis, 33 F.4th 393 (7th Cir. 2022) ... 32"
+   },
+   {
+    "name": "Vanston Bondholders Protective Committee v. Green, 329 U.S. 156 (1946)",
+    "detail": "United States Supreme Court decision cited at brief page 23.",
+    "evidence": "Vanston Bondholders Protective Committee v. Green, 329 U.S. 156 (1946) ... 23"
+   },
+   {
+    "name": "15 U.S.C. \u00a7 77(b)",
+    "detail": "Statutory authority listed under 'Other Authorities', cited at brief page 4.",
+    "evidence": "Other Authorities / 15 USC \u00a7 77(b) ... 4"
+   },
+   {
+    "name": "15 U.S.C. \u00a7 78u(d)",
+    "detail": "Statutory authority (Exchange Act \u00a7 21(d)) listed under 'Other Authorities', cited at brief page 4.",
+    "evidence": "15 USC \u00a7 78u(d) ... 4"
+   },
+   {
+    "name": "15 U.S.C. \u00a7 78u(e)",
+    "detail": "Statutory authority (Exchange Act \u00a7 21(e)) listed under 'Other Authorities', cited at brief page 4.",
+    "evidence": "15 USC \u00a7 78u(e) ... 4"
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "This page is the final page (page v) of the Table of Authorities in the Receiver's Motion to Approve Group 10 Distribution Plan, Dkt. 1967, filed 06/30/26 in Case 1:18-cv-05587 (N.D. Ill.), a 273-page filing; it lists only cited cases and statutes and contains no argument, parties, claims or property references.",
+    "legal_status": "Table of authorities; no substantive legal assertion",
+    "conditions": "None",
+    "proceeding": "SEC v. EquityBuild, Inc., et al., No. 1:18-cv-05587 (N.D. Ill.) (main receivership case)",
+    "evidence": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 6 of 273 PageID #:128336 ... v"
+   },
+   {
+    "fact": "The motion relies most heavily on two Seventh Circuit receivership-distribution precedents: SEC v. Huber, 702 F.3d 903 (7th Cir. 2012), cited on 13 brief pages (15-16, 18, 19, 20, 22, 23, 31, 40, 41, 42, 43), and SEC v. Wealth Mgmt., LLC, 628 F.3d 323 (7th Cir. 2010), cited on 10 brief pages (16, 17, 19, 25, 31, 36, 36 n.17, 38, 42, 51).",
+    "legal_status": "Cited authority (precedent about other parties), not a related proceeding",
+    "conditions": "None",
+    "proceeding": "SEC v. EquityBuild, Inc., et al., No. 1:18-cv-05587 (N.D. Ill.)",
+    "evidence": "SEC v. Huber, 702 F.3d 903 (7th Cir. 2012) ... 15-16, 18, 19, 20, 22, 23, 31, 40, 41, 42, 43; SEC v. Wealth Mgmt., LLC, 628 F.3d 323 (7th Cir. 2010) ... 16, 17, 19, 25, 31, 36, 36 n.17, 38, 42, 51"
+   },
+   {
+    "fact": "The statutory basis invoked at brief page 4 is 15 U.S.C. \u00a7 77(b), 15 U.S.C. \u00a7 78u(d) and 15 U.S.C. \u00a7 78u(e), listed under 'Other Authorities'.",
+    "legal_status": "Cited statutory authority",
+    "conditions": "None",
+    "proceeding": "SEC v. EquityBuild, Inc., et al., No. 1:18-cv-05587 (N.D. Ill.)",
+    "evidence": "Other Authorities / 15 USC \u00a7 77(b) ... 4 / 15 USC \u00a7 78u(d) ... 4 / 15 USC \u00a7 78u(e) ... 4"
+   },
+   {
+    "fact": "None of the ten cases listed on this page involves the EquityBuild estate, its entities, the Cohens or the Receiver; every case is an SEC enforcement/receivership matter against other parties (HKW Trading, Huber, Infinity Group, Merrill Scott, Parish, TLC Investments, Wang, Wealth Management), a criminal appeal (U.S. v. Mikaitis), or a Supreme Court bankruptcy case (Vanston Bondholders), so the page contains zero related proceedings.",
+    "legal_status": "Classification: all case citations are authorities, not related proceedings",
+    "conditions": "None",
+    "proceeding": "SEC v. EquityBuild, Inc., et al., No. 1:18-cv-05587 (N.D. Ill.)",
+    "evidence": "SEC v. HKW Trading LLC ... SEC v. Huber ... SEC v. Infinity Grp. Co. ... SEC v. Merrill Scott & Assocs. ... SEC v. Parish ... SEC v. TLC Invs. & Trade Co. ... SEC v. Wang ... SEC v. Wealth Mgmt., LLC ... U.S. v. Mikaitis ... Vanston Bondholders Protective Committee v. Green"
+   }
+  ],
+  "page_kind": "table_of_authorities",
+  "notes": "Page 6 of Dkt. 1967 (internal page v) is the tail of the Table of Authorities: the remaining 'Cases' entries alphabetically from SEC v. HKW Trading through Vanston Bondholders, followed by the 'Other Authorities' section (three Title 15 statutes). Every case on the page is a precedent about strangers to the estate and is classified as an authority; there are no related proceedings (no Seventh Circuit EquityBuild appeals, no state-court or foreclosure actions) on this page. Parties named only inside the captions of cited precedents (e.g., HKW Trading LLC, Wealth Management LLC, Merrill Scott & Associates) are deliberately excluded from organizations per the labeling rule. No creditors, attorneys, properties or assets appear. The text layer matches the rendered PDF; minor spacing artifacts in the text layer (e.g., '5 1' for 51, '1 5 - 16' for 15-16, '4 8' for 48, '3 8' for 38, '4 2' for 42) were resolved against the PDF image."
+ },
+ "dkt-1967-p004": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [],
+  "properties_or_assets": [],
+  "related_proceedings": [],
+  "authorities": [
+   {
+    "name": "CFTC v. Barki, LLC",
+    "detail": "No. 3:09 CV 106-MU, 2009 WL 3839389 (W.D.N.C. Nov. 12, 2009); cited at brief pages 42, 43. Precedent about unrelated parties.",
+    "evidence": "CFTC v. Barki, LLC, No. 3:09 CV 106-MU, 2009 WL 3839389 (W.D.N.C. Nov. 12, 2009) ... 42, 43"
+   },
+   {
+    "name": "CFTC v. Equity Fin. Grp., LLC (Sept. 2, 2005)",
+    "detail": "No. Civ. 04-1512 RBK AMD, 2005 WL 2143975 (D.N.J. Sept. 2, 2005); cited at brief pages 22-23. Unrelated to EquityBuild despite the similar name.",
+    "evidence": "CFTC v. Equity Fin. Grp., LLC, No. Civ. 04-1512 RBK AMD, 2005 WL 2143975 (D.N.J. Sept. 2, 2005) ... 22-23"
+   },
+   {
+    "name": "CFTC v. Equity Fin. Grp., LLC (Sept. 26, 2005)",
+    "detail": "No. Civ. 04-1512-RBK-AMD, 2005 WL 2864781 (D.N.J. Sept. 26, 2005); cited at brief pages 17-18. Second decision in the same D.N.J. case.",
+    "evidence": "CFTC v. Equity Fin. Grp., LLC, No. Civ. 04-1512-RBK-AMD, 2005 WL 2864781 (D.N.J. Sept. 26, 2005) ... 17-18"
+   },
+   {
+    "name": "CFTC v. Eustace",
+    "detail": "No. 05-2973, 2008 WL 471574 (E.D. Pa. Feb. 19, 2008); cited at brief page 16.",
+    "evidence": "CFTC v. Eustace, No. 05-2973, 2008 WL 471574 (E.D. Pa. Feb. 19, 2008) ... 16"
+   },
+   {
+    "name": "CFTC v. Lake Shore Asset Mgmt. Ltd. (N.D. Ill. 2010)",
+    "detail": "No. 07 C 3598, 2010 WL 960362 (N.D. Ill. Mar. 15, 2010), aff'd 646 F.3d 401 (7th Cir. 2011); cited at brief pages 41, 43.",
+    "evidence": "CFTC v. Lake Shore Asset Mgmt. Ltd., No. 07 C 3598, 2010 WL 960362 (N.D. Ill. Mar. 15, 2010) aff'd 646 F.3d 401 (7th Cir. 2011) ... 41, 43"
+   },
+   {
+    "name": "CFTC v. Lake Shore Asset Mgmt. Ltd. (7th Cir. 2011)",
+    "detail": "646 F.3d 401 (7th Cir. 2011); cited at brief page 36 and footnote 17 on page 36.",
+    "evidence": "CFTC v. Lake Shore Asset Mgmt. Ltd., 646 F.3d 401 (7th Cir. 2011) ... 36, 36 n.17"
+   },
+   {
+    "name": "CFTC v. PrivateFX Global One",
+    "detail": "778 F. Supp. 2d 775 (S.D. Tex. 2011); cited at brief page 36 n.17.",
+    "evidence": "CFTC v. PrivateFX Global One, 778 F. Supp. 2d 775 (S.D. Tex. 2011) ... 36 n.17"
+   },
+   {
+    "name": "CFTC v. TMTE, Inc.",
+    "detail": "No. 23-10420, 2024 WL 983553 (5th Cir. Mar. 7, 2024); cited at brief page 36 n.17.",
+    "evidence": "CFTC v. TMTE, Inc., No. 23-10420, 2024 WL 983553 (5th Cir. Mar. 7, 2024) ... 36 n.17"
+   },
+   {
+    "name": "CFTC v. Topworth Int'l., Ltd.",
+    "detail": "205 F.3d 1107 (9th Cir. 1999); cited at brief page 22.",
+    "evidence": "CFTC v. Topworth Int'l., Ltd., 205 F.3d 1107 (9th Cir. 1999) ... 22"
+   },
+   {
+    "name": "Cleveland Bd. of Educ. v. Loudermill",
+    "detail": "470 U.S. 532 (1985) (U.S. Supreme Court); cited at brief page 55.",
+    "evidence": "Cleveland Bd. of Educ. v. Loudermill, 470 U.S. 532 (1985) ... 55"
+   },
+   {
+    "name": "Cunningham v. Brown",
+    "detail": "265 U.S. 1 (1924) (U.S. Supreme Court); cited at brief page 16.",
+    "evidence": "Cunningham v. Brown, 265 U.S. 1 (1924) ... 16"
+   },
+   {
+    "name": "Donell v. Kowell",
+    "detail": "533 F.3d 762 (9th Cir. 2008); cited at brief page 20.",
+    "evidence": "Donell v. Kowell, 533 F.3d 762 (9th Cir. 2008) ... 20"
+   },
+   {
+    "name": "FDIC v. Bernstein",
+    "detail": "786 F. Supp. 170 (E.D.N.Y. 1992); cited at brief page 55.",
+    "evidence": "FDIC. v. Bernstein, 786 F. Supp. 170 (E.D.N.Y. 1992) ... 55"
+   },
+   {
+    "name": "FTC v. Ameridebt, Inc.",
+    "detail": "373 F. Supp. 2d 558 (D. Md. 2005); cited at brief page 37.",
+    "evidence": "FTC v. Ameridebt, Inc., 373 F. Supp. 2d 558 (D. Md. 2005) ... 37"
+   },
+   {
+    "name": "FTC v. Crittenden",
+    "detail": "823 F. Supp. 699 (C.D. Cal. 1993); cited at brief page 37.",
+    "evidence": "FTC v. Crittenden, 823 F. Supp. 699 (C.D. Cal. 1993) ... 37"
+   },
+   {
+    "name": "Matter of Fesco Plastics Corp.",
+    "detail": "996 F.2d 152 (7th Cir. 1993); cited at brief page 23.",
+    "evidence": "Matter of Fesco Plastics Corp., 996 F.2d 152 (7th Cir. 1993) ... 23"
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "This page is page iii of the Table of Authorities for the Receiver's Motion to Approve Group 10 Distribution Plan (Dkt. 1967), listing 16 case-law citations alphabetically from CFTC v. Barki through Matter of Fesco Plastics Corp.",
+    "legal_status": "Front-matter index; contains no argument, holding or ruling",
+    "conditions": "None",
+    "proceeding": "SEC v. EquityBuild, Inc., et al., N.D. Ill. No. 1:18-cv-05587, Dkt. 1967 (filed 06/30/26, page 4 of 273)",
+    "evidence": "TABLE OF AUTHORITIES ... Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 4 of 273 PageID #:128334"
+   },
+   {
+    "fact": "Every authority on this page is a precedent about parties unrelated to the EquityBuild estate (CFTC, FTC and FDIC enforcement receiverships, Supreme Court due-process and Ponzi cases, Seventh and Ninth Circuit receivership cases). No related proceeding involving EquityBuild, the Cohens or the Receiver appears on this page.",
+    "legal_status": "Cited authority only; not a proceeding of or against the estate",
+    "conditions": "None",
+    "proceeding": "SEC v. EquityBuild, Inc., N.D. Ill. No. 1:18-cv-05587, Dkt. 1967",
+    "evidence": "CFTC v. Barki, LLC ... CFTC v. Equity Fin. Grp., LLC ... Cleveland Bd. of Educ. v. Loudermill ... Matter of Fesco Plastics Corp."
+   },
+   {
+    "fact": "The brief cites CFTC v. Lake Shore Asset Mgmt. Ltd., 646 F.3d 401 (7th Cir. 2011), the controlling-circuit receivership authority, at pages 36 and 36 n.17, and the underlying N.D. Ill. decision (2010 WL 960362) at pages 41 and 43.",
+    "legal_status": "Cited precedent (Seventh Circuit, binding in N.D. Ill.)",
+    "conditions": "None",
+    "proceeding": "SEC v. EquityBuild, Inc., N.D. Ill. No. 1:18-cv-05587, Dkt. 1967",
+    "evidence": "CFTC v. Lake Shore Asset Mgmt. Ltd., 646 F.3d 401 (7th Cir. 2011) ... 36, 36 n.17; No. 07 C 3598, 2010 WL 960362 (N.D. Ill. Mar. 15, 2010) aff'd 646 F.3d 401 (7th Cir. 2011) ... 41, 43"
+   },
+   {
+    "fact": "Two U.S. Supreme Court decisions are cited: Cunningham v. Brown, 265 U.S. 1 (1924) (the Ponzi case) at page 16, and Cleveland Bd. of Educ. v. Loudermill, 470 U.S. 532 (1985) (due process) at page 55.",
+    "legal_status": "Cited precedent",
+    "conditions": "None",
+    "proceeding": "SEC v. EquityBuild, Inc., N.D. Ill. No. 1:18-cv-05587, Dkt. 1967",
+    "evidence": "Cleveland Bd. of Educ. v. Loudermill, 470 U.S. 532 (1985) ... 55; Cunningham v. Brown, 265 U.S. 1 (1924) ... 16"
+   },
+   {
+    "fact": "CFTC v. Equity Fin. Grp., LLC (D.N.J. 2005) is cited twice (2005 WL 2143975 at pp. 22-23 and 2005 WL 2864781 at pp. 17-18); despite the name it is a CFTC enforcement case in New Jersey unrelated to EquityBuild.",
+    "legal_status": "Cited precedent; not a related proceeding",
+    "conditions": "None",
+    "proceeding": "SEC v. EquityBuild, Inc., N.D. Ill. No. 1:18-cv-05587, Dkt. 1967",
+    "evidence": "CFTC v. Equity Fin. Grp., LLC, No. Civ. 04-1512 RBK AMD, 2005 WL 2143975 (D.N.J. Sept. 2, 2005) ... 22-23; CFTC v. Equity Fin. Grp., LLC, No. Civ. 04-1512-RBK-AMD, 2005 WL 2864781 (D.N.J. Sept. 26, 2005) ... 17-18"
+   }
+  ],
+  "page_kind": "Table of Authorities (cases), page iii of the Receiver's Motion to Approve Group 10 Distribution Plan, Dkt. 1967",
+  "notes": "Page 4 of 273 (PageID 128334) is purely a table-of-authorities page. All 16 entries are precedents about strangers to the estate and are classified as authorities; none is a related proceeding (no SEC v. EquityBuild appeal, state-court action, foreclosure or enforcement action involving the estate, the Cohens or the Receiver appears here). Organizations is left empty because CFTC, FTC, FDIC and the named defendants appear only inside the captions of cited precedents. No creditors, attorneys or properties appear. Text-layer OCR splits some tokens (\"4 3\", \"n.1 7\", \"a ff'd\"); the PDF image confirms the citations as \"42, 43\", \"36 n.17\", \"aff'd\". The two Lake Shore entries and the two Equity Fin. Grp. entries are listed separately because the brief lists them as separate citations with different pin pages."
+ },
+ "dkt-1967-p012": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Receivership Defendant; one of the Cohens' real estate companies through which the Ponzi scheme was run (per Seventh Circuit quotation).",
+    "evidence": "the Cohens \"ran a Ponzi scheme through their real estate companies EquityBuild, Inc. and EquityBuild Finance, LLC ('EBF') from at least 2010 to 2018.\""
+   },
+   {
+    "name": "EquityBuild Finance, LLC",
+    "detail": "Receivership Defendant, abbreviated \"EBF\"; the other Cohen real estate company named in the Ponzi scheme finding.",
+    "evidence": "EquityBuild, Inc. and EquityBuild Finance, LLC ('EBF')"
+   },
+   {
+    "name": "Securities and Exchange Commission",
+    "detail": "Plaintiff in the receivership case and in the Seventh Circuit appeals; appears as \"SEC\" in the captions SEC v. EquityBuild, Inc.",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526, 528 (7th Cir. 2024)"
+   }
+  ],
+  "properties_or_assets": [],
+  "related_proceedings": [
+   {
+    "name": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (\"EquityBuild I\")",
+    "detail": "Seventh Circuit appeal from this receivership. Cited at 528 for the holding that the Cohens ran a Ponzi scheme through EquityBuild, Inc. and EBF from at least 2010 to 2018, and at 534 (Easterbrook, J., concurring) for the statement that liability for the Ponzi scheme was established years ago. Court: U.S. Court of Appeals for the Seventh Circuit. Citation: 101 F.4th 526.",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526, 528 (7th Cir. 2024) (\"EquityBuild I\"). \"In this litigation, liability for this Ponzi scheme was established years ago....\" Id. at 534 (Easterbrook, J., conc.)"
+   },
+   {
+    "name": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (\"EquityBuild II\")",
+    "detail": "Seventh Circuit appeal from this receivership, affirming sub nom. the district court's June 20, 2024 order (Dkt. 1679; 2024 WL 3069682). Cited at 1025-26. Court: U.S. Court of Appeals for the Seventh Circuit. Citation: 161 F.4th 1020.",
+    "evidence": "aff'd sub nom. SEC v. EquityBuild, Inc., 161 F.4th 1020, 1025-26 (7th Cir. 2025) (\"EquityBuild II\")"
+   }
+  ],
+  "authorities": [],
+  "key_facts": [
+   {
+    "fact": "The Cohens created a network of over 158 separate corporate entities as cover for their activities, and loans to those entities resulted in mortgages that in the aggregate were sometimes multiples of the actual value of the properties.",
+    "legal_status": "Background assertion by the Receiver, citing a prior filing (Dkt. 241 at 3).",
+    "conditions": "None stated; cited to Dkt. 241 at 3.",
+    "proceeding": "SEC v. EquityBuild, Inc., No. 1:18-cv-05587 (N.D. Ill.) (main receivership case)",
+    "evidence": "The Cohens created a labyrinthian network of over 158 separate corporate entities as cover for their activities. (See Dkt. 241 at 3)"
+   },
+   {
+    "fact": "During the claims process for Groups 1-9, competing, purportedly secured claims were asserted by both institutional lender claimants and investor lender claimants against properties in the estate.",
+    "legal_status": "Background characterization by the Receiver, citing Dkt. 1589, Ex. 6 and Dkt. 693, Ex. 1 (claims organized by property).",
+    "conditions": "None stated.",
+    "proceeding": "SEC v. EquityBuild, Inc., No. 1:18-cv-05587 (N.D. Ill.) (claims process, Groups 1-9)",
+    "evidence": "were competing, purportedly secured, claims asserted by both institutional lender claimants and investor lender claimants against properties in the estate. (See Dkt. 1589, Ex. 6; see also Dkt. 693, Ex. 1 (claims organized by property))"
+   },
+   {
+    "fact": "The Seventh Circuit recognized, as the district court held, that the Cohens ran a Ponzi scheme through EquityBuild, Inc. and EquityBuild Finance, LLC from at least 2010 to 2018.",
+    "legal_status": "Appellate holding/recognition, quoted from EquityBuild I, 101 F.4th at 528; Judge Easterbrook's concurrence at 534 states liability for the Ponzi scheme was established years ago.",
+    "conditions": "None stated.",
+    "proceeding": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (\"EquityBuild I\")",
+    "evidence": "The Seventh Circuit recognized, as this Court held, that the Cohens \"ran a Ponzi scheme through their real estate companies EquityBuild, Inc. and EquityBuild Finance, LLC ('EBF') from at least 2010 to 2018.\" SEC v. EquityBuild, Inc., 101 F.4th 526, 528 (7th Cir. 2024)"
+   },
+   {
+    "fact": "The district court's June 20, 2024 order (Dkt. 1679; 2024 WL 3069682) was affirmed sub nom. by the Seventh Circuit in EquityBuild II, 161 F.4th 1020, 1025-26 (7th Cir. 2025).",
+    "legal_status": "Affirmed on appeal, as stated in the filing's citation string.",
+    "conditions": "None stated.",
+    "proceeding": "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (\"EquityBuild II\"), affirming N.D. Ill. Dkt. 1679",
+    "evidence": "SEC v. EquityBuild, Inc., No. 18 CV 5587, 2024 WL 3069682, at *1 (N.D. Ill. June 20, 2024) (Dkt. 1679), aff'd sub nom. SEC v. EquityBuild, Inc., 161 F.4th 1020, 1025-26 (7th Cir. 2025) (\"EquityBuild II\")"
+   },
+   {
+    "fact": "On August 17, 2018, the Court appointed a receiver for the assets of the Receivership Defendants (Dkt. 16), charged with discovering, retrieving and preserving assets, identifying investor victims and creditors, and proposing and administering a plan of distribution.",
+    "legal_status": "Court order (appointment order, Dkt. 16), as described by the Receiver.",
+    "conditions": "None stated.",
+    "proceeding": "SEC v. EquityBuild, Inc., No. 1:18-cv-05587 (N.D. Ill.) (main receivership case)",
+    "evidence": "On August 17, 2018, this Court appointed a receiver for the assets of the Receivership Defendants. (Dkt. 16) Primary among his duties, the Receiver was charged with discovering, retrieving, and preserving monies and other assets of the Receivership Defendants, identifying the investor victims and creditors of the Ponzi scheme, and eventually proposing and administering a plan of distribution of the collected assets."
+   },
+   {
+    "fact": "The Receivership has involved at least 108 real estate properties, more than 1,600 residential units, and 2,442 claims submitted by 914 claimants.",
+    "legal_status": "Factual assertion by the Receiver in the motion's background section (sentence continues on the next page).",
+    "conditions": "None stated.",
+    "proceeding": "SEC v. EquityBuild, Inc., No. 1:18-cv-05587 (N.D. Ill.) (main receivership case)",
+    "evidence": "The Receivership has been complex and substantial, involving at least 108 real estate properties, more than 1,600 residential units, and 2,442 claims submitted by 914 claimants"
+   }
+  ],
+  "page_kind": "Body page of a motion brief (Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967, PDF page 12 / brief page 6): background section describing the Ponzi scheme findings and Section C, \"Appointment of the Receiver.\"",
+  "notes": "Authority-versus-proceeding line: every case cited on this page is a proceeding involving the estate (SEC v. EquityBuild, Inc.), so the authorities list is intentionally empty. The two Seventh Circuit decisions (EquityBuild I, 101 F.4th 526; EquityBuild II, 161 F.4th 1020) are listed as related proceedings because they are appeals from this receivership. The citation \"SEC v. EquityBuild, Inc., No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024) (Dkt. 1679)\" is a district court order within the main receivership case itself, so it is NOT listed as a separate related proceeding; it is captured in key_facts as the order affirmed by EquityBuild II. Judge Easterbrook is a judge and therefore excluded from organizations/attorneys. Internal docket cross-references on the page: Dkt. 241 at 3; Dkt. 1589, Ex. 6; Dkt. 693, Ex. 1; Dkt. 1679; Dkt. 16. Creditors list is empty because the page names only classes (\"institutional lender claimants\" and \"investor lender claimants\"), not any specific claimant. No attorneys appear on the page. No specific property is named (only aggregate counts: 108 properties, 1,600+ residential units), so properties_or_assets is empty. The Cohens (individuals) are referenced but are not organizations. The text layer matches the PDF image; the page footer shows brief page \"6\" and the ECF header reads Page 12 of 273, PageID #:128342, Filed 06/30/26."
+ },
+ "status-report-1-p021": {
+  "creditors": [
+   {
+    "name": "Byrd (plaintiff)",
+    "detail": "Plaintiff in a pending Cook County Law Division suit against EquityBuild; an unliquidated litigation claimant against the Receivership Estate, not a lender. Case stayed on the Law Division Stay Calendar.",
+    "evidence": "Byrd v. EquityBuild, et al., Case No. 2018 L 973, Circuit Court of Cook County, Law Division. This case was placed on the Law Division Stay Calendar on September 11, 2018."
+   },
+   {
+    "name": "Michigan Shores Apartments, LLC",
+    "detail": "Plaintiff in two Cook County Chancery Division suits against EquityBuild, Inc.; a litigation claimant against the Receivership Estate (nature of claim not stated on this page).",
+    "evidence": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., Case No. 2018 CH 9098 ... Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., Case No. 2018 CH 3665, Circuit Court of Cook County, Chancery Division."
+   },
+   {
+    "name": "Stewart (plaintiff)",
+    "detail": "Plaintiff in a 2016 Cook County Law Division suit naming 7420 S. Colfax, EquityBuild, Inc. and the Receivership Defendants; litigation claimant whose case is stayed as to the estate defendants but proceeding against other parties.",
+    "evidence": "Stewart v. 7420 S. Colfax, et al., Case No. 2016 L 6239, Circuit Court of Cook County, Law Division. This case was stayed as to EquityBuild, Inc. and the Receivership Defendants at the September 6, 2018 status date, but is proceeding with respect to the other parties."
+   },
+   {
+    "name": "Watson, et al. (plaintiffs)",
+    "detail": "Plaintiffs in a 2017 Cook County Law Division suit against EquityBuild, Inc.; litigation claimants against the Receivership Estate. Case stayed as to all parties.",
+    "evidence": "Watson, et al. v. EquityBuild, Inc., et al., Case No. 2017 L 1320, Circuit Court of Cook County, Law Division. On October 10, 2018, the matter was stayed as to all parties and placed on the Law Division Stay Calendar."
+   },
+   {
+    "name": "Reymone (plaintiff)",
+    "detail": "Plaintiff in a 2018 Cook County Law Division suit against EquityBuild, Inc.; litigation claimant against the Receivership Estate. Receiver appeared and the case was placed on the Miscellaneous Stay Calendar.",
+    "evidence": "Reymone v. EquityBuild, Inc., Case No. 2018 L 7680, Circuit Court of Cook County, Law Division. On August 24, 2018, the Receiver filed an appearance and Notice of Appointment of Receiver and Stay of Litigation, and the case has been placed on the Miscellaneous Stay Calendar."
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Receivership defendant; named defendant in each of the six listed state-court suits.",
+    "evidence": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al. ... This case was stayed as to EquityBuild, Inc. and the Receivership Defendants"
+   },
+   {
+    "name": "Michigan Shores Apartments, LLC",
+    "detail": "LLC plaintiff in two Cook County Chancery Division suits against EquityBuild, Inc.",
+    "evidence": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., Case No. 2018 CH 9098 ... Case No. 2018 CH 3665"
+   },
+   {
+    "name": "7420 S. Colfax",
+    "detail": "Lead named defendant in Stewart v. 7420 S. Colfax; appears to be a property-holding entity named by address (entity form not stated on this page).",
+    "evidence": "Stewart v. 7420 S. Colfax, et al., Case No. 2016 L 6239, Circuit Court of Cook County, Law Division."
+   },
+   {
+    "name": "City of Chicago",
+    "detail": "Municipality; Receiver's counsel appeared on City of Chicago related matters about six times.",
+    "evidence": "separately, the Receiver's counsel has appeared on City of Chicago related matters on approximately six separate occasions."
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "7420 S. Colfax (Chicago)",
+    "detail": "Property address appearing as a named defendant in the Stewart suit; implies an estate-related property/entity at 7420 S. Colfax Ave.",
+    "evidence": "Stewart v. 7420 S. Colfax, et al., Case No. 2016 L 6239, Circuit Court of Cook County, Law Division."
+   }
+  ],
+  "related_proceedings": [
+   {
+    "name": "Byrd v. EquityBuild, et al., No. 2018 L 973 (Cir. Ct. Cook County, Law Div.)",
+    "detail": "State-court suit against EquityBuild; placed on the Law Division Stay Calendar on September 11, 2018.",
+    "evidence": "Byrd v. EquityBuild, et al., Case No. 2018 L 973, Circuit Court of Cook County, Law Division. This case was placed on the Law Division Stay Calendar on September 11, 2018."
+   },
+   {
+    "name": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., No. 2018 CH 9098 (Cir. Ct. Cook County, Chancery Div.)",
+    "detail": "Chancery suit against EquityBuild, Inc.; no stay calendar in Chancery, so continued for status to December 13, 2018.",
+    "evidence": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., Case No. 2018 CH 9098, Circuit Court of Cook County, Chancery Division. Because there is no stay calendar in Chancery, the matter was continued for status to December 13, 2018."
+   },
+   {
+    "name": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., No. 2018 CH 3665 (Cir. Ct. Cook County, Chancery Div.)",
+    "detail": "Chancery suit against EquityBuild, Inc.; Plaintiff's motion to stay granted, litigation stayed until further order, status set for December 4, 2018.",
+    "evidence": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., Case No. 2018 CH 3665, Circuit Court of Cook County, Chancery Division. The Plaintiff's motion to stay was granted, litigation has been stayed until further order of court, and the matter has been set for status to December 4, 2018."
+   },
+   {
+    "name": "Stewart v. 7420 S. Colfax, et al., No. 2016 L 6239 (Cir. Ct. Cook County, Law Div.)",
+    "detail": "Law Division suit naming 7420 S. Colfax, EquityBuild, Inc. and the Receivership Defendants; stayed as to EquityBuild, Inc. and the Receivership Defendants at the September 6, 2018 status date, proceeding as to other parties.",
+    "evidence": "Stewart v. 7420 S. Colfax, et al., Case No. 2016 L 6239, Circuit Court of Cook County, Law Division. This case was stayed as to EquityBuild, Inc. and the Receivership Defendants at the September 6, 2018 status date, but is proceeding with respect to the other parties."
+   },
+   {
+    "name": "Watson, et al. v. EquityBuild, Inc., et al., No. 2017 L 1320 (Cir. Ct. Cook County, Law Div.)",
+    "detail": "Law Division suit against EquityBuild, Inc.; stayed as to all parties on October 10, 2018 and placed on the Law Division Stay Calendar.",
+    "evidence": "Watson, et al. v. EquityBuild, Inc., et al., Case No. 2017 L 1320, Circuit Court of Cook County, Law Division. On October 10, 2018, the matter was stayed as to all parties and placed on the Law Division Stay Calendar."
+   },
+   {
+    "name": "Reymone v. EquityBuild, Inc., No. 2018 L 7680 (Cir. Ct. Cook County, Law Div.)",
+    "detail": "Law Division suit against EquityBuild, Inc.; Receiver filed appearance and Notice of Appointment of Receiver and Stay of Litigation on August 24, 2018; placed on the Miscellaneous Stay Calendar.",
+    "evidence": "Reymone v. EquityBuild, Inc., Case No. 2018 L 7680, Circuit Court of Cook County, Law Division. On August 24, 2018, the Receiver filed an appearance and Notice of Appointment of Receiver and Stay of Litigation, and the case has been placed on the Miscellaneous Stay Calendar."
+   },
+   {
+    "name": "City of Chicago related matters (uncaptioned)",
+    "detail": "Unspecified municipal matters (no caption, court or docket given on this page) on which Receiver's counsel appeared approximately six times.",
+    "evidence": "separately, the Receiver's counsel has appeared on City of Chicago related matters on approximately six separate occasions."
+   }
+  ],
+  "authorities": [],
+  "key_facts": [
+   {
+    "fact": "The Receiver has notified parties and courts in all suits pending against the Receivership Estate of the litigation stay imposed by the Order Appointing Receiver; counsel appeared about six times to orally move for stays.",
+    "legal_status": "Reported by the Receiver as completed activity; stay derives from the Order Appointing Receiver.",
+    "conditions": "Stay applies pursuant to the Order Appointing Receiver.",
+    "proceeding": "SEC v. EquityBuild, Inc., et al., N.D. Ill. No. 1:18-cv-05587 (Dkt. 107, Receiver's First Status Report)",
+    "evidence": "the Receiver has apprised the parties to these suits and the courts in which they are pending of the stay of litigation imposed by the Order Appointing Receiver. The Receiver's counsel has appeared in court approximately six times to inform the respective tribunals of the Receiver's appointment and has orally moved to stay the litigation"
+   },
+   {
+    "fact": "Byrd v. EquityBuild, et al. (2018 L 973) was placed on the Cook County Law Division Stay Calendar on September 11, 2018.",
+    "legal_status": "Stayed (on stay calendar).",
+    "conditions": "None stated.",
+    "proceeding": "Byrd v. EquityBuild, et al., No. 2018 L 973, Circuit Court of Cook County, Law Division",
+    "evidence": "This case was placed on the Law Division Stay Calendar on September 11, 2018."
+   },
+   {
+    "fact": "Michigan Shores Apartments, LLC v. EquityBuild, Inc. (2018 CH 9098) was continued for status to December 13, 2018 because Chancery has no stay calendar.",
+    "legal_status": "Continued for status; not formally stayed as of the report.",
+    "conditions": "Status hearing December 13, 2018.",
+    "proceeding": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., No. 2018 CH 9098, Circuit Court of Cook County, Chancery Division",
+    "evidence": "Because there is no stay calendar in Chancery, the matter was continued for status to December 13, 2018."
+   },
+   {
+    "fact": "In Michigan Shores Apartments, LLC v. EquityBuild, Inc. (2018 CH 3665) the Plaintiff's motion to stay was granted and litigation is stayed until further order, with status set for December 4, 2018.",
+    "legal_status": "Stayed until further order of court.",
+    "conditions": "Status hearing December 4, 2018.",
+    "proceeding": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., No. 2018 CH 3665, Circuit Court of Cook County, Chancery Division",
+    "evidence": "The Plaintiff's motion to stay was granted, litigation has been stayed until further order of court, and the matter has been set for status to December 4, 2018."
+   },
+   {
+    "fact": "Stewart v. 7420 S. Colfax (2016 L 6239) was stayed as to EquityBuild, Inc. and the Receivership Defendants on September 6, 2018, but continues against the other parties.",
+    "legal_status": "Partially stayed (as to estate defendants only).",
+    "conditions": "Proceeding with respect to non-receivership parties.",
+    "proceeding": "Stewart v. 7420 S. Colfax, et al., No. 2016 L 6239, Circuit Court of Cook County, Law Division",
+    "evidence": "This case was stayed as to EquityBuild, Inc. and the Receivership Defendants at the September 6, 2018 status date, but is proceeding with respect to the other parties."
+   },
+   {
+    "fact": "Watson, et al. v. EquityBuild, Inc. (2017 L 1320) was stayed as to all parties on October 10, 2018 and placed on the Law Division Stay Calendar.",
+    "legal_status": "Stayed as to all parties.",
+    "conditions": "None stated.",
+    "proceeding": "Watson, et al. v. EquityBuild, Inc., et al., No. 2017 L 1320, Circuit Court of Cook County, Law Division",
+    "evidence": "On October 10, 2018, the matter was stayed as to all parties and placed on the Law Division Stay Calendar."
+   },
+   {
+    "fact": "In Reymone v. EquityBuild, Inc. (2018 L 7680) the Receiver filed an appearance and Notice of Appointment of Receiver and Stay of Litigation on August 24, 2018, and the case was placed on the Miscellaneous Stay Calendar.",
+    "legal_status": "Stayed (on Miscellaneous Stay Calendar).",
+    "conditions": "None stated.",
+    "proceeding": "Reymone v. EquityBuild, Inc., No. 2018 L 7680, Circuit Court of Cook County, Law Division",
+    "evidence": "On August 24, 2018, the Receiver filed an appearance and Notice of Appointment of Receiver and Stay of Litigation, and the case has been placed on the Miscellaneous Stay Calendar."
+   }
+  ],
+  "page_kind": "Receiver status report body page, section \"o. Open Litigation\" (Receiver's First Status Report, Dkt. 107, p. 21 of 30, PageID #:974)",
+  "notes": "Authority-vs-proceeding line: every captioned case on this page names EquityBuild, EquityBuild, Inc., the Receivership Defendants or an estate property entity (7420 S. Colfax) as a party, so all six are related proceedings (Cook County state-court suits stayed under the Order Appointing Receiver). Zero authorities: no case is cited for a legal proposition and no reporter citation appears. The uncaptioned \"City of Chicago related matters\" are included as a related-proceeding entry with no docket because the page gives none. No attorneys are named (only \"Receiver's counsel\"). Creditors listed are litigation plaintiffs with unliquidated claims, not lenders; nature and amount of their claims are not stated on this page. Text layer contains OCR spacing artifacts (e.g., \"20 18 L 973\", \"Apartment s\", \"Equi tyBuild\") that the PDF image resolves to \"2018 L 973\", \"Apartments\", \"EquityBuild\"."
+ },
+ "status-report-1-p002": {
+  "creditors": [],
+  "attorneys": [],
+  "organizations": [],
+  "properties_or_assets": [],
+  "related_proceedings": [],
+  "authorities": [
+   {
+    "name": "FDIC v. Bernstein, 786 F. Supp. 170 (E.D.N.Y. 1992)",
+    "detail": "Cited at 177 for the proposition that a district court has extremely broad discretion in supervising an equity receivership and in determining the appropriate procedures for its administration. Precedent about strangers to the estate; not a related proceeding.",
+    "evidence": "\"...determining the appropriate procedures to be used in its administration.\" FDIC v. Bernstein, 786 F.Supp. 170, 177 (E.D.N.Y. 1992)"
+   },
+   {
+    "name": "SEC v. Hardy, 803 F.2d 1034 (9th Cir. 1986)",
+    "detail": "Cited with \"see also\" at 1037 for the district court's broad discretion; cited again at 1037 for the court's \"broad powers and wide discretion\" stemming from complex transactions and multiple parties; and at 1038 (via \"Id.\") for the primary purpose of equity receiverships being orderly and efficient administration of the estate for the benefit of creditors, and that reasonable procedures instituted by the district court are generally upheld.",
+    "evidence": "see also SEC v. Hardy, 803 F.2d 1034, 1037 (9th Cir. 1986); ... Hardy, 803 F.2d at 1037. ... Id. at 1038. ... Id."
+   },
+   {
+    "name": "SEC v. Safety Financial Service, Inc., 674 F.2d 368 (5th Cir. 1982)",
+    "detail": "Cited at 372 with parenthetical: action by a trial court in supervising an equity receivership is committed to its sound discretion and will not be disturbed unless there is a clear showing of abuse.",
+    "evidence": "SEC v. Safety Financial Service, Inc., 674 F.2d 368, 372 (5th Cir. 1982) (\"action by a trial court in supervising an equity receivership is committed to his sound discretion and will not be disturbed unless there is a clear showing of abuse\")"
+   },
+   {
+    "name": "SEC v. Elfindepan, S.A., 169 F. Supp. 2d 420 (M.D.N.C. 2001)",
+    "detail": "Cited at 424 for the proposition that a receiver receives his power and authority directly from the Court and is therefore subject to the court's directions and orders in the discharge of his official duties.",
+    "evidence": "\"a receiver receives [his] power and authority directly from the Court and therefore is 'subject to the court's directions and orders in the discharge of [his] official duties.'\" SEC v. Elfindepan, S.A., 169 F. Supp. 2d 420, 424 (M.D.N.C. 2001)"
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "The Receiver expects this status report to be a primary source of information for many, including investors, lenders, and other creditors.",
+    "legal_status": "Receiver's statement of purpose in the status report; not a court finding.",
+    "conditions": "None stated.",
+    "proceeding": "SEC v. EquityBuild, Inc. et al., N.D. Ill. No. 1:18-cv-05587 (main receivership case), Dkt. 107",
+    "evidence": "The Receiver also expects that this status report will be a primary source of information for many, including without limitation, investors, lenders, and other creditors."
+   },
+   {
+    "fact": "The Receiver's powers and duties derive from the Order Appointing Receiver, Docket No. 16, paragraphs 6-8.",
+    "legal_status": "Court order (Order Appointing Receiver) as described by the Receiver; cited as the source of the Receiver's authority.",
+    "conditions": "Powers are exercised subject to the Court's directions and orders.",
+    "proceeding": "SEC v. EquityBuild, Inc. et al., N.D. Ill. No. 1:18-cv-05587 (main receivership case), Dkt. 16",
+    "evidence": "The Receiver is tasked with powers and duties under the Court Order appointing him. (See, e.g., Docket No, 16, Order Appointing Receiver \u00b6\u00b6 6-8)"
+   },
+   {
+    "fact": "The Receiver asserts two basic principles governing equitable receiverships: (1) the district court has extremely broad discretion in supervising the receivership and determining its administrative procedures; and (2) a primary purpose of equity receiverships is the orderly and efficient administration of the estate by the district court for the benefit of creditors.",
+    "legal_status": "Legal argument / statement of governing law by the Receiver, supported by cited authorities (Bernstein, Hardy, Safety Financial); not a ruling in this case.",
+    "conditions": "Reasonable procedures instituted by the district court that serve these principles are generally upheld absent a clear showing of abuse of discretion.",
+    "proceeding": "SEC v. EquityBuild, Inc. et al., N.D. Ill. No. 1:18-cv-05587 (main receivership case), Dkt. 107",
+    "evidence": "There are two basic principles in cases involving equitable receiverships. ... a district court has extremely broad discretion ... Another \"primary purpose of equity receiverships is to promote orderly and efficient administration of the estate by the district court for the benefit of creditors.\""
+   },
+   {
+    "fact": "The Receiver asserts that because the receivership is subject to the Court's broad discretion, a receiver receives his power and authority directly from the Court and is subject to the Court's directions and orders in discharging his official duties, so that the Receiver effectively steps into the shoes of the receivership entities (sentence continues on the next page).",
+    "legal_status": "Legal argument by the Receiver, supported by SEC v. Elfindepan; not a ruling in this case.",
+    "conditions": "None stated on this page; the sentence describing the practical effect is cut off at the page break.",
+    "proceeding": "SEC v. EquityBuild, Inc. et al., N.D. Ill. No. 1:18-cv-05587 (main receivership case), Dkt. 107",
+    "evidence": "\"a receiver receives [his] power and authority directly from the Court and therefore is 'subject to the court's directions and orders in the discharge of [his] official duties.'\" ... The practical effect of these broad powers and duties is that the Receiver effectively steps in the shoes"
+   }
+  ],
+  "page_kind": "Body page of a Receiver's status report (Dkt. 107, filed 10/30/18, page 2 of 30, PageID #:955) containing a legal-background section titled \\\"a. General Powers and Duties of a Receiver\\\" with case-law citations.",
+  "notes": "Page 2 of Receiver's First Status Report (Case 1:18-cv-05587, Dkt. 107, PageID #:955). The page contains no named companies, banks, law firms, attorneys, creditors, properties or assets, and no related proceedings. The only non-main-case references are four precedent citations (FDIC v. Bernstein; SEC v. Hardy; SEC v. Safety Financial Service, Inc.; SEC v. Elfindepan, S.A.), all of which involve parties unrelated to the EquityBuild estate and are cited purely for legal propositions about equity receiverships; they are therefore labeled as authorities, not related proceedings. The \\\"FDIC\\\" and \\\"SEC\\\" appearing in those captions are not listed as organizations because they appear only inside cited-precedent captions. The only EquityBuild-estate docket references are to Docket No. 16 (Order Appointing Receiver, paragraphs 6-8), which belongs to the main receivership case and is captured as a key fact rather than a related proceeding. \\\"Id.\\\" references following the Hardy citation refer back to Hardy, 803 F.2d at 1037-1038. Text layer matches the PDF image; minor spacing artifacts only (e.g., \\\"Appoin ting\\\", \\\"Docket No, 16\\\" where the PDF also reads \\\"Docket No, 16\\\" with a comma)."
+ },
+ "dkt-1806-p002": {
+  "page_kind": "Body page (argument section) of the SEC's Response to Group 7 Position Statements, Dkt. 1806, SEC v. EquityBuild, Inc., N.D. Ill. No. 1:18-cv-05587; page 2 of 6 (PageID 123786), filed 12/16/24, with footnotes 2 and 3. No caption, signature block or certificate on this page.",
+  "creditors": [
+   {
+    "name": "Citibank",
+    "detail": "Group 7 institutional lender; filed Position Statement ECF 1797 arguing it has priority over the investors despite no releases existing, on the theory it is 'entitled to releases as a matter of Illinois law'. SEC characterizes this as a strained reading of EquityBuild.",
+    "evidence": "Citibank and Sabal thus argue they have priority, despite no releases existing, because they are \"entitled to releases\u2026as a matter of Illinois law.\" (ECF 1797 at 4-5, 8-10; ECF 1798 at 3, 6-8)."
+   },
+   {
+    "name": "Sabal",
+    "detail": "Group 7 institutional lender; filed Position Statement ECF 1798 making the same priority argument as Citibank (referencing an obligation to issue 'a valid release').",
+    "evidence": "(ECF 1797 at 9; see also ECF 1798 at 7 (the same quote except Sabal references a purported obligation to issue \"a valid release\")."
+   },
+   {
+    "name": "BMO",
+    "detail": "Group 7 institutional lender; its Group 7 Position Statement (ECF 1794 at 15-16) makes the same 'entitled to releases' argument as to Property 2.",
+    "evidence": "As discussed below, BMO's Group 7 Position Statement parrots this argument for Property 2. (See ECF 1794 at 15-16)."
+   },
+   {
+    "name": "BC57",
+    "detail": "Group 1 institutional lender; referenced as the lender in the Seventh Circuit appeal who actually obtained (fraudulent) releases that were held facially invalid, so investors retained their interests in the Group 1 properties. Cited as comparison for the Group 7 lenders.",
+    "evidence": "Unlike Group 7 properties 69, 70, and 73, in Group 1 BC57 actually obtained (fraudulent) releases. See EquityBuild, 101 F.4th at 529."
+   }
+  ],
+  "attorneys": [],
+  "organizations": [
+   {
+    "name": "Citibank",
+    "detail": "Group 7 institutional lender / position-statement filer (ECF 1797).",
+    "evidence": "Citibank and Sabal insist the decision necessitates the opposite outcome."
+   },
+   {
+    "name": "Sabal",
+    "detail": "Group 7 institutional lender / position-statement filer (ECF 1798).",
+    "evidence": "Citibank and Sabal insist the decision necessitates the opposite outcome."
+   },
+   {
+    "name": "BMO",
+    "detail": "Group 7 institutional lender / position-statement filer (ECF 1794), as to Property 2.",
+    "evidence": "BMO's Group 7 Position Statement parrots this argument for Property 2. (See ECF 1794 at 15-16)."
+   },
+   {
+    "name": "BC57",
+    "detail": "Group 1 institutional lender whose fraudulent releases were held facially invalid in the Seventh Circuit EquityBuild decision.",
+    "evidence": "in Group 1 BC57 actually obtained (fraudulent) releases."
+   },
+   {
+    "name": "Equitybuild Finance (EBF)",
+    "detail": "EquityBuild estate entity; Citibank and Sabal claim that once they paid money to EBF, the prior Individual Investors and EBF were obligated to issue valid releases.",
+    "evidence": "once they paid money to Equitybuild Finance (\"EBF\"), \"the prior Individual Investors and EBF were obligated to issue valid releases\u2026as a matter of Illinois law.\""
+   },
+   {
+    "name": "EquityBuild, Inc.",
+    "detail": "Receivership defendant; named in the caption of the Seventh Circuit appeal from this receivership (a related proceeding, not a cited stranger precedent).",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024)."
+   },
+   {
+    "name": "Securities and Exchange Commission (SEC)",
+    "detail": "Plaintiff in the receivership case and the filer of this response; appears on this page as the appellee-side party in the caption of the Seventh Circuit appeal.",
+    "evidence": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024)."
+   }
+  ],
+  "properties_or_assets": [
+   {
+    "name": "Group 7 Property 69",
+    "detail": "Group 7 receivership property as to which no releases exist (contrast with Group 1 where BC57 obtained fraudulent releases).",
+    "evidence": "Unlike Group 7 properties 69, 70, and 73, in Group 1 BC57 actually obtained (fraudulent) releases."
+   },
+   {
+    "name": "Group 7 Property 70",
+    "detail": "Group 7 receivership property as to which no releases exist.",
+    "evidence": "Unlike Group 7 properties 69, 70, and 73, in Group 1 BC57 actually obtained (fraudulent) releases."
+   },
+   {
+    "name": "Group 7 Property 73",
+    "detail": "Group 7 receivership property as to which no releases exist.",
+    "evidence": "Unlike Group 7 properties 69, 70, and 73, in Group 1 BC57 actually obtained (fraudulent) releases."
+   },
+   {
+    "name": "Property 2 (Group 7)",
+    "detail": "Group 7 property subject to BMO's position statement making the 'entitled to releases' argument.",
+    "evidence": "BMO's Group 7 Position Statement parrots this argument for Property 2. (See ECF 1794 at 15-16)."
+   },
+   {
+    "name": "Group 1 properties",
+    "detail": "Properties at issue in the Seventh Circuit appeal; investors held to 'maintain their interests in' them because BC57's releases were facially invalid.",
+    "evidence": "such that the investors \"maintain their interests in\" the Group 1 properties. Id. at 532-33."
+   }
+  ],
+  "related_proceedings": [
+   {
+    "name": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024)",
+    "detail": "Seventh Circuit appeal from this receivership concerning Group 1 lien priority (BC57 vs. investors). Court: U.S. Court of Appeals for the Seventh Circuit. Citation: 101 F.4th 526; pin cites on this page at 529, 531, and 532-33. The SEC reads it as resolving priority in the investors' favor and as holding that BC57's fraudulent releases 'were facially invalid' and 'had no effect'; also held the Illinois Mortgage Act 'obligates a mortgagee to issue a release of the mortgage upon full satisfaction of the debt underlying the lien.' This is a related proceeding (the estate's own appeal), not a stranger-party authority.",
+    "evidence": "question of priority in the investors' favor. SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024). ... See EquityBuild, 101 F.4th at 529. ... Id. at 532-33. ... See EquityBuild, 101 F.4th at 531."
+   }
+  ],
+  "authorities": [
+   {
+    "name": "Illinois Mortgage Act",
+    "detail": "Illinois statute invoked for the proposition (as held in EquityBuild) that a mortgagee must issue a release upon full satisfaction of the underlying debt, and whose requirements BC57's releases failed to satisfy. No section number or statutory citation appears on this page; it is cited only through the Seventh Circuit decision. No stranger-party case law is cited on this page.",
+    "evidence": "because those releases did not satisfy the requirements of the Illinois Mortgage Act, the releases \"were facially invalid\" ... EquityBuild held the Illinois Mortgage Act \"obligates a mortgagee to issue a release of the mortgage upon full satisfaction of the debt underlying the lien.\""
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "The Seventh Circuit in SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) resolved the Group 1 priority question in the investors' favor (as the SEC characterizes it).",
+    "legal_status": "Appellate holding, as characterized by the SEC in its response brief.",
+    "conditions": "Sentence begins on page 1; only the tail appears on this page.",
+    "proceeding": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (appeal from N.D. Ill. No. 1:18-cv-05587)",
+    "evidence": "question of priority in the investors' favor. SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024)."
+   },
+   {
+    "fact": "Citibank and Sabal argue they have priority over the Group 7 investors despite no releases existing, because they are 'entitled to releases as a matter of Illinois law' (Citibank ECF 1797 at 4-5, 8-10; Sabal ECF 1798 at 3, 6-8).",
+    "legal_status": "Lenders' position-statement argument; contested by the SEC as a 'strained reading' of EquityBuild.",
+    "conditions": "SEC's characterization of opposing filings.",
+    "proceeding": "SEC v. EquityBuild, N.D. Ill. No. 1:18-cv-05587, Group 7 claims process (Dkt. 1806 responding to ECF 1797 and 1798)",
+    "evidence": "Citibank and Sabal thus argue they have priority, despite no releases existing, because they are \"entitled to releases\u2026as a matter of Illinois law.\" (ECF 1797 at 4-5, 8-10; ECF 1798 at 3, 6-8)."
+   },
+   {
+    "fact": "Unlike Group 7 properties 69, 70 and 73 (no releases at all), BC57 in Group 1 actually obtained fraudulent releases, which the Seventh Circuit held 'were facially invalid' and 'had no effect' because they did not satisfy the Illinois Mortgage Act, so investors 'maintain their interests in' the Group 1 properties.",
+    "legal_status": "Appellate holding (101 F.4th at 529, 532-33) applied by analogy by the SEC; SEC asserts Group 7 facts are 'even worse' for the lenders.",
+    "conditions": "None stated.",
+    "proceeding": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024), applied to Group 7 in N.D. Ill. No. 1:18-cv-05587",
+    "evidence": "Unlike Group 7 properties 69, 70, and 73, in Group 1 BC57 actually obtained (fraudulent) releases. See EquityBuild, 101 F.4th at 529. However, because those releases did not satisfy the requirements of the Illinois Mortgage Act, the releases \"were facially invalid\" and \"had no effect,\" such that the investors \"maintain their interests in\" the Group 1 properties. Id. at 532-33."
+   },
+   {
+    "fact": "Citibank and Sabal claim that once they paid money to Equitybuild Finance (EBF), the prior Individual Investors and EBF were obligated to issue valid releases as a matter of Illinois law (ECF 1797 at 9; ECF 1798 at 7).",
+    "legal_status": "Lenders' argument; disputed by the SEC.",
+    "conditions": "Sabal's version references an obligation to issue 'a valid release'.",
+    "proceeding": "SEC v. EquityBuild, N.D. Ill. No. 1:18-cv-05587, Group 7 claims process",
+    "evidence": "once they paid money to Equitybuild Finance (\"EBF\"), \"the prior Individual Investors and EBF were obligated to issue valid releases\u2026as a matter of Illinois law.\" (ECF 1797 at 9; see also ECF 1798 at 7 ...)."
+   },
+   {
+    "fact": "The SEC concedes EquityBuild may have held that the Illinois Mortgage Act 'obligates a mortgagee to issue a release of the mortgage upon full satisfaction of the debt underlying the lien' (101 F.4th at 531), but argues that holding does not support retroactively ordering releases that would give the Institutional Lenders priority.",
+    "legal_status": "SEC legal argument; partial concession plus rebuttal. Argument continues onto page 3.",
+    "conditions": "Footnote 3: because the Group 7 investors were not repaid, their debt was never satisfied, so the release obligation was never triggered (SEC assertion).",
+    "proceeding": "SEC v. EquityBuild, N.D. Ill. No. 1:18-cv-05587, Group 7 claims process (Dkt. 1806)",
+    "evidence": "Citibank and Sabal may be correct that EquityBuild held the Illinois Mortgage Act \"obligates a mortgagee to issue a release of the mortgage upon full satisfaction of the debt underlying the lien.\" See EquityBuild, 101 F.4th at 531. But that holding does not support the conclusion Citibank and Sabal demand ... Like in Group 1, because the Group 7 investors were not repaid, their debt was never satisfied."
+   },
+   {
+    "fact": "BMO's Group 7 Position Statement (ECF 1794 at 15-16) makes the same 'entitled to releases' argument as to Property 2.",
+    "legal_status": "SEC characterization of BMO's filing; to be addressed later in the brief.",
+    "conditions": "Footnote 2; 'As discussed below'.",
+    "proceeding": "SEC v. EquityBuild, N.D. Ill. No. 1:18-cv-05587, Group 7 claims process",
+    "evidence": "As discussed below, BMO's Group 7 Position Statement parrots this argument for Property 2. (See ECF 1794 at 15-16)."
+   }
+  ],
+  "notes": "Text layer matches the PDF image; header line reads 'Case: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 2 of 6 PageID #:123786'. Authority-vs-proceeding line: the only case cited on this page is SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024), the Seventh Circuit appeal from this very receivership (Group 1 / BC57 priority); it is classified as a related proceeding, not an authority, and its caption parties (SEC, EquityBuild, Inc.) are estate parties so they are listed under organizations. No stranger-party precedent is cited on this page. The only authority is the Illinois Mortgage Act (statute), cited without section number and only via the Seventh Circuit opinion. ECF 1794 (BMO), 1797 (Citibank) and 1798 (Sabal) are position statements docketed in the main receivership case, not separate proceedings, so they are not listed under related_proceedings. 'Institutional Lenders', 'Individual Investors', 'Group 7 investors' and 'the Receiver' are role words/unnamed groups, not listed as organizations. No attorneys, signature block, or dollar figures appear on this page. Lender names appear in shorthand only (Citibank, Sabal, BMO, BC57) with no full legal names on this page."
+ }
+}

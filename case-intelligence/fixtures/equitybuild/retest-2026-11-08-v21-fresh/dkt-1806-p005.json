@@ -1,0 +1,333 @@
+{
+ "key": "dkt-1806",
+ "page": 5,
+ "document": "SEC's Response To Group 7 Position Statements, Dkt. 1806",
+ "document_id": "721911fa-207d-43d4-b618-e24178486bd4",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.3",
+ "schema_version": "2026-11-08.3",
+ "input_tokens": 5581,
+ "output_tokens": 1849,
+ "latency_ms": 8882,
+ "page_kind": "mixed",
+ "output": {
+  "page_kind": "mixed",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "BMO",
+    "party_roles": [
+     "claimant",
+     "lender"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "DLP",
+    "party_roles": [
+     "claimant",
+     "lender"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "U.S. Securities and Exchange Commission",
+    "party_roles": [
+     "plaintiff"
+    ],
+    "aliases": [
+     "SEC"
+    ]
+   },
+   {
+    "key": "p4",
+    "kind": "organization",
+    "canonical_name": "BC57",
+    "party_roles": [
+     "claimant",
+     "lender"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p5",
+    "kind": "person",
+    "canonical_name": "Benjamin J. Hanauer",
+    "party_roles": [
+     "counsel"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p1",
+    "creditor_type": "secured_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 7",
+    "treatment_summary": "SEC requests finding that investors have priority over BMO for Group 7 properties"
+   },
+   {
+    "party_key": "p2",
+    "creditor_type": "secured_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 2",
+    "treatment_summary": null
+   },
+   {
+    "party_key": "p4",
+    "creditor_type": "secured_lender",
+    "claim_amount_asserted": null,
+    "claim_group": null,
+    "treatment_summary": null
+   }
+  ],
+  "attorneys": [
+   {
+    "key": "a1",
+    "full_name": "Benjamin J. Hanauer",
+    "law_firm": null,
+    "law_firm_party_key": null,
+    "represents_party_keys": [
+     "p3"
+    ]
+   }
+  ],
+  "properties": [
+   {
+    "key": "pr2",
+    "address": "Property 2",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "2",
+    "disposition": "sold"
+   },
+   {
+    "key": "pr69",
+    "address": "Property 69",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "69",
+    "disposition": "sold"
+   },
+   {
+    "key": "pr70",
+    "address": "Property 70",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "70",
+    "disposition": "sold"
+   },
+   {
+    "key": "pr73",
+    "address": "Property 73",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "73",
+    "disposition": "sold"
+   }
+  ],
+  "related_lawsuits": [
+   {
+    "key": "r1",
+    "caption": "SEC v. Equitybuild, Inc., Appeal No. 23-1870",
+    "court": "Seventh Circuit",
+    "docket_number": "23-1870",
+    "relationship": "appeal"
+   }
+  ],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "requested",
+    "object_value": "SEC requests finding that investors have priority and are entitled to distribution of sale proceeds for Group 7 Properties 2, 69, 70, and 73",
+    "object_type": null,
+    "object_key": null,
+    "modality": "requested",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2024-12-16",
+    "referenced_page": null,
+    "quote": "the SEC respectfully requests the Court find that for Group 7 Properties 2, 69, 70, and 73, the investors have priority and are entitled to a distribution of the proceeds",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p1",
+    "predicate": "party_position",
+    "object_value": "SEC argues no meaningful factual difference between DLP in Group 2 and BMO in Group 7; outcome should be the same",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "there is no meaningful difference between the facts facing DLP in Group 2 and BMO in Group 7.",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p4",
+    "predicate": "party_position",
+    "object_value": "BC57 raised the same arguments before the Seventh Circuit",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "r1"
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "BC57 also raised each of these arguments before the Seventh Circuit.",
+    "confidence": 0.8,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC, Dkt. 1806",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2024-12-16",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24",
+    "confidence": 0.9,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "requested",
+   "object_value": "SEC requests finding that investors have priority and are entitled to distribution of sale proceeds for Group 7 Properties 2, 69, 70, and 73",
+   "object_type": null,
+   "object_key": null,
+   "modality": "requested",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2024-12-16",
+   "referenced_page": null,
+   "quote": "the SEC respectfully requests the Court find that for Group 7 Properties 2, 69, 70, and 73, the investors have priority and are entitled to a distribution of the proceeds",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p1",
+   "predicate": "party_position",
+   "object_value": "SEC argues no meaningful factual difference between DLP in Group 2 and BMO in Group 7; outcome should be the same",
+   "object_type": null,
+   "object_key": null,
+   "modality": "argued",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "there is no meaningful difference between the facts facing DLP in Group 2 and BMO in Group 7.",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "BMO",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p4",
+   "predicate": "party_position",
+   "object_value": "BC57 raised the same arguments before the Seventh Circuit",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": null,
+   "proceeding": {
+    "scope": "related_lawsuit",
+    "related_lawsuit_key": "r1"
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "BC57 also raised each of these arguments before the Seventh Circuit.",
+   "confidence": 0.8,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.8,
+   "subject_label": "BC57",
+   "proceeding_label": "SEC v. Equitybuild, Inc., Appeal No. 23-1870"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC, Dkt. 1806",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2024-12-16",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "page_text": "5\nrelease their mortgage; and (d) BMO reasonably relied on the fraudulent release and payoff\nstatement. (ECF 1794 at 7-15). 6\nThis Court has advised that while “decisions on one group of properties do not have\npreclusive effect for other groups…applying the law to a similar set of facts will garner a similar\nresult.” (ECF 1679 at 20 n.11). Here, there is no meaningful difference between the facts facing\nDLP in Group 2 and BMO in Group 7. The Court has already considered BMO’s arguments\nwhen correctly applying Illinois and Seventh Circuit law to similar facts. The outcome should be\nthe same.\nFor the foregoing reasons, the SEC respectfully requests the Court find that for Group 7\nProperties 2, 69, 70, and 73, the investors have priority and are entitled to a distribution of the\nproceeds of the properties’ sale.\nDated:  December 16, 2024  Respectfully submitted,\n/s/ Benjamin Hanauer\nBenjamin J. Hanauer (hanauerb@sec.gov)\n175 West Jackson Blvd., Suite 1450\nChicago, IL 60604\nPhone: (312) 353-7390\nFacsimile: (312) 353-7398\nAttorney for Plaintiff\nU.S. Securities and Exchange Commission\n6  BC57 also raised each of these arguments before the Seventh Circuit.  See SEC v. Equitybuild,\nInc. , Appeal No. 23-1870, Docket 8 (BC57 Appellate Brief, June 14, 2023), at pp. 13-30, 32-41.\nCase: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 5 of 6 PageID #:123789"
+}

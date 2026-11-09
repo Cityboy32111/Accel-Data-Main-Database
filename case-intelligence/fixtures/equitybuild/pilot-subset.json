@@ -1,0 +1,16 @@
+{
+  "$comment": "Pilot subset for SEC v. EquityBuild (N.D. Ill. 18-cv-5587). Rules run in order; each document is taken once. Chosen to exercise every entity type (parties, attorneys, creditors, properties, related lawsuits) with about 40 documents rather than all 822. See docs/02-source-access-validation.md section 3.1.",
+  "rules": [
+    { "name": "appointment and injunction orders", "category": "order", "titlePattern": "^Order Appointing Receiver|Order Regarding Appointment Of Receiver|^Temporary Restraining Order|Amend And Clarify Order Appointing Receiver", "order": "oldest", "take": 4 },
+    { "name": "earliest status reports", "category": "status_report", "titlePattern": "Status Report", "order": "oldest", "take": 2 },
+    { "name": "latest quarterly status reports", "category": "status_report", "titlePattern": "Status Report \\(", "order": "newest", "take": 4 },
+    { "name": "sale process orders", "category": "order", "titlePattern": "Court Approval Of The Sale Of|Process For Public Sale", "order": "oldest", "take": 3 },
+    { "name": "distribution plan orders and motions", "titlePattern": "Group \\d+ Distribution|Group \\d+ Settlement And Distributions", "order": "newest", "take": 6 },
+    { "name": "property-specific distributions", "titlePattern": "Property \\d+", "order": "newest", "take": 3 },
+    { "name": "institutional lender objections and positions", "titlePattern": "Institutional Lenders|Objecting Lenders|Position Statements Of", "order": "newest", "take": 4 },
+    { "name": "settlement motions", "category": "claims_process", "titlePattern": "Motion To Approve Settlement", "order": "newest", "take": 4 },
+    { "name": "state court action", "titlePattern": "State Court Action", "order": "newest", "take": 2 },
+    { "name": "appeals", "titlePattern": "Panel's Opinion|Order Dismissing .*Appeal|Notice Of Appeal|Order Consolidating Appeals", "order": "newest", "take": 5 },
+    { "name": "fee applications with SEC statements", "titlePattern": "Interim Application|SEC's Statement In Support", "order": "newest", "take": 3 }
+  ]
+}

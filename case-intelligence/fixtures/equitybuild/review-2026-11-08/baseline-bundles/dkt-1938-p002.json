@@ -1,0 +1,119 @@
+{
+ "document": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+ "page": 2,
+ "pdf": "fixtures/equitybuild/downloads/4e6d66cc362e06d914a153080513ed80.pdf",
+ "page_text": "2\nthat tenant suffered personal injuries causing her death as a result of one or more of these\ndefendants\u2019  alleged  negligent acts or  omissions.\n2.  Pursuant to the  August  17, 2018 Order Appointing Receiver (D k t.  16),  which\nauthorizes the Receiver t o defend all suits, actions, claims, and demands asserted against the\nReceivership Estate  (Dkt. 16, \u00b6 8(N)), the Receiver appeared in the Circuit Court Action .\n3.  On  January 27, 2022 , the Circuit Court  A ction was stayed pursuant to the Order\nAppointing Receiver in the instant case, and  on February 15, 2024, the case was placed on the Law\nDivision\u2019s  special stay calendar.\n4.  Settlement discussions between the Receiver and Pennington have taken  place \u2014\nwith both parties having been represented by counsel \u2014 and these parties entered into the settlement\nagreement attached hereto as Exhibit A (the  \u201c Settlement Agreement \u201d ), subject to Court approval,\nto resolve their claims and defenses without the expense, delay ,  and  risks of protracted litigation.\n5.  Pursuant to the proposed Settlemen t  Agreement ,  and with the Court\u2019s approval :\na.  within seven (7) days of the entry of an order approving the Settlement,\nPennington will file a motion to dismiss the Circuit Court Action with prejudice, in a format\nthat has been approved by the Receiver;\nb.  within  seven (7)  days of  entry of an order dismissing  the Circuit Court\nAction  with prejudice , the  Receiver will pay  thirty thousand dollars ( $30,000 )  from the\nReceiver\u2019s account ,  by check payable to Jerrine Pennington on behalf of the Estate of\nValerie Pennington, Deceased, and Keating Law Offices, P.C.,  in full settlement of  their\nclaims ;\nCase: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 2 of 8 PageID #:127941",
+ "saved_entities": {
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "person",
+    "aliases": [
+     "Pennington"
+    ],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "Jerrine Pennington"
+   },
+   {
+    "key": "p2",
+    "kind": "person",
+    "aliases": [
+     "Estate of Valerie Pennington"
+    ],
+    "party_roles": [
+     "other"
+    ],
+    "canonical_name": "Valerie Pennington"
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "counsel"
+    ],
+    "canonical_name": "Keating Law Offices, P.C."
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p1",
+    "claim_group": null,
+    "creditor_type": "other",
+    "treatment_summary": "Receiver to pay $30,000 by check payable to Jerrine Pennington on behalf of the Estate of Valerie Pennington and Keating Law Offices, P.C., in full settlement of claims, after dismissal with prejudice.",
+    "claim_amount_asserted": null
+   }
+  ],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [
+   {
+    "key": "l1",
+    "court": "Circuit Court, Law Division",
+    "caption": "Circuit Court Action (Pennington v. defendants; personal injury/wrongful death)",
+    "relationship": "state_court_action",
+    "docket_number": null
+   }
+  ]
+ },
+ "saved_assertions": [
+  {
+   "id": "2c29b03a-e5a8-4568-a8b4-c5a8b863f983",
+   "document_title": "Receiver's Motion To Approve Settlement Of State Court Action (01/05/2026, Dkt. 1938)",
+   "docket_number": "1938",
+   "page_number": 2,
+   "subject_type": "related_lawsuit",
+   "subject_label": "Circuit Court Action (Pennington v. defendants; personal injury/wrongful death)",
+   "predicate": "status",
+   "object_value": "Stayed January 27, 2022 pursuant to Order Appointing Receiver; placed on special stay calendar February 15, 2024",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "On  January 27, 2022 , the Circuit Court  A ction was stayed pursuant to the Order",
+   "status": "unverified"
+  },
+  {
+   "id": "b149c6ca-c13e-4838-9dfc-9aab3ab7edd4",
+   "document_title": "Receiver's Motion To Approve Settlement Of State Court Action (01/05/2026, Dkt. 1938)",
+   "docket_number": "1938",
+   "page_number": 2,
+   "subject_type": "case",
+   "subject_label": "SEC v. EquityBuild, Inc., et al.",
+   "predicate": "settlement_amount",
+   "object_value": 30000,
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9500",
+   "quote": "the Receiver will pay  thirty thousand dollars ( $30,000 )",
+   "status": "unverified"
+  },
+  {
+   "id": "1f7bdeeb-0190-4a13-9ea2-ac6bacc08b09",
+   "document_title": "Receiver's Motion To Approve Settlement Of State Court Action (01/05/2026, Dkt. 1938)",
+   "docket_number": "1938",
+   "page_number": 2,
+   "subject_type": "party",
+   "subject_label": "Jerrine Pennington",
+   "predicate": "settled_with",
+   "object_value": "Receiver",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.8500",
+   "quote": "these parties entered into the settlement agreement attached hereto as Exhibit A",
+   "status": "unverified"
+  }
+ ],
+ "saved_counts": {
+  "parties": 3,
+  "creditors": 1,
+  "attorneys": 0,
+  "properties": 0,
+  "related_lawsuits": 1
+ },
+ "stored_assertion_count": 3
+}

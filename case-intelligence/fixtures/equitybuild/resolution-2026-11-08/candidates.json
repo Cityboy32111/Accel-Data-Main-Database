@@ -1,0 +1,874 @@
+{
+ "case_id": "0c000000-0000-4000-8000-000000000001",
+ "generated_at": "2026-11-08T23:03:25.973Z",
+ "counts": {
+  "parties": 65,
+  "properties": 8,
+  "related_lawsuits": 19
+ },
+ "candidates": [
+  {
+   "entity_type": "party",
+   "left_id": "f030522d-2359-4a96-96ba-832c3c76403c",
+   "right_id": "78421d08-3647-4b59-a8f4-069114926e69",
+   "left_label": "United States Securities and Exchange Commission",
+   "right_label": "Commission",
+   "rule": "role_term_alias",
+   "score": 0.7,
+   "proposal": "adjudicate",
+   "rationale": "\"Commission\" is a role term that the other party lists as an alias",
+   "left_evidence": [
+    "[Dkt. - p1] UNITED STATES SECURITIES  )\nAND EXCHANGE COMMISSION,  )",
+    "[Dkt. - p1] UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,",
+    "[Dkt. 1967 p1] UNITED STATES SECURITIES AND\nEXCHANGE COMMISSION,\nPlaintiff,"
+   ],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "f030522d-2359-4a96-96ba-832c3c76403c",
+   "right_id": "25f441a8-8daf-411e-8f8b-9a2fadac4885",
+   "left_label": "United States Securities and Exchange Commission",
+   "right_label": "U.S. Securities and Exchange Commission",
+   "rule": "alias_match",
+   "score": 0.8,
+   "proposal": "adjudicate",
+   "rationale": "shared alias \"sec\"",
+   "left_evidence": [
+    "[Dkt. - p1] UNITED STATES SECURITIES  )\nAND EXCHANGE COMMISSION,  )",
+    "[Dkt. - p1] UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,",
+    "[Dkt. 1967 p1] UNITED STATES SECURITIES AND\nEXCHANGE COMMISSION,\nPlaintiff,"
+   ],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "f030522d-2359-4a96-96ba-832c3c76403c",
+   "right_id": "7cf85daf-31be-47ee-a467-51ca13a67574",
+   "left_label": "United States Securities and Exchange Commission",
+   "right_label": "Securities and Exchange Commission",
+   "rule": "alias_match",
+   "score": 0.8,
+   "proposal": "adjudicate",
+   "rationale": "shared alias \"sec\"",
+   "left_evidence": [
+    "[Dkt. - p1] UNITED STATES SECURITIES  )\nAND EXCHANGE COMMISSION,  )",
+    "[Dkt. - p1] UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,",
+    "[Dkt. 1967 p1] UNITED STATES SECURITIES AND\nEXCHANGE COMMISSION,\nPlaintiff,"
+   ],
+   "right_evidence": [
+    "[Dkt. 1938 p4] The Receiver has conferred with counsel for the SEC which consents to the relief requested in this motion."
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "f030522d-2359-4a96-96ba-832c3c76403c",
+   "right_id": "619d46d1-cdd7-4982-b2f9-24ff4eb0e679",
+   "left_label": "United States Securities and Exchange Commission",
+   "right_label": "SEC",
+   "rule": "alias_match",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "shared alias \"sec\"",
+   "left_evidence": [
+    "[Dkt. - p1] UNITED STATES SECURITIES  )\nAND EXCHANGE COMMISSION,  )",
+    "[Dkt. - p1] UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,",
+    "[Dkt. 1967 p1] UNITED STATES SECURITIES AND\nEXCHANGE COMMISSION,\nPlaintiff,"
+   ],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "205d85ed-64ed-4883-8cf9-364e668846a0",
+   "right_id": "8fcf1d21-4a39-4e4f-b02a-4a56716b5c31",
+   "left_label": "EquityBuild, Inc.",
+   "right_label": "EquityBuild Finance, LLC",
+   "rule": "token_subset_org",
+   "score": 0.75,
+   "proposal": "adjudicate",
+   "rationale": "\"equitybuild\" is a token subset of \"equitybuild finance\"",
+   "left_evidence": [
+    "[Dkt. - p1] EQUITYBUILD, INC.,  )",
+    "[Dkt. - p6] EquityBuild established a local  office in a two - story coach house  located  in  the  Woodlawn neighborhood  of Chicago",
+    "[Dkt. - p24] $75,000  that  EquityBuild received from an investor"
+   ],
+   "right_evidence": [
+    "[Dkt. - p1] EQUITYBUILD FINANCE , LLC,"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "205d85ed-64ed-4883-8cf9-364e668846a0",
+   "right_id": "46ac8c7c-8b66-4ecb-821c-1aef5824cd64",
+   "left_label": "EquityBuild, Inc.",
+   "right_label": "Receivership Defendants",
+   "rule": "role_term_alias",
+   "score": 0.7,
+   "proposal": "adjudicate",
+   "rationale": "\"Receivership Defendants\" is a role term that the other party lists as an alias",
+   "left_evidence": [
+    "[Dkt. - p1] EQUITYBUILD, INC.,  )",
+    "[Dkt. - p6] EquityBuild established a local  office in a two - story coach house  located  in  the  Woodlawn neighborhood  of Chicago",
+    "[Dkt. - p24] $75,000  that  EquityBuild received from an investor"
+   ],
+   "right_evidence": [
+    "[Dkt. - p9] Within ten (10) days of the entry of this Order, the Receivership Defendants shall provide to the Receiver and the Commission copies of the Receivership Defenda",
+    "[Dkt. - p11] The  Receivership De fendants , as well as their agents, servants, employees,",
+    "[Dkt. - p14] The Receivership Defendants  shall not open any of the Receiver’s Mail  and  shall immediately turn over such mail"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "205d85ed-64ed-4883-8cf9-364e668846a0",
+   "right_id": "72a10b31-f20d-459b-ac52-4ed754e723b7",
+   "left_label": "EquityBuild, Inc.",
+   "right_label": "EquityBuild Finance",
+   "rule": "token_subset_org",
+   "score": 0.75,
+   "proposal": "adjudicate",
+   "rationale": "\"equitybuild\" is a token subset of \"equitybuild finance\"",
+   "left_evidence": [
+    "[Dkt. - p1] EQUITYBUILD, INC.,  )",
+    "[Dkt. - p6] EquityBuild established a local  office in a two - story coach house  located  in  the  Woodlawn neighborhood  of Chicago",
+    "[Dkt. - p24] $75,000  that  EquityBuild received from an investor"
+   ],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "8fcf1d21-4a39-4e4f-b02a-4a56716b5c31",
+   "right_id": "46ac8c7c-8b66-4ecb-821c-1aef5824cd64",
+   "left_label": "EquityBuild Finance, LLC",
+   "right_label": "Receivership Defendants",
+   "rule": "role_term_alias",
+   "score": 0.7,
+   "proposal": "adjudicate",
+   "rationale": "\"Receivership Defendants\" is a role term that the other party lists as an alias",
+   "left_evidence": [
+    "[Dkt. - p1] EQUITYBUILD FINANCE , LLC,"
+   ],
+   "right_evidence": [
+    "[Dkt. - p9] Within ten (10) days of the entry of this Order, the Receivership Defendants shall provide to the Receiver and the Commission copies of the Receivership Defenda",
+    "[Dkt. - p11] The  Receivership De fendants , as well as their agents, servants, employees,",
+    "[Dkt. - p14] The Receivership Defendants  shall not open any of the Receiver’s Mail  and  shall immediately turn over such mail"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "8fcf1d21-4a39-4e4f-b02a-4a56716b5c31",
+   "right_id": "72a10b31-f20d-459b-ac52-4ed754e723b7",
+   "left_label": "EquityBuild Finance, LLC",
+   "right_label": "EquityBuild Finance",
+   "rule": "exact_core_name",
+   "score": 1,
+   "proposal": "merge",
+   "rationale": "identical name after removing legal suffixes (\"equitybuild finance\")",
+   "left_evidence": [
+    "[Dkt. - p1] EQUITYBUILD FINANCE , LLC,"
+   ],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "49000089-3b38-435f-bef3-402369d916a1",
+   "right_id": "1c118fb4-123f-47ca-8d22-aa5e7ef7341b",
+   "left_label": "Jerome H. Cohen",
+   "right_label": "Shaun D. Cohen",
+   "rule": "same_surname_different_first",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "same surname, different first names (jerome / shaun)",
+   "left_evidence": [
+    "[Dkt. - p1] JEROME H. COHEN  and  )",
+    "[Dkt. - p1] JEROME H. COHEN,\nand  SHAUN D. COHEN,\nDefendants."
+   ],
+   "right_evidence": [
+    "[Dkt. - p1] SHAUN D. COHEN  )"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "49000089-3b38-435f-bef3-402369d916a1",
+   "right_id": "71c8554f-d47b-4fbe-8025-d1c8c8134d31",
+   "left_label": "Jerome H. Cohen",
+   "right_label": "Jerome Cohen",
+   "rule": "person_name_variant",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "same first and last name; middle name or nickname differs only",
+   "left_evidence": [
+    "[Dkt. - p1] JEROME H. COHEN  and  )",
+    "[Dkt. - p1] JEROME H. COHEN,\nand  SHAUN D. COHEN,\nDefendants."
+   ],
+   "right_evidence": [
+    "[Dkt. - p4] This order, however, does not dismiss Defendants Jerome Cohen and Shaun Cohen’s personal attorneys",
+    "[Dkt. - p7] Defendant  Jerome Cohen’s or Defendant Shaun Cohen ’s personal attorneys",
+    "[Dkt. - p8] Defendants Jerom e Cohen and Shaun Cohen  shall retain\nresponsibility"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "49000089-3b38-435f-bef3-402369d916a1",
+   "right_id": "a5d252cc-2ccb-4947-9356-0b29d3a495d8",
+   "left_label": "Jerome H. Cohen",
+   "right_label": "Shaun Cohen",
+   "rule": "same_surname_different_first",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "same surname, different first names (jerome / shaun)",
+   "left_evidence": [
+    "[Dkt. - p1] JEROME H. COHEN  and  )",
+    "[Dkt. - p1] JEROME H. COHEN,\nand  SHAUN D. COHEN,\nDefendants."
+   ],
+   "right_evidence": [
+    "[Dkt. - p4] This order, however, does not dismiss Defendants Jerome Cohen and Shaun Cohen’s personal attorneys",
+    "[Dkt. - p7] Defendant  Jerome Cohen’s or Defendant Shaun Cohen ’s personal attorneys",
+    "[Dkt. - p8] Defendants Jerom e Cohen and Shaun Cohen  shall retain\nresponsibility"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "49000089-3b38-435f-bef3-402369d916a1",
+   "right_id": "d01a06e3-a08d-4ffb-ae89-c32291a896d4",
+   "left_label": "Jerome H. Cohen",
+   "right_label": "Jerry Cohen",
+   "rule": "person_name_variant",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "same first and last name; middle name or nickname differs only",
+   "left_evidence": [
+    "[Dkt. - p1] JEROME H. COHEN  and  )",
+    "[Dkt. - p1] JEROME H. COHEN,\nand  SHAUN D. COHEN,\nDefendants."
+   ],
+   "right_evidence": [
+    "[Dkt. - p5] It appears that Defendant Jerry Cohen largely conducted business from Florida"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "1c118fb4-123f-47ca-8d22-aa5e7ef7341b",
+   "right_id": "71c8554f-d47b-4fbe-8025-d1c8c8134d31",
+   "left_label": "Shaun D. Cohen",
+   "right_label": "Jerome Cohen",
+   "rule": "same_surname_different_first",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "same surname, different first names (shaun / jerome)",
+   "left_evidence": [
+    "[Dkt. - p1] SHAUN D. COHEN  )"
+   ],
+   "right_evidence": [
+    "[Dkt. - p4] This order, however, does not dismiss Defendants Jerome Cohen and Shaun Cohen’s personal attorneys",
+    "[Dkt. - p7] Defendant  Jerome Cohen’s or Defendant Shaun Cohen ’s personal attorneys",
+    "[Dkt. - p8] Defendants Jerom e Cohen and Shaun Cohen  shall retain\nresponsibility"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "1c118fb4-123f-47ca-8d22-aa5e7ef7341b",
+   "right_id": "a5d252cc-2ccb-4947-9356-0b29d3a495d8",
+   "left_label": "Shaun D. Cohen",
+   "right_label": "Shaun Cohen",
+   "rule": "person_name_variant",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "same first and last name; middle name or nickname differs only",
+   "left_evidence": [
+    "[Dkt. - p1] SHAUN D. COHEN  )"
+   ],
+   "right_evidence": [
+    "[Dkt. - p4] This order, however, does not dismiss Defendants Jerome Cohen and Shaun Cohen’s personal attorneys",
+    "[Dkt. - p7] Defendant  Jerome Cohen’s or Defendant Shaun Cohen ’s personal attorneys",
+    "[Dkt. - p8] Defendants Jerom e Cohen and Shaun Cohen  shall retain\nresponsibility"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "1c118fb4-123f-47ca-8d22-aa5e7ef7341b",
+   "right_id": "d01a06e3-a08d-4ffb-ae89-c32291a896d4",
+   "left_label": "Shaun D. Cohen",
+   "right_label": "Jerry Cohen",
+   "rule": "same_surname_different_first",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "same surname, different first names (shaun / jerome)",
+   "left_evidence": [
+    "[Dkt. - p1] SHAUN D. COHEN  )"
+   ],
+   "right_evidence": [
+    "[Dkt. - p5] It appears that Defendant Jerry Cohen largely conducted business from Florida"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "71c8554f-d47b-4fbe-8025-d1c8c8134d31",
+   "right_id": "a5d252cc-2ccb-4947-9356-0b29d3a495d8",
+   "left_label": "Jerome Cohen",
+   "right_label": "Shaun Cohen",
+   "rule": "same_surname_different_first",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "same surname, different first names (jerome / shaun)",
+   "left_evidence": [
+    "[Dkt. - p4] This order, however, does not dismiss Defendants Jerome Cohen and Shaun Cohen’s personal attorneys",
+    "[Dkt. - p7] Defendant  Jerome Cohen’s or Defendant Shaun Cohen ’s personal attorneys",
+    "[Dkt. - p8] Defendants Jerom e Cohen and Shaun Cohen  shall retain\nresponsibility"
+   ],
+   "right_evidence": [
+    "[Dkt. - p4] This order, however, does not dismiss Defendants Jerome Cohen and Shaun Cohen’s personal attorneys",
+    "[Dkt. - p7] Defendant  Jerome Cohen’s or Defendant Shaun Cohen ’s personal attorneys",
+    "[Dkt. - p8] Defendants Jerom e Cohen and Shaun Cohen  shall retain\nresponsibility"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "71c8554f-d47b-4fbe-8025-d1c8c8134d31",
+   "right_id": "d01a06e3-a08d-4ffb-ae89-c32291a896d4",
+   "left_label": "Jerome Cohen",
+   "right_label": "Jerry Cohen",
+   "rule": "person_name_variant",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "same first and last name; middle name or nickname differs only",
+   "left_evidence": [
+    "[Dkt. - p4] This order, however, does not dismiss Defendants Jerome Cohen and Shaun Cohen’s personal attorneys",
+    "[Dkt. - p7] Defendant  Jerome Cohen’s or Defendant Shaun Cohen ’s personal attorneys",
+    "[Dkt. - p8] Defendants Jerom e Cohen and Shaun Cohen  shall retain\nresponsibility"
+   ],
+   "right_evidence": [
+    "[Dkt. - p5] It appears that Defendant Jerry Cohen largely conducted business from Florida"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "a5d252cc-2ccb-4947-9356-0b29d3a495d8",
+   "right_id": "d01a06e3-a08d-4ffb-ae89-c32291a896d4",
+   "left_label": "Shaun Cohen",
+   "right_label": "Jerry Cohen",
+   "rule": "same_surname_different_first",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "same surname, different first names (shaun / jerome)",
+   "left_evidence": [
+    "[Dkt. - p4] This order, however, does not dismiss Defendants Jerome Cohen and Shaun Cohen’s personal attorneys",
+    "[Dkt. - p7] Defendant  Jerome Cohen’s or Defendant Shaun Cohen ’s personal attorneys",
+    "[Dkt. - p8] Defendants Jerom e Cohen and Shaun Cohen  shall retain\nresponsibility"
+   ],
+   "right_evidence": [
+    "[Dkt. - p5] It appears that Defendant Jerry Cohen largely conducted business from Florida"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "a5d252cc-2ccb-4947-9356-0b29d3a495d8",
+   "right_id": "ba3eb27b-23c9-4f4f-b379-2bf91adde64d",
+   "left_label": "Shaun Cohen",
+   "right_label": "The Cohens",
+   "rule": "role_term_alias",
+   "score": 0.7,
+   "proposal": "adjudicate",
+   "rationale": "\"The Cohens\" is a role term that the other party lists as an alias",
+   "left_evidence": [
+    "[Dkt. - p4] This order, however, does not dismiss Defendants Jerome Cohen and Shaun Cohen’s personal attorneys",
+    "[Dkt. - p7] Defendant  Jerome Cohen’s or Defendant Shaun Cohen ’s personal attorneys",
+    "[Dkt. - p8] Defendants Jerom e Cohen and Shaun Cohen  shall retain\nresponsibility"
+   ],
+   "right_evidence": [
+    "[Dkt. - p8] privilege and privacy objections  asserted  by the Cohens, but these concerns were ultimately resolved in accordance with a plan proposed by the SEC",
+    "[Dkt. 1967 p12] the Cohens “ran a Ponzi scheme through their real estate companies EquityBuild, Inc. and EquityBuild Finance, LLC (‘EBF’) from at least 2010 to 2018.”"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "f5db2668-ea4b-4ec6-9183-5b32c24d76c5",
+   "right_id": "1e55b128-b8c8-4797-90eb-ec23937cc9d9",
+   "left_label": "Kevin B. Duff",
+   "right_label": "Receiver",
+   "rule": "role_term_alias",
+   "score": 0.7,
+   "proposal": "adjudicate",
+   "rationale": "\"Receiver\" is a role term that the other party lists as an alias",
+   "left_evidence": [
+    "[Dkt. - p2] Kevin B. Duff, of the firm Rachlis Du ff Adler Peel & Kaplan, LLC,  is hereby appointed to serve without bond as the federal equity receiver",
+    "[Dkt. - p2] is hereby appointed to serve without bond as the federal equity receiver",
+    "[Dkt. - p5] The representatives of the Receiver initially designated with authority over these accounts shall be  Kevin B. Duff ."
+   ],
+   "right_evidence": [
+    "[Dkt. - p12] The Receiver is authorized to t ake immediate possession of all  personal  property",
+    "[Dkt. - p12] authorized to  t ake immediate possession of all  real  property  of the",
+    "[Dkt. - p12] the Receiver is authorized t o change door locks to the  real property and  premises  described above."
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "0ca0a410-9cf5-42ce-9f24-dcd565df0555",
+   "right_id": "90d127d6-9319-4d11-823f-4368b100d486",
+   "left_label": "Rachlis Duff Adler Peel & Kaplan, LLC",
+   "right_label": "RDAPK",
+   "rule": "alias_match",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "shared alias \"rdapk\"",
+   "left_evidence": [
+    "[Dkt. - p3] The Receiver retained  Rachlis Duff Adler Peel & Kaplan, LLC (“RDAPK”)  as special counsel on August 17, 2018",
+    "[Dkt. - p3] on August 20, 2018 , the Court entered the Order approving RDAPK’s rates."
+   ],
+   "right_evidence": [
+    "[Dkt. - p4] in association  with his legal counsel,  RDAPK"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "78421d08-3647-4b59-a8f4-069114926e69",
+   "right_id": "25f441a8-8daf-411e-8f8b-9a2fadac4885",
+   "left_label": "Commission",
+   "right_label": "U.S. Securities and Exchange Commission",
+   "rule": "role_term_alias",
+   "score": 0.7,
+   "proposal": "adjudicate",
+   "rationale": "\"Commission\" is a role term that the other party lists as an alias",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "25f441a8-8daf-411e-8f8b-9a2fadac4885",
+   "right_id": "7cf85daf-31be-47ee-a467-51ca13a67574",
+   "left_label": "U.S. Securities and Exchange Commission",
+   "right_label": "Securities and Exchange Commission",
+   "rule": "alias_match",
+   "score": 0.8,
+   "proposal": "adjudicate",
+   "rationale": "shared alias \"sec\"",
+   "left_evidence": [],
+   "right_evidence": [
+    "[Dkt. 1938 p4] The Receiver has conferred with counsel for the SEC which consents to the relief requested in this motion."
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "25f441a8-8daf-411e-8f8b-9a2fadac4885",
+   "right_id": "619d46d1-cdd7-4982-b2f9-24ff4eb0e679",
+   "left_label": "U.S. Securities and Exchange Commission",
+   "right_label": "SEC",
+   "rule": "alias_match",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "shared alias \"sec\"",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "18b211b3-66f6-4d5d-8ccf-ec38e1e2efcc",
+   "right_id": "ac59a96d-db7e-40fe-b5dc-502e2db49450",
+   "left_label": "BrookWeiner LLC",
+   "right_label": "BrookWeiner",
+   "rule": "exact_core_name",
+   "score": 1,
+   "proposal": "merge",
+   "rationale": "identical name after removing legal suffixes (\"brookweiner\")",
+   "left_evidence": [
+    "[Dkt. - p3] The Receiver retained BrookWeiner  LLC  and Whitley Penn  LLP  as accountants on August 23, 2018"
+   ],
+   "right_evidence": [
+    "[Dkt. - p4] accountants  BrookWeiner\nand  Whitley Penn  LLP"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "c1e77dc2-0888-433d-8925-5d0356772b53",
+   "right_id": "929bcfd1-6975-41a2-b5f7-c3a173cd96fd",
+   "left_label": "Whitley Penn LLP",
+   "right_label": "Whitley Penn",
+   "rule": "exact_core_name",
+   "score": 1,
+   "proposal": "merge",
+   "rationale": "identical name after removing legal suffixes (\"whitley penn\")",
+   "left_evidence": [
+    "[Dkt. - p3] The Receiver retained BrookWeiner  LLC  and Whitley Penn  LLP  as accountants on August 23, 2018",
+    "[Dkt. - p4] accountants  BrookWeiner\nand  Whitley Penn  LLP"
+   ],
+   "right_evidence": [
+    "[Dkt. - p23] Whitley Penn  was  retained to prepare  income  tax returns for EquityBuild and its affiliates",
+    "[Dkt. - p23] it anticipates all returns for 2016 and 2017 for Receivership entities will be filed before the end of 2018"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "bbbfd1f0-3ee5-4263-9734-851194d60cd9",
+   "right_id": "fc895704-a812-427d-8108-192a51bf84c7",
+   "left_label": "Prometheum Technologies, Inc.",
+   "right_label": "Prometheum",
+   "rule": "token_subset_org",
+   "score": 0.75,
+   "proposal": "adjudicate",
+   "rationale": "\"prometheum\" is a token subset of \"prometheum technologies\"",
+   "left_evidence": [],
+   "right_evidence": [
+    "[Dkt. - p4] forensic consultant Prometheum",
+    "[Dkt. - p4] as a forensic consultant on August 31, 2018, and, on September 6, 2018, the Court",
+    "[Dkt. - p4] on September 6, 2018, the Court\nentered an Order approving its rates. (Docket No. 56)"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "d01a06e3-a08d-4ffb-ae89-c32291a896d4",
+   "right_id": "ba3eb27b-23c9-4f4f-b379-2bf91adde64d",
+   "left_label": "Jerry Cohen",
+   "right_label": "The Cohens",
+   "rule": "role_term_alias",
+   "score": 0.7,
+   "proposal": "adjudicate",
+   "rationale": "\"The Cohens\" is a role term that the other party lists as an alias",
+   "left_evidence": [
+    "[Dkt. - p5] It appears that Defendant Jerry Cohen largely conducted business from Florida"
+   ],
+   "right_evidence": [
+    "[Dkt. - p8] privilege and privacy objections  asserted  by the Cohens, but these concerns were ultimately resolved in accordance with a plan proposed by the SEC",
+    "[Dkt. 1967 p12] the Cohens “ran a Ponzi scheme through their real estate companies EquityBuild, Inc. and EquityBuild Finance, LLC (‘EBF’) from at least 2010 to 2018.”"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "7cf85daf-31be-47ee-a467-51ca13a67574",
+   "right_id": "619d46d1-cdd7-4982-b2f9-24ff4eb0e679",
+   "left_label": "Securities and Exchange Commission",
+   "right_label": "SEC",
+   "rule": "alias_match",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "shared alias \"sec\"",
+   "left_evidence": [
+    "[Dkt. 1938 p4] The Receiver has conferred with counsel for the SEC which consents to the relief requested in this motion."
+   ],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "cc8503ff-4842-4f23-af4b-c29db0781c9f",
+   "right_id": "5523aa5d-8e4c-4980-8c80-96bbdc9e2758",
+   "left_label": "SVN Chicago Commercial, LLC",
+   "right_label": "SVN",
+   "rule": "alias_match",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "shared alias \"svn\"",
+   "left_evidence": [],
+   "right_evidence": [
+    "[Dkt. - p12] SVN is  providing asset managem ent services  to the Receivership  at no  additional  cost."
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "20a1633e-dbd2-4843-8e36-34a6bd8e8ec1",
+   "right_id": "63eef049-4f3c-4e98-a5ea-bcf23b07f601",
+   "left_label": "BMO Bank N.A.",
+   "right_label": "BMO",
+   "rule": "alias_match",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "shared alias \"bmo\"",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "54b42fe2-5542-46a6-ba32-c667a2da27f0",
+   "right_id": "2306c8d3-d0ba-49ed-b3ef-29db90eac547",
+   "left_label": "Citibank N.A.",
+   "right_label": "Citibank",
+   "rule": "exact_core_name",
+   "score": 1,
+   "proposal": "merge",
+   "rationale": "identical name after removing legal suffixes (\"citibank\")",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "299bae81-373d-467c-8343-e0d3f120e0e6",
+   "right_id": "d2a262f7-64ff-49f3-a52d-1dc8a998d833",
+   "left_label": "Direct Lending Partners",
+   "right_label": "DLP",
+   "rule": "alias_match",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "shared alias \"dlp\"",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "f9ea4a04-c132-415c-9cc0-81e92dc249ab",
+   "right_id": "44b0a4c6-9cac-40f1-8f6a-eec2e0dd021b",
+   "left_label": "Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased",
+   "right_label": "Jerrine Pennington",
+   "rule": "person_name_variant",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "same first and last name; middle name or nickname differs only",
+   "left_evidence": [],
+   "right_evidence": [
+    "[Dkt. 1938 p2] these parties entered into the settlement agreement attached hereto as Exhibit A"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "f9ea4a04-c132-415c-9cc0-81e92dc249ab",
+   "right_id": "4f50bc9b-8f16-4fb3-a074-3fa59a774e61",
+   "left_label": "Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased",
+   "right_label": "Valerie Pennington",
+   "rule": "same_surname_different_first",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "same surname, different first names (jerrine / valerie)",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "f9ea4a04-c132-415c-9cc0-81e92dc249ab",
+   "right_id": "841d95c6-d207-4bcb-b223-2f65dc2ec721",
+   "left_label": "Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased",
+   "right_label": "Pennington",
+   "rule": "surname_alias",
+   "score": 0.7,
+   "proposal": "adjudicate",
+   "rationale": "surname-only reference sharing alias \"pennington\"",
+   "left_evidence": [],
+   "right_evidence": [
+    "[Dkt. 1938 p3] Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "937128fd-3747-42eb-afea-5c5c2c07295a",
+   "right_id": "ba7e9dd5-9bbd-41b9-9b6e-04c89adb889d",
+   "left_label": "WPD Management, LLC",
+   "right_label": "WPD",
+   "rule": "alias_match",
+   "score": 0.95,
+   "proposal": "merge",
+   "rationale": "shared alias \"wpd\"",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "44b0a4c6-9cac-40f1-8f6a-eec2e0dd021b",
+   "right_id": "4f50bc9b-8f16-4fb3-a074-3fa59a774e61",
+   "left_label": "Jerrine Pennington",
+   "right_label": "Valerie Pennington",
+   "rule": "same_surname_different_first",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "same surname, different first names (jerrine / valerie)",
+   "left_evidence": [
+    "[Dkt. 1938 p2] these parties entered into the settlement agreement attached hereto as Exhibit A"
+   ],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "party",
+   "left_id": "44b0a4c6-9cac-40f1-8f6a-eec2e0dd021b",
+   "right_id": "841d95c6-d207-4bcb-b223-2f65dc2ec721",
+   "left_label": "Jerrine Pennington",
+   "right_label": "Pennington",
+   "rule": "surname_alias",
+   "score": 0.7,
+   "proposal": "adjudicate",
+   "rationale": "surname-only reference sharing alias \"pennington\"",
+   "left_evidence": [
+    "[Dkt. 1938 p2] these parties entered into the settlement agreement attached hereto as Exhibit A"
+   ],
+   "right_evidence": [
+    "[Dkt. 1938 p3] Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD"
+   ]
+  },
+  {
+   "entity_type": "party",
+   "left_id": "4f50bc9b-8f16-4fb3-a074-3fa59a774e61",
+   "right_id": "841d95c6-d207-4bcb-b223-2f65dc2ec721",
+   "left_label": "Valerie Pennington",
+   "right_label": "Pennington",
+   "rule": "surname_only",
+   "score": 0.5,
+   "proposal": "adjudicate",
+   "rationale": "surname-only reference; needs context",
+   "left_evidence": [],
+   "right_evidence": [
+    "[Dkt. 1938 p3] Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD"
+   ]
+  },
+  {
+   "entity_type": "property",
+   "left_id": "980a6383-dd66-4a7e-8a89-0951ee8eb1a7",
+   "right_id": "c1a9c819-9726-4eda-b4d2-06995de828e0",
+   "left_label": "Naples property",
+   "right_label": "Jerry Cohen's Naples home (the Naples Property)",
+   "rule": "address_token_overlap",
+   "score": 0.6,
+   "proposal": "adjudicate",
+   "rationale": "shared address tokens: naples",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "property",
+   "left_id": "5cde0a51-4cf7-410a-9720-aa753e0a4eac",
+   "right_id": "779d3a00-9be1-452b-9d4d-5c2a8f16756c",
+   "left_label": "Property 69",
+   "right_label": "Property 70",
+   "rule": "different_receiver_property_number",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "Property 69 vs Property 70",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "property",
+   "left_id": "5cde0a51-4cf7-410a-9720-aa753e0a4eac",
+   "right_id": "49950b27-6026-4907-9aaf-90c0fc95fd3c",
+   "left_label": "Property 69",
+   "right_label": "Property 73",
+   "rule": "different_receiver_property_number",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "Property 69 vs Property 73",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "property",
+   "left_id": "5cde0a51-4cf7-410a-9720-aa753e0a4eac",
+   "right_id": "a4a92673-cc1e-4b91-83d8-2692d91c3a40",
+   "left_label": "Property 69",
+   "right_label": "Property 2",
+   "rule": "different_receiver_property_number",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "Property 69 vs Property 2",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "property",
+   "left_id": "5cde0a51-4cf7-410a-9720-aa753e0a4eac",
+   "right_id": "6e9a023f-3eeb-47d4-8b66-a4583c5362c5",
+   "left_label": "Property 69",
+   "right_label": "4533-47 S Calumet Avenue",
+   "rule": "different_receiver_property_number",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "Property 69 vs Property 2",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "property",
+   "left_id": "779d3a00-9be1-452b-9d4d-5c2a8f16756c",
+   "right_id": "49950b27-6026-4907-9aaf-90c0fc95fd3c",
+   "left_label": "Property 70",
+   "right_label": "Property 73",
+   "rule": "different_receiver_property_number",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "Property 70 vs Property 73",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "property",
+   "left_id": "779d3a00-9be1-452b-9d4d-5c2a8f16756c",
+   "right_id": "a4a92673-cc1e-4b91-83d8-2692d91c3a40",
+   "left_label": "Property 70",
+   "right_label": "Property 2",
+   "rule": "different_receiver_property_number",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "Property 70 vs Property 2",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "property",
+   "left_id": "779d3a00-9be1-452b-9d4d-5c2a8f16756c",
+   "right_id": "6e9a023f-3eeb-47d4-8b66-a4583c5362c5",
+   "left_label": "Property 70",
+   "right_label": "4533-47 S Calumet Avenue",
+   "rule": "different_receiver_property_number",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "Property 70 vs Property 2",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "property",
+   "left_id": "49950b27-6026-4907-9aaf-90c0fc95fd3c",
+   "right_id": "a4a92673-cc1e-4b91-83d8-2692d91c3a40",
+   "left_label": "Property 73",
+   "right_label": "Property 2",
+   "rule": "different_receiver_property_number",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "Property 73 vs Property 2",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "property",
+   "left_id": "49950b27-6026-4907-9aaf-90c0fc95fd3c",
+   "right_id": "6e9a023f-3eeb-47d4-8b66-a4583c5362c5",
+   "left_label": "Property 73",
+   "right_label": "4533-47 S Calumet Avenue",
+   "rule": "different_receiver_property_number",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "Property 73 vs Property 2",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "property",
+   "left_id": "a4a92673-cc1e-4b91-83d8-2692d91c3a40",
+   "right_id": "6e9a023f-3eeb-47d4-8b66-a4583c5362c5",
+   "left_label": "Property 2",
+   "right_label": "4533-47 S Calumet Avenue",
+   "rule": "same_receiver_property_number",
+   "score": 1,
+   "proposal": "merge",
+   "rationale": "both are receiver Property 2",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "related_lawsuit",
+   "left_id": "6f8016fd-e0dc-4c46-8a29-843b15920d3c",
+   "right_id": "691adba4-688f-48fa-9e87-713fb60b40ca",
+   "left_label": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al.",
+   "right_label": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al.",
+   "rule": "same_caption_different_docket",
+   "score": 0,
+   "proposal": "distinct",
+   "rationale": "same caption but different docket numbers (2018 CH 9098 / 2018 CH 3665)",
+   "left_evidence": [],
+   "right_evidence": []
+  },
+  {
+   "entity_type": "related_lawsuit",
+   "left_id": "c71809d6-0c17-42a1-98b9-efb84da53953",
+   "right_id": "7a769373-9e8a-4548-808d-df8574e85f9e",
+   "left_label": "Jerrine Pennington as Special Administrator of the Estate of Valerie Pennington, Deceased v. 4533-47 Calumet LLC, 4533-37 S Calumet LLC, and WPD Management, LLC",
+   "right_label": "Circuit Court Action (Pennington v. defendants; personal injury/wrongful death)",
+   "rule": "caption_token_overlap",
+   "score": 0.6,
+   "proposal": "adjudicate",
+   "rationale": "shared caption tokens: pennington",
+   "left_evidence": [],
+   "right_evidence": []
+  }
+ ]
+}

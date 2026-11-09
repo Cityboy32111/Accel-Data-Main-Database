@@ -1,0 +1,486 @@
+{
+ "key": "status-report-1",
+ "page": 3,
+ "document": "Receiver's First Status Report, Q3 2018, Dkt. 107",
+ "document_id": "b9f4a958-eb84-45cf-b637-b732df80fb7c",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.3",
+ "schema_version": "2026-11-08.3",
+ "input_tokens": 5834,
+ "output_tokens": 2368,
+ "latency_ms": 10856,
+ "page_kind": "body",
+ "output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "Rachlis Duff Adler Peel & Kaplan, LLC",
+    "party_roles": [
+     "counsel"
+    ],
+    "aliases": [
+     "RDAPK"
+    ]
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "BrookWeiner LLC",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "Whitley Penn LLP",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p4",
+    "kind": "organization",
+    "canonical_name": "Prometheum Technologies, Inc.",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "Federal Sav. & Loan Ins. Corp. v. PSL Realty Co., 630 F.2d 515, 521 (7th Cir. 1980)"
+   },
+   {
+    "citation": "Holland v. Sterling Enterprises, Inc., 777 F.2d 1288, 1291 (7th Cir. 1985)"
+   },
+   {
+    "citation": "Elfindepan, S.A., 169 F. Supp. 2d at 424"
+   },
+   {
+    "citation": "SEC v. Elliott, 953 F. 2d 1560, 1577 (11th Cir. 1992)"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's First Status Report (Third Quarter 2018), Dkt. 107",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-10-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 3 of 30 PageID #:956",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "appointed_on",
+    "object_value": "2018-08-17",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "The Receiver was appointed by this Court on August 17, 2018. (Docket No. 16)",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p1",
+    "predicate": "retained_as",
+    "object_value": "special counsel to the Receiver, retained August 17, 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "The Receiver retained Rachlis Duff Adler Peel & Kaplan, LLC (“RDAPK”) as special counsel on August 17, 2018",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p1",
+    "predicate": "treatment",
+    "object_value": "Court order approving RDAPK's rates entered August 20, 2018 (Dkt. 19)",
+    "object_type": null,
+    "object_key": null,
+    "modality": "approved",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-20",
+    "referenced_page": null,
+    "quote": "on August 20, 2018 , the Court entered the Order approving RDAPK’s rates. (Docket No. 19)",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p2",
+    "predicate": "retained_as",
+    "object_value": "accountants, retained August 23, 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-23",
+    "referenced_page": null,
+    "quote": "The Receiver retained BrookWeiner LLC and Whitley Penn LLP as accountants on August 23, 2018",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p3",
+    "predicate": "retained_as",
+    "object_value": "accountants, retained August 23, 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-23",
+    "referenced_page": null,
+    "quote": "The Receiver retained BrookWeiner LLC and Whitley Penn LLP as accountants on August 23, 2018",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p2",
+    "predicate": "treatment",
+    "object_value": "Court order approving rates entered August 29, 2018 (Dkt. 45)",
+    "object_type": null,
+    "object_key": null,
+    "modality": "approved",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-29",
+    "referenced_page": null,
+    "quote": "on August 29, 2018, the Court entered the Order approving their respective rates.",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p3",
+    "predicate": "treatment",
+    "object_value": "Court order approving rates entered August 29, 2018 (Dkt. 45)",
+    "object_type": null,
+    "object_key": null,
+    "modality": "approved",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-29",
+    "referenced_page": null,
+    "quote": "on August 29, 2018, the Court entered the Order approving their respective rates.",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "party",
+    "subject_key": "p4",
+    "predicate": "retained_as",
+    "object_value": "retained by the Receiver (role continues on next page)",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "The Receiver retained Prometheum Technologies, Inc.",
+    "confidence": 0.7,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's First Status Report (Third Quarter 2018), Dkt. 107",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-10-30",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 3 of 30 PageID #:956",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "appointed_on",
+   "object_value": "2018-08-17",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "The Receiver was appointed by this Court on August 17, 2018. (Docket No. 16)",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p1",
+   "predicate": "retained_as",
+   "object_value": "special counsel to the Receiver, retained August 17, 2018",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "The Receiver retained Rachlis Duff Adler Peel & Kaplan, LLC (“RDAPK”) as special counsel on August 17, 2018",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "Rachlis Duff Adler Peel & Kaplan, LLC",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p1",
+   "predicate": "treatment",
+   "object_value": "Court order approving RDAPK's rates entered August 20, 2018 (Dkt. 19)",
+   "object_type": null,
+   "object_key": null,
+   "modality": "approved",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-20",
+   "referenced_page": null,
+   "quote": "on August 20, 2018 , the Court entered the Order approving RDAPK’s rates. (Docket No. 19)",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "Rachlis Duff Adler Peel & Kaplan, LLC",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p2",
+   "predicate": "retained_as",
+   "object_value": "accountants, retained August 23, 2018",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-23",
+   "referenced_page": null,
+   "quote": "The Receiver retained BrookWeiner LLC and Whitley Penn LLP as accountants on August 23, 2018",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "BrookWeiner LLC",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p3",
+   "predicate": "retained_as",
+   "object_value": "accountants, retained August 23, 2018",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-23",
+   "referenced_page": null,
+   "quote": "The Receiver retained BrookWeiner LLC and Whitley Penn LLP as accountants on August 23, 2018",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "Whitley Penn LLP",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p2",
+   "predicate": "treatment",
+   "object_value": "Court order approving rates entered August 29, 2018 (Dkt. 45)",
+   "object_type": null,
+   "object_key": null,
+   "modality": "approved",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-29",
+   "referenced_page": null,
+   "quote": "on August 29, 2018, the Court entered the Order approving their respective rates.",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "BrookWeiner LLC",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p3",
+   "predicate": "treatment",
+   "object_value": "Court order approving rates entered August 29, 2018 (Dkt. 45)",
+   "object_type": null,
+   "object_key": null,
+   "modality": "approved",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-29",
+   "referenced_page": null,
+   "quote": "on August 29, 2018, the Court entered the Order approving their respective rates.",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "Whitley Penn LLP",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "party",
+   "subject_key": "p4",
+   "predicate": "retained_as",
+   "object_value": "retained by the Receiver (role continues on next page)",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "The Receiver retained Prometheum Technologies, Inc.",
+   "confidence": 0.7,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.7,
+   "subject_label": "Prometheum Technologies, Inc.",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "page_text": "3\nof the receivership defendants to collect and marshal all receivership assets for the benef it of\ninvestors, creditors, and other victim s of the fraud and wron gdoing.\nb.  Receiver as Officer and Fiduciary of the  Court\nThe  Receiver is an office r, fiduciary, and agent of the c ourt that appoints  him.  Federal\nSav.  &  Loan Ins. Corp. v. PSL Realty Co.,  630 F.2d 515, 521 (7th Cir. 1980) (A “ r eceiver is an\noffice r of the court and subject  to its orders in relation to the property for which he is responsible\nuntil discharged by the court”);  Holland v. Sterling Enterprises, Inc.,  777 F.2d 1288, 129 1 (7th\nCir. 1985). As such,  the R eceiver is neutral and does not  work for the governmental agency that\nsought his appointment or for any other party.  Elfindepan, S.A.,  169 F. Supp. 2d at  424 (a receiver,\n“viewed as an officer of the court occupying a position of custodian of the property in receivership\n… is  not the exc lusive agent or representative of either party to the suit in which  [he] is appointed,\nand [he]  is not appointed for the benefit of either  party, nor does [he]  derive  [his]  authority from\neither one”) (internal citations omitted). While “ the Receiver may  at times take adverse positions\nto certain claimants, the Receiver acts under supervision o f the court …  for the court must\nindependently approve the Receive r’s  legal and factual findings.”  SEC v. Elliott,  953 F. 2d 1560,\n1577 (11th Cir. 1992).\nII .  SU MMARY OF THE OPERATIONS OF THE RECEIVER\nThe Receiver was appointed by this Court on August 17, 2018. (Docket No. 16) The\nReceiver retained  Rachlis Duff Adler Peel & Kaplan, LLC (“RDAPK”)  as special counsel on\nAugust 17, 2018, and, on August 20, 2018 , the Court entered the Order approving RDAPK’s rates.\n(Docket No. 19) The Receiver retained BrookWeiner  LLC  and Whitley Penn  LLP  as accountants\non August 23, 2018, and on August 29, 2018, the Court entered the Order approving their\nrespective rates.  (Do cket No. 45) The Receiver retained  Prometheum Technologies, Inc.\nCase: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 3 of 30 PageID #:956"
+}

@@ -1,0 +1,202 @@
+{
+ "key": "status-report-1",
+ "page": 1,
+ "document": "Receiver's First Status Report, Q3 2018, Dkt. 107",
+ "document_id": "b9f4a958-eb84-45cf-b637-b732df80fb7c",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.2",
+ "schema_version": "2026-11-08.2",
+ "input_tokens": 5319,
+ "output_tokens": 1053,
+ "latency_ms": 5331,
+ "page_kind": "mixed",
+ "output": {
+  "page_kind": "mixed",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION",
+    "party_roles": [
+     "plaintiff"
+    ],
+    "aliases": [
+     "SEC",
+     "Commission"
+    ]
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "EQUITYBUILD, INC.",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "EQUITYBUILD FINANCE, LLC",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p4",
+    "kind": "person",
+    "canonical_name": "JEROME H. COHEN",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": [
+     "Jerome Cohen"
+    ]
+   },
+   {
+    "key": "p5",
+    "kind": "person",
+    "canonical_name": "SHAUN D. COHEN",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": [
+     "Shaun Cohen"
+    ]
+   },
+   {
+    "key": "p6",
+    "kind": "person",
+    "canonical_name": "Kevin B. Duff",
+    "party_roles": [
+     "receiver"
+    ],
+    "aliases": [
+     "Receiver"
+    ]
+   },
+   {
+    "key": "p7",
+    "kind": "person",
+    "canonical_name": "John Z. Lee",
+    "party_roles": [
+     "court"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p8",
+    "kind": "person",
+    "canonical_name": "Young B. Kim",
+    "party_roles": [
+     "court"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "party",
+    "subject_key": "p6",
+    "predicate": "appointed_on",
+    "object_value": "2018-08-17",
+    "object_type": null,
+    "object_key": null,
+    "modality": "ordered",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "pursuant to the powers vested in him by Order of this Court entered on August 17 , 2018",
+    "confidence": 0.7,
+    "origin": "inferred"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "filed_on",
+    "object_value": "Receiver's First Status Report for quarter ending September 30, 2018 submitted",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-10-30",
+    "referenced_page": null,
+    "quote": "now respectfully submits this First Status Report for the quarter ending September 30, 2018",
+    "confidence": 0.85,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "party",
+   "subject_key": "p6",
+   "predicate": "appointed_on",
+   "object_value": "2018-08-17",
+   "object_type": null,
+   "object_key": null,
+   "modality": "ordered",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "pursuant to the powers vested in him by Order of this Court entered on August 17 , 2018",
+   "confidence": 0.7,
+   "origin": "inferred",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.7,
+   "subject_label": "Kevin B. Duff",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "filed_on",
+   "object_value": "Receiver's First Status Report for quarter ending September 30, 2018 submitted",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-10-30",
+   "referenced_page": null,
+   "quote": "now respectfully submits this First Status Report for the quarter ending September 30, 2018",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [
+    "modality_conflict: completed but quote signals respectfully requests"
+   ],
+   "needs_review": true,
+   "final_confidence": 0.425,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "page_text": "UNITED STATES DISTRICT COURT\nNORTHERN DISTRICT OF ILLINOIS\nEASTERN DIVISION\nUNITED STATES SECURITIES\nAND EXCHANGE COMMISSION,\nPlaintiff,\nv.\nEQUITYBUILD, INC., EQUITYBUILD\nFINANCE , LLC,  JEROME H. COHEN,\nand  SHAUN D. COHEN,\nDefendants.\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\nCivil Action No. 18 - cv - 5587\nHon.  John Z. Lee\nMagistrate Judge Y oung B. Kim\nRECEIVER’S FIRST STATUS REPORT\n( Third  Quarter 2018)\nKevin B. Duff, a s the receiver (“Receiver”) for  the  Estate of  Defendants  EquityBuild, Inc.,\nE quityB uild F inance, LLC,  their affiliates, and the affiliate entities of Defendants Jerome Cohen\nand Shaun Cohen  as defined in the Order Ap pointing Receiver (Docket No. 16 )  (collectively,  the\n“Receivership Defendants”),  and pursuant to the powers vested in  him by Order of this Court\nentered on  August 17 , 2018 ,  now respectfully submits this First Status Report  for  the  quarter\nending  September 30, 2018 , to apprise the  Court of the status of the Receivership, and states as\nfollows:\nI .  BACKGROUN D\nThe Rec eiver acknowledges that the concept of an equity receivership and the role of a\nreceiver may not be familiar to all potential stakeholde rs in the Receivership Estate. This status\nreport is in the first instance a report to inform the Court as to the asset s in the Receivership Estate\nand the activities of the Receiver and his professionals in accordance with the duties set forth in\nCase: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 1 of 30 PageID #:954"
+}

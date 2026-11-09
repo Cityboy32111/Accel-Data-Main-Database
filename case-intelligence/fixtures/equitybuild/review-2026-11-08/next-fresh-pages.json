@@ -1,0 +1,67 @@
+[
+ {
+  "key": "appointment-order",
+  "pages": [
+   {
+    "page": 12,
+    "rule": "closest to median body-page length"
+   },
+   {
+    "page": 18,
+    "rule": "most digits among remaining pages (amounts, dockets, dates)"
+   }
+  ]
+ },
+ {
+  "key": "status-report-1",
+  "pages": [
+   {
+    "page": 13,
+    "rule": "closest to median body-page length"
+   },
+   {
+    "page": 3,
+    "rule": "most digits among remaining pages (amounts, dockets, dates)"
+   }
+  ]
+ },
+ {
+  "key": "dkt-1806",
+  "pages": [
+   {
+    "page": 5,
+    "rule": "closest to median body-page length"
+   },
+   {
+    "page": 4,
+    "rule": "most digits among remaining pages (amounts, dockets, dates)"
+   }
+  ]
+ },
+ {
+  "key": "dkt-1938",
+  "pages": [
+   {
+    "page": 3,
+    "rule": "closest to median body-page length"
+   },
+   {
+    "page": 4,
+    "rule": "most digits among remaining pages (amounts, dockets, dates)"
+   }
+  ]
+ },
+ {
+  "key": "dkt-1967",
+  "pages": [
+   {
+    "page": 15,
+    "rule": "closest to median body-page length"
+   },
+   {
+    "page": 5,
+    "rule": "most digits among remaining pages (amounts, dockets, dates)"
+   }
+  ]
+ }
+]

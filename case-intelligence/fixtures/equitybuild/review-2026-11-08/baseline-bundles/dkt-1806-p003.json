@@ -1,0 +1,149 @@
+{
+ "document": "SEC's Response To Group 7 Position Statements, Dkt. 1806",
+ "page": 3,
+ "pdf": "fixtures/equitybuild/downloads/64670431ccf24243407ac06adf32b213.pdf",
+ "page_text": "3\noutcome was the proper one, the Seventh Circuit would have ordered it, and not reached the\nopposite finding that the investors have priority. Instead, the Seventh Circuit was explicit that\n\u201c[b]ecause payment alone cannot extinguish a preexisting security interest without a valid release\nunder the Illinois Mortgage Act, and because no valid release occurred,\u201d the investors\u2019 first-in-\ntime mortgages had priority.  Id.  at 533.\nCitibank and Sabal\u2019s reliance on the unpublished  5201 Washington  decision is similarly\nmisplaced. In that case, unlike Properties 69, 70, and 73,  a release was publicly recorded , and\nthe question facing the court was whether the release was valid and authorized.  5201 Wash.\nInvs. LLC v. Equitybuild, Inc. , 2024 IL App (1st) 231403-U, *P28-*P32 (Aug. 14, 2024). Thus,\nthe threshold inquiry \u2013 the existence of a release \u2013 was already met when the court opined on the\nrelease\u2019s validity. Here, there were never releases, rendering  5201 Washington \u2019s analysis of the\nrelease\u2019s validity and authorization irrelevant. 4\nB.  BMO (Property 2)\nIn its Position Statement, BMO does not dispute that for Property 2: (a) the investors\nrecorded a valid, prior-in-time mortgage; (b) the investors never received payment associated\nwith the purported release of their mortgage; and (c) \u201ca release was executed, but never\nrecorded.\u201d (ECF 1794 at 2, 5). As for that unrecorded release, it was not signed by the investors\n4  Even if the issue of authority mattered given the lack of releases, this Court twice has\nthoroughly analyzed the same documents Citibank and Sabal (and BMO) cite \u2013 the Collateral\nAgency and Servicing Agreements \u2013 and considered the same arguments Citibank and Sabal\nrehash. After doing so, the Court unambiguously held that \u201cEquitybuild Finance lacked the\nauthority to release the individual investors\u2019 mortgages.\u201d (ECF 1386 at 1, 14-28;  see also  ECF\n1679 at 25 (\u201cIt is DLP\u2019s burden to show that Equitybuild Finance had the authority, actual or\napparent, to release the Individual Investors\u2019 mortgage\u2026DLP has not done so.\u201d)).\nCase: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 3 of 6 PageID #:123787",
+ "saved_entities": {
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "BMO"
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "Citibank"
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "aliases": [
+     "Sabal"
+    ],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "Sabal Capital Operations, LLC"
+   },
+   {
+    "key": "p4",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "other"
+    ],
+    "canonical_name": "Equitybuild Finance"
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p1",
+    "claim_group": "Group 7",
+    "creditor_type": "institutional_lender",
+    "treatment_summary": "BMO asserts a position on Property 2; unrecorded release not signed by investors",
+    "claim_amount_asserted": null
+   },
+   {
+    "party_key": "p2",
+    "claim_group": "Group 7",
+    "creditor_type": "institutional_lender",
+    "treatment_summary": "Relies on 5201 Washington decision; SEC says no releases for Properties 69, 70, 73",
+    "claim_amount_asserted": null
+   },
+   {
+    "party_key": "p3",
+    "claim_group": "Group 7",
+    "creditor_type": "institutional_lender",
+    "treatment_summary": "Relies on 5201 Washington decision; SEC says no releases for Properties 69, 70, 73",
+    "claim_amount_asserted": null
+   }
+  ],
+  "attorneys": [],
+  "properties": [
+   {
+    "key": "pr2",
+    "city": null,
+    "state": null,
+    "address": "Property 2",
+    "disposition": "unknown",
+    "receiver_property_number": "Property 2"
+   }
+  ],
+  "related_lawsuits": [
+   {
+    "key": "l1",
+    "court": "Illinois Appellate Court, First District",
+    "caption": "5201 Wash. Invs. LLC v. Equitybuild, Inc.",
+    "relationship": "state_court_action",
+    "docket_number": "2024 IL App (1st) 231403-U"
+   }
+  ]
+ },
+ "saved_assertions": [
+  {
+   "id": "0d513e75-90b5-457d-91b7-fbcaf94fb6fe",
+   "document_title": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC (12/16/2024, Dkt. No. 1806)",
+   "docket_number": "1806",
+   "page_number": 3,
+   "subject_type": "creditor",
+   "subject_label": "BMO",
+   "predicate": "does_not_dispute",
+   "object_value": "For Property 2 the investors recorded a valid, prior-in-time mortgage and never received payment associated with the purported release",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "BMO does not dispute that for Property 2: (a) the investors recorded a valid, prior-in-time mortgage; (b) the investors never received payment",
+   "status": "unverified"
+  },
+  {
+   "id": "7934b1ab-e191-4e56-a130-a14ca0ad0df2",
+   "document_title": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC (12/16/2024, Dkt. No. 1806)",
+   "docket_number": "1806",
+   "page_number": 3,
+   "subject_type": "property",
+   "subject_label": "Property 2",
+   "predicate": "status",
+   "object_value": "A release was executed but never recorded",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.8500",
+   "quote": "\u201ca release was executed, but never recorded.\u201d",
+   "status": "unverified"
+  },
+  {
+   "id": "4489e6ce-4855-4501-ba61-5934da35a0d9",
+   "document_title": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC (12/16/2024, Dkt. No. 1806)",
+   "docket_number": "1806",
+   "page_number": 3,
+   "subject_type": "case",
+   "subject_label": "SEC v. EquityBuild, Inc., et al.",
+   "predicate": "held",
+   "object_value": "Equitybuild Finance lacked the authority to release the individual investors' mortgages (ECF 1386)",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "\u201cEquitybuild Finance lacked the authority to release the individual investors\u2019 mortgages.\u201d",
+   "status": "unverified"
+  }
+ ],
+ "saved_counts": {
+  "parties": 4,
+  "creditors": 3,
+  "attorneys": 0,
+  "properties": 1,
+  "related_lawsuits": 1
+ },
+ "stored_assertion_count": 3
+}

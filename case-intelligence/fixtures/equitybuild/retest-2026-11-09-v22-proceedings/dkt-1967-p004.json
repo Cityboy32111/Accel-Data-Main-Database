@@ -1,0 +1,200 @@
+{
+ "key": "dkt-1967",
+ "page": 4,
+ "document": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+ "document_id": "087d434a-4ac4-4929-960f-6b245ab5ce44",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-09.1",
+ "schema_version": "2026-11-09.1",
+ "input_tokens": 6219,
+ "output_tokens": 1199,
+ "latency_ms": 5718,
+ "page_kind": "table_of_contents",
+ "output": {
+  "page_kind": "table_of_contents",
+  "parties": [],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "CFTC v. Barki, LLC, 2009 WL 3839389 (W.D.N.C. Nov. 12, 2009)"
+   },
+   {
+    "citation": "CFTC v. Equity Fin. Grp., LLC, 2005 WL 2143975 (D.N.J. Sept. 2, 2005)"
+   },
+   {
+    "citation": "CFTC v. Equity Fin. Grp., LLC, 2005 WL 2864781 (D.N.J. Sept. 26, 2005)"
+   },
+   {
+    "citation": "CFTC v. Eustace, 2008 WL 471574 (E.D. Pa. Feb. 19, 2008)"
+   },
+   {
+    "citation": "CFTC v. Lake Shore Asset Mgmt. Ltd., 2010 WL 960362 (N.D. Ill. Mar. 15, 2010), aff'd 646 F.3d 401 (7th Cir. 2011)"
+   },
+   {
+    "citation": "CFTC v. PrivateFX Global One, 778 F. Supp. 2d 775 (S.D. Tex. 2011)"
+   },
+   {
+    "citation": "CFTC v. TMTE, Inc., 2024 WL 983553 (5th Cir. Mar. 7, 2024)"
+   },
+   {
+    "citation": "CFTC v. Topworth Int'l., Ltd., 205 F.3d 1107 (9th Cir. 1999)"
+   },
+   {
+    "citation": "Cleveland Bd. of Educ. v. Loudermill, 470 U.S. 532 (1985)"
+   },
+   {
+    "citation": "Cunningham v. Brown, 265 U.S. 1 (1924)"
+   },
+   {
+    "citation": "Donell v. Kowell, 533 F.3d 762 (9th Cir. 2008)"
+   },
+   {
+    "citation": "FDIC. v. Bernstein, 786 F. Supp. 170 (E.D.N.Y. 1992)"
+   },
+   {
+    "citation": "FTC v. Ameridebt, Inc., 373 F. Supp. 2d 558 (D. Md. 2005)"
+   },
+   {
+    "citation": "FTC v. Crittenden, 823 F. Supp. 699 (C.D. Cal. 1993)"
+   },
+   {
+    "citation": "Matter of Fesco Plastics Corp., 996 F.2d 152 (7th Cir. 1993)"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-06-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 4 of 273",
+    "confidence": 0.9,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+   "object_type": null,
+   "object_key": null,
+   "modality": "index_reference",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2026-06-30",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 4 of 273",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [
+    "toc_page: modality completed downgraded to index_reference"
+   ],
+   "needs_review": true,
+   "final_confidence": 0.54,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "reclassified": [],
+ "page_text": "iii\nTABLE OF AUTHORITIES\nCFTC v. Barki, LLC ,\nNo. 3:09 CV 106 - MU,  2009 WL 3839389 (W.D.N.C. Nov. 12, 2009)  .............................. 42 ,  4 3\nCFTC v. Equity Fin. Grp., LLC ,\nNo. Civ.  04 - 1512 RBK AMD,  2005 WL 2143975 (D.N.J. Sept. 2, 2005)  ........................  22 - 23\nCFTC v. Equity Fin. Grp., LLC ,\nNo. Civ.  04 - 1512 - RBK - AMD, 2005 WL 2864781 (D.N.J. Sept. 26, 2005)  ......................  17 - 18\nCFTC v. Eustace , No. 05 - 2973, 2008 WL 471574 (E.D. Pa. Feb. 19, 2008)  ................................ 16\nCFTC v. Lake Shore Asset Mgmt. Ltd. ,\nNo. 07 C 3598, 2010 WL 960362 (N.D. Ill. Mar. 15, 2010)\na ff’d  646 F.3d 401 (7th Cir. 2011)  ................................ ................................ ...................... 41 ,  43\nCFTC v. Lake Shore Asset Mgmt. Ltd.,  646 F.3d 401 (7th Cir. 2011) .............................. 36 ,  36 n.1 7\nCFTC v. PrivateFX Global One , 778 F. Supp. 2d 775 (S.D. Tex. 2011)  ............................... 36 n.1 7\nCFTC v. TMTE, Inc. , No. 23 - 10420, 2024 WL 983553 (5th Cir. Mar. 7, 2024)  ................... 36 n.1 7\nCFTC v. Topworth Int ’l ., Ltd. , 205 F.3d 1107 (9th Cir. 1999)  ................................ ....................... 22\nCleveland Bd. of Educ. v. Loudermill , 470 U.S. 532 (1985)  ................................ ......................... 5 5\nCunningham v. Brown , 265 U.S. 1 (1924)  ................................ ................................ ..................... 16\nDonell v. Kowell , 533 F.3d 762 (9th Cir. 2008)  ................................ ................................ ............. 20\nFDIC. v. Bernstein , 786 F. Supp. 170 (E.D.N.Y. 1992)  ................................ ................................ . 5 5\nFTC v. Ameridebt, Inc. , 373 F. Supp. 2d 558 (D. Md. 2005)  ................................ ......................... 37\nFTC v. Crittenden , 823 F. Supp. 699 (C.D. Cal. 1993)  ................................ ................................ .. 37\nMatter of Fesco Plastics Corp. , 996 F.2d 152 (7th Cir. 1993) ................................ ....................... 23\nCase: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 4 of 273 PageID #:128334",
+ "raw_output": {
+  "page_kind": "table_of_contents",
+  "parties": [],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "CFTC v. Barki, LLC, 2009 WL 3839389 (W.D.N.C. Nov. 12, 2009)"
+   },
+   {
+    "citation": "CFTC v. Equity Fin. Grp., LLC, 2005 WL 2143975 (D.N.J. Sept. 2, 2005)"
+   },
+   {
+    "citation": "CFTC v. Equity Fin. Grp., LLC, 2005 WL 2864781 (D.N.J. Sept. 26, 2005)"
+   },
+   {
+    "citation": "CFTC v. Eustace, 2008 WL 471574 (E.D. Pa. Feb. 19, 2008)"
+   },
+   {
+    "citation": "CFTC v. Lake Shore Asset Mgmt. Ltd., 2010 WL 960362 (N.D. Ill. Mar. 15, 2010), aff'd 646 F.3d 401 (7th Cir. 2011)"
+   },
+   {
+    "citation": "CFTC v. PrivateFX Global One, 778 F. Supp. 2d 775 (S.D. Tex. 2011)"
+   },
+   {
+    "citation": "CFTC v. TMTE, Inc., 2024 WL 983553 (5th Cir. Mar. 7, 2024)"
+   },
+   {
+    "citation": "CFTC v. Topworth Int'l., Ltd., 205 F.3d 1107 (9th Cir. 1999)"
+   },
+   {
+    "citation": "Cleveland Bd. of Educ. v. Loudermill, 470 U.S. 532 (1985)"
+   },
+   {
+    "citation": "Cunningham v. Brown, 265 U.S. 1 (1924)"
+   },
+   {
+    "citation": "Donell v. Kowell, 533 F.3d 762 (9th Cir. 2008)"
+   },
+   {
+    "citation": "FDIC. v. Bernstein, 786 F. Supp. 170 (E.D.N.Y. 1992)"
+   },
+   {
+    "citation": "FTC v. Ameridebt, Inc., 373 F. Supp. 2d 558 (D. Md. 2005)"
+   },
+   {
+    "citation": "FTC v. Crittenden, 823 F. Supp. 699 (C.D. Cal. 1993)"
+   },
+   {
+    "citation": "Matter of Fesco Plastics Corp., 996 F.2d 152 (7th Cir. 1993)"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's Motion To Approve Group 10 Distribution Plan, Dkt. 1967",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2026-06-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1967 Filed: 06/30/26 Page 4 of 273",
+    "confidence": 0.9,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "postprocess_version": "2026-11-09.3"
+}

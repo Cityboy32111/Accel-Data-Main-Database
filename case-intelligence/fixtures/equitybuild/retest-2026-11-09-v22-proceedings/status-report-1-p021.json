@@ -1,0 +1,632 @@
+{
+ "key": "status-report-1",
+ "page": 21,
+ "document": "Receiver's First Status Report, Q3 2018, Dkt. 107",
+ "document_id": "b9f4a958-eb84-45cf-b637-b732df80fb7c",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-09.1",
+ "schema_version": "2026-11-09.1",
+ "input_tokens": 6121,
+ "output_tokens": 2427,
+ "latency_ms": 11511,
+ "page_kind": "body",
+ "output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "EquityBuild, Inc.",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "Michigan Shores Apartments, LLC",
+    "party_roles": [
+     "plaintiff"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "City of Chicago",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [
+   {
+    "key": "byrd",
+    "caption": "Byrd v. EquityBuild, et al.",
+    "court": "Circuit Court of Cook County, Law Division",
+    "docket_number": "2018 L 973",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "ms9098",
+    "caption": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al.",
+    "court": "Circuit Court of Cook County, Chancery Division",
+    "docket_number": "2018 CH 9098",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "ms3665",
+    "caption": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al.",
+    "court": "Circuit Court of Cook County, Chancery Division",
+    "docket_number": "2018 CH 3665",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "stewart",
+    "caption": "Stewart v. 7420 S. Colfax, et al.",
+    "court": "Circuit Court of Cook County, Law Division",
+    "docket_number": "2016 L 6239",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "watson",
+    "caption": "Watson, et al. v. EquityBuild, Inc., et al.",
+    "court": "Circuit Court of Cook County, Law Division",
+    "docket_number": "2017 L 1320",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "reymone",
+    "caption": "Reymone v. EquityBuild, Inc.",
+    "court": "Circuit Court of Cook County, Law Division",
+    "docket_number": "2018 L 7680",
+    "relationship": "state_court_action"
+   }
+  ],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "byrd",
+    "predicate": "status",
+    "object_value": "placed on Law Division Stay Calendar on September 11, 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "byrd"
+    },
+    "as_of_date": "2018-09-11",
+    "referenced_page": null,
+    "quote": "This case was placed on the Law Division Stay Calendar on September 11, 2018.",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "ms9098",
+    "predicate": "status",
+    "object_value": "continued for status to December 13, 2018; no stay calendar in Chancery",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "Because there is no stay calendar in Chancery",
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "ms9098"
+    },
+    "as_of_date": "2018-12-13",
+    "referenced_page": null,
+    "quote": "the matter was continued for status to December 13, 2018",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "ms3665",
+    "predicate": "status",
+    "object_value": "motion to stay granted; litigation stayed until further order of court; set for status December 4, 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "until further order of court",
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "ms3665"
+    },
+    "as_of_date": "2018-12-04",
+    "referenced_page": null,
+    "quote": "litigation has been staye d un til further order of court, and the matter has been set for status to De cember 4, 2018.",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "stewart",
+    "predicate": "status",
+    "object_value": "stayed as to EquityBuild, Inc. and Receivership Defendants on September 6, 2018; proceeding as to other parties",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "proceeding with respect to the other parties",
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "stewart"
+    },
+    "as_of_date": "2018-09-06",
+    "referenced_page": null,
+    "quote": "This case was stayed as to EquityBuild, Inc. and the Receivership Defendants at the September 6, 2018 statu s date,",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "watson",
+    "predicate": "status",
+    "object_value": "stayed as to all parties and placed on Law Division Stay Calendar October 10, 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "watson"
+    },
+    "as_of_date": "2018-10-10",
+    "referenced_page": null,
+    "quote": "On October 10, 2018, the matter was stayed as to all parties and placed on the Law Division Stay Calendar.",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "reymone",
+    "predicate": "status",
+    "object_value": "Receiver filed appearance and Notice of Appointment and Stay of Litigation on August 24, 2018; placed on Miscellaneous Stay Calendar",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "reymone"
+    },
+    "as_of_date": "2018-08-24",
+    "referenced_page": null,
+    "quote": "the Receiver filed an appearance and Notice of Appointment of Receiver and Stay of Li tigation, and the case has been placed on the Miscellaneous Stay Calen dar",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's First Status Report (Third Quarter 2018), Dkt. 107",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-10-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 107 Filed: 10/30/18",
+    "confidence": 0.8,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "related_lawsuit",
+   "subject_key": "byrd",
+   "predicate": "status",
+   "object_value": "placed on Law Division Stay Calendar on September 11, 2018",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": null,
+   "proceeding": {
+    "scope": "related_lawsuit",
+    "related_lawsuit_key": "byrd"
+   },
+   "as_of_date": "2018-09-11",
+   "referenced_page": null,
+   "quote": "This case was placed on the Law Division Stay Calendar on September 11, 2018.",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "Byrd v. EquityBuild, et al.",
+   "proceeding_label": "Byrd v. EquityBuild, et al."
+  },
+  {
+   "subject_type": "related_lawsuit",
+   "subject_key": "ms9098",
+   "predicate": "status",
+   "object_value": "continued for status to December 13, 2018; no stay calendar in Chancery",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": "Because there is no stay calendar in Chancery",
+   "proceeding": {
+    "scope": "related_lawsuit",
+    "related_lawsuit_key": "ms9098"
+   },
+   "as_of_date": "2018-12-13",
+   "referenced_page": null,
+   "quote": "the matter was continued for status to December 13, 2018",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al.",
+   "proceeding_label": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al."
+  },
+  {
+   "subject_type": "related_lawsuit",
+   "subject_key": "ms3665",
+   "predicate": "status",
+   "object_value": "motion to stay granted; litigation stayed until further order of court; set for status December 4, 2018",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": "until further order of court",
+   "proceeding": {
+    "scope": "related_lawsuit",
+    "related_lawsuit_key": "ms3665"
+   },
+   "as_of_date": "2018-12-04",
+   "referenced_page": null,
+   "quote": "litigation has been staye d un til further order of court, and the matter has been set for status to De cember 4, 2018.",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al.",
+   "proceeding_label": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al."
+  },
+  {
+   "subject_type": "related_lawsuit",
+   "subject_key": "stewart",
+   "predicate": "status",
+   "object_value": "stayed as to EquityBuild, Inc. and Receivership Defendants on September 6, 2018; proceeding as to other parties",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": "proceeding with respect to the other parties",
+   "proceeding": {
+    "scope": "related_lawsuit",
+    "related_lawsuit_key": "stewart"
+   },
+   "as_of_date": "2018-09-06",
+   "referenced_page": null,
+   "quote": "This case was stayed as to EquityBuild, Inc. and the Receivership Defendants at the September 6, 2018 statu s date,",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "Stewart v. 7420 S. Colfax, et al.",
+   "proceeding_label": "Stewart v. 7420 S. Colfax, et al."
+  },
+  {
+   "subject_type": "related_lawsuit",
+   "subject_key": "watson",
+   "predicate": "status",
+   "object_value": "stayed as to all parties and placed on Law Division Stay Calendar October 10, 2018",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": null,
+   "proceeding": {
+    "scope": "related_lawsuit",
+    "related_lawsuit_key": "watson"
+   },
+   "as_of_date": "2018-10-10",
+   "referenced_page": null,
+   "quote": "On October 10, 2018, the matter was stayed as to all parties and placed on the Law Division Stay Calendar.",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "Watson, et al. v. EquityBuild, Inc., et al.",
+   "proceeding_label": "Watson, et al. v. EquityBuild, Inc., et al."
+  },
+  {
+   "subject_type": "related_lawsuit",
+   "subject_key": "reymone",
+   "predicate": "status",
+   "object_value": "Receiver filed appearance and Notice of Appointment and Stay of Litigation on August 24, 2018; placed on Miscellaneous Stay Calendar",
+   "object_type": null,
+   "object_key": null,
+   "modality": "reported",
+   "conditions": null,
+   "proceeding": {
+    "scope": "related_lawsuit",
+    "related_lawsuit_key": "reymone"
+   },
+   "as_of_date": "2018-08-24",
+   "referenced_page": null,
+   "quote": "the Receiver filed an appearance and Notice of Appointment of Receiver and Stay of Li tigation, and the case has been placed on the Miscellaneous Stay Calen dar",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "Reymone v. EquityBuild, Inc.",
+   "proceeding_label": "Reymone v. EquityBuild, Inc."
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "Receiver's First Status Report (Third Quarter 2018), Dkt. 107",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-10-30",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 107 Filed: 10/30/18",
+   "confidence": 0.8,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.8,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "reclassified": [],
+ "page_text": "21\no .  Open Litigation\nIn connection with his duty to defend all suits which were pending or asserted against the\nReceivership Estate, the Receiver has  apprised t he  parties to these suits and the courts in which\nthey  are pending of the stay of litigation imposed by the Order Appointing Receiver.  The\nReceiver’s counsel has app eared in  court approximately six  times to inform the respective  tribunals\nof the Receiver’ s appointment and has orally  moved to stay the litigation  pursuant to the Order\nAppointing Receiver ;  separately,  the Receiver’s counsel has  appeared on  City of Chicago related\nmatters on  approximately  six  separate occasions.\nThe following  litigation was  pending as of or filed after the date of appointment:\n•  Byrd v. EquityBuild, et al.,  Case No.  20 18 L 973, Circuit Court  of Cook County,\nLaw Division.  This  case  was  placed on the Law Division Stay Calendar  on\nSeptember 11, 2018.\n•  Michigan Shores Apartment s, LLC v. EquityBuild, Inc . , et al.,  Case No.  20 18 CH\n9098, Circuit Court of C ook County, Chancery Division. B ecause there is no stay\ncalendar in Chancery, the matter was continued  for status  to December 13, 2018 .\n•  Michigan Shores Apartments, LLC v. Equi tyBuild, Inc . , et al.,  Case No. 2018 CH\n3665, Circuit Court of C ook County, Chancery Division. T he Plaintiff’s motion to\nstay  was  granted,  litigation  has been  staye d un til further order of court, and the\nmatter  has been set  for status  to  De cember 4, 2018.\n•  Stewart v. 7420 S. Colfax, et al.,  Case No. 2016 L 6239,  Circuit Court  of Cook\nCounty, Law Division.  This  case was stayed as to EquityBuild, Inc. and  the\nReceivership Defendants at the September 6, 2018 statu s date,  but  is proceeding\nwith respect to th e other parties.\n•  Watson, et al. v. EquityBuild, Inc. ,  et al.,  Case No. 2017 L 1320, Circuit Court  of\nCook County, Law Division.  On  October 10, 2018, the matter was stayed as to all\nparties and placed on the  Law Division Stay Calendar.\n•  Reymone v. Equit yBuild, Inc.,  Case No. 2018 L  7680 , Circuit Court  of Cook\nCounty, Law Division.  On  August 24, 2018, the Receiver filed  an  appearance and\nNotice of Appointment of Receiver and Stay of Li tigation, and the  case has been\nplaced on the Miscellaneous Stay Calen dar .\nCase: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 21 of 30 PageID #:974",
+ "raw_output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "EquityBuild, Inc.",
+    "party_roles": [
+     "defendant"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "Michigan Shores Apartments, LLC",
+    "party_roles": [
+     "plaintiff"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "City of Chicago",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [
+   {
+    "key": "byrd",
+    "caption": "Byrd v. EquityBuild, et al.",
+    "court": "Circuit Court of Cook County, Law Division",
+    "docket_number": "2018 L 973",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "ms9098",
+    "caption": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al.",
+    "court": "Circuit Court of Cook County, Chancery Division",
+    "docket_number": "2018 CH 9098",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "ms3665",
+    "caption": "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al.",
+    "court": "Circuit Court of Cook County, Chancery Division",
+    "docket_number": "2018 CH 3665",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "stewart",
+    "caption": "Stewart v. 7420 S. Colfax, et al.",
+    "court": "Circuit Court of Cook County, Law Division",
+    "docket_number": "2016 L 6239",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "watson",
+    "caption": "Watson, et al. v. EquityBuild, Inc., et al.",
+    "court": "Circuit Court of Cook County, Law Division",
+    "docket_number": "2017 L 1320",
+    "relationship": "state_court_action"
+   },
+   {
+    "key": "reymone",
+    "caption": "Reymone v. EquityBuild, Inc.",
+    "court": "Circuit Court of Cook County, Law Division",
+    "docket_number": "2018 L 7680",
+    "relationship": "state_court_action"
+   }
+  ],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "byrd",
+    "predicate": "status",
+    "object_value": "placed on Law Division Stay Calendar on September 11, 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "byrd"
+    },
+    "as_of_date": "2018-09-11",
+    "referenced_page": null,
+    "quote": "This case was placed on the Law Division Stay Calendar on September 11, 2018.",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "ms9098",
+    "predicate": "status",
+    "object_value": "continued for status to December 13, 2018; no stay calendar in Chancery",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "Because there is no stay calendar in Chancery",
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "ms9098"
+    },
+    "as_of_date": "2018-12-13",
+    "referenced_page": null,
+    "quote": "the matter was continued for status to December 13, 2018",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "ms3665",
+    "predicate": "status",
+    "object_value": "motion to stay granted; litigation stayed until further order of court; set for status December 4, 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "until further order of court",
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "ms3665"
+    },
+    "as_of_date": "2018-12-04",
+    "referenced_page": null,
+    "quote": "litigation has been staye d un til further order of court, and the matter has been set for status to De cember 4, 2018.",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "stewart",
+    "predicate": "status",
+    "object_value": "stayed as to EquityBuild, Inc. and Receivership Defendants on September 6, 2018; proceeding as to other parties",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": "proceeding with respect to the other parties",
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "stewart"
+    },
+    "as_of_date": "2018-09-06",
+    "referenced_page": null,
+    "quote": "This case was stayed as to EquityBuild, Inc. and the Receivership Defendants at the September 6, 2018 statu s date,",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "watson",
+    "predicate": "status",
+    "object_value": "stayed as to all parties and placed on Law Division Stay Calendar October 10, 2018",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "watson"
+    },
+    "as_of_date": "2018-10-10",
+    "referenced_page": null,
+    "quote": "On October 10, 2018, the matter was stayed as to all parties and placed on the Law Division Stay Calendar.",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "related_lawsuit",
+    "subject_key": "reymone",
+    "predicate": "status",
+    "object_value": "Receiver filed appearance and Notice of Appointment and Stay of Litigation on August 24, 2018; placed on Miscellaneous Stay Calendar",
+    "object_type": null,
+    "object_key": null,
+    "modality": "reported",
+    "conditions": null,
+    "proceeding": {
+     "scope": "related_lawsuit",
+     "related_lawsuit_key": "reymone"
+    },
+    "as_of_date": "2018-08-24",
+    "referenced_page": null,
+    "quote": "the Receiver filed an appearance and Notice of Appointment of Receiver and Stay of Li tigation, and the case has been placed on the Miscellaneous Stay Calen dar",
+    "confidence": 0.9,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "Receiver's First Status Report (Third Quarter 2018), Dkt. 107",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-10-30",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 107 Filed: 10/30/18",
+    "confidence": 0.8,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "postprocess_version": "2026-11-09.3"
+}

@@ -1,0 +1,175 @@
+{
+ "document": "Receiver's First Status Report, Q3 2018, Dkt. 107",
+ "page": 1,
+ "pdf": "fixtures/equitybuild/downloads/3fcf3845b1a3a6c6c7b22d3f55c94578.pdf",
+ "page_text": "UNITED STATES DISTRICT COURT\nNORTHERN DISTRICT OF ILLINOIS\nEASTERN DIVISION\nUNITED STATES SECURITIES\nAND EXCHANGE COMMISSION,\nPlaintiff,\nv.\nEQUITYBUILD, INC., EQUITYBUILD\nFINANCE , LLC,  JEROME H. COHEN,\nand  SHAUN D. COHEN,\nDefendants.\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\nCivil Action No. 18 - cv - 5587\nHon.  John Z. Lee\nMagistrate Judge Y oung B. Kim\nRECEIVER\u2019S FIRST STATUS REPORT\n( Third  Quarter 2018)\nKevin B. Duff, a s the receiver (\u201cReceiver\u201d) for  the  Estate of  Defendants  EquityBuild, Inc.,\nE quityB uild F inance, LLC,  their affiliates, and the affiliate entities of Defendants Jerome Cohen\nand Shaun Cohen  as defined in the Order Ap pointing Receiver (Docket No. 16 )  (collectively,  the\n\u201cReceivership Defendants\u201d),  and pursuant to the powers vested in  him by Order of this Court\nentered on  August 17 , 2018 ,  now respectfully submits this First Status Report  for  the  quarter\nending  September 30, 2018 , to apprise the  Court of the status of the Receivership, and states as\nfollows:\nI .  BACKGROUN D\nThe Rec eiver acknowledges that the concept of an equity receivership and the role of a\nreceiver may not be familiar to all potential stakeholde rs in the Receivership Estate. This status\nreport is in the first instance a report to inform the Court as to the asset s in the Receivership Estate\nand the activities of the Receiver and his professionals in accordance with the duties set forth in\nCase: 1:18-cv-05587 Document #: 107 Filed: 10/30/18 Page 1 of 30 PageID #:954",
+ "saved_entities": {
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "aliases": [
+     "SEC"
+    ],
+    "party_roles": [
+     "plaintiff"
+    ],
+    "canonical_name": "United States Securities and Exchange Commission"
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "EquityBuild, Inc."
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "EquityBuild Finance, LLC"
+   },
+   {
+    "key": "p4",
+    "kind": "person",
+    "aliases": [
+     "Jerome Cohen"
+    ],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "Jerome H. Cohen"
+   },
+   {
+    "key": "p5",
+    "kind": "person",
+    "aliases": [
+     "Shaun Cohen"
+    ],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "Shaun D. Cohen"
+   },
+   {
+    "key": "p6",
+    "kind": "person",
+    "aliases": [
+     "Receiver"
+    ],
+    "party_roles": [
+     "receiver"
+    ],
+    "canonical_name": "Kevin B. Duff"
+   },
+   {
+    "key": "p7",
+    "kind": "person",
+    "aliases": [],
+    "party_roles": [
+     "court"
+    ],
+    "canonical_name": "John Z. Lee"
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": []
+ },
+ "saved_assertions": [
+  {
+   "id": "68019d41-6e8e-4ad8-9228-d0c57175e884",
+   "document_title": "Receiver's First Status Report (Third Quarter 2018) (10/30/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "party",
+   "subject_label": "Kevin B. Duff",
+   "predicate": "has_role",
+   "object_value": "receiver",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9500",
+   "quote": "Kevin B. Duff, a s the receiver (\u201cReceiver\u201d)",
+   "status": "unverified"
+  },
+  {
+   "id": "0d3636ef-433a-4af9-9a41-e9c4aa081458",
+   "document_title": "Receiver's First Status Report (Third Quarter 2018) (10/30/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "case",
+   "subject_label": "SEC v. EquityBuild, Inc., et al.",
+   "predicate": "receiver_appointed_on",
+   "object_value": "2018-08-17",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.8500",
+   "quote": "pursuant to the powers vested in  him by Order of this Court entered on  August 17 , 2018",
+   "status": "unverified"
+  },
+  {
+   "id": "20ec8c58-7254-4383-9745-7620e7e036a7",
+   "document_title": "Receiver's First Status Report (Third Quarter 2018) (10/30/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "case",
+   "subject_label": "SEC v. EquityBuild, Inc., et al.",
+   "predicate": "docket_number",
+   "object_value": "18-cv-5587",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9500",
+   "quote": "Civil Action No. 18 - cv - 5587",
+   "status": "unverified"
+  },
+  {
+   "id": "4ba488af-77c4-4537-8971-ba4216d3bb77",
+   "document_title": "Receiver's First Status Report (Third Quarter 2018) (10/30/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "party",
+   "subject_label": "United States Securities and Exchange Commission",
+   "predicate": "has_role",
+   "object_value": "plaintiff",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,",
+   "status": "unverified"
+  },
+  {
+   "id": "34c2d523-3dc3-4bfd-9965-a947ba739604",
+   "document_title": "Receiver's First Status Report (Third Quarter 2018) (10/30/2018)",
+   "docket_number": null,
+   "page_number": 1,
+   "subject_type": "party",
+   "subject_label": "Jerome H. Cohen",
+   "predicate": "has_role",
+   "object_value": "defendant",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.9000",
+   "quote": "JEROME H. COHEN,\nand  SHAUN D. COHEN,\nDefendants.",
+   "status": "unverified"
+  }
+ ],
+ "saved_counts": {
+  "parties": 7,
+  "creditors": 0,
+  "attorneys": 0,
+  "properties": 0,
+  "related_lawsuits": 0
+ },
+ "stored_assertion_count": 5
+}

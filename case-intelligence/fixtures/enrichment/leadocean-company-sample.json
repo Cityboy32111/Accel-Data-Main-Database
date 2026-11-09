@@ -1,0 +1,16 @@
+{
+  "$comment": "Synthetic leadocean.company.v1-shaped records for dry runs. Values are placeholders, not provider data.",
+  "example-lender.test": {
+    "company_data": {
+      "company_name": "Example Lender, N.A.",
+      "company_domain": "example-lender.test",
+      "company_website": "https://www.example-lender.test",
+      "company_industry": "Banking",
+      "company_employees": 12000,
+      "company_headquarters": { "city": "Chicago", "state": "IL", "country": "US" },
+      "company_linkedin_url": "https://www.linkedin.com/company/example-lender",
+      "company_founded_year": 1901
+    },
+    "company_metrics": { "completion_score": 92, "marketability_score": 70 }
+  }
+}

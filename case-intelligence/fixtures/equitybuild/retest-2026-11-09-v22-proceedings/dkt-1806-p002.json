@@ -1,0 +1,580 @@
+{
+ "key": "dkt-1806",
+ "page": 2,
+ "document": "SEC's Response To Group 7 Position Statements, Dkt. 1806",
+ "document_id": "721911fa-207d-43d4-b618-e24178486bd4",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-09.1",
+ "schema_version": "2026-11-09.1",
+ "input_tokens": 6029,
+ "output_tokens": 1918,
+ "latency_ms": 9697,
+ "page_kind": "body",
+ "output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "Citibank",
+    "party_roles": [
+     "objector",
+     "lender"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "Sabal Capital Operations, LLC",
+    "party_roles": [
+     "objector",
+     "lender"
+    ],
+    "aliases": [
+     "Sabal"
+    ]
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "BMO",
+    "party_roles": [
+     "objector",
+     "lender"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p4",
+    "kind": "organization",
+    "canonical_name": "Equitybuild Finance",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": [
+     "EBF"
+    ]
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p1",
+    "creditor_type": "institutional_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 7",
+    "treatment_summary": "SEC argues Citibank is not entitled to priority; no releases exist"
+   },
+   {
+    "party_key": "p2",
+    "creditor_type": "institutional_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 7",
+    "treatment_summary": "SEC argues Sabal is not entitled to priority; no releases exist"
+   },
+   {
+    "party_key": "p3",
+    "creditor_type": "institutional_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 7",
+    "treatment_summary": "SEC argues BMO's Group 7 position parrots the same argument for Property 2"
+   }
+  ],
+  "attorneys": [],
+  "properties": [
+   {
+    "key": "pr2",
+    "address": "Property 2",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "2",
+    "disposition": "unknown"
+   },
+   {
+    "key": "pr69",
+    "address": "Property 69",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "69",
+    "disposition": "unknown"
+   },
+   {
+    "key": "pr70",
+    "address": "Property 70",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "70",
+    "disposition": "unknown"
+   },
+   {
+    "key": "pr73",
+    "address": "Property 73",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "73",
+    "disposition": "unknown"
+   }
+  ],
+  "related_lawsuits": [
+   {
+    "key": "promoted_1",
+    "caption": "SEC v. EquityBuild, Inc.",
+    "court": "7th Cir.",
+    "docket_number": "101 F.4th 526",
+    "relationship": "appeal"
+   }
+  ],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "creditor",
+    "subject_key": "p1",
+    "predicate": "party_position",
+    "object_value": "argues it has priority despite no releases existing, as entitled to releases as a matter of Illinois law",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "Citibank and Sabal thus argue they have priority, despite no releases existing",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "creditor",
+    "subject_key": "p2",
+    "predicate": "party_position",
+    "object_value": "argues it has priority despite no releases existing, as entitled to releases as a matter of Illinois law",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "Citibank and Sabal thus argue they have priority, despite no releases existing",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "property",
+    "subject_key": "pr69",
+    "predicate": "status",
+    "object_value": "reported: no releases obtained for Group 7 properties 69, 70, and 73",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "Unlike Group 7 properties 69, 70, and 73, in Group 1 BC57 actually obtained (fraudulent) releases.",
+    "confidence": 0.6,
+    "origin": "inferred"
+   },
+   {
+    "subject_type": "creditor",
+    "subject_key": "p3",
+    "predicate": "party_position",
+    "object_value": "SEC argues BMO's Group 7 Position Statement parrots the release argument for Property 2",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "BMO’s Group 7 Position Statement parrots this argument for Property 2.",
+    "confidence": 0.8,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC, Dkt. 1806",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2024-12-16",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 2 of 6",
+    "confidence": 0.9,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "creditor",
+   "subject_key": "p1",
+   "predicate": "party_position",
+   "object_value": "argues it has priority despite no releases existing, as entitled to releases as a matter of Illinois law",
+   "object_type": null,
+   "object_key": null,
+   "modality": "argued",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "Citibank and Sabal thus argue they have priority, despite no releases existing",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "Citibank",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "creditor",
+   "subject_key": "p2",
+   "predicate": "party_position",
+   "object_value": "argues it has priority despite no releases existing, as entitled to releases as a matter of Illinois law",
+   "object_type": null,
+   "object_key": null,
+   "modality": "argued",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "Citibank and Sabal thus argue they have priority, despite no releases existing",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "Sabal Capital Operations, LLC",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "property",
+   "subject_key": "pr69",
+   "predicate": "status",
+   "object_value": "reported: no releases obtained for Group 7 properties 69, 70, and 73",
+   "object_type": null,
+   "object_key": null,
+   "modality": "argued",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "Unlike Group 7 properties 69, 70, and 73, in Group 1 BC57 actually obtained (fraudulent) releases.",
+   "confidence": 0.6,
+   "origin": "inferred",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.6,
+   "subject_label": "Property 69",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "creditor",
+   "subject_key": "p3",
+   "predicate": "party_position",
+   "object_value": "SEC argues BMO's Group 7 Position Statement parrots the release argument for Property 2",
+   "object_type": null,
+   "object_key": null,
+   "modality": "argued",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": null,
+   "referenced_page": null,
+   "quote": "BMO’s Group 7 Position Statement parrots this argument for Property 2.",
+   "confidence": 0.8,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.8,
+   "subject_label": "BMO",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "document_filed",
+   "object_value": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC, Dkt. 1806",
+   "object_type": null,
+   "object_key": null,
+   "modality": "completed",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2024-12-16",
+   "referenced_page": null,
+   "quote": "Case: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 2 of 6",
+   "confidence": 0.9,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "exact",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.9,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "warnings": [],
+ "reclassified": [
+  {
+   "key": "promoted_1",
+   "caption": "SEC v. EquityBuild, Inc.",
+   "from": "authority",
+   "to": "related_lawsuit (review)",
+   "reason": "cited as precedent but the caption names an estate party; appeal or action from this receivership"
+  }
+ ],
+ "page_text": "2\nquestion of priority in the investors’ favor.  SEC v. EquityBuild, Inc ., 101 F.4th 526 (7th Cir.\n2024).\nRather than accept that  EquityBuild  compels the finding that the investors have priority,\nCitibank and Sabal insist the decision necessitates the opposite outcome. Citibank and Sabal\nthus argue they have priority, despite no releases existing, because they are “entitled to\nreleases…as a matter of Illinois law.” (ECF 1797 at 4-5, 8-10; ECF 1798 at 3, 6-8). Citibank\nand Sabal assert this strained reading of  EquityBuild  even though the Group 7 facts are even\nworse for them than they were for BC57 in Group 1.\nUnlike Group 7 properties 69, 70, and 73, in Group 1 BC57 actually obtained\n(fraudulent) releases.  See EquityBuild , 101 F.4th at 529. However, because those releases did\nnot satisfy the requirements of the Illinois Mortgage Act, the releases “were facially invalid” and\n“had no effect,” such that the investors “maintain their interests in” the Group 1 properties.  Id.  at\n532-33. Nevertheless, Citibank and Sabal claim that, per  EquityBuild , once they paid money to\nEquitybuild Finance (“EBF”), “the prior Individual Investors and EBF were obligated to issue\nvalid releases…as a matter of Illinois law.” (ECF 1797 at 9;  see also  ECF 1798 at 7 (the same\nquote except Sabal references a purported obligation to issue “a valid release”). 2\nCitibank and Sabal may be correct that  EquityBuild  held the Illinois Mortgage Act\n“obligates a mortgagee to issue a release of the mortgage upon full satisfaction of the debt\nunderlying the lien.”  See EquityBuild ,  101 F.4th at 531. 3  But that holding does not support the\nconclusion Citibank and Sabal demand: that the Court retroactively order the filing of releases\nthat result in the Institutional Lenders having priority. Indeed, if Citibank and Sabal’s desired\n2  As discussed below, BMO’s Group 7 Position Statement parrots this argument for Property 2.\n( See  ECF 1794 at 15-16).\n3  Like in Group 1, because the Group 7 investors were not repaid, their debt was never satisfied.\nCase: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 2 of 6 PageID #:123786",
+ "raw_output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "canonical_name": "Citibank",
+    "party_roles": [
+     "objector",
+     "lender"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "canonical_name": "Sabal Capital Operations, LLC",
+    "party_roles": [
+     "objector",
+     "lender"
+    ],
+    "aliases": [
+     "Sabal"
+    ]
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "canonical_name": "BMO",
+    "party_roles": [
+     "objector",
+     "lender"
+    ],
+    "aliases": []
+   },
+   {
+    "key": "p4",
+    "kind": "organization",
+    "canonical_name": "Equitybuild Finance",
+    "party_roles": [
+     "other"
+    ],
+    "aliases": [
+     "EBF"
+    ]
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p1",
+    "creditor_type": "institutional_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 7",
+    "treatment_summary": "SEC argues Citibank is not entitled to priority; no releases exist"
+   },
+   {
+    "party_key": "p2",
+    "creditor_type": "institutional_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 7",
+    "treatment_summary": "SEC argues Sabal is not entitled to priority; no releases exist"
+   },
+   {
+    "party_key": "p3",
+    "creditor_type": "institutional_lender",
+    "claim_amount_asserted": null,
+    "claim_group": "Group 7",
+    "treatment_summary": "SEC argues BMO's Group 7 position parrots the same argument for Property 2"
+   }
+  ],
+  "attorneys": [],
+  "properties": [
+   {
+    "key": "pr2",
+    "address": "Property 2",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "2",
+    "disposition": "unknown"
+   },
+   {
+    "key": "pr69",
+    "address": "Property 69",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "69",
+    "disposition": "unknown"
+   },
+   {
+    "key": "pr70",
+    "address": "Property 70",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "70",
+    "disposition": "unknown"
+   },
+   {
+    "key": "pr73",
+    "address": "Property 73",
+    "city": null,
+    "state": null,
+    "receiver_property_number": "73",
+    "disposition": "unknown"
+   }
+  ],
+  "related_lawsuits": [],
+  "authorities": [
+   {
+    "citation": "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024)"
+   }
+  ],
+  "assertions": [
+   {
+    "subject_type": "creditor",
+    "subject_key": "p1",
+    "predicate": "party_position",
+    "object_value": "argues it has priority despite no releases existing, as entitled to releases as a matter of Illinois law",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "Citibank and Sabal thus argue they have priority, despite no releases existing",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "creditor",
+    "subject_key": "p2",
+    "predicate": "party_position",
+    "object_value": "argues it has priority despite no releases existing, as entitled to releases as a matter of Illinois law",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "Citibank and Sabal thus argue they have priority, despite no releases existing",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "property",
+    "subject_key": "pr69",
+    "predicate": "status",
+    "object_value": "reported: no releases obtained for Group 7 properties 69, 70, and 73",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "Unlike Group 7 properties 69, 70, and 73, in Group 1 BC57 actually obtained (fraudulent) releases.",
+    "confidence": 0.6,
+    "origin": "inferred"
+   },
+   {
+    "subject_type": "creditor",
+    "subject_key": "p3",
+    "predicate": "party_position",
+    "object_value": "SEC argues BMO's Group 7 Position Statement parrots the release argument for Property 2",
+    "object_type": null,
+    "object_key": null,
+    "modality": "argued",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": null,
+    "referenced_page": null,
+    "quote": "BMO’s Group 7 Position Statement parrots this argument for Property 2.",
+    "confidence": 0.8,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "document_filed",
+    "object_value": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC, Dkt. 1806",
+    "object_type": null,
+    "object_key": null,
+    "modality": "completed",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2024-12-16",
+    "referenced_page": null,
+    "quote": "Case: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 2 of 6",
+    "confidence": 0.9,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "postprocess_version": "2026-11-09.3"
+}

@@ -1,0 +1,211 @@
+{
+ "document": "Receiver's Motion To Approve Settlement Of State Court Action, Dkt. 1938",
+ "page": 1,
+ "pdf": "fixtures/equitybuild/downloads/4e6d66cc362e06d914a153080513ed80.pdf",
+ "page_text": "1\nUNITED STATES DISTRICT COURT\nNORTHERN DISTRICT OF ILLINOIS\nEASTERN DIVISION\nUNITED STATES SECURITIES\nAND EXCHANGE COMMISSION,\nPlaintiff,\nv.\nEQUITYBUILD, INC., EQUITYBUILD\nFINANCE, LLC, JEROME H. COHEN,\nand SHAUN D. COHEN,\nDefendants.\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\n)\nCivil Action No. 18 - cv - 5587\nJudge  Manish Shah\nMagistrate Judge Young B. Kim\nRECEIVER\u2019S MOTION  TO APPROVE\nS E TTLEMENT  OF  STATE COURT  ACTION\nKevin B. Duff, as receiver (\u201cReceiver\u201d) for the Estate of Defendants EquityBuild, Inc.\n( \u201c EquityBuild \u201d ), EquityBuild Finance, LLC ( \u201c EquityBuild Finance \u201d ), their affiliates, and the\naffiliate entities of Defendants Jerome Cohen and Shaun Cohen (collectively, the \u201cReceivership\nDefendants\u201d) ,  respectfully moves  for  an order  approv ing a settlement reached with  Jerrine\nPennington,  as  Special  Administrator  for  the  Estate  of  Valerie  Pennington,  Deceased\n(\u201cPennington\u201d ) . In support of his motion, the Receiver states  as follows:\n1.  On or about  October 14, 2021 ,  Pennington  filed  a Complaint in the  Law Division\nof the  Circuit Court of Cook County captioned  Jerrine Pennington as Special Administrator of the\nEstate of Valerie Pennington, Deceased v. 4533 - 47 Calumet LLC , 4533 - 37 S Calumet LLC, and\nWPD Management, LLC , Case No. 2021 L 010115  (the \u201cCircuit Court  A ction\u201d) . The Complaint\nasserted that the decedent was a tenant in the apartment building  located at 4533 - 47  S Calumet\nAvenue  (Property No. 2) , that was owned by EquityBuild special  purpose entity defendant 4533 -\n37 S Calumet LLC and managed by defendant WPD  Property  Management LLC  (\u201cWPD\u201d) , and\nCase: 1:18-cv-05587 Document #: 1938 Filed: 01/05/26 Page 1 of 8 PageID #:127940",
+ "saved_entities": {
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "aliases": [
+     "SEC"
+    ],
+    "party_roles": [
+     "plaintiff"
+    ],
+    "canonical_name": "United States Securities and Exchange Commission"
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "aliases": [
+     "EquityBuild"
+    ],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "EquityBuild, Inc."
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "aliases": [
+     "EquityBuild Finance"
+    ],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "EquityBuild Finance, LLC"
+   },
+   {
+    "key": "p4",
+    "kind": "person",
+    "aliases": [
+     "Jerome Cohen"
+    ],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "Jerome H. Cohen"
+   },
+   {
+    "key": "p5",
+    "kind": "person",
+    "aliases": [
+     "Shaun Cohen"
+    ],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "Shaun D. Cohen"
+   },
+   {
+    "key": "p6",
+    "kind": "person",
+    "aliases": [
+     "Receiver"
+    ],
+    "party_roles": [
+     "receiver"
+    ],
+    "canonical_name": "Kevin B. Duff"
+   },
+   {
+    "key": "p7",
+    "kind": "person",
+    "aliases": [
+     "Pennington"
+    ],
+    "party_roles": [
+     "claimant"
+    ],
+    "canonical_name": "Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased"
+   },
+   {
+    "key": "p8",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "4533-37 S Calumet LLC"
+   },
+   {
+    "key": "p9",
+    "kind": "organization",
+    "aliases": [
+     "WPD",
+     "WPD Property Management LLC"
+    ],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "WPD Management, LLC"
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p7",
+    "claim_group": null,
+    "creditor_type": "other",
+    "treatment_summary": "Settlement of state court tenant action proposed for approval",
+    "claim_amount_asserted": null
+   }
+  ],
+  "attorneys": [],
+  "properties": [
+   {
+    "key": "pr1",
+    "city": "Chicago",
+    "state": "IL",
+    "address": "4533-47 S Calumet Avenue",
+    "disposition": "unknown",
+    "receiver_property_number": "Property No. 2"
+   }
+  ],
+  "related_lawsuits": [
+   {
+    "key": "r1",
+    "court": "Circuit Court of Cook County, Law Division",
+    "caption": "Jerrine Pennington as Special Administrator of the Estate of Valerie Pennington, Deceased v. 4533-47 Calumet LLC, 4533-37 S Calumet LLC, and WPD Management, LLC",
+    "relationship": "state_court_action",
+    "docket_number": "2021 L 010115"
+   }
+  ]
+ },
+ "saved_assertions": [
+  {
+   "id": "d66b57bd-9c10-4fe5-8218-6ca50f8989de",
+   "document_title": "Receiver's Motion To Approve Settlement Of State Court Action (01/05/2026, Dkt. 1938)",
+   "docket_number": "1938",
+   "page_number": 1,
+   "subject_type": "case",
+   "subject_label": "SEC v. EquityBuild, Inc., et al.",
+   "predicate": "status",
+   "object_value": "Receiver moves for order approving settlement with Pennington",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.8000",
+   "quote": "respectfully moves for an order approv ing a settlement reached with Jerrine Pennington",
+   "status": "unverified"
+  },
+  {
+   "id": "38e4e62a-e456-4b18-926a-8a439eea523f",
+   "document_title": "Receiver's Motion To Approve Settlement Of State Court Action (01/05/2026, Dkt. 1938)",
+   "docket_number": "1938",
+   "page_number": 1,
+   "subject_type": "related_lawsuit",
+   "subject_label": "Jerrine Pennington as Special Administrator of the Estate of Valerie Pennington, Deceased v. 4533-47 Calumet LLC, 4533-37 S Calumet LLC, and WPD Management, LLC",
+   "predicate": "filed_on",
+   "object_value": "2021-10-14",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.8000",
+   "quote": "On or about October 14, 2021 , Pennington filed a Complaint in the Law Division",
+   "status": "unverified"
+  },
+  {
+   "id": "2bc18a1d-9475-4ed8-85fa-70b9c0809c41",
+   "document_title": "Receiver's Motion To Approve Settlement Of State Court Action (01/05/2026, Dkt. 1938)",
+   "docket_number": "1938",
+   "page_number": 1,
+   "subject_type": "property",
+   "subject_label": "4533-47 S Calumet Avenue",
+   "predicate": "owned_by",
+   "object_value": "4533-37 S Calumet LLC",
+   "object_type": "party",
+   "object_label": "4533-37 S Calumet LLC",
+   "origin": "extracted",
+   "confidence": "0.8000",
+   "quote": "that was owned by EquityBuild special purpose entity defendant 4533 - 37 S Calumet LLC",
+   "status": "unverified"
+  },
+  {
+   "id": "fae4318f-996a-4c72-819e-2f8131531669",
+   "document_title": "Receiver's Motion To Approve Settlement Of State Court Action (01/05/2026, Dkt. 1938)",
+   "docket_number": "1938",
+   "page_number": 1,
+   "subject_type": "property",
+   "subject_label": "4533-47 S Calumet Avenue",
+   "predicate": "managed_by",
+   "object_value": "WPD Management",
+   "object_type": "party",
+   "object_label": "WPD Management, LLC",
+   "origin": "extracted",
+   "confidence": "0.7000",
+   "quote": "managed by defendant WPD Property Management LLC",
+   "status": "unverified"
+  }
+ ],
+ "saved_counts": {
+  "parties": 9,
+  "creditors": 1,
+  "attorneys": 0,
+  "properties": 1,
+  "related_lawsuits": 1
+ },
+ "stored_assertion_count": 4
+}

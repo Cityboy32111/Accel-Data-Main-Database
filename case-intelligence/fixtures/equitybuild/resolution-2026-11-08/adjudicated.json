@@ -1,0 +1,310 @@
+{
+ "decisions": [
+  {
+   "left_id": "f030522d-2359-4a96-96ba-832c3c76403c",
+   "right_id": "78421d08-3647-4b59-a8f4-069114926e69",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.9,
+    "rationale": "In this case \"the Commission\" is the defined term for the sole plaintiff, the United States Securities and Exchange Commission (e.g., Dkt. 16 directs the Receivership Defendants to provide copies to \"the Receiver and the Commission\"), so the role term stands unambiguously for one named entity."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.95,
+    "rationale": "Dkt. 16 p1 expressly defines the plaintiff as 'Securities and Exchange Commission's (\"SEC\" or \"Commission\")', and the SEC is the only commission party in this case, so the role term unambiguously stands for the named plaintiff."
+   },
+   "canonical_label": "United States Securities and Exchange Commission"
+  },
+  {
+   "left_id": "f030522d-2359-4a96-96ba-832c3c76403c",
+   "right_id": "25f441a8-8daf-411e-8f8b-9a2fadac4885",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.97,
+    "rationale": "\"U.S.\" is a standard abbreviation of \"United States\" in the agency's name; both labels denote the same plaintiff agency captioned in every filing."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.97,
+    "rationale": "'U.S.' versus 'United States' is a pure abbreviation variant of the same federal agency and sole plaintiff in 18-cv-5587."
+   },
+   "canonical_label": "United States Securities and Exchange Commission"
+  },
+  {
+   "left_id": "f030522d-2359-4a96-96ba-832c3c76403c",
+   "right_id": "7cf85daf-31be-47ee-a467-51ca13a67574",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.95,
+    "rationale": "\"Securities and Exchange Commission\" (and its acronym \"SEC\" in Dkt. 1938 p4) is the same plaintiff agency with the \"United States\" prefix dropped; there is only one SEC in the case."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.97,
+    "rationale": "'Securities and Exchange Commission' is the caption name with the 'United States' prefix dropped, and Dkt. 1938 p4's 'counsel for the SEC' refers to the same plaintiff agency."
+   },
+   "canonical_label": "United States Securities and Exchange Commission"
+  },
+  {
+   "left_id": "205d85ed-64ed-4883-8cf9-364e668846a0",
+   "right_id": "8fcf1d21-4a39-4e4f-b02a-4a56716b5c31",
+   "decision": "distinct",
+   "agreed": true,
+   "paralegal": {
+    "decision": "distinct",
+    "confidence": 0.97,
+    "rationale": "EquityBuild, Inc. and EquityBuild Finance, LLC are separately captioned corporate defendants (parent/affiliate and finance arm) and the rules treat them as distinct entities."
+   },
+   "steward": {
+    "decision": "distinct",
+    "confidence": 0.98,
+    "rationale": "EquityBuild, Inc. and EquityBuild Finance, LLC are separately captioned defendants (parent and lending affiliate), and the rules treat parent and subsidiary as distinct."
+   },
+   "canonical_label": ""
+  },
+  {
+   "left_id": "205d85ed-64ed-4883-8cf9-364e668846a0",
+   "right_id": "46ac8c7c-8b66-4ecb-821c-1aef5824cd64",
+   "decision": "distinct",
+   "agreed": true,
+   "paralegal": {
+    "decision": "distinct",
+    "confidence": 0.95,
+    "rationale": "\"Receivership Defendants\" is defined (Dkt. 1938 p1) as EquityBuild, Inc., EquityBuild Finance, LLC, their affiliates, and the Cohens' affiliate entities collectively, so it stands for multiple entities and cannot be collapsed into EquityBuild, Inc. alone."
+   },
+   "steward": {
+    "decision": "distinct",
+    "confidence": 0.97,
+    "rationale": "Dkt. 16 and Dkt. 1938 p1 define 'Receivership Defendants' collectively as EquityBuild, EquityBuild Finance, and their affiliated entities, so the collective stands for multiple entities and cannot be collapsed into EquityBuild, Inc."
+   },
+   "canonical_label": ""
+  },
+  {
+   "left_id": "205d85ed-64ed-4883-8cf9-364e668846a0",
+   "right_id": "72a10b31-f20d-459b-ac52-4ed754e723b7",
+   "decision": "distinct",
+   "agreed": true,
+   "paralegal": {
+    "decision": "distinct",
+    "confidence": 0.92,
+    "rationale": "\"EquityBuild Finance\" is the defined short form of EquityBuild Finance, LLC (Dkt. 1938 p1), a different corporate defendant from EquityBuild, Inc.; the shared token reflects the corporate family, not identity."
+   },
+   "steward": {
+    "decision": "distinct",
+    "confidence": 0.93,
+    "rationale": "Dkt. 1938 p1 defines 'EquityBuild Finance' as the short form of EquityBuild Finance, LLC, the separate subsidiary, not of EquityBuild, Inc.; the token overlap is the shared brand name only."
+   },
+   "canonical_label": ""
+  },
+  {
+   "left_id": "8fcf1d21-4a39-4e4f-b02a-4a56716b5c31",
+   "right_id": "46ac8c7c-8b66-4ecb-821c-1aef5824cd64",
+   "decision": "distinct",
+   "agreed": true,
+   "paralegal": {
+    "decision": "distinct",
+    "confidence": 0.95,
+    "rationale": "\"Receivership Defendants\" is a collective defined to include EquityBuild, Inc., EquityBuild Finance, LLC and numerous affiliates, so it denotes two or more entities and is not an alias of EquityBuild Finance, LLC."
+   },
+   "steward": {
+    "decision": "distinct",
+    "confidence": 0.97,
+    "rationale": "'Receivership Defendants' is a defined collective covering EquityBuild, Inc., EquityBuild Finance, LLC, and affiliates, so it stands for two or more entities and is not an alias of EquityBuild Finance, LLC alone."
+   },
+   "canonical_label": ""
+  },
+  {
+   "left_id": "a5d252cc-2ccb-4947-9356-0b29d3a495d8",
+   "right_id": "ba3eb27b-23c9-4f4f-b379-2bf91adde64d",
+   "decision": "distinct",
+   "agreed": true,
+   "paralegal": {
+    "decision": "distinct",
+    "confidence": 0.95,
+    "rationale": "\"The Cohens\" is a collective for both Jerome and Shaun Cohen (Dkt. 1967 p12: \"the Cohens ran a Ponzi scheme through their real estate companies\"), so it stands for two individuals and cannot be merged into Shaun Cohen alone."
+   },
+   "steward": {
+    "decision": "distinct",
+    "confidence": 0.97,
+    "rationale": "'The Cohens' refers jointly to Jerome and Shaun Cohen (Dkt. 1967 p12 'the Cohens ran a Ponzi scheme through their real estate companies'), a collective for two people, so it cannot be merged into Shaun Cohen."
+   },
+   "canonical_label": ""
+  },
+  {
+   "left_id": "f5db2668-ea4b-4ec6-9183-5b32c24d76c5",
+   "right_id": "1e55b128-b8c8-4797-90eb-ec23937cc9d9",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.88,
+    "rationale": "The Order Appointing Receiver names Kevin B. Duff as the federal equity receiver and later filings define \"Kevin B. Duff, as receiver ('Receiver')\" (Dkt. 1938 p1), so \"Receiver\" is a role term that unambiguously denotes this single named person throughout the case."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.9,
+    "rationale": "Dkt. 16 appoints Kevin B. Duff as federal equity receiver and defines him as '(the \"Receiver\") for the estate of the Receivership Defendants', and he is the only receiver in this case, so the role term unambiguously denotes Duff."
+   },
+   "canonical_label": "Kevin B. Duff (Receiver)"
+  },
+  {
+   "left_id": "78421d08-3647-4b59-a8f4-069114926e69",
+   "right_id": "25f441a8-8daf-411e-8f8b-9a2fadac4885",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.88,
+    "rationale": "\"Commission\" is the case's defined term for the plaintiff SEC and \"U.S. Securities and Exchange Commission\" is an abbreviated form of the same agency, so both denote the single plaintiff; consistent with merging both into the full-name record."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.93,
+    "rationale": "'Commission' is the Dkt. 16 defined term for the SEC plaintiff and 'U.S. Securities and Exchange Commission' is an abbreviation variant of that same agency; both resolve to the single plaintiff."
+   },
+   "canonical_label": "United States Securities and Exchange Commission"
+  },
+  {
+   "left_id": "25f441a8-8daf-411e-8f8b-9a2fadac4885",
+   "right_id": "7cf85daf-31be-47ee-a467-51ca13a67574",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.95,
+    "rationale": "Both labels are shortened forms of the plaintiff's name differing only in the \"U.S.\" prefix, and the shared alias \"SEC\" (Dkt. 1938 p4) confirms one agency."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.97,
+    "rationale": "Both labels are name variants of the same federal agency and sole plaintiff, differing only in the presence of the 'U.S.' prefix."
+   },
+   "canonical_label": "United States Securities and Exchange Commission"
+  },
+  {
+   "left_id": "bbbfd1f0-3ee5-4263-9734-851194d60cd9",
+   "right_id": "fc895704-a812-427d-8108-192a51bf84c7",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.85,
+    "rationale": "\"Prometheum\" is the short form of the Receiver's forensic consultant Prometheum Technologies, Inc. (retained August 31, 2018, rates approved September 6, 2018, Dkt. 56), a distinctive name with no other Prometheum entity in the record."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.95,
+    "rationale": "Dkt. 107 p4 reads 'The Receiver retained Prometheum Technologies, Inc. (\"Prometheum\") as a forensic consultant', an explicit defined-term abbreviation of the same retained firm."
+   },
+   "canonical_label": "Prometheum Technologies, Inc."
+  },
+  {
+   "left_id": "d01a06e3-a08d-4ffb-ae89-c32291a896d4",
+   "right_id": "ba3eb27b-23c9-4f4f-b379-2bf91adde64d",
+   "decision": "distinct",
+   "agreed": true,
+   "paralegal": {
+    "decision": "distinct",
+    "confidence": 0.95,
+    "rationale": "\"The Cohens\" collectively denotes Jerome (Jerry) and Shaun Cohen, two defendants, so it is not an alias for Jerry Cohen individually."
+   },
+   "steward": {
+    "decision": "distinct",
+    "confidence": 0.97,
+    "rationale": "'The Cohens' is a collective for both Jerome (Jerry) and Shaun Cohen, so it stands for two individuals and cannot be merged into Jerry Cohen alone."
+   },
+   "canonical_label": ""
+  },
+  {
+   "left_id": "f9ea4a04-c132-415c-9cc0-81e92dc249ab",
+   "right_id": "841d95c6-d207-4bcb-b223-2f65dc2ec721",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.92,
+    "rationale": "Dkt. 1938 p1 expressly defines \"Pennington\" as \"Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased ('Pennington')\", so the surname-only references on p3 are this administrator party."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.95,
+    "rationale": "Dkt. 1938 p1 defines the settling party as 'Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased (\"Pennington\")', so the surname-only term in that filing is the defined term for this administrator record."
+   },
+   "canonical_label": "Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased"
+  },
+  {
+   "left_id": "44b0a4c6-9cac-40f1-8f6a-eec2e0dd021b",
+   "right_id": "841d95c6-d207-4bcb-b223-2f65dc2ec721",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.7,
+    "rationale": "The \"Jerrine Pennington\" record is extracted from the Dkt. 1938 settlement-party sentence where she acts as Special Administrator, the same person and capacity the filing defines as \"Pennington\"; the filing never refers to her in a purely personal capacity, so the surname reference is the administrator."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.8,
+    "rationale": "Within Dkt. 1938 'Pennington' is the administrator and Jerrine Pennington appears only in that representative capacity (check payable 'to Jerrine Pennington on behalf of the Estate'), and the pipeline already auto-merges this person record with the administrator record at 0.95, so the surname reference resolves to the same administrator."
+   },
+   "canonical_label": "Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased"
+  },
+  {
+   "left_id": "4f50bc9b-8f16-4fb3-a074-3fa59a774e61",
+   "right_id": "841d95c6-d207-4bcb-b223-2f65dc2ec721",
+   "decision": "distinct",
+   "agreed": true,
+   "paralegal": {
+    "decision": "distinct",
+    "confidence": 0.93,
+    "rationale": "Valerie Pennington is the deceased tenant whose estate is represented; Dkt. 1938 defines \"Pennington\" as the Special Administrator Jerrine Pennington, and a decedent cannot be the party who \"will receive nothing further\"."
+   },
+   "steward": {
+    "decision": "distinct",
+    "confidence": 0.95,
+    "rationale": "Valerie Pennington is the decedent tenant, while Dkt. 1938 p1 defines 'Pennington' as the Special Administrator Jerrine Pennington; the estate/decedent is distinct from the administrator."
+   },
+   "canonical_label": ""
+  },
+  {
+   "left_id": "980a6383-dd66-4a7e-8a89-0951ee8eb1a7",
+   "right_id": "c1a9c819-9726-4eda-b4d2-06995de828e0",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.82,
+    "rationale": "Both records describe the single Naples, Florida residence of Jerry Cohen, with the right label carrying the filing's defined term \"the Naples Property\" that the left label abbreviates; no second Naples property appears in the case."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.85,
+    "rationale": "Dkt. 107 describes a single Naples, Florida single-family home whose mortgage was paid from Jerry Cohen's joint account and which Jerome Cohen contests as a Receivership Asset, so 'the Naples property' and 'Jerry Cohen's Naples home (the Naples Property)' describe the same property."
+   },
+   "canonical_label": "Naples Property (Jerry Cohen's Naples home)"
+  },
+  {
+   "left_id": "c71809d6-0c17-42a1-98b9-efb84da53953",
+   "right_id": "7a769373-9e8a-4548-808d-df8574e85f9e",
+   "decision": "merge",
+   "agreed": true,
+   "paralegal": {
+    "decision": "merge",
+    "confidence": 0.92,
+    "rationale": "Dkt. 1938 p1 defines the \"Circuit Court Action\" as the Cook County case captioned Jerrine Pennington as Special Administrator of the Estate of Valerie Pennington, Deceased v. 4533-47 Calumet LLC, 4533-37 S Calumet LLC, and WPD Management, LLC (Case No. 2021 L 010115), a personal injury/wrongful death suit, so both records describe the same proceeding."
+   },
+   "steward": {
+    "decision": "merge",
+    "confidence": 0.95,
+    "rationale": "Dkt. 1938 p1 defines the 'Circuit Court Action' as the Cook County Law Division case captioned Jerrine Pennington as Special Administrator of the Estate of Valerie Pennington, Deceased v. 4533-47 Calumet LLC, 4533-37 S Calumet LLC, and WPD Management, LLC, Case No. 2021 L 010115, so both records describe the same proceeding."
+   },
+   "canonical_label": "Jerrine Pennington as Special Administrator of the Estate of Valerie Pennington, Deceased v. 4533-47 Calumet LLC, 4533-37 S Calumet LLC, and WPD Management, LLC (Cook County Case No. 2021 L 010115, the Circuit Court Action)"
+  }
+ ]
+}

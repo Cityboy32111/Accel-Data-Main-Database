@@ -1,0 +1,1321 @@
+{
+ "totals": {
+  "creditors": {
+   "tp": 15,
+   "fp": 0,
+   "fn": 8
+  },
+  "attorneys": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 0
+  },
+  "organizations": {
+   "tp": 34,
+   "fp": 2,
+   "fn": 5
+  },
+  "properties_or_assets": {
+   "tp": 10,
+   "fp": 0,
+   "fn": 1
+  },
+  "related_proceedings": {
+   "tp": 5,
+   "fp": 0,
+   "fn": 7
+  }
+ },
+ "citations": {
+  "assertions": 34,
+  "quote_match": 34,
+  "claim_support": 33,
+  "both": 33,
+  "modality_correct": 34,
+  "proceeding_correct": 34,
+  "flagged": 9,
+  "flagged_and_unsupported": 0
+ },
+ "dropped": {
+  "baseline_assertions_compared": 36,
+  "supported_but_missing": 2
+ },
+ "perPage": [
+  {
+   "page": "appointment-order p1",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 3,
+     "fp": 1,
+     "fn": 0,
+     "tp_items": [
+      "UNITED STATES SECURITIES AND EXCHANGE COMMISSION (p1, plaintiff, aliases SEC/Commission) = label 'United States Securities and Exchange Commission'",
+      "EQUITYBUILD, INC. (p2, defendant, alias 'Equitybuild, Inc.') = label 'EquityBuild, Inc.'",
+      "EQUITYBUILD FINANCE, LLC (p3, defendant, alias 'Equitybuild Finance, LLC') = label 'EquityBuild Finance, LLC'"
+     ],
+     "fp_items": [
+      "UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF ILLINOIS (p6, kind organization, party_roles ['court']) - the tribunal from the page heading stored as an organization party. Not in the labels for this page, and no page in the label set treats a court as an organization; the forum belongs to the proceeding record, not the organizations list. Counted FP under the labels' convention; see judgment_calls for the alternative."
+     ],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "Quote matches the second WHEREAS recital across a line break (text-layer split 'neces sary' is a whitespace difference). The object_value now carries the recital's full asset scope ('Defendants Equitybuild, Inc., Equitybuild Finance, LLC, their affiliates, and the affiliate entities of Defendants Jerome Cohen and Shaun Cohen'), which fixes the baseline paraphrase that could have read as including the Cohens' personal assets. Condition 'based on the record in these proceedings' is verbatim on the page. Proceeding is the main case. Minor: modality 'ordered' is applied to a court finding in a recital rather than a decretal paragraph (the enumerated modalities have no 'found'); predicate 'status' for a finding is a taxonomy choice the baseline also accepted."
+     },
+     {
+      "index": 1,
+      "predicate": "filed_on",
+      "quote_on_page": true,
+      "claim_supported": false,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "Quote is the ECF header, verbatim. But the assertion as written is subject '(main case)' filed_on '2018-08-17' with no document reference: the page supports only that Document #16 (this Order) was filed 08/17/18, not that the case was filed on that date (the case-commencement date does not appear on the page). The schema limits subject_key 'case' to facts about the main case itself, and the other retest pages put a document description in object_value for case/filed_on; this one puts a bare date, so counsel would read it as the case filing date. Correction: object_value 'Order Appointing Receiver (Dkt. 16) filed' with as_of_date 2018-08-17, or a document-level subject. Not flagged for review by the extractor (needs_review false, no lint flags)."
+     },
+     {
+      "index": 2,
+      "predicate": "authorized_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "Quote matches decretal paragraph 1 (text-layer split 'juri sdiction' is whitespace only). The sentence is cut off at the page break ('of the assets, of'), so the definition of which assets continues on page 2; the object_value says only 'the assets' and does not over-claim. Modality 'ordered' is correct for a decretal paragraph following 'IT IS HEREBY ORDERED, ADJUDGED AND DECREED'. Predicate 'authorized_to' is an odd fit for the Court's own act of taking jurisdiction (an 'ordered_to'/'holds' style predicate would read better), scored on substance."
+     }
+    ],
+    "dropped_facts": [
+     {
+      "baseline_assertion": "United States Securities and Exchange Commission has_role plaintiff (043c4fe4)",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Not a retest assertion; the fact survives as output.parties p1 party_roles ['plaintiff'] with aliases SEC/Commission. The role is no longer a cited, quote-bearing assertion."
+     },
+     {
+      "baseline_assertion": "EquityBuild, Inc. has_role defendant (6294a2a0)",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Present as output.parties p2 party_roles ['defendant']; no retest assertion carries it."
+     },
+     {
+      "baseline_assertion": "EquityBuild Finance, LLC has_role defendant (df996532)",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Present as output.parties p3 party_roles ['defendant']; canonical name normalized from the text-layer 'EQUITYBUILD FINANCE , LLC'. No retest assertion carries it."
+     },
+     {
+      "baseline_assertion": "Jerome H. Cohen has_role defendant (a7841701)",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Present as output.parties p4 (kind person) party_roles ['defendant'], alias 'Jerome Cohen'. No retest assertion carries it."
+     },
+     {
+      "baseline_assertion": "Shaun D. Cohen has_role defendant (5f22a533)",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Present as output.parties p5 (kind person) party_roles ['defendant'], alias 'Shaun Cohen'. No retest assertion carries it."
+     },
+     {
+      "baseline_assertion": "SEC v. EquityBuild, Inc., et al. status: Court finds receiver appointment necessary to marshal and preserve assets of defendants and affiliates (f2eb5361)",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Present as retest assertion index 0 with the asset scope stated more precisely than the baseline (names the two entities, their affiliates, and the Cohens' affiliate entities) and the condition 'based on the record in these proceedings' preserved. Retest also adds two facts the baseline did not have: the Dkt. 16 filing date (index 1, scored unsupported as written) and decretal paragraph 1 taking exclusive jurisdiction and possession (index 2)."
+     }
+    ],
+    "judgment_calls": [
+     "Organizations FP for the court: p6 'UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF ILLINOIS' is plainly on the page, so under the 'labels missed it' rule it could be a TP. I counted it FP because the labels (and every other page in the label set) never treat the tribunal as an organization, the extractor stored it as a party with role 'court', and the forum belongs with the proceeding record. If the human treats courts as organizations, this page becomes 4 TP / 0 FP (precision 100% instead of 75%). Small denominator either way: 4 predicted, 3 labeled.",
+     "Related proceedings: the labels list the receivership action itself (SEC v. EquityBuild, Inc., et al., 1:18-cv-05587). Per the schema convention the main case is never a related proceeding, so it is not counted as an FN; the category is 0/0/0 (N/A) for this page. The baseline scored this same item as 1 FN under the labels, so the side-by-side should show the convention change, not an extractor improvement.",
+     "Assertion index 1 (case filed_on 2018-08-17) scored claim_supported false: the ECF header dates Document 16, not the case. If the project reads 'case filed_on' on a filing page as shorthand for the document's filing date, it flips to supported and the page is 3/3 instead of 2/3. Either way the assertion should carry the document reference in object_value, as the other retest pages do; the extractor did not flag it for review.",
+     "Modality 'ordered' on assertion index 0: the finding sits in a WHEREAS recital of a signed order, not in a decretal paragraph. The enumerated modalities offer no 'found'; I treated the Court's own finding as correctly distinguished from any party-side modality. Confirm whether findings/recitals should get their own modality.",
+     "Predicate taxonomy: 'status' for a court finding (index 0) and 'authorized_to' for the Court taking jurisdiction (index 2) are loose fits; scored on substance, consistent with the baseline's treatment of 'status' on this page.",
+     "Coverage denominator change: the baseline stored 6 assertions on this page (5 party has_role + 1 finding); the retest stores 3 (finding, filing date, jurisdiction). The five role facts moved into output.parties party_roles and are no longer quote-bearing assertions. Nothing is lost at the fact level, but the per-page citation denominator dropped from 6 to 3, so the page-level accuracy rate (2/3 as scored here) is on a smaller base than the baseline's 6/6. Confirm whether party roles need citeable assertions for counsel.",
+     "Assertion index 2 quotes a sentence cut off at the page break ('of the assets, of'); the asset definition is on page 2. Scored supported because the object_value does not over-claim, but a reviewer may want the quote or object_value to note the continuation.",
+     "Zero denominators: creditors, attorneys, properties_or_assets, and (by convention) related_proceedings have no labeled or predicted items on this page, so precision/recall are N/A rather than 100%.",
+     "Entity resolution note: retest canonical names are the all-caps caption forms ('EQUITYBUILD, INC.') with body forms as aliases, whereas the baseline stored title-case; name-variant matching treated them as the same entities for scoring."
+    ]
+   }
+  },
+  {
+   "page": "appointment-order p5",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "authorized_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. Paragraph E of the order reads 'The representatives of the Receiver initially designated with authority over these accounts shall be Kevin B. Duff.' Quote matches ignoring extra spacing. 'Ordered' modality is correct for an operative paragraph of a court order; main-case attachment is correct (header Case 1:18-cv-05587). Minor: predicate 'authorized_to' is a loose fit for what is really a role designation (baseline used has_role), but the substance is supported as written."
+     },
+     {
+      "index": 1,
+      "predicate": "authorized_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. Paragraph B of the enumerated receiver powers: 'To take custody, control, and possession of all Receivership Assets and records relevant thereto from the Receivership Defendants'. Ordered modality and main-case proceeding are correct. Minor schema note: subject_type is 'case' with subject_label '(main case)' rather than the Receiver party; the object_value names the Receiver, so the fact is still accurately stated."
+     },
+     {
+      "index": 2,
+      "predicate": "authorized_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. Paragraph D: 'The Receiver shall have the authority to open, close, transfer and change all bank, investment and securities Accounts.' Quote matches ignoring the 'securit ies' extraction split. Ordered modality and main-case proceeding are correct. Same subject_type 'case' schema note as index 1."
+     }
+    ],
+    "dropped_facts": [
+     {
+      "baseline_assertion": "Kevin B. Duff has_role 'representative of the Receiver initially designated with authority over accounts' (quote: 'The representatives of the Receiver initially designated with authority over these accounts shall be Kevin B. Duff.')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Same fact is retest assertion index 0 (predicate changed from has_role to authorized_to, modality now explicit 'ordered', conditions 'initially designated; authority over the Accounts'). Nothing dropped. The retest additionally added two receiver-power assertions (paragraphs B and D) that the baseline did not capture, so coverage on this page went from 1 to 3 supported assertions."
+     }
+    ],
+    "judgment_calls": [
+     "Every entity category on this page has a zero denominator in both labels and retest output (0 TP / 0 FP / 0 FN across creditors, attorneys, organizations, properties_or_assets, related_proceedings). Precision and recall are undefined here; this page contributes nothing to per-type rates and should be called out as such in the scorecard rather than reported as 100%.",
+     "The retest's only party is Kevin B. Duff (kind person, party_roles ['receiver']). The page names him only as the Receiver's initially designated representative over the Accounts, not expressly as the Receiver; the labels' note says he is not an attorney under the schema and no firm or representation appears. Because he is kind=person he is not scored in any entity category here, but a human should confirm whether 'receiver' is the right role to carry from this page alone (it is true of the case overall, but this page's text says 'representatives of the Receiver').",
+     "The baseline run had saved an organization party 'Receivership Defendants' (p2); the retest dropped it. This is a correct drop: the labels treat 'Receivership Defendants' as a generic defined role term, not a named entity, so the baseline item was a placeholder false positive and its removal is an improvement, not a lost fact.",
+     "Retest assertions 1 and 2 use subject_type 'case' / subject_label '(main case)' with the Receiver named only in object_value. The facts are supported as written, but for the product goal (filing, proceeding, legal status visible together) counsel may prefer the Receiver party as subject. Scored as supported; flag as a schema/presentation choice, not an accuracy miss.",
+     "Assertion 0 uses predicate 'authorized_to' for what is a designation of a signatory ('shall be Kevin B. Duff'); the baseline used 'has_role'. Treated as supported because the object_value accurately states the designation and the condition 'initially designated' is preserved.",
+     "Labels do not list the main case (1:18-cv-05587) under related_proceedings and the retest put nothing under output.authorities, so the main-case convention did not need to be applied on this page; noted for consistency with other pages.",
+     "Quote matching for indexes 0 and 2 relied on the stated whitespace tolerance ('shall be  Kevin B. Duff .' and 'securit ies'); both are verbatim on the page image once spacing is ignored."
+    ]
+   }
+  },
+  {
+   "page": "status-report-1 p1",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "United States Securities and Exchange Commission (output p1 'UNITED STATES SECURITIES AND EXCHANGE COMMISSION', aliases SEC/Commission)",
+      "EquityBuild, Inc. (output p2 'EQUITYBUILD, INC.')",
+      "EquityBuild Finance, LLC (output p3 'EQUITYBUILD FINANCE, LLC')"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "appointed_on",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "Quote 'pursuant to the powers vested in him by Order of this Court entered on August 17, 2018' is on the page (whitespace artifacts only). The page does not literally say 'appointed on'; the appointment date is inferred from the Order of this Court entered 8/17/2018 that vested receiver powers in Duff, read together with the reference to the Order Appointing Receiver (Docket No. 16). The extractor marked origin 'inferred' at 0.7 and the labels read the page the same way (Dkt. 16 entered August 17, 2018), so counted as supported; modality 'ordered' and main-case proceeding are correct."
+     },
+     {
+      "index": 1,
+      "predicate": "filed_on",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "problem": "Quote 'now respectfully submits this First Status Report for the quarter ending September 30, 2018' is on the page. The substance (First Status Report for the quarter ending 9/30/2018 submitted in the main case, as_of 2018-10-30 per the filing stamp) is supported and 'completed' is the right modality for the submission itself. Two quality issues: (a) predicate 'filed_on' carries a descriptive sentence as object_value instead of a date; (b) the lint flag 'modality_conflict: completed but quote signals respectfully requests' is a false positive, the quote says 'respectfully submits', not 'requests', and it halved final_confidence to 0.425 and set needs_review. Not a citation-accuracy failure, but the lint pattern should be tightened."
+     }
+    ],
+    "dropped_facts": [
+     {
+      "baseline_assertion": "Kevin B. Duff has_role receiver (quote: 'Kevin B. Duff, as the receiver (\"Receiver\")')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Carried as entity: output.parties p6 Kevin B. Duff, party_roles ['receiver'], alias 'Receiver'. No standalone assertion, but the fact is preserved."
+     },
+     {
+      "baseline_assertion": "SEC v. EquityBuild, Inc., et al. receiver_appointed_on 2018-08-17 (quote: 'pursuant to the powers vested in him by Order of this Court entered on August 17, 2018')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Same fact appears as retest assertion index 0 (subject moved from the case to Kevin B. Duff, predicate appointed_on 2018-08-17, modality ordered, main case)."
+     },
+     {
+      "baseline_assertion": "SEC v. EquityBuild, Inc., et al. docket_number 18-cv-5587 (quote: 'Civil Action No. 18 - cv - 5587')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": false,
+      "note": "DROPPED. No retest assertion or entity on this page carries the civil action number 18-cv-5587; related_lawsuits and authorities are empty and no case-level entity exists in output. Caption metadata is plainly on the page. Likely acceptable if the pipeline captures the docket number at document level rather than per page, but confirm so the main-case number is not lost from the page record."
+     },
+     {
+      "baseline_assertion": "United States Securities and Exchange Commission has_role plaintiff (quote: 'UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Carried as entity: output.parties p1, party_roles ['plaintiff']."
+     },
+     {
+      "baseline_assertion": "Jerome H. Cohen has_role defendant (quote: 'JEROME H. COHEN, and SHAUN D. COHEN, Defendants.')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Carried as entity: output.parties p4 Jerome H. Cohen, party_roles ['defendant'] (p5 Shaun D. Cohen likewise)."
+     }
+    ],
+    "judgment_calls": [
+     "Labels list the main receivership case (SEC v. EquityBuild, 1:18-cv-05587) under related_proceedings; per project schema the main case is never a related proceeding, so the empty output.related_lawsuits is scored 0 FN, not 1 FN. The label note itself anticipates this convention.",
+     "Citation index 0 (Duff appointed_on 2018-08-17, modality ordered) is scored supported although the page says the Order of this Court 'entered on August 17, 2018' vested powers in the Receiver rather than literally stating an appointment date; the Order Appointing Receiver (Docket No. 16) is referenced in the same sentence and the labels record Dkt. 16 as entered August 17, 2018. A lawyer may prefer this be recorded as the order-entry date rather than appointment date, but it is the same instrument.",
+     "Citation index 1 is supported and correctly 'completed', but needs_review is true only because of a false-positive lint ('respectfully submits' matched a 'respectfully requests' pattern). Recommend the lint pattern be narrowed so submissions are not flagged as requests; the assertion also uses a descriptive sentence as the object of 'filed_on' instead of a date (2018-10-30 is in as_of_date).",
+     "Baseline docket_number fact (18-cv-5587) is not present in retest assertions or entities for this page. Confirm whether the main-case civil action number is captured at document level; otherwise this is a missed fact hidden by the higher per-assertion score.",
+     "Small denominators: only 2 retest assertions (2/2 quote match, 2/2 supported) and 3 organizations (3/3); creditors, attorneys, properties, related proceedings are all 0/0, so precision/recall are undefined, not 100%, for those types on this page.",
+     "Retest page_kind is 'mixed' while labels say 'caption'; the page is a caption plus an introductory paragraph and start of Background, so either is defensible. Not scored.",
+     "Retest added Young B. Kim (magistrate judge) and John Z. Lee as 'court' person parties and Kevin B. Duff as receiver; persons are outside the scored entity types and the labels explicitly exclude judges and the Receiver-as-non-counsel, so no FP is counted."
+    ]
+   }
+  },
+  {
+   "page": "status-report-1 p22",
+   "scores": {
+    "creditors": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 2,
+     "tp_items": [
+      "City of Chicago (output p4, creditor_type taxing_authority)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "Fireshark Enterprises, LLC (litigation claimant; retest lists it only as a party/plaintiff, not a creditor)",
+      "Markwell (litigation claimant; retest lists it only as a person party/plaintiff, not a creditor)"
+     ]
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 3,
+     "tp_items": [
+      "Fireshark Enterprises, LLC (p1)",
+      "EquityBuild, Inc. (p2)",
+      "City of Chicago (p4)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "City of Chicago Buildings Department",
+      "Department of Streets and Sanitation (City of Chicago)",
+      "Department of Water Management (City of Chicago)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 5,
+     "tp_items": [
+      "Fireshark Enterprises, LLC v. EquityBuild, Inc., Case No. 2018 L 9026 (r1; court and docket match)",
+      "Markwell v. EquityBuild, Inc., Case No. 2018-13722 (r2; court and docket match)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "City of Chicago municipal housing court matters (seven)",
+      "City of Chicago Buildings Department administrative proceedings (approximately twelve)",
+      "Department of Streets and Sanitation administrative proceedings (approximately twelve)",
+      "Department of Water Management administrative matter (one)",
+      "Two open City of Chicago violations with notice sent, no court date"
+     ]
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. Page 22 states the Receiver filed his appearance and Notice of Appointment of Receiver and Stay of Litigation on September 24, 2018 in the Fireshark Cook County action; modality 'completed' and proceeding_label 'Fireshark Enterprises, LLC, v. EquityBuild, Inc.' both match the passage."
+     },
+     {
+      "index": 1,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. Page 22 states EquityBuild's Texas counsel filed a motion to stay and is awaiting a court order in the Markwell Harris County action; the assertion does not claim the stay was granted, carries the condition 'awaiting a court order', and is attached to the Markwell proceeding. Modality 'reported' is acceptable (the Receiver reports the filing); 'completed' for the filing itself would also have been defensible."
+     }
+    ],
+    "dropped_facts": [
+     {
+      "baseline_assertion": "Fireshark Enterprises, LLC, v. EquityBuild, Inc. \u2014 status: On September 24, 2018, the Receiver filed his appearance and Notice of Appointment of Receiver and Stay of Litigation.",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Same fact appears as retest assertion index 0 (modality completed, as_of_date 2018-09-24) and r1 related_lawsuit entry."
+     },
+     {
+      "baseline_assertion": "Markwell v. EquityBuild, Inc. \u2014 status: EquityBuild's counsel in Texas filed a motion to stay and is awaiting a court order.",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Same fact appears as retest assertion index 1 (modality reported, condition 'awaiting a court order') and r2 related_lawsuit entry."
+     }
+    ],
+    "judgment_calls": [
+     "Page-level citation result: 2 of 2 quotes on page, 2 of 2 assertions supported as written, 0 flagged for review; no baseline facts dropped. Both baseline and retest emit only 2 assertions, so coverage of this page is low in both runs \u2014 none of the City of Chicago code-violation facts (seven housing court matters; ~12 Buildings Department proceedings with one dismissed October 16, 2018; ~12 Streets and Sanitation proceedings with seven dismissed and single-count fines on five; one Water Management matter; two violations awaiting a court date) are captured as assertions. This is a coverage gap, not a dropped fact, since the baseline never had them either.",
+     "Creditors denominator is small (3 labeled). The labels' own notes say the Fireshark, Markwell and City of Chicago creditor labels are judgment calls (litigation/regulatory claimants with no stated amounts). Applying the labels as fixed, Fireshark and Markwell are FNs because the retest kept them only as parties. A human should confirm whether a plaintiff in a stayed state-court action counts as a creditor under the project schema; if not, creditors would be 1/1 with 0 FN.",
+     "City of Chicago creditor_type is 'taxing_authority'; the page describes building-code violations and fines, not taxes. Counted as a TP on entity identity, but the type value is questionable and worth confirming.",
+     "Organizations: the retest collapsed the three named City agencies (Buildings Department, Streets and Sanitation, Water Management) into 'City of Chicago'. Counted as 3 FNs per the labels. A human should confirm whether sub-agencies of a labeled municipality should be separate entities under the schema; this decision moves organization recall from 50% to 100%.",
+     "Related proceedings: 5 of the 7 labeled items are uncaptioned City of Chicago housing-court/administrative matters with no case numbers. The retest's related_lawsuits schema (caption/court/docket_number) seems built for captioned actions, so the extractor omitted them. Counted as FNs per the labels, but the project should decide whether grouped administrative matters belong in related_lawsuits or in assertions about the City of Chicago creditor. This is the main driver of the 2/7 recall on this page.",
+     "Main receivership case (SEC v. EquityBuild, 1:18-cv-05587) appears only in the page header; the labels correctly did not list it as a related proceeding and the retest did not emit it, so no adjustment was needed. Convention noted for visibility.",
+     "Markwell is typed as a person party (kind person) in the retest; the labels list Markwell only as a creditor, not an organization, so this has no effect on the organizations score. The page gives no first name; person vs. unknown-entity typing is an assumption.",
+     "Assertion index 1 modality 'reported' was accepted as correct. The motion filing is itself a completed act reported by the Receiver, so either 'reported' or 'completed' would be reasonable; the important point \u2014 that the stay was not stated as granted \u2014 is preserved by the condition field.",
+     "Attorneys and properties_or_assets have zero labeled items and zero extracted items (0/0/0); precision and recall are undefined for this page in those categories and should not be averaged into per-type rates without noting the empty denominator."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1806 p1",
+   "scores": {
+    "creditors": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 2,
+     "tp_items": [
+      "BMO Bank N.A. (p3, Group 7, institutional_lender) = label BMO Bank N.A.",
+      "Citibank N.A. (p4, Group 7, institutional_lender) = label Citibank N.A.",
+      "Sabal Capital Operations, LLC (p5, Group 7, institutional_lender) = label Sabal Capital Operations, LLC"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "Midland (Group 6 lender, footnote 1, ECF 1757) - now extracted as organization party p6 with role lender, but not placed under output.creditors",
+      "UBS (Group 6 lender, footnote 1, ECF 1756) - now extracted as organization party p7 with role lender, but not placed under output.creditors"
+     ]
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "U.S. Securities and Exchange Commission (p1, alias SEC, plaintiff) = label U.S. Securities and Exchange Commission",
+      "EquityBuild, Inc. (p2, defendant) = label EquityBuild, Inc.",
+      "BMO Bank N.A. (p3, alias BMO, lender) = label BMO Bank N.A.",
+      "Citibank N.A. (p4, alias Citibank, lender) = label Citibank N.A.",
+      "Sabal Capital Operations, LLC (p5, alias Sabal, lender) = label Sabal Capital Operations, LLC",
+      "Midland (p6, lender; footnote 1) = label Midland",
+      "UBS (p7, lender; footnote 1) = label UBS"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Property 69 (pr69, receiver_property_number 69) = label Property 69",
+      "Property 70 (pr70, receiver_property_number 70) = label Property 70",
+      "Property 73 (pr73, receiver_property_number 73) = label Property 73"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Seventh Circuit appeal(s) on EquityBuild priority disputes - referenced generically on the page ('this Court and the Seventh Circuit have already addressed factually similar priority disputes'); output.related_lawsuits is empty and output.authorities is empty"
+     ]
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "Quote verified in the PDF (last sentence of the opening paragraph). Object value frames the statement as the SEC's argument ('SEC argues the Court should find ...'), modality 'argued' matches a response brief, and the page does not say the Court has ruled. 'such Group 7 investors' on the page refers back to investors 'who had recorded mortgages that were never validly released', which the object_value reproduces. Proceeding is the main case (Dkt. 1806 in 18-CV-5587), correctly labeled."
+     },
+     {
+      "index": 1,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "Quote verified in the PDF (first sentence of Section A; the text-layer line breaks are the only difference). The page sentence says Citibank and Sabal together concede the two facts 'for Properties 69, 70, and 73'; the assertion narrows Citibank's concession to Properties 69 and 73 using the Section A heading 'Citibank (Properties 69 and 73) and Sabal (Property 70)'. That is a fair reading of the page and the concession is correctly presented as the SEC's characterization ('SEC argues Citibank concedes'), not as a court finding. Minor: 'reported' could also describe the SEC relaying an opponent's concession; 'argued' is not wrong because the object_value keeps the 'SEC argues' frame."
+     },
+     {
+      "index": 2,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "Quote verified in the PDF; it is a truncated prefix of the same Section A sentence used in index 1, so the '(b) no releases exist' part of the claim lies in the sentence just after the quoted span rather than inside it. The full sentence on the page supports the claim, and the Property 70 narrowing follows the Section A heading. Same modality note as index 1."
+     }
+    ],
+    "dropped_facts": [
+     {
+      "baseline_assertion": "39ac3db3: Citibank N.A. secured_by_property 'Property 69 and Property 73' (quote: 'Citibank (Properties 69 and 73) and Sabal (Property 70)')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Baseline scored it supported with the caveat that 'secured' was inferred from the lender role plus the heading. In the retest the Citibank-to-Properties-69/73 link survives in creditor p4's treatment_summary ('priority over Citibank for Properties 69 and 73') and in assertion index 1 (mortgages on Properties 69 and 73), but there is no longer a structured property-link assertion tying party p4 to property entities pr69/pr73. The fact is present in text; the machine-readable link is gone, so a property-level 'who claims what' view would need to parse the summary."
+     },
+     {
+      "baseline_assertion": "16b4b0da: Sabal Capital Operations, LLC secured_by_property 'Property 70' (same heading quote)",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Same pattern as above: Sabal-to-Property-70 link survives in creditor p5's treatment_summary and in assertion index 2, but no structured secured_by_property assertion links p5 to pr70."
+     },
+     {
+      "baseline_assertion": "7ff3d528: case status 'SEC contends Group 7 investors with recorded, never-released mortgages have priority' (quote: 'the Court should find that such Group 7 investors likewise have priority.')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Carried forward as retest assertion index 0 with the same quote; predicate improved from 'status' to 'party_position' and modality now explicit as 'argued', which addresses the baseline's schema concern."
+     }
+    ],
+    "judgment_calls": [
+     "Creditor label 'Group 7 investors (unnamed investor-mortgagees)' was excluded from the creditor FN count, as in the baseline, because it is an unnamed collective rather than a named entity. If a reviewer counts it, creditor FN becomes 3 (recall 3/6 = 50% rather than 3/5 = 60%). Denominator is small (5 or 6).",
+     "Midland and UBS are now extracted as organization parties (p6, p7, role lender), fixing the baseline organization misses, but they are not listed under output.creditors. Counted as creditor FN per the labels, consistent with the baseline. A reviewer could decide that footnote-only Group 6 lenders (whose position statements this filing does not respond to) are out of scope as creditors on this page, which would make creditors 3/3.",
+     "Related proceedings: the labels list the main receivership action (SEC v. EquityBuild, 18-CV-5587) as a related proceeding. Per the project schema it is never a related proceeding, so it was not counted as FN here; the baseline did count it, so baseline FN 2 vs retest FN 1 on this page reflects the convention change, not an extractor improvement.",
+     "The Seventh Circuit reference is generic (no caption or docket number). It was counted as a related-proceeding FN per the labels, as in the baseline, but it could equally be treated as a precedent/authority reference. Related-proceedings denominator on this page is 1, so the 0% recall figure is not meaningful on its own.",
+     "The retest adds a person party p8 'Manish S. Shah' with role 'court'. The labels exclude courts from organizations, and no person-party category is scored, so this was neither TP nor FP. Confirm whether the presiding judge should be emitted as a party at all; if persons were scored it would likely be a false positive by the labels' convention.",
+     "Assertions 1 and 2 split a joint concession ('Citibank and Sabal concede that for Properties 69, 70, and 73') into per-lender, per-property claims using the Section A heading. Scored supported because the heading on the same page makes the allocation explicit, but a strict reader could require the sentence itself to say Citibank conceded as to 69 and 73 specifically.",
+     "Modality 'argued' was accepted for assertions 1 and 2 even though the underlying fact is an opponent's concession that the SEC is relaying; 'reported' would also fit. The object_value keeps the 'SEC argues ... concedes' frame, so the legal status is not overstated either way. Confirm which modality the schema wants for a party characterizing an adversary's filing.",
+     "Assertion 2's quote is truncated before '(b) no releases exist', so part of the claim is supported by text immediately following the quoted span rather than inside it. Scored quote_on_page true and claim_supported true; confirm whether the project requires the quote to cover the full supported claim.",
+     "Coverage: the baseline's two structured secured_by_property links (Citibank->69/73, Sabal->70) are no longer emitted as assertions; the substance is preserved only in creditor treatment_summary text and in the party_position assertions. The retest's 3/3 citation score should be read alongside this loss of machine-readable property linkage.",
+     "No attorneys are named on the page (footnote 1 says only 'the same attorneys'), so attorneys is 0/0/0 and contributes nothing to precision or recall."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1806 p3",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 4,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Citibank (label; retest output.creditors is empty even though Citibank is in output.parties as p2 with role 'objector')",
+      "Sabal (label; retest output.creditors is empty even though Sabal is in output.parties as p3 with role 'objector')",
+      "BMO (label; retest output.creditors is empty even though BMO is in output.parties as p1 with role 'objector' and has its own heading 'B. BMO (Property 2)')",
+      "DLP (label; appears only inside the footnote 4 quotation of ECF 1679; retest has DLP as party p5 but not in output.creditors)"
+     ]
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 5,
+     "fp": 0,
+     "fn": 2,
+     "tp_items": [
+      "BMO (p1) = label BMO",
+      "Citibank (p2) = label Citibank",
+      "Sabal (p3) = label Sabal",
+      "Equitybuild Finance (p4) = label Equitybuild Finance",
+      "DLP (p5) = label DLP (footnote 4 quotation; baseline missed this, retest captured it)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "Equitybuild, Inc. (appears only in the case caption '5201 Wash. Invs. LLC v. Equitybuild, Inc.')",
+      "5201 Wash. Invs. LLC (appears only in the case caption)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Property 2 (prop2, receiver_property_number 2) = label Property 2",
+      "Property 69 (prop69) = label Property 69 ('unlike Properties 69, 70, and 73, a release was publicly recorded')",
+      "Property 70 (prop70) = label Property 70",
+      "Property 73 (prop73) = label Property 73"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [
+      "5201 Wash. Invs. LLC v. Equitybuild, Inc., 2024 IL App (1st) 231403-U (rl1, Illinois Appellate Court, First District, state_court_action) = label 5201 Wash. Invs. LLC v. Equitybuild, Inc."
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "Seventh Circuit appeal in this receivership (cited only as 'Id. at 533' on this page; full caption is on a prior page) - same FN as baseline"
+     ]
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. PDF page 3, section B: 'In its Position Statement, BMO does not dispute that for Property 2: (a) the investors recorded a valid, prior-in-time mortgage; (b) the investors never received payment associated with the purported release of their mortgage' (ECF 1794 at 2, 5). Modality 'argued' correctly frames this as the SEC's characterization in its response brief; proceeding '(main case)' is right (ECF 1794 is a filing in 1:18-cv-05587). Subject is Property 2 rather than BMO (baseline used BMO as subject); substance is identical."
+     },
+     {
+      "index": 1,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None material. PDF page 3: BMO does not dispute '(c) \"a release was executed, but never recorded.\" (ECF 1794 at 2, 5). As for that unrecorded release, it was not signed by the investors'. Both halves of object_value are on the page; the stored quote covers only the first half ('executed, but never recorded'), and the 'not signed by the investors' clause is supported by the immediately following sentence rather than by the quote. Modality 'argued' (SEC's framing) and main-case proceeding are correct."
+     },
+     {
+      "index": 2,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. PDF page 3: 'In that case, unlike Properties 69, 70, and 73, a release was publicly recorded, and the question facing the court was whether the release was valid and authorized. 5201 Wash. Invs. LLC v. Equitybuild, Inc., 2024 IL App (1st) 231403-U, *P28-*P32 (Aug. 14, 2024).' The assertion is attached to the 5201 Washington related lawsuit (rl1), which is the proceeding the passage actually describes; modality 'argued' reflects that this is the SEC distinguishing the case. as_of_date 2024-08-14 matches the decision date on the page."
+     },
+     {
+      "index": 3,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "Supported. PDF page 3, footnote 4: 'this Court twice has thoroughly analyzed ... After doing so, the Court unambiguously held that \"Equitybuild Finance lacked the authority to release the individual investors' mortgages.\" (ECF 1386 at 1, 14-28 ...)'. 'this Court' is the N.D. Ill. court in the main case, so proceeding '(main case)' is correct, and 'ordered' is the closest available modality for a court holding (the baseline used predicate 'held' and was scored supported). Weakness: predicate 'party_position' mislabels a court holding about Equitybuild Finance as if it were the party's own position; the object_value text ('Court held ...') keeps the status visible, so the assertion as written is not misleading, but the predicate should be reviewed."
+     }
+    ],
+    "dropped_facts": [
+     {
+      "baseline_assertion": "0d513e75: BMO does_not_dispute 'For Property 2 the investors recorded a valid, prior-in-time mortgage and never received payment associated with the purported release'",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Same fact appears as retest assertion index 0 (subject moved from creditor BMO to Property 2; modality 'argued'). However, BMO itself is no longer emitted as a creditor in the retest (output.creditors is empty), so the creditor-level link is lost even though the fact survives."
+     },
+     {
+      "baseline_assertion": "7934b1ab: Property 2 status 'A release was executed but never recorded'",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Same fact appears as retest assertion index 1, extended with 'argued not signed by the investors', which is also on the page."
+     },
+     {
+      "baseline_assertion": "4489e6ce: SEC v. EquityBuild, Inc., et al. held 'Equitybuild Finance lacked the authority to release the individual investors' mortgages (ECF 1386)'",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Same fact appears as retest assertion index 3 (subject now the party Equitybuild Finance, predicate 'party_position', modality 'ordered', proceeding main case). The explicit ECF 1386 reference in the baseline object_value is not carried in the retest object_value."
+     }
+    ],
+    "judgment_calls": [
+     "Creditor coverage regression: the retest emits zero entries in output.creditors, while the baseline had BMO, Citibank and Sabal as creditors (3 TP). The retest does tag BMO, Citibank, Sabal and DLP as organizations with party_role 'objector', but the scoring rule counts creditors only through output.creditors party_keys, so this page scores creditors 0 TP / 4 FN versus baseline 3 TP / 1 FN. A human should confirm whether the v2 prompt/schema change caused creditors to stop being populated for Group 7 lenders; this is the main coverage loss on this page and should not be masked by the 4/4 citation score.",
+     "DLP as creditor/organization: appears only inside the footnote 4 parenthetical quotation of ECF 1679. Followed the labels, as the baseline did: FN in creditors, TP in organizations (the retest newly captured DLP as a party).",
+     "Equitybuild, Inc. and 5201 Wash. Invs. LLC as organizations: both appear only inside the caption of the cited Illinois Appellate Court decision; scored as FN per the labels, same as baseline. If caption-only parties of a cited decision are out of scope, organizations becomes TP 5 / FP 0 / FN 0.",
+     "Seventh Circuit appeal as a related proceeding: cited on this page only as 'Id. at 533' with no caption; scored FN per the labels, same as baseline. If short-form 'Id.' cites are out of scope for page-level scoring, related_proceedings becomes TP 1 / FP 0 / FN 0.",
+     "5201 Wash. Invs. LLC v. Equitybuild, Inc. is counted as a related proceeding (TP), consistent with the labels and the baseline; a human should confirm the project rule for state-court decisions involving an EquityBuild affiliate cited as authority. The main receivership case is not listed in the labels, so no convention conflict arises on this page.",
+     "Illinois Mortgage Act: labels list it under authorities; the retest's output.authorities is empty. Authorities are not a scored category here, so this is recorded only as a coverage note.",
+     "Assertion index 1: object_value combines two page facts ('executed but never recorded' and 'not signed by the investors') but the quote covers only the first; scored supported because the second clause is the next sentence on the page. A stricter grounding rule that requires the quote to cover the whole object_value would mark this as partially grounded.",
+     "Assertion index 3: predicate 'party_position' is a mislabel for a court holding about Equitybuild Finance; scored supported and modality_correct ('ordered' is the closest available modality for 'the Court ... held', and the baseline's 'held' predicate was scored supported). Reviewers may prefer a dedicated 'held' predicate or 'reported' modality since the page is the SEC's quotation of a prior ruling (ECF 1386).",
+     "Assertion index 0: the retest attaches BMO's non-dispute to Property 2 as subject rather than to BMO (the baseline subject). Supported either way; the change matters only because BMO is no longer a creditor entity in the retest.",
+     "Facts on the page not captured by either run (not drops, but coverage gaps): the Seventh Circuit holding that the investors' first-in-time mortgages had priority because no valid release occurred ('Id. at 533'), and the quoted ECF 1679 statement that it was DLP's burden to show Equitybuild Finance had authority and DLP had not done so.",
+     "Retest summary for this page: 4/4 quotes on page, 4/4 claims supported, 4/4 modality correct, 4/4 proceeding correct, 0 flagged for review; baseline was 3/3 and 3/3. Properties improved from 1 TP / 3 FN to 4 TP / 0 FN; organizations improved from 4 TP / 3 FN to 5 TP / 2 FN; creditors regressed from 3 TP / 1 FN to 0 TP / 4 FN. Small denominators throughout (4 assertions; 4-7 labeled items per category)."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1938 p1",
+   "scores": {
+    "creditors": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased (output party_key p_pen, creditor_type litigation_claimant)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 6,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "United States Securities and Exchange Commission (p_sec)",
+      "EquityBuild, Inc. (p_eb)",
+      "EquityBuild Finance, LLC (p_ebf)",
+      "4533-47 Calumet LLC (p_4533_47)",
+      "4533-37 S Calumet LLC (p_4533_37)",
+      "WPD Management, LLC (p_wpd; aliases WPD, WPD Property Management LLC)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "4533-47 S Calumet Avenue (Property No. 2) (output prop2, receiver_property_number 2)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Jerrine Pennington as Special Administrator ... v. 4533-47 Calumet LLC, 4533-37 S Calumet LLC, and WPD Management, LLC, Case No. 2021 L 010115, Circuit Court of Cook County, Law Division (output circuit_action)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "authorized_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "Quote is on page (stored text splits 'approv ing', ignored under whitespace rule). Page says the Receiver 'respectfully moves for an order approving a settlement reached with' Pennington; assertion carries modality 'requested' and object_value '... requested', attached to the main case where the motion is filed. Supported as written. Predicate name 'authorized_to' alone would overstate; only the modality/object_value keep it accurate (see judgment_calls)."
+     },
+     {
+      "index": 1,
+      "predicate": "filed_on",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. Page: 'On or about October 14, 2021, Pennington filed a Complaint in the Law Division of the Circuit Court of Cook County'. Completed filing, 'On or about' hedge preserved as a condition, correctly attached to the Circuit Court Action rather than the main case."
+     },
+     {
+      "index": 2,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. Page: 'The Complaint asserted that the decedent was a tenant in the apartment building located at 4533-47 S Calumet Avenue (Property No. 2), that was owned by EquityBuild special purpose entity defendant 4533-37 S Calumet LLC and managed by defendant WPD Property Management LLC'. Modality 'alleged' matches 'The Complaint asserted'; attached to the Circuit Court Action. Predicate 'party_position' is generic for a complaint allegation (see judgment_calls)."
+     }
+    ],
+    "dropped_facts": [
+     {
+      "baseline_assertion": "case | status | Receiver moves for order approving settlement with Pennington (quote: 'respectfully moves for an order approv ing a settlement reached with Jerrine Pennington')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Same fact appears as retest assertion 0 (authorized_to / 'approval of settlement with Jerrine Pennington requested', modality requested, main case)."
+     },
+     {
+      "baseline_assertion": "related_lawsuit Pennington v. 4533-47 Calumet LLC et al. | filed_on | 2021-10-14",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Same fact appears as retest assertion 1 with 'On or about' preserved as a condition and the proceeding set to the Circuit Court Action."
+     },
+     {
+      "baseline_assertion": "property 4533-47 S Calumet Avenue | owned_by | 4533-37 S Calumet LLC",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Not a standalone assertion in the retest; the ownership fact is folded into retest assertion 2's object_value ('owned by 4533-37 S Calumet LLC') under modality 'alleged' and subject related_lawsuit. Substance retained, but the property-level owned_by link is no longer a discrete, queryable assertion and its status moved from stated fact to complaint allegation."
+     },
+     {
+      "baseline_assertion": "property 4533-47 S Calumet Avenue | managed_by | WPD Management (object_label WPD Management, LLC)",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Not a standalone assertion in the retest; folded into retest assertion 2's object_value ('managed by WPD') under modality 'alleged'. Same granularity caveat as the owned_by fact. Entity-level the retest still records WPD Management, LLC with alias WPD Property Management LLC."
+     }
+    ],
+    "judgment_calls": [
+     "Labels list the main receivership case (SEC v. EquityBuild, 1:18-cv-05587) under related_proceedings; per the project schema it is never a related proceeding, so it is not counted as a false negative. Related_proceedings denominator on this page is therefore 1 (small denominator).",
+     "Retest assertion 0 uses predicate 'authorized_to' with modality 'requested' and object_value ending in 'requested'. I scored it supported because modality and object_value make the status clear, but a reader seeing the predicate alone could read it as authorization granted. Confirm this predicate/modality pairing is the intended way to express 'requests authorization' in the schema, or whether a 'status'/'moves_for' predicate would be safer.",
+     "Retest collapsed the baseline's two property-level facts (owned_by 4533-37 S Calumet LLC; managed_by WPD) into a single complaint-allegation assertion (index 2, modality 'alleged', subject related_lawsuit). Coverage is preserved in substance but granularity is reduced. Also note the Receiver's own phrasing 'EquityBuild special purpose entity defendant 4533-37 S Calumet LLC' arguably states ownership as fact rather than as the Complaint's allegation; 'alleged' is the conservative reading and I accepted it.",
+     "Output property prop2 lists city 'Chicago' and state 'IL'. Neither appears on page 1 (the page names Cook County and the Circuit Court of Cook County; Chicago is not stated). Counted as a true positive because the address and Property No. 2 match the label, but the city/state fields are inferred rather than page-supported.",
+     "WPD is named two ways on the page ('WPD Management, LLC' in the state caption; 'WPD Property Management LLC' defined as 'WPD' in the body). Output and labels both treat these as one entity; confirm this merge is correct before entity resolution.",
+     "4533-47 Calumet LLC and 4533-37 S Calumet LLC are counted as two distinct organizations, following the labels. The baseline run omitted 4533-47 Calumet LLC; the retest added it (coverage improvement at the entity level, not reflected in assertion counts).",
+     "Attorneys denominator is 0 on this page (no attorneys appear); precision/recall are undefined for this category here. Creditors, properties and related_proceedings each have a denominator of 1.",
+     "All three retest assertions have needs_review=false and no lint_flags; none required a review flag by my reading. The $30,000 Pennington payment regression item is on PDF page 2, not this page; nothing on page 1 states an amount or approval status, and the retest correctly asserts none."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1938 p2",
+   "scores": {
+    "creditors": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Jerrine Pennington (p1) = label 'Jerrine Pennington, on behalf of the Estate of Valerie Pennington, Deceased'",
+      "Keating Law Offices, P.C. (p2) = label 'Keating Law Offices, P.C.'"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Keating Law Offices, P.C. (p2, kind organization)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Receiver's account (labels list it as the account from which the proposed $30,000 would be paid; output.properties is empty, although the fact appears in the conditions text of assertion 1)"
+     ]
+    },
+    "related_proceedings": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Pennington v. EquityBuild entities (Circuit Court Action), Circuit Court Law Division (r1) = label 'Circuit Court Action (Pennington personal-injury/wrongful-death suit)'"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. Paragraph 3 states the Circuit Court Action was stayed January 27, 2022 pursuant to the Order Appointing Receiver and placed on the Law Division's special stay calendar February 15, 2024; modality 'reported' and proceeding = Circuit Court Action match the page."
+     },
+     {
+      "index": 1,
+      "predicate": "settlement_amount",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. This is the known-failure regression item (para. 5(b)). Retest states 'proposed payment of $30,000', modality proposed, conditions 'subject to Court approval; within seven days of entry of an order dismissing the Circuit Court Action with prejudice; paid from the Receiver's account by check', attached to the Circuit Court Action rather than SEC v. EquityBuild. All of that matches para. 5 ('Pursuant to the proposed Settlement Agreement, and with the Court's approval') and 5(b). Resolved."
+     },
+     {
+      "index": 2,
+      "predicate": "ordered_to",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "Substance supported: para. 5(a) says that, with the Court's approval, Pennington will file a motion to dismiss with prejudice within seven days of an order approving the Settlement, in a format approved by the Receiver; object_value is prefixed 'proposed:' and modality is proposed. Minor vocabulary issue: predicate 'ordered_to' is misleading because nothing has been ordered; a predicate such as 'obligation_under_proposed_settlement' would fit better. Counted as supported because the modality and conditions carry the legal status correctly; a human should confirm."
+     },
+     {
+      "index": 3,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "problem": "Para. 4 states the Receiver and Pennington 'entered into the settlement agreement attached hereto as Exhibit A ..., subject to Court approval'. The assertion says exactly that (execution of the agreement is a completed act; effectiveness is conditioned on Court approval, and the condition is preserved). The linter flagged 'modality_conflict: completed but quote signals subject to court approval' and set needs_review, which is the conservative behavior the user asked for. Counted as supported and modality correct, with a judgment call noted; predicate 'party_position' is a loose fit for 'entered into an agreement'."
+     }
+    ],
+    "dropped_facts": [
+     {
+      "baseline_assertion": "Circuit Court Action status: Stayed January 27, 2022 pursuant to Order Appointing Receiver; placed on special stay calendar February 15, 2024 (quote 'On January 27, 2022, the Circuit Court Action was stayed pursuant to the Order')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Retest assertion 0 carries the same fact with a fuller quote covering both dates and the same proceeding."
+     },
+     {
+      "baseline_assertion": "SEC v. EquityBuild, Inc., et al. (case) settlement_amount 30000 (quote 'the Receiver will pay thirty thousand dollars ($30,000)')",
+      "was_supported_in_baseline": false,
+      "present_in_retest": true,
+      "note": "Baseline failure: stated as a bare settlement amount attached to the main receivership case with no proposed modality or court-approval condition. Retest assertion 1 preserves the fact as a proposed $30,000 payment, subject to Court approval and to a dismissal order, attached to the Circuit Court Action. Fact retained, errors corrected."
+     },
+     {
+      "baseline_assertion": "Jerrine Pennington settled_with Receiver (quote 'these parties entered into the settlement agreement attached hereto as Exhibit A')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Baseline scoring treated this as supported (the parties did enter into the agreement), though it omitted the 'subject to Court approval' qualifier. Retest assertion 3 carries the same fact with the condition attached and needs_review set; creditor treatment_summary fields for p1 and p2 also record the proposed settlement. Retest also added Keating Law Offices as a second creditor (baseline had only one), so entity coverage increased rather than decreased."
+     }
+    ],
+    "judgment_calls": [
+     "Assertion 3 (modality 'completed' for 'entered into settlement agreement ... subject to Court approval'): I scored it supported and modality correct because signing the agreement is a completed act and the approval condition is preserved in conditions. A reviewer may prefer the project convention that the settlement as a whole is 'proposed' until approved; if so, modality_correct for index 3 flips to false and claim support for this page drops from 4/4 to 3/4. The extractor's own linter already flagged it for review, which satisfies the 'leave flagged when evidence is insufficient' requirement.",
+     "Assertion 2 uses predicate 'ordered_to' for an obligation under the proposed settlement. The modality (proposed) and object_value prefix ('proposed:') make the legal status visible, so I counted it supported, but the predicate vocabulary could mislead counsel scanning predicates alone; consider a dedicated predicate for obligations under an unapproved agreement.",
+     "Properties FN 'Receiver's account': the labels treat the receivership bank account as an asset even though the page gives no institution or account number. The retest captures the fact inside assertion 1's conditions but not as a property entity. Confirm whether an unidentified account should count as a property/asset entity; this is the only entity miss on the page and the denominator is 1.",
+     "Related-lawsuit caption 'Pennington v. EquityBuild entities (Circuit Court Action)': this page refers to the defendants only as 'these defendants' and does not name EquityBuild entities (page 1 does). The entity match is clear, but the caption is partly inferred from outside this page; docket_number is correctly null.",
+     "The extractor lists 'Valerie Pennington' (p3, person, alias 'Estate of Valerie Pennington') as a separate party. Labels fold the decedent's estate into the Pennington creditor entry. Persons are not a scored category here, so this is neither TP nor FP, but entity resolution will need to decide whether the estate is its own party.",
+     "Coverage gap present in both baseline and retest: paragraph 2 (Receiver appeared in the Circuit Court Action under Dkt. 16 para. 8(N) of the August 17, 2018 Order Appointing Receiver) produced no assertion in either run. Not a dropped fact, but a fact on the page that neither version captured.",
+     "Small denominators: creditors n=2, organizations n=1, properties n=1, related_proceedings n=1, attorneys n=0. Per-type precision/recall on this page is not statistically meaningful on its own.",
+     "Labels do not list the main receivership case (SEC v. EquityBuild, 1:18-cv-05587) as a related proceeding, and the retest correctly keeps it out of related_lawsuits; the baseline's attachment of the $30,000 figure to that case was the error being tested.",
+     "Page-level result for the regression item: known failure (Dkt. 1938 p.2 para. 5(b)) is resolved; 4/4 quotes on page, 4/4 claims supported as written (3/4 if the reviewer rejects 'completed' on index 3), 1 assertion flagged for lawyer review."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1967 p1",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Michael Rachlis (Rachlis Duff & Peel, LLC; represents p3 Kevin B. Duff, Receiver)",
+      "Jodi Rosen Wine (Rachlis Duff & Peel, LLC; represents p3 Kevin B. Duff, Receiver)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "UNITED STATES SECURITIES AND EXCHANGE COMMISSION (p1, plaintiff) = label 'United States Securities and Exchange Commission'",
+      "EQUITYBUILD, INC. (p2, defendant) = label 'EquityBuild, Inc.'",
+      "Rachlis Duff & Peel, LLC (p4, counsel) = label 'Rachlis Duff & Peel, LLC'"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "counsel_for",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. 'Attorneys for Kevin B. Duff, Receiver' appears verbatim under the Michael Rachlis / Jodi Rosen Wine signature block; Michael Rachlis counsel_for Kevin B. Duff (Receiver) in the main case, modality 'reported', is what the page says."
+     },
+     {
+      "index": 1,
+      "predicate": "counsel_for",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None. Same signature block supports Jodi Rosen Wine counsel_for Kevin B. Duff (Receiver) in the main case."
+     },
+     {
+      "index": 2,
+      "predicate": "filed_on",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "problem": "None on substance: the motion title appears on the page (stored text has doubled spaces, matched ignoring whitespace), the ECF header shows 'Document #: 1967 Filed: 06/30/26' which supports as_of_date 2026-06-30, and 'approval requested' with modality 'requested' correctly describes a motion to approve rather than an approval. Minor shape issue: predicate 'filed_on' carries a narrative object_value instead of a date; flagged as a judgment call, not a scoring miss."
+     }
+    ],
+    "dropped_facts": [
+     {
+      "baseline_assertion": "Michael Rachlis represented_by: 'Kevin B. Duff, Receiver is represented by Michael Rachlis' (quote 'Attorneys for Kevin B. Duff, Receiver')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Retained as retest assertion index 0 (counsel_for, reported, main case). Retest additionally adds the parallel assertion for Jodi Rosen Wine (index 1), which the baseline had only as an entity."
+     },
+     {
+      "baseline_assertion": "SEC v. EquityBuild, Inc., et al. status: 'Receiver's motion to approve Group 10 distribution plan filed 06/30/26' (quote: motion title)",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "Retained as retest assertion index 2 (filed_on, requested, as_of_date 2026-06-30, main case). Modality is now explicit ('requested'), which the baseline lacked."
+     },
+     {
+      "baseline_assertion": "United States Securities and Exchange Commission has_role plaintiff (quote 'UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "No longer a stand-alone assertion; the fact is carried on entity p1 (party_roles ['plaintiff']). Counted as present via entities per the scoring instructions, but it no longer has its own quote/citation record."
+     },
+     {
+      "baseline_assertion": "EquityBuild, Inc. has_role defendant (quote 'EQUITYBUILD, INC., et al., Defendants.')",
+      "was_supported_in_baseline": true,
+      "present_in_retest": true,
+      "note": "No longer a stand-alone assertion; the fact is carried on entity p2 (party_roles ['defendant']). Counted as present via entities; no dedicated citation record in the retest."
+     }
+    ],
+    "judgment_calls": [
+     "Labels list 'SEC v. EquityBuild, Inc., et al., Case No. 1:18-cv-5587' under related_proceedings. By the project schema the main receivership case is never a related proceeding, so the retest's empty related_lawsuits is scored tp 0 / fp 0 / fn 0 rather than as a false negative. Kept visible here so the convention stays explicit.",
+     "Organization names matched as variants: the retest stores caption-style all-caps canonical names ('UNITED STATES SECURITIES AND EXCHANGE COMMISSION', 'EQUITYBUILD, INC.') versus the labels' title-case forms. Treated as the same real-world entities. The baseline had normalized casing and an 'SEC' alias; the retest did not, which is a cosmetic regression a human may want to confirm is acceptable.",
+     "Assertion index 2 uses predicate 'filed_on' with a narrative object_value ('Receiver's motion to approve Group 10 distribution plan, approval requested') rather than a date value; the filing date lives in as_of_date. Scored as supported because every element (motion title, filed 06/30/26, approval requested not granted, main case) is on the page, but the predicate/object shape should be confirmed as intended.",
+     "Assertion indices 0-1 use modality 'reported' for a counsel-of-record signature block. Accepted as correct (the page reports who the attorneys are; nothing is proposed, ordered or alleged). If the project wants a distinct modality for self-identification in a signature block, that is a schema choice, not a page-support error.",
+     "The two baseline party-role assertions (SEC = plaintiff, EquityBuild = defendant) were converted into entity attributes in the retest, so the per-page assertion count fell from 4 to 3 even though no fact was lost. Coverage reporting should count these as retained-via-entity rather than dropped, but note that they no longer carry their own quote for source verification.",
+     "Kevin B. Duff (Receiver, party p3), Hon. Manish S. Shah and Magistrate Judge Young B. Kim (court, p5/p6) are extracted as person parties. None of the five scored categories covers person parties, and the labels' notes exclude them, so they are neither TP nor FP here. Confirm that is the intended scope.",
+     "Small denominators: attorneys n=2 and organizations n=3 are the only non-empty categories on this page; creditors, properties and related proceedings have zero labeled and zero extracted items, so precision/recall there is undefined for this page rather than 100%.",
+     "This is the Dkt. 1967 caption page (page 1 of 273), not the table-of-contents page that produced the four 'Should Be Excluded' baseline failures. It exercises none of the five known failure patterns; no regression check for those is validated by this page's score. All three retest assertions are supported, none is flagged needs_review, so nothing on this page requires lawyer review."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1967 p3",
+   "scores": {
+    "creditors": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Allred (p1) = label Allred",
+      "Mora (p2) = label Mora",
+      "Capital Investors, LLC (p3) = label Capital Investors, LLC",
+      "6951 South Merrill Fund I LLC (p4) = label 6951 South Merrill Fund I LLC",
+      "5001 South Drexel Blvd Fund II LLC (p5) = label 5001 South Drexel Blvd Fund II LLC",
+      "Michael Terada (p6) = label 'Michael and Lyanne Terada' (couple split into two persons)",
+      "Lyanne Terada (p7) = label 'Michael and Lyanne Terada' (couple split into two persons)",
+      "Shatar (p8) = label Shatar"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 3,
+     "fp": 1,
+     "fn": 0,
+     "tp_items": [
+      "Capital Investors, LLC (p3)",
+      "6951 South Merrill Fund I LLC (p4)",
+      "5001 South Drexel Blvd Fund II LLC (p5)"
+     ],
+     "fp_items": [
+      "Shatar (p8) saved with kind=organization; labels list Shatar only as a creditor (surname/short name, type unknown from this page), not as an organization \u2014 wrong-type FP in this category (baseline made the same choice)"
+     ],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "6949-59 S. Merrill (pr1) = label 6949-59 S. Merrill",
+      "5001 S. Drexel (pr2) = label 5001 S. Drexel"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "problem": "None. TOC heading IV.A.1 'Allred's Unsecured Claim Should Be Excluded' (p. 26) supports 'Receiver argues ... should be excluded' as an index_reference in the main case. Known failure (baseline 'excluded') resolved."
+     },
+     {
+      "index": 1,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "problem": "None. TOC heading IV.A.2 supports 'Receiver argues Mora's unsecured claim should be excluded' as an index_reference. Known failure (baseline 'excluded') resolved."
+     },
+     {
+      "index": 2,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "problem": "Quote is a line-truncated fragment ('...6949 - 59 S. Merrill and') that stops before the operative words 'Should Be Excluded'; the full heading IV.B on the page does support the assertion, but the stored quote alone does not show the treatment. Cosmetic; not scored as a failure."
+     },
+     {
+      "index": 3,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "problem": "None. Quote spans two line breaks in the text layer (grounding_method 'normalized'); matches heading IV.B 'Should Be Allowed'."
+     },
+     {
+      "index": 4,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "problem": "Quote fragment '5001 South Drexel Blvd Fund II LLC Should Be' is cut before 'Allowed' (next line). Page supports the assertion; quote is cosmetically short."
+     },
+     {
+      "index": 5,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "problem": "Supported (heading IV.C, p. 29: 'Should Be Excluded Due To a Failure of Documentation'). Quote is cut before 'Excluded' (next line). Assertion is attached to Michael Terada (p6) only although the claim is joint with Lyanne Terada (p7), who has a creditor row but no assertion. Known failure (baseline 'excluded due to failure of documentation') resolved."
+     },
+     {
+      "index": 6,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "problem": "None. Heading IV.D 'Subordination of Shatar's Unsecured Claims Is Appropriate' (p. 30) supports 'Receiver argues subordination ... is appropriate' as an index_reference. Known failure (baseline 'subordinated') resolved."
+     }
+    ],
+    "dropped_facts": [
+     {
+      "baseline_assertion": "Allred | treatment | 'excluded' | quote 'Allred's Unsecured Claim Should Be Excluded'",
+      "was_supported_in_baseline": false,
+      "present_in_retest": true,
+      "note": "Baseline turned a TOC argument heading into an outcome (one of the five known failures). Retest index 0 carries the same fact as 'Receiver argues ... should be excluded', modality index_reference, needs_review=true."
+     },
+     {
+      "baseline_assertion": "Mora | treatment | 'excluded' | quote 'Mora's Unsecured Claim Should Be Excluded.'",
+      "was_supported_in_baseline": false,
+      "present_in_retest": true,
+      "note": "Known failure; retest index 1 restates it correctly as an index_reference to the Receiver's argument."
+     },
+     {
+      "baseline_assertion": "Shatar | treatment | 'subordinated' | quote 'Subordination of Shatar's Unsecured Claims Is Appropriate.'",
+      "was_supported_in_baseline": false,
+      "present_in_retest": true,
+      "note": "Known failure; retest index 6 restates it as 'Receiver argues subordination ... is appropriate', index_reference."
+     },
+     {
+      "baseline_assertion": "Michael and Lyanne Terada | treatment | 'excluded due to failure of documentation' | quote 'Excluded Due To a Failure of Documentation Supporting the Claim.'",
+      "was_supported_in_baseline": false,
+      "present_in_retest": true,
+      "note": "Known failure; retest index 5 restates it correctly, but attached only to Michael Terada (p6). The joint claimant Lyanne Terada (p7) exists as a creditor with claim 940-551 but has no assertion of her own."
+     },
+     {
+      "baseline_assertion": "SEC v. EquityBuild, Inc., et al. (case) | recommended_methodology | 'Rising Tide over Net Loss' | quote 'Supports Using a Rising Tide Methodology over a Net Loss Distribution.'",
+      "was_supported_in_baseline": true,
+      "present_in_retest": false,
+      "note": "DROPPED. Baseline captured the Receiver's recommended methodology from TOC headings V and V.D (p. 44); as a reference to the Receiver's recommendation it was supported and was counted among the 31 supported baseline assertions. The retest has no methodology assertion and no case-level subject at all, so this is a coverage loss hidden behind the 7/7 support rate. It should be re-added as a 'recommended'/'index_reference' assertion pointing to p. 44 (the substantive page), not counted as an outcome."
+     }
+    ],
+    "judgment_calls": [
+     "Terada couple: labels list one creditor item 'Michael and Lyanne Terada'; retest splits it into two persons (p6, p7), both with creditor rows for claim 940-551. I counted both as TPs against the single label item (creditors tp=8 vs 7 label items). If the baseline convention collapses the pair to one match, creditors become tp=7 with Lyanne Terada neither TP nor FP; precision/recall are 100% either way.",
+     "Shatar kind: retest (and baseline) stores Shatar as kind=organization. The page gives only the short name 'Shatar' and labels do not list it under organizations, so by the wrong-type rule it is an organizations FP (3 TP / 1 FP, precision 75% on a denominator of 4 \u2014 too small to be meaningful). A human should confirm from the body pages (p. 30) whether Shatar is a person or an entity; if an entity, this FP should be reversed.",
+     "Dropped fact: the baseline's Rising Tide over Net Loss recommended-methodology assertion (TOC V.D, p. 44) was supported and is absent from the retest. The retest's 7/7 (100%) support rate therefore comes with 1 of 5 baseline-supported facts missing; coverage on this page is 4 of 5 baseline facts carried forward (all 4 corrected), plus 3 new creditor assertions (Capital Investors, 6951 Fund, 5001 Fund) and 2 new properties that the baseline lacked.",
+     "All four Dkt. 1967 contents-page known failures (Allred, Mora, Terada, Shatar) are resolved on this page: each is now 'Receiver argues ... should be ...' with modality index_reference, proceeding main case, needs_review=true, final_confidence 0.33. None states an outcome. Per the regression rule, they remain flagged for lawyer review and the substantive pages (26, 27, 29, 30) should be cited before any of them is treated as a finding.",
+     "Quotes at indices 2, 4 and 5 are line-truncated fragments that stop before the operative words ('Should Be Excluded' / 'Allowed' / 'Excluded Due To...'). quote_on_page and claim_supported are both true because the heading continues on the next line, but a reviewer reading only the stored quote cannot see the treatment. Consider extending quotes across line breaks on TOC pages.",
+     "Assertion 5 is attached to Michael Terada only; Lyanne Terada (p7) has a creditor row with claim_group '940-551' but no assertion. Not a scoring miss under the rules, but entity resolution should treat p6/p7 as co-claimants on one claim. Also '940-551' is a claim number, not a claim group; schema nit.",
+     "Related proceedings: labels list none and the retest extracted none; the only case reference on the page is the header for the main receivership case 1:18-cv-05587 (Dkt. 1967), which by project convention is never a related proceeding. Authorities are empty on both sides. Attorneys 0/0 and related_proceedings 0/0 \u2014 undefined precision/recall, not evidence of performance.",
+     "Creditor_type changed from 'other' (baseline) to 'investor_lender' (retest) for Allred, Mora and Shatar; the page's heading IV.A calls Allred and Mora 'Insiders and Promoters'. Not scored, but a human may prefer an insider/promoter type once the body pages are read.",
+     "Proceeding attribution: all 7 assertions are labeled '(main case)'. Correct here \u2014 the TOC belongs to the Receiver's motion filed in 1:18-cv-05587 and no related action is named on the page."
+    ]
+   }
+  }
+ ]
+}

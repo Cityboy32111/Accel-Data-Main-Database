@@ -1,0 +1,172 @@
+{
+ "document": "SEC's Response To Group 7 Position Statements, Dkt. 1806",
+ "page": 1,
+ "pdf": "fixtures/equitybuild/downloads/64670431ccf24243407ac06adf32b213.pdf",
+ "page_text": "UNITED STATES DISTRICT COURT\nNORTHERN DISTRICT OF ILLINOIS\nEASTERN DIVISION\n_\n)\nU.S. SECURITIES AND EXCHANGE  )\nCOMMISSION,  )\n)\nPlaintiff,  )  Civil Action No. 18-CV-5587\n)\nv.  )  Hon. Manish S. Shah\n)\nEQUITYBUILD, INC.,  et al.,  )\n)\nDefendants.  )\n)\nSEC\u2019S RESPONSE TO GROUP 7 POSITION STATEMENTS\nOF BMO, CITIBANK, AND SABAL CAPITAL OPERATIONS, LLC\nThe SEC hereby responds to the Group 7 Position Statements of BMO Bank N.A. (ECF\n1794), Citibank N.A. (ECF 1797), and Sabal Capital Operations, LLC (ECF 1798). As discussed\nbelow, because this Court and the Seventh Circuit have already addressed factually similar\npriority disputes in favor of investors who had recorded mortgages that were never validly\nreleased, the Court should find that such Group 7 investors likewise have priority.\nA.  Citibank (Properties 69 and 73) and Sabal (Property 70) 1\nIn their Position Statements, Institutional Lenders Citibank and Sabal concede that for\nProperties 69, 70, and 73: (a) investors obtained and recorded valid first-in-time mortgages, and\n(b) no releases exist. (ECF 1797 at 2-4; ECF 1798 at 1-2). As the SEC\u2019s Position Statement\n(ECF 1795) notes, the Seventh Circuit has already determined that such facts readily answer the\n1  Citibank and Sabal\u2019s Position Statements are functionally identical, and themselves repeat the\nsame arguments of the Group 6 Position Statements of Midland (ECF 1757) and UBS (1756), all\nof which were prepared by the same attorneys. Accordingly, the SEC\u2019s response to Citibank and\nSabal advances the same arguments as its Group 6 Position Statement Response (ECF 1765).\nCase: 1:18-cv-05587 Document #: 1806 Filed: 12/16/24 Page 1 of 6 PageID #:123785",
+ "saved_entities": {
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "organization",
+    "aliases": [
+     "SEC"
+    ],
+    "party_roles": [
+     "plaintiff"
+    ],
+    "canonical_name": "U.S. Securities and Exchange Commission"
+   },
+   {
+    "key": "p2",
+    "kind": "organization",
+    "aliases": [],
+    "party_roles": [
+     "defendant"
+    ],
+    "canonical_name": "EquityBuild, Inc."
+   },
+   {
+    "key": "p3",
+    "kind": "organization",
+    "aliases": [
+     "BMO"
+    ],
+    "party_roles": [
+     "lender"
+    ],
+    "canonical_name": "BMO Bank N.A."
+   },
+   {
+    "key": "p4",
+    "kind": "organization",
+    "aliases": [
+     "Citibank"
+    ],
+    "party_roles": [
+     "lender"
+    ],
+    "canonical_name": "Citibank N.A."
+   },
+   {
+    "key": "p5",
+    "kind": "organization",
+    "aliases": [
+     "Sabal"
+    ],
+    "party_roles": [
+     "lender"
+    ],
+    "canonical_name": "Sabal Capital Operations, LLC"
+   }
+  ],
+  "creditors": [
+   {
+    "party_key": "p3",
+    "claim_group": "Group 7",
+    "creditor_type": "institutional_lender",
+    "treatment_summary": null,
+    "claim_amount_asserted": null
+   },
+   {
+    "party_key": "p4",
+    "claim_group": "Group 7",
+    "creditor_type": "institutional_lender",
+    "treatment_summary": "SEC argues investors with recorded, never-released first-in-time mortgages have priority on Properties 69 and 73.",
+    "claim_amount_asserted": null
+   },
+   {
+    "party_key": "p5",
+    "claim_group": "Group 7",
+    "creditor_type": "institutional_lender",
+    "treatment_summary": "SEC argues investors with recorded, never-released first-in-time mortgages have priority on Property 70.",
+    "claim_amount_asserted": null
+   }
+  ],
+  "attorneys": [],
+  "properties": [
+   {
+    "key": "pr69",
+    "city": null,
+    "state": null,
+    "address": "Property 69",
+    "disposition": "unknown",
+    "receiver_property_number": "Property 69"
+   },
+   {
+    "key": "pr70",
+    "city": null,
+    "state": null,
+    "address": "Property 70",
+    "disposition": "unknown",
+    "receiver_property_number": "Property 70"
+   },
+   {
+    "key": "pr73",
+    "city": null,
+    "state": null,
+    "address": "Property 73",
+    "disposition": "unknown",
+    "receiver_property_number": "Property 73"
+   }
+  ],
+  "related_lawsuits": []
+ },
+ "saved_assertions": [
+  {
+   "id": "39ac3db3-1eb3-4b75-b790-956742fc2d94",
+   "document_title": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC (12/16/2024, Dkt. No. 1806)",
+   "docket_number": "1806",
+   "page_number": 1,
+   "subject_type": "creditor",
+   "subject_label": "Citibank N.A.",
+   "predicate": "secured_by_property",
+   "object_value": "Property 69 and Property 73",
+   "object_type": "property",
+   "object_label": "Property 69",
+   "origin": "extracted",
+   "confidence": "0.7000",
+   "quote": "Citibank (Properties 69 and 73) and Sabal (Property 70)",
+   "status": "unverified"
+  },
+  {
+   "id": "16b4b0da-4e0e-4562-8daf-12e640920aa2",
+   "document_title": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC (12/16/2024, Dkt. No. 1806)",
+   "docket_number": "1806",
+   "page_number": 1,
+   "subject_type": "creditor",
+   "subject_label": "Sabal Capital Operations, LLC",
+   "predicate": "secured_by_property",
+   "object_value": "Property 70",
+   "object_type": "property",
+   "object_label": "Property 70",
+   "origin": "extracted",
+   "confidence": "0.7000",
+   "quote": "Citibank (Properties 69 and 73) and Sabal (Property 70)",
+   "status": "unverified"
+  },
+  {
+   "id": "7ff3d528-deea-4d3c-a3c8-74d2723e0a55",
+   "document_title": "SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC (12/16/2024, Dkt. No. 1806)",
+   "docket_number": "1806",
+   "page_number": 1,
+   "subject_type": "case",
+   "subject_label": "SEC v. EquityBuild, Inc., et al.",
+   "predicate": "status",
+   "object_value": "SEC contends Group 7 investors with recorded, never-released mortgages have priority",
+   "object_type": null,
+   "object_label": null,
+   "origin": "extracted",
+   "confidence": "0.8500",
+   "quote": "the Court should find that such Group 7 investors likewise have priority.",
+   "status": "unverified"
+  }
+ ],
+ "saved_counts": {
+  "parties": 5,
+  "creditors": 3,
+  "attorneys": 0,
+  "properties": 3,
+  "related_lawsuits": 0
+ },
+ "stored_assertion_count": 3
+}

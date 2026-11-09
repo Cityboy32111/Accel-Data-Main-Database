@@ -1,0 +1,308 @@
+[
+ {
+  "entity_type": "party",
+  "left_id": "f030522d-2359-4a96-96ba-832c3c76403c",
+  "right_id": "78421d08-3647-4b59-a8f4-069114926e69",
+  "left_label": "United States Securities and Exchange Commission",
+  "right_label": "Commission",
+  "rule": "role_term_alias",
+  "score": 0.7,
+  "proposal": "adjudicate",
+  "rationale": "\"Commission\" is a role term that the other party lists as an alias",
+  "left_evidence": [
+   "[Dkt. - p1] UNITED STATES SECURITIES  )\nAND EXCHANGE COMMISSION,  )",
+   "[Dkt. - p1] UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,",
+   "[Dkt. 1967 p1] UNITED STATES SECURITIES AND\nEXCHANGE COMMISSION,\nPlaintiff,"
+  ],
+  "right_evidence": []
+ },
+ {
+  "entity_type": "party",
+  "left_id": "f030522d-2359-4a96-96ba-832c3c76403c",
+  "right_id": "25f441a8-8daf-411e-8f8b-9a2fadac4885",
+  "left_label": "United States Securities and Exchange Commission",
+  "right_label": "U.S. Securities and Exchange Commission",
+  "rule": "alias_match",
+  "score": 0.8,
+  "proposal": "adjudicate",
+  "rationale": "shared alias \"sec\"",
+  "left_evidence": [
+   "[Dkt. - p1] UNITED STATES SECURITIES  )\nAND EXCHANGE COMMISSION,  )",
+   "[Dkt. - p1] UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,",
+   "[Dkt. 1967 p1] UNITED STATES SECURITIES AND\nEXCHANGE COMMISSION,\nPlaintiff,"
+  ],
+  "right_evidence": []
+ },
+ {
+  "entity_type": "party",
+  "left_id": "f030522d-2359-4a96-96ba-832c3c76403c",
+  "right_id": "7cf85daf-31be-47ee-a467-51ca13a67574",
+  "left_label": "United States Securities and Exchange Commission",
+  "right_label": "Securities and Exchange Commission",
+  "rule": "alias_match",
+  "score": 0.8,
+  "proposal": "adjudicate",
+  "rationale": "shared alias \"sec\"",
+  "left_evidence": [
+   "[Dkt. - p1] UNITED STATES SECURITIES  )\nAND EXCHANGE COMMISSION,  )",
+   "[Dkt. - p1] UNITED STATES SECURITIES AND EXCHANGE COMMISSION, Plaintiff,",
+   "[Dkt. 1967 p1] UNITED STATES SECURITIES AND\nEXCHANGE COMMISSION,\nPlaintiff,"
+  ],
+  "right_evidence": [
+   "[Dkt. 1938 p4] The Receiver has conferred with counsel for the SEC which consents to the relief requested in this motion."
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "205d85ed-64ed-4883-8cf9-364e668846a0",
+  "right_id": "8fcf1d21-4a39-4e4f-b02a-4a56716b5c31",
+  "left_label": "EquityBuild, Inc.",
+  "right_label": "EquityBuild Finance, LLC",
+  "rule": "token_subset_org",
+  "score": 0.75,
+  "proposal": "adjudicate",
+  "rationale": "\"equitybuild\" is a token subset of \"equitybuild finance\"",
+  "left_evidence": [
+   "[Dkt. - p1] EQUITYBUILD, INC.,  )",
+   "[Dkt. - p6] EquityBuild established a local  office in a two - story coach house  located  in  the  Woodlawn neighborhood  of Chicago",
+   "[Dkt. - p24] $75,000  that  EquityBuild received from an investor"
+  ],
+  "right_evidence": [
+   "[Dkt. - p1] EQUITYBUILD FINANCE , LLC,"
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "205d85ed-64ed-4883-8cf9-364e668846a0",
+  "right_id": "46ac8c7c-8b66-4ecb-821c-1aef5824cd64",
+  "left_label": "EquityBuild, Inc.",
+  "right_label": "Receivership Defendants",
+  "rule": "role_term_alias",
+  "score": 0.7,
+  "proposal": "adjudicate",
+  "rationale": "\"Receivership Defendants\" is a role term that the other party lists as an alias",
+  "left_evidence": [
+   "[Dkt. - p1] EQUITYBUILD, INC.,  )",
+   "[Dkt. - p6] EquityBuild established a local  office in a two - story coach house  located  in  the  Woodlawn neighborhood  of Chicago",
+   "[Dkt. - p24] $75,000  that  EquityBuild received from an investor"
+  ],
+  "right_evidence": [
+   "[Dkt. - p9] Within ten (10) days of the entry of this Order, the Receivership Defendants shall provide to the Receiver and the Commission copies of the Receivership Defenda",
+   "[Dkt. - p11] The  Receivership De fendants , as well as their agents, servants, employees,",
+   "[Dkt. - p14] The Receivership Defendants  shall not open any of the Receiver\u2019s Mail  and  shall immediately turn over such mail"
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "205d85ed-64ed-4883-8cf9-364e668846a0",
+  "right_id": "72a10b31-f20d-459b-ac52-4ed754e723b7",
+  "left_label": "EquityBuild, Inc.",
+  "right_label": "EquityBuild Finance",
+  "rule": "token_subset_org",
+  "score": 0.75,
+  "proposal": "adjudicate",
+  "rationale": "\"equitybuild\" is a token subset of \"equitybuild finance\"",
+  "left_evidence": [
+   "[Dkt. - p1] EQUITYBUILD, INC.,  )",
+   "[Dkt. - p6] EquityBuild established a local  office in a two - story coach house  located  in  the  Woodlawn neighborhood  of Chicago",
+   "[Dkt. - p24] $75,000  that  EquityBuild received from an investor"
+  ],
+  "right_evidence": []
+ },
+ {
+  "entity_type": "party",
+  "left_id": "8fcf1d21-4a39-4e4f-b02a-4a56716b5c31",
+  "right_id": "46ac8c7c-8b66-4ecb-821c-1aef5824cd64",
+  "left_label": "EquityBuild Finance, LLC",
+  "right_label": "Receivership Defendants",
+  "rule": "role_term_alias",
+  "score": 0.7,
+  "proposal": "adjudicate",
+  "rationale": "\"Receivership Defendants\" is a role term that the other party lists as an alias",
+  "left_evidence": [
+   "[Dkt. - p1] EQUITYBUILD FINANCE , LLC,"
+  ],
+  "right_evidence": [
+   "[Dkt. - p9] Within ten (10) days of the entry of this Order, the Receivership Defendants shall provide to the Receiver and the Commission copies of the Receivership Defenda",
+   "[Dkt. - p11] The  Receivership De fendants , as well as their agents, servants, employees,",
+   "[Dkt. - p14] The Receivership Defendants  shall not open any of the Receiver\u2019s Mail  and  shall immediately turn over such mail"
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "a5d252cc-2ccb-4947-9356-0b29d3a495d8",
+  "right_id": "ba3eb27b-23c9-4f4f-b379-2bf91adde64d",
+  "left_label": "Shaun Cohen",
+  "right_label": "The Cohens",
+  "rule": "role_term_alias",
+  "score": 0.7,
+  "proposal": "adjudicate",
+  "rationale": "\"The Cohens\" is a role term that the other party lists as an alias",
+  "left_evidence": [
+   "[Dkt. - p4] This order, however, does not dismiss Defendants Jerome Cohen and Shaun Cohen\u2019s personal attorneys",
+   "[Dkt. - p7] Defendant  Jerome Cohen\u2019s or Defendant Shaun Cohen \u2019s personal attorneys",
+   "[Dkt. - p8] Defendants Jerom e Cohen and Shaun Cohen  shall retain\nresponsibility"
+  ],
+  "right_evidence": [
+   "[Dkt. - p8] privilege and privacy objections  asserted  by the Cohens, but these concerns were ultimately resolved in accordance with a plan proposed by the SEC",
+   "[Dkt. 1967 p12] the Cohens \u201cran a Ponzi scheme through their real estate companies EquityBuild, Inc. and EquityBuild Finance, LLC (\u2018EBF\u2019) from at least 2010 to 2018.\u201d"
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "f5db2668-ea4b-4ec6-9183-5b32c24d76c5",
+  "right_id": "1e55b128-b8c8-4797-90eb-ec23937cc9d9",
+  "left_label": "Kevin B. Duff",
+  "right_label": "Receiver",
+  "rule": "role_term_alias",
+  "score": 0.7,
+  "proposal": "adjudicate",
+  "rationale": "\"Receiver\" is a role term that the other party lists as an alias",
+  "left_evidence": [
+   "[Dkt. - p2] Kevin B. Duff, of the firm Rachlis Du ff Adler Peel & Kaplan, LLC,  is hereby appointed to serve without bond as the federal equity receiver",
+   "[Dkt. - p2] is hereby appointed to serve without bond as the federal equity receiver",
+   "[Dkt. - p5] The representatives of the Receiver initially designated with authority over these accounts shall be  Kevin B. Duff ."
+  ],
+  "right_evidence": [
+   "[Dkt. - p12] The Receiver is authorized to t ake immediate possession of all  personal  property",
+   "[Dkt. - p12] authorized to  t ake immediate possession of all  real  property  of the",
+   "[Dkt. - p12] the Receiver is authorized t o change door locks to the  real property and  premises  described above."
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "78421d08-3647-4b59-a8f4-069114926e69",
+  "right_id": "25f441a8-8daf-411e-8f8b-9a2fadac4885",
+  "left_label": "Commission",
+  "right_label": "U.S. Securities and Exchange Commission",
+  "rule": "role_term_alias",
+  "score": 0.7,
+  "proposal": "adjudicate",
+  "rationale": "\"Commission\" is a role term that the other party lists as an alias",
+  "left_evidence": [],
+  "right_evidence": []
+ },
+ {
+  "entity_type": "party",
+  "left_id": "25f441a8-8daf-411e-8f8b-9a2fadac4885",
+  "right_id": "7cf85daf-31be-47ee-a467-51ca13a67574",
+  "left_label": "U.S. Securities and Exchange Commission",
+  "right_label": "Securities and Exchange Commission",
+  "rule": "alias_match",
+  "score": 0.8,
+  "proposal": "adjudicate",
+  "rationale": "shared alias \"sec\"",
+  "left_evidence": [],
+  "right_evidence": [
+   "[Dkt. 1938 p4] The Receiver has conferred with counsel for the SEC which consents to the relief requested in this motion."
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "bbbfd1f0-3ee5-4263-9734-851194d60cd9",
+  "right_id": "fc895704-a812-427d-8108-192a51bf84c7",
+  "left_label": "Prometheum Technologies, Inc.",
+  "right_label": "Prometheum",
+  "rule": "token_subset_org",
+  "score": 0.75,
+  "proposal": "adjudicate",
+  "rationale": "\"prometheum\" is a token subset of \"prometheum technologies\"",
+  "left_evidence": [],
+  "right_evidence": [
+   "[Dkt. - p4] forensic consultant Prometheum",
+   "[Dkt. - p4] as a forensic consultant on August 31, 2018, and, on September 6, 2018, the Court",
+   "[Dkt. - p4] on September 6, 2018, the Court\nentered an Order approving its rates. (Docket No. 56)"
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "d01a06e3-a08d-4ffb-ae89-c32291a896d4",
+  "right_id": "ba3eb27b-23c9-4f4f-b379-2bf91adde64d",
+  "left_label": "Jerry Cohen",
+  "right_label": "The Cohens",
+  "rule": "role_term_alias",
+  "score": 0.7,
+  "proposal": "adjudicate",
+  "rationale": "\"The Cohens\" is a role term that the other party lists as an alias",
+  "left_evidence": [
+   "[Dkt. - p5] It appears that Defendant Jerry Cohen largely conducted business from Florida"
+  ],
+  "right_evidence": [
+   "[Dkt. - p8] privilege and privacy objections  asserted  by the Cohens, but these concerns were ultimately resolved in accordance with a plan proposed by the SEC",
+   "[Dkt. 1967 p12] the Cohens \u201cran a Ponzi scheme through their real estate companies EquityBuild, Inc. and EquityBuild Finance, LLC (\u2018EBF\u2019) from at least 2010 to 2018.\u201d"
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "f9ea4a04-c132-415c-9cc0-81e92dc249ab",
+  "right_id": "841d95c6-d207-4bcb-b223-2f65dc2ec721",
+  "left_label": "Jerrine Pennington, as Special Administrator for the Estate of Valerie Pennington, Deceased",
+  "right_label": "Pennington",
+  "rule": "surname_alias",
+  "score": 0.7,
+  "proposal": "adjudicate",
+  "rationale": "surname-only reference sharing alias \"pennington\"",
+  "left_evidence": [],
+  "right_evidence": [
+   "[Dkt. 1938 p3] Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD"
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "44b0a4c6-9cac-40f1-8f6a-eec2e0dd021b",
+  "right_id": "841d95c6-d207-4bcb-b223-2f65dc2ec721",
+  "left_label": "Jerrine Pennington",
+  "right_label": "Pennington",
+  "rule": "surname_alias",
+  "score": 0.7,
+  "proposal": "adjudicate",
+  "rationale": "surname-only reference sharing alias \"pennington\"",
+  "left_evidence": [
+   "[Dkt. 1938 p2] these parties entered into the settlement agreement attached hereto as Exhibit A"
+  ],
+  "right_evidence": [
+   "[Dkt. 1938 p3] Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD"
+  ]
+ },
+ {
+  "entity_type": "party",
+  "left_id": "4f50bc9b-8f16-4fb3-a074-3fa59a774e61",
+  "right_id": "841d95c6-d207-4bcb-b223-2f65dc2ec721",
+  "left_label": "Valerie Pennington",
+  "right_label": "Pennington",
+  "rule": "surname_only",
+  "score": 0.5,
+  "proposal": "adjudicate",
+  "rationale": "surname-only reference; needs context",
+  "left_evidence": [],
+  "right_evidence": [
+   "[Dkt. 1938 p3] Pennington will receive nothing further from the Receiver, the Receivership Estate, or WPD"
+  ]
+ },
+ {
+  "entity_type": "property",
+  "left_id": "980a6383-dd66-4a7e-8a89-0951ee8eb1a7",
+  "right_id": "c1a9c819-9726-4eda-b4d2-06995de828e0",
+  "left_label": "Naples property",
+  "right_label": "Jerry Cohen's Naples home (the Naples Property)",
+  "rule": "address_token_overlap",
+  "score": 0.6,
+  "proposal": "adjudicate",
+  "rationale": "shared address tokens: naples",
+  "left_evidence": [],
+  "right_evidence": []
+ },
+ {
+  "entity_type": "related_lawsuit",
+  "left_id": "c71809d6-0c17-42a1-98b9-efb84da53953",
+  "right_id": "7a769373-9e8a-4548-808d-df8574e85f9e",
+  "left_label": "Jerrine Pennington as Special Administrator of the Estate of Valerie Pennington, Deceased v. 4533-47 Calumet LLC, 4533-37 S Calumet LLC, and WPD Management, LLC",
+  "right_label": "Circuit Court Action (Pennington v. defendants; personal injury/wrongful death)",
+  "rule": "caption_token_overlap",
+  "score": 0.6,
+  "proposal": "adjudicate",
+  "rationale": "shared caption tokens: pennington",
+  "left_evidence": [],
+  "right_evidence": []
+ }
+]

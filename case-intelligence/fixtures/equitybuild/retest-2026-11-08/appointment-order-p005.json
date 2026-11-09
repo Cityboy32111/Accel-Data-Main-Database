@@ -1,0 +1,173 @@
+{
+ "key": "appointment-order",
+ "page": 5,
+ "document": "Order Appointing Receiver (2018-08-17), Dkt. 16",
+ "document_id": "241e638c-979b-442a-a15e-1957dc70e562",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "2026-11-08.2",
+ "schema_version": "2026-11-08.2",
+ "input_tokens": 5582,
+ "output_tokens": 904,
+ "latency_ms": 4681,
+ "page_kind": "body",
+ "output": {
+  "page_kind": "body",
+  "parties": [
+   {
+    "key": "p1",
+    "kind": "person",
+    "canonical_name": "Kevin B. Duff",
+    "party_roles": [
+     "receiver"
+    ],
+    "aliases": []
+   }
+  ],
+  "creditors": [],
+  "attorneys": [],
+  "properties": [],
+  "related_lawsuits": [],
+  "authorities": [],
+  "assertions": [
+   {
+    "subject_type": "party",
+    "subject_key": "p1",
+    "predicate": "authorized_to",
+    "object_value": "initially designated representative of the Receiver with authority over the Accounts",
+    "object_type": null,
+    "object_key": null,
+    "modality": "ordered",
+    "conditions": "initially designated; authority over the Accounts",
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "The representatives of the Receiver initially designated with authority over these accounts shall be  Kevin B. Duff .",
+    "confidence": 0.85,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "authorized_to",
+    "object_value": "Receiver authorized to take custody, control and possession of all Receivership Assets and records from the Receivership Defendants",
+    "object_type": null,
+    "object_key": null,
+    "modality": "ordered",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "To take custody, control ,  and possession  of all Receivership Assets  and records relevant thereto  from the Receivership Defendants;",
+    "confidence": 0.8,
+    "origin": "extracted"
+   },
+   {
+    "subject_type": "case",
+    "subject_key": "case",
+    "predicate": "authorized_to",
+    "object_value": "Receiver authorized to open, close, transfer and change all bank, investment and securities Accounts",
+    "object_type": null,
+    "object_key": null,
+    "modality": "ordered",
+    "conditions": null,
+    "proceeding": {
+     "scope": "main_case",
+     "related_lawsuit_key": null
+    },
+    "as_of_date": "2018-08-17",
+    "referenced_page": null,
+    "quote": "The Receiver shall have the authority to open, close, transfer and change all bank, investment and securit ies Accounts.",
+    "confidence": 0.85,
+    "origin": "extracted"
+   }
+  ]
+ },
+ "assertions": [
+  {
+   "subject_type": "party",
+   "subject_key": "p1",
+   "predicate": "authorized_to",
+   "object_value": "initially designated representative of the Receiver with authority over the Accounts",
+   "object_type": null,
+   "object_key": null,
+   "modality": "ordered",
+   "conditions": "initially designated; authority over the Accounts",
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "The representatives of the Receiver initially designated with authority over these accounts shall be  Kevin B. Duff .",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "Kevin B. Duff",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "authorized_to",
+   "object_value": "Receiver authorized to take custody, control and possession of all Receivership Assets and records from the Receivership Defendants",
+   "object_type": null,
+   "object_key": null,
+   "modality": "ordered",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "To take custody, control ,  and possession  of all Receivership Assets  and records relevant thereto  from the Receivership Defendants;",
+   "confidence": 0.8,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.8,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  },
+  {
+   "subject_type": "case",
+   "subject_key": "case",
+   "predicate": "authorized_to",
+   "object_value": "Receiver authorized to open, close, transfer and change all bank, investment and securities Accounts",
+   "object_type": null,
+   "object_key": null,
+   "modality": "ordered",
+   "conditions": null,
+   "proceeding": {
+    "scope": "main_case",
+    "related_lawsuit_key": null
+   },
+   "as_of_date": "2018-08-17",
+   "referenced_page": null,
+   "quote": "The Receiver shall have the authority to open, close, transfer and change all bank, investment and securit ies Accounts.",
+   "confidence": 0.85,
+   "origin": "extracted",
+   "grounded": true,
+   "grounding_method": "normalized",
+   "lint_flags": [],
+   "needs_review": false,
+   "final_confidence": 0.85,
+   "subject_label": "(main case)",
+   "proceeding_label": "(main case)"
+  }
+ ],
+ "dropped": [],
+ "page_text": "5\ninterests, contracts, certificates of title, instruments, inheritances,  interests\nin any trust, art, collectibles, furnishings, jewelry, personal effects, digital\ncurrencies, virtual currencies, cryptocurrencies, digital or electronic\nproperty, rights, and other assets, together with all rents, profits, dividends,\ninterest or  other income attributable thereto, of whatever kind and\nwherever located, which the Receivership Defendants own, possess, have\na beneficial interest in, or control directly or indirectly (the foregoing,\ntogether with all assets described in this Order  col lectively may be\nref erred to as  “Receivership Assets”  or the “Receivership Estate ”);\nB .  To take custody, control ,  and possession  of all Receivership Assets  and\nrecords relevant thereto  from the Receivership Defendants;  to sue for and\ncollect, recover, receive ,  and take into possession  from third parties  all\nReceivership Assets  and records  relevant thereto ;\nC.  T o manage, control, operate and maintain the Receiver ship Estate  and\nhold in his possession, custody and contro l all  Receivership Assets ,\npend ing further Order of this Court;\nD.  To take possession of all bank and investment accounts or securities\naccounts owned  controlled, or held, in whole or in part,  by or associated\nwith the Receivership Estate or Receivership  Defendants, whether in the\nname of the Receivership Defendants or their subsidiaries or affiliates,\nwherever located (collectively, the  “ Accounts ” ). The Receiver shall have\nthe authority to open, close, transfer and change all bank, investment and\nsecurit ies Accounts.\nE.  To sign checks on, otherwise withdraw or transfer, trade ,  or otherwise\ncontrol the funds and/or securities co ntained in any Accounts owned,\ncontrolled , or held, in whole or in part,  by, or in the name of, the\nReceivership Defendants and R eceivership Estate. The Receiver shall also\nbe authorized to add or delete signers, including those currently authorized\non the Account(s). The representatives of the Receiver initially designated\nwith authority over these accounts shall be  Kevin B. Duff .\nF.  To open and maintain new bank accounts in the name of the Receiver for\nthe use in administering and preservation of the Receivership Estate, using\nthe Federal Employer Identification Number of the Receivership Estate, at\nthe Receiver ’ s discretion.\nG .  To take control of, conserve, and liquidate any and all securities or\ncommodities, owned , controlled, or held by, in whole or in part,  by or for\nthe benefit of the Receivership Estate, as the Receiver deems advisable or\nnecessary.\nH .  To use Receiver ship  Assets  for the ben efit of the Receivership Estate ,\nCase: 1:18-cv-05587 Document #: 16 Filed: 08/17/18 Page 5 of 29 PageID #:397"
+}

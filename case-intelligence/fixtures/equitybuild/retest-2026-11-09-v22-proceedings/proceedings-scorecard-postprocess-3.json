@@ -1,0 +1,1667 @@
+{
+ "totals": {
+  "creditors": {
+   "tp": 6,
+   "fp": 0,
+   "fn": 10
+  },
+  "attorneys": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  },
+  "organizations": {
+   "tp": 17,
+   "fp": 0,
+   "fn": 10
+  },
+  "properties_or_assets": {
+   "tp": 4,
+   "fp": 0,
+   "fn": 3
+  },
+  "related_proceedings": {
+   "tp": 13,
+   "fp": 0,
+   "fn": 6
+  },
+  "authorities": {
+   "tp": 50,
+   "fp": 0,
+   "fn": 4
+  }
+ },
+ "classification": {
+  "proceeding_saved_as_authority": [],
+  "authority_saved_as_proceeding": [],
+  "flagged_for_review_correct": [
+   "dkt-1806 p2: SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) \u2014 raw output saved it as an authority; post-processing reclassified it to related_lawsuit (review) with reason 'caption names an estate party; appeal or action from this receivership', which matches the labels (related proceeding, not stranger precedent)",
+   "dkt-1967 p12: promoted_1: SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) - reclassified authority -> related_lawsuit (review), reason 'caption names an estate party; appeal or action from this receivership'; labels list it as a related proceeding (EquityBuild I, appeal from this receivership)",
+   "dkt-1967 p12: promoted_2: SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) - reclassified authority -> related_lawsuit (review); labels list it as a related proceeding (EquityBuild II, appeal from this receivership)",
+   "dkt-1967 p5: promoted_1: SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) -- reclassified authority -> related_lawsuit (review); labels list it as a related proceeding (Seventh Circuit appeal from the receivership), so the classification matches",
+   "dkt-1967 p5: promoted_2: SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) -- reclassified authority -> related_lawsuit (review); labels list it as a related proceeding, so the classification matches"
+  ],
+  "flagged_for_review_wrong": [],
+  "main_case_saved_as_proceeding": []
+ },
+ "citations": {
+  "assertions": 32,
+  "quote_match": 32,
+  "claim_support": 29,
+  "both": 29,
+  "modality_correct": 29,
+  "proceeding_correct": 31,
+  "flagged": 4,
+  "material_failures": 0
+ },
+ "key_facts": {
+  "labeled": 57,
+  "captured": 37,
+  "captured_with_status": 36
+ },
+ "perPage": [
+  {
+   "page": "dkt-1967 p4",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "authorities": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "CFTC v. Barki, LLC, 2009 WL 3839389 (W.D.N.C. 2009)",
+      "CFTC v. Equity Fin. Grp., LLC, 2005 WL 2143975 (D.N.J. Sept. 2, 2005)",
+      "CFTC v. Equity Fin. Grp., LLC, 2005 WL 2864781 (D.N.J. Sept. 26, 2005)",
+      "CFTC v. Eustace, 2008 WL 471574 (E.D. Pa. 2008)",
+      "CFTC v. Lake Shore Asset Mgmt. Ltd., 2010 WL 960362 (N.D. Ill. 2010)",
+      "CFTC v. Lake Shore Asset Mgmt. Ltd., 646 F.3d 401 (7th Cir. 2011) -- captured only as the aff'd cite inside the combined N.D. Ill. row; see judgment_calls",
+      "CFTC v. PrivateFX Global One, 778 F. Supp. 2d 775 (S.D. Tex. 2011)",
+      "CFTC v. TMTE, Inc., 2024 WL 983553 (5th Cir. 2024)",
+      "CFTC v. Topworth Int'l., Ltd., 205 F.3d 1107 (9th Cir. 1999)",
+      "Cleveland Bd. of Educ. v. Loudermill, 470 U.S. 532 (1985)",
+      "Cunningham v. Brown, 265 U.S. 1 (1924)",
+      "Donell v. Kowell, 533 F.3d 762 (9th Cir. 2008)",
+      "FDIC v. Bernstein, 786 F. Supp. 170 (E.D.N.Y. 1992)",
+      "FTC v. Ameridebt, Inc., 373 F. Supp. 2d 558 (D. Md. 2005)",
+      "FTC v. Crittenden, 823 F. Supp. 699 (C.D. Cal. 1993)",
+      "Matter of Fesco Plastics Corp., 996 F.2d 152 (7th Cir. 1993)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "classification": {
+     "proceeding_saved_as_authority": [],
+     "authority_saved_as_proceeding": [],
+     "flagged_for_review_correct": [],
+     "flagged_for_review_wrong": [],
+     "main_case_saved_as_proceeding": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": false,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "material": false,
+      "problem": "Quote is the ECF header stamp and is on the page; Dkt. 1967 filed 06/30/26 in the main case is correct and correctly scoped main_case. Post-processing downgraded modality from 'completed' to 'index_reference' via the toc_page lint; the filing stamp records a completed event, not a table-of-contents index line, so 'completed' was the accurate modality. Harmless (needs_review already true, confidence cut to 0.54), would not mislead counsel."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Page is page iii of the Table of Authorities for Dkt. 1967, listing 16 case-law citations from CFTC v. Barki through Matter of Fesco Plastics Corp.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "page_kind saved as 'table_of_contents' rather than table of authorities (close enough for a front-matter index); all 16 citations are present across 15 authority rows because the Lake Shore N.D. Ill. decision and its 7th Cir. affirmance are stored as one row. No holding or ruling was asserted from the page."
+     },
+     {
+      "fact": "Every authority on this page is precedent about strangers to the estate; no related proceeding involving EquityBuild, the Cohens or the Receiver appears.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "related_lawsuits is empty and all 16 citations sit under authorities with no review flags; the authority-versus-proceeding rule was applied correctly, including for the similarly named CFTC v. Equity Fin. Grp."
+     },
+     {
+      "fact": "Brief cites CFTC v. Lake Shore Asset Mgmt. Ltd., 646 F.3d 401 (7th Cir. 2011) at pp. 36 and 36 n.17, and the N.D. Ill. decision 2010 WL 960362 at pp. 41 and 43.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Both citations are captured (the 7th Cir. cite only as the aff'd portion of the combined row); the page lists the 7th Cir. decision as a separate entry, and the output does not record that separate entry or any pin pages. Pin pages are not stored anywhere in the output schema."
+     },
+     {
+      "fact": "Two U.S. Supreme Court decisions cited: Cunningham v. Brown, 265 U.S. 1 (1924) at p. 16 and Cleveland Bd. of Educ. v. Loudermill, 470 U.S. 532 (1985) at p. 55.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Both saved as authorities with correct reporter citations; pin pages not stored."
+     },
+     {
+      "fact": "CFTC v. Equity Fin. Grp., LLC (D.N.J. 2005) is cited twice (2005 WL 2143975 and 2005 WL 2864781) and is unrelated to EquityBuild.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Both decisions saved as separate authority rows with correct WL cites and dates; neither was saved as a related lawsuit, so the name-similarity trap was avoided."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Lake Shore: the page lists two separate TOA entries (N.D. Ill. 2010 WL 960362 aff'd 646 F.3d 401, at pp. 41, 43; and 646 F.3d 401 (7th Cir. 2011) alone, at pp. 36, 36 n.17). The output has one combined row whose text contains both reporter citations. Scored as 16 TP / 0 FN because the 7th Cir. citation is present by name and reporter; a stricter reviewer could count the missing standalone 7th Cir. row as 1 FN (15 TP).",
+     "Assertion 0 modality: scored modality_correct=false because the ECF filing stamp is a completed event and the 'index_reference' value is a lint-driven downgrade for TOC pages. If the project treats the toc_page downgrade as the intended modality for anything asserted from front-matter pages, this flips to true. Not material either way.",
+     "Output page_kind is 'table_of_contents' while the page is a Table of Authorities; treated as acceptable front-matter classification, not an error.",
+     "Output strips docket numbers from the WL-cited authorities (e.g. No. 3:09 CV 106-MU, No. Civ. 04-1512 RBK AMD, No. 07 C 3598, No. 05-2973, No. 23-10420) and stores no pin pages. Reporter cites and dates remain, so the authorities are identifiable; treated as a formatting loss, not an FN.",
+     "Output preserves the page's 'FDIC.' spelling (with the stray period) in the Bernstein citation; matched to the label 'FDIC v. Bernstein' as a name variant.",
+     "Organizations correctly left empty: CFTC, FTC, FDIC and the named defendants appear only inside captions of cited precedents, matching the labels' treatment."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1967 p6",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "authorities": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "SEC v. HKW Trading LLC, 2009 WL 2499146 (M.D. Fla. Aug. 14, 2009) (output omits docket No. 8:05-CV-1076-T-24-TB; same authority)",
+      "SEC v. Huber, 702 F.3d 903 (7th Cir. 2012)",
+      "SEC v. Infinity Grp. Co., 226 Fed. App'x 217 (3d Cir. 2007)",
+      "SEC v. Merrill Scott & Assocs., 2006 WL 3813320 (D. Utah Dec. 21, 2006) (output omits No. 02CV39)",
+      "SEC v. Parish, 2010 WL 5394736 (D.S.C. Feb. 10, 2010) (output omits No. 2:07-cv-00919-DCN)",
+      "SEC v. TLC Invs. & Trade Co., 147 F. Supp. 2d 1031 (C.D. Cal. 2001)",
+      "SEC v. Wang, 944 F.2d 80 (2d Cir. 1991)",
+      "SEC v. Wealth Mgmt., LLC, 628 F.3d 323 (7th Cir. 2010)",
+      "U.S. v. Mikaitis, 33 F.4th 393 (7th Cir. 2022)",
+      "Vanston Bondholders Protective Committee v. Green, 329 U.S. 156 (1946)",
+      "15 USC \u00a7 77(b)",
+      "15 USC \u00a7 78u(d)",
+      "15 USC \u00a7 78u(e)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "classification": {
+     "proceeding_saved_as_authority": [],
+     "authority_saved_as_proceeding": [],
+     "flagged_for_review_correct": [],
+     "flagged_for_review_wrong": [],
+     "main_case_saved_as_proceeding": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": false,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "material": false,
+      "problem": "Quote is the verbatim ECF header stamp on page 6 and the filing of Dkt. 1967 on 06/30/26 in the main case (1:18-cv-05587) is supported. Post-processing downgraded modality from 'completed' to 'index_reference' under a blanket toc_page rule, but the fact asserted (the document was filed) comes from the court's header stamp, not from a table entry, so 'completed' was the accurate modality. Harmless over-caution; final_confidence 0.54 and needs_review=true."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Page is the final page (v) of the Table of Authorities in Dkt. 1967, filed 06/30/26 in 1:18-cv-05587, 273 pages; no argument, parties, claims or properties.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "The document_filed assertion captures Dkt. 1967, the 06/30/26 filing date and main-case scope; parties/creditors/properties/related_lawsuits are correctly empty. page_kind is 'table_of_contents' rather than 'table_of_authorities' (the schema may not have a separate TOA value); no substantive status to preserve."
+     },
+     {
+      "fact": "The motion relies most heavily on SEC v. Huber, 702 F.3d 903 (7th Cir. 2012) (13 brief pages) and SEC v. Wealth Mgmt., LLC, 628 F.3d 323 (7th Cir. 2010) (10 brief pages).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Both cases are saved as authorities with correct reporter cites. The brief-page pin cites (and therefore the 'most heavily cited' weighting) are not stored; no assertion records page references. Status as precedent (authority, not proceeding) preserved."
+     },
+     {
+      "fact": "Statutory basis at brief page 4: 15 U.S.C. \u00a7 77(b), \u00a7 78u(d), \u00a7 78u(e) under 'Other Authorities'.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "All three statutes saved as authorities; the page-4 reference is not stored."
+     },
+     {
+      "fact": "None of the ten cases involves the estate, EquityBuild entities, the Cohens or the Receiver; all are authorities, zero related proceedings on the page.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "related_lawsuits is empty and all ten cases are under authorities; no reclassification or warnings were needed. The authority-versus-proceeding rule was applied correctly."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "page_kind: output says 'table_of_contents' while the labels say 'table_of_authorities'. Treated as a non-material taxonomy mismatch (the page is the TOA tail, functionally an index page); confirm whether the schema has a distinct table_of_authorities value and whether this should count as an error.",
+     "Authority rows for HKW Trading, Merrill Scott and Parish omit the district-court docket numbers that appear on the page (e.g. No. 8:05-CV-1076-T-24-TB) and keep only the WL cite; counted as true positives since name + reporter/WL cite identify the authority.",
+     "Assertion 0 modality: scored modality_correct=false because the 'completed' to 'index_reference' downgrade is a blanket toc_page rule applied to a header-stamp fact (the filing really is completed). If earlier scorecards treat the lint downgrade as the intended behaviour on index pages, flip this to modality_correct=true; it is non-material either way.",
+     "Pin-cite page numbers (brief pages where each authority is cited) are not captured anywhere in the output; the labels' key fact about Huber/Wealth Mgmt being the most heavily cited is only partially represented (the cases are present, the weighting is not). Marked captured=true on the entity level; confirm whether pin cites are expected output.",
+     "The main receivership case (1:18-cv-05587) appears only as the proceeding scope of the document_filed assertion, not as a related_lawsuit, which is correct; the labels list no related proceedings so there is no main-case FN question."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1967 p12",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [
+      "EquityBuild, Inc. (p1, defendant)",
+      "EquityBuild Finance, LLC (p2, alias EBF, defendant)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "Securities and Exchange Commission (appears only as 'SEC' in the captions SEC v. EquityBuild, Inc.; not saved as a party)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I) -> promoted_1, court 7th Cir., relationship appeal",
+      "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (EquityBuild II) -> promoted_2, court 7th Cir., relationship appeal"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "authorities": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "classification": {
+     "proceeding_saved_as_authority": [],
+     "authority_saved_as_proceeding": [],
+     "flagged_for_review_correct": [
+      "promoted_1: SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) - reclassified authority -> related_lawsuit (review), reason 'caption names an estate party; appeal or action from this receivership'; labels list it as a related proceeding (EquityBuild I, appeal from this receivership)",
+      "promoted_2: SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) - reclassified authority -> related_lawsuit (review); labels list it as a related proceeding (EquityBuild II, appeal from this receivership)"
+     ],
+     "flagged_for_review_wrong": [],
+     "main_case_saved_as_proceeding": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "ECF header quote is on the page (Document #: 1967, Filed 06/30/26, Page 12 of 273). Modality 'completed' and main_case scope are correct. The motion title in object_value is not literally on the page but comes from document metadata, consistent with prior scorecards."
+     },
+     {
+      "index": 1,
+      "predicate": "appointed_on",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote matches the page (text layer has intra-word spacing 'O n', 'r eceiver'; grounded via spaceless match). Receiver appointed August 17, 2018 (Dkt. 16) in the main case, modality completed. This assertion was dropped in the 2026-11-09.2 run and is now correctly retained. The Receiver's duties in the same paragraph are not captured, but that is an omission, not an error."
+     },
+     {
+      "index": 2,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote matches the page (text layer '2 , 442' spacing only). Receivership scale figures (108 properties, 1,600+ units, 2,442 claims by 914 claimants) correctly attributed to the main case as a reported fact; the sentence continues onto the next page, which does not change the figures."
+     },
+     {
+      "index": 3,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": false,
+      "modality_correct": true,
+      "proceeding_correct": false,
+      "flagged_for_review": true,
+      "material": false,
+      "problem": "Quote is on the page (curly vs. straight quote marks only) and the substance is accurate, but the predicate 'party_position' with subject EquityBuild, Inc. recasts a Seventh Circuit holding (EquityBuild I, 101 F.4th at 528, echoing this Court's holding) as a party's litigation position, and the proceeding is scoped (main case) instead of linked to promoted_1 (EquityBuild I). Post-processing now attaches lint flag 'holding_as_position', sets needs_review true and cuts confidence 0.70 -> 0.42, so the error is surfaced for review; rated not material on that basis (same failure was rated material in the 2026-11-09.2 scorecard when it was unflagged)."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "The Cohens created a network of over 158 separate corporate entities as cover; loans resulted in mortgages sometimes multiples of property value (citing Dkt. 241 at 3).",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "No assertion or entity captures the 158-entity network or the over-mortgaging background fact."
+     },
+     {
+      "fact": "During the Groups 1-9 claims process, competing purportedly secured claims were asserted by institutional lender claimants and investor lender claimants against estate properties.",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured anywhere in the output; no claimant-class or claims-process assertion."
+     },
+     {
+      "fact": "The Seventh Circuit recognized, as the district court held, that the Cohens ran a Ponzi scheme through EquityBuild, Inc. and EquityBuild Finance, LLC from at least 2010 to 2018 (EquityBuild I at 528; Easterbrook concurrence at 534).",
+      "captured": true,
+      "legal_status_preserved": false,
+      "note": "Captured in assertion index 3 with an accurate quote and object_value that says 'Seventh Circuit recognized', but stored as a 'party_position' of EquityBuild, Inc. in the main case rather than as an appellate holding tied to EquityBuild I (promoted_1). Now flagged holding_as_position / needs_review. The Easterbrook concurrence ('liability ... established years ago') is not captured."
+     },
+     {
+      "fact": "The district court's June 20, 2024 order (Dkt. 1679; 2024 WL 3069682) was affirmed sub nom. by the Seventh Circuit in EquityBuild II, 161 F.4th 1020, 1025-26 (7th Cir. 2025).",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Both halves exist as entities (2024 WL 3069682 under authorities; 161 F.4th 1020 under related_lawsuits with relationship 'appeal'), but no assertion records the affirmance, the Dkt. 1679 link, or the sub nom. relationship, so the 'affirmed' status is not preserved."
+     },
+     {
+      "fact": "On August 17, 2018, the Court appointed a receiver for the Receivership Defendants' assets (Dkt. 16), charged with discovering/preserving assets, identifying investor victims and creditors, and proposing/administering a distribution plan.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured in assertion index 1 (appointed_on 2018-08-17, modality completed, main case) with the Dkt. 16 cite in the quote; the fix to spaceless grounding restored this assertion that the previous run dropped. The Receiver's enumerated duties are not captured."
+     },
+     {
+      "fact": "The Receivership has involved at least 108 real estate properties, more than 1,600 residential units, and 2,442 claims submitted by 914 claimants.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured in assertion index 2 as a reported status fact in the main case; figures match the page."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Assertion index 3 (party_position for the Seventh Circuit's Ponzi-scheme holding) was rated material=false solely because post-processing 2026-11-09.3 now flags it (holding_as_position, needs_review true, final_confidence 0.42). The underlying defect is unchanged from the 2026-11-09.2 scorecard, where it was rated material because it was unflagged; a reviewer who treats a flagged-but-wrong predicate as still misleading should move it to material_errors.",
+     "Assertion index 3 scored proceeding_correct=false because the object_value describes a Seventh Circuit recognition (EquityBuild I, a labeled related proceeding) but is scoped to the main case; a reviewer could accept main-case scope because the page also says 'as this Court held'.",
+     "Securities and Exchange Commission counted as an organization FN: it appears on the page only as 'SEC' inside the case captions, and the output did not list it as a party. A reviewer might treat caption-only plaintiff mentions as not required on a body page.",
+     "The authority row 'SEC v. EquityBuild, Inc., No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024)' is a district court order (Dkt. 1679) inside the main receivership case; per the rule it is neither a related proceeding nor an authorities FP, so authorities scores 0/0/0 and classification.main_case_saved_as_proceeding is empty. Counsel may prefer it recorded as a main-case docket cross-reference rather than as an authority.",
+     "The raw model output put EquityBuild I and EquityBuild II under authorities; post-processing reclassified both to related_lawsuits with a review flag. Scoring was done on the final output, so both count as related-proceeding TPs and as correctly flagged reclassifications; the raw misclassification is noted for the pipeline owner.",
+     "The related_lawsuits rows store the reporter citation (101 F.4th 526 / 161 F.4th 1020) in the docket_number field with no short name (EquityBuild I/II) and no pin cites; matched to the labels as name variants of the same decisions.",
+     "Change versus the 2026-11-09.2 scorecard for this page: the 'appointed_on 2018-08-17' assertion is no longer dropped (grounded via spaceless match), raising key-fact capture from 2/6 to 3/6, and the party_position assertion is now flagged for review. No new errors were introduced by the fix.",
+     "Assertion index 0 (document_filed) was accepted as supported even though the motion title is not on page 12; only the ECF header is. This follows prior scorecard practice of treating the header plus document metadata as sufficient."
+    ]
+   },
+   "rescored_after": "2026-11-09.3"
+  },
+  {
+   "page": "status-report-1 p21",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 5,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Byrd (plaintiff)",
+      "Michigan Shores Apartments, LLC",
+      "Stewart (plaintiff)",
+      "Watson, et al. (plaintiffs)",
+      "Reymone (plaintiff)"
+     ]
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [
+      "EquityBuild, Inc.",
+      "Michigan Shores Apartments, LLC",
+      "City of Chicago"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "7420 S. Colfax (lead named defendant in Stewart v. 7420 S. Colfax)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "7420 S. Colfax (Chicago)"
+     ]
+    },
+    "related_proceedings": {
+     "tp": 6,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [
+      "Byrd v. EquityBuild, et al., No. 2018 L 973 (Cook County Law Div.)",
+      "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., No. 2018 CH 9098 (Cook County Chancery Div.)",
+      "Michigan Shores Apartments, LLC v. EquityBuild, Inc., et al., No. 2018 CH 3665 (Cook County Chancery Div.)",
+      "Stewart v. 7420 S. Colfax, et al., No. 2016 L 6239 (Cook County Law Div.)",
+      "Watson, et al. v. EquityBuild, Inc., et al., No. 2017 L 1320 (Cook County Law Div.)",
+      "Reymone v. EquityBuild, Inc., No. 2018 L 7680 (Cook County Law Div.)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "City of Chicago related matters (uncaptioned; Receiver's counsel appeared ~six times)"
+     ]
+    },
+    "authorities": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "classification": {
+     "proceeding_saved_as_authority": [],
+     "authority_saved_as_proceeding": [],
+     "flagged_for_review_correct": [],
+     "flagged_for_review_wrong": [],
+     "main_case_saved_as_proceeding": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": ""
+     },
+     {
+      "index": 1,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "conditions field holds a reason ('Because there is no stay calendar in Chancery') rather than a condition; as_of_date 2018-12-13 is the future status date, not the date the continuance was entered (report filed 10/30/18). Not misleading on substance."
+     },
+     {
+      "index": 2,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote carries OCR spacing artifacts ('staye d un til', 'De cember') but matches ignoring whitespace. as_of_date 2018-12-04 is the future status date rather than the date of the stay ruling."
+     },
+     {
+      "index": 3,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": ""
+     },
+     {
+      "index": 4,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": ""
+     },
+     {
+      "index": 5,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "object_value abbreviates the filing title to 'Notice of Appointment and Stay of Litigation' (page: 'Notice of Appointment of Receiver and Stay of Litigation'); quote is accurate."
+     },
+     {
+      "index": 6,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Header-derived assertion about the main case (Dkt. 107 filed 10/30/18); correctly scoped main_case, not saved as a related lawsuit."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Receiver notified parties and courts in all suits pending against the Receivership Estate of the litigation stay under the Order Appointing Receiver; counsel appeared ~six times to orally move for stays (and separately ~six times on City of Chicago matters).",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "No assertion captures the general stay-notification activity or the oral motions to stay; City of Chicago appears only as an 'other' party with no assertion."
+     },
+     {
+      "fact": "Byrd v. EquityBuild (2018 L 973) placed on Law Division Stay Calendar on September 11, 2018.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 0; stayed status and date preserved."
+     },
+     {
+      "fact": "Michigan Shores v. EquityBuild (2018 CH 9098) continued for status to December 13, 2018 because Chancery has no stay calendar.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1; 'continued for status' (not stayed) preserved."
+     },
+     {
+      "fact": "Michigan Shores v. EquityBuild (2018 CH 3665): Plaintiff's motion to stay granted, stayed until further order, status December 4, 2018.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2; stay granted and 'until further order' preserved."
+     },
+     {
+      "fact": "Stewart v. 7420 S. Colfax (2016 L 6239) stayed as to EquityBuild, Inc. and Receivership Defendants on September 6, 2018, proceeding against other parties.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 3; partial-stay status preserved in object_value and conditions."
+     },
+     {
+      "fact": "Watson v. EquityBuild (2017 L 1320) stayed as to all parties on October 10, 2018 and placed on Law Division Stay Calendar.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 4."
+     },
+     {
+      "fact": "Reymone v. EquityBuild (2018 L 7680): Receiver filed appearance and Notice of Appointment of Receiver and Stay of Litigation on August 24, 2018; placed on Miscellaneous Stay Calendar.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 5; filing title slightly abbreviated in object_value but status preserved."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Authority-vs-proceeding rule applied correctly: all six captioned Cook County suits name EquityBuild/EquityBuild, Inc./Receivership Defendants/7420 S. Colfax and were saved as related_lawsuits; zero authorities on the page and zero saved; no reclassifications or review flags, and none were warranted.",
+     "Creditors: labels treat the six litigation plaintiffs (Byrd, Michigan Shores, Stewart, Watson, Reymone) as unliquidated litigation claimants against the estate; the output saved none, scored as 5 FN. A human should confirm whether unliquidated state-court plaintiffs belong in creditors under the project's definition, since no claim amount or nature appears on the page.",
+     "Related proceedings FN for 'City of Chicago related matters': the page gives no caption, court or docket, so the output's choice to record City of Chicago only as a party is defensible; counted as FN per the labels.",
+     "'7420 S. Colfax' counted as FN in both organizations and properties per the labels; the page shows it only as a caption defendant, so treating it as a property-holding entity is an inference from the address.",
+     "The main-case document_filed assertion (index 6) is header-derived and correctly scoped to main_case; it was not saved under related_lawsuits, so nothing goes in main_case_saved_as_proceeding.",
+     "as_of_date on assertions 1 and 2 uses the future status-hearing date (2018-12-13, 2018-12-04) rather than the date of the ruling or the report date; not scored as a material error but worth a lint rule.",
+     "Omission of any assertion for the Receiver's general stay-notification activity and oral motions to stay (key fact 1) is a recall gap, not a misleading statement."
+    ]
+   }
+  },
+  {
+   "page": "status-report-1 p2",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "authorities": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "FDIC v. Bernstein, 786 F.Supp. 170, 177 (E.D.N.Y. 1992)",
+      "SEC v. Hardy, 803 F.2d 1034, 1037 (9th Cir. 1986)",
+      "SEC v. Safety Financial Service, Inc., 674 F.2d 368, 372 (5th Cir. 1982)",
+      "SEC v. Elfindepan, S.A., 169 F. Supp. 2d 420, 424 (M.D.N.C. 2001)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "classification": {
+     "proceeding_saved_as_authority": [],
+     "authority_saved_as_proceeding": [],
+     "flagged_for_review_correct": [],
+     "flagged_for_review_wrong": [],
+     "main_case_saved_as_proceeding": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Header line matches the PDF (Case 1:18-cv-05587, Dkt. 107, filed 10/30/18, page 2 of 30, PageID #:955); main-case scope is correct."
+     },
+     {
+      "index": 1,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Quote appears verbatim on the page; 'reported' correctly conveys the Receiver's own statement of expectation rather than a court finding."
+     },
+     {
+      "index": 2,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote on page and claim supported; the page cites 'Docket No, 16, Order Appointing Receiver \u00b6\u00b6 6-8', which the object_value paraphrases without naming Dkt. 16. Modality 'argued' is defensible (statement in a legal-background section) but 'reported' would fit a factual reference to an existing order at least as well; not misleading."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "The Receiver expects this status report to be a primary source of information for many, including investors, lenders, and other creditors.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion index 1 captures it with modality 'reported' under main_case; correctly not presented as a court finding."
+     },
+     {
+      "fact": "The Receiver's powers and duties derive from the Order Appointing Receiver, Docket No. 16, paragraphs 6-8.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion index 2 captures the Order Appointing Receiver \u00b6\u00b6 6-8 as the source of the Receiver's powers; the object_value omits the 'Docket No. 16' reference and uses modality 'argued' rather than describing an existing court order, but it does not misstate the order's status. Condition 'subject to the Court's directions and orders' is not recorded."
+     },
+     {
+      "fact": "The Receiver asserts two basic principles governing equitable receiverships: (1) the district court has extremely broad discretion in supervising the receivership; (2) a primary purpose is orderly and efficient administration of the estate for the benefit of creditors.",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured as an assertion. The supporting authorities (Bernstein, Hardy, Safety Financial) are saved under authorities, but the legal propositions themselves and the 'generally upheld absent clear showing of abuse' condition appear nowhere in the output."
+     },
+     {
+      "fact": "The Receiver asserts that a receiver receives his power and authority directly from the Court and is subject to the Court's directions and orders, so that the Receiver effectively steps into the shoes of the receivership entities (sentence continues on the next page).",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured as an assertion. SEC v. Elfindepan is saved as an authority, but the proposition it supports and the 'steps in the shoes' effect (cut off at the page break) are not recorded."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "All four precedent citations (FDIC v. Bernstein; SEC v. Hardy; SEC v. Safety Financial Service, Inc.; SEC v. Elfindepan, S.A.) were saved under authorities and none under related_lawsuits, so the authority-versus-proceeding rule this retest targets was applied correctly on this page; related_lawsuits, reclassified, warnings and dropped are all empty.",
+     "The Docket No. 16 reference (Order Appointing Receiver) belongs to the main receivership case (No. 1:18-cv-05587) and was not saved as a related proceeding or an authority; that is the correct handling and nothing is counted against the output for it.",
+     "'FDIC' and 'SEC' appear only inside cited-precedent captions; neither the labels nor the output list them as organizations, consistent with earlier scorecards.",
+     "Assertion index 2 uses modality 'argued' for the statement that the Receiver is tasked with powers under the Order Appointing Receiver; a reviewer may prefer 'reported' since it describes an existing court order rather than a contested legal position. Scored as modality_correct = true and not material.",
+     "Key facts 3 and 4 (the two governing principles of equity receiverships and the receiver's authority flowing directly from the Court) are legal-background propositions; the output captured their supporting authorities but no assertion for the propositions themselves. Whether such legal-argument statements should generate assertions is a scope decision the project owner should confirm; here they are recorded as key-fact recall misses, not entity FNs.",
+     "The labels list no related proceedings and the main receivership case appears only as the proceeding for key facts, so there is no main-case item to discount in related_proceedings."
+    ]
+   },
+   "rescored_after": "2026-11-09.3"
+  },
+  {
+   "page": "dkt-1806 p2",
+   "scores": {
+    "creditors": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [
+      "Citibank (p1, institutional_lender, Group 7)",
+      "Sabal / Sabal Capital Operations, LLC (p2, institutional_lender, Group 7)",
+      "BMO (p3, institutional_lender, Group 7)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "BC57 (Group 1 lender who obtained the fraudulent releases; named on page, not saved as party or creditor)"
+     ]
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 3,
+     "tp_items": [
+      "Citibank",
+      "Sabal Capital Operations, LLC (alias Sabal)",
+      "BMO",
+      "Equitybuild Finance (alias EBF)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "BC57",
+      "EquityBuild, Inc. (caption party of the Seventh Circuit appeal)",
+      "Securities and Exchange Commission (SEC) (filer / caption party of the appeal)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [
+      "Property 69 (Group 7)",
+      "Property 70 (Group 7)",
+      "Property 73 (Group 7)",
+      "Property 2 (Group 7, BMO)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "Group 1 properties (collective reference; investors 'maintain their interests in' them per 101 F.4th at 532-33)"
+     ]
+    },
+    "related_proceedings": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) \u2014 saved as related_lawsuits promoted_1, court 7th Cir., relationship appeal, reclassified from authority with review flag"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "authorities": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Illinois Mortgage Act (statute cited via the Seventh Circuit opinion; output.authorities is empty)"
+     ]
+    },
+    "classification": {
+     "proceeding_saved_as_authority": [],
+     "authority_saved_as_proceeding": [],
+     "flagged_for_review_correct": [
+      "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) \u2014 raw output saved it as an authority; post-processing reclassified it to related_lawsuit (review) with reason 'caption names an estate party; appeal or action from this receivership', which matches the labels (related proceeding, not stranger precedent)"
+     ],
+     "flagged_for_review_wrong": [],
+     "main_case_saved_as_proceeding": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "party_position (Citibank)",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Quote matches page text; claim tracks 'entitled to releases\u2026as a matter of Illinois law' (ECF 1797 at 4-5, 8-10). ECF pin cites not carried into referenced_page."
+     },
+     {
+      "index": 1,
+      "predicate": "party_position (Sabal)",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None substantive. Subject label uses full name 'Sabal Capital Operations, LLC' which does not appear on this page (page says only 'Sabal'); name presumably taken from document context."
+     },
+     {
+      "index": 2,
+      "predicate": "status (Property 69: no releases obtained for Group 7 properties 69, 70, 73)",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Supported: page says 'despite no releases existing' and 'Unlike Group 7 properties 69, 70, and 73, in Group 1 BC57 actually obtained (fraudulent) releases.' Modality 'argued' is acceptable (SEC brief), though the no-release fact is effectively conceded by the lenders; origin inferred, confidence 0.6, not flagged."
+     },
+     {
+      "index": 3,
+      "predicate": "party_position (BMO parrots release argument for Property 2)",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "None. Footnote 2 supports it; ECF 1794 at 15-16 pin cite not captured in referenced_page."
+     },
+     {
+      "index": 4,
+      "predicate": "document_filed (Dkt. 1806, 2024-12-16)",
+      "quote_on_page": true,
+      "claim_supported": false,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Header quote supports docket number 1806 and filing date 12/16/24, but the object_value's full title 'SEC's Response To Group 7 Position Statements Of BMO, Citibank, And Sabal Capital Operations, LLC' does not appear on this page (harness document name is 'SEC's Response To Group 7 Position Statements, Dkt. 1806'); the party-name expansion is unverifiable from the page though consistent with its content."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Seventh Circuit in SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) resolved the Group 1 priority question in the investors' favor",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "The appeal is saved as a related_lawsuit row (court 7th Cir., relationship appeal) but no assertion records its holding or outcome; the row alone does not convey that priority was resolved for the investors."
+     },
+     {
+      "fact": "Citibank and Sabal argue priority despite no releases existing, because 'entitled to releases as a matter of Illinois law' (ECF 1797 at 4-5, 8-10; ECF 1798 at 3, 6-8)",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertions 0 and 1, modality argued, main case. ECF pin cites not captured (referenced_page null)."
+     },
+     {
+      "fact": "Unlike Group 7 properties 69, 70, 73, BC57 in Group 1 obtained fraudulent releases held 'facially invalid' and 'had no effect' under the Illinois Mortgage Act, so investors 'maintain their interests in' the Group 1 properties",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Only the Group 7 half is captured (assertion 2: no releases for 69/70/73, with the BC57 sentence as quote). The appellate holding on BC57's releases, the Illinois Mortgage Act basis, and the Group 1 investors' retained interests are not captured; BC57 is not an entity."
+     },
+     {
+      "fact": "Citibank and Sabal claim that once they paid EBF, the prior Individual Investors and EBF were obligated to issue valid releases as a matter of Illinois law (ECF 1797 at 9; ECF 1798 at 7)",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Partially overlaps assertions 0-1 ('entitled to releases as a matter of Illinois law') and EBF is saved as a party, but the specific payment-to-EBF / obligation-to-release claim is not an assertion."
+     },
+     {
+      "fact": "SEC concedes EquityBuild may have held the Illinois Mortgage Act obligates a mortgagee to release upon full satisfaction (101 F.4th at 531), but that holding does not support retroactively ordering releases giving Institutional Lenders priority; fn. 3: Group 7 investors were not repaid so the obligation never triggered",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured anywhere; Illinois Mortgage Act absent from authorities; no assertion on the SEC's rebuttal or footnote 3."
+     },
+     {
+      "fact": "BMO's Group 7 Position Statement (ECF 1794 at 15-16) makes the same 'entitled to releases' argument as to Property 2",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 3 and creditor treatment_summary for BMO; Property 2 saved. ECF 1794 pin cite not captured."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Authority-vs-proceeding rule passed: the raw model output saved SEC v. EquityBuild, Inc., 101 F.4th 526 as an authority, and post-processing correctly reclassified it to related_lawsuits with a review flag and relationship 'appeal'; no stranger precedent was mis-saved. Note the row stores the reporter cite '101 F.4th 526' in the docket_number field rather than a true docket number.",
+     "EquityBuild, Inc. and the SEC are counted as organization FNs because the labels list them, but they appear on this page only as caption parties of the Seventh Circuit appeal (and the SEC as the filer); earlier scorecards may treat caption parties of a saved proceeding as implicit rather than required separate entities.",
+     "'Group 1 properties' counted as a property FN per labels; it is a collective reference without property numbers, and a reviewer may decide it does not warrant a property row.",
+     "Sabal is saved under the full name 'Sabal Capital Operations, LLC' and the document_filed assertion carries a full title naming BMO, Citibank and Sabal Capital Operations, LLC; neither string appears on page 2 (the page says only 'Sabal' and the header shows only 'Document #: 1806'). Treated as name variants / context carry-over, not FPs, but the title expansion was scored claim_supported=false (non-material).",
+     "Assertion 2 (no releases for properties 69/70/73) uses modality 'argued' with an 'inferred' origin; the fact is stated by the SEC and conceded by the lenders ('despite no releases existing'), so 'argued' is defensible but 'reported' or a factual modality would also fit.",
+     "No affirmative misstatements found; the retest's weaknesses are omissions (BC57, Illinois Mortgage Act, the Seventh Circuit holdings at 529/531/532-33, the EBF payment argument, footnote 3, and ECF pin cites), which left four of six key facts uncaptured.",
+     "The main receivership case (1:18-cv-05587) is not listed under related_lawsuits, consistent with the rule; the labels do not list it either."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1806 p4",
+   "scores": {
+    "creditors": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "BMO (p3, Group 7, institutional_lender)",
+      "Direct Lending Partners / DLP (p4, Group 2, institutional_lender)",
+      "BC57 (p5, Group 1, institutional_lender)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "BMO",
+      "Direct Lending Partners (alias DLP)",
+      "BC57",
+      "EquityBuild Finance"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Collateral Agency and Servicing Agreements (labels list these documents as an identified asset; output.properties is empty)"
+     ]
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "authorities": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [
+      "5201 Washington, 2024 IL App (1st) 231403-U (stored as two rows '2024 IL App (1st) 231403-U' and '5201 Washington'; counted as one authority)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "Illinois Fiduciary Obligations Act (statute named on page as BMO's argument (b); not saved)"
+     ]
+    },
+    "classification": {
+     "proceeding_saved_as_authority": [],
+     "authority_saved_as_proceeding": [],
+     "flagged_for_review_correct": [],
+     "flagged_for_review_wrong": [],
+     "main_case_saved_as_proceeding": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Header quote matches page; Dkt. 1806 filed 12/16/24 in main case 1:18-cv-05587. No issue."
+     },
+     {
+      "index": 1,
+      "predicate": "party_position (BMO)",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote verbatim on page. Object value (release never recorded, facts worse than DLP's, BMO repeats BC57/DLP arguments) is the SEC's argument as stated on the page; modality 'argued' and main-case scope are correct. Omits the ECF 1152 / ECF 1559 record cites, which is a completeness gap not an error."
+     },
+     {
+      "index": 2,
+      "predicate": "treatment (Direct Lending Partners)",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote on page (en dash preserved). 'Court found for Group 2 investors over DLP because EquityBuild Finance lacked authority to release the mortgage' matches 'In deciding for the Group 2 investors over DLP, the Court found ... EquityBuild Finance lacked the authority \u2013 actual or apparent'. Modality 'reported' is right for a prior ruling (ECF 1679) as characterized by the SEC; the Group 2 ruling is an order inside the main receivership case, so main_case scope is correct. The ECF 1679 pin cite is not carried."
+     },
+     {
+      "index": 3,
+      "predicate": "party_position (Shaun Cohen)",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote on page. Factual content (Cohen signed the release as President of EquityBuild Finance, per ECF 1794-4) is correct and 'argued' matches the labels (SEC's characterization of the record). Predicate 'party_position' is a poor fit: this is a factual assertion about who executed the release, not a position Cohen is taking in the proceeding. Party role 'defendant' for Cohen is not stated on this page (though true in the main case)."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Purported release not signed by the mortgage holders; signed by Shaun Cohen as President of EquityBuild Finance (ECF 1794-4)",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 3 captures the signer and capacity with modality 'argued'. The contrast 'not signed by the mortgage holders' and the ECF 1794-4 cite are not carried into object_value."
+     },
+     {
+      "fact": "Court previously held for Group 2 investors over DLP (ECF 1679): EquityBuild Finance was a 'different entity' so the release could not bind mortgagees unless EBF was the Individual Investors' assignee or legal representative",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Partially captured by assertion 2 (Court found for Group 2 investors over DLP, modality 'reported'). The 'different entity' / assignee-or-legal-representative reasoning and the ECF 1679 at 20 n.11, 21 cites are not captured."
+     },
+     {
+      "fact": "Court analyzed the Collateral Agency and Servicing Agreements and found EBF lacked actual or apparent authority to release the investors' mortgage (ECF 1679 at 21-25); same agreements at issue for BMO and BC57",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "The lack-of-authority finding is captured in assertion 2 as 'reported'. The Collateral Agency and Servicing Agreements and their link to BMO/BC57 are not captured anywhere (properties empty, no assertion)."
+     },
+     {
+      "fact": "Facts are worse for BMO than for DLP because the fraudulent release in BMO's situation was never recorded",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1, modality 'argued', quote verbatim. Footnote 5's tie-in to 5201 Washington is not captured."
+     },
+     {
+      "fact": "BMO fails to acknowledge the Group 2 / Group 1 holdings and repeats the arguments of BC57 (ECF 1152 at 15-28) and DLP (ECF 1559 at 2-6)",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured in assertion 1 object_value and in BMO's creditor treatment_summary, both as argued. ECF record cites omitted."
+     },
+     {
+      "fact": "BMO re-argues (a) release by payment to EquityBuild Finance, (b) Illinois Fiduciary Obligations Act establishes priority, (c) investors expressly authorized EBF to [continues]",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured. No assertion covers BMO's three enumerated arguments; the Illinois Fiduciary Obligations Act is absent from authorities."
+     },
+     {
+      "fact": "BMO's Position Statement does not cite 5201 Washington or assert bona fide purchaser status",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Not captured. 5201 Washington is saved as an authority but footnote 5's point (SEC distinguishing it on the unrecorded release, and BMO not citing it or claiming BFP status) appears in no assertion."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Authorities FN count excludes ECF 1679 (the Court's Group 2 ruling): the labels list it under authorities as the controlling prior holding, but it is a docket entry inside the main receivership case (1:18-cv-05587). Per the retest rule that main-case orders are neither a related proceeding nor an FP when saved as an authority, it was not counted as an FN here; a strict reading of the labels would make authorities FN=2.",
+     "5201 Washington is stored as two authority rows ('5201 Washington' and '2024 IL App (1st) 231403-U') and was counted as a single TP per the scoring rule; the output never joins the case name to its reporter cite, which a human may want fixed.",
+     "Properties_or_assets FN=1 for the Collateral Agency and Servicing Agreements follows the labels, but these are contract documents, not real property or a receiver property number; a human should confirm whether the output.properties field is meant to hold such documents at all. If not, this category should be 0/0/0.",
+     "Shaun Cohen is saved as a person party with party_roles ['defendant']. The page only identifies him as President of EquityBuild Finance who signed the release; 'defendant' is true for the main case but is not derived from this page. Labels excluded him from entity lists under the individual-exclusion rule; he was not scored in any entity category.",
+     "Assertion 3 uses predicate 'party_position' for a factual statement that Cohen signed the release. Scored as claim_supported and modality-correct (labels also call it 'argued'), but the predicate choice is questionable and a human may prefer a factual/record predicate.",
+     "Related_proceedings and classification are all empty and correct: the page contains no suits involving the estate; 5201 Washington is correctly treated as precedent (authority) rather than an estate proceeding, which is the specific rule this retest targets. No warnings, reclassifications or review flags were emitted, which matches the page.",
+     "Footnote 5 is entirely uncaptured in assertions (two key facts missed) and the Illinois Fiduciary Obligations Act is missing from authorities; these are recall gaps rather than errors, so they are not listed as material_errors."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1967 p5",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Securities and Exchange Commission (labels: 'SEC' party name in the EquityBuild captions; output.parties is empty)",
+      "EquityBuild, Inc. (labels: receivership defendant named in the three EquityBuild citations; output.parties is empty)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I) = promoted_1 (caption SEC v. EquityBuild, Inc., 7th Cir., '101 F.4th 526', relationship appeal, reclassified from authority with review flag)",
+      "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (EquityBuild II) = promoted_2 (caption SEC v. EquityBuild, Inc., 7th Cir., '161 F.4th 1020', relationship appeal, reclassified from authority with review flag)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "authorities": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 2,
+     "tp_items": [
+      "Quilling v. Trade Partners, Inc., 2007 WL 107669 (W.D. Mich. Jan. 9, 2007) (docket no. 1:03-CV-236 omitted)",
+      "Scholes v. Lehmann, 56 F.3d 750 (7th Cir. 1995)",
+      "SEC v. Basic Energy & Affiliated Resources, Inc., 273 F.3d 657 (6th Cir. 2001)",
+      "SEC v. Byers, 637 F. Supp. 2d 166 (S.D.N.Y. 2009)",
+      "SEC v. Complete Business Solutions Group, Inc., 2024 WL 5348580 (S.D. Fla. Dec. 16, 2024) (docket no. omitted)",
+      "SEC v. Credit Bancorp, Ltd., 2000 WL 1752979 (S.D.N.Y. Nov. 29, 2000), aff'd 290 F.3d 80 (2d Cir. 2002) (docket no. omitted)",
+      "SEC v. Credit Bancorp, Ltd., 290 F.3d 80 (2d Cir. 2002) -- the separately listed appellate decision is covered only by the 'aff'd 290 F.3d 80' tail of the merged row; counted TP (see judgment_calls)",
+      "SEC v. Elliott, 953 F.2d 1560 (11th Cir. 1992)",
+      "SEC v. Enterprise Trust Co., 2008 WL 4534154 (N.D. Ill. Oct. 7, 2008), aff'd 559 F.3d 649 (7th Cir. 2009) (docket no. omitted)",
+      "SEC v. Enterprise Trust Co., 559 F.3d 649 (7th Cir. 2009) -- separately listed appellate decision covered only by the 'aff'd 559 F.3d 649' tail of the merged row; counted TP (see judgment_calls)",
+      "SEC v. EquityBuild, Inc., No. 18 CV 5587, 2024 WL 3069682 (N.D. Ill. June 20, 2024) -- main-case district court order saved as an authority (correct per rule); output drops the 'aff'd 161 F.4th 1020 (7th Cir. 2025)' tail",
+      "SEC v. First Choice Mgmt. Servs., Inc., 743 Fed. Appx. 33 (7th Cir. 2018)",
+      "SEC v. Forex Asset Mgmt. LLC, 242 F.3d 325 (5th Cir. 2001)",
+      "SEC v. Forte, 2012 WL 1719145 (E.D. Pa. May 16, 2012) (docket nos. 09-63, 09-64 omitted)"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) (EquityBuild I) -- labels list it under BOTH authorities and related_proceedings; output saved it only under related_lawsuits after reclassifying it out of authorities (strict FN; see judgment_calls)",
+      "SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) (EquityBuild II) -- same dual-listing situation; saved only under related_lawsuits (strict FN; see judgment_calls)"
+     ]
+    },
+    "classification": {
+     "proceeding_saved_as_authority": [],
+     "authority_saved_as_proceeding": [],
+     "flagged_for_review_correct": [
+      "promoted_1: SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) -- reclassified authority -> related_lawsuit (review); labels list it as a related proceeding (Seventh Circuit appeal from the receivership), so the classification matches",
+      "promoted_2: SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) -- reclassified authority -> related_lawsuit (review); labels list it as a related proceeding, so the classification matches"
+     ],
+     "flagged_for_review_wrong": [],
+     "main_case_saved_as_proceeding": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": false,
+      "modality_correct": false,
+      "proceeding_correct": true,
+      "flagged_for_review": true,
+      "material": false,
+      "problem": "Quote is the ECF header on the page and supports that Document #1967 was filed 06/30/26 in 1:18-cv-05587 (the title 'Receiver's Motion To Approve Group 10 Distribution Plan' is not on this page; it comes from document metadata, which is acceptable). The modality was post-processed from 'completed' to 'index_reference' because the page is a table of authorities, but the ECF header stamp is not a table entry; the filing is a completed event. Claim is factually right but as written the modality mislabels it. Harmless to counsel; needs_review=true and final_confidence 0.54."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Page is page iv of the table of authorities of Dkt. 1967, a 273-page filing in Case 1:18-cv-05587 filed 06/30/26 (PageID 128335).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 0 quotes the full ECF header (Document #1967, Filed 06/30/26, Page 5 of 273, PageID 128335) and page_kind = table_of_contents. Status stays a reported fact, though modality is 'index_reference' rather than 'completed'."
+     },
+     {
+      "fact": "The motion relies on SEC v. EquityBuild, Inc., 101 F.4th 526 (7th Cir. 2024) ('EquityBuild I') at pages 6 and 40.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured as related_lawsuit promoted_1 (SEC v. EquityBuild, Inc., 7th Cir., 101 F.4th 526, appeal). The 'EquityBuild I' short form and the pin pages (6, 40) are not captured, and there is no assertion tying it to the motion; the decision is not misrepresented as anything other than a decided appeal."
+     },
+     {
+      "fact": "The motion relies on SEC v. EquityBuild, Inc., 161 F.4th 1020 (7th Cir. 2025) ('EquityBuild II') at pages 30, 31, 31 n.15, 32, 33, 38-39, 40.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Captured as related_lawsuit promoted_2 (161 F.4th 1020, 7th Cir., appeal). Short form and pin pages not captured; no assertion."
+     },
+     {
+      "fact": "The district court's June 20, 2024 decision in the main case (No. 18 CV 5587, 2024 WL 3069682) was affirmed by the Seventh Circuit at 161 F.4th 1020 (2025); cited at pages 6, 22, 24, 26, 39, 39 n.19.",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "The district court decision is saved as an authority ('SEC v. EquityBuild, Inc., 2024 WL 3069682 (N.D. Ill. June 20, 2024)') but the 'aff'd 161 F.4th 1020 (7th Cir. 2025)' tail that appears on the page is dropped, so the affirmance relationship between the main-case order and EquityBuild II is lost; no docket number, no pin pages. The affirmance was preserved for Credit Bancorp and Enterprise Trust, so this is an inconsistency."
+     },
+     {
+      "fact": "The motion cites SEC v. Enterprise Trust Co. (N.D. Ill. 2008, aff'd 559 F.3d 649 (7th Cir. 2009)) more heavily than any other non-EquityBuild authority, at pages 15 n.10, 16, 17, 25, 26-27, 31 and 38.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "The authority (district decision with its affirmance) is captured in one merged row. Pin pages and the relative-frequency observation are not captured, which is expected for a table-of-authorities page."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "EquityBuild I (101 F.4th 526) and EquityBuild II (161 F.4th 1020) are dual-listed in the labels under both related_proceedings and authorities. The output saved them only under related_lawsuits (reclassified from authorities with a review flag), which is exactly the behavior the authority-versus-proceeding rule asks for. I scored them TP in related_proceedings and strict FN in authorities (2 FN); a reviewer applying a dual-listing-tolerant policy would instead count them TP in authorities (authorities would become 16/0/0). I did not list them in classification.authority_saved_as_proceeding because the labels agree they are related proceedings.",
+     "Credit Bancorp, Ltd., 290 F.3d 80 (2d Cir. 2002) and Enterprise Trust Co., 559 F.3d 649 (7th Cir. 2009) are listed on the page as separate table-of-authorities entries (with their own pin pages) and separately in the labels, but the output folds each into the 'aff'd' tail of the district-court row. I counted each as a TP because the appellate name and reporter cite are present in the output; a stricter reviewer could count them as 2 FN (authorities would become 12/0/4).",
+     "The main-case district court order 2024 WL 3069682 is saved as an authority, which the task rule says is neither a related proceeding nor an FP; I counted it as a TP against the labels' authority entry even though the output drops the 'aff'd 161 F.4th 1020' tail and the 'No. 18 CV 5587' docket number. Confirm whether dropping the affirmance tail should be treated as a partial miss rather than a full match.",
+     "Assertion 0: the post-processor's toc_page lint downgraded 'completed' to 'index_reference' for the ECF header filing stamp. I scored modality_correct=false and therefore claim_supported=false as written, but the fact is correct and immaterial. If the project convention is that every assertion on a table-of-contents/authorities page carries index_reference by design, treat this as modality_correct=true and claim_supported=true.",
+     "Output stores the reporter citation ('101 F.4th 526', '161 F.4th 1020') in the related_lawsuits docket_number field rather than a docket number. It matched the labels for scoring purposes but the field semantics are off; the Seventh Circuit docket numbers are not on this page, so a null docket_number with the cite in a separate field would be cleaner.",
+     "Organizations: labels record SEC and EquityBuild, Inc. as organizations because they are estate parties named in the EquityBuild captions; output.parties is empty (2 FN). Litigant names inside precedent captions (Trade Partners, Credit Bancorp, Enterprise Trust, etc.) were not expected as organizations by the labels and were correctly not extracted. Confirm whether the project expects estate-party organizations to be extracted from a table of authorities page at all.",
+     "Several output citations omit docket numbers that appear on the page (Quilling 1:03-CV-236; Complete Business Solutions 20-CV-81205-RAR; Credit Bancorp 99 CIV. 11395 RWS; Enterprise Trust 08 C 1260; EquityBuild 18 CV 5587; Forte 09-63, 09-64). Treated as name variants of the same authority, not errors."
+    ]
+   },
+   "rescored_after": "2026-11-09.3"
+  },
+  {
+   "page": "status-report-1 p22",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 3,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Fireshark Enterprises, LLC (plaintiff/litigation claimant vs EquityBuild, Inc., Cook County)",
+      "Markwell (plaintiff/litigation claimant vs EquityBuild, Inc., Harris County TX)",
+      "City of Chicago (code-violation fines against estate properties)"
+     ]
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 3,
+     "tp_items": [
+      "Fireshark Enterprises, LLC",
+      "EquityBuild, Inc.",
+      "City of Chicago"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "City of Chicago Buildings Department",
+      "Department of Streets and Sanitation (City of Chicago)",
+      "Department of Water Management (City of Chicago)"
+     ]
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 5,
+     "tp_items": [
+      "Fireshark Enterprises, LLC v. EquityBuild, Inc., Case No. 2018 L 9026 (Circuit Court of Cook County, Law Division) \u2014 saved as rl1 with correct court and docket (output normalized the text-layer '20 18 L 9026' to '2018 L 9026')",
+      "Markwell v. EquityBuild, Inc., Case No. 2018-13722 (165th Judicial District Court, Harris County, Texas) \u2014 saved as rl2"
+     ],
+     "fp_items": [],
+     "fn_items": [
+      "City of Chicago municipal housing court matters (seven)",
+      "City of Chicago Buildings Department administrative proceedings (approximately twelve)",
+      "Department of Streets and Sanitation administrative proceedings (approximately twelve)",
+      "Department of Water Management administrative matter (one)",
+      "Two open City of Chicago violations with notice sent, no court date"
+     ]
+    },
+    "authorities": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "classification": {
+     "proceeding_saved_as_authority": [],
+     "authority_saved_as_proceeding": [],
+     "flagged_for_review_correct": [],
+     "flagged_for_review_wrong": [],
+     "main_case_saved_as_proceeding": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": ""
+     },
+     {
+      "index": 1,
+      "predicate": "status",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Modality 'reported' with condition 'awaiting a court order' is acceptable for a pending motion to stay; 'pending' would be marginally more precise. Not misleading."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Fireshark v. EquityBuild (Cook County 2018 L 9026): Receiver filed appearance and Notice of Appointment of Receiver and Stay of Litigation on September 24, 2018",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Derived from labels.related_proceedings detail (labels entry has no key_facts field). Captured as assertion 0, modality completed, as_of_date 2018-09-24."
+     },
+     {
+      "fact": "Markwell v. EquityBuild (Harris County TX 2018-13722): EquityBuild's Texas counsel filed a motion to stay; awaiting court order",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Derived. Captured as assertion 1; motion filed, order still pending (conditions 'awaiting a court order')."
+     },
+     {
+      "fact": "More than two dozen open building code violations involving the City of Chicago against estate properties",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Derived. Not captured anywhere; only the bare party 'City of Chicago' (role other) was saved, with no assertion."
+     },
+     {
+      "fact": "Seven known City of Chicago municipal housing court matters; full compliance to include ~16-unit rehab, roof on 2016 fire-damaged building, six porch replacements and two repairs; one porch replacement begun",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Derived. Not captured."
+     },
+     {
+      "fact": "Approximately twelve Buildings Department administrative proceedings pending as of September 30, 2018; one dismissed October 16, 2018 after compliance; a second involves only a minor fine",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Derived. Not captured."
+     },
+     {
+      "fact": "Approximately twelve Streets and Sanitation administrative proceedings pending as of September 30, 2018; seven dismissed in their entirety October 16, 2018; single-count fine imposed on remaining five",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Derived. Not captured; the fines imposed (a completed adverse outcome) are absent."
+     },
+     {
+      "fact": "One City of Chicago administrative matter pending with the Department of Water Management",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Derived. Not captured."
+     },
+     {
+      "fact": "Two open City of Chicago violations with notice sent but no court date assigned",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Derived. Not captured."
+     }
+    ],
+    "material_errors": [
+     "Material omission rather than a wrong statement: the output drops the entire City of Chicago code-violation section (more than two dozen open violations; seven housing court matters; ~12 Buildings Department and ~12 Streets and Sanitation administrative proceedings with dismissals and fines imposed on October 16, 2018; one Water Management matter; two noticed violations without a court date). Counsel reading only the output would conclude this page reports just two state-court suits against EquityBuild and no municipal enforcement exposure or fines against estate properties. Nothing that was saved is incorrect."
+    ],
+    "judgment_calls": [
+     "Labels entry 'status-report-1-p022' has no key_facts field; the key_fact_recall rows above were derived from the labels' related_proceedings/creditors detail text and should be confirmed against the project's intended key-fact set.",
+     "Creditor FNs (Fireshark, Markwell, City of Chicago) are flagged in the labels' own notes as judgment calls: they are litigation/regulatory claimants with no amounts stated, not lenders. Under a stricter creditor definition the output's empty creditors list would be defensible; scored as FN per the frozen labels.",
+     "The five related-proceeding FNs are grouped administrative/housing-court matters with no case numbers; the output's related_lawsuits schema (caption/court/docket_number) may not accommodate such grouped matters, so this may be a schema/prompt gap rather than a model recall failure. A human should decide whether grouped municipal matters are expected under related_lawsuits.",
+     "The three City department FNs (Buildings Department, Streets and Sanitation, Water Management) are sub-agencies of the saved 'City of Chicago' party; whether they must be separate organizations is a granularity choice, scored per labels.",
+     "Assertion 1 modality 'reported' (vs 'pending') for a filed motion to stay awaiting a court order was accepted as correct; confirm the project's modality vocabulary.",
+     "The authority-versus-proceeding rule under retest is effectively untested on this page: no case law or statutes are cited, and the two state-court actions against EquityBuild, Inc. were correctly saved as related proceedings (not authorities). No reclassifications, warnings, drops or review flags were produced.",
+     "The main case header (No. 1:18-cv-05587, Dkt. 107, PageID 975) was correctly not saved as a related proceeding and the labels do not list it; no deduction.",
+     "The output normalized the text-layer docket '20 18 L 9026' to '2018 L 9026', matching the rendered PDF; treated as correct."
+    ]
+   }
+  },
+  {
+   "page": "dkt-1938 p3",
+   "scores": {
+    "creditors": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": [
+      "Pennington (labels: settlement counterparty whose claims against the Receiver/Estate/WPD are released so that Pennington receives nothing further; output saved Pennington only as a party of kind person with role 'other', not under creditors)"
+     ]
+    },
+    "attorneys": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "organizations": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "WPD"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "properties_or_assets": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "related_proceedings": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "authorities": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "tp_items": [
+      "Gordon v. Dadante, 336 Fed. Appx. 540 (6th Cir. 2009)",
+      "Sterling v. Stewart, 158 F.3d 1199, 1202 (11th Cir. 1998)"
+     ],
+     "fp_items": [],
+     "fn_items": []
+    },
+    "classification": {
+     "proceeding_saved_as_authority": [],
+     "authority_saved_as_proceeding": [],
+     "flagged_for_review_correct": [],
+     "flagged_for_review_wrong": [],
+     "main_case_saved_as_proceeding": []
+    },
+    "citations": [
+     {
+      "index": 0,
+      "predicate": "document_filed",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote is the ECF header; filing of Dkt. 1938 on 01/05/26 in 1:18-cv-05587 is supported, modality completed, main case correct."
+     },
+     {
+      "index": 1,
+      "predicate": "treatment",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote matches page text (term (d)); proposed settlement releasing all claims among Receiver, Receivership Estate, WPD and Pennington with Pennington receiving nothing further is supported; conditions (no admission of liability; subject to Court approval) are accurate; modality proposed is right."
+     },
+     {
+      "index": 2,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote matches paragraph 7; Receiver's position that the Settlement is fair, reasonable, in the Estate's best interests and should be approved is supported; modality argued fits a party position. Omits the stated savings of time and resources (not misleading)."
+     },
+     {
+      "index": 3,
+      "predicate": "party_position",
+      "quote_on_page": true,
+      "claim_supported": true,
+      "modality_correct": true,
+      "proceeding_correct": true,
+      "flagged_for_review": false,
+      "material": false,
+      "problem": "Quote matches paragraph 8; Receiver will provide notice to all interested parties and serve claimants by email in addition to ECF service is supported; modality proposed is appropriate for a future notice plan. Public-availability clause (continuing on next page) omitted."
+     }
+    ],
+    "key_fact_recall": [
+     {
+      "fact": "Settlement term (c): without admission of liability, Settlement resolves all disputes between Receiver, Receivership Estate, WPD and Pennington.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Covered by assertion 1 (object_value 'proposed settlement releasing all claims between Receiver, Receivership Estate, WPD and Pennington'; conditions 'without any party admitting liability; subject to Court approval'); modality proposed. The 'resolves all disputes' phrasing is folded into the release language rather than stated separately."
+     },
+     {
+      "fact": "Settlement term (d): all claims, objections or rights between Receiver, Receivership Estate, WPD and Pennington released, compromised and waived such that Pennington receives nothing further.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 1 captures the release and 'Pennington to receive nothing further' with modality proposed and Court-approval condition; the 'including as set forth in, but not limited by, the Settlement Agreement' clause is not reproduced."
+     },
+     {
+      "fact": "Receiver submits the Settlement is fair and reasonable, in the Estate's best interests, saves time and resources, and should be approved.",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 2 captures the position (modality argued vs. labels' 'requested'; both convey a party request/position, not a ruling). Savings of time and resources omitted."
+     },
+     {
+      "fact": "Legal standard argued: receiver settlement within receiver's broad discretion, approved if fair; district court's fairness determination within its sound discretion, not overturned absent clear abuse of discretion.",
+      "captured": false,
+      "legal_status_preserved": false,
+      "note": "Both authorities (Gordon v. Dadante; Sterling v. Stewart) are saved under authorities, but no assertion states the legal standard or the propositions they are cited for. Partial coverage via entities only."
+     },
+     {
+      "fact": "Receiver will provide notice: ECF service, email to each claimant who submitted claims, and public availability (continues next page).",
+      "captured": true,
+      "legal_status_preserved": true,
+      "note": "Assertion 3 captures ECF service plus email service on claimants with modality proposed; the public-availability component (sentence continuing to page 4) is not captured."
+     }
+    ],
+    "material_errors": [],
+    "judgment_calls": [
+     "Pennington was saved as a party of kind 'person' with role 'other' rather than as a creditor. The page does not state whether Pennington is an individual or an entity (labels note this), so the 'person' kind is an unsupported guess; it was not scored as an organization FP because the kind is person, but counsel should confirm Pennington's identity from the full filing. Counted as a creditors FN per the labels, which treat Pennington as a creditor because the Settlement releases Pennington's claims against the estate.",
+     "Authorities-versus-proceedings rule applied cleanly on this page: both reporter-cited precedents (Fed. Appx., F.3d) about strangers to the estate were saved under authorities, related_lawsuits is empty, and the main receivership case (1:18-cv-05587) appears only as the proceeding scope of assertions, not as a separate related proceeding. No reclassification or warnings were needed.",
+     "The 'State Court Action' named in the motion title is not identified or docketed on this page; neither labels nor output list it as a related proceeding, which is consistent. A human may want to confirm it is captured from pages 1-2 of Dkt. 1938.",
+     "Key fact 4 (legal standard for approving a receiver's settlement) is scored as not captured because the output stores only the citations, not the proposition; if the project's convention counts a saved authority as capturing the standard it supports, this would flip to captured.",
+     "Assertion 2 uses modality 'argued' where labels say 'requested'; treated as status-preserving since both record a party's position seeking approval rather than a court ruling."
+    ]
+   }
+  }
+ ]
+}
